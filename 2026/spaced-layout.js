@@ -93,7 +93,11 @@
 
     // Fits the viewport around the bounding box of several cards (e.g. both
     // regionals feeding a sectional) instead of a single card, so the whole
-    // group is readable at once on a narrow mobile screen.
+    // group is readable at once on a narrow mobile screen. The content is
+    // anchored to the top of the viewport (just under the header) rather than
+    // vertically centered, since the narrow width is usually the limiting
+    // factor for scale and centering would otherwise leave a dead gap above
+    // the bracket.
     function fitToCards(ids, padding) {
         var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
         ids.forEach(function (id) {
@@ -108,7 +112,7 @@
         var width = maxX - minX, height = maxY - minY;
         var scale = Math.max(.18, Math.min(2.5, (viewport.clientWidth - padding * 2) / width, (viewport.clientHeight - padding * 2) / height));
         var panX = viewport.clientWidth / 2 - (minX + width / 2) * scale;
-        var panY = viewport.clientHeight / 2 - (minY + height / 2) * scale;
+        var panY = padding - minY * scale;
         bracket.style.transform = "translate(" + panX + "px," + panY + "px) scale(" + scale + ")";
     }
 
