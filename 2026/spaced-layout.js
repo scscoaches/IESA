@@ -117,10 +117,17 @@
             var highlighted = bracket.querySelector(".springfield-christian");
             var card = highlighted && highlighted.closest(".match");
             if (card) {
-                var regionalId = Number(card.id.slice(1));
-                var regional = data.regionals[regionalId - 1];
-                var sectional = data.sectionals[regional.sectional - 1];
-                var groupIds = sectional.regionals.map(function (r) { return "r" + r; });
+                var scsOnRight = card.offsetLeft > bracket.offsetWidth / 2;
+                var groupIds = Array.prototype.filter.call(bracket.querySelectorAll(".regional"), function (regional) {
+                    return (regional.offsetLeft > bracket.offsetWidth / 2) === scsOnRight;
+                }).map(function (regional) {
+                    return regional.id;
+                });
+                Array.prototype.forEach.call(bracket.querySelectorAll(".match:not(.regional)"), function (sectional) {
+                    if ((sectional.offsetLeft > bracket.offsetWidth / 2) === scsOnRight && sectional.id.charAt(0) === "s") {
+                        groupIds.push(sectional.id);
+                    }
+                });
                 fitToCards(groupIds, 20);
                 return;
             }
