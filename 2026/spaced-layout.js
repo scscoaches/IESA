@@ -91,12 +91,37 @@
         bracket.style.transform = "translate(" + panX + "px," + panY + "px) scale(" + scale + ")";
     }
 
+    // Fits the viewport around the bounding box of several cards (e.g. both
+    // regionals feeding a sectional) instead of a single card, so the whole
+    // group is readable at once on a narrow mobile screen.
+    function fitToCards(ids, padding) {
+        var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+        ids.forEach(function (id) {
+            var card = document.getElementById(id);
+            if (!card) { return; }
+            minX = Math.min(minX, card.offsetLeft);
+            minY = Math.min(minY, card.offsetTop);
+            maxX = Math.max(maxX, card.offsetLeft + card.offsetWidth);
+            maxY = Math.max(maxY, card.offsetTop + card.offsetHeight);
+        });
+        if (minX === Infinity) { fitAll(); return; }
+        var width = maxX - minX, height = maxY - minY;
+        var scale = Math.max(.18, Math.min(2.5, (viewport.clientWidth - padding * 2) / width, (viewport.clientHeight - padding * 2) / height));
+        var panX = viewport.clientWidth / 2 - (minX + width / 2) * scale;
+        var panY = viewport.clientHeight / 2 - (minY + height / 2) * scale;
+        bracket.style.transform = "translate(" + panX + "px," + panY + "px) scale(" + scale + ")";
+    }
+
     function initialView() {
         if (isMobile()) {
             var highlighted = bracket.querySelector(".springfield-christian");
             var card = highlighted && highlighted.closest(".match");
             if (card) {
-                focusCard(card, 1);
+                var regionalId = Number(card.id.slice(1));
+                var regional = data.regionals[regionalId - 1];
+                var sectional = data.sectionals[regional.sectional - 1];
+                var groupIds = sectional.regionals.map(function (r) { return "r" + r; });
+                fitToCards(groupIds, 20);
                 return;
             }
         }
