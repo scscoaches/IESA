@@ -9,7 +9,6 @@
     var body = document.querySelector("#score-history tbody");
     var note = document.getElementById("record-note");
     var official = document.getElementById("official-scores");
-    var refresh = document.getElementById("refresh-scores");
     var cache = window.iesaScoreCache || { teams: {} };
     var cacheLoaded = Boolean(window.iesaScoreCache);
     var selected;
@@ -83,7 +82,6 @@
         showSelectedTeam();
     }, true);
 
-    refresh.onclick = loadCache;
     if (cacheLoaded) {
         document.dispatchEvent(new CustomEvent("iesaScoresLoaded", { detail: cache }));
     } else {
