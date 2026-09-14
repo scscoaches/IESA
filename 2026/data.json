@@ -1,0 +1,93 @@
+const tournamentData = {
+
+    regionals: [
+
+        {
+            id: 1,
+            teams: [
+                "Burr Ridge MS",
+                "Evanston King",
+                "Evanston St. Athanasius",
+                "Lockport Kelvin Grove",
+                "Lynwood Sandridge",
+                "Markham Obama",
+                "Morton Grove MCC",
+                "Riverdale Washington"
+            ]
+        },
+
+        {
+            id: 2,
+            teams: [
+                "Bourbonnais St. George",
+                "Dwight",
+                "Joliet Laraway",
+                "Kankakee McNamara",
+                "Marseilles ES",
+                "Momence JHS",
+                "Seneca"
+            ]
+        }
+
+    ],
+
+    sectionals: [
+
+        {
+            id: 1,
+            matchup: "Winner Regional 1 vs Winner Regional 2"
+        },
+
+        {
+            id: 2,
+            matchup: "Winner Regional 3 vs Winner Regional 4"
+        }
+
+    ],
+
+    quarterfinals: [
+
+        {
+            game: 1,
+            matchup: "Winner Sectional 3 vs Winner Sectional 5",
+            date: "Dec 12",
+            time: "10:00 AM"
+        },
+
+        {
+            game: 2,
+            matchup: "Winner Sectional 8 vs Winner Sectional 1",
+            date: "11:30 AM"
+        },
+
+        {
+            game: 3,
+            matchup: "Winner Sectional 2 vs Winner Sectional 6",
+            date: "1:00 PM"
+        },
+
+        {
+            game: 4,
+            matchup: "Winner Sectional 7 vs Winner Sectional 4",
+            date: "2:30 PM"
+        }
+    ],
+
+    semifinals: [
+
+        {
+            game: 5,
+            matchup: "Winner Game 1 vs Winner Game 2"
+        },
+
+        {
+            game: 6,
+            matchup: "Winner Game 3 vs Winner Game 4"
+        }
+
+    ],
+
+    championship: {
+        matchup: "Winner Game 5 vs Winner Game 6"
+    }
+};
