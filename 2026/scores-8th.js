@@ -1,5 +1,5 @@
 ﻿window.iesaScoreCache = {
-    "updatedAt":  "2026-09-13 00:02",
+    "updatedAt":  "2026-09-14 08:49",
     "teams":  {
                   "Kinmundy South Central (Co-op)":  {
                                                          "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=281\u0026ActivityCode=GBK\u0026GradeLevel=8",
@@ -882,6 +882,10 @@
                                                                            {
                                                                                "opponent":  "Peoria Pleasant Valley vs. Peoria St. Vincent de Paul",
                                                                                "score":  "PENDING"
+                                                                           },
+                                                                           {
+                                                                               "opponent":  "Kickapoo St. Mary\u0027s vs. Peoria St. Vincent de Paul",
+                                                                               "score":  "PENDING"
                                                                            }
                                                                        ],
                                                              "record":  {
@@ -1142,7 +1146,10 @@
                   "Peoria St. Philomena":  {
                                                "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=702\u0026ActivityCode=GBK\u0026GradeLevel=8",
                                                "games":  [
-
+                                                             {
+                                                                 "opponent":  "Kickapoo St. Mary\u0027s vs. Peoria St. Philomena",
+                                                                 "score":  "PENDING"
+                                                             }
                                                          ],
                                                "record":  {
                                                               "wins":  0,
@@ -2402,6 +2409,10 @@
                                                                     },
                                                                     {
                                                                         "opponent":  "Pana Sacred Heart vs. Springfield Christ the King",
+                                                                        "score":  "PENDING"
+                                                                    },
+                                                                    {
+                                                                        "opponent":  "Kickapoo St. Mary\u0027s vs. Springfield Christ the King",
                                                                         "score":  "PENDING"
                                                                     }
                                                                 ],
