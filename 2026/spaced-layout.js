@@ -100,6 +100,17 @@
         bracket.style.transform = "translate(" + panX + "px," + panY + "px) scale(" + scale + ")";
     }
 
+    document.addEventListener("iesaNavigateBracket", function (event) {
+        var cardId = event.detail.cardId;
+        focusCard(document.getElementById(cardId), 1.3);
+        var previous = bracket.querySelector(".team-found");
+        if (previous) { previous.classList.remove("team-found"); }
+        var entry = Array.prototype.find.call(document.querySelectorAll("#" + cardId + " > .entry"), function (item) {
+            return item.dataset.team === event.detail.team;
+        });
+        if (entry) { entry.classList.add("team-found"); }
+    });
+
     // Fits the viewport around the bounding box of several cards (e.g. both
     // regionals feeding a sectional) instead of a single card, so the whole
     // group is readable at once on a narrow mobile screen. The content is

@@ -13,18 +13,27 @@
     <link rel="stylesheet" href="../styles.css?v=5">
     <link rel="stylesheet" href="../score-updates.css?v=1">
     <link rel="stylesheet" href="../theme.css?v=3">
+    <link rel="stylesheet" href="../bracket-navigation.css?v=2">
 </head>
 <body class="app">
     <header class="topbar">
         <div><div class="title"></div><div class="detail"></div></div>
         <nav class="switcher"><a href="../7th/index.html">7th</a><a class="active" href="index.html">8th</a></nav>
         <div class="tools">
+            <button id="find-button" type="button" aria-label="Find a team"><img src="../search-icon.svg" alt="" aria-hidden="true"></button>
             <button id="updates-button" type="button">Score updates</button>
             <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><img src="../theme-moon.svg" alt="" aria-hidden="true"></button>
             <button id="minus">-</button><button id="plus">+</button><button id="fit">Fit to screen</button>
         </div>
     </header>
     <main id="viewport"><section id="bracket" aria-label="Tournament bracket"><svg width="3360" height="1450"></svg></section></main>
+    <dialog id="find-dialog">
+        <div class="dialog-head"><strong>Find a team</strong><button id="close-find" type="button" aria-label="Close">&times;</button></div>
+        <label for="team-search">Team name</label>
+        <input id="team-search" type="search" autocomplete="off" placeholder="Search teams">
+        <p id="find-message" role="status">Type a team name to search.</p>
+        <div id="team-results" aria-label="Matching teams"></div>
+    </dialog>
     <dialog id="updates-dialog">
         <div class="dialog-head"><strong>Latest score updates</strong><button type="button" id="close-updates" aria-label="Close">&times;</button></div>
         <p id="updates-summary"></p>
@@ -40,8 +49,9 @@
     </dialog>
     <script src="data.js"></script><script src="../app.js"></script>
     <script src="../scores-8th.js?v=1"></script><script src="../score-cache.js?v=3"></script>
-    <script src="../pointer-zoom.js?v=2"></script><script src="../spaced-layout.js?v=5"></script>
+    <script src="../pointer-zoom.js?v=2"></script><script src="../spaced-layout.js?v=7"></script>
     <script src="../regional-record-sort.js?v=2"></script><script src="../score-updates.js?v=2"></script>
+    <script src="../bracket-navigation.js?v=2"></script>
     <script src="../touch-navigation.js?v=1"></script>
 </body>
 </html>

@@ -1,0 +1,108 @@
+.tools button#find-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+#find-button img {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+#find-dialog {
+    width: min(460px, calc(100% - 24px));
+    max-height: calc(100vh - 24px);
+    overflow: auto;
+}
+
+#find-dialog label {
+    display: block;
+    margin: 16px 0 5px;
+}
+
+#find-dialog input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b9c1d0;
+    border-radius: 4px;
+    background: #fff;
+    color: #182035;
+    font: inherit;
+}
+
+#find-message {
+    margin: 12px 0 6px;
+    color: #68718a;
+    font-size: 12px;
+}
+
+#team-results {
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+#team-results button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid #d8dce5;
+    background: transparent;
+    color: inherit;
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+}
+
+#team-results button:hover,
+#team-results button:focus-visible {
+    background: #eef0ff;
+}
+
+.regional > .entry.team-found {
+    outline: 3px solid #464feb;
+    outline-offset: -3px;
+    background: #e7eaff;
+}
+
+.dark-theme #find-dialog input {
+    background: #172235;
+    border-color: #536078;
+    color: #f0f3fa;
+}
+
+.dark-theme #find-message {
+    color: #c3cde1;
+}
+
+.dark-theme #team-results button {
+    border-color: #536078;
+}
+
+.dark-theme #team-results button:hover,
+.dark-theme #team-results button:focus-visible,
+.dark-theme .regional > .entry.team-found {
+    background: #364563;
+}
+
+@media (max-width: 680px) {
+    .tools button#find-button {
+        display: inline-flex !important;
+    }
+}
+
+@media (max-width: 380px) {
+    .title {
+        max-width: 60px;
+    }
+
+    .tools button#find-button {
+        width: 36px;
+        min-width: 36px;
+    }
+}
