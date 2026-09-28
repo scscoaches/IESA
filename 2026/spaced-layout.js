@@ -7,6 +7,8 @@
     var svg = bracket.querySelector("svg");
     var groupHeight = 300;
     var order = [].concat.apply([], data.quarterfinals.map(function (game) { return game.matchup; }));
+    var flipHalves = data.grade === "7th";
+    var searchedCard;
 
     function setPosition(id, left, top) {
         var card = document.getElementById(id);
@@ -17,9 +19,9 @@
     order.forEach(function (sectionalId, index) {
         var sectional = data.sectionals[sectionalId - 1];
         var top = 110 + (index % 4) * groupHeight;
-        var lowerHalf = index > 3;
-        var regionalLeft = lowerHalf ? 2860 : 35;
-        var sectionalLeft = lowerHalf ? 2520 : 540;
+        var onRight = (index > 3) !== flipHalves;
+        var regionalLeft = onRight ? 2860 : 35;
+        var sectionalLeft = onRight ? 2520 : 540;
 
         sectional.regionals.forEach(function (regionalId, column) {
             setPosition("r" + regionalId, regionalLeft + column * 245, top);
@@ -28,10 +30,10 @@
     });
 
     data.quarterfinals.forEach(function (game, index) {
-        setPosition("q" + game.game, index < 2 ? 880 : 2180, 330 + (index % 2) * 600);
+        setPosition("q" + game.game, (index < 2) !== flipHalves ? 880 : 2180, 330 + (index % 2) * 600);
     });
-    setPosition("m5", 1200, 720);
-    setPosition("m6", 1860, 720);
+    setPosition("m5", flipHalves ? 1860 : 1200, 720);
+    setPosition("m6", flipHalves ? 1200 : 1860, 720);
     setPosition("final", 1530, 500);
     setPosition("third", 1530, 930);
 
@@ -102,7 +104,8 @@
 
     document.addEventListener("iesaNavigateBracket", function (event) {
         var cardId = event.detail.cardId;
-        focusCard(document.getElementById(cardId), 1.3);
+        searchedCard = document.getElementById(cardId);
+        focusCard(searchedCard, 1.3);
         var previous = bracket.querySelector(".team-found");
         if (previous) { previous.classList.remove("team-found"); }
         var entry = Array.prototype.find.call(document.querySelectorAll("#" + cardId + " > .entry"), function (item) {
@@ -166,14 +169,47 @@
         var trigger = event.target.closest(".head, .meta");
         if (!trigger) { return; }
         var card = trigger.closest(".match");
-        if (card) { focusCard(card, 1.3); }
+        if (card) {
+            searchedCard = null;
+            focusCard(card, 1.3);
+        }
     });
 
     bracket.addEventListener("pointerdown", function (event) {
         if (event.target.closest(".head, .meta")) { event.stopPropagation(); }
     }, true);
 
-    document.getElementById("fit").onclick = fitAll;
-    window.addEventListener("resize", initialView);
+    viewport.addEventListener("pointerdown", function () { searchedCard = null; }, true);
+    viewport.addEventListener("wheel", function () { searchedCard = null; }, true);
+    document.getElementById("fit").onclick = function () {
+        searchedCard = null;
+        fitAll();
+    };
     initialView();
+    var viewportWidth = viewport.clientWidth;
+    var viewportHeight = viewport.clientHeight;
+    var wasMobile = isMobile();
+    // The legacy renderer's resize fit would discard the current pan and search focus.
+    window.onresize = null;
+    window.addEventListener("resize", function () {
+        var width = viewport.clientWidth;
+        var height = viewport.clientHeight;
+        var mobile = isMobile();
+        if (searchedCard) {
+            focusCard(searchedCard, 1.3);
+        } else if (mobile && wasMobile) {
+            var transform = bracket.style.transform.match(/translate\(([-\d.]+)px,\s*([-\d.]+)px\)\s*scale\(([-\d.]+)\)/);
+            if (transform) {
+                bracket.style.transform = "translate(" +
+                    (Number(transform[1]) + (width - viewportWidth) / 2) + "px," +
+                    (Number(transform[2]) + (height - viewportHeight) / 2) + "px) scale(" +
+                    transform[3] + ")";
+            }
+        } else {
+            initialView();
+        }
+        viewportWidth = width;
+        viewportHeight = height;
+        wasMobile = mobile;
+    });
 }());

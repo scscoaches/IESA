@@ -2,6 +2,10 @@
     white-space: nowrap;
 }
 
+#updates-button .score-label-short {
+    display: none;
+}
+
 #updates-table {
     width: 100%;
     border-collapse: collapse;
@@ -40,8 +44,14 @@
     #updates-button {
         display: inline-block !important;
         max-width: 76px;
-        overflow: hidden;
-        text-overflow: ellipsis;
+    }
+
+    #updates-button .score-label-full {
+        display: none;
+    }
+
+    #updates-button .score-label-short {
+        display: inline;
     }
 
     #updates-table {

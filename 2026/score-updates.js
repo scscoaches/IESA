@@ -8,7 +8,14 @@
     var summary = document.getElementById("updates-summary");
     var changes = cache.updatedGames || [];
 
-    button.textContent = "Score updates (" + changes.length + ")";
+    var fullLabel = document.createElement("span");
+    fullLabel.className = "score-label-full";
+    fullLabel.textContent = "Score updates (" + changes.length + ")";
+    var shortLabel = document.createElement("span");
+    shortLabel.className = "score-label-short";
+    shortLabel.textContent = "Scores(" + changes.length + ")";
+    button.replaceChildren(fullLabel, shortLabel);
+    button.setAttribute("aria-label", "Score updates (" + changes.length + ")");
 
     changes.forEach(function (change) {
         var row = document.createElement("tr");
