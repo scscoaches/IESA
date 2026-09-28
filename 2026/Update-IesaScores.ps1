@@ -12,12 +12,15 @@ foreach ($match in [regex]::Matches($directoryPage.Content, "(?is)<a href='membe
 
 function Get-Teams([string]$grade) {
     $script = Get-Content -Raw (Join-Path $SitePath "$grade\data.js")
-    $list = if ($grade -eq "7th") {
-        [regex]::Match($script, "(?s)var teams=\[(.*?)\];return").Groups[1].Value
+    $match = if ($grade -eq "7th") {
+        [regex]::Match($script, "(?s)\bvar\s+teams\s*=\s*\[(.*?)\]\s*;\s*return\s+teams\.map")
     } else {
-        [regex]::Match($script, "(?s)var d=\[(.*?)\],h=").Groups[1].Value
+        [regex]::Match($script, "(?s)\bvar\s+d\s*=\s*\[(.*?)\]\s*,\s*h\s*=")
     }
-    [regex]::Matches($list, '"([^"]+)"') | ForEach-Object { $_.Groups[1].Value } | Select-Object -Unique
+    if (!$match.Success) {
+        throw "Unable to read regional teams from $grade\data.js."
+    }
+    [regex]::Matches($match.Groups[1].Value, '"([^"]+)"') | ForEach-Object { $_.Groups[1].Value } | Select-Object -Unique
 }
 
 function Get-PlainText([string]$html) {
