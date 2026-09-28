@@ -6,6 +6,14 @@
         var records = teams || {};
         entries.forEach(function (entry) {
             entry.dataset.team = entry.dataset.team || entry.textContent;
+            if (!entry.querySelector(".team-label")) {
+                var label = document.createElement("span");
+                label.className = "team-label";
+                label.textContent = entry.dataset.team;
+                entry.textContent = "";
+                entry.appendChild(label);
+                entry.title = entry.dataset.team;
+            }
             var data = records[entry.dataset.team];
             if (!data) { return; }
             var badge = entry.querySelector(".record-badge") || document.createElement("span");

@@ -24,9 +24,25 @@ function Get-PlainText([string]$html) {
     ([System.Net.WebUtility]::HtmlDecode([regex]::Replace($html, "<[^>]+>", "")) -replace "\s+", " ").Trim()
 }
 
+function Normalize-Matchup([string]$matchup) {
+    ([regex]::Replace($matchup, "\s+(?:vs\.?|def\.)\s+", "|", [System.Text.RegularExpressions.RegexOptions]::IgnoreCase) -replace "\s+", " ").Trim().ToLowerInvariant()
+}
+
 foreach ($grade in "7th", "8th") {
     $gradeLevel = $grade.Substring(0, 1)
     $teams = @{}
+    $updatedGames = @()
+    $previousTeams = @{}
+    $previousCaptureAt = $null
+    $previousPath = Join-Path $SitePath "scores-$grade.json"
+    if (Test-Path -LiteralPath $previousPath) {
+        $previousCache = Get-Content -Raw -LiteralPath $previousPath | ConvertFrom-Json
+        $previousCaptureAt = $previousCache.updatedAt
+        foreach ($property in $previousCache.teams.PSObject.Properties) {
+            $previousTeams[$property.Name] = $property.Value
+        }
+    }
+
     foreach ($team in Get-Teams $grade) {
         $lookup = ($team -replace "\s+\(Co-op\)", "").Trim().ToLowerInvariant()
         if (!$directory.ContainsKey($lookup)) {
@@ -41,6 +57,32 @@ foreach ($grade in "7th", "8th") {
             foreach ($match in [regex]::Matches($page.Content, "(?is)<td class='ListData'>(.*?)</td>\s*<td class='ListData-R'>(.*?)</td>")) {
                 $games += [pscustomobject]@{ opponent = Get-PlainText $match.Groups[1].Value; score = (Get-PlainText $match.Groups[2].Value).ToUpperInvariant() }
             }
+            $previousGames = @()
+            if ($previousTeams.ContainsKey($team)) {
+                $previousGames = @($previousTeams[$team].games)
+            }
+            $matchedPrevious = [System.Collections.Generic.HashSet[int]]::new()
+            foreach ($game in $games) {
+                if ([string]::IsNullOrWhiteSpace($game.score) -or $game.score -eq "PENDING") { continue }
+                $previousScore = $null
+                for ($gameIndex = 0; $gameIndex -lt $previousGames.Count; $gameIndex++) {
+                    if (!$matchedPrevious.Contains($gameIndex) -and (Normalize-Matchup $previousGames[$gameIndex].opponent) -eq (Normalize-Matchup $game.opponent)) {
+                        $previousScore = $previousGames[$gameIndex].score
+                        [void]$matchedPrevious.Add($gameIndex)
+                        break
+                    }
+                }
+                if ($previousScore -ne $game.score) {
+                    $priorResult = if ($null -eq $previousScore) { "Not previously reported" } else { $previousScore }
+                    $updatedGames += [pscustomobject]@{
+                        team = $team
+                        opponent = $game.opponent
+                        previous = $priorResult
+                        score = $game.score
+                        sourceUrl = $sourceUrl
+                    }
+                }
+            }
             $teamName = [regex]::Escape((($team -replace "\s+\(Co-op\)", "")).Trim())
             $wins = @($games | Where-Object { $_.opponent -match ("^" + $teamName + ".*\sdef\.") }).Count
             $losses = @($games | Where-Object { $_.opponent -match ("\sdef\..*" + $teamName + "$") }).Count
@@ -49,7 +91,12 @@ foreach ($grade in "7th", "8th") {
             Write-Warning "Unable to refresh ${team}: $($_.Exception.Message)"
         }
     }
-    $cache = [pscustomobject]@{ updatedAt = (Get-Date).ToString("yyyy-MM-dd HH:mm"); teams = $teams }
+    $cache = [pscustomobject]@{
+        updatedAt = (Get-Date).ToString("yyyy-MM-dd HH:mm")
+        previousCaptureAt = $previousCaptureAt
+        teams = $teams
+        updatedGames = @($updatedGames | Sort-Object team, opponent)
+    }
     $json = $cache | ConvertTo-Json -Depth 6
     $json | Set-Content -Encoding UTF8 (Join-Path $SitePath "scores-$grade.json")
     ("window.iesaScoreCache = " + $json + ";") | Set-Content -Encoding UTF8 (Join-Path $SitePath "scores-$grade.js")

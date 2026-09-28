@@ -15,6 +15,10 @@
         bracket.style.transform = "translate(" + value.x + "px," + value.y + "px) scale(" + value.scale + ")";
     }
 
+    function panSensitivity(scale) {
+        return Math.max(1, Math.min(2.5, 0.5 / scale));
+    }
+
     function point(event) {
         var bounds = viewport.getBoundingClientRect();
         return { x: event.clientX - bounds.left, y: event.clientY - bounds.top };
@@ -55,7 +59,12 @@
         if (!gesture || !active.length) { return; }
 
         if (gesture.type === "pan" && active.length === 1) {
-            apply({ x: gesture.transform.x + active[0].x - gesture.point.x, y: gesture.transform.y + active[0].y - gesture.point.y, scale: gesture.transform.scale });
+            var sensitivity = panSensitivity(gesture.transform.scale);
+            apply({
+                x: gesture.transform.x + (active[0].x - gesture.point.x) * sensitivity,
+                y: gesture.transform.y + (active[0].y - gesture.point.y) * sensitivity,
+                scale: gesture.transform.scale
+            });
         } else if (gesture.type === "pinch" && active.length === 2) {
             var midpoint = { x: (active[0].x + active[1].x) / 2, y: (active[0].y + active[1].y) / 2 };
             var distance = Math.hypot(active[1].x - active[0].x, active[1].y - active[0].y);

@@ -18,8 +18,8 @@
         var sectional = data.sectionals[sectionalId - 1];
         var top = 110 + (index % 4) * groupHeight;
         var lowerHalf = index > 3;
-        var regionalLeft = lowerHalf ? 3430 : 35;
-        var sectionalLeft = lowerHalf ? 3000 : 580;
+        var regionalLeft = lowerHalf ? 2860 : 35;
+        var sectionalLeft = lowerHalf ? 2520 : 540;
 
         sectional.regionals.forEach(function (regionalId, column) {
             setPosition("r" + regionalId, regionalLeft + column * 245, top);
@@ -28,12 +28,21 @@
     });
 
     data.quarterfinals.forEach(function (game, index) {
-        setPosition("q" + game.game, index < 2 ? 970 : 2570, 330 + (index % 2) * 600);
+        setPosition("q" + game.game, index < 2 ? 880 : 2180, 330 + (index % 2) * 600);
     });
-    setPosition("m5", 1450, 720);
-    setPosition("m6", 2150, 720);
-    setPosition("final", 1800, 500);
-    setPosition("third", 1800, 930);
+    setPosition("m5", 1200, 720);
+    setPosition("m6", 1860, 720);
+    setPosition("final", 1530, 500);
+    setPosition("third", 1530, 930);
+
+    var stages = bracket.querySelectorAll(".stage");
+    [0, 1, 2, 3].forEach(function (index) {
+        stages[index].remove();
+    });
+    stages[4].style.left = "1530px";
+    stages[5].style.left = "1530px";
+    stages[4].style.top = "850px";
+    stages[5].style.top = "410px";
 
     function edge(id, right) {
         var card = document.getElementById(id);
@@ -75,9 +84,9 @@
     }
 
     function fitAll() {
-        var scale = Math.min((viewport.clientWidth - 30) / 3900, (viewport.clientHeight - 30) / 1450, 1);
-        var panX = (viewport.clientWidth - 3900 * scale) / 2;
-        var panY = (viewport.clientHeight - 1450 * scale) / 2;
+        var scale = Math.min((viewport.clientWidth - 30) / bracket.offsetWidth, (viewport.clientHeight - 30) / bracket.offsetHeight, 1);
+        var panX = (viewport.clientWidth - bracket.offsetWidth * scale) / 2;
+        var panY = (viewport.clientHeight - bracket.offsetHeight * scale) / 2;
         bracket.style.transform = "translate(" + panX + "px," + panY + "px) scale(" + scale + ")";
     }
 
@@ -141,7 +150,7 @@
 
     // Tapping a card's header/meta zooms the bracket into that section, which is
     // the quickest way to read a regional's teams on a narrow mobile screen
-    // without pinch-zooming the whole 3900px-wide bracket first.
+    // without pinch-zooming the entire bracket first.
     bracket.addEventListener("click", function (event) {
         var trigger = event.target.closest(".head, .meta");
         if (!trigger) { return; }

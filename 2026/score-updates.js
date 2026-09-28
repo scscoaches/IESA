@@ -1,0 +1,42 @@
+(function () {
+    "use strict";
+
+    var cache = window.iesaScoreCache || { updatedAt: "", updatedGames: [] };
+    var button = document.getElementById("updates-button");
+    var dialog = document.getElementById("updates-dialog");
+    var tableBody = document.querySelector("#updates-table tbody");
+    var summary = document.getElementById("updates-summary");
+    var changes = cache.updatedGames || [];
+
+    button.textContent = "Score updates (" + changes.length + ")";
+
+    changes.forEach(function (change) {
+        var row = document.createElement("tr");
+        [change.team, change.opponent, change.previous, change.score].forEach(function (value) {
+            var cell = document.createElement("td");
+            cell.textContent = value;
+            row.appendChild(cell);
+        });
+        var linkCell = document.createElement("td");
+        var link = document.createElement("a");
+        link.href = change.sourceUrl;
+        link.target = "_blank";
+        link.rel = "noopener";
+        link.textContent = "IESA";
+        linkCell.appendChild(link);
+        row.appendChild(linkCell);
+        tableBody.appendChild(row);
+    });
+
+    if (changes.length) {
+        summary.textContent = changes.length + " posted score change(s) since " + (cache.previousCaptureAt || "the previous available capture") + ".";
+    } else if (cache.previousCaptureAt) {
+        summary.textContent = "No newly posted or changed scores since " + cache.previousCaptureAt + ".";
+    } else {
+        summary.textContent = "No previous capture is available for comparison yet. Updates will appear after the next IESA score refresh.";
+    }
+    summary.textContent += " Last refreshed: " + (cache.updatedAt || "unavailable") + ".";
+
+    button.addEventListener("click", function () { dialog.showModal(); });
+    document.getElementById("close-updates").addEventListener("click", function () { dialog.close(); });
+}());
