@@ -30,7 +30,10 @@
         var panX = Number(values[1]);
         var panY = Number(values[2]);
         var currentScale = Number(values[3]);
-        var nextScale = Math.max(.18, Math.min(2.5, currentScale * (event.deltaY < 0 ? 1.12 : 1 / 1.12)));
+        var pixels = event.deltaY * (event.deltaMode === 1 ? 16 :
+            event.deltaMode === 2 ? viewport.clientHeight : 1);
+        var step = Math.max(-120, Math.min(120, pixels));
+        var nextScale = Math.max(.18, Math.min(2.5, currentScale * Math.pow(1.06, -step / 100)));
         var bounds = viewport.getBoundingClientRect();
         var pointerX = event.clientX - bounds.left;
         var pointerY = event.clientY - bounds.top;

@@ -1,0 +1,349 @@
+﻿{
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2007,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Jerseyville St. Francis HG",
+                                 "loser":  "Carrollton St. John",
+                                 "score":  "28-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Grand Ridge",
+                                "loser":  "LaSalle Trinity Catholic",
+                                "score":  "24-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Crescent City",
+                                "loser":  "Rossville-Alvin",
+                                "score":  "21-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Springfield Christian",
+                                 "loser":  "Mt. Pulaski",
+                                 "score":  "35-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Effingham Sacred Heart",
+                                 "loser":  "Dieterich",
+                                 "score":  "35-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ottawa St. Columba",
+                                "loser":  "Marseilles Milton Pope",
+                                "score":  "24-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Bartonville Monroe",
+                                "loser":  "Peoria Limestone Walters",
+                                "score":  "28-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Decatur St. Patrick",
+                                 "loser":  "Decatur Robertson",
+                                 "score":  "44-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Elwood GS",
+                                "loser":  "Lockport Fairmont",
+                                "score":  "14-3",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Hume Shiloh",
+                                "loser":  "Chrisman Scottland",
+                                "score":  "26-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Griggsville-Perry",
+                                 "loser":  "Bowen Southeastern",
+                                 "score":  "12-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Washington St. Patrick",
+                                "loser":  "Lincoln Chester-East Lincoln",
+                                "score":  "28-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Ramsey",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "26-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Rantoul St. Malachy",
+                                "loser":  "Gifford",
+                                "score":  "29-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "Streator Woodland",
+                                "loser":  "Pontiac St. Mary\u0027s",
+                                "score":  "40-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Bluffs",
+                                 "score":  "52-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "3":  {
+                                              "team":  "Grand Ridge",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Crescent City",
+                                              "record":  "10-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Springfield Christian",
+                                               "record":  "17-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Effingham Sacred Heart",
+                                               "record":  "6-13",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ottawa St. Columba",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Bartonville Monroe",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Ramsey",
+                                               "record":  "15-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Elwood GS",
+                                              "record":  "8-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Hume Shiloh",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                          },
+                                    "16":  {
+                                               "team":  "Jerseyville St. Francis HG",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Washington St. Patrick",
+                                              "record":  "14-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                          },
+                                    "6":  {
+                                              "team":  "Rantoul St. Malachy",
+                                              "record":  "14-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Streator Woodland",
+                                              "record":  "14-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Jacksonville Our Saviour",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Griggsville-Perry",
+                                 "score":  "46-4",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Rantoul St. Malachy",
+                                 "loser":  "Crescent City",
+                                 "score":  "19-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Grand Ridge",
+                                 "loser":  "Streator Woodland",
+                                 "score":  "31-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Ottawa St. Columba",
+                                 "loser":  "Elwood GS",
+                                 "score":  "37-5",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "Washington St. Patrick",
+                                 "score":  "25-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Springfield Christian",
+                                 "loser":  "Decatur St. Patrick",
+                                 "score":  "33-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Effingham Sacred Heart",
+                                 "loser":  "Hume Shiloh",
+                                 "score":  "31-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Ramsey",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "32-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           1,
+                                           5
+                                       ],
+                                 "4":  [
+                                           7,
+                                           6
+                                       ],
+                                 "1":  [
+                                           8,
+                                           4
+                                       ],
+                                 "3":  [
+                                           2,
+                                           3
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Effingham Sacred Heart",
+                                          "Grand Ridge"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           15
+                                       ],
+                            "winner":  "Effingham Sacred Heart",
+                            "loser":  "Grand Ridge",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Grand Ridge",
+                                          "Rantoul St. Malachy"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           12
+                                       ],
+                            "winner":  "Grand Ridge",
+                            "loser":  "Rantoul St. Malachy",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Ottawa St. Columba",
+                                          "Effingham Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           28
+                                       ],
+                            "winner":  "Effingham Sacred Heart",
+                            "loser":  "Ottawa St. Columba",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Ramsey",
+                                          "Bartonville Monroe"
+                                      ],
+                            "scores":  [
+                                           10,
+                                           37
+                                       ],
+                            "winner":  "Bartonville Monroe",
+                            "loser":  "Ramsey",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Jacksonville Our Saviour",
+                                          "Springfield Christian"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           24
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Springfield Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Grand Ridge",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           41
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Grand Ridge",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Bartonville Monroe",
+                                          "Effingham Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           29
+                                       ],
+                            "winner":  "Bartonville Monroe",
+                            "loser":  "Effingham Sacred Heart",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Bartonville Monroe",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           12,
+                                           50
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Bartonville Monroe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        }
+              }
+}

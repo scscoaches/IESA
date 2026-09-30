@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2021,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Mt. Olive",
+                                 "loser":  "Brussels",
+                                 "score":  "29-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "LaSalle Trinity Catholic",
+                                "loser":  "Utica Waltham",
+                                "score":  "34-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Piper City Tri-Point",
+                                "loser":  "Odell (Co-op)",
+                                "score":  "34-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Danville Schlarman",
+                                 "loser":  "Chrisman Scottland",
+                                 "score":  "36-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Pekin Rankin",
+                                 "loser":  "Peoria Limestone Walters",
+                                 "score":  "37-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ottawa Wallace",
+                                "loser":  "Marseilles Milton Pope (Co-op)",
+                                "score":  "37-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Lincoln West Lincoln-Broadwell",
+                                "loser":  "Normal Epiphany",
+                                "score":  "40-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Royal Prairieview Ogden",
+                                 "loser":  "Champaign Holy Cross",
+                                 "score":  "34-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Lockport Taft",
+                                "loser":  "Mazon-Verona-Kinsman",
+                                "score":  "34-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Peoria Heights St. Thomas",
+                                "loser":  "Williamsfield (Co-op)",
+                                "score":  "29-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Neoga",
+                                 "score":  "46-5",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Washington St. Patrick",
+                                "loser":  "Roanoke-Benson",
+                                "score":  "51-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Jerseyville St. Francis HG",
+                                 "loser":  "Carrollton St. John",
+                                 "score":  "34-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "Cissna Park (Co-op)",
+                                "loser":  "Armstrong-Ellis (Co-op)",
+                                "score":  "48-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Kewanee Visitation",
+                                "loser":  "Cambridge JHS",
+                                "score":  "38-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Kincaid South Fork (Co-op)",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "29-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Mt. Olive",
+                                               "record":  "18-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "LaSalle Trinity Catholic",
+                                              "record":  "21-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Piper City Tri-Point",
+                                              "record":  "11-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Danville Schlarman",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Pekin Rankin",
+                                               "record":  "17-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ottawa Wallace",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Lincoln West Lincoln-Broadwell",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Royal Prairieview Ogden",
+                                               "record":  "13-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lockport Taft",
+                                              "record":  "12-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Peoria Heights St. Thomas",
+                                              "record":  "17-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "21-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Washington St. Patrick",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Jerseyville St. Francis HG",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Cissna Park (Co-op)",
+                                              "record":  "22-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Kewanee Visitation",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Kincaid South Fork (Co-op)",
+                                               "record":  "14-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Kincaid South Fork (Co-op)",
+                                 "score":  "50-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Cissna Park (Co-op)",
+                                 "loser":  "Piper City Tri-Point",
+                                 "score":  "46-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "LaSalle Trinity Catholic",
+                                 "loser":  "Kewanee Visitation",
+                                 "score":  "34-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Ottawa Wallace",
+                                 "loser":  "Lockport Taft",
+                                 "score":  "38-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Washington St. Patrick",
+                                 "loser":  "Lincoln West Lincoln-Broadwell",
+                                 "score":  "41-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Danville Schlarman",
+                                 "loser":  "Royal Prairieview Ogden",
+                                 "score":  "27-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Peoria Heights St. Thomas",
+                                 "loser":  "Pekin Rankin",
+                                 "score":  "30-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Mt. Olive",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "39-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           1,
+                                           7
+                                       ],
+                                 "4":  [
+                                           3,
+                                           4
+                                       ],
+                                 "1":  [
+                                           6,
+                                           8
+                                       ],
+                                 "3":  [
+                                           2,
+                                           5
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Danville Schlarman",
+                                          "LaSalle Trinity Catholic"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           23
+                                       ],
+                            "winner":  "Danville Schlarman",
+                            "loser":  "LaSalle Trinity Catholic",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "LaSalle Trinity Catholic",
+                                          "Peoria Heights St. Thomas"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           27
+                                       ],
+                            "winner":  "LaSalle Trinity Catholic",
+                            "loser":  "Peoria Heights St. Thomas",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Ottawa Wallace",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           50
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Ottawa Wallace",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Danville Schlarman",
+                                          "Mt. Olive"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           25
+                                       ],
+                            "winner":  "Danville Schlarman",
+                            "loser":  "Mt. Olive",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Cissna Park (Co-op)",
+                                          "Washington St. Patrick"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           31
+                                       ],
+                            "winner":  "Cissna Park (Co-op)",
+                            "loser":  "Washington St. Patrick",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "LaSalle Trinity Catholic",
+                                          "Cissna Park (Co-op)"
+                                      ],
+                            "scores":  [
+                                           12,
+                                           48
+                                       ],
+                            "winner":  "Cissna Park (Co-op)",
+                            "loser":  "LaSalle Trinity Catholic",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Danville Schlarman",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           56
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Danville Schlarman",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Sigel St. Michael\u0027s",
+                                          "Cissna Park (Co-op)"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           33
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Cissna Park (Co-op)",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-1A"
+                        }
+              }
+}

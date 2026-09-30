@@ -1,0 +1,394 @@
+﻿{
+    "year":  2008,
+    "grade":  "8th",
+    "className":  "1A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Rockdale",
+                          "teams":  [
+                                        "Rockdale",
+                                        "Riverdale Patton",
+                                        "Elwood GS",
+                                        "Lockport Fairmont"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Kankakee Aquinas",
+                          "teams":  [
+                                        "Kankakee Aquinas",
+                                        "Gardner",
+                                        "Bourbonnais Maternity BVM",
+                                        "Bradley St. Joseph",
+                                        "Kankakee St. Paul\u0027s",
+                                        "Braceville"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "",
+                          "teams":  [
+                                        "Marseilles Milton Pope",
+                                        "Streator Woodland",
+                                        "Pontiac St. Mary\u0027s",
+                                        "Marseilles ES",
+                                        "Mazon-Verona-Kinsman",
+                                        "Ransom",
+                                        "Streator St. Anthony"
+                                    ],
+                          "assignedTeams":  [
+
+                                            ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "",
+                          "teams":  [
+                                        "Ottawa St. Columba",
+                                        "LaSalle Trinity Catholic",
+                                        "Grand Ridge",
+                                        "Mendota Holy Cross",
+                                        "Ottawa Wallace",
+                                        "Tonica"
+                                    ],
+                          "assignedTeams":  [
+
+                                            ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Cissna Park",
+                          "teams":  [
+                                        "Buckley St. John\u0027s",
+                                        "Crescent City",
+                                        "Cissna Park",
+                                        "Rossville-Alvin",
+                                        "Armstrong-Ellis",
+                                        "Ludlow"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Rantoul St. Malachy",
+                          "teams":  [
+                                        "Royal Prairieview Ogden",
+                                        "Gifford",
+                                        "Rantoul St. Malachy",
+                                        "Danville St. Paul",
+                                        "Thomasboro"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Normal Epiphany",
+                          "teams":  [
+                                        "Washington St. Patrick",
+                                        "Normal Epiphany",
+                                        "Normal Calvary",
+                                        "Flanagan",
+                                        "Bloomington Cornerstone",
+                                        "Lexington"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "South Pekin",
+                          "teams":  [
+                                        "Bartonville Monroe",
+                                        "Peoria Limestone Walters",
+                                        "Cuba",
+                                        "London Mills Valley",
+                                        "Pekin Rankin",
+                                        "South Pekin",
+                                        "Spring Bay Riverview"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Champaign Judah Christian",
+                          "teams":  [
+                                        "Hume Shiloh",
+                                        "Champaign Judah Christian",
+                                        "Sidell Jamaica",
+                                        "Philo St. Thomas",
+                                        "Chrisman Scottland"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Atwood-Hammond",
+                          "teams":  [
+                                        "Decatur Holy Family",
+                                        "Decatur Robertson",
+                                        "Decatur Lutheran",
+                                        "Decatur Our Lady of Lourdes",
+                                        "Atwood-Hammond"
+                                    ],
+                          "assignedTeams":  [
+                                                "Atwood-Hammond",
+                                                "Bement",
+                                                "Decatur Holy Family (Coop)",
+                                                "Decatur Lutheran",
+                                                "Decatur Our Lady of Lourdes",
+                                                "Decatur Robertson"
+                                            ],
+                          "note":  "Published bracket leaves the first seed and regional final unresolved."
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Dieterich",
+                          "teams":  [
+                                        "Dieterich",
+                                        "Louisville North Clay",
+                                        "Cisne",
+                                        "Noble West Richland",
+                                        "Martinsville"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Effingham Sacred Heart",
+                          "teams":  [
+                                        "Effingham Sacred Heart",
+                                        "Pana Sacred Heart",
+                                        "Sigel St. Michael\u0027s",
+                                        "Beecher City",
+                                        "Stewardson-Strasburg"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Lincoln West Lincoln-Broadwell",
+                          "teams":  [
+                                        "Springfield Christian",
+                                        "Springfield Calvary",
+                                        "Lincoln Carroll Catholic",
+                                        "Lincoln Chester-East Lincoln",
+                                        "Lincoln West Lincoln-Broadwell",
+                                        "Springfield Little Flower"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Sorento",
+                          "teams":  [
+                                        "East St. Louis Jackson",
+                                        "Morrisonville JHS",
+                                        "Mt. Olive",
+                                        "Pocahontas",
+                                        "Mulberry Grove JHS",
+                                        "Sorento"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Jacksonville Our Saviour",
+                          "teams":  [
+                                        "Jacksonville Our Saviour",
+                                        "Carrollton St. John",
+                                        "Hardin St. Norbert",
+                                        "Jacksonville ISD",
+                                        "Hardin Calhoun",
+                                        "Chandlerville A-C Central"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Augusta Southeastern",
+                          "teams":  [
+                                        "Augusta Southeastern",
+                                        "Pleasant Hill",
+                                        "Griggsville-Perry"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Gardner Grade School",
+                           "date":  "",
+                           "records":  {
+                                           "1":  "4-10",
+                                           "2":  "15-9"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "",
+                           "date":  "",
+                           "records":  {
+                                           "3":  "16-4",
+                                           "4":  "19-5"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "C-I High School",
+                           "date":  "",
+                           "records":  {
+                                           "5":  "20-1",
+                                           "6":  "11-12"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "St. Patrick School",
+                           "date":  "",
+                           "records":  {
+                                           "7":  "16-4",
+                                           "8":  "20-4"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "St. Patrick\u0027s Gym (Wee Folk Daytcare)",
+                           "date":  "",
+                           "records":  {
+                                           "9":  "9-11"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Dieterich HS Gym",
+                           "date":  "",
+                           "records":  {
+                                           "11":  "17-6"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Calvary Academy",
+                           "date":  "",
+                           "records":  {
+                                           "13":  "21-2"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Our Saviour School",
+                           "date":  "",
+                           "records":  {
+                                           "15":  "22-1",
+                                           "16":  "4-12"
+                                       }
+                       }
+                   ],
+    "venue":  "Auburn JHS at Divernon",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              3,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              null,
+                                              1
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              6,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              7,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

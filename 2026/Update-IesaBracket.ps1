@@ -2,6 +2,7 @@ param(
     [string]$SitePath = (Get-Location).Path,
     [string]$OutputPath = $SitePath,
     [int]$Year = 2026,
+    [ValidateSet('1A', '2A', '3A', '4A')][string]$ClassName = '2A',
     [string[]]$Grades = @('7th', '8th')
 )
 
@@ -32,8 +33,8 @@ function Get-Name([string]$html) {
 
 function Same-Name([string]$first, [string]$second) {
     if (!$first -or !$second) { return $false }
-    $left = (($first -replace '\s+\(Co-op\)$', '') -replace '\s+', ' ').Trim()
-    $right = (($second -replace '\s+\(Co-op\)$', '') -replace '\s+', ' ').Trim()
+    $left = (($first -replace '(?i)\s+\(Co-?op\)$', '') -replace '\s+', ' ').Trim()
+    $right = (($second -replace '(?i)\s+\(Co-?op\)$', '') -replace '\s+', ' ').Trim()
     return [string]::Equals($left, $right, [StringComparison]::OrdinalIgnoreCase)
 }
 
@@ -46,6 +47,20 @@ function Get-CanonicalName([string]$name, [object[]]$candidates, [string]$contex
 }
 
 function Get-RegionalRosters([string]$grade) {
+    $dataPath = Join-Path (Join-Path $SitePath $grade) 'data.json'
+    if (Test-Path -LiteralPath $dataPath) {
+        $data = Get-Content -Raw -LiteralPath $dataPath | ConvertFrom-Json
+        if ($data.year -ne $Year -or $data.className -ne $ClassName -or $data.regionals.Count -ne 16) {
+            throw "Invalid $grade regional assignment data at $dataPath"
+        }
+        $rosters = @{}
+        for ($i = 0; $i -lt 16; $i++) {
+            $names = @($data.regionals[$i].teams)
+            if ($names.Count -lt 2) { throw "Empty regional roster $($i + 1) at $dataPath" }
+            $rosters["$($i + 1)"] = $names
+        }
+        return $rosters
+    }
     $path = Join-Path (Join-Path $SitePath $grade) 'data.js'
     $script = Get-Content -LiteralPath $path -Raw
     $pattern = if ($grade -eq '7th') {
@@ -68,23 +83,38 @@ function Get-RegionalRosters([string]$grade) {
 }
 
 function Get-Result([string]$html, [string]$url) {
-    $result = [regex]::Match($html, '(?is)^\s*<(?:b|strong)>\s*(.*?)\s*</(?:b|strong)>\s*def\.\s*(.*?)\s*,\s*(\d+)\s*-\s*(\d+)\s*(?:<(?:b|strong)>\s*(?:\d*OT)\s*</(?:b|strong)>)?\s*$')
+    $markup = [System.Net.WebUtility]::HtmlDecode($html)
+    $suffix = '\s*def\.\s*(?<loser>.*?)\s*,?\s*(?:(?<winScore>\d+)\s*-\s*(?<loseScore>\d+)|(?<missing>-))\s*(?:<(?:b|strong)>\s*(?:\d*OT)\s*</(?:b|strong)>)?\s*$'
+    $result = [regex]::Match($markup,
+        '(?is)^\s*<(?:b|strong)>\s*(?<winner>.*?)\s*</(?:b|strong)>' + $suffix)
+    if (!$result.Success) {
+        $result = [regex]::Match($markup, '(?is)^\s*(?<winner>[^<]+?)' + $suffix)
+    }
+    $unscored = $false
+    if (!$result.Success -and $Year -le 2008) {
+        $result = [regex]::Match($markup,
+            '(?is)^\s*(?<winner>[^<]+?)\s+def\.\s*(?<loser>[^<,]+?)\s*$')
+        $unscored = $result.Success
+    }
     if (!$result.Success) {
         if ((Get-Text $html) -match '\bdef\.\b|\bdef\.' ) { throw "Unrecognized result at $url" }
         return $null
     }
-    $winner = Get-Name $result.Groups[1].Value
-    $loser = Get-Name $result.Groups[2].Value
+    $winner = Get-Name $result.Groups['winner'].Value
+    $loser = Get-Name $result.Groups['loser'].Value
     if (!$winner -or !$loser -or (Same-Name $winner $loser)) {
         throw "Invalid result names ('$winner' / '$loser') at $url"
     }
-    if ([int]$result.Groups[3].Value -le [int]$result.Groups[4].Value) {
+    if (!$unscored -and !$result.Groups['missing'].Success -and
+        [int]$result.Groups['winScore'].Value -le [int]$result.Groups['loseScore'].Value) {
         throw "Winner's score is not higher at $url"
     }
     return [pscustomobject]@{
         winner = $winner
         loser = $loser
-        score = "$($result.Groups[3].Value)-$($result.Groups[4].Value)"
+        score = if ($unscored -or $result.Groups['missing'].Success) { $null } else {
+            "$($result.Groups['winScore'].Value)-$($result.Groups['loseScore'].Value)"
+        }
         sourceUrl = $url
     }
 }
@@ -114,17 +144,23 @@ function Get-SectionBlocks([string]$html, [string]$pending, [string]$url) {
 
 function Read-Regionals([string]$html, [string]$url, [hashtable]$rosters) {
     $results = @{}
+    $records = @{}
     $blocks = Get-SectionBlocks $html 'Sectional Qualifiers are pending.' $url
     for ($s = 0; $s -lt $blocks.Count; $s++) {
         $rows = [regex]::Matches($blocks[$s],
-            "(?is)<td\s+class=['""]Links['""][^>]*>\s*<a\s+href=['""][^'""]*Regional=(\d+)[^'""]*['""][^>]*>.*?</a>\s*</td>\s*<td\s+class=['""]ListData['""][^>]*>(.*?)</td>")
+            "(?is)<td\s+class=['""]Links['""][^>]*>\s*<a\s+href=['""][^'""]*(?:Regional=|#Regional_)(\d+)[^'""]*['""][^>]*>.*?</a>\s*</td>\s*<td\s+class=['""]ListData['""][^>]*>(.*?)</td>")
         if ($rows.Count -ne 2) { throw "Expected two regional links in sectional $($s + 1) at $url" }
         foreach ($row in $rows) {
             $number = [int]$row.Groups[1].Value
             if ($number -notin @((2 * $s + 1), (2 * $s + 2))) {
                 throw "Regional number does not match sectional at $url"
             }
-            $result = Get-Result $row.Groups[2].Value $url
+            if ($Year -eq 2008 -and $ClassName -eq '1A' -and $number -eq 10 -and
+                (Get-Text $row.Groups[2].Value) -match '^def\.\s+Atwood-Hammond\s*,\s*28-20$') {
+                continue
+            }
+            try { $result = Get-Result $row.Groups[2].Value $url }
+            catch { throw "Regional $number at $url`: $($_.Exception.Message) [$((Get-Text $row.Groups[2].Value))]" }
             if ($null -ne $result) {
                 if ($null -ne $rosters) {
                     $result.winner = Get-CanonicalName $result.winner $rosters["$number"] "Regional $number"
@@ -134,15 +170,42 @@ function Read-Regionals([string]$html, [string]$url, [hashtable]$rosters) {
                 $results["$number"] = $result
             }
         }
+        $pairing = [regex]::Match($blocks[$s],
+            "(?is)<td\s+class=['""]Champion['""][^>]*>(.*?)</td>")
+        if ($pairing.Success) {
+            $names = [regex]::Split((Get-Text $pairing.Groups[1].Value),
+                '\s+vs\.?(?:\s+|$)', [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
+            if ($names.Count -eq 2) {
+                for ($i = 0; $i -lt 2; $i++) {
+                    $number = 2 * $s + $i + 1
+                    $record = [regex]::Match($names[$i], '^(.*?)\s*\((\d+)-(\d+)\)\s*$')
+                    if (!$record.Success) { continue }
+                    $team = Get-Name $record.Groups[1].Value
+                    if (!$team) { throw "Invalid sectional pairing team in Sectional $($s + 1) at $url" }
+                    if ($null -ne $rosters) {
+                        $team = Get-CanonicalName $team $rosters["$number"] "Sectional $($s + 1) pairing"
+                    }
+                    if ($results.ContainsKey("$number") -and
+                        !(Same-Name $team $results["$number"].winner)) {
+                        throw "Sectional pairing does not match Regional $number winner at $url"
+                    }
+                    $records["$number"] = [pscustomobject]@{
+                        team = $team
+                        record = "$($record.Groups[2].Value)-$($record.Groups[3].Value)"
+                        sourceUrl = $url
+                    }
+                }
+            }
+        }
     }
-    return $results
+    return [pscustomobject]@{ results = $results; records = $records }
 }
 
 function Read-Sectionals([string]$html, [string]$url, [hashtable]$regionals) {
     $results = @{}
     $blocks = Get-SectionBlocks $html 'State Qualifiers are pending.' $url
     for ($s = 0; $s -lt $blocks.Count; $s++) {
-        $cells = [regex]::Matches($blocks[$s], "(?is)<td\s+class=['""]ListData['""][^>]*>(.*?)</td>")
+        $cells = [regex]::Matches($blocks[$s], "(?is)<td\s+class=['""](?:ListData|Champion)['""][^>]*>(.*?)</td>")
         if ($cells.Count -ne 1) { throw "Expected one result cell in sectional $($s + 1) at $url" }
         $result = Get-Result $cells[0].Groups[1].Value $url
         if ($null -eq $result) { continue }
@@ -160,8 +223,9 @@ function Read-Sectionals([string]$html, [string]$url, [hashtable]$regionals) {
     return $results
 }
 
-function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url, [hashtable]$sectionals) {
-    $heading = "$gradeNumber" + 'th Grade Class 2A  State Tournament'
+function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url,
+    [hashtable]$sectionals, [hashtable]$regionals) {
+    $heading = "$gradeNumber" + "th Grade Class $ClassName  State Tournament"
     $start = $html.IndexOf($heading, [StringComparison]::OrdinalIgnoreCase)
     if ($start -lt 0) { throw "Missing $heading at $url" }
     $next = [regex]::Match($html.Substring($start + $heading.Length),
@@ -206,28 +270,60 @@ function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url, [hashta
         }
         if ($p -ge 5) {
             $game = 9 - $p
-            $numbers = @()
+            $numbers = @($null, $null)
             for ($i = 0; $i -lt 2; $i++) {
                 if ($sectionNumbers[$i]) {
-                    $numbers += $sectionNumbers[$i]
+                    $numbers[$i] = $sectionNumbers[$i]
                 } elseif ($teams[$i]) {
                     $found = @(1..8 | Where-Object {
                         $sectionals.ContainsKey("$_") -and (Same-Name $teams[$i] $sectionals["$_"].winner)
                     })
-                    if ($found.Count -ne 1) { throw "Cannot identify sectional for $($teams[$i]) at $url" }
-                    $numbers += [int]$found[0]
+                    if (!$found.Count -and $Year -eq 2006 -and $gradeNumber -eq 8) {
+                        $regional = @(1..16 | Where-Object {
+                            $regionals.ContainsKey("$_") -and
+                                (Same-Name $teams[$i] $regionals["$_"].winner)
+                        })
+                        if ($regional.Count -eq 1) {
+                            $sectionalId = [int][math]::Ceiling($regional[0] / 2)
+                            $otherId = if ($regional[0] % 2) { $regional[0] + 1 } else { $regional[0] - 1 }
+                            if ($sectionals.ContainsKey("$sectionalId") -or
+                                !$regionals.ContainsKey("$otherId")) {
+                                throw "Conflicting state qualification for Sectional $sectionalId at $url"
+                            }
+                            $sectionals["$sectionalId"] = [pscustomobject]@{
+                                winner = $regionals["$($regional[0])"].winner
+                                loser = $regionals["$otherId"].winner
+                                score = $null
+                                sourceUrl = $url
+                                qualifierOnly = $true
+                            }
+                            $found = @($sectionalId)
+                        }
+                    }
+                    if ($found.Count -ne 1) {
+                        if ($Year -eq 2008 -and $gradeNumber -eq 8 -and $game -eq 2 -and
+                            $found.Count -eq 0 -and $teams[$i] -eq 'Decatur St. Patrick') {
+                            continue
+                        }
+                        throw "Cannot identify sectional for $($teams[$i]) at $url"
+                    }
+                    $numbers[$i] = [int]$found[0]
                 }
             }
-            if ($numbers.Count -eq 2) {
+            if ($numbers[0] -and $numbers[1]) {
                 if ($numbers[0] -lt 1 -or $numbers[0] -gt 8 -or
                     $numbers[1] -lt 1 -or $numbers[1] -gt 8 -or
                     $numbers[0] -eq $numbers[1]) { throw "Invalid sectional pairing at $url" }
+                $matchups["$game"] = $numbers
+            } elseif ($Year -eq 2008 -and $gradeNumber -eq 8 -and $game -eq 2 -and
+                $teams -contains 'Decatur St. Patrick' -and
+                @($numbers | Where-Object { $_ }).Count -eq 1) {
                 $matchups["$game"] = $numbers
             }
         }
         $scoreMarkup = $row.Groups[2].Value
         $scoreMatch = [regex]::Match($scoreMarkup, '^\s*(\d+)\s*<br\s*/?>\s*(\d+)\s*$', 'IgnoreCase')
-        $finished = (Get-Text $row.Groups[3].Value) -match '^F\s+INFO\b'
+        $finished = (Get-Text $row.Groups[3].Value) -match '^F(?:\s|$)'
         $winner = $null
         $loser = $null
         $scores = @($null, $null)
@@ -256,7 +352,9 @@ function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url, [hashta
         $game = $games["$p"]
         $prior = @()
         if ($p -ge 5 -and $matchups.ContainsKey("$(9 - $p)")) {
-            $prior = @($matchups["$(9 - $p)"] | ForEach-Object { $sectionals["$_"] })
+            $prior = @($matchups["$(9 - $p)"] | ForEach-Object {
+                if ($null -ne $_) { $sectionals["$_"] } else { $null }
+            })
         } elseif ($p -eq 4) {
             $prior = @($games['8'], $games['7'])
         } elseif ($p -eq 3) {
@@ -286,7 +384,8 @@ function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url, [hashta
         }
         if ($prior.Count -eq 2) {
             for ($i = 0; $i -lt 2; $i++) {
-                $expected = if ($p -eq 2) { $prior[$i].loser } else { $prior[$i].winner }
+                $expected = if ($null -eq $prior[$i]) { $null }
+                    elseif ($p -eq 2) { $prior[$i].loser } else { $prior[$i].winner }
                 if ($expected -and $game.teams[$i]) {
                     $game.teams[$i] = $expected
                 }
@@ -307,23 +406,27 @@ function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url, [hashta
 $captures = @{}
 foreach ($grade in $Grades) {
     $number = [int]$grade.Substring(0, 1)
-    $class = "$number-2A"
+    $class = "$number-$ClassName"
     $base = 'https://www.iesa.org/activities/gbk/'
     $regionalUrl = "${base}qualifiers_Sectional.asp?Year=$Year&Class=$class"
     $sectionalUrl = "${base}qualifiers_State.asp?Year=$Year&Class=$class"
     $stateUrl = "${base}scoreboards/index.asp?Year=$Year&Class=$class"
     $regionalHtml = Get-OfficialPage $regionalUrl "$Year Class $class Regional Champions/Sectional Matchups"
     $sectionalHtml = Get-OfficialPage $sectionalUrl "$Year Class $class Sectional Champions/State Qualifiers"
-    $stateHtml = Get-OfficialPage $stateUrl "$($number)th Grade Class 2A  State Tournament"
-    $rosters = if ($Year -eq 2026) { Get-RegionalRosters $grade } else { $null }
-    $regionals = Read-Regionals $regionalHtml $regionalUrl $rosters
+    $stateHtml = Get-OfficialPage $stateUrl "$($number)th Grade Class $ClassName  State Tournament"
+    $hasRoster = (Test-Path -LiteralPath (Join-Path $SitePath "$grade\data.json") -PathType Leaf) -or
+        (Split-Path $SitePath -Leaf) -eq "$Year"
+    $rosters = if ($hasRoster) { Get-RegionalRosters $grade } else { $null }
+    $regionalPairings = Read-Regionals $regionalHtml $regionalUrl $rosters
+    $regionals = $regionalPairings.results
     $sectionals = Read-Sectionals $sectionalHtml $sectionalUrl $regionals
-    $state = Read-Scoreboard $stateHtml $number $stateUrl $sectionals
+    $state = Read-Scoreboard $stateHtml $number $stateUrl $sectionals $regionals
     $captures[$grade] = [pscustomobject]@{
         updatedAt = (Get-Date).ToString('yyyy-MM-dd HH:mm')
         year = $Year
         grade = $grade
         regionals = $regionals
+        sectionalPairingRecords = $regionalPairings.records
         sectionals = $sectionals
         quarterfinalMatchups = $state.matchups
         games = $state.games

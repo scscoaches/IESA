@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2023,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Carrollton St. John",
+                                 "loser":  "Bunker Hill Wolf Ridge",
+                                 "score":  "23-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Ottawa Wallace",
+                                "loser":  "Marseilles Milton Pope (Co-op)",
+                                "score":  "34-8",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Champaign Next Generation (Co-op)",
+                                "score":  "32-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Oakland Lake Crest (Co-op)",
+                                 "loser":  "Hume Shiloh",
+                                 "score":  "29-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Cambridge JHS",
+                                 "loser":  "Kewanee Visitation",
+                                 "score":  "27-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Gardner (Co-op)",
+                                "loser":  "Mazon-Verona-Kinsman",
+                                "score":  "27-8",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Washington St. Patrick",
+                                "loser":  "Lincoln West Lincoln-Broadwell",
+                                "score":  "37-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Rantoul St. Malachy",
+                                 "loser":  "Cissna Park (Co-op)",
+                                 "score":  "28-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Lockport Taft",
+                                "loser":  "Grant Park",
+                                "score":  "26-7",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Peoria St. Jude",
+                                "loser":  "Peoria Limestone Walters",
+                                "score":  "30-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Neoga",
+                                 "score":  "34-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Flanagan (Co-op)",
+                                "loser":  "Roanoke-Benson",
+                                "score":  "20-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Kinderhook Western",
+                                 "loser":  "Springfield Christ the King",
+                                 "score":  "23-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Lexington",
+                                "loser":  "Normal Epiphany",
+                                "score":  "34-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "Peru Catholic",
+                                "loser":  "LaSalle Dimmick",
+                                "score":  "19-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Kincaid South Fork (Co-op)",
+                                 "score":  "41-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Carrollton St. John",
+                                               "record":  "13-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Ottawa Wallace",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "12-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Oakland Lake Crest (Co-op)",
+                                               "record":  "13-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Cambridge JHS",
+                                               "record":  "17-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Gardner (Co-op)",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Washington St. Patrick",
+                                              "record":  "24-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Rantoul St. Malachy",
+                                               "record":  "21-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lockport Taft",
+                                              "record":  "9-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Peoria St. Jude",
+                                              "record":  "13-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Flanagan (Co-op)",
+                                              "record":  "16-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Kinderhook Western",
+                                               "record":  "9-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Lexington",
+                                              "record":  "11-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Peru Catholic",
+                                              "record":  "14-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Pana Sacred Heart",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "24-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "Lexington",
+                                 "score":  "33-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Peru Catholic",
+                                 "loser":  "Ottawa Wallace",
+                                 "score":  "25-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Gardner (Co-op)",
+                                 "loser":  "Lockport Taft",
+                                 "score":  "44-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Washington St. Patrick",
+                                 "loser":  "Flanagan (Co-op)",
+                                 "score":  "47-5",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Rantoul St. Malachy",
+                                 "loser":  "Oakland Lake Crest (Co-op)",
+                                 "score":  "23-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Peoria St. Jude",
+                                 "loser":  "Cambridge JHS",
+                                 "score":  "17-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Kinderhook Western",
+                                 "loser":  "Carrollton St. John",
+                                 "score":  "23-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           2,
+                                           3
+                                       ],
+                                 "4":  [
+                                           4,
+                                           1
+                                       ],
+                                 "1":  [
+                                           5,
+                                           8
+                                       ],
+                                 "3":  [
+                                           6,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Peru Catholic",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           13,
+                                           27
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Peru Catholic",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Rantoul St. Malachy",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           2,
+                                           25
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Rantoul St. Malachy",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Peru Catholic",
+                                          "Champaign St. Matthew"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           20
+                                       ],
+                            "winner":  "Peru Catholic",
+                            "loser":  "Champaign St. Matthew",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Peoria St. Jude",
+                                          "Kinderhook Western"
+                                      ],
+                            "scores":  [
+                                           7,
+                                           21
+                                       ],
+                            "winner":  "Kinderhook Western",
+                            "loser":  "Peoria St. Jude",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Washington St. Patrick",
+                                          "Gardner (Co-op)"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           13
+                                       ],
+                            "winner":  "Washington St. Patrick",
+                            "loser":  "Gardner (Co-op)",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Sigel St. Michael\u0027s",
+                                          "Washington St. Patrick"
+                                      ],
+                            "scores":  [
+                                           11,
+                                           39
+                                       ],
+                            "winner":  "Washington St. Patrick",
+                            "loser":  "Sigel St. Michael\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Kinderhook Western",
+                                          "Peru Catholic"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           20
+                                       ],
+                            "winner":  "Kinderhook Western",
+                            "loser":  "Peru Catholic",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Kinderhook Western",
+                                          "Washington St. Patrick"
+                                      ],
+                            "scores":  [
+                                           6,
+                                           22
+                                       ],
+                            "winner":  "Washington St. Patrick",
+                            "loser":  "Kinderhook Western",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-1A"
+                        }
+              }
+}

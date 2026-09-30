@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2025,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Hardin Calhoun (Co-op)",
+                                 "loser":  "Greenfield (Co-op)",
+                                 "score":  "49-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Seneca",
+                                "loser":  "Mazon-Verona-Kinsman",
+                                "score":  "41-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Glasford Illini Bluffs",
+                                "loser":  "Green Valley Midwest Central",
+                                "score":  "34-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Liberty",
+                                 "score":  "43-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Decatur Our Lady of Lourdes (Co-op)",
+                                 "loser":  "Decatur Dansby",
+                                 "score":  "37-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Rockford Montessori",
+                                "loser":  "Lockport Kelvin Grove",
+                                "score":  "40-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Bloomington Corpus Christi",
+                                "loser":  "Heyworth",
+                                "score":  "21-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Mt. Sterling Brown County (Co-op)",
+                                 "loser":  "Mason City Illini Central (Co-op)",
+                                 "score":  "32-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Kankakee Bishop McNamara",
+                                "loser":  "Riverdale Washington",
+                                "score":  "34-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Sidell Salt Fork",
+                                "loser":  "Villa Grove",
+                                "score":  "24-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Dieterich",
+                                 "loser":  "Albion (Co-op)",
+                                 "score":  "38-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Oakwood GS",
+                                "loser":  "Champaign International",
+                                "score":  "27-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Springfield Christian",
+                                 "loser":  "Morrisonville JHS (Co-op)",
+                                 "score":  "38-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Knoxville JHS",
+                                "loser":  "Peoria St. Philomena",
+                                "score":  "31-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Spring Valley Kennedy",
+                                "loser":  "Cambridge JHS",
+                                "score":  "29-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Toledo Cumberland",
+                                 "score":  "37-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Hardin Calhoun (Co-op)",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Seneca",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Glasford Illini Bluffs",
+                                              "record":  "18-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Carthage",
+                                               "record":  "20-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Decatur Our Lady of Lourdes (Co-op)",
+                                               "record":  "16-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Rockford Montessori",
+                                              "record":  "9-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Bloomington Corpus Christi",
+                                              "record":  "20-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Mt. Sterling Brown County (Co-op)",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Kankakee Bishop McNamara",
+                                              "record":  "15-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Sidell Salt Fork",
+                                              "record":  "18-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Dieterich",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Oakwood GS",
+                                              "record":  "13-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Springfield Christian",
+                                               "record":  "18-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Knoxville JHS",
+                                              "record":  "18-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Spring Valley Kennedy",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "15-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Dieterich",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "31-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Glasford Illini Bluffs",
+                                 "loser":  "Knoxville JHS",
+                                 "score":  "43-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Spring Valley Kennedy",
+                                 "loser":  "Seneca",
+                                 "score":  "23-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Kankakee Bishop McNamara",
+                                 "loser":  "Rockford Montessori",
+                                 "score":  "26-3",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Bloomington Corpus Christi",
+                                 "loser":  "Oakwood GS",
+                                 "score":  "29-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Mt. Sterling Brown County (Co-op)",
+                                 "loser":  "Carthage",
+                                 "score":  "31-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Sidell Salt Fork",
+                                 "loser":  "Decatur Our Lady of Lourdes (Co-op)",
+                                 "score":  "39-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Springfield Christian",
+                                 "loser":  "Hardin Calhoun (Co-op)",
+                                 "score":  "30-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           8
+                                       ],
+                                 "4":  [
+                                           1,
+                                           3
+                                       ],
+                                 "1":  [
+                                           7,
+                                           2
+                                       ],
+                                 "3":  [
+                                           6,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Dieterich",
+                                          "Glasford Illini Bluffs"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           36
+                                       ],
+                            "winner":  "Glasford Illini Bluffs",
+                            "loser":  "Dieterich",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Mt. Sterling Brown County (Co-op)",
+                                          "Bloomington Corpus Christi"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           18
+                                       ],
+                            "winner":  "Mt. Sterling Brown County (Co-op)",
+                            "loser":  "Bloomington Corpus Christi",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Sidell Salt Fork",
+                                          "Springfield Christian"
+                                      ],
+                            "scores":  [
+                                           15,
+                                           33
+                                       ],
+                            "winner":  "Springfield Christian",
+                            "loser":  "Sidell Salt Fork",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Dieterich",
+                                          "Spring Valley Kennedy"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           21
+                                       ],
+                            "winner":  "Dieterich",
+                            "loser":  "Spring Valley Kennedy",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Kankakee Bishop McNamara",
+                                          "Glasford Illini Bluffs"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           39
+                                       ],
+                            "winner":  "Glasford Illini Bluffs",
+                            "loser":  "Kankakee Bishop McNamara",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Mt. Sterling Brown County (Co-op)",
+                                          "Glasford Illini Bluffs"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           32
+                                       ],
+                            "winner":  "Mt. Sterling Brown County (Co-op)",
+                            "loser":  "Glasford Illini Bluffs",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Dieterich",
+                                          "Springfield Christian"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           45
+                                       ],
+                            "winner":  "Springfield Christian",
+                            "loser":  "Dieterich",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Springfield Christian",
+                                          "Mt. Sterling Brown County (Co-op)"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           30
+                                       ],
+                            "winner":  "Springfield Christian",
+                            "loser":  "Mt. Sterling Brown County (Co-op)",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        }
+              }
+}

@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2016,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Pocahontas",
+                                 "score":  "49-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "LaSalle Trinity Catholic",
+                                "loser":  "Ottawa Marquette",
+                                "score":  "24-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Lexington",
+                                "loser":  "Normal Epiphany",
+                                "score":  "30-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Springfield Christian",
+                                 "score":  "41-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Royal Prairieview Ogden",
+                                 "loser":  "Champaign Holy Cross",
+                                 "score":  "43-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Piper City Tri-Point",
+                                "loser":  "Donovan",
+                                "score":  "20-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Cuba",
+                                "loser":  "London Mills Valley",
+                                "score":  "40-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Decatur Our Lady of Lourdes",
+                                 "loser":  "Mt. Pulaski",
+                                 "score":  "32-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Ford Heights Cottage Grove UGC",
+                                "loser":  "Rockdale",
+                                "score":  "20-2",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Hume Shiloh",
+                                "loser":  "Armstrong-Ellis",
+                                "score":  "31-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Carrollton St. John",
+                                 "loser":  "Hardin Calhoun",
+                                 "score":  "20-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Peoria St. Jude",
+                                "loser":  "Peoria Academy",
+                                "score":  "35-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Dieterich",
+                                 "loser":  "Sigel St. Michael\u0027s",
+                                 "score":  "34-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Washington St. Patrick",
+                                "loser":  "Morton Blessed Sacrament",
+                                "score":  "36-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Marseilles Milton Pope",
+                                "score":  "16-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Ashland A-C Central",
+                                 "score":  "31-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Pana Sacred Heart",
+                                               "record":  "21-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "LaSalle Trinity Catholic",
+                                              "record":  "16-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Lexington",
+                                              "record":  "16-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Lincoln West Lincoln-Broadwell",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Royal Prairieview Ogden",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Piper City Tri-Point",
+                                              "record":  "10-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Cuba",
+                                              "record":  "14-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Decatur Our Lady of Lourdes",
+                                               "record":  "19-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Ford Heights Cottage Grove UGC",
+                                              "record":  "4-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Hume Shiloh",
+                                              "record":  "7-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Carrollton St. John",
+                                               "record":  "13-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Peoria St. Jude",
+                                              "record":  "12-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Dieterich",
+                                               "record":  "16-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Washington St. Patrick",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Pontiac St. Mary\u0027s",
+                                              "record":  "16-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Carthage",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Carrollton St. John",
+                                 "score":  "32-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Washington St. Patrick",
+                                 "loser":  "Lexington",
+                                 "score":  "14-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "LaSalle Trinity Catholic",
+                                 "loser":  "Pontiac St. Mary\u0027s",
+                                 "score":  "21-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Piper City Tri-Point",
+                                 "loser":  "Ford Heights Cottage Grove UGC",
+                                 "score":  "32-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Cuba",
+                                 "loser":  "Peoria St. Jude",
+                                 "score":  "43-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Decatur Our Lady of Lourdes",
+                                 "score":  "50-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Royal Prairieview Ogden",
+                                 "loser":  "Hume Shiloh",
+                                 "score":  "47-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Dieterich",
+                                 "score":  "43-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           2
+                                       ],
+                                 "4":  [
+                                           7,
+                                           4
+                                       ],
+                                 "1":  [
+                                           5,
+                                           8
+                                       ],
+                                 "3":  [
+                                           1,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Washington St. Patrick",
+                                          "Carthage"
+                                      ],
+                            "scores":  [
+                                           18,
+                                           36
+                                       ],
+                            "winner":  "Carthage",
+                            "loser":  "Washington St. Patrick",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Piper City Tri-Point",
+                                          "Lincoln West Lincoln-Broadwell"
+                                      ],
+                            "scores":  [
+                                           12,
+                                           44
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Piper City Tri-Point",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Washington St. Patrick",
+                                          "LaSalle Trinity Catholic"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           17
+                                       ],
+                            "winner":  "Washington St. Patrick",
+                            "loser":  "LaSalle Trinity Catholic",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Royal Prairieview Ogden",
+                                          "Pana Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           40
+                                       ],
+                            "winner":  "Pana Sacred Heart",
+                            "loser":  "Royal Prairieview Ogden",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Carthage",
+                                          "Cuba"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           14
+                                       ],
+                            "winner":  "Carthage",
+                            "loser":  "Cuba",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Lincoln West Lincoln-Broadwell",
+                                          "Carthage"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           27
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Carthage",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Pana Sacred Heart",
+                                          "Washington St. Patrick"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           11
+                                       ],
+                            "winner":  "Pana Sacred Heart",
+                            "loser":  "Washington St. Patrick",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Pana Sacred Heart",
+                                          "Lincoln West Lincoln-Broadwell"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           40
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Pana Sacred Heart",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-1A"
+                        }
+              }
+}

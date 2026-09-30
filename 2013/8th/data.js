@@ -1,0 +1,394 @@
+﻿window.tournamentData = {
+    "year":  2013,
+    "grade":  "8th",
+    "className":  "1A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Joliet Laraway",
+                          "teams":  [
+                                        "Lockport Taft",
+                                        "Joliet Laraway",
+                                        "Rockdale",
+                                        "Lockport Fairmont",
+                                        "Joliet Union"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Tonica",
+                          "teams":  [
+                                        "Tonica",
+                                        "Ottawa Marquette",
+                                        "Oglesby Holy Family",
+                                        "Ransom",
+                                        "LaSalle Trinity Catholic",
+                                        "Marseilles Milton Pope"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Kankakee Aquinas",
+                          "teams":  [
+                                        "Bourbonnais St. Paul\u0027s",
+                                        "Bourbonnais Maternity BVM",
+                                        "St. Anne",
+                                        "Bradley St. Joseph",
+                                        "Kankakee Aquinas"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Crescent City",
+                          "teams":  [
+                                        "Crescent City",
+                                        "Cissna Park",
+                                        "Buckley St. John\u0027s",
+                                        "Piper City Tri-Point",
+                                        "Rossville-Alvin",
+                                        "Donovan"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Odell",
+                          "teams":  [
+                                        "Colfax Ridgeview",
+                                        "Odell",
+                                        "Bloomington Cornerstone",
+                                        "Normal Epiphany",
+                                        "Pontiac St. Mary\u0027s"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Spring Bay Riverview",
+                          "teams":  [
+                                        "Morton Blessed Sacrament",
+                                        "Washington St. Patrick",
+                                        "Spring Bay Riverview",
+                                        "Normal Calvary",
+                                        "Bloomington St. Mary\u0027s"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Peoria Academy",
+                          "teams":  [
+                                        "Peoria St. Mark",
+                                        "Peoria Limestone Walters",
+                                        "Peoria Hollis",
+                                        "Peoria Academy",
+                                        "Peoria Holy Family"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "South Pekin",
+                          "teams":  [
+                                        "Bartonville Monroe",
+                                        "Pekin Rankin",
+                                        "Pekin St. Joseph",
+                                        "London Mills Valley",
+                                        "South Pekin",
+                                        "Bartonville GS"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Hume Shiloh",
+                          "teams":  [
+                                        "Danville Schlarman",
+                                        "Royal Prairieview Ogden",
+                                        "Hume Shiloh",
+                                        "Homer Heritage",
+                                        "Sidell Jamaica",
+                                        "Chrisman Scottland"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Champaign Next Generation",
+                          "teams":  [
+                                        "Champaign Holy Cross",
+                                        "Armstrong-Ellis",
+                                        "Rantoul St. Malachy",
+                                        "Champaign St. John",
+                                        "Champaign Judah Christian",
+                                        "Gifford",
+                                        "Champaign Next Generation"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Decatur Holy Family",
+                          "teams":  [
+                                        "Atwood-Hammond",
+                                        "Mt. Pulaski",
+                                        "Decatur Our Lady of Lourdes",
+                                        "Decatur Holy Family",
+                                        "Bement",
+                                        "DeLand-Weldon"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Lincoln West Lincoln-Broadwell",
+                          "teams":  [
+                                        "Lincoln West Lincoln-Broadwell",
+                                        "Springfield Little Flower",
+                                        "Springfield Christian",
+                                        "Springfield Calvary",
+                                        "Lincoln Chester-East Lincoln"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Ashland A-C Central",
+                          "teams":  [
+                                        "Augusta Southeastern",
+                                        "Ashland A-C Central",
+                                        "Griggsville-Perry",
+                                        "Bluffs",
+                                        "Concord Triopia"
+                                    ],
+                          "assignedTeams":  [
+                                                "Ashland A-C Central",
+                                                "Augusta Southeastern",
+                                                "Bluffs",
+                                                "Griggsville-Perry"
+                                            ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Jacksonville Our Saviour",
+                          "teams":  [
+                                        "Brussels",
+                                        "Jacksonville Our Saviour",
+                                        "Greenfield",
+                                        "Jacksonville ISD",
+                                        "Pleasant Hill",
+                                        "Carrollton St. John"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Sigel St. Michael\u0027s",
+                          "teams":  [
+                                        "Sigel St. Michael\u0027s",
+                                        "Effingham Sacred Heart",
+                                        "Dieterich",
+                                        "Martinsville",
+                                        "Cisne"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Mulberry Grove JHS",
+                          "teams":  [
+                                        "Pana Sacred Heart",
+                                        "Pocahontas",
+                                        "Sorento",
+                                        "Mulberry Grove JHS",
+                                        "Ramsey"
+                                    ],
+                          "assignedTeams":  [
+                                                "Mulberry Grove JHS",
+                                                "Pana Sacred Heart",
+                                                "Pocahontas (Coop)",
+                                                "Ramsey"
+                                            ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Tonica",
+                           "date":  "Wednesday, December 11, 2013",
+                           "records":  {
+                                           "1":  "10-9",
+                                           "2":  "22-0"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Crescent City",
+                           "date":  "Wednesday, December 11, 2013",
+                           "records":  {
+                                           "3":  "11-9",
+                                           "4":  "15-6"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Normal Epiphany",
+                           "date":  "Wednesday, December 11, 2013",
+                           "records":  {
+                                           "5":  "16-4",
+                                           "6":  "18-3"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "South Pekin",
+                           "date":  "Wednesday, December 11, 2013",
+                           "records":  {
+                                           "7":  "17-2",
+                                           "8":  "19-2"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Hume Shiloh",
+                           "date":  "Wednesday, December 11, 2013",
+                           "records":  {
+                                           "9":  "20-0",
+                                           "10":  "18-7"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Atwood-Hammond",
+                           "date":  "Wednesday, December 11, 2013",
+                           "records":  {
+                                           "11":  "17-6",
+                                           "12":  "18-2"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Greenfield",
+                           "date":  "Wednesday, December 11, 2013",
+                           "records":  {
+                                           "13":  "20-3",
+                                           "14":  "16-7"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Pana Sacred Heart",
+                           "date":  "Wednesday, December 11, 2013",
+                           "records":  {
+                                           "15":  "19-3",
+                                           "16":  "17-2"
+                                       }
+                       }
+                   ],
+    "venue":  "Clinton JHS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              6,
+                                              1
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              5,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              7,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              8,
+                                              3
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

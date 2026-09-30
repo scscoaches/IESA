@@ -10,15 +10,15 @@
     <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
     <link rel="manifest" href="../manifest.json">
     <script src="../theme.js?v=2"></script>
-    <link rel="stylesheet" href="../styles.css?v=21">
+    <link rel="stylesheet" href="../styles.css?v=25">
     <link rel="stylesheet" href="../score-updates.css?v=2">
     <link rel="stylesheet" href="../theme.css?v=11">
     <link rel="stylesheet" href="../bracket-navigation.css?v=3">
 </head>
-<body class="app">
+<body class="app live">
     <header class="topbar">
         <div><div class="title"></div><div class="detail"></div></div>
-        <nav class="switcher"><a href="../7th/index.html">7th</a><a class="active" href="index.html">8th</a></nav>
+        <nav class="switcher" aria-label="Tournament season and grade"><select id="season-select" aria-label="Tournament year" disabled><option>Loading years...</option></select><a href="../7th/index.html">7th</a><a class="active" href="index.html">8th</a></nav>
         <div class="tools">
             <button id="find-button" type="button" aria-label="Find a team"><img src="../search-icon.svg" alt="" aria-hidden="true"></button>
             <button id="updates-button" type="button">Score updates</button>
@@ -48,13 +48,13 @@
         <div class="dialog-head"><strong id="team-name"></strong><button type="button" id="close-dialog" aria-label="Close">&times;</button></div>
         <p id="team-record">Loading official IESA results…</p>
         <table id="score-history" aria-label="Official IESA results"><tbody></tbody></table>
-        <div class="dialog-actions"><a id="official-scores" href="#" target="_blank" rel="noopener" hidden>View 8th-grade IESA basketball page</a></div>
-        <p class="record-note" id="record-note">Scores are read from IESA when they are posted. PENDING games do not affect the record.</p>
+        <div class="dialog-actions"><a id="official-scores" href="#" target="_blank" rel="noopener" hidden>IESA page</a><button id="refresh-scores" type="button" aria-label="Update this team's IESA scores"><img src="../refresh-icon.svg" alt="" aria-hidden="true">Update</button></div>
+        <p class="record-note" id="record-note" role="status">Nightly scores are read from IESA. PENDING games do not affect the record.</p>
         <form id="record-form" hidden><input id="opponent"><input id="team-score"><input id="opponent-score"></form>
     </dialog>
-    <script src="data.js?v=1"></script><script src="../bracket-8th.js?v=1"></script><script src="../regional-seeds-8th.js?v=1"></script><script src="../app.js?v=17"></script>
-    <script src="../scores-8th.js?v=1"></script><script src="../score-cache.js?v=3"></script>
-    <script src="../pointer-zoom.js?v=2"></script><script src="../spaced-layout.js?v=16"></script>
+    <script src="data.js?v=1"></script><script src="../bracket-8th.js?v=1"></script><script src="../regional-seeds-8th.js?v=1"></script><script src="../app.js?v=23"></script><script src="../season-selector.js?v=1"></script>
+    <script src="../scores-8th.js?v=1"></script><script src="../score-cache.js?v=6"></script>
+    <script src="../pointer-zoom.js?v=3"></script><script src="../spaced-layout.js?v=18"></script>
     <script src="../regional-record-sort.js?v=8"></script><script src="../score-updates.js?v=8"></script>
     <script src="../bracket-navigation.js?v=2"></script>
     <script src="../touch-navigation.js?v=2"></script>

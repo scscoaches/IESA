@@ -1,0 +1,392 @@
+﻿window.tournamentData = {
+    "year":  2017,
+    "grade":  "7th",
+    "className":  "1A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Mazon-Verona-Kinsman",
+                          "teams":  [
+                                        "Mazon-Verona-Kinsman",
+                                        "Marseilles Milton Pope",
+                                        "Odell",
+                                        "Rockdale",
+                                        "Ransom"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Ottawa Wallace",
+                          "teams":  [
+                                        "Ottawa Wallace",
+                                        "Oglesby Holy Family",
+                                        "Ottawa Marquette",
+                                        "Grand Ridge",
+                                        "Tonica",
+                                        "LaSalle Trinity Catholic"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Lockport Taft",
+                          "teams":  [
+                                        "Lockport Taft",
+                                        "St. Anne",
+                                        "Grant Park",
+                                        "Riverdale Patton"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Crescent City",
+                          "teams":  [
+                                        "Piper City Tri-Point",
+                                        "Armstrong-Ellis",
+                                        "Crescent City",
+                                        "Donovan",
+                                        "Cissna Park",
+                                        "Rossville-Alvin"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Pontiac St. Mary\u0027s",
+                          "teams":  [
+                                        "Washington St. Patrick",
+                                        "Pontiac St. Mary\u0027s",
+                                        "Spring Bay Riverview",
+                                        "Morton Blessed Sacrament",
+                                        "Lexington",
+                                        "Lowpoint-Washburn"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Peoria St. Jude",
+                          "teams":  [
+                                        "Annawan",
+                                        "Peoria St. Jude",
+                                        "Bartonville Monroe",
+                                        "Henry-Senachwine",
+                                        "Peoria Holy Family"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Peoria Limestone Walters",
+                          "teams":  [
+                                        "Peoria Limestone Walters",
+                                        "Bartonville Oak Grove West",
+                                        "Peoria Hollis",
+                                        "Pekin St. Joseph",
+                                        "Bartonville GS",
+                                        "South Pekin",
+                                        "Pekin Rankin"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Monmouth ICS",
+                          "teams":  [
+                                        "Monmouth ICS",
+                                        "Galva",
+                                        "Cuba",
+                                        "Williamsfield",
+                                        "Galesburg Costa",
+                                        "La Harpe",
+                                        "London Mills Valley"
+                                    ],
+                          "assignedTeams":  [
+                                                "Galesburg Costa",
+                                                "Galva",
+                                                "La Harpe (Co-op)",
+                                                "London Mills Valley (Co-op)",
+                                                "Monmouth ICS",
+                                                "Williamsfield"
+                                            ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Chrisman Scottland",
+                          "teams":  [
+                                        "Royal Prairieview Ogden",
+                                        "Oakland Lake Crest",
+                                        "Hume Shiloh",
+                                        "Chrisman Scottland",
+                                        "Homer Heritage",
+                                        "Danville Schlarman"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Rantoul St. Malachy",
+                          "teams":  [
+                                        "Gifford",
+                                        "DeLand-Weldon",
+                                        "Bement",
+                                        "Champaign Holy Cross",
+                                        "Rantoul St. Malachy"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Normal Epiphany",
+                          "teams":  [
+                                        "Lincoln West Lincoln-Broadwell",
+                                        "Normal Calvary",
+                                        "Normal Epiphany",
+                                        "Lincoln Chester-East Lincoln",
+                                        "Lincoln Carroll Catholic",
+                                        "Bloomington Cornerstone"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Ashland A-C Central",
+                          "teams":  [
+                                        "Ashland A-C Central",
+                                        "Mt. Pulaski",
+                                        "Buffalo Tri-City",
+                                        "Springfield St. Aloysius",
+                                        "Springfield St. Agnes",
+                                        "Springfield Christian"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Pana Sacred Heart",
+                          "teams":  [
+                                        "Decatur Lutheran",
+                                        "Pana Sacred Heart",
+                                        "Decatur Holy Family",
+                                        "Findlay Okaw Valley",
+                                        "Decatur Our Lady of Lourdes"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Dieterich",
+                          "teams":  [
+                                        "Sigel St. Michael\u0027s",
+                                        "Dieterich",
+                                        "Ramsey",
+                                        "Effingham Sacred Heart",
+                                        "Martinsville"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Jacksonville Our Saviour",
+                          "teams":  [
+                                        "Jacksonville Our Saviour",
+                                        "Kinderhook Western",
+                                        "Bluffs",
+                                        "Payson Seymour",
+                                        "Pleasant Hill"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Carrollton St. John",
+                          "teams":  [
+                                        "Carrollton St. John",
+                                        "Hardin Calhoun",
+                                        "Pocahontas",
+                                        "Brussels",
+                                        "Mulberry Grove JHS",
+                                        "Mt. Olive"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Mazon-Verona-Kinsman",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "1":  "11-8",
+                                           "2":  "23-0"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Crescent City",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "3":  "9-2",
+                                           "4":  "20-4"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Washington St. Patrick",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "5":  "14-10",
+                                           "6":  "20-2"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Monmouth ICS",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "7":  "15-4",
+                                           "8":  "19-2"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Danville Schlarman",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "9":  "12-6",
+                                           "10":  "20-0"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Normal Epiphany",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "11":  "24-0",
+                                           "12":  "20-2"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Findlay Okaw Valley",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "13":  "17-3",
+                                           "14":  "19-4"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Carrollton St. John",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "15":  "11-7",
+                                           "16":  "18-1"
+                                       }
+                       }
+                   ],
+    "venue":  "Assumption Central A \u0026 M MS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              5,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              4,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              1,
+                                              3
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              2,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

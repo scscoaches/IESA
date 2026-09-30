@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2025,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Greenfield (Co-op)",
+                                 "loser":  "Hardin Calhoun (Co-op)",
+                                 "score":  "23-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "Seneca",
+                                "loser":  "Wenona Fieldcrest",
+                                "score":  "22-4",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Glasford Illini Bluffs",
+                                "loser":  "Green Valley Midwest Central",
+                                "score":  "25-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Camp Point Central",
+                                 "score":  "50-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Lincoln Chester-East Lincoln (Co-op)",
+                                 "loser":  "Decatur Our Lady of Lourdes (Co-op)",
+                                 "score":  "31-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Joliet Laraway",
+                                "loser":  "Lockport Kelvin Grove",
+                                "score":  "13-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Bloomington Corpus Christi",
+                                "loser":  "Heyworth",
+                                "score":  "41-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Mt. Sterling Brown County (Co-op)",
+                                 "loser":  "Petersburg PORTA JHS",
+                                 "score":  "44-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Riverdale Washington",
+                                "loser":  "Dolton Roosevelt",
+                                "score":  "40-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Sidell Salt Fork",
+                                "loser":  "Cerro Gordo (Co-op)",
+                                "score":  "20-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Albion (Co-op)",
+                                 "loser":  "Kinmundy South Central (Co-op)",
+                                 "score":  "26-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Oakwood GS",
+                                "score":  "20-8",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Morrisonville JHS (Co-op)",
+                                 "loser":  "Springfield Christian",
+                                 "score":  "33-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Knoxville JHS",
+                                "loser":  "Princeville",
+                                "score":  "41-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "Manlius Bureau Valley JHS",
+                                "loser":  "Roanoke-Benson",
+                                "score":  "33-6",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Casey-Westfield",
+                                 "score":  "33-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Greenfield (Co-op)",
+                                               "record":  "14-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Seneca",
+                                              "record":  "17-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Glasford Illini Bluffs",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Carthage",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Lincoln Chester-East Lincoln (Co-op)",
+                                               "record":  "15-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Joliet Laraway",
+                                              "record":  "11-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Bloomington Corpus Christi",
+                                              "record":  "18-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Mt. Sterling Brown County (Co-op)",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Riverdale Washington",
+                                              "record":  "17-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Sidell Salt Fork",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Albion (Co-op)",
+                                               "record":  "18-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "7-16",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Morrisonville JHS (Co-op)",
+                                               "record":  "18-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Knoxville JHS",
+                                              "record":  "22-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Manlius Bureau Valley JHS",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Paris Crestwood",
+                                               "record":  "17-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Albion (Co-op)",
+                                 "loser":  "Paris Crestwood",
+                                 "score":  "35-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Glasford Illini Bluffs",
+                                 "loser":  "Knoxville JHS",
+                                 "score":  "32-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Manlius Bureau Valley JHS",
+                                 "loser":  "Seneca",
+                                 "score":  "35-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Riverdale Washington",
+                                 "loser":  "Joliet Laraway",
+                                 "score":  "23-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Bloomington Corpus Christi",
+                                 "loser":  "Champaign St. Matthew",
+                                 "score":  "36-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Mt. Sterling Brown County (Co-op)",
+                                 "loser":  "Carthage",
+                                 "score":  "41-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Lincoln Chester-East Lincoln (Co-op)",
+                                 "loser":  "Sidell Salt Fork",
+                                 "score":  "28-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Greenfield (Co-op)",
+                                 "loser":  "Morrisonville JHS (Co-op)",
+                                 "score":  "27-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           4
+                                       ],
+                                 "4":  [
+                                           8,
+                                           7
+                                       ],
+                                 "1":  [
+                                           3,
+                                           5
+                                       ],
+                                 "3":  [
+                                           1,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Glasford Illini Bluffs",
+                                          "Greenfield (Co-op)"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           27
+                                       ],
+                            "winner":  "Greenfield (Co-op)",
+                            "loser":  "Glasford Illini Bluffs",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Riverdale Washington",
+                                          "Manlius Bureau Valley JHS"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           37
+                                       ],
+                            "winner":  "Manlius Bureau Valley JHS",
+                            "loser":  "Riverdale Washington",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Mt. Sterling Brown County (Co-op)",
+                                          "Bloomington Corpus Christi"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           25
+                                       ],
+                            "winner":  "Mt. Sterling Brown County (Co-op)",
+                            "loser":  "Bloomington Corpus Christi",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Glasford Illini Bluffs",
+                                          "Lincoln Chester-East Lincoln (Co-op)"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           17
+                                       ],
+                            "winner":  "Glasford Illini Bluffs",
+                            "loser":  "Lincoln Chester-East Lincoln (Co-op)",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Greenfield (Co-op)",
+                                          "Albion (Co-op)"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           26
+                                       ],
+                            "winner":  "Greenfield (Co-op)",
+                            "loser":  "Albion (Co-op)",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Manlius Bureau Valley JHS",
+                                          "Greenfield (Co-op)"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           14
+                                       ],
+                            "winner":  "Manlius Bureau Valley JHS",
+                            "loser":  "Greenfield (Co-op)",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Glasford Illini Bluffs",
+                                          "Mt. Sterling Brown County (Co-op)"
+                                      ],
+                            "scores":  [
+                                           18,
+                                           38
+                                       ],
+                            "winner":  "Mt. Sterling Brown County (Co-op)",
+                            "loser":  "Glasford Illini Bluffs",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Mt. Sterling Brown County (Co-op)",
+                                          "Manlius Bureau Valley JHS"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           18
+                                       ],
+                            "winner":  "Mt. Sterling Brown County (Co-op)",
+                            "loser":  "Manlius Bureau Valley JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=7-2A"
+                        }
+              }
+}

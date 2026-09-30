@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2010,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Carrollton St. John",
+                                 "loser":  "Pleasant Hill",
+                                 "score":  "18-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "Ottawa Marquette",
+                                "loser":  "Morris Nettle Creek",
+                                "score":  "31-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Cissna Park",
+                                "loser":  "Crescent City",
+                                "score":  "22-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Cairo",
+                                 "loser":  "Effingham Sacred Heart",
+                                 "score":  "44-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "London Mills Valley",
+                                 "score":  "42-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Gardner",
+                                "loser":  "Joliet Laraway",
+                                "score":  "49-36",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Flanagan",
+                                "loser":  "Bloomington St. Mary\u0027s",
+                                "score":  "30-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Martinsville",
+                                 "loser":  "Dieterich",
+                                 "score":  "21-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Bourbonnais Maternity BVM",
+                                "loser":  "Bradley St. Joseph",
+                                "score":  "43-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Washington St. Patrick",
+                                "loser":  "Morton Blessed Sacrament",
+                                "score":  "30-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Sorento",
+                                 "score":  "41-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Bement",
+                                "loser":  "Atwood-Hammond",
+                                "score":  "21-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Springfield Little Flower",
+                                 "loser":  "Springfield Christian",
+                                 "score":  "28-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "Catlin",
+                                "loser":  "Royal Prairieview Ogden",
+                                "score":  "22-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Oglesby Holy Family",
+                                "loser":  "Tonica",
+                                "score":  "28-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Decatur Our Lady of Lourdes",
+                                 "loser":  "Mt. Pulaski",
+                                 "score":  "21-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Carrollton St. John",
+                                               "record":  "5-12",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Ottawa Marquette",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Cissna Park",
+                                              "record":  "17-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Cairo",
+                                               "record":  "7-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Bartonville Monroe",
+                                               "record":  "19-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Gardner",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Flanagan",
+                                              "record":  "13-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Martinsville",
+                                               "record":  "11-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Bourbonnais Maternity BVM",
+                                              "record":  "19-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Washington St. Patrick",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Pana Sacred Heart",
+                                               "record":  "6-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Bement",
+                                              "record":  "4-14",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Springfield Little Flower",
+                                               "record":  "17-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Catlin",
+                                              "record":  "14-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Oglesby Holy Family",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Decatur Our Lady of Lourdes",
+                                               "record":  "15-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Decatur Our Lady of Lourdes",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "28-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Cissna Park",
+                                 "loser":  "Catlin",
+                                 "score":  "22-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Ottawa Marquette",
+                                 "loser":  "Oglesby Holy Family",
+                                 "score":  "35-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Bourbonnais Maternity BVM",
+                                 "loser":  "Gardner",
+                                 "score":  "41-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Flanagan",
+                                 "loser":  "Bement",
+                                 "score":  "39-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Cairo",
+                                 "loser":  "Martinsville",
+                                 "score":  "49-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "Washington St. Patrick",
+                                 "score":  "40-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Springfield Little Flower",
+                                 "loser":  "Carrollton St. John",
+                                 "score":  "31-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           2,
+                                           7
+                                       ],
+                                 "4":  [
+                                           8,
+                                           3
+                                       ],
+                                 "1":  [
+                                           4,
+                                           5
+                                       ],
+                                 "3":  [
+                                           6,
+                                           1
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Ottawa Marquette",
+                                          "Cissna Park"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           24
+                                       ],
+                            "winner":  "Ottawa Marquette",
+                            "loser":  "Cissna Park",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Cairo",
+                                          "Bourbonnais Maternity BVM"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           53
+                                       ],
+                            "winner":  "Bourbonnais Maternity BVM",
+                            "loser":  "Cairo",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Ottawa Marquette",
+                                          "Decatur Our Lady of Lourdes"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           37
+                                       ],
+                            "winner":  "Ottawa Marquette",
+                            "loser":  "Decatur Our Lady of Lourdes",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Flanagan",
+                                          "Bartonville Monroe"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           42
+                                       ],
+                            "winner":  "Bartonville Monroe",
+                            "loser":  "Flanagan",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Springfield Little Flower",
+                                          "Cissna Park"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           20
+                                       ],
+                            "winner":  "Cissna Park",
+                            "loser":  "Springfield Little Flower",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Bourbonnais Maternity BVM",
+                                          "Cissna Park"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           23
+                                       ],
+                            "winner":  "Bourbonnais Maternity BVM",
+                            "loser":  "Cissna Park",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Bartonville Monroe",
+                                          "Ottawa Marquette"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           31
+                                       ],
+                            "winner":  "Bartonville Monroe",
+                            "loser":  "Ottawa Marquette",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Bartonville Monroe",
+                                          "Bourbonnais Maternity BVM"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           43
+                                       ],
+                            "winner":  "Bourbonnais Maternity BVM",
+                            "loser":  "Bartonville Monroe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-1A"
+                        }
+              }
+}

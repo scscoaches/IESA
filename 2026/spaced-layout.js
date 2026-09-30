@@ -6,8 +6,13 @@
     var viewport = document.getElementById("viewport");
     var svg = bracket.querySelector("svg");
     var groupHeight = 300;
-    var order = [].concat.apply([], data.quarterfinals.map(function (game) { return game.matchup; }));
-    var flipHalves = data.grade === "7th";
+    var order = [].concat.apply([], data.quarterfinals.map(function (game) {
+        return game.matchup;
+    })).filter(function (id) { return Number.isInteger(id) && id >= 1 && id <= 8; });
+    data.sectionals.forEach(function (sectional) {
+        if (order.indexOf(sectional.id) === -1) order.push(sectional.id);
+    });
+    var flipHalves = data.grade === "7th" && (data.year || 2026) === 2026;
     var searchedCard;
 
     function setPosition(id, left, top) {
@@ -71,7 +76,9 @@
         sectional.regionals.forEach(function (regionalId) { connect("r" + regionalId, "s" + sectional.id); });
     });
     data.quarterfinals.forEach(function (game) {
-        game.matchup.forEach(function (sectionalId) { connect("s" + sectionalId, "q" + game.game); });
+        game.matchup.forEach(function (sectionalId) {
+            if (sectionalId) connect("s" + sectionalId, "q" + game.game);
+        });
     });
     data.semifinals.forEach(function (game) {
         game.matchup.forEach(function (quarterfinalId) { connect("q" + quarterfinalId, "m" + game.game); });

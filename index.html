@@ -1,1 +1,55 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=2026/index.html"><title>IESA Girls Basketball</title><link rel="canonical" href="2026/index.html"></head><body><p>Redirecting to the <a href="2026/index.html">2026 IESA Girls Basketball bracket</a>&hellip;</p></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>IESA Girls Basketball Brackets</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="2026/favicon.png">
+    <style>
+        body{margin:0;min-height:100vh;padding:28px;box-sizing:border-box;background:#101d4d;color:#fff;font:16px Arial,Helvetica,sans-serif}
+        main{max-width:850px;margin:35px auto}
+        h1{font-size:clamp(30px,5vw,48px)}
+        .season{padding:18px;margin:14px 0;background:#24325c;border-radius:8px}
+        .season h2{margin:0 0 12px}
+        .season a{display:inline-block;margin:4px 10px 4px 0;padding:10px 16px;border-radius:5px;background:#fff;color:#2533ba;text-decoration:none;font-weight:bold}
+        .season small{color:#cbd1ff}
+    </style>
+</head>
+<body>
+    <main>
+        <h1>IESA Girls Basketball Brackets</h1>
+        <p>Explore 7th- and 8th-grade regional, sectional, and state tournament brackets by season.</p>
+        <div id="seasons" aria-live="polite">Loading seasons...</div>
+        <noscript><p><a href="2026/index.html" style="color:white">2026 Class 2A tournament</a></p></noscript>
+    </main>
+    <script>
+        fetch("seasons.json", { cache: "no-store" }).then(function(response) {
+            if (!response.ok) { throw new Error("Season list could not be loaded (HTTP " + response.status + ")."); }
+            return response.json();
+        }).then(function(seasons) {
+            if (!Array.isArray(seasons) || !seasons.length) { throw new Error("No seasons are listed."); }
+            var list = document.getElementById("seasons");
+            list.replaceChildren();
+            seasons.forEach(function(season) {
+                var section = document.createElement("section");
+                section.className = "season";
+                var title = document.createElement("h2");
+                title.textContent = season.year + " Class " + season.className;
+                section.appendChild(title);
+                ["7th", "8th"].forEach(function(grade) {
+                    var link = document.createElement("a");
+                    link.href = season.year + "/" + grade + "/index.html";
+                    link.textContent = grade + " Grade";
+                    section.appendChild(link);
+                });
+                var note = document.createElement("small");
+                note.textContent = season.archived ? "Completed season" : "Current season";
+                section.appendChild(note);
+                list.appendChild(section);
+            });
+        }).catch(function(error) {
+            document.getElementById("seasons").textContent = error.message;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,344 @@
+﻿{
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2008,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Augusta Southeastern",
+                                 "loser":  "Griggsville-Perry",
+                                 "score":  "35-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Marseilles Milton Pope",
+                                "loser":  "Mazon-Verona-Kinsman",
+                                "score":  "28-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Crescent City",
+                                "loser":  "Cissna Park",
+                                "score":  "14-5",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Beecher City",
+                                 "score":  "22-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Decatur Holy Family",
+                                 "loser":  "Decatur Lutheran",
+                                 "score":  "19-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Kankakee Aquinas",
+                                "loser":  "Bourbonnais Maternity BVM",
+                                "score":  "26-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Peoria Limestone Walters",
+                                "loser":  "Bartonville Monroe",
+                                "score":  "37-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Louisville North Clay",
+                                 "loser":  "Martinsville",
+                                 "score":  "42-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Elwood GS",
+                                "loser":  "Riverdale Patton",
+                                "score":  "37-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Champaign Judah Christian",
+                                "loser":  "Philo St. Thomas",
+                                "score":  "36-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Mulberry Grove JHS",
+                                 "loser":  "Morrisonville JHS",
+                                 "score":  "35-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Normal Epiphany",
+                                "loser":  "Lexington",
+                                "score":  "18-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Carrollton St. John",
+                                 "loser":  "Hardin Calhoun",
+                                 "score":  "34-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Gifford",
+                                "loser":  "Rantoul St. Malachy",
+                                "score":  "14-12",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "Grand Ridge",
+                                "loser":  "Ottawa Wallace",
+                                "score":  "15-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Springfield Christian",
+                                 "loser":  "Springfield Calvary",
+                                 "score":  "43-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "3":  {
+                                              "team":  "Marseilles Milton Pope",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Crescent City",
+                                              "record":  "9-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                                          },
+                                    "16":  {
+                                               "team":  "Augusta Southeastern",
+                                               "record":  "3-13",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Kankakee Aquinas",
+                                              "record":  "19-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Peoria Limestone Walters",
+                                              "record":  "21-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Louisville North Clay",
+                                               "record":  "4-13",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Elwood GS",
+                                              "record":  "15-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Champaign Judah Christian",
+                                              "record":  "15-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Mulberry Grove JHS",
+                                               "record":  "9-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Normal Epiphany",
+                                              "record":  "12-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                                          },
+                                    "6":  {
+                                              "team":  "Gifford",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Grand Ridge",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Springfield Christian",
+                                               "record":  "19-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Springfield Christian",
+                                 "loser":  "Mulberry Grove JHS",
+                                 "score":  "52-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Gifford",
+                                 "loser":  "Crescent City",
+                                 "score":  "20-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Marseilles Milton Pope",
+                                 "loser":  "Grand Ridge",
+                                 "score":  "25-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Kankakee Aquinas",
+                                 "loser":  "Elwood GS",
+                                 "score":  "28-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Peoria Limestone Walters",
+                                 "loser":  "Normal Epiphany",
+                                 "score":  "27-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Louisville North Clay",
+                                 "score":  "32-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Champaign Judah Christian",
+                                 "loser":  "Decatur Holy Family",
+                                 "score":  "38-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Carrollton St. John",
+                                 "loser":  "Augusta Southeastern",
+                                 "score":  "40-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           6
+                                       ],
+                                 "4":  [
+                                           2,
+                                           7
+                                       ],
+                                 "1":  [
+                                           3,
+                                           1
+                                       ],
+                                 "3":  [
+                                           4,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Sigel St. Michael\u0027s",
+                                          "Peoria Limestone Walters"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           24
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Peoria Limestone Walters",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Peoria Limestone Walters",
+                                          "Carrollton St. John"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           29
+                                       ],
+                            "winner":  "Peoria Limestone Walters",
+                            "loser":  "Carrollton St. John",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Champaign Judah Christian",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           25
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Champaign Judah Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Gifford",
+                                          "Kankakee Aquinas"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           24
+                                       ],
+                            "winner":  "Gifford",
+                            "loser":  "Kankakee Aquinas",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Marseilles Milton Pope",
+                                          "Springfield Christian"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           23
+                                       ],
+                            "winner":  "Springfield Christian",
+                            "loser":  "Marseilles Milton Pope",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Peoria Limestone Walters",
+                                          "Springfield Christian"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           37
+                                       ],
+                            "winner":  "Springfield Christian",
+                            "loser":  "Peoria Limestone Walters",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Gifford",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           17
+                                       ],
+                            "winner":  "Gifford",
+                            "loser":  "Sigel St. Michael\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Gifford",
+                                          "Springfield Christian"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           36
+                                       ],
+                            "winner":  "Springfield Christian",
+                            "loser":  "Gifford",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        }
+              }
+}

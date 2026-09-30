@@ -1,0 +1,354 @@
+﻿{
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2011,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Pocahontas",
+                                 "loser":  "Sorento",
+                                 "score":  "36-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Ottawa Marquette",
+                                "loser":  "Marseilles Milton Pope",
+                                "score":  "32-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Armstrong-Ellis",
+                                "loser":  "Cissna Park",
+                                "score":  "21-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Atwood-Hammond",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "28-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Peoria Limestone Walters",
+                                 "loser":  "Bartonville Monroe",
+                                 "score":  "32-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Gardner",
+                                "loser":  "Bourbonnais Maternity BVM",
+                                "score":  "33-7",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Morton Blessed Sacrament",
+                                "loser":  "Lincoln West Lincoln-Broadwell",
+                                "score":  "28-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Hume Shiloh",
+                                 "loser":  "Chrisman Scottland",
+                                 "score":  "29-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Elmwood Park St. Celestine",
+                                "loser":  "Lockport Taft",
+                                "score":  "26-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Peoria Pleasant Valley",
+                                "loser":  "Peoria Academy",
+                                "score":  "34-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Griggsville-Perry",
+                                 "loser":  "Hamilton",
+                                 "score":  "20-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Normal Epiphany",
+                                "loser":  "Lexington",
+                                "score":  "25-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Sigel St. Michael\u0027s",
+                                 "score":  "24-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Rantoul St. Malachy",
+                                "loser":  "Champaign Holy Cross",
+                                "score":  "29-12",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "Tonica",
+                                "loser":  "Peru Catholic",
+                                "score":  "28-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Carrollton St. John",
+                                 "loser":  "Springfield Calvary",
+                                 "score":  "14-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Pocahontas",
+                                               "record":  "11-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Ottawa Marquette",
+                                              "record":  "13-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Armstrong-Ellis",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Atwood-Hammond",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Peoria Limestone Walters",
+                                               "record":  "16-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Gardner",
+                                              "record":  "13-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Morton Blessed Sacrament",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Hume Shiloh",
+                                               "record":  "17-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Elmwood Park St. Celestine",
+                                              "record":  "4-13",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Peoria Pleasant Valley",
+                                              "record":  "9-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Griggsville-Perry",
+                                               "record":  "12-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Normal Epiphany",
+                                              "record":  "6-16",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "15-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Rantoul St. Malachy",
+                                              "record":  "20-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Tonica",
+                                              "record":  "14-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Griggsville-Perry",
+                                 "loser":  "Carrollton St. John",
+                                 "score":  "22-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Rantoul St. Malachy",
+                                 "loser":  "Armstrong-Ellis",
+                                 "score":  "28-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Tonica",
+                                 "loser":  "Ottawa Marquette",
+                                 "score":  "38-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Gardner",
+                                 "loser":  "Elmwood Park St. Celestine",
+                                 "score":  "21-6",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Morton Blessed Sacrament",
+                                 "loser":  "Normal Epiphany",
+                                 "score":  "31-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Atwood-Hammond",
+                                 "loser":  "Hume Shiloh",
+                                 "score":  "33-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Peoria Pleasant Valley",
+                                 "loser":  "Peoria Limestone Walters",
+                                 "score":  "32-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Pocahontas",
+                                 "score":  "29-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           5
+                                       ],
+                                 "4":  [
+                                           7,
+                                           2
+                                       ],
+                                 "1":  [
+                                           1,
+                                           4
+                                       ],
+                                 "3":  [
+                                           3,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Morton Blessed Sacrament",
+                                          "Tonica"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           31
+                                       ],
+                            "winner":  "Morton Blessed Sacrament",
+                            "loser":  "Tonica",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Rantoul St. Malachy",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           22
+                                       ],
+                            "winner":  "Rantoul St. Malachy",
+                            "loser":  "Effingham St. Anthony",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Atwood-Hammond",
+                                          "Peoria Pleasant Valley"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           7
+                                       ],
+                            "winner":  "Atwood-Hammond",
+                            "loser":  "Peoria Pleasant Valley",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Gardner",
+                                          "Morton Blessed Sacrament"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           26
+                                       ],
+                            "winner":  "Morton Blessed Sacrament",
+                            "loser":  "Gardner",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Griggsville-Perry",
+                                          "Tonica"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           27
+                                       ],
+                            "winner":  "Tonica",
+                            "loser":  "Griggsville-Perry",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Rantoul St. Malachy",
+                                          "Tonica"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           17
+                                       ],
+                            "winner":  "Rantoul St. Malachy",
+                            "loser":  "Tonica",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Morton Blessed Sacrament",
+                                          "Atwood-Hammond"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           37
+                                       ],
+                            "winner":  "Atwood-Hammond",
+                            "loser":  "Morton Blessed Sacrament",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Atwood-Hammond",
+                                          "Rantoul St. Malachy"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           30
+                                       ],
+                            "winner":  "Atwood-Hammond",
+                            "loser":  "Rantoul St. Malachy",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        }
+              }
+}

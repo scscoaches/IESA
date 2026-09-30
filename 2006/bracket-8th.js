@@ -1,0 +1,337 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2006,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Griggsville-Perry",
+                                 "loser":  "Bluffs",
+                                 "score":  "39-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "Crescent City",
+                                "loser":  "Cissna Park",
+                                "score":  "22-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Washington St. Patrick",
+                                "loser":  "Bloomington Cornerstone",
+                                "score":  "54-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Sigel St. Michael\u0027s",
+                                 "score":  "45-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Lincoln Carroll Catholic",
+                                 "loser":  "Springfield Christian",
+                                 "score":  "29-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ottawa Wallace",
+                                "loser":  "Cherry",
+                                "score":  null,
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Royal Prairieview Ogden",
+                                "loser":  "Philo St. Thomas",
+                                "score":  "46-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Dieterich",
+                                 "loser":  "Effingham Sacred Heart",
+                                 "score":  "35-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Gardner",
+                                "loser":  "Mazon-Verona-Kinsman",
+                                "score":  "25-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur Our Lady of Lourdes",
+                                "loser":  "Decatur Holy Family",
+                                "score":  "47-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Hardin Calhoun",
+                                 "loser":  "Greenfield",
+                                 "score":  "29-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Hume Shiloh",
+                                "loser":  "Catlin",
+                                "score":  "31-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Chandlerville A-C Central",
+                                 "score":  "47-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "London Mills Valley",
+                                "loser":  "Peoria Limestone Walters",
+                                "score":  "33-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Buckley St. John\u0027s",
+                                "score":  "29-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "East St. Louis Jackson",
+                                 "loser":  "Pocahontas",
+                                 "score":  "49-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "9":  {
+                                              "team":  "Decatur Our Lady of Lourdes",
+                                              "record":  "21-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                                          },
+                                    "10":  {
+                                               "team":  "Lincoln Carroll Catholic",
+                                               "record":  "17-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Crescent City",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Dieterich",
+                                               "record":  "16-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                                           },
+                                    "16":  {
+                                               "team":  "Griggsville-Perry",
+                                               "record":  "16-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ottawa Wallace",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Jacksonville Our Saviour",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                                           },
+                                    "4":  {
+                                              "team":  "Pontiac St. Mary\u0027s",
+                                              "record":  "9-12",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Pana Sacred Heart",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                                           },
+                                    "5":  {
+                                              "team":  "Washington St. Patrick",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-1A"
+                                          }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "East St. Louis Jackson",
+                                 "loser":  "Hardin Calhoun",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A",
+                                 "qualifierOnly":  true
+                             },
+                       "3":  {
+                                 "winner":  "Washington St. Patrick",
+                                 "loser":  "London Mills Valley",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A",
+                                 "qualifierOnly":  true
+                             },
+                       "2":  {
+                                 "winner":  "Crescent City",
+                                 "loser":  "Pontiac St. Mary\u0027s",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A",
+                                 "qualifierOnly":  true
+                             },
+                       "1":  {
+                                 "winner":  "Ottawa Wallace",
+                                 "loser":  "Gardner",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A",
+                                 "qualifierOnly":  true
+                             },
+                       "4":  {
+                                 "winner":  "Royal Prairieview Ogden",
+                                 "loser":  "Hume Shiloh",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A",
+                                 "qualifierOnly":  true
+                             },
+                       "6":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Dieterich",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A",
+                                 "qualifierOnly":  true
+                             },
+                       "5":  {
+                                 "winner":  "Decatur Our Lady of Lourdes",
+                                 "loser":  "Lincoln Carroll Catholic",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A",
+                                 "qualifierOnly":  true
+                             },
+                       "8":  {
+                                 "winner":  "Griggsville-Perry",
+                                 "loser":  "Jacksonville Our Saviour",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A",
+                                 "qualifierOnly":  true
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           5
+                                       ],
+                                 "4":  [
+                                           1,
+                                           6
+                                       ],
+                                 "1":  [
+                                           2,
+                                           3
+                                       ],
+                                 "3":  [
+                                           7,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Decatur Our Lady of Lourdes",
+                                          "East St. Louis Jackson"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           38
+                                       ],
+                            "winner":  "East St. Louis Jackson",
+                            "loser":  "Decatur Our Lady of Lourdes",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "East St. Louis Jackson",
+                                          "Royal Prairieview Ogden"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           27
+                                       ],
+                            "winner":  "East St. Louis Jackson",
+                            "loser":  "Royal Prairieview Ogden",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Griggsville-Perry",
+                                          "Decatur Our Lady of Lourdes"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           37
+                                       ],
+                            "winner":  "Decatur Our Lady of Lourdes",
+                            "loser":  "Griggsville-Perry",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Crescent City",
+                                          "Washington St. Patrick"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           29
+                                       ],
+                            "winner":  "Washington St. Patrick",
+                            "loser":  "Crescent City",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Ottawa Wallace",
+                                          "Pana Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           24
+                                       ],
+                            "winner":  "Pana Sacred Heart",
+                            "loser":  "Ottawa Wallace",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "East St. Louis Jackson",
+                                          "Pana Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           37
+                                       ],
+                            "winner":  "Pana Sacred Heart",
+                            "loser":  "East St. Louis Jackson",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Washington St. Patrick",
+                                          "Decatur Our Lady of Lourdes"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           21
+                                       ],
+                            "winner":  "Washington St. Patrick",
+                            "loser":  "Decatur Our Lady of Lourdes",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Washington St. Patrick",
+                                          "Pana Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           27
+                                       ],
+                            "winner":  "Pana Sacred Heart",
+                            "loser":  "Washington St. Patrick",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-1A"
+                        }
+              }
+};

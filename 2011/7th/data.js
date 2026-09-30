@@ -1,0 +1,379 @@
+﻿window.tournamentData = {
+    "year":  2011,
+    "grade":  "7th",
+    "className":  "1A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Joliet Laraway",
+                          "teams":  [
+                                        "Riverdale Patton",
+                                        "Rockdale",
+                                        "Elmwood Park St. Celestine",
+                                        "Lockport Taft",
+                                        "Joliet Laraway"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Gardner",
+                          "teams":  [
+                                        "Gardner",
+                                        "Bourbonnais Maternity BVM",
+                                        "Bradley St. Joseph",
+                                        "Kankakee Aquinas",
+                                        "Braceville"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Mazon-Verona-Kinsman",
+                          "teams":  [
+                                        "Ottawa Marquette",
+                                        "Ottawa Wallace",
+                                        "Marseilles Milton Pope",
+                                        "Mazon-Verona-Kinsman",
+                                        "Ransom"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Tonica",
+                          "teams":  [
+                                        "Peru Catholic",
+                                        "Tonica",
+                                        "Henry-Senachwine",
+                                        "LaSalle Trinity Catholic"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Crescent City",
+                          "teams":  [
+                                        "Cissna Park",
+                                        "Armstrong-Ellis",
+                                        "Piper City Tri-Point",
+                                        "Donovan",
+                                        "Crescent City",
+                                        "Rossville-Alvin"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Rantoul St. Malachy",
+                          "teams":  [
+                                        "Rantoul St. Malachy",
+                                        "Champaign Holy Cross",
+                                        "Danville Schlarman",
+                                        "Royal Prairieview Ogden",
+                                        "Champaign Judah Christian",
+                                        "Thomasboro",
+                                        "Gifford"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Normal Epiphany",
+                          "teams":  [
+                                        "Normal Epiphany",
+                                        "Lexington",
+                                        "Normal Calvary",
+                                        "Bloomington Cornerstone",
+                                        "Washington St. Patrick"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Pekin Rankin",
+                          "teams":  [
+                                        "Morton Blessed Sacrament",
+                                        "Pekin Rankin",
+                                        "Lincoln West Lincoln-Broadwell",
+                                        "Lincoln Carroll Catholic",
+                                        "South Pekin",
+                                        "Lincoln Chester-East Lincoln"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Peoria St. Mark",
+                          "teams":  [
+                                        "Peoria Academy",
+                                        "Peoria Pleasant Valley",
+                                        "Peoria St. Mark",
+                                        "Peoria Quest",
+                                        "Spring Bay Riverview",
+                                        "Peoria Holy Family"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Peoria Limestone Walters",
+                          "teams":  [
+                                        "Peoria Limestone Walters",
+                                        "Bartonville Monroe",
+                                        "Cuba",
+                                        "Peoria Hollis",
+                                        "London Mills Valley",
+                                        "Bartonville GS"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Hume Shiloh",
+                          "teams":  [
+                                        "Hume Shiloh",
+                                        "Chrisman Scottland",
+                                        "Sidell Jamaica",
+                                        "Champaign Next Generation"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Atwood-Hammond",
+                          "teams":  [
+                                        "Atwood-Hammond",
+                                        "Pana Sacred Heart",
+                                        "Decatur Our Lady of Lourdes",
+                                        "Bement",
+                                        "Findlay Okaw Valley"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Jacksonville Our Saviour",
+                          "teams":  [
+                                        "Springfield Little Flower",
+                                        "Springfield Christian",
+                                        "Springfield Calvary",
+                                        "Carrollton St. John",
+                                        "Jacksonville Our Saviour",
+                                        "Virginia",
+                                        "Jacksonville ISD"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Payson Seymour",
+                          "teams":  [
+                                        "Griggsville-Perry",
+                                        "Hamilton",
+                                        "Concord Triopia",
+                                        "Payson Seymour"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Effingham Sacred Heart",
+                          "teams":  [
+                                        "Effingham St. Anthony",
+                                        "Effingham Sacred Heart",
+                                        "Sigel St. Michael\u0027s",
+                                        "Noble West Richland",
+                                        "Martinsville",
+                                        "Dieterich"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "East St. Louis Jackson",
+                          "teams":  [
+                                        "Pocahontas",
+                                        "Sorento",
+                                        "Ramsey",
+                                        "Mulberry Grove JHS",
+                                        "East St. Louis Jackson"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Elmwood Park St. Celestine",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "1":  "4-13",
+                                           "2":  "13-2"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Tonica",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "3":  "13-3",
+                                           "4":  "14-4"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Crescent City",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "5":  "16-3",
+                                           "6":  "20-0"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Normal Epiphany",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "7":  "6-16",
+                                           "8":  "20-3"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Peoria Limestone Walters",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "9":  "9-7",
+                                           "10":  "16-4"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Atwood-Hammond",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "11":  "17-3",
+                                           "12":  "20-0"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Jacksonville Our Saviour",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "14":  "12-4"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Effingham St. Anthony",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "15":  "15-5",
+                                           "16":  "11-11"
+                                       }
+                       }
+                   ],
+    "venue":  "Normal Chiddix JHS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              1,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              6,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              3,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              7,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

@@ -1,0 +1,102 @@
+﻿[
+    {
+        "year":  2026,
+        "className":  "2A",
+        "archived":  false
+    },
+    {
+        "year":  2025,
+        "className":  "2A",
+        "archived":  true
+    },
+    {
+        "year":  2024,
+        "className":  "2A",
+        "archived":  true
+    },
+    {
+        "year":  2023,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2022,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2021,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2019,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2018,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2017,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2016,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2015,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2014,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2013,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2012,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2011,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2010,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2009,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2008,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2007,
+        "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2006,
+        "className":  "1A",
+        "archived":  true
+    }
+]

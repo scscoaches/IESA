@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2023,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Carrollton St. John",
+                                 "loser":  "Bunker Hill Wolf Ridge",
+                                 "score":  "46-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "Ottawa Wallace",
+                                "loser":  "Marseilles Milton Pope (Co-op)",
+                                "score":  "36-7",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Buckley St. John\u0027s",
+                                "loser":  "Champaign St. Matthew",
+                                "score":  "21-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Oakland Lake Crest (Co-op)",
+                                 "loser":  "Martinsville",
+                                 "score":  "28-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Cambridge JHS",
+                                 "loser":  "Monmouth ICS",
+                                 "score":  "20-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Donovan",
+                                "loser":  "Mazon-Verona-Kinsman",
+                                "score":  "15-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Washington St. Patrick",
+                                "loser":  "Lincoln West Lincoln-Broadwell",
+                                "score":  "18-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Royal Prairieview Ogden",
+                                 "loser":  "Rantoul St. Malachy",
+                                 "score":  "30-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Lockport Taft",
+                                "loser":  "Grant Park",
+                                "score":  "22-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Peoria St. Jude",
+                                "loser":  "Peoria Limestone Walters",
+                                "score":  "39-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Pocahontas",
+                                 "score":  "40-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Roanoke-Benson",
+                                "loser":  "Flanagan (Co-op)",
+                                "score":  "30-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Ashland A-C Central",
+                                 "loser":  "Kinderhook Western",
+                                 "score":  "30-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "Normal Epiphany",
+                                "loser":  "Odell (Co-op)",
+                                "score":  "18-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Peru Catholic",
+                                "loser":  "Utica Waltham",
+                                "score":  "23-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Decatur Unity",
+                                 "score":  "47-7",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Carrollton St. John",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Ottawa Wallace",
+                                              "record":  "25-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Buckley St. John\u0027s",
+                                              "record":  "16-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Oakland Lake Crest (Co-op)",
+                                               "record":  "14-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Cambridge JHS",
+                                               "record":  "12-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Donovan",
+                                              "record":  "14-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Washington St. Patrick",
+                                              "record":  "22-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Royal Prairieview Ogden",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lockport Taft",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Peoria St. Jude",
+                                              "record":  "17-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Roanoke-Benson",
+                                              "record":  "6-15",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Ashland A-C Central",
+                                               "record":  "10-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Normal Epiphany",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Peru Catholic",
+                                              "record":  "14-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Pana Sacred Heart",
+                                               "record":  "22-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "42-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Normal Epiphany",
+                                 "loser":  "Buckley St. John\u0027s",
+                                 "score":  "28-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Ottawa Wallace",
+                                 "loser":  "Peru Catholic",
+                                 "score":  "39-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Donovan",
+                                 "loser":  "Lockport Taft",
+                                 "score":  "25-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Washington St. Patrick",
+                                 "loser":  "Roanoke-Benson",
+                                 "score":  "37-5",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Royal Prairieview Ogden",
+                                 "loser":  "Oakland Lake Crest (Co-op)",
+                                 "score":  "34-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Peoria St. Jude",
+                                 "loser":  "Cambridge JHS",
+                                 "score":  "20-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Carrollton St. John",
+                                 "loser":  "Ashland A-C Central",
+                                 "score":  "41-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           1
+                                       ],
+                                 "4":  [
+                                           5,
+                                           4
+                                       ],
+                                 "1":  [
+                                           2,
+                                           7
+                                       ],
+                                 "3":  [
+                                           3,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Carrollton St. John",
+                                          "Royal Prairieview Ogden"
+                                      ],
+                            "scores":  [
+                                           50,
+                                           20
+                                       ],
+                            "winner":  "Carrollton St. John",
+                            "loser":  "Royal Prairieview Ogden",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Normal Epiphany",
+                                          "Royal Prairieview Ogden"
+                                      ],
+                            "scores":  [
+                                           15,
+                                           20
+                                       ],
+                            "winner":  "Royal Prairieview Ogden",
+                            "loser":  "Normal Epiphany",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Carrollton St. John",
+                                          "Donovan"
+                                      ],
+                            "scores":  [
+                                           53,
+                                           11
+                                       ],
+                            "winner":  "Carrollton St. John",
+                            "loser":  "Donovan",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Ottawa Wallace",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           44
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Ottawa Wallace",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Peoria St. Jude",
+                                          "Washington St. Patrick"
+                                      ],
+                            "scores":  [
+                                           7,
+                                           28
+                                       ],
+                            "winner":  "Washington St. Patrick",
+                            "loser":  "Peoria St. Jude",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Royal Prairieview Ogden",
+                                          "Washington St. Patrick"
+                                      ],
+                            "scores":  [
+                                           13,
+                                           38
+                                       ],
+                            "winner":  "Washington St. Patrick",
+                            "loser":  "Royal Prairieview Ogden",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Sigel St. Michael\u0027s",
+                                          "Carrollton St. John"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           24
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Carrollton St. John",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Sigel St. Michael\u0027s",
+                                          "Washington St. Patrick"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           38
+                                       ],
+                            "winner":  "Washington St. Patrick",
+                            "loser":  "Sigel St. Michael\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-1A"
+                        }
+              }
+}

@@ -1,0 +1,339 @@
+﻿{
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2006,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Meredosia-Chambersburg",
+                                 "loser":  "Griggsville-Perry",
+                                 "score":  "24-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Rantoul St. Malachy",
+                                "loser":  "St. Anne",
+                                "score":  "15-7",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Bartonville Monroe",
+                                "loser":  "Washington St. Patrick",
+                                "score":  "26-7",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Beecher City",
+                                 "score":  "33-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Springfield Calvary",
+                                 "loser":  "Springfield Christian",
+                                 "score":  "31-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ottawa Wallace",
+                                "loser":  "LaSalle Trinity Catholic",
+                                "score":  "38-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Armstrong-Ellis",
+                                "loser":  "Royal Prairieview Ogden",
+                                "score":  "31-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Dieterich",
+                                 "loser":  "Effingham Sacred Heart",
+                                 "score":  "33-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Grand Ridge",
+                                "loser":  "Mazon-Verona-Kinsman",
+                                "score":  "30-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur Holy Family",
+                                "loser":  "Decatur St. Patrick",
+                                "score":  "38-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Jerseyville St. Francis HG",
+                                 "loser":  "Hardin St. Norbert",
+                                 "score":  "34-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Hume Shiloh",
+                                "loser":  "Rossville-Alvin",
+                                "score":  "26-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Concord Triopia",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "London Mills Valley",
+                                "loser":  "Peoria Limestone Walters",
+                                "score":  "50-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "Streator Woodland",
+                                "loser":  "Pontiac St. Mary\u0027s",
+                                "score":  "31-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Pocahontas",
+                                 "loser":  "Divernon",
+                                 "score":  "32-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "7":  {
+                                              "team":  "Hume Shiloh",
+                                              "record":  "14-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Decatur Holy Family",
+                                              "record":  "13-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                                          },
+                                    "10":  {
+                                               "team":  "Springfield Calvary",
+                                               "record":  "17-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Rantoul St. Malachy",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                                          },
+                                    "16":  {
+                                               "team":  "Meredosia-Chambersburg",
+                                               "record":  "9-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ottawa Wallace",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Jerseyville St. Francis HG",
+                                               "record":  "13-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                                           },
+                                    "12":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "16-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                                           },
+                                    "4":  {
+                                              "team":  "Streator Woodland",
+                                              "record":  "3-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                                          },
+                                    "6":  {
+                                              "team":  "London Mills Valley",
+                                              "record":  "16-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Bartonville Monroe",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Armstrong-Ellis",
+                                              "record":  "17-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-1A"
+                                          }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Jerseyville St. Francis HG",
+                                 "loser":  "Pocahontas",
+                                 "score":  "27-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "London Mills Valley",
+                                 "loser":  "Bartonville Monroe",
+                                 "score":  "33-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Rantoul St. Malachy",
+                                 "loser":  "Streator Woodland",
+                                 "score":  "14-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Ottawa Wallace",
+                                 "loser":  "Grand Ridge",
+                                 "score":  "35-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Hume Shiloh",
+                                 "loser":  "Armstrong-Ellis",
+                                 "score":  "32-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Dieterich",
+                                 "score":  "37-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Springfield Calvary",
+                                 "loser":  "Decatur Holy Family",
+                                 "score":  "41-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Meredosia-Chambersburg",
+                                 "score":  "33-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           1
+                                       ],
+                                 "4":  [
+                                           4,
+                                           8
+                                       ],
+                                 "1":  [
+                                           5,
+                                           6
+                                       ],
+                                 "3":  [
+                                           7,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "London Mills Valley",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           26
+                                       ],
+                            "winner":  "London Mills Valley",
+                            "loser":  "Jacksonville Our Saviour",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Jerseyville St. Francis HG",
+                                          "Rantoul St. Malachy"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           15
+                                       ],
+                            "winner":  "Jerseyville St. Francis HG",
+                            "loser":  "Rantoul St. Malachy",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "London Mills Valley",
+                                          "Ottawa Wallace"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           29
+                                       ],
+                            "winner":  "London Mills Valley",
+                            "loser":  "Ottawa Wallace",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Springfield Calvary",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           34
+                                       ],
+                            "winner":  "Springfield Calvary",
+                            "loser":  "Sigel St. Michael\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Hume Shiloh",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           29
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Hume Shiloh",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Jerseyville St. Francis HG",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           30
+                                       ],
+                            "winner":  "Jerseyville St. Francis HG",
+                            "loser":  "Jacksonville Our Saviour",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Springfield Calvary",
+                                          "London Mills Valley"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           17
+                                       ],
+                            "winner":  "Springfield Calvary",
+                            "loser":  "London Mills Valley",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Springfield Calvary",
+                                          "Jerseyville St. Francis HG"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           36
+                                       ],
+                            "winner":  "Springfield Calvary",
+                            "loser":  "Jerseyville St. Francis HG",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-1A"
+                        }
+              }
+}

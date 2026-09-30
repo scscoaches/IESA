@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2018,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Jerseyville St. Francis HG",
+                                 "loser":  "Carrollton St. John",
+                                 "score":  "34-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Cissna Park",
+                                "loser":  "Piper City Tri-Point",
+                                "score":  "26-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Roanoke-Benson",
+                                "loser":  "Odell",
+                                "score":  "27-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Decatur Our Lady of Lourdes",
+                                 "score":  "21-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Monmouth ICS",
+                                 "loser":  "La Harpe",
+                                 "score":  "33-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ottawa Wallace",
+                                "loser":  "Utica Waltham North",
+                                "score":  "35-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Bartonville Monroe",
+                                "loser":  "Peoria Hollis",
+                                "score":  "24-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Hume Shiloh",
+                                 "loser":  "Bement",
+                                 "score":  "40-7",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Marseilles Milton Pope",
+                                "loser":  "Ransom",
+                                "score":  "30-5",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Annawan",
+                                "loser":  "Woodhull AlWood",
+                                "score":  "28-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Ramsey",
+                                 "score":  "27-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Washington St. Patrick",
+                                "loser":  "Spring Bay Riverview",
+                                "score":  "27-8",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Ashland A-C Central",
+                                 "loser":  "Jacksonville Our Saviour",
+                                 "score":  "31-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Lincoln West Lincoln-Broadwell",
+                                "loser":  "Morton Blessed Sacrament",
+                                "score":  "53-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "Royal Prairieview Ogden",
+                                "loser":  "Armstrong-Ellis",
+                                "score":  "37-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Dieterich",
+                                 "score":  "37-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Jerseyville St. Francis HG",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Cissna Park",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Roanoke-Benson",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Mt. Pulaski",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Monmouth ICS",
+                                               "record":  "16-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ottawa Wallace",
+                                              "record":  "19-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Bartonville Monroe",
+                                              "record":  "16-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Hume Shiloh",
+                                               "record":  "14-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Marseilles Milton Pope",
+                                              "record":  "14-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Annawan",
+                                              "record":  "22-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Pana Sacred Heart",
+                                               "record":  "12-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Washington St. Patrick",
+                                              "record":  "17-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Ashland A-C Central",
+                                               "record":  "20-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Lincoln West Lincoln-Broadwell",
+                                              "record":  "25-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Royal Prairieview Ogden",
+                                              "record":  "19-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "17-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "30-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Roanoke-Benson",
+                                 "score":  "51-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Cissna Park",
+                                 "loser":  "Royal Prairieview Ogden",
+                                 "score":  "16-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Ottawa Wallace",
+                                 "loser":  "Marseilles Milton Pope",
+                                 "score":  "39-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "Washington St. Patrick",
+                                 "score":  "36-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Hume Shiloh",
+                                 "score":  "33-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Annawan",
+                                 "loser":  "Monmouth ICS",
+                                 "score":  "31-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Ashland A-C Central",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "20-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           2,
+                                           5
+                                       ],
+                                 "4":  [
+                                           7,
+                                           6
+                                       ],
+                                 "1":  [
+                                           8,
+                                           3
+                                       ],
+                                 "3":  [
+                                           4,
+                                           1
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Annawan",
+                                          "Mt. Pulaski"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           28
+                                       ],
+                            "winner":  "Mt. Pulaski",
+                            "loser":  "Annawan",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Bartonville Monroe",
+                                          "Ottawa Wallace"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           45
+                                       ],
+                            "winner":  "Ottawa Wallace",
+                            "loser":  "Bartonville Monroe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Cissna Park",
+                                          "Annawan"
+                                      ],
+                            "scores":  [
+                                           14,
+                                           30
+                                       ],
+                            "winner":  "Annawan",
+                            "loser":  "Cissna Park",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Ashland A-C Central",
+                                          "Lincoln West Lincoln-Broadwell"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           53
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Ashland A-C Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Sigel St. Michael\u0027s",
+                                          "Mt. Pulaski"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           24
+                                       ],
+                            "winner":  "Mt. Pulaski",
+                            "loser":  "Sigel St. Michael\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Ottawa Wallace",
+                                          "Mt. Pulaski"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           31
+                                       ],
+                            "winner":  "Ottawa Wallace",
+                            "loser":  "Mt. Pulaski",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Lincoln West Lincoln-Broadwell",
+                                          "Annawan"
+                                      ],
+                            "scores":  [
+                                           62,
+                                           9
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Annawan",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Lincoln West Lincoln-Broadwell",
+                                          "Ottawa Wallace"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           20
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Ottawa Wallace",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=7-1A"
+                        }
+              }
+}

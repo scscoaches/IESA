@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2013,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Pocahontas",
+                                 "score":  "35-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "Bourbonnais Maternity BVM",
+                                "loser":  "Bourbonnais St. Paul\u0027s",
+                                "score":  "24-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Odell",
+                                "loser":  "Colfax Ridgeview",
+                                "score":  "34-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Springfield Little Flower",
+                                 "score":  "39-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Rantoul St. Malachy",
+                                 "loser":  "Champaign Holy Cross",
+                                 "score":  "35-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Tonica",
+                                "loser":  "Ottawa Marquette",
+                                "score":  "35-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Bartonville Monroe",
+                                "loser":  "Pekin Rankin",
+                                "score":  "46-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Atwood-Hammond",
+                                 "score":  "43-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Rockdale",
+                                "loser":  "Lockport Taft",
+                                "score":  "19-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Danville Schlarman",
+                                "loser":  "Hume Shiloh",
+                                "score":  "52-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Brussels",
+                                 "loser":  "Jacksonville Our Saviour",
+                                 "score":  "43-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Peoria St. Mark",
+                                "loser":  "Peoria Limestone Walters",
+                                "score":  "30-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Effingham Sacred Heart",
+                                 "score":  "44-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "Morton Blessed Sacrament",
+                                "loser":  "Washington St. Patrick",
+                                "score":  "41-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Crescent City",
+                                "loser":  "Cissna Park",
+                                "score":  "11-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Augusta Southeastern",
+                                 "loser":  "Ashland A-C Central",
+                                 "score":  "33-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Pana Sacred Heart",
+                                               "record":  "17-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Bourbonnais Maternity BVM",
+                                              "record":  "11-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Odell",
+                                              "record":  "16-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Lincoln West Lincoln-Broadwell",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Rantoul St. Malachy",
+                                               "record":  "18-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Tonica",
+                                              "record":  "22-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Bartonville Monroe",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Mt. Pulaski",
+                                               "record":  "17-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Rockdale",
+                                              "record":  "10-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Danville Schlarman",
+                                              "record":  "20-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Brussels",
+                                               "record":  "16-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Peoria St. Mark",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Morton Blessed Sacrament",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Crescent City",
+                                              "record":  "15-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Augusta Southeastern",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Augusta Southeastern",
+                                 "loser":  "Brussels",
+                                 "score":  "43-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Morton Blessed Sacrament",
+                                 "loser":  "Odell",
+                                 "score":  "31-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Crescent City",
+                                 "loser":  "Bourbonnais Maternity BVM",
+                                 "score":  "28-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Tonica",
+                                 "loser":  "Rockdale",
+                                 "score":  "28-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "Peoria St. Mark",
+                                 "score":  "34-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Mt. Pulaski",
+                                 "score":  "34-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Danville Schlarman",
+                                 "loser":  "Rantoul St. Malachy",
+                                 "score":  "54-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "36-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           2
+                                       ],
+                                 "4":  [
+                                           8,
+                                           3
+                                       ],
+                                 "1":  [
+                                           6,
+                                           1
+                                       ],
+                                 "3":  [
+                                           7,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Lincoln West Lincoln-Broadwell",
+                                          "Augusta Southeastern"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           15
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Augusta Southeastern",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Augusta Southeastern",
+                                          "Bartonville Monroe"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           26
+                                       ],
+                            "winner":  "Augusta Southeastern",
+                            "loser":  "Bartonville Monroe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Danville Schlarman",
+                                          "Crescent City"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           18
+                                       ],
+                            "winner":  "Danville Schlarman",
+                            "loser":  "Crescent City",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Lincoln West Lincoln-Broadwell",
+                                          "Tonica"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           17
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Tonica",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Sigel St. Michael\u0027s",
+                                          "Morton Blessed Sacrament"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           21
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Morton Blessed Sacrament",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Augusta Southeastern",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           32
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Augusta Southeastern",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Lincoln West Lincoln-Broadwell",
+                                          "Danville Schlarman"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           58
+                                       ],
+                            "winner":  "Danville Schlarman",
+                            "loser":  "Lincoln West Lincoln-Broadwell",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Danville Schlarman",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           55,
+                                           45
+                                       ],
+                            "winner":  "Danville Schlarman",
+                            "loser":  "Sigel St. Michael\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        }
+              }
+}

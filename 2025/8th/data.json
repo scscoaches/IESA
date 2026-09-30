@@ -1,0 +1,405 @@
+﻿{
+    "year":  2025,
+    "grade":  "8th",
+    "className":  "2A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Kankakee Bishop McNamara",
+                          "teams":  [
+                                        "Bourbonnais St. George",
+                                        "Dolton Roosevelt",
+                                        "Hazel Crest Jesse White",
+                                        "Kankakee Bishop McNamara",
+                                        "Lynwood Sandridge",
+                                        "Markham Obama",
+                                        "Momence JHS",
+                                        "Riverdale Washington"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Joliet Laraway",
+                          "teams":  [
+                                        "Burr Ridge MS",
+                                        "Joliet Laraway",
+                                        "Lockport Kelvin Grove",
+                                        "Morton Grove MCC",
+                                        "Rockford Montessori",
+                                        "Waterman Indian Creek"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Seneca",
+                          "teams":  [
+                                        "Dwight",
+                                        "Marseilles ES",
+                                        "Mazon-Verona-Kinsman",
+                                        "Oglesby Washington",
+                                        "Seneca",
+                                        "Serena",
+                                        "Wenona Fieldcrest"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "McNabb Putnam County",
+                          "teams":  [
+                                        "Cambridge JHS",
+                                        "Manlius Bureau Valley JHS",
+                                        "McNabb Putnam County",
+                                        "Roanoke-Benson",
+                                        "Sparland Midland",
+                                        "Spring Valley Kennedy",
+                                        "Toulon Stark County"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Green Valley Midwest Central",
+                          "teams":  [
+                                        "Bartonville GS (Co-op)",
+                                        "Creve Coeur Parkview",
+                                        "Glasford Illini Bluffs",
+                                        "Green Valley Midwest Central",
+                                        "Marquette Heights Georgetowne",
+                                        "Peoria Heights GS",
+                                        "Washington Beverly Manor"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Peoria St. Philomena",
+                          "teams":  [
+                                        "Brimfield",
+                                        "Elmwood",
+                                        "Knoxville JHS",
+                                        "London Mills Valley (Co-op)",
+                                        "Peoria St. Philomena",
+                                        "Princeville",
+                                        "Williamsfield (Co-op)"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Oakwood GS",
+                          "teams":  [
+                                        "Bismarck-Henning",
+                                        "Champaign International",
+                                        "Champaign St. Matthew",
+                                        "Fisher",
+                                        "Oakwood GS",
+                                        "Watseka JHS"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Bloomington Corpus Christi",
+                          "teams":  [
+                                        "Bloomington Cornerstone",
+                                        "Bloomington Corpus Christi",
+                                        "Heyworth",
+                                        "LeRoy",
+                                        "Lexington",
+                                        "Mansfield Blue Ridge IJHS",
+                                        "Normal Metcalf"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Sidell Salt Fork",
+                          "teams":  [
+                                        "Argenta-Oreana",
+                                        "Arthur (Co-op)",
+                                        "Cerro Gordo (Co-op)",
+                                        "Georgetown Mary Miller",
+                                        "Macon Meridian",
+                                        "Sidell Salt Fork",
+                                        "Villa Grove"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Decatur Our Lady of Lourdes",
+                          "teams":  [
+                                        "Decatur Dansby",
+                                        "Decatur Dennis",
+                                        "Decatur Hope",
+                                        "Decatur Montessori Academy for Peace",
+                                        "Decatur Our Lady of Lourdes (Co-op)",
+                                        "Decatur Robertson",
+                                        "Lincoln Chester-East Lincoln (Co-op)"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Mason City Illini Central",
+                          "teams":  [
+                                        "Bluffs (Co-op)",
+                                        "Havana",
+                                        "Lewistown JHS",
+                                        "Mason City Illini Central (Co-op)",
+                                        "Mt. Sterling Brown County (Co-op)",
+                                        "Petersburg PORTA JHS",
+                                        "Table Grove VIT (Co-op)"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Carthage",
+                          "teams":  [
+                                        "Bushnell-Prairie City",
+                                        "Camp Point Central",
+                                        "Carthage",
+                                        "Colchester West Prairie",
+                                        "Liberty",
+                                        "Mendon Unity",
+                                        "Nauvoo-Colusa",
+                                        "Stronghurst West Central"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Casey-Westfield",
+                          "teams":  [
+                                        "Arcola",
+                                        "Casey-Westfield",
+                                        "Effingham St. Anthony",
+                                        "Paris Crestwood",
+                                        "Stewardson-Strasburg (Co-op)",
+                                        "Toledo Cumberland"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Kinmundy South Central",
+                          "teams":  [
+                                        "Albion (Co-op)",
+                                        "Altamont (Co-op)",
+                                        "Beecher City (Co-op)",
+                                        "Brownstown (Co-op)",
+                                        "Dieterich",
+                                        "Kinmundy South Central (Co-op)",
+                                        "Louisville North Clay"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Springfield Blessed Sacrament",
+                          "teams":  [
+                                        "Assumption Central A \u0026 M",
+                                        "Morrisonville JHS (Co-op)",
+                                        "Nokomis JHS (Co-op)",
+                                        "Pawnee",
+                                        "Springfield Blessed Sacrament",
+                                        "Springfield Calvary (Co-op)",
+                                        "Springfield Christian"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Greenfield",
+                          "teams":  [
+                                        "Bunker Hill Wolf Ridge",
+                                        "East Alton MS",
+                                        "Greenfield (Co-op)",
+                                        "Hardin Calhoun (Co-op)",
+                                        "Mt. Olive",
+                                        "White Hall North Greene",
+                                        "Wood River Lewis \u0026 Clark"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Joliet Laraway",
+                           "date":  "Wednesday, December 10, 2025",
+                           "records":  {
+                                           "1":  "15-5",
+                                           "2":  "9-7"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Wenona Fieldcrest",
+                           "date":  "Wednesday, December 10, 2025",
+                           "records":  {
+                                           "3":  "19-2",
+                                           "4":  "19-1"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Peoria St. Philomena",
+                           "date":  "Wednesday, December 10, 2025",
+                           "records":  {
+                                           "5":  "18-1",
+                                           "6":  "18-4"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Bloomington Corpus Christi",
+                           "date":  "Wednesday, December 10, 2025",
+                           "records":  {
+                                           "7":  "13-3",
+                                           "8":  "20-5"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Sidell Salt Fork",
+                           "date":  "Wednesday, December 10, 2025",
+                           "records":  {
+                                           "9":  "18-4",
+                                           "10":  "16-9"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Liberty",
+                           "date":  "Wednesday, December 10, 2025",
+                           "records":  {
+                                           "11":  "22-2",
+                                           "12":  "20-4"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Louisville North Clay",
+                           "date":  "Wednesday, December 10, 2025",
+                           "records":  {
+                                           "13":  "15-5",
+                                           "14":  "21-2"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Assumption Central A \u0026 M",
+                           "date":  "Wednesday, December 10, 2025",
+                           "records":  {
+                                           "15":  "18-3",
+                                           "16":  "20-3"
+                                       }
+                       }
+                   ],
+    "venue":  "Havana JHS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              7,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              5,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              6,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              1,
+                                              3
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

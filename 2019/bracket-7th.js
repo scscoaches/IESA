@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2019,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Carrollton GS",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "32-7",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Annawan",
+                                "loser":  "Monmouth ICS",
+                                "score":  "28-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Cissna Park",
+                                "loser":  "Piper City Tri-Point",
+                                "score":  "28-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Martinsville",
+                                 "score":  "26-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "Peoria Limestone Walters",
+                                 "score":  "35-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ottawa Marquette",
+                                "loser":  "LaSalle Trinity Catholic",
+                                "score":  "31-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Lincoln West Lincoln-Broadwell",
+                                "loser":  "Pekin St. Joseph",
+                                "score":  "46-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Danville Schlarman",
+                                 "loser":  "Hume Shiloh",
+                                 "score":  "31-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Marseilles Milton Pope",
+                                "loser":  "Elwood GS",
+                                "score":  "25-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Peoria St. Jude",
+                                "loser":  "Washington St. Patrick",
+                                "score":  "33-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Mt. Olive",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "33-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Roanoke-Benson",
+                                "loser":  "Odell",
+                                "score":  "28-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Ashland A-C Central",
+                                 "loser":  "Augusta Southeastern",
+                                 "score":  "21-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Royal Prairieview Ogden",
+                                "loser":  "Gifford",
+                                "score":  "31-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "Kewanee Visitation",
+                                "loser":  "Williamsfield",
+                                "score":  "27-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Decatur Holy Family",
+                                 "loser":  "Mt. Pulaski",
+                                 "score":  "29-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Carrollton GS",
+                                               "record":  "19-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Annawan",
+                                              "record":  "13-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Cissna Park",
+                                              "record":  "21-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "17-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Bartonville Monroe",
+                                               "record":  "19-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ottawa Marquette",
+                                              "record":  "23-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Lincoln West Lincoln-Broadwell",
+                                              "record":  "25-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Danville Schlarman",
+                                               "record":  "8-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Marseilles Milton Pope",
+                                              "record":  "12-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Peoria St. Jude",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Mt. Olive",
+                                               "record":  "18-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Roanoke-Benson",
+                                              "record":  "19-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Ashland A-C Central",
+                                               "record":  "23-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Royal Prairieview Ogden",
+                                              "record":  "17-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Kewanee Visitation",
+                                              "record":  "15-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Decatur Holy Family",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Decatur Holy Family",
+                                 "loser":  "Mt. Olive",
+                                 "score":  "31-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Cissna Park",
+                                 "loser":  "Royal Prairieview Ogden",
+                                 "score":  "40-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Annawan",
+                                 "loser":  "Kewanee Visitation",
+                                 "score":  "29-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Ottawa Marquette",
+                                 "loser":  "Marseilles Milton Pope",
+                                 "score":  "25-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Roanoke-Benson",
+                                 "score":  "61-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Danville Schlarman",
+                                 "score":  "37-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "Peoria St. Jude",
+                                 "score":  "26-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Ashland A-C Central",
+                                 "loser":  "Carrollton GS",
+                                 "score":  "32-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           5
+                                       ],
+                                 "4":  [
+                                           4,
+                                           3
+                                       ],
+                                 "1":  [
+                                           6,
+                                           8
+                                       ],
+                                 "3":  [
+                                           2,
+                                           1
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Bartonville Monroe",
+                                          "Ottawa Marquette"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           17
+                                       ],
+                            "winner":  "Bartonville Monroe",
+                            "loser":  "Ottawa Marquette",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Annawan",
+                                          "Ottawa Marquette"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           30
+                                       ],
+                            "winner":  "Ottawa Marquette",
+                            "loser":  "Annawan",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Decatur Holy Family",
+                                          "Bartonville Monroe"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           39
+                                       ],
+                            "winner":  "Bartonville Monroe",
+                            "loser":  "Decatur Holy Family",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Sigel St. Michael\u0027s",
+                                          "Ashland A-C Central"
+                                      ],
+                            "scores":  [
+                                           15,
+                                           20
+                                       ],
+                            "winner":  "Ashland A-C Central",
+                            "loser":  "Sigel St. Michael\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Lincoln West Lincoln-Broadwell",
+                                          "Cissna Park"
+                                      ],
+                            "scores":  [
+                                           49,
+                                           18
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Cissna Park",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Ottawa Marquette",
+                                          "Lincoln West Lincoln-Broadwell"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           30
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Ottawa Marquette",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Ashland A-C Central",
+                                          "Bartonville Monroe"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           18
+                                       ],
+                            "winner":  "Ashland A-C Central",
+                            "loser":  "Bartonville Monroe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Ashland A-C Central",
+                                          "Lincoln West Lincoln-Broadwell"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           25
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Ashland A-C Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-1A"
+                        }
+              }
+};

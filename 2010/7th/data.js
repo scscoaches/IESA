@@ -1,0 +1,373 @@
+﻿window.tournamentData = {
+    "year":  2010,
+    "grade":  "7th",
+    "className":  "1A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Bourbonnais Maternity BVM",
+                          "teams":  [
+                                        "Bourbonnais Maternity BVM",
+                                        "Bradley St. Joseph",
+                                        "St. Anne",
+                                        "Kankakee Aquinas",
+                                        "Donovan"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Lockport Fairmont",
+                          "teams":  [
+                                        "Gardner",
+                                        "Joliet Laraway",
+                                        "Rockdale",
+                                        "Lockport Fairmont",
+                                        "Braceville"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Ottawa Marquette",
+                          "teams":  [
+                                        "Odell",
+                                        "Marseilles Milton Pope",
+                                        "Ottawa Marquette",
+                                        "Ottawa Wallace",
+                                        "Morris Nettle Creek",
+                                        "Ransom"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Grand Ridge",
+                          "teams":  [
+                                        "Oglesby Holy Family",
+                                        "Grand Ridge",
+                                        "Tonica",
+                                        "LaSalle Trinity Catholic",
+                                        "Mendota Holy Cross"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Crescent City",
+                          "teams":  [
+                                        "Crescent City",
+                                        "Cissna Park",
+                                        "Armstrong-Ellis",
+                                        "Gifford",
+                                        "Rossville-Alvin"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Hume Shiloh",
+                          "teams":  [
+                                        "Chrisman Scottland",
+                                        "Hume Shiloh",
+                                        "Catlin",
+                                        "Royal Prairieview Ogden",
+                                        "Sidell Jamaica",
+                                        "Danville St. Paul"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Rantoul St. Malachy",
+                          "teams":  [
+                                        "Rantoul St. Malachy",
+                                        "Atwood-Hammond",
+                                        "Thomasboro",
+                                        "Bement"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Pontiac St. Mary\u0027s",
+                          "teams":  [
+                                        "Lexington",
+                                        "Flanagan",
+                                        "Normal Calvary",
+                                        "Bloomington Cornerstone",
+                                        "Pontiac St. Mary\u0027s"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Washington St. Patrick",
+                          "teams":  [
+                                        "Washington St. Patrick",
+                                        "Morton Blessed Sacrament",
+                                        "Spring Bay Riverview",
+                                        "Pekin Rankin",
+                                        "South Pekin"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "London Mills Valley",
+                          "teams":  [
+                                        "Bartonville Monroe",
+                                        "Peoria Limestone Walters",
+                                        "London Mills Valley",
+                                        "Peoria St. Mark"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Martinsville",
+                          "teams":  [
+                                        "Martinsville",
+                                        "Dieterich",
+                                        "Noble West Richland",
+                                        "Oblong"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Effingham St. Anthony",
+                          "teams":  [
+                                        "Effingham St. Anthony",
+                                        "Sigel St. Michael\u0027s",
+                                        "Effingham Sacred Heart"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Decatur Holy Family",
+                          "teams":  [
+                                        "Decatur Holy Family",
+                                        "Decatur Our Lady of Lourdes",
+                                        "Decatur Robertson",
+                                        "Mt. Pulaski",
+                                        "Decatur Hope"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "East St. Louis Jackson",
+                          "teams":  [
+                                        "Pocahontas",
+                                        "Pana Sacred Heart",
+                                        "Sorento",
+                                        "Mulberry Grove JHS",
+                                        "East St. Louis Jackson"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Springfield Little Flower",
+                          "teams":  [
+                                        "Springfield Christian",
+                                        "Springfield Little Flower",
+                                        "Lincoln Chester-East Lincoln",
+                                        "Lincoln West Lincoln-Broadwell",
+                                        "Lincoln Carroll Catholic"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Pleasant Hill",
+                          "teams":  [
+                                        "Augusta Southeastern",
+                                        "Jacksonville Our Saviour",
+                                        "Concord Triopia",
+                                        "Griggsville-Perry",
+                                        "Carrollton St. John",
+                                        "Pleasant Hill",
+                                        "Jacksonville ISD"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Joliet Laraway",
+                           "date":  "Wednesday, December 01, 2010",
+                           "records":  {
+                                           "1":  "18-1",
+                                           "2":  "5-6"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Grand Ridge",
+                           "date":  "Wednesday, December 01, 2010",
+                           "records":  {
+                                           "3":  "15-2",
+                                           "4":  "18-4"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Chrisman Scottland",
+                           "date":  "Wednesday, December 01, 2010",
+                           "records":  {
+                                           "5":  "11-10",
+                                           "6":  "18-0"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Pontiac St. Mary\u0027s",
+                           "date":  "Wednesday, December 01, 2010",
+                           "records":  {
+                                           "7":  "16-3",
+                                           "8":  "10-7"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Washington St. Patrick",
+                           "date":  "Wednesday, December 01, 2010",
+                           "records":  {
+                                           "9":  "18-3",
+                                           "10":  "20-1"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Effingham St. Anthony",
+                           "date":  "Wednesday, December 01, 2010",
+                           "records":  {
+                                           "11":  "5-9",
+                                           "12":  "6-9"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Decatur Holy Family",
+                           "date":  "Wednesday, December 01, 2010",
+                           "records":  {
+                                           "13":  "21-0",
+                                           "14":  "14-3"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Springfield Little Flower",
+                           "date":  "Wednesday, December 01, 2010",
+                           "records":  {
+                                           "15":  "8-12",
+                                           "16":  "11-6"
+                                       }
+                       }
+                   ],
+    "venue":  "Normal Chiddix JHS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              4,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              1,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              2,
+                                              3
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              7,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

@@ -1,0 +1,376 @@
+﻿{
+    "year":  2021,
+    "grade":  "7th",
+    "className":  "1A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Lockport Taft",
+                          "teams":  [
+                                        "Lockport Fairmont",
+                                        "Lockport Taft",
+                                        "Mazon-Verona-Kinsman",
+                                        "Riverdale Patton",
+                                        "Rockdale"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Ottawa Marquette",
+                          "teams":  [
+                                        "Grand Ridge",
+                                        "Marseilles Milton Pope (Co-op)",
+                                        "Ottawa Marquette",
+                                        "Ottawa Wallace",
+                                        "Ransom (Co-op)",
+                                        "Streator Woodland"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Oglesby Holy Family",
+                          "teams":  [
+                                        "LaSalle Dimmick",
+                                        "LaSalle Trinity Catholic",
+                                        "Mendota Holy Cross",
+                                        "Oglesby Holy Family",
+                                        "Tonica",
+                                        "Utica Waltham"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Kewanee Visitation",
+                          "teams":  [
+                                        "Annawan",
+                                        "Cambridge JHS",
+                                        "Galva",
+                                        "Henry-Senachwine",
+                                        "Kewanee Visitation",
+                                        "Kewanee Wethersfield",
+                                        "Woodhull AlWood"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Pontiac St. Mary\u0027s",
+                          "teams":  [
+                                        "Grant Park",
+                                        "Odell (Co-op)",
+                                        "Piper City Tri-Point",
+                                        "Pontiac St. Mary\u0027s (Co-op)",
+                                        "St. Anne"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Armstrong-Ellis",
+                          "teams":  [
+                                        "Armstrong-Ellis (Co-op)",
+                                        "Cissna Park (Co-op)",
+                                        "Donovan",
+                                        "Milford",
+                                        "Rantoul St. Malachy",
+                                        "Rossville-Alvin"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Morton Blessed Sacrament",
+                          "teams":  [
+                                        "Flanagan (Co-op)",
+                                        "Lowpoint-Washburn",
+                                        "Morton Blessed Sacrament",
+                                        "Roanoke-Benson",
+                                        "Spring Bay Riverview",
+                                        "Washington St. Patrick"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Normal Epiphany",
+                          "teams":  [
+                                        "Bloomington Cornerstone",
+                                        "Bloomington St. Mary\u0027s",
+                                        "Lincoln West Lincoln-Broadwell",
+                                        "Normal Calvary",
+                                        "Normal Epiphany"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Peoria Heights St. Thomas",
+                          "teams":  [
+                                        "Monmouth ICS",
+                                        "Peoria Heights St. Thomas",
+                                        "Peoria St. Jude",
+                                        "Williamsfield (Co-op)"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Bartonville Oak Grove",
+                          "teams":  [
+                                        "Bartonville Oak Grove",
+                                        "Pekin Rankin",
+                                        "Peoria Hollis",
+                                        "Peoria Limestone Walters",
+                                        "South Pekin"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Champaign Holy Cross",
+                          "teams":  [
+                                        "Champaign Holy Cross",
+                                        "Champaign Next Generation",
+                                        "DeLand-Weldon",
+                                        "Philo St. Thomas",
+                                        "Royal Prairieview Ogden"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Chrisman Scottland",
+                          "teams":  [
+                                        "Chrisman Scottland",
+                                        "Danville Schlarman",
+                                        "Homer Heritage",
+                                        "Hume Shiloh"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Decatur Lutheran",
+                          "teams":  [
+                                        "Decatur Lutheran",
+                                        "Decatur Montessori Academy for Peace",
+                                        "Kincaid South Fork (Co-op)",
+                                        "Pana Sacred Heart"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Effingham Sacred Heart",
+                          "teams":  [
+                                        "Effingham Sacred Heart",
+                                        "Martinsville",
+                                        "Neoga",
+                                        "Oakland Lake Crest (Co-op)",
+                                        "Sigel St. Michael\u0027s"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Jerseyville St. Francis HG",
+                          "teams":  [
+                                        "Ashland A-C Central",
+                                        "Carrollton St. John",
+                                        "Jerseyville St. Francis HG",
+                                        "Springfield Christ the King",
+                                        "Springfield Christian"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Mt. Olive",
+                          "teams":  [
+                                        "Mt. Olive",
+                                        "Mulberry Grove JHS",
+                                        "Pocahontas",
+                                        "Ramsey (Co-op)"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Ottawa Wallace",
+                           "date":  "Wednesday, December 1, 2021",
+                           "records":  {
+                                           "1":  "10-6",
+                                           "2":  "18-1"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Utica Waltham",
+                           "date":  "Wednesday, December 1, 2021",
+                           "records":  {
+                                           "3":  "17-4",
+                                           "4":  "19-0"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Pontiac St. Mary\u0027s",
+                           "date":  "Wednesday, December 1, 2021",
+                           "records":  {
+                                           "5":  "8-12",
+                                           "6":  "14-5"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Lincoln West Lincoln-Broadwell",
+                           "date":  "Wednesday, December 1, 2021",
+                           "records":  {
+                                           "7":  "13-8",
+                                           "8":  "14-6"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Peoria Heights St. Thomas",
+                           "date":  "Wednesday, December 1, 2021",
+                           "records":  {
+                                           "9":  "16-7",
+                                           "10":  "8-5"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Royal Prairieview Ogden",
+                           "date":  "Wednesday, December 1, 2021",
+                           "records":  {
+                                           "11":  "7-11",
+                                           "12":  "16-0"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Sigel St. Michael\u0027s",
+                           "date":  "Wednesday, December 1, 2021",
+                           "records":  {
+                                           "13":  "12-3",
+                                           "14":  "19-3"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Carrollton St. John",
+                           "date":  "Wednesday, December 1, 2021",
+                           "records":  {
+                                           "15":  "15-5",
+                                           "16":  "14-7"
+                                       }
+                       }
+                   ],
+    "venue":  "Assumption Central A \u0026 M MS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              6,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              1,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              3,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              4,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

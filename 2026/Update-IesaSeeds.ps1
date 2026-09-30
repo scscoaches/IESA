@@ -1,8 +1,10 @@
 ﻿param(
     [int]$Year = 2026,
+    [ValidateSet('1A', '2A', '3A', '4A')][string]$ClassName = '2A',
     [string]$SitePath = (Get-Location).Path,
     [string]$OutputPath = $SitePath,
-    [string[]]$Grades = @('7th', '8th')
+    [string[]]$Grades = @('7th', '8th'),
+    [switch]$AllowBracketParticipants
 )
 
 $ErrorActionPreference = 'Stop'
@@ -22,6 +24,18 @@ function Get-Key([string]$name) {
 }
 
 function Get-Roster([string]$grade) {
+    $dataPath = Join-Path $SitePath "$grade\data.json"
+    if (Test-Path -LiteralPath $dataPath) {
+        $data = Get-Content -Raw -LiteralPath $dataPath | ConvertFrom-Json
+        if ($data.year -ne $Year -or $data.className -ne $ClassName -or $data.regionals.Count -ne 16) {
+            throw "Invalid $grade regional assignment data at $dataPath"
+        }
+        $roster = @($data.regionals | ForEach-Object {
+            if (@($_.teams).Count -lt 2) { throw "Empty $grade regional roster" }
+            ,@($_.teams)
+        })
+        return ,$roster
+    }
     $script = Get-Content -Raw -LiteralPath (Join-Path $SitePath "$grade\data.js")
     $expression = if ($grade -eq '7th') {
         '(?s)\bvar\s+teams\s*=\s*\[(.*?)\]\s*;\s*return\s+teams\.map'
@@ -143,11 +157,13 @@ $captures = @{}
 $failures = @()
 foreach ($grade in $Grades) {
     $level = $grade.Substring(0, 1)
-    $url = "https://www.iesa.org/activities/gbk/brackets_Regional_$level.asp?Year=$Year&Class=$level-2A"
+    $url = "https://www.iesa.org/activities/gbk/brackets_Regional_$level.asp?Year=$Year&Class=$level-$ClassName"
     try {
-        $roster = if ($Year -eq 2026) { Get-Roster $grade } else { $null }
+        $hasRoster = (Test-Path -LiteralPath (Join-Path $SitePath "$grade\data.json") -PathType Leaf) -or
+            (Split-Path $SitePath -Leaf) -eq "$Year"
+        $roster = if ($hasRoster -and !$AllowBracketParticipants) { Get-Roster $grade } else { $null }
         $html = (Invoke-WebRequest -UseBasicParsing -Uri $url).Content
-        $headings = @([regex]::Matches($html, "(?is)<td\s+class=['""]TableSubtitle['""]>\s*Class $level-2A Regional (\d+)\s*</td>"))
+        $headings = @([regex]::Matches($html, "(?is)<td\s+class=['""]TableSubtitle['""]>\s*Class $level-$ClassName Regional (\d+)\s*</td>"))
         if ($headings.Count -ne 16) { throw "expected 16 regional headings, got $($headings.Count)" }
         $brackets = [ordered]@{}
         for ($r = 0; $r -lt 16; $r++) {
@@ -155,10 +171,19 @@ foreach ($grade in $Grades) {
             if ([int]$headings[$r].Groups[1].Value -ne $number) { throw "missing or duplicate regional $number" }
             $end = if ($r -lt 15) { $headings[$r + 1].Index } else { $html.Length }
             $section = $html.Substring($headings[$r].Index, $end - $headings[$r].Index)
+            $hostMatch = [regex]::Match($section, '(?is)(?:Regional Host|Host):\s*</b>\s*(.*?)</td>')
+            if (!$hostMatch.Success) {
+                $hostMatch = [regex]::Match($section, '(?is)(?:Regional Host|Host):\s*([^<]+)</td>')
+            }
+            $regionalHost = if ($hostMatch.Success) { Get-Text $hostMatch.Groups[1].Value } else { $null }
             $rows = @()
+            $gameInfo = @()
             foreach ($row in [regex]::Matches($section, '(?is)<tr\b[^>]*>(.*?)</tr>')) {
+                $info = [regex]::Match($row.Groups[1].Value,
+                    "(?is)<td\b[^>]*class=['""]Info['""][^>]*>(.*?)</td>")
+                if ($info.Success) { $gameInfo += (Get-Text $info.Groups[1].Value) }
                 $schools = @()
-                foreach ($cell in [regex]::Matches($row.Groups[1].Value, '(?is)<td\b[^>]*class=[''"]Bracket-School[''"][^>]*>(.*?)</td>\s*(?:<td\b[^>]*class=[''"]Bracket-Score[''"][^>]*>(.*?)</td>)?')) {
+                foreach ($cell in [regex]::Matches($row.Groups[1].Value, '(?is)<td\b[^>]*class=[''"](?:Bracket-School|ListData)[''"][^>]*>(.*?)</td>\s*(?:<td\b[^>]*class=[''"]Bracket-Score[''"][^>]*>(.*?)</td>)?')) {
                     $name = Get-Text $cell.Groups[1].Value
                     $scoreText = Get-Text $cell.Groups[2].Value
                     if ($scoreText -and $scoreText -notmatch '^\d+$') { throw "regional ${number}: malformed score $scoreText" }
@@ -183,17 +208,25 @@ foreach ($grade in $Grades) {
                 if (@($labels | Where-Object { $_ -notmatch '^\d+(?:st|nd|rd|th) Seed$|^Winner Game \d+$' }).Count) {
                     throw "regional ${number}: unseeded school names instead of template placeholders"
                 }
-                $brackets["$number"] = [pscustomobject]@{ seeds = @(); rounds = @(); sourceUrl = $source }
+                $brackets["$number"] = [pscustomobject]@{
+                    seeds = @(); rounds = @(); sourceUrl = $source; host = $regionalHost
+                }
                 continue
             }
             if ($rows.Count -notin @(4, 8)) {
                 throw "regional ${number}: unexpected $($rows.Count)-slot bracket"
             }
             $byeCount = @($rows | Where-Object { $_[0].name -eq 'BYE' }).Count
-            if ($seeds.Count + $byeCount -ne $rows.Count) {
+            $missingFirstSeed = $Year -eq 2008 -and $ClassName -eq '1A' -and
+                $grade -eq '8th' -and $number -eq 10 -and $rows[0][0].name -eq '1st Seed' -and
+                $seeds.Count -eq 5 -and $byeCount -eq 2 -and $labels.Count -eq 1 -and
+                $labels[0] -eq '1st Seed'
+            if ($seeds.Count + $byeCount + [int]$missingFirstSeed -ne $rows.Count) {
                 throw "regional ${number}: seed/BYE count does not match bracket slots"
             }
-            if ($labels.Count) { throw "regional ${number}: mixed seeded and placeholder slots: $($labels -join ', ')" }
+            if ($labels.Count -and !$missingFirstSeed) {
+                throw "regional ${number}: mixed seeded and placeholder slots: $($labels -join ', ')"
+            }
             $byName = @{}
             $bySeed = @{}
             foreach ($seed in $seeds) {
@@ -203,26 +236,56 @@ foreach ($grade in $Grades) {
                 }
                 if ($roster) {
                     $matches = @($roster[$r] | Where-Object { (Get-Key $_) -eq $key })
-                    if ($matches.Count -ne 1) { throw "regional ${number}: $($seed.team) has $($matches.Count) roster matches" }
-                    $seed.team = $matches[0]
+                    if ($matches.Count -eq 1) {
+                        $seed.team = $matches[0]
+                    } elseif ($matches.Count -gt 1 -or !$AllowBracketParticipants) {
+                        throw "regional ${number}: $($seed.team) has $($matches.Count) roster matches"
+                    }
                 }
                 $byName[$key] = $seed.team
                 $bySeed[$seed.seed] = $true
             }
-            for ($i = 1; $i -le $seeds.Count; $i++) {
+            for ($i = $(if ($missingFirstSeed) { 2 } else { 1 });
+                $i -le $seeds.Count + [int]$missingFirstSeed; $i++) {
                 if (!$bySeed.ContainsKey($i)) { throw "regional ${number}: nonsequential seeds (missing $i)" }
             }
-            if ($roster -and $seeds.Count -ne $roster[$r].Count) {
+            if ($roster -and !$AllowBracketParticipants -and $seeds.Count -ne $roster[$r].Count) {
                 throw "regional ${number}: $($seeds.Count) seeded schools but $($roster[$r].Count) roster schools"
             }
             $orderedSeeds = @($seeds | Sort-Object seed)
             $rounds = @()
-            try { $rounds = Get-Rounds $rows $byName }
-            catch {
-                if ($_.Exception.Message -match '^unknown published bracket school ') { throw }
-                Write-Warning "$grade regional ${number}: rounds omitted: $($_.Exception.Message)"
+            if (!$missingFirstSeed) {
+                try { $rounds = Get-Rounds $rows $byName }
+                catch {
+                    if ($_.Exception.Message -match '^unknown published bracket school ') { throw }
+                    Write-Warning "$grade regional ${number}: rounds omitted: $($_.Exception.Message)"
+                }
             }
-            $brackets["$number"] = [pscustomobject]@{ seeds = $orderedSeeds; rounds = $rounds; sourceUrl = $source }
+            if ($rounds.Count -eq 3) {
+                $positions = if ($rows.Count -eq 8) {
+                    @(@(0, 0), @(1, 0), @(0, 1), @(2, 0),
+                        @(0, 2), @(1, 1), @(0, 3))
+                } else {
+                    @(@(1, 0), @(2, 0), @(1, 1))
+                }
+                if ($gameInfo.Count -ne $positions.Count -and
+                    @($gameInfo | Where-Object { $_ -match '\b(?:FORFEIT|OT)\b' }).Count) {
+                    throw "regional ${number}: cannot align annotated game info rows"
+                }
+                for ($i = 0; $i -lt $positions.Count -and $gameInfo.Count -eq $positions.Count; $i++) {
+                    $annotation = if ($gameInfo[$i] -match '\bFORFEIT\b') { 'FORFEIT' }
+                        elseif ($gameInfo[$i] -match '\bOT\b') { 'OT' } else { $null }
+                    if ($annotation) {
+                        $position = $positions[$i]
+                        $rounds[$position[0]][$position[1]] |
+                            Add-Member -NotePropertyName annotation -NotePropertyValue $annotation
+                    }
+                }
+            }
+            $brackets["$number"] = [pscustomobject]@{
+                seeds = $orderedSeeds; rounds = $rounds; sourceUrl = $source
+                host = $regionalHost; missingSeed = $(if ($missingFirstSeed) { 1 } else { $null })
+            }
         }
         $captures[$grade] = [pscustomobject]@{
             updatedAt = (Get-Date).ToString('yyyy-MM-dd HH:mm')

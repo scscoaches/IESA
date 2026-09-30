@@ -40,3 +40,16 @@
 @media(max-width:680px){#projection-rounds{grid-template-columns:1fr;gap:14px}.projection-games{display:flex;flex-direction:column;gap:8px}.projection-match{min-height:0}#projection-rounds .projection-stage .projection-match{align-self:stretch}.projection-stage h3{margin:8px 0 0}.projection-stage .projection-match:before,.projection-stage .projection-match:after,.projection-stage .projection-games:before,.projection-stage .projection-games:after{display:none}}
 .regional .seed-badge{flex:none;min-width:17px;padding:1px 3px;border-radius:3px;background:#e5e9f1;color:#30405f;font-size:9px;font-weight:bold;text-align:center}
 .regional.seeded>.entry{padding-top:5px;padding-bottom:5px}
+.dialog-actions #refresh-scores{display:inline-flex;align-items:center;justify-content:center;gap:6px;flex:0 0 auto;margin-left:auto;white-space:nowrap}
+.dialog-actions #refresh-scores img{width:15px;height:15px}
+.dialog-actions #refresh-scores:disabled{opacity:.65;cursor:wait}
+.regional-note{padding:6px 9px;border-top:1px solid #e0e4ed;background:#fff8e8;color:#694616;font-size:10px;line-height:1.3}
+.projection-annotation{padding:3px 8px;background:#fff3d6;color:#704416;font-size:11px;font-weight:700;letter-spacing:.03em}
+.switcher select{height:40px;width:82px;padding:0 7px;border:1px solid #9ea8d4;border-radius:4px;background:var(--navy);color:#fff;font:inherit;font-size:12px;cursor:pointer}
+.switcher select:disabled{cursor:default;opacity:.75}
+@media(max-width:680px){.switcher select{height:34px;width:72px;padding:0 3px;font-size:11px}}
+@media(max-width:380px){.switcher select{width:65px}}
+@media(max-width:370px){.app.live .topbar>div:first-child{display:none}}
+.sectional .sectional-team{flex:1;min-width:0}
+.sectional .record-badge{flex:none;margin-left:auto}
+.sectional .postseason-score{margin-left:0}

@@ -3,6 +3,10 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
+$today = (Get-Date).Date
+if ($today -gt [datetime]::new(2026, 12, 18)) {
+    throw "The 2026 season is complete; the scheduled score refresh ended after December 18."
+}
 $directoryPage = Invoke-WebRequest -UseBasicParsing "https://www.iesa.org/activities/members.asp"
 $directory = @{}
 foreach ($match in [regex]::Matches($directoryPage.Content, "(?is)<a href='memberdetail\.asp\?SchoolID=(\d+)'[^>]*>(.*?)</a>")) {
@@ -107,7 +111,6 @@ foreach ($grade in "7th", "8th") {
     ("window.iesaScoreCache = " + $json + ";") | Set-Content -Encoding UTF8 (Join-Path $SitePath "scores-$grade.js")
 }
 
-$today = (Get-Date).Date
 $seedRefreshError = $null
 if ($today -ge [datetime]::new(2026, 11, 12)) {
     try {

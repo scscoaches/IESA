@@ -1,0 +1,43 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#101d4d">
+    <title>IESA 2018 7th Grade Class 1A</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../../2026/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../2026/apple-touch-icon.png">
+    <script src="../../2026/theme.js?v=2"></script>
+    <link rel="stylesheet" href="../../2026/styles.css?v=25">
+    <link rel="stylesheet" href="../../2026/theme.css?v=11">
+    <link rel="stylesheet" href="../../2026/bracket-navigation.css?v=3">
+</head>
+<body class="app">
+    <header class="topbar">
+        <div><div class="title"></div><div class="detail"></div></div>
+        <nav class="switcher" aria-label="Tournament season and grade"><select id="season-select" aria-label="Tournament year" disabled><option>Loading years...</option></select><a href="../7th/index.html" class="active">7th</a><a href="../8th/index.html" >8th</a></nav>
+        <div class="tools">
+            <button id="find-button" type="button" aria-label="Find a team"><img src="../../2026/search-icon.svg" alt="" aria-hidden="true"></button>
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><img src="../../2026/theme-moon.svg" alt="" aria-hidden="true"></button>
+            <button id="minus" type="button">-</button><button id="plus" type="button">+</button><button id="fit" type="button">Fit to screen</button>
+        </div>
+    </header>
+    <main id="viewport"><section id="bracket" aria-label="2018 7th Grade Class 1A tournament bracket"><svg width="3360" height="1450"></svg></section></main>
+    <dialog id="find-dialog">
+        <div class="dialog-head"><strong>Find a team</strong><button id="close-find" type="button" aria-label="Close">&times;</button></div>
+        <label for="team-search">Team name</label>
+        <input id="team-search" type="search" autocomplete="off" placeholder="Search teams">
+        <p id="find-message" role="status">Type a team name to search.</p>
+        <div id="team-results" aria-label="Matching teams"></div>
+    </dialog>
+    <dialog id="projection-dialog">
+        <div class="dialog-head"><strong id="projection-title"></strong><button id="close-projection" type="button" aria-label="Close regional bracket">&times;</button></div>
+        <div id="projection-rounds"></div>
+        <a id="projection-source" href="#" target="_blank" rel="noopener noreferrer" hidden>View official IESA bracket</a>
+    </dialog>
+    <script src="data.js"></script><script src="../bracket-7th.js"></script><script src="../regional-seeds-7th.js"></script><script src="../../2026/app.js?v=23"></script><script src="../../2026/season-selector.js?v=1"></script>
+    <script src="../../2026/pointer-zoom.js?v=3"></script><script src="../../2026/spaced-layout.js?v=18"></script>
+    <script src="../../2026/bracket-navigation.js?v=2"></script><script src="../../2026/touch-navigation.js?v=2"></script>
+</body>
+</html>
+

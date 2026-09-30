@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2015,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Mt. Olive",
+                                 "loser":  "Pocahontas",
+                                 "score":  "25-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "Ottawa Wallace",
+                                "loser":  "LaSalle Dimmick",
+                                "score":  "21-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Lexington",
+                                "loser":  "Normal Calvary",
+                                "score":  "28-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Springfield Calvary",
+                                 "score":  "52-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Danville Schlarman",
+                                 "loser":  "Champaign Next Generation",
+                                 "score":  "58-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Piper City Tri-Point",
+                                "loser":  "Bourbonnais Maternity BVM",
+                                "score":  "26-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Bartonville Monroe",
+                                "loser":  "Cuba",
+                                "score":  "35-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Decatur Our Lady of Lourdes",
+                                 "loser":  "Decatur Garfield Montessori",
+                                 "score":  "41-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Lockport Taft",
+                                "loser":  "Joliet Laraway",
+                                "score":  "40-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Royal Prairieview Ogden",
+                                "loser":  "Armstrong-Ellis",
+                                "score":  "54-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Augusta Southeastern",
+                                 "score":  "27-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Peoria St. Mark",
+                                "loser":  "Peoria Limestone Walters",
+                                "score":  "29-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Dieterich",
+                                 "score":  "36-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "Washington St. Patrick",
+                                "loser":  "Pekin Rankin",
+                                "score":  "28-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Tonica",
+                                "score":  "38-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Ashland A-C Central",
+                                 "loser":  "Jacksonville Our Saviour",
+                                 "score":  "37-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Mt. Olive",
+                                               "record":  "9-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Ottawa Wallace",
+                                              "record":  "13-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Lexington",
+                                              "record":  "18-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Lincoln West Lincoln-Broadwell",
+                                               "record":  "21-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Danville Schlarman",
+                                               "record":  "18-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Piper City Tri-Point",
+                                              "record":  "13-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Bartonville Monroe",
+                                              "record":  "10-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Decatur Our Lady of Lourdes",
+                                               "record":  "21-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lockport Taft",
+                                              "record":  "13-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Royal Prairieview Ogden",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Carthage",
+                                               "record":  "8-12",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Peoria St. Mark",
+                                              "record":  "15-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "15-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Washington St. Patrick",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Pontiac St. Mary\u0027s",
+                                              "record":  "14-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Ashland A-C Central",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Ashland A-C Central",
+                                 "loser":  "Carthage",
+                                 "score":  "42-5",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Lexington",
+                                 "loser":  "Washington St. Patrick",
+                                 "score":  "36-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Pontiac St. Mary\u0027s",
+                                 "loser":  "Ottawa Wallace",
+                                 "score":  "34-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Lockport Taft",
+                                 "loser":  "Piper City Tri-Point",
+                                 "score":  "36-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "Peoria St. Mark",
+                                 "score":  "28-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Decatur Our Lady of Lourdes",
+                                 "loser":  "Lincoln West Lincoln-Broadwell",
+                                 "score":  "50-47",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Danville Schlarman",
+                                 "loser":  "Royal Prairieview Ogden",
+                                 "score":  "38-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Mt. Olive",
+                                 "score":  "30-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           2
+                                       ],
+                                 "4":  [
+                                           1,
+                                           5
+                                       ],
+                                 "1":  [
+                                           4,
+                                           6
+                                       ],
+                                 "3":  [
+                                           8,
+                                           3
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Ashland A-C Central",
+                                          "Danville Schlarman"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           30
+                                       ],
+                            "winner":  "Danville Schlarman",
+                            "loser":  "Ashland A-C Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Sigel St. Michael\u0027s",
+                                          "Lexington"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           31
+                                       ],
+                            "winner":  "Lexington",
+                            "loser":  "Sigel St. Michael\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Ashland A-C Central",
+                                          "Pontiac St. Mary\u0027s"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           15
+                                       ],
+                            "winner":  "Ashland A-C Central",
+                            "loser":  "Pontiac St. Mary\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Bartonville Monroe",
+                                          "Decatur Our Lady of Lourdes"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           56
+                                       ],
+                            "winner":  "Decatur Our Lady of Lourdes",
+                            "loser":  "Bartonville Monroe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Lockport Taft",
+                                          "Danville Schlarman"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           45
+                                       ],
+                            "winner":  "Danville Schlarman",
+                            "loser":  "Lockport Taft",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Lexington",
+                                          "Danville Schlarman"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           40
+                                       ],
+                            "winner":  "Lexington",
+                            "loser":  "Danville Schlarman",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Decatur Our Lady of Lourdes",
+                                          "Ashland A-C Central"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           21
+                                       ],
+                            "winner":  "Decatur Our Lady of Lourdes",
+                            "loser":  "Ashland A-C Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Decatur Our Lady of Lourdes",
+                                          "Lexington"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           35
+                                       ],
+                            "winner":  "Lexington",
+                            "loser":  "Decatur Our Lady of Lourdes",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        }
+              }
+};

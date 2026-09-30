@@ -9,6 +9,7 @@
     var body = document.querySelector("#score-history tbody");
     var note = document.getElementById("record-note");
     var official = document.getElementById("official-scores");
+    var refresh = document.getElementById("refresh-scores");
     var cache = window.iesaScoreCache || { teams: {} };
     var cacheLoaded = Boolean(window.iesaScoreCache);
     var selected;
@@ -43,35 +44,66 @@
             row.appendChild(score);
             body.appendChild(row);
         });
-        note.textContent = "Updated from IESA: " + cache.updatedAt + ". PENDING games do not affect the record.";
+        note.textContent = (team.updatedAt ? "Checked directly with IESA: " + team.updatedAt +
+            ". Results may be reused for up to five minutes. This live result is for this browser only; the shared site cache still refreshes nightly." :
+            "Nightly cache updated from IESA: " + cache.updatedAt + ".") +
+            " PENDING games do not affect the record.";
         official.hidden = !team.sourceUrl;
         official.href = team.sourceUrl || "#";
-        official.textContent = "Visit " + selected + "'s " + grade + "-grade IESA basketball page";
+        official.textContent = selected + " IESA page";
     }
 
-    function loadCache() {
-        refresh.disabled = true;
-        var script = document.createElement("script");
-        script.src = "../scores-" + grade + ".js?v=" + Date.now();
-        script.onload = function () {
-            cache = window.iesaScoreCache;
+    async function loadCache() {
+        try {
+            var response = await fetch(cacheUrl + "?v=" + Date.now(), { cache: "no-store" });
+            if (!response.ok) { throw new Error("HTTP " + response.status); }
+            var loaded = await response.json();
+            if (!loaded || !loaded.teams || !loaded.updatedAt) {
+                throw new Error("Invalid nightly score cache");
+            }
+            if (cacheLoaded) { return; }
+            cache = loaded;
             cacheLoaded = true;
             window.iesaScoreCache = cache;
             document.dispatchEvent(new CustomEvent("iesaScoresLoaded", { detail: cache }));
-            if (window.applyIesaRegionalRecords) {
-                window.applyIesaRegionalRecords(cache.teams);
-            }
             if (selected) { showSelectedTeam(); }
-            script.remove();
-            refresh.disabled = false;
-        };
-        script.onerror = function () {
-            note.textContent = "The nightly score cache could not be loaded from this website.";
-            refresh.disabled = false;
-            script.remove();
-        };
-        document.head.appendChild(script);
+        } catch (error) {
+            if (selected) { note.textContent = "The nightly score cache could not be loaded: " + error.message; }
+        }
     }
+
+    refresh.addEventListener("click", async function () {
+        if (!selected) { return; }
+        var requestedTeam = selected;
+        refresh.disabled = true;
+        note.textContent = "Checking " + requestedTeam + "'s scores directly with IESA...";
+        try {
+            var response = await fetch("../team-scores.ashx", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams({ grade: grade, team: requestedTeam })
+            });
+            var result = await response.json();
+            if (!response.ok) { throw new Error(result.error || "HTTP " + response.status); }
+            if (result.team !== requestedTeam || !result.record ||
+                !Array.isArray(result.games) || !result.updatedAt || !result.sourceUrl) {
+                throw new Error("IESA returned an invalid score response.");
+            }
+            cache.teams[requestedTeam] = result;
+            cacheLoaded = true;
+            window.iesaScoreCache = cache;
+            document.dispatchEvent(new CustomEvent("iesaScoresLoaded", { detail: cache }));
+            if (selected === requestedTeam) { showSelectedTeam(); }
+        } catch (error) {
+            if (selected === requestedTeam) {
+                note.textContent = "Live score check failed: " + error.message +
+                    (/[.!?]$/.test(error.message) ? "" : ".") +
+                    " The displayed scores have not been changed.";
+            }
+        } finally {
+            refresh.disabled = false;
+        }
+    });
 
     document.addEventListener("click", function (event) {
         var entry = event.target.closest(".regional > .entry");

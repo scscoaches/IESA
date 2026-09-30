@@ -1,0 +1,334 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-09-30 14:10",
+    "year":  2009,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Mulberry Grove JHS",
+                                 "loser":  "Sorento",
+                                 "score":  "43-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "Odell",
+                                "loser":  "Marseilles Milton Pope",
+                                "score":  "42-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Bartonville Monroe",
+                                "loser":  "Washington St. Patrick",
+                                "score":  "31-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Springfield Christian",
+                                 "loser":  "Lincoln West Lincoln-Broadwell",
+                                 "score":  "42-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Homer Heritage",
+                                 "loser":  "Oakland Lake Crest",
+                                 "score":  "37-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Mazon-Verona-Kinsman",
+                                "loser":  "Joliet Laraway",
+                                "score":  "46-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Gifford",
+                                "loser":  "Danville St. Paul",
+                                "score":  "44-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Morrisonville JHS",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "28-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Kankakee Aquinas",
+                                "loser":  "Bourbonnais Maternity BVM",
+                                "score":  "35-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Champaign Judah Christian",
+                                "loser":  "Rantoul St. Malachy",
+                                "score":  "23-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Bluffs",
+                                 "loser":  "Concord Triopia",
+                                 "score":  "17-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Crescent City",
+                                "loser":  "Cissna Park",
+                                "score":  "15-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Sigel St. Michael\u0027s",
+                                 "score":  "31-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria Limestone Walters",
+                                "loser":  "Peoria Academy",
+                                "score":  "31-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Ottawa St. Columba",
+                                "loser":  "Peru Catholic",
+                                "score":  "27-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "East St. Louis Jackson",
+                                 "loser":  "Carrollton St. John",
+                                 "score":  "35-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "7":  {
+                                              "team":  "Crescent City",
+                                              "record":  "12-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Champaign Judah Christian",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                                          },
+                                    "10":  {
+                                               "team":  "Homer Heritage",
+                                               "record":  "17-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                                           },
+                                    "12":  {
+                                               "team":  "Springfield Christian",
+                                               "record":  "18-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                                           },
+                                    "16":  {
+                                               "team":  "Mulberry Grove JHS",
+                                               "record":  "11-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Mazon-Verona-Kinsman",
+                                              "record":  "16-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                                          },
+                                    "1":  {
+                                              "team":  "Kankakee Aquinas",
+                                              "record":  "18-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Bluffs",
+                                               "record":  "12-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Peoria Limestone Walters",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Bartonville Monroe",
+                                              "record":  "16-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Gifford",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-1A"
+                                          }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "East St. Louis Jackson",
+                                 "loser":  "Bluffs",
+                                 "score":  "31-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "Peoria Limestone Walters",
+                                 "score":  "28-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Odell",
+                                 "loser":  "Ottawa St. Columba",
+                                 "score":  "48-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Mazon-Verona-Kinsman",
+                                 "loser":  "Kankakee Aquinas",
+                                 "score":  "32-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Gifford",
+                                 "loser":  "Crescent City",
+                                 "score":  "40-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Springfield Christian",
+                                 "loser":  "Morrisonville JHS",
+                                 "score":  "32-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Champaign Judah Christian",
+                                 "loser":  "Homer Heritage",
+                                 "score":  "16-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Mulberry Grove JHS",
+                                 "score":  "37-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           4
+                                       ],
+                                 "4":  [
+                                           8,
+                                           2
+                                       ],
+                                 "1":  [
+                                           1,
+                                           6
+                                       ],
+                                 "3":  [
+                                           5,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Gifford",
+                                          "Champaign Judah Christian"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           27
+                                       ],
+                            "winner":  "Gifford",
+                            "loser":  "Champaign Judah Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Champaign Judah Christian",
+                                          "East St. Louis Jackson"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           25
+                                       ],
+                            "winner":  "Champaign Judah Christian",
+                            "loser":  "East St. Louis Jackson",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Bartonville Monroe",
+                                          "Gifford"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           41
+                                       ],
+                            "winner":  "Gifford",
+                            "loser":  "Bartonville Monroe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Mazon-Verona-Kinsman",
+                                          "Springfield Christian"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           33
+                                       ],
+                            "winner":  "Springfield Christian",
+                            "loser":  "Mazon-Verona-Kinsman",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Effingham St. Anthony",
+                                          "Odell"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           25
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Odell",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Champaign Judah Christian",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           18,
+                                           20
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Champaign Judah Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Springfield Christian",
+                                          "Gifford"
+                                      ],
+                            "scores":  [
+                                           48,
+                                           32
+                                       ],
+                            "winner":  "Springfield Christian",
+                            "loser":  "Gifford",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Springfield Christian",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           40
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Springfield Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-1A"
+                        }
+              }
+};

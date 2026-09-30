@@ -1,0 +1,380 @@
+﻿window.tournamentData = {
+    "year":  2022,
+    "grade":  "7th",
+    "className":  "1A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Lockport Taft",
+                          "teams":  [
+                                        "Ford Heights Cottage Grove UGC",
+                                        "Lockport Fairmont",
+                                        "Lockport Taft",
+                                        "Riverdale Patton",
+                                        "Rockdale"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Gardner",
+                          "teams":  [
+                                        "Elwood GS",
+                                        "Gardner (Co-op)",
+                                        "Grant Park",
+                                        "Mazon-Verona-Kinsman"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Ottawa Wallace",
+                          "teams":  [
+                                        "Marseilles Milton Pope (Co-op)",
+                                        "Ottawa Marquette",
+                                        "Ottawa Wallace",
+                                        "Utica Waltham"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Pontiac St. Mary\u0027s",
+                          "teams":  [
+                                        "Flanagan (Co-op)",
+                                        "Lostant (Co-op)",
+                                        "Odell (Co-op)",
+                                        "Pontiac St. Mary\u0027s (Co-op)",
+                                        "Ransom (Co-op)",
+                                        "Streator Woodland"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Mendota Holy Cross",
+                          "teams":  [
+                                        "Annawan",
+                                        "Dalzell GS",
+                                        "LaSalle Dimmick",
+                                        "Mendota Holy Cross",
+                                        "Oglesby Holy Family"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Monmouth ICS",
+                          "teams":  [
+                                        "Cambridge JHS",
+                                        "Galva",
+                                        "Kewanee Visitation",
+                                        "Kewanee Wethersfield",
+                                        "Monmouth ICS",
+                                        "Woodhull AlWood"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Rantoul St. Malachy",
+                          "teams":  [
+                                        "Cissna Park (Co-op)",
+                                        "Donovan",
+                                        "Milford",
+                                        "Piper City Tri-Point",
+                                        "Rantoul St. Malachy",
+                                        "Rossville-Alvin"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Champaign Holy Cross",
+                          "teams":  [
+                                        "Champaign Holy Cross",
+                                        "Champaign Next Generation (Co-op)",
+                                        "Danville Schlarman",
+                                        "DeLand-Weldon",
+                                        "Homer Heritage",
+                                        "Philo St. Thomas",
+                                        "Royal Prairieview Ogden"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Normal Epiphany",
+                          "teams":  [
+                                        "Bloomington Cornerstone",
+                                        "Bloomington Corpus Christi",
+                                        "Bloomington St. Mary\u0027s",
+                                        "Lincoln West Lincoln-Broadwell",
+                                        "Normal Epiphany"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Washington St. Patrick",
+                          "teams":  [
+                                        "Morton Blessed Sacrament",
+                                        "Pekin Rankin",
+                                        "Roanoke-Benson",
+                                        "South Pekin",
+                                        "Washington St. Patrick"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Peoria Heights St. Thomas",
+                          "teams":  [
+                                        "Lowpoint-Washburn",
+                                        "Peoria Heights St. Thomas",
+                                        "Peoria St. Jude",
+                                        "Peoria St. Vincent de Paul (Co-op)",
+                                        "Spring Bay Riverview"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "La Harpe",
+                          "teams":  [
+                                        "Bartonville Oak Grove",
+                                        "La Harpe (Co-op)",
+                                        "Peoria Hollis",
+                                        "Peoria Limestone Walters",
+                                        "Peoria Pleasant Hill"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Martinsville",
+                          "teams":  [
+                                        "Chrisman Scottland",
+                                        "Hume Shiloh",
+                                        "Louisville North Clay",
+                                        "Martinsville",
+                                        "Oakland Lake Crest (Co-op)",
+                                        "Palestine (Co-op)"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Sigel St. Michael\u0027s",
+                          "teams":  [
+                                        "Decatur Lutheran",
+                                        "Effingham Sacred Heart",
+                                        "Findlay Okaw Valley",
+                                        "Neoga",
+                                        "Pana Sacred Heart",
+                                        "Sigel St. Michael\u0027s",
+                                        "Taylorville VisionWay"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Ashland A-C Central",
+                          "teams":  [
+                                        "Ashland A-C Central",
+                                        "Griggsville-Perry",
+                                        "Jacksonville Our Saviour",
+                                        "Payson Seymour",
+                                        "Springfield Christ the King"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Carrollton St. John",
+                          "teams":  [
+                                        "Carrollton St. John",
+                                        "Jerseyville St. Francis HG",
+                                        "Mt. Olive",
+                                        "Mulberry Grove JHS",
+                                        "Pocahontas"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Gardner",
+                           "date":  "Wednesday, November 30, 2022",
+                           "records":  {
+                                           "1":  "14-4",
+                                           "2":  "13-6"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Ottawa Wallace",
+                           "date":  "Wednesday, November 30, 2022",
+                           "records":  {
+                                           "3":  "24-0",
+                                           "4":  "13-10"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "LaSalle Dimmick",
+                           "date":  "Wednesday, November 30, 2022",
+                           "records":  {
+                                           "5":  "8-5",
+                                           "6":  "14-4"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Rantoul St. Malachy",
+                           "date":  "Wednesday, November 30, 2022",
+                           "records":  {
+                                           "7":  "12-6",
+                                           "8":  "17-2"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Washington St. Patrick",
+                           "date":  "Wednesday, November 30, 2022",
+                           "records":  {
+                                           "9":  "22-0",
+                                           "10":  "24-0"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Peoria St. Jude",
+                           "date":  "Wednesday, November 30, 2022",
+                           "records":  {
+                                           "11":  "16-7",
+                                           "12":  "15-6"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Decatur Lutheran",
+                           "date":  "Wednesday, November 30, 2022",
+                           "records":  {
+                                           "13":  "15-7",
+                                           "14":  "21-1"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Carrollton St. John",
+                           "date":  "Wednesday, November 30, 2022",
+                           "records":  {
+                                           "15":  "11-12",
+                                           "16":  "19-2"
+                                       }
+                       }
+                   ],
+    "venue":  "Assumption Central A \u0026 M MS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              1,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              3,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              7,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              2,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};
