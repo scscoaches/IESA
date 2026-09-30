@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "year":  2026,
         "className":  "2A",
@@ -97,6 +97,164 @@
     {
         "year":  2006,
         "className":  "1A",
+        "archived":  true
+    },
+    {
+        "year":  2005,
+        "className":  "A",
+        "archived":  true
+    },
+    {
+        "year":  2004,
+        "className":  "A",
+        "archived":  true
+    },
+    {
+        "year":  2003,
+        "className":  "A",
+        "archived":  true
+    },
+    {
+        "year":  2002,
+        "className":  "A",
+        "archived":  true
+    },
+    {
+        "year":  2001,
+        "className":  "A",
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  2000,
+        "className":  "A",
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1999,
+        "className":  "A",
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1998,
+        "className":  "A",
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1997,
+        "className":  "A",
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1996,
+        "className":  "A",
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1995,
+        "className":  "A",
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1994,
+        "className":  "A",
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1993,
+        "className":  "A",
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1992,
+        "className":  "A",
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1991,
+        "className":  "A",
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1990,
+        "className":  "A",
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1989,
+        "className":  null,
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1988,
+        "className":  null,
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1987,
+        "className":  null,
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1986,
+        "className":  null,
+        "gradeMode":  "separate",
+        "archived":  true
+    },
+    {
+        "year":  1985,
+        "className":  null,
+        "gradeMode":  "combined",
+        "archived":  true
+    },
+    {
+        "year":  1984,
+        "className":  null,
+        "gradeMode":  "combined",
+        "archived":  true
+    },
+    {
+        "year":  1983,
+        "className":  null,
+        "gradeMode":  "combined",
+        "archived":  true
+    },
+    {
+        "year":  1982,
+        "className":  null,
+        "gradeMode":  "combined",
+        "archived":  true
+    },
+    {
+        "year":  1981,
+        "className":  null,
+        "gradeMode":  "combined",
+        "archived":  true
+    },
+    {
+        "year":  1980,
+        "className":  null,
+        "gradeMode":  "combined",
+        "archived":  true
+    },
+    {
+        "year":  1979,
+        "className":  null,
+        "gradeMode":  "combined",
         "archived":  true
     }
 ]

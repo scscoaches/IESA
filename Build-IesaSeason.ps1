@@ -1,12 +1,15 @@
 param(
-    [Parameter(Mandatory)][ValidateRange(2006, 2100)][int]$Year,
-    [Parameter(Mandatory)][ValidateSet('1A', '2A', '3A', '4A')][string]$ClassName,
+    [Parameter(Mandatory)][ValidateRange(2002, 2100)][int]$Year,
+    [Parameter(Mandatory)][ValidateSet('A', '1A', '2A', '3A', '4A')][string]$ClassName,
     [string]$OutputRoot = $PSScriptRoot
 )
 
 $ErrorActionPreference = 'Stop'
 if (!(Test-Path -LiteralPath $OutputRoot -PathType Container)) {
     throw "Output root does not exist: $OutputRoot"
+}
+if (($Year -le 2005) -ne ($ClassName -eq 'A')) {
+    throw 'Years 2002–2005 use Class A; 2006 and later use numbered classes.'
 }
 
 function Get-Text([string]$html) {
@@ -22,27 +25,28 @@ function Get-OfficialPage([string]$url, [string]$marker) {
 }
 
 function Get-Assignments([string]$html, [string]$grade) {
+    $sectionalCount = if ($Year -le 2005) { 16 } else { 8 }
     $sectionHeaders = @([regex]::Matches($html,
         "(?is)<td\s+class=['""]TableSubtitle['""][^>]*>\s*Sectional\s+(\d+)\b"))
     $early = $Year -le 2008
-    if ($sectionHeaders.Count -gt 8 -or (!$early -and $sectionHeaders.Count -ne 8) -or
+    if ($sectionHeaders.Count -gt $sectionalCount -or (!$early -and $sectionHeaders.Count -ne $sectionalCount) -or
         ($early -and $sectionHeaders.Count -lt 1)) {
-        throw "$grade $Year expected 8 sectionals; found $($sectionHeaders.Count)"
+        throw "$grade $Year expected $sectionalCount sectionals; found $($sectionHeaders.Count)"
     }
     $sectionals = @()
     $regionals = @()
     if ($early) {
-        $sectionals = @(1..8 | ForEach-Object {
+        $sectionals = @(1..$sectionalCount | ForEach-Object {
             [pscustomobject]@{ id = $_; regionals = @((2 * $_ - 1), (2 * $_)); host = ''; date = '' }
         })
-        $regionals = @(1..16 | ForEach-Object {
+        $regionals = @(1..(2 * $sectionalCount) | ForEach-Object {
             [pscustomobject]@{ id = $_; sectional = [int][math]::Ceiling($_ / 2); host = ''; teams = @() }
         })
     }
     $seen = @{}
     for ($i = 0; $i -lt $sectionHeaders.Count; $i++) {
         $id = [int]$sectionHeaders[$i].Groups[1].Value
-        if ($id -lt 1 -or $id -gt 8 -or $seen.ContainsKey($id) -or (!$early -and $id -ne $i + 1)) {
+        if ($id -lt 1 -or $id -gt $sectionalCount -or $seen.ContainsKey($id) -or (!$early -and $id -ne $i + 1)) {
             throw "$grade $Year unexpected sectional number"
         }
         $seen[$id] = $true
@@ -90,11 +94,11 @@ function Get-Assignments([string]$html, [string]$grade) {
             $nonCompetitors = @()
             $regionalHost = 'TBD'
             foreach ($line in [regex]::Split($list.Groups[1].Value, '(?i)<br\s*/?>')) {
-                $name = (Get-Text $line) -replace '(?i)\(\s*Host Info\s*\)', ''
+                $name = (Get-Text $line) -replace '(?i)\(\s*(?:Host Info|Host)\s*\)', ''
                 $name = $name.Trim()
                 if (!$name) { continue }
                 $listedTeams += $name
-                if ($line -match 'RegPlaqueInfo\.pdf') {
+                if ($line -match 'RegPlaqueInfo\.pdf|(?i)\(\s*Host\s*\)') {
                     if ($regionalHost -ne 'TBD') { throw "$grade $Year Regional $number has multiple hosts" }
                     $regionalHost = $name
                 }
@@ -174,8 +178,9 @@ try {
     $calendarHtml = Get-OfficialPage 'https://www.iesa.org/activities/calendar.asp?activitycode=GBK' 'GIRLS BASKETBALL'
     foreach ($grade in @('7th', '8th')) {
         $gradeNumber = $grade.Substring(0, 1)
-        $assignmentUrl = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=$Year&Class=$gradeNumber-$ClassName"
-        $html = Get-OfficialPage $assignmentUrl "$Year Class $gradeNumber-$ClassName Regional Assignments"
+        $classCode = if ($ClassName -eq 'A') { "${gradeNumber}A" } else { "$gradeNumber-$ClassName" }
+        $assignmentUrl = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=$Year&Class=$classCode"
+        $html = Get-OfficialPage $assignmentUrl "$Year Class $classCode Regional Assignments"
         $assignments = Get-Assignments $html $grade
         if ($Year -eq 2021 -and $ClassName -eq '1A' -and $grade -eq '8th') {
             $regional = $assignments.regionals[15]
@@ -205,9 +210,11 @@ try {
         $data | ConvertTo-Json -Depth 10 | Set-Content -Encoding UTF8 -LiteralPath (Join-Path $directory 'data.json')
     }
 
-    & (Join-Path $PSScriptRoot '2026\Update-IesaSeeds.ps1') -Year $Year -ClassName $ClassName `
-        -SitePath $staging -OutputPath $staging -AllowBracketParticipants:($Year -le 2019)
-    if ($Year -le 2019) {
+    if ($Year -ge 2006) {
+        & (Join-Path $PSScriptRoot '2026\Update-IesaSeeds.ps1') -Year $Year -ClassName $ClassName `
+            -SitePath $staging -OutputPath $staging -AllowBracketParticipants:($Year -le 2019)
+    }
+    if ($Year -ge 2006 -and $Year -le 2019) {
         foreach ($grade in @('7th', '8th')) {
             $dataPath = Join-Path (Join-Path $staging $grade) 'data.json'
             $data = Get-Content -Raw -LiteralPath $dataPath | ConvertFrom-Json
@@ -248,10 +255,42 @@ try {
         $dataPath = Join-Path $directory 'data.json'
         $data = Get-Content -Raw -LiteralPath $dataPath | ConvertFrom-Json
         $bracket = Get-Content -Raw -LiteralPath (Join-Path $staging "bracket-$grade.json") | ConvertFrom-Json
-        $seeds = Get-Content -Raw -LiteralPath (Join-Path $staging "regional-seeds-$grade.json") | ConvertFrom-Json
-        if (@($bracket.quarterfinalMatchups.PSObject.Properties).Count -ne 4 -or
-            @($seeds.regionalBrackets.PSObject.Properties | Where-Object { $_.Value.seeds.Count -gt 0 }).Count -ne 16) {
-            throw "$grade $Year has incomplete IESA quarterfinal pairings or regional seeds"
+        $legacy = $Year -le 2005
+        if ($legacy -and ($data.regionals.Count -ne 32 -or $data.sectionals.Count -ne 16 -or
+            @($bracket.regionals.PSObject.Properties).Count -ne 32 -or
+            @($bracket.sectionals.PSObject.Properties).Count -ne 16 -or
+            @($bracket.games.PSObject.Properties).Count -ne 16)) {
+            throw "$grade $Year has incomplete Class A regional, sectional or state results"
+        }
+        if ($Year -eq 2004 -and $grade -eq '7th') {
+            $qualifierUrl = 'https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004&Class=7A'
+            $qualifierHtml = Get-OfficialPage $qualifierUrl '2004 Class 7A Regional Champions/Sectional Matchups'
+            $hosts = @([regex]::Matches($qualifierHtml,
+                "(?is)<td\s+class=['""]TableSubtitle['""][^>]*>\s*Sectional\s+(\d+)\s*@\s*([^<]+)"))
+            if ($hosts.Count -ne 16) { throw 'Missing 2004 7A sectional hosts' }
+            foreach ($hostEntry in $hosts) {
+                $id = [int]$hostEntry.Groups[1].Value
+                if ($id -lt 1 -or $id -gt 16) { throw 'Unexpected 2004 7A sectional host' }
+                $data.sectionals[$id - 1].host = (Get-Text $hostEntry.Groups[2].Value)
+            }
+            foreach ($regional in $data.regionals) {
+                $final = $bracket.regionals.("$($regional.id)")
+                if (!$final -or !$final.winner -or !$final.loser -or $final.winner -eq $final.loser) {
+                    throw "2004 7A Regional $($regional.id) lacks published finalists"
+                }
+                $regional.teams = @($final.winner, $final.loser)
+                $regional.host = ''
+            }
+            $data | Add-Member -NotePropertyName regionalRosterPartial -NotePropertyValue $true
+        }
+        $seeds = if (!$legacy) {
+            Get-Content -Raw -LiteralPath (Join-Path $staging "regional-seeds-$grade.json") | ConvertFrom-Json
+        }
+        $openingGames = if ($legacy) { 8 } else { 4 }
+        if (@($bracket.quarterfinalMatchups.PSObject.Properties).Count -ne $openingGames -or
+            (!$legacy -and
+                @($seeds.regionalBrackets.PSObject.Properties | Where-Object { $_.Value.seeds.Count -gt 0 }).Count -ne 16)) {
+            throw "$grade $Year has incomplete IESA opening-round pairings or regional seeds"
         }
         if ($Year -eq 2021 -and $ClassName -eq '1A' -and $grade -eq '8th' -and
             (@($seeds.regionalBrackets.'16'.seeds | Where-Object { $_.team -eq 'Brussels' }).Count -ne 1 -or
@@ -284,16 +323,20 @@ try {
             }
         }
         foreach ($regional in $data.regionals) {
-            $bracketHost = $seeds.regionalBrackets.("$($regional.id)").host
+            $bracketHost = if (!$legacy) { $seeds.regionalBrackets.("$($regional.id)").host } else { '' }
             if (!$bracketHost -and $Year -gt 2019) {
                 throw "$grade $Year Regional $($regional.id) has no published bracket host"
             }
-            if ($regional.host -eq 'TBD') { $regional.host = $bracketHost }
+            if ($regional.host -eq 'TBD' -and $bracketHost) { $regional.host = $bracketHost }
         }
-        $stateUrl = "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=$Year&Class=$gradeNumber-$ClassName"
-        $stateHtml = Get-OfficialPage $stateUrl "$($gradeNumber)th Grade Class $ClassName  State Tournament"
+        $classCode = if ($legacy) { "${gradeNumber}A" } else { "$gradeNumber-$ClassName" }
+        $stateUrl = "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=$Year&Class=$classCode"
+        $stateMarker = if ($legacy) { "Class $classCode  State Tournament" } else {
+            "$($gradeNumber)th Grade Class $ClassName  State Tournament"
+        }
+        $stateHtml = Get-OfficialPage $stateUrl $stateMarker
         $header = [regex]::Match($stateHtml,
-            "(?is)$($gradeNumber)th Grade Class $ClassName\s+State Tournament(.*?)(?:First Round|Quarterfinals)")
+            "(?is)$([regex]::Escape($stateMarker))(.*?)(?:First Round|Quarterfinals)")
         if (!$header.Success) { throw "Missing $grade $Year state venue" }
         $venueMatch = [regex]::Match($header.Groups[1].Value, '(?is)@\s*([^<\r\n]+)')
         $venue = if ($venueMatch.Success) { Get-Text $venueMatch.Groups[1].Value } else { 'Venue unavailable from IESA' }
@@ -301,7 +344,7 @@ try {
         $firstDate = if ($schedule) { $schedule.first } else { '' }
         $finalDate = if ($schedule) { $schedule.last } else { '' }
 
-        $pairings = @(1..4 | ForEach-Object {
+        $pairings = @(1..$openingGames | ForEach-Object {
             $pair = @($bracket.quarterfinalMatchups."$_")
             $unmappedStateEntrant = $Year -eq 2008 -and $grade -eq '8th' -and $_ -eq 2 -and
                 $pair.Count -eq 2 -and $null -eq $pair[0] -and $pair[1] -eq 1 -and
@@ -312,12 +355,27 @@ try {
             }
             [pscustomobject]@{ game = $_; matchup = $pair; date = $firstDate; time = '' }
         })
+        if ($legacy) {
+            $sectionalIds = @($pairings | ForEach-Object { $_.matchup })
+            if ($sectionalIds.Count -ne 16 -or @($sectionalIds | Select-Object -Unique).Count -ne 16 -or
+                @($sectionalIds | Where-Object { $_ -lt 1 -or $_ -gt 16 }).Count) {
+                throw "$grade $Year has duplicated or missing state qualifiers"
+            }
+        }
         $data | Add-Member -NotePropertyName venue -NotePropertyValue $venue
         $data | Add-Member -NotePropertyName stateDate -NotePropertyValue $(if ($schedule) { $schedule.label } else { '' })
+        if ($legacy) {
+            $data | Add-Member -NotePropertyName firstRound -NotePropertyValue $pairings
+            $pairings = @(9..12 | ForEach-Object {
+                $index = $_ - 9
+                [pscustomobject]@{ game = $_; matchup = @((2 * $index + 1), (2 * $index + 2));
+                    date = $firstDate; time = '' }
+            })
+        }
         $data | Add-Member -NotePropertyName quarterfinals -NotePropertyValue $pairings
         $data | Add-Member -NotePropertyName semifinals -NotePropertyValue @(
-            [pscustomobject]@{ game = 5; matchup = @(1, 2); date = $firstDate; time = '' },
-            [pscustomobject]@{ game = 6; matchup = @(3, 4); date = $firstDate; time = '' }
+            [pscustomobject]@{ game = $(if ($legacy) { 13 } else { 5 }); matchup = @($pairings[0].game, $pairings[1].game); date = $firstDate; time = '' },
+            [pscustomobject]@{ game = $(if ($legacy) { 14 } else { 6 }); matchup = @($pairings[2].game, $pairings[3].game); date = $firstDate; time = '' }
         )
         $data | Add-Member -NotePropertyName thirdPlace -NotePropertyValue ([pscustomobject]@{ date = $finalDate; time = '' })
         $data | Add-Member -NotePropertyName championship -NotePropertyValue ([pscustomobject]@{ date = $finalDate; time = '' })
@@ -329,6 +387,7 @@ try {
             Replace('{{GRADE}}', $grade).
             Replace('{{SEVENTH_ACTIVE}}', $(if ($grade -eq '7th') { 'class="active"' } else { '' })).
             Replace('{{EIGHTH_ACTIVE}}', $(if ($grade -eq '8th') { 'class="active"' } else { '' }))
+        if ($legacy) { $page = $page.Replace("<script src=`"../regional-seeds-$grade.js`"></script>", '') }
         $page | Set-Content -Encoding UTF8 -LiteralPath (Join-Path $directory 'index.html')
     }
 
@@ -345,7 +404,7 @@ try {
             Copy-Item -LiteralPath (Join-Path (Join-Path $staging $grade) $file) `
                 -Destination (Join-Path $target $file) -Force
         }
-        foreach ($prefix in @('bracket', 'regional-seeds')) {
+        foreach ($prefix in $(if ($Year -le 2005) { @('bracket') } else { @('bracket', 'regional-seeds') })) {
             foreach ($extension in @('json', 'js')) {
                 $file = "$prefix-$grade.$extension"
                 Copy-Item -LiteralPath (Join-Path $staging $file) `

@@ -5,10 +5,19 @@
     var bracket = document.getElementById("bracket");
     var viewport = document.getElementById("viewport");
     var svg = bracket.querySelector("svg");
+    var legacy = !!data.firstRound;
+    if (legacy) {
+        bracket.style.width = "4200px";
+        bracket.style.height = "2700px";
+    }
+    svg.setAttribute("width", bracket.offsetWidth);
+    svg.setAttribute("height", bracket.offsetHeight);
     var groupHeight = 300;
-    var order = [].concat.apply([], data.quarterfinals.map(function (game) {
+    var order = [].concat.apply([], (data.firstRound || data.quarterfinals).map(function (game) {
         return game.matchup;
-    })).filter(function (id) { return Number.isInteger(id) && id >= 1 && id <= 8; });
+    })).filter(function (id) {
+        return Number.isInteger(id) && id >= 1 && id <= data.sectionals.length;
+    });
     data.sectionals.forEach(function (sectional) {
         if (order.indexOf(sectional.id) === -1) order.push(sectional.id);
     });
@@ -23,33 +32,39 @@
 
     order.forEach(function (sectionalId, index) {
         var sectional = data.sectionals[sectionalId - 1];
-        var top = 110 + (index % 4) * groupHeight;
-        var onRight = (index > 3) !== flipHalves;
-        var regionalLeft = onRight ? 2860 : 35;
-        var sectionalLeft = onRight ? 2520 : 540;
+        var perSide = legacy ? 8 : 4;
+        var top = 110 + (index % perSide) * groupHeight;
+        var onRight = (index >= perSide) !== flipHalves;
+        var regionalLeft = onRight ? (legacy ? 3660 : 2860) : 35;
+        var sectionalLeft = onRight ? (legacy ? 3340 : 2520) : (legacy ? 570 : 540);
 
         sectional.regionals.forEach(function (regionalId, column) {
             setPosition("r" + regionalId, regionalLeft + column * 245, top);
         });
-        setPosition("s" + sectionalId, sectionalLeft, 185 + (index % 4) * groupHeight);
+        setPosition("s" + sectionalId, sectionalLeft, 185 + (index % perSide) * groupHeight);
     });
 
-    data.quarterfinals.forEach(function (game, index) {
-        setPosition("q" + game.game, (index < 2) !== flipHalves ? 880 : 2180, 330 + (index % 2) * 600);
+    if (legacy) data.firstRound.forEach(function (game, index) {
+        setPosition("f" + game.game, index < 4 ? 920 : 3010, 365 + (index % 4) * 600);
     });
-    setPosition("m5", flipHalves ? 1860 : 1200, 720);
-    setPosition("m6", flipHalves ? 1200 : 1860, 720);
-    setPosition("final", 1530, 500);
-    setPosition("third", 1530, 930);
+    data.quarterfinals.forEach(function (game, index) {
+        setPosition("q" + game.game, (index < 2) !== flipHalves ?
+            (legacy ? 1270 : 880) : (legacy ? 2660 : 2180),
+            legacy ? 665 + (index % 2) * 1200 : 330 + (index % 2) * 600);
+    });
+    data.semifinals.forEach(function (game, index) {
+        setPosition("m" + game.game, legacy ? (index ? 2280 : 1640) :
+            ((index === 0) === flipHalves ? 1860 : 1200), legacy ? 1265 : 720);
+    });
+    setPosition("final", legacy ? 1965 : 1530, legacy ? 1010 : 500);
+    setPosition("third", legacy ? 1965 : 1530, legacy ? 1640 : 930);
 
     var stages = bracket.querySelectorAll(".stage");
-    [0, 1, 2, 3].forEach(function (index) {
-        stages[index].remove();
-    });
-    stages[4].style.left = "1530px";
-    stages[5].style.left = "1530px";
-    stages[4].style.top = "850px";
-    stages[5].style.top = "410px";
+    Array.prototype.slice.call(stages, 0, -2).forEach(function (stage) { stage.remove(); });
+    stages[stages.length - 2].style.left = legacy ? "1965px" : "1530px";
+    stages[stages.length - 1].style.left = legacy ? "1965px" : "1530px";
+    stages[stages.length - 2].style.top = legacy ? "1580px" : "850px";
+    stages[stages.length - 1].style.top = legacy ? "920px" : "410px";
 
     function edge(id, right) {
         var card = document.getElementById(id);
@@ -75,18 +90,21 @@
     data.sectionals.forEach(function (sectional) {
         sectional.regionals.forEach(function (regionalId) { connect("r" + regionalId, "s" + sectional.id); });
     });
+    if (legacy) data.firstRound.forEach(function (game) {
+        game.matchup.forEach(function (sectionalId) { connect("s" + sectionalId, "f" + game.game); });
+    });
     data.quarterfinals.forEach(function (game) {
         game.matchup.forEach(function (sectionalId) {
-            if (sectionalId) connect("s" + sectionalId, "q" + game.game);
+            if (sectionalId) connect((legacy ? "f" : "s") + sectionalId, "q" + game.game);
         });
     });
     data.semifinals.forEach(function (game) {
         game.matchup.forEach(function (quarterfinalId) { connect("q" + quarterfinalId, "m" + game.game); });
     });
-    connect("m5", "third");
-    connect("m6", "third");
-    connect("m5", "final");
-    connect("m6", "final");
+    data.semifinals.forEach(function (game) {
+        connect("m" + game.game, "third");
+        connect("m" + game.game, "final");
+    });
 
     function isMobile() {
         return window.matchMedia("(max-width: 680px)").matches;

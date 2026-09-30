@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#101d4d">
+    <title>IESA 1994 7th Grade Class A State Tournament</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../../2026/favicon.png">
+    <script src="../../2026/theme.js?v=2"></script>
+    <link rel="stylesheet" href="../../2026/styles.css?v=26">
+    <link rel="stylesheet" href="../../2026/theme.css?v=12">
+    <link rel="stylesheet" href="../../2026/state-archive.css?v=2">
+</head>
+<body class="app">
+    <header class="topbar">
+        <div><div class="title">1994 7th Grade Class A</div><div class="detail">IESA state tournament archive</div></div>
+        <nav class="switcher" aria-label="Tournament season and grade">
+            <select id="season-select" aria-label="Tournament year" disabled><option>Loading years...</option></select>
+            <a class="grade-link grade-seventh" href="../7th/index.html">7th</a>
+            <a class="grade-link grade-eighth" href="../8th/index.html">8th</a>
+        </nav>
+        <div class="tools">
+            <button id="fit" type="button">Fit to screen</button>
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><img src="../../2026/theme-moon.svg" alt="" aria-hidden="true"></button>
+        </div>
+    </header>
+    <main id="viewport"><section id="bracket" aria-label="1994 7th Grade Class A state tournament bracket"><svg aria-hidden="true"></svg></section></main>
+    <div class="archive-sources"><a id="state-source" target="_blank" rel="noopener noreferrer">Official state bracket</a><button id="sectional-button" type="button" hidden>Sectional pairings</button></div>
+    <dialog id="archive-dialog">
+        <div class="dialog-head"><strong id="archive-dialog-title"></strong><button id="archive-dialog-close" type="button" aria-label="Close">&times;</button></div>
+        <div id="archive-dialog-content"></div>
+    </dialog>
+    <script src="data.js"></script>
+    <script src="../../2026/state-archive.js?v=2"></script>
+    <script src="../../2026/season-selector.js?v=3"></script>
+    <script src="../../2026/pointer-zoom.js?v=3"></script>
+    <script src="../../2026/touch-navigation.js?v=2"></script>
+</body>
+</html>

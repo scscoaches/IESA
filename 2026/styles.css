@@ -15,6 +15,7 @@
 .entry.path{display:flex;align-items:center;gap:6px}
 .postseason-score{margin-left:auto;flex:none;color:var(--blue);font-weight:bold}
 .entry.advanced{box-shadow:inset 3px 0 #21805a}
+.entry.springfield-christian,.projection-team.springfield-christian{background:#fff0bd;color:#522000;box-shadow:inset 4px 0 #e48a00;font-weight:bold}
 .regional-projection-link,.regional-official-link{display:block;width:100%;padding:6px 9px;border:0;border-top:1px solid #e0e4ed;background:#f7f8fc;color:#464feb;font-size:10px;text-align:left;text-decoration:underline;cursor:pointer}
 #projection-dialog{width:min(820px,calc(100% - 24px))}
 #projection-source:not([hidden]){display:block;margin-top:10px;font-size:11px}

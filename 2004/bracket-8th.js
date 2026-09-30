@@ -1,0 +1,693 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-09-30 14:28",
+    "year":  2004,
+    "grade":  "8th",
+    "regionals":  {
+                      "11":  {
+                                 "winner":  "Peoria Norwood",
+                                 "loser":  "Peoria Limestone Walters",
+                                 "score":  "37-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "3":  {
+                                "winner":  "Tonica",
+                                "loser":  "Oglesby Washington",
+                                "score":  "33-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                            },
+                      "20":  {
+                                 "winner":  "Tuscola East Prairie",
+                                 "loser":  "Sigel St. Michael\u0027s",
+                                 "score":  "33-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "12":  {
+                                 "winner":  "Cuba",
+                                 "loser":  "Elmwood",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "10":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "Bartonville Oak Grove West",
+                                 "score":  "39-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "17":  {
+                                 "winner":  "Rantoul St. Malachy",
+                                 "loser":  "Gibson City GCMS",
+                                 "score":  "24-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "13":  {
+                                 "winner":  "Media Southern",
+                                 "loser":  "Abingdon",
+                                 "score":  "43-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "27":  {
+                                 "winner":  "Griggsville-Perry",
+                                 "loser":  "Mt. Sterling Brown County",
+                                 "score":  "28-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "30":  {
+                                 "winner":  "Beecher City",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "44-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "18":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "Mansfield Blue Ridge JHS",
+                                 "score":  "32-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "29":  {
+                                 "winner":  "Noble West Richland",
+                                 "loser":  "Palestine",
+                                 "score":  "37-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "23":  {
+                                 "winner":  "Springfield Blessed Sacrament",
+                                 "loser":  "Jacksonville ISD",
+                                 "score":  "30-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "19":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Oakland Lake Crest (Coop)",
+                                 "score":  "44-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "1":  {
+                                "winner":  "Chicago St. Malachy",
+                                "loser":  "Beecher",
+                                "score":  "45-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                            },
+                      "5":  {
+                                "winner":  "Milford",
+                                "loser":  "Donovan",
+                                "score":  "36-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                            },
+                      "4":  {
+                                "winner":  "Streator St. Stephen",
+                                "loser":  "Streator Woodland",
+                                "score":  "30-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                            },
+                      "8":  {
+                                "winner":  "Normal Epiphany",
+                                "loser":  "Bloomington Holy Trinity",
+                                "score":  "33-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                            },
+                      "26":  {
+                                 "winner":  "Springfield St. Agnes",
+                                 "loser":  "Springfield Christ the King",
+                                 "score":  "31-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "14":  {
+                                 "winner":  "Hamilton",
+                                 "loser":  "Carthage",
+                                 "score":  "22-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "22":  {
+                                 "winner":  "Assumption Central A \u0026 M",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "45-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "28":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Bluffs",
+                                 "score":  "21-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "25":  {
+                                 "winner":  "Lincoln Chester-East Lincoln",
+                                 "loser":  "Lincoln Carroll Catholic",
+                                 "score":  "26-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "9":  {
+                                "winner":  "Sparland Midland",
+                                "loser":  "Toluca Fieldcrest West",
+                                "score":  "32-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                            },
+                      "15":  {
+                                 "winner":  "Catlin",
+                                 "loser":  "Bismarck-Henning",
+                                 "score":  "33-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "21":  {
+                                 "winner":  "Decatur Johns Hill",
+                                 "loser":  "Arthur (Coop)",
+                                 "score":  "32-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "24":  {
+                                 "winner":  "Pawnee",
+                                 "loser":  "Kincaid South Fork (Coop)",
+                                 "score":  "48-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "16":  {
+                                 "winner":  "Royal Prairieview  (Coop)",
+                                 "loser":  "Homer Heritage",
+                                 "score":  "24-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "32":  {
+                                 "winner":  "Bunker Hill Meissner",
+                                 "loser":  "East St. Louis Jackson",
+                                 "score":  "38-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             },
+                      "7":  {
+                                "winner":  "Odell  (Coop)",
+                                "loser":  "Roanoke-Benson",
+                                "score":  "52-46",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                            },
+                      "2":  {
+                                "winner":  "Seneca",
+                                "loser":  "Crest Hill Richland",
+                                "score":  "47-41",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                            },
+                      "6":  {
+                                "winner":  "Gifford",
+                                "loser":  "Cissna Park",
+                                "score":  "23-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                            },
+                      "31":  {
+                                 "winner":  "Greenfield",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "32-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "11":  {
+                                               "team":  "Peoria Norwood",
+                                               "record":  "14-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "3":  {
+                                              "team":  "Tonica",
+                                              "record":  "14-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                          },
+                                    "20":  {
+                                               "team":  "Tuscola East Prairie",
+                                               "record":  "17-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "12":  {
+                                               "team":  "Cuba",
+                                               "record":  "11-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "10":  {
+                                               "team":  "Bartonville Monroe",
+                                               "record":  "15-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "17":  {
+                                               "team":  "Rantoul St. Malachy",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "13":  {
+                                               "team":  "Media Southern",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "27":  {
+                                               "team":  "Griggsville-Perry",
+                                               "record":  "16-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "30":  {
+                                               "team":  "Beecher City",
+                                               "record":  "17-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "18":  {
+                                               "team":  "Champaign St. Matthew",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "29":  {
+                                               "team":  "Noble West Richland",
+                                               "record":  "11-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "23":  {
+                                               "team":  "Springfield Blessed Sacrament",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "19":  {
+                                               "team":  "Paris Crestwood",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "1":  {
+                                              "team":  "Chicago St. Malachy",
+                                              "record":  "15-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                          },
+                                    "5":  {
+                                              "team":  "Milford",
+                                              "record":  "15-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                          },
+                                    "4":  {
+                                              "team":  "Streator St. Stephen",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                          },
+                                    "8":  {
+                                              "team":  "Normal Epiphany",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                          },
+                                    "26":  {
+                                               "team":  "Springfield St. Agnes",
+                                               "record":  "18-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "22":  {
+                                               "team":  "Assumption Central A \u0026 M",
+                                               "record":  "17-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "28":  {
+                                               "team":  "Winchester",
+                                               "record":  "15-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "25":  {
+                                               "team":  "Lincoln Chester-East Lincoln",
+                                               "record":  "16-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "9":  {
+                                              "team":  "Sparland Midland",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                          },
+                                    "15":  {
+                                               "team":  "Catlin",
+                                               "record":  "18-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "24":  {
+                                               "team":  "Pawnee",
+                                               "record":  "13-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "16":  {
+                                               "team":  "Royal Prairieview  (Coop)",
+                                               "record":  "13-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "32":  {
+                                               "team":  "Bunker Hill Meissner",
+                                               "record":  "7-13",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           },
+                                    "7":  {
+                                              "team":  "Odell  (Coop)",
+                                              "record":  "15-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                          },
+                                    "2":  {
+                                              "team":  "Seneca",
+                                              "record":  "12-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                          },
+                                    "6":  {
+                                              "team":  "Gifford",
+                                              "record":  "12-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                          },
+                                    "31":  {
+                                               "team":  "Greenfield",
+                                               "record":  "18-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=8A"
+                                           }
+                                },
+    "sectionals":  {
+                       "16":  {
+                                  "winner":  "Greenfield",
+                                  "loser":  "Bunker Hill Meissner",
+                                  "score":  "45-13",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                              },
+                       "3":  {
+                                 "winner":  "Gifford",
+                                 "loser":  "Milford",
+                                 "score":  "31-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                             },
+                       "5":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "Sparland Midland",
+                                 "score":  "24-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                             },
+                       "12":  {
+                                  "winner":  "Springfield Blessed Sacrament",
+                                  "loser":  "Pawnee",
+                                  "score":  "39-32",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                              },
+                       "10":  {
+                                  "winner":  "Paris Crestwood",
+                                  "loser":  "Tuscola East Prairie",
+                                  "score":  "29-20",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                              },
+                       "2":  {
+                                 "winner":  "Tonica",
+                                 "loser":  "Streator St. Stephen",
+                                 "score":  "33-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                             },
+                       "8":  {
+                                 "winner":  "Catlin",
+                                 "loser":  "Royal Prairieview  (Coop)",
+                                 "score":  "44-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                             },
+                       "11":  {
+                                  "winner":  "Assumption Central A \u0026 M",
+                                  "loser":  "Decatur Johns Hill",
+                                  "score":  "39-15",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                              },
+                       "1":  {
+                                 "winner":  "Seneca",
+                                 "loser":  "Chicago St. Malachy",
+                                 "score":  "44-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                             },
+                       "9":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "Rantoul St. Malachy",
+                                 "score":  "27-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                             },
+                       "14":  {
+                                  "winner":  "Winchester",
+                                  "loser":  "Griggsville-Perry",
+                                  "score":  "31-25",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                              },
+                       "7":  {
+                                 "winner":  "Media Southern",
+                                 "loser":  "Hamilton",
+                                 "score":  "37-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                             },
+                       "15":  {
+                                  "winner":  "Beecher City",
+                                  "loser":  "Noble West Richland",
+                                  "score":  "30-29",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                              },
+                       "6":  {
+                                 "winner":  "Cuba",
+                                 "loser":  "Peoria Norwood",
+                                 "score":  "34-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                             },
+                       "4":  {
+                                 "winner":  "Normal Epiphany",
+                                 "loser":  "Odell  (Coop)",
+                                 "score":  "59-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                             },
+                       "13":  {
+                                  "winner":  "Springfield St. Agnes",
+                                  "loser":  "Lincoln Chester-East Lincoln",
+                                  "score":  "34-32",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=8A"
+                              }
+                   },
+    "quarterfinalMatchups":  {
+                                 "7":  [
+                                           3,
+                                           14
+                                       ],
+                                 "3":  [
+                                           5,
+                                           4
+                                       ],
+                                 "2":  [
+                                           10,
+                                           7
+                                       ],
+                                 "1":  [
+                                           15,
+                                           9
+                                       ],
+                                 "4":  [
+                                           8,
+                                           2
+                                       ],
+                                 "6":  [
+                                           1,
+                                           16
+                                       ],
+                                 "5":  [
+                                           11,
+                                           13
+                                       ],
+                                 "8":  [
+                                           12,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "12":  {
+                             "teams":  [
+                                           "Gifford",
+                                           "Springfield Blessed Sacrament"
+                                       ],
+                             "scores":  [
+                                            15,
+                                            57
+                                        ],
+                             "winner":  "Springfield Blessed Sacrament",
+                             "loser":  "Gifford",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                         },
+                  "7":  {
+                            "teams":  [
+                                          "Gifford",
+                                          "Winchester"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           18
+                                       ],
+                            "winner":  "Gifford",
+                            "loser":  "Winchester",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Assumption Central A \u0026 M",
+                                          "Springfield St. Agnes"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           38
+                                       ],
+                            "winner":  "Springfield St. Agnes",
+                            "loser":  "Assumption Central A \u0026 M",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                        },
+                  "16":  {
+                             "teams":  [
+                                           "Normal Epiphany",
+                                           "Springfield Blessed Sacrament"
+                                       ],
+                             "scores":  [
+                                            34,
+                                            29
+                                        ],
+                             "winner":  "Normal Epiphany",
+                             "loser":  "Springfield Blessed Sacrament",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                         },
+                  "10":  {
+                             "teams":  [
+                                           "Normal Epiphany",
+                                           "Catlin"
+                                       ],
+                             "scores":  [
+                                            51,
+                                            19
+                                        ],
+                             "winner":  "Normal Epiphany",
+                             "loser":  "Catlin",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                         },
+                  "2":  {
+                            "teams":  [
+                                          "Paris Crestwood",
+                                          "Media Southern"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           35
+                                       ],
+                            "winner":  "Media Southern",
+                            "loser":  "Paris Crestwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Bartonville Monroe",
+                                          "Normal Epiphany"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           47
+                                       ],
+                            "winner":  "Normal Epiphany",
+                            "loser":  "Bartonville Monroe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Springfield Blessed Sacrament",
+                                          "Cuba"
+                                      ],
+                            "scores":  [
+                                           50,
+                                           31
+                                       ],
+                            "winner":  "Springfield Blessed Sacrament",
+                            "loser":  "Cuba",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                        },
+                  "15":  {
+                             "teams":  [
+                                           "Media Southern",
+                                           "Springfield St. Agnes"
+                                       ],
+                             "scores":  [
+                                            60,
+                                            52
+                                        ],
+                             "winner":  "Media Southern",
+                             "loser":  "Springfield St. Agnes",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                         },
+                  "1":  {
+                            "teams":  [
+                                          "Beecher City",
+                                          "Champaign St. Matthew"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           18
+                                       ],
+                            "winner":  "Champaign St. Matthew",
+                            "loser":  "Beecher City",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                        },
+                  "9":  {
+                            "teams":  [
+                                          "Champaign St. Matthew",
+                                          "Media Southern"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           38
+                                       ],
+                            "winner":  "Media Southern",
+                            "loser":  "Champaign St. Matthew",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                        },
+                  "14":  {
+                             "teams":  [
+                                           "Springfield St. Agnes",
+                                           "Springfield Blessed Sacrament"
+                                       ],
+                             "scores":  [
+                                            39,
+                                            46
+                                        ],
+                             "winner":  "Springfield Blessed Sacrament",
+                             "loser":  "Springfield St. Agnes",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                         },
+                  "11":  {
+                             "teams":  [
+                                           "Springfield St. Agnes",
+                                           "Greenfield"
+                                       ],
+                             "scores":  [
+                                            53,
+                                            48
+                                        ],
+                             "winner":  "Springfield St. Agnes",
+                             "loser":  "Greenfield",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                         },
+                  "6":  {
+                            "teams":  [
+                                          "Seneca",
+                                          "Greenfield"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           37
+                                       ],
+                            "winner":  "Greenfield",
+                            "loser":  "Seneca",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Catlin",
+                                          "Tonica"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           29
+                                       ],
+                            "winner":  "Catlin",
+                            "loser":  "Tonica",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                        },
+                  "13":  {
+                             "teams":  [
+                                           "Media Southern",
+                                           "Normal Epiphany"
+                                       ],
+                             "scores":  [
+                                            21,
+                                            35
+                                        ],
+                             "winner":  "Normal Epiphany",
+                             "loser":  "Media Southern",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2004\u0026Class=8A"
+                         }
+              }
+};

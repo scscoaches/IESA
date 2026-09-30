@@ -1,0 +1,23 @@
+.archive-sources{position:fixed;bottom:12px;right:12px;z-index:3;display:flex;gap:6px;align-items:center;padding:7px 10px;background:#fff;border:1px solid #c8cfdd;border-radius:5px;font-size:12px}
+.archive-sources button{border:0;background:transparent;color:#464feb;font:inherit;cursor:pointer;text-decoration:underline}
+.dark-theme .archive-sources{background:#202b3e;color:#f0f3fa;border-color:#536078}
+.dark-theme .archive-sources a,.dark-theme .archive-sources button{color:#adbaff}
+.grade-link[hidden]{display:none}
+.archive-match{width:252px}
+.archive-match .entry{min-height:32px;display:flex;gap:8px;align-items:center;justify-content:space-between}
+.archive-match button.entry{width:100%;border:0;border-bottom:1px solid #edf0f5;background:#fff;color:inherit;text-align:left;cursor:pointer}
+.archive-match button.entry:hover{background:#eef0ff}
+.archive-match button.entry.springfield-christian{background:#fff0bd;color:#522000}
+.dark-theme .archive-match button.entry{background:#202b3e;color:#f0f3fa}
+.dark-theme .archive-match button.entry.springfield-christian{background:#62421a;color:#ffe3a0}
+.archive-match .advanced{font-weight:bold}
+.archive-match .score{font-weight:bold;color:#283dab}
+.archive-match .head small{float:right;font-weight:normal}
+.archive-champion{position:absolute;padding:12px;background:#780c18;color:#fff;border-radius:5px;font-weight:bold;text-align:center}
+.archive-wire-third{stroke-dasharray:5 6}
+#archive-dialog{width:min(720px,calc(100% - 24px));max-height:calc(100vh - 30px);overflow:auto}
+#archive-dialog-content{margin-top:16px}
+#archive-dialog-content table{width:100%;border-collapse:collapse;font-size:12px}
+#archive-dialog-content td,#archive-dialog-content th{padding:6px}
+#archive-dialog-content a{display:inline-block;margin-top:12px}
+@media(max-width:680px){.archive-sources{bottom:6px;right:6px;font-size:10px}.grade-link[hidden]{display:none}}

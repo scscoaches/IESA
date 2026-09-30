@@ -1,9 +1,18 @@
 # IESA girls basketball brackets
 
-The repository root is the all-season landing page. Each season has its own
-`<year>/7th/` and `<year>/8th/` static bracket pages. Class 1A archives cover
-2006–2019 and 2021–2023; Class 2A archives cover 2024–2025. The live 2026
-Class 2A site retains its separate nightly score and postseason refreshes.
+The repository root is the all-season landing page. The 1979–1985 tournaments
+combined seventh and eighth grades into **one** bracket per year under
+`<year>/combined/`. The 1986–1989 seasons have separate seventh- and
+eighth-grade state tournaments but no class divisions. The 1990–2001 Class A
+seasons have separate grade brackets; 1999–2001 also have published sectional
+pairings, with W–L records only where IESA printed them. The 1998 state
+tournament includes a first round, while 1990–1997 begin at the quarterfinals.
+The pre-2002 archives do not infer regional seeds, sectionals, or missing
+earlier rounds from the state bracket. Later seasons have separate
+`<year>/7th/` and `<year>/8th/` static bracket pages. Class A archives cover
+2002–2005 (IESA's 7A/8A divisions, the predecessors of 1A); Class 1A
+archives cover 2006–2019 and 2021–2023; Class 2A archives cover 2024–2025. The live 2026
+Class 2A site retains its separate scheduled score and postseason refreshes.
 Historical pages show published seeds, bracket results and state pairings.
 Sectional cards show each qualifying school's pre-sectional W–L record when
 IESA prints it on the sectional-pairings page; missing records stay blank.
@@ -17,11 +26,28 @@ From this directory in PowerShell:
 .\Build-IesaSeason.ps1 -Year 2027 -ClassName 2A -OutputRoot 'C:\inetpub\personalroot\IESA'
 ```
 
+For a pre-2002 state archive, run
+`.\Build-IesaEarlyArchive.ps1 -Years 1999 -OutputRoot 'C:\inetpub\personalroot\IESA'`
+or omit `-Years` to rebuild 1979–2001. This importer reads the grade-specific
+IESA state bracket (the combined bracket before 1986) and, for 1999–2001,
+the published sectional pairings. It validates the round sizes, all winners
+and scores, and the printed champion before writing pages. Use
+`-CatalogueOnly` after copying already-validated pages to a new site root;
+the catalogue is updated only if `seasons.json` is present. The archived
+state-only pages let visitors click a school to see its published state
+scores; they link to the original IESA sources. They do not offer a nightly
+score refresh or claim unavailable full-season school results.
+
 Set `-Year` to the tournament year and `-ClassName` to the published IESA class
-(`1A` through `4A`). Wait until both grades have official regional seeds and
-state quarterfinal pairings: the importer refuses incomplete seasons. It reads
-IESA's year/class-specific regional assignments, regional brackets, sectional
-and state qualifiers, state scoreboard, and girls-basketball calendar; validates
+(`A` for 2002–2005, `1A` through `4A` thereafter). For a legacy archive, use
+`.\Build-IesaSeason.ps1 -Year 2002 -ClassName A` to read the 7A and 8A
+sources. The old format has 32 regionals, 16 sectionals, and eight state
+first-round games before the quarterfinals; it does not publish regional seed
+brackets. For later years, wait until both grades have official regional seeds
+and state quarterfinal pairings: the importer refuses incomplete seasons. It reads
+IESA's year/class-specific regional assignments, sectional and state
+qualifiers, state scoreboard, and girls-basketball calendar, plus seeded
+regional brackets where published from 2006 onward; it validates
 both grades in a temporary directory; then writes the season pages, grade data,
 official bracket caches and `seasons.json`. Run the same command again to
 refresh a published season. Do not schedule this command as the regular-season
@@ -41,6 +67,12 @@ For the early archives, incomplete assignment rosters are supplemented only
 by published bracket participants; legacy `(Coop)` and `(Co-op)` labels refer
 to the same school. The 2006 eighth-grade scoreboard establishes eight state
 qualifiers even though the sectional results and final scores are unpublished.
+The 2004 7A assignment page's regional rosters belong to another bracket and
+conflict with every published 7A regional final. Its archive shows only the two
+verified finalists for each regional and uses hosts from the 7A sectional
+qualifier page. In 2003, some regional-final rows are absent; a school named
+on the published sectional pairing is shown as qualified without inventing a
+regional-final score.
 In 2008 eighth grade, Regional 10's first seed and final are unpublished.
 The scoreboard independently reports Decatur St. Patrick 26, Gardner 23
 in state Game 2, but does not identify Decatur St. Patrick's sectional;
@@ -50,23 +82,37 @@ The resulting pages only require ordinary static-file hosting under IIS. They
 share the 2026 renderer, styles and navigation scripts, so keep that folder
 alongside the archived year folders. The root catalogue reads `seasons.json`;
 publish that file together with each generated season. The year menu on every
-grade page reads the same catalogue, and switching years retains the current
-grade. Keep `seasons.json` available at the site root.
+page reads the same catalogue. Switching years retains the current grade
+except that 1979–1985 open the combined bracket, and leaving a combined year
+for a separate-grade year opens seventh grade. Keep `seasons.json` available
+at the site root. The shared layout sizes
+the SVG connector surface to each year's bracket canvas, including the taller
+Class A canvas; keep both dimensions in sync if the layout changes.
 
-## End the nightly refresh
+## End the scheduled refresh
 
 IESA's [girls-basketball calendar](https://www.iesa.org/activities/calendar.asp?activitycode=GBK)
 lists December 17 as the last 2026 eighth-grade state date (the seventh-grade
-finals end December 10). The Windows task `IESA 2026 Score Refresh` has an
-end boundary of **December 18, 2026 at 12:05 AM local time**: its midnight
-December 18 run is the final capture, and there is no December 19 run.
-`2026\Update-IesaScores.ps1` also refuses to fetch after December 18 if run
-manually or from an accidentally extended task. Existing static caches and
-archived pages remain available.
+finals end December 10). The Windows task `IESA 2026 Score Refresh` runs at
+**6 AM, noon and 6 PM local time on weekdays**, plus **6 PM on Saturdays and
+Sundays**, not midnight. Its end boundary is
+**December 18, 2026 at 6:05 AM local time**: the final morning run captures
+results from December 17, and there are no later scheduled runs. Reapply its
+four bounded triggers with `.\2026\Set-IesaScoreSchedule.ps1` after moving
+the site or recreating the task. `2026\Update-IesaScores.ps1` also refuses to
+fetch after December 18 if run manually or from an accidentally extended
+task. Existing static caches and archived pages remain available.
+
+Each refresh reads the member directory and about 212 separate team pages;
+weekday runs make approximately 639 IESA requests a day, while weekend runs
+make approximately 212 requests per day, plus postseason queries when those
+begin. The updater waits two seconds between school requests to avoid a
+burst. Do not add additional runs without reconsidering the source load; use
+the single-school Update button for occasional immediate checks.
 
 For a future live season, confirm the *later* grade's final date on the
-official calendar when creating its Windows nightly task. Set that daily
-trigger's `EndBoundary` to five minutes after the midnight run immediately
-following the final, and give the score updater the same last-capture date.
+official calendar when creating its Windows refresh task. Set every trigger's
+`EndBoundary` to five minutes after the first morning run following the
+final, and give the score updater the same last-capture date.
 Verify both the task's saved end boundary and its next run; do not rely on a
 calendar date alone to stop an open-ended scheduled task.

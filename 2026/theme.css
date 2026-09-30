@@ -89,7 +89,8 @@
     background: #364563;
 }
 
-.dark-theme .springfield-christian {
+.dark-theme .entry.springfield-christian,
+.dark-theme .projection-team.springfield-christian {
     background: #62421a;
     color: #ffe3a0;
 }

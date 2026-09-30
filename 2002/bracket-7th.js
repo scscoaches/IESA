@@ -1,0 +1,693 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-09-30 14:28",
+    "year":  2002,
+    "grade":  "7th",
+    "regionals":  {
+                      "11":  {
+                                 "winner":  "Washington Central",
+                                 "loser":  "Normal Metcalf",
+                                 "score":  "32-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "3":  {
+                                "winner":  "Sparland Midland",
+                                "loser":  "Tonica",
+                                "score":  "34-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                            },
+                      "20":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Barry (Coop)",
+                                 "score":  "39-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "12":  {
+                                 "winner":  "Heyworth",
+                                 "loser":  "Mansfield Blue Ridge JHS",
+                                 "score":  "20-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "10":  {
+                                 "winner":  "Flanagan (Coop)",
+                                 "loser":  "Chenoa",
+                                 "score":  "42-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "17":  {
+                                 "winner":  "Media Southern",
+                                 "loser":  "Biggsville Union",
+                                 "score":  "38-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "13":  {
+                                 "winner":  "Peoria Pleasant Valley",
+                                 "loser":  "Peoria Norwood",
+                                 "score":  "37-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "27":  {
+                                 "winner":  "Effingham Sacred Heart",
+                                 "loser":  "Dieterich",
+                                 "score":  "44-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "30":  {
+                                 "winner":  "Virden",
+                                 "loser":  "Concord Triopia",
+                                 "score":  "30-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "18":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Hamilton",
+                                 "score":  "35-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "29":  {
+                                 "winner":  "Springfield Little Flower",
+                                 "loser":  "Springfield Christ the King",
+                                 "score":  "31-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "23":  {
+                                 "winner":  "Arcola",
+                                 "loser":  "Sigel St. Michael",
+                                 "score":  "19-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "19":  {
+                                 "winner":  "Mendon Unity",
+                                 "loser":  "Mt. Sterling Brown County",
+                                 "score":  "21-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "1":  {
+                                "winner":  "Seneca",
+                                "loser":  "Mazon-Verona-Kinsman",
+                                "score":  "20-2",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                            },
+                      "5":  {
+                                "winner":  "Onarga Iroquois West",
+                                "loser":  "Donovan",
+                                "score":  "22-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                            },
+                      "4":  {
+                                "winner":  "Grand Ridge",
+                                "loser":  "Marseilles ES",
+                                "score":  "30-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                            },
+                      "8":  {
+                                "winner":  "Ogden (Coop)",
+                                "loser":  "Gifford",
+                                "score":  "36-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                            },
+                      "26":  {
+                                 "winner":  "Springfield St. Agnes",
+                                 "loser":  "Chandlerville A-C Central",
+                                 "score":  "33-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "14":  {
+                                 "winner":  "Creve Coeur Parkview",
+                                 "loser":  "Bartonville Oak Grove West",
+                                 "score":  "34-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "22":  {
+                                 "winner":  "Catlin",
+                                 "loser":  "Sidell Jamaica",
+                                 "score":  "36-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "28":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Beecher City",
+                                 "score":  "45-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "25":  {
+                                 "winner":  "Lincoln Chester-East Lincoln",
+                                 "loser":  "Lincoln Carroll Catholic",
+                                 "score":  "37-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "9":  {
+                                "winner":  "Odell  (Coop)",
+                                "loser":  "Pontiac St. Mary\u0027s",
+                                "score":  "29-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                            },
+                      "15":  {
+                                 "winner":  "Brimfield",
+                                 "loser":  "Glasford Illini Bluffs",
+                                 "score":  "36-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "21":  {
+                                 "winner":  "Martinsville",
+                                 "loser":  "Paris Crestwood",
+                                 "score":  "38-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "24":  {
+                                 "winner":  "Cerro Gordo",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "25-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "16":  {
+                                 "winner":  "Cuba",
+                                 "loser":  "Yates City",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "32":  {
+                                 "winner":  "Greenfield",
+                                 "loser":  "Carrollton St. John",
+                                 "score":  "28-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             },
+                      "7":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Champaign Holy Cross",
+                                "score":  "34-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                            },
+                      "2":  {
+                                "winner":  "Ford Heights Cottage Grove",
+                                "loser":  "Joliet Laraway",
+                                "score":  "48-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                            },
+                      "6":  {
+                                "winner":  "Rossville-Alvin",
+                                "loser":  "Bismarck-Henning",
+                                "score":  "40-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                            },
+                      "31":  {
+                                 "winner":  "Bunker Hill Meissner",
+                                 "loser":  "Pocahontas",
+                                 "score":  "39-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "11":  {
+                                               "team":  "Washington Central",
+                                               "record":  "15-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "3":  {
+                                              "team":  "Sparland Midland",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                          },
+                                    "12":  {
+                                               "team":  "Heyworth",
+                                               "record":  "8-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "10":  {
+                                               "team":  "Flanagan (Coop)",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "17":  {
+                                               "team":  "Media Southern",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "13":  {
+                                               "team":  "Peoria Pleasant Valley",
+                                               "record":  "15-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "27":  {
+                                               "team":  "Effingham Sacred Heart",
+                                               "record":  "8-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "30":  {
+                                               "team":  "Virden",
+                                               "record":  "10-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "18":  {
+                                               "team":  "Carthage",
+                                               "record":  "17-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "29":  {
+                                               "team":  "Springfield Little Flower",
+                                               "record":  "19-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "23":  {
+                                               "team":  "Arcola",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "19":  {
+                                               "team":  "Mendon Unity",
+                                               "record":  "15-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "1":  {
+                                              "team":  "Seneca",
+                                              "record":  "8-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                          },
+                                    "5":  {
+                                              "team":  "Onarga Iroquois West",
+                                              "record":  "11-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                          },
+                                    "4":  {
+                                              "team":  "Grand Ridge",
+                                              "record":  "12-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                          },
+                                    "8":  {
+                                              "team":  "Ogden (Coop)",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                          },
+                                    "26":  {
+                                               "team":  "Springfield St. Agnes",
+                                               "record":  "13-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "14":  {
+                                               "team":  "Creve Coeur Parkview",
+                                               "record":  "13-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "22":  {
+                                               "team":  "Catlin",
+                                               "record":  "14-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "28":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "12-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "25":  {
+                                               "team":  "Lincoln Chester-East Lincoln",
+                                               "record":  "12-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "9":  {
+                                              "team":  "Odell  (Coop)",
+                                              "record":  "16-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                          },
+                                    "15":  {
+                                               "team":  "Brimfield",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "21":  {
+                                               "team":  "Martinsville",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "24":  {
+                                               "team":  "Cerro Gordo",
+                                               "record":  "7-14",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "32":  {
+                                               "team":  "Greenfield",
+                                               "record":  "12-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           },
+                                    "7":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "19-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                          },
+                                    "2":  {
+                                              "team":  "Ford Heights Cottage Grove",
+                                              "record":  "16-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                          },
+                                    "6":  {
+                                              "team":  "Rossville-Alvin",
+                                              "record":  "18-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                          },
+                                    "31":  {
+                                               "team":  "Bunker Hill Meissner",
+                                               "record":  "15-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7A"
+                                           }
+                                },
+    "sectionals":  {
+                       "16":  {
+                                  "winner":  "Greenfield",
+                                  "loser":  "Bunker Hill Meissner",
+                                  "score":  "34-31",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                              },
+                       "3":  {
+                                 "winner":  "Onarga Iroquois West",
+                                 "loser":  "Rossville-Alvin",
+                                 "score":  "39-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                             },
+                       "5":  {
+                                 "winner":  "Flanagan (Coop)",
+                                 "loser":  "Odell  (Coop)",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                             },
+                       "12":  {
+                                  "winner":  "Arcola",
+                                  "loser":  "Cerro Gordo",
+                                  "score":  "38-8",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                              },
+                       "10":  {
+                                  "winner":  "Mendon Unity",
+                                  "loser":  "Winchester",
+                                  "score":  "28-22",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                              },
+                       "2":  {
+                                 "winner":  "Sparland Midland",
+                                 "loser":  "Grand Ridge",
+                                 "score":  "32-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                             },
+                       "8":  {
+                                 "winner":  "Brimfield",
+                                 "loser":  "Cuba",
+                                 "score":  "19-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                             },
+                       "11":  {
+                                  "winner":  "Martinsville",
+                                  "loser":  "Catlin",
+                                  "score":  "54-22",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                              },
+                       "1":  {
+                                 "winner":  "Ford Heights Cottage Grove",
+                                 "loser":  "Seneca",
+                                 "score":  "31-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                             },
+                       "9":  {
+                                 "winner":  "Media Southern",
+                                 "loser":  "Carthage",
+                                 "score":  "41-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                             },
+                       "14":  {
+                                  "winner":  "Effingham Sacred Heart",
+                                  "loser":  "Effingham St. Anthony",
+                                  "score":  "27-24",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                              },
+                       "7":  {
+                                 "winner":  "Peoria Pleasant Valley",
+                                 "loser":  "Creve Coeur Parkview",
+                                 "score":  "49-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                             },
+                       "15":  {
+                                  "winner":  "Springfield Little Flower",
+                                  "loser":  "Virden",
+                                  "score":  "34-26",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                              },
+                       "6":  {
+                                 "winner":  "Washington Central",
+                                 "loser":  "Heyworth",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                             },
+                       "4":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "Ogden (Coop)",
+                                 "score":  "27-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                             },
+                       "13":  {
+                                  "winner":  "Lincoln Chester-East Lincoln",
+                                  "loser":  "Springfield St. Agnes",
+                                  "score":  "25-13",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7A"
+                              }
+                   },
+    "quarterfinalMatchups":  {
+                                 "7":  [
+                                           10,
+                                           13
+                                       ],
+                                 "3":  [
+                                           6,
+                                           5
+                                       ],
+                                 "2":  [
+                                           3,
+                                           14
+                                       ],
+                                 "1":  [
+                                           16,
+                                           11
+                                       ],
+                                 "4":  [
+                                           4,
+                                           8
+                                       ],
+                                 "6":  [
+                                           2,
+                                           15
+                                       ],
+                                 "5":  [
+                                           9,
+                                           12
+                                       ],
+                                 "8":  [
+                                           1,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "12":  {
+                             "teams":  [
+                                           "Mendon Unity",
+                                           "Peoria Pleasant Valley"
+                                       ],
+                             "scores":  [
+                                            29,
+                                            41
+                                        ],
+                             "winner":  "Peoria Pleasant Valley",
+                             "loser":  "Mendon Unity",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                         },
+                  "7":  {
+                            "teams":  [
+                                          "Mendon Unity",
+                                          "Lincoln Chester-East Lincoln"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           20
+                                       ],
+                            "winner":  "Mendon Unity",
+                            "loser":  "Lincoln Chester-East Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Media Southern",
+                                          "Arcola"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           32
+                                       ],
+                            "winner":  "Arcola",
+                            "loser":  "Media Southern",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                        },
+                  "16":  {
+                             "teams":  [
+                                           "Martinsville",
+                                           "Arcola"
+                                       ],
+                             "scores":  [
+                                            27,
+                                            15
+                                        ],
+                             "winner":  "Martinsville",
+                             "loser":  "Arcola",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                         },
+                  "10":  {
+                             "teams":  [
+                                           "Washington Central",
+                                           "Brimfield"
+                                       ],
+                             "scores":  [
+                                            34,
+                                            35
+                                        ],
+                             "winner":  "Brimfield",
+                             "loser":  "Washington Central",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                         },
+                  "2":  {
+                            "teams":  [
+                                          "Onarga Iroquois West",
+                                          "Effingham Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           43
+                                       ],
+                            "winner":  "Effingham Sacred Heart",
+                            "loser":  "Onarga Iroquois West",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Washington Central",
+                                          "Flanagan (Coop)"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           31
+                                       ],
+                            "winner":  "Washington Central",
+                            "loser":  "Flanagan (Coop)",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Ford Heights Cottage Grove",
+                                          "Peoria Pleasant Valley"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           36
+                                       ],
+                            "winner":  "Peoria Pleasant Valley",
+                            "loser":  "Ford Heights Cottage Grove",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                        },
+                  "15":  {
+                             "teams":  [
+                                           "Brimfield",
+                                           "Peoria Pleasant Valley"
+                                       ],
+                             "scores":  [
+                                            31,
+                                            28
+                                        ],
+                             "winner":  "Brimfield",
+                             "loser":  "Peoria Pleasant Valley",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                         },
+                  "1":  {
+                            "teams":  [
+                                          "Greenfield",
+                                          "Martinsville"
+                                      ],
+                            "scores":  [
+                                           13,
+                                           45
+                                       ],
+                            "winner":  "Martinsville",
+                            "loser":  "Greenfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                        },
+                  "9":  {
+                            "teams":  [
+                                          "Martinsville",
+                                          "Effingham Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           55,
+                                           29
+                                       ],
+                            "winner":  "Martinsville",
+                            "loser":  "Effingham Sacred Heart",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                        },
+                  "14":  {
+                             "teams":  [
+                                           "Arcola",
+                                           "Peoria Pleasant Valley"
+                                       ],
+                             "scores":  [
+                                            37,
+                                            34
+                                        ],
+                             "winner":  "Arcola",
+                             "loser":  "Peoria Pleasant Valley",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                         },
+                  "11":  {
+                             "teams":  [
+                                           "Arcola",
+                                           "Springfield Little Flower"
+                                       ],
+                             "scores":  [
+                                            44,
+                                            19
+                                        ],
+                             "winner":  "Arcola",
+                             "loser":  "Springfield Little Flower",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                         },
+                  "6":  {
+                            "teams":  [
+                                          "Sparland Midland",
+                                          "Springfield Little Flower"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           35
+                                       ],
+                            "winner":  "Springfield Little Flower",
+                            "loser":  "Sparland Midland",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Champaign St. Matthew",
+                                          "Brimfield"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           29
+                                       ],
+                            "winner":  "Brimfield",
+                            "loser":  "Champaign St. Matthew",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                        },
+                  "13":  {
+                             "teams":  [
+                                           "Martinsville",
+                                           "Brimfield"
+                                       ],
+                             "scores":  [
+                                            38,
+                                            26
+                                        ],
+                             "winner":  "Martinsville",
+                             "loser":  "Brimfield",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7A"
+                         }
+              }
+};

@@ -1,0 +1,646 @@
+﻿window.tournamentData = {
+    "year":  2004,
+    "grade":  "7th",
+    "className":  "A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "",
+                          "teams":  [
+                                        "Beecher",
+                                        "Riverdale Patton"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "",
+                          "teams":  [
+                                        "Crest Hill Richland",
+                                        "Morris Saratoga"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "",
+                          "teams":  [
+                                        "Tonica",
+                                        "Grand Ridge"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "",
+                          "teams":  [
+                                        "Streator St. Stephen",
+                                        "Streator St. Anthony"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "",
+                          "teams":  [
+                                        "Donovan",
+                                        "Milford"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "",
+                          "teams":  [
+                                        "Gifford",
+                                        "Piper City Tri-Point"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "",
+                          "teams":  [
+                                        "Pontiac St. Mary\u0027s",
+                                        "Lexington"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "",
+                          "teams":  [
+                                        "Normal Epiphany",
+                                        "Bloomington Holy Trinity"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "",
+                          "teams":  [
+                                        "Peoria Pleasant Valley",
+                                        "Sparland Midland"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "",
+                          "teams":  [
+                                        "Mackinaw Dee-Mack",
+                                        "Spring Bay Riverview"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "",
+                          "teams":  [
+                                        "Brimfield",
+                                        "Princeville"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "",
+                          "teams":  [
+                                        "Lewistown Central",
+                                        "London Mills Valley"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "",
+                          "teams":  [
+                                        "Abingdon",
+                                        "Roseville"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "",
+                          "teams":  [
+                                        "Colchester West Prairie",
+                                        "Hamilton"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "",
+                          "teams":  [
+                                        "Potomac",
+                                        "Bismarck-Henning"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "",
+                          "teams":  [
+                                        "Sidell Jamaica",
+                                        "Homer Heritage"
+                                    ]
+                      },
+                      {
+                          "id":  17,
+                          "sectional":  9,
+                          "host":  "",
+                          "teams":  [
+                                        "LeRoy",
+                                        "Gibson City GCMS"
+                                    ]
+                      },
+                      {
+                          "id":  18,
+                          "sectional":  9,
+                          "host":  "",
+                          "teams":  [
+                                        "Champaign St. Matthew",
+                                        "Champaign Holy Cross"
+                                    ]
+                      },
+                      {
+                          "id":  19,
+                          "sectional":  10,
+                          "host":  "",
+                          "teams":  [
+                                        "Paris Crestwood",
+                                        "Hume Shiloh"
+                                    ]
+                      },
+                      {
+                          "id":  20,
+                          "sectional":  10,
+                          "host":  "",
+                          "teams":  [
+                                        "Tuscola East Prairie",
+                                        "Arcola"
+                                    ]
+                      },
+                      {
+                          "id":  21,
+                          "sectional":  11,
+                          "host":  "",
+                          "teams":  [
+                                        "Cerro Gordo",
+                                        "Decatur Johns Hill"
+                                    ]
+                      },
+                      {
+                          "id":  22,
+                          "sectional":  11,
+                          "host":  "",
+                          "teams":  [
+                                        "Assumption Central A \u0026 M",
+                                        "Pana Sacred Heart"
+                                    ]
+                      },
+                      {
+                          "id":  23,
+                          "sectional":  12,
+                          "host":  "",
+                          "teams":  [
+                                        "Springfield Blessed Sacrament",
+                                        "Jacksonville Our Saviour"
+                                    ]
+                      },
+                      {
+                          "id":  24,
+                          "sectional":  12,
+                          "host":  "",
+                          "teams":  [
+                                        "Nokomis JHS",
+                                        "Divernon"
+                                    ]
+                      },
+                      {
+                          "id":  25,
+                          "sectional":  13,
+                          "host":  "",
+                          "teams":  [
+                                        "Mt. Pulaski",
+                                        "Lincoln Carroll Catholic"
+                                    ]
+                      },
+                      {
+                          "id":  26,
+                          "sectional":  13,
+                          "host":  "",
+                          "teams":  [
+                                        "Springfield St. Agnes",
+                                        "Springfield Christ the King"
+                                    ]
+                      },
+                      {
+                          "id":  27,
+                          "sectional":  14,
+                          "host":  "",
+                          "teams":  [
+                                        "Mendon Unity",
+                                        "Bowen Southeastern"
+                                    ]
+                      },
+                      {
+                          "id":  28,
+                          "sectional":  14,
+                          "host":  "",
+                          "teams":  [
+                                        "Winchester",
+                                        "Concord Triopia"
+                                    ]
+                      },
+                      {
+                          "id":  29,
+                          "sectional":  15,
+                          "host":  "",
+                          "teams":  [
+                                        "Palestine",
+                                        "Noble West Richland"
+                                    ]
+                      },
+                      {
+                          "id":  30,
+                          "sectional":  15,
+                          "host":  "",
+                          "teams":  [
+                                        "Louisville North Clay",
+                                        "Effingham St. Anthony"
+                                    ]
+                      },
+                      {
+                          "id":  31,
+                          "sectional":  16,
+                          "host":  "",
+                          "teams":  [
+                                        "Carrollton St. John",
+                                        "Greenfield"
+                                    ]
+                      },
+                      {
+                          "id":  32,
+                          "sectional":  16,
+                          "host":  "",
+                          "teams":  [
+                                        "Bunker Hill Meissner",
+                                        "Mt. Olive"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Richland GS, Crest Hill",
+                           "date":  "",
+                           "records":  {
+                                           "2":  "12-5"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Fieldcrest East MS, Wenona",
+                           "date":  "",
+                           "records":  {
+                                           "3":  "17-4",
+                                           "4":  "19-1"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Tri-Point JHS, Piper City",
+                           "date":  "",
+                           "records":  {
+                                           "5":  "8-7",
+                                           "6":  "14-5"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Roanoke-Benson",
+                           "date":  "",
+                           "records":  {
+                                           "7":  "20-1",
+                                           "8":  "21-1"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Washington St. Patrick",
+                           "date":  "",
+                           "records":  {
+                                           "9":  "16-3"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Brimfield",
+                           "date":  "",
+                           "records":  {
+                                           "11":  "19-1",
+                                           "12":  "14-5"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Biggsville Union",
+                           "date":  "",
+                           "records":  {
+                                           "13":  "13-9",
+                                           "14":  "13-10"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Jamaica JHS, Sidell",
+                           "date":  "",
+                           "records":  {
+                                           "15":  "11-2",
+                                           "16":  "14-3"
+                                       }
+                       },
+                       {
+                           "id":  9,
+                           "regionals":  [
+                                             17,
+                                             18
+                                         ],
+                           "host":  "Fisher",
+                           "date":  "",
+                           "records":  {
+                                           "17":  "10-9",
+                                           "18":  "14-8"
+                                       }
+                       },
+                       {
+                           "id":  10,
+                           "regionals":  [
+                                             19,
+                                             20
+                                         ],
+                           "host":  "Oakland Lake Crest",
+                           "date":  "",
+                           "records":  {
+                                           "19":  "14-4",
+                                           "20":  "14-8"
+                                       }
+                       },
+                       {
+                           "id":  11,
+                           "regionals":  [
+                                             21,
+                                             22
+                                         ],
+                           "host":  "Central A \u0026 M MS, Assumption",
+                           "date":  "",
+                           "records":  {
+                                           "21":  "15-7",
+                                           "22":  "16-4"
+                                       }
+                       },
+                       {
+                           "id":  12,
+                           "regionals":  [
+                                             23,
+                                             24
+                                         ],
+                           "host":  "Divernon",
+                           "date":  "",
+                           "records":  {
+                                           "23":  "18-4",
+                                           "24":  "7-10"
+                                       }
+                       },
+                       {
+                           "id":  13,
+                           "regionals":  [
+                                             25,
+                                             26
+                                         ],
+                           "host":  "A-C Central JHS, Chandlerville",
+                           "date":  "",
+                           "records":  {
+                                           "25":  "14-2",
+                                           "26":  "15-5"
+                                       }
+                       },
+                       {
+                           "id":  14,
+                           "regionals":  [
+                                             27,
+                                             28
+                                         ],
+                           "host":  "Brown County MS, Mt. Sterling",
+                           "date":  "",
+                           "records":  {
+                                           "27":  "21-2",
+                                           "28":  "17-3"
+                                       }
+                       },
+                       {
+                           "id":  15,
+                           "regionals":  [
+                                             29,
+                                             30
+                                         ],
+                           "host":  "St. Anthony GS, Effingham",
+                           "date":  "",
+                           "records":  {
+                                           "29":  "6-7",
+                                           "30":  "13-5"
+                                       }
+                       },
+                       {
+                           "id":  16,
+                           "regionals":  [
+                                             31,
+                                             32
+                                         ],
+                           "host":  "Carrollton St. John",
+                           "date":  "",
+                           "records":  {
+                                           "32":  "14-6"
+                                       }
+                       }
+                   ],
+    "regionalRosterPartial":  true,
+    "venue":  "Divernon JHS/HS",
+    "stateDate":  "",
+    "firstRound":  [
+                       {
+                           "game":  1,
+                           "matchup":  [
+                                           6,
+                                           12
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  2,
+                           "matchup":  [
+                                           4,
+                                           8
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  3,
+                           "matchup":  [
+                                           10,
+                                           15
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  4,
+                           "matchup":  [
+                                           1,
+                                           13
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           14,
+                                           3
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           2,
+                                           11
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  7,
+                           "matchup":  [
+                                           9,
+                                           16
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  8,
+                           "matchup":  [
+                                           5,
+                                           7
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "quarterfinals":  [
+                          {
+                              "game":  9,
+                              "matchup":  [
+                                              1,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  10,
+                              "matchup":  [
+                                              3,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  11,
+                              "matchup":  [
+                                              5,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  12,
+                              "matchup":  [
+                                              7,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  13,
+                           "matchup":  [
+                                           9,
+                                           10
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  14,
+                           "matchup":  [
+                                           11,
+                                           12
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

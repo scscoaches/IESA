@@ -18,7 +18,7 @@
 <body>
     <main>
         <h1>IESA Girls Basketball Brackets</h1>
-        <p>Explore 7th- and 8th-grade regional, sectional, and state tournament brackets by season.</p>
+        <p>Explore IESA girls basketball tournament brackets by season, including the combined-grade early tournaments.</p>
         <div id="seasons" aria-live="polite">Loading seasons...</div>
         <noscript><p><a href="2026/index.html" style="color:white">2026 Class 2A tournament</a></p></noscript>
     </main>
@@ -34,12 +34,13 @@
                 var section = document.createElement("section");
                 section.className = "season";
                 var title = document.createElement("h2");
-                title.textContent = season.year + " Class " + season.className;
+                title.textContent = season.year + (season.className ? " Class " + season.className :
+                    season.gradeMode === "combined" ? " Combined 7th/8th" : " 7th and 8th Grade");
                 section.appendChild(title);
-                ["7th", "8th"].forEach(function(grade) {
+                (season.gradeMode === "combined" ? ["combined"] : ["7th", "8th"]).forEach(function(grade) {
                     var link = document.createElement("a");
                     link.href = season.year + "/" + grade + "/index.html";
-                    link.textContent = grade + " Grade";
+                    link.textContent = grade === "combined" ? "Combined 7th/8th Tournament" : grade + " Grade";
                     section.appendChild(link);
                 });
                 var note = document.createElement("small");

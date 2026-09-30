@@ -1,0 +1,673 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-09-30 14:28",
+    "year":  2003,
+    "grade":  "7th",
+    "regionals":  {
+                      "11":  {
+                                 "winner":  "Hanna City Logan",
+                                 "loser":  null,
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A",
+                                 "qualifierOnly":  true
+                             },
+                      "3":  {
+                                "winner":  "Streator St. Stephen",
+                                "loser":  "Pontiac St. Mary\u0027s",
+                                "score":  "31-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                            },
+                      "20":  {
+                                 "winner":  "Lincoln Chester-East Lincoln",
+                                 "loser":  "Lincoln Carroll Catholic",
+                                 "score":  "27-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "12":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  null,
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A",
+                                 "qualifierOnly":  true
+                             },
+                      "10":  {
+                                 "winner":  "Peoria Limestone Walters",
+                                 "loser":  "Peoria Norwood",
+                                 "score":  "22-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "17":  {
+                                 "winner":  "Rantoul St. Malachy",
+                                 "loser":  "Philo St. Thomas",
+                                 "score":  "25-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "13":  {
+                                 "winner":  "Abingdon",
+                                 "loser":  "Cuba",
+                                 "score":  "29-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "27":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Springfield St. Agnes",
+                                 "score":  "28-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "30":  {
+                                 "winner":  "Griggsville-Perry",
+                                 "loser":  null,
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A",
+                                 "qualifierOnly":  true
+                             },
+                      "18":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  null,
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A",
+                                 "qualifierOnly":  true
+                             },
+                      "29":  {
+                                 "winner":  "Hamilton",
+                                 "loser":  "Carthage",
+                                 "score":  "28-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "23":  {
+                                 "winner":  "Findlay Okaw Valley",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "18-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "19":  {
+                                 "winner":  "Arcola",
+                                 "loser":  "Arthur (Coop)",
+                                 "score":  "18-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "1":  {
+                                "winner":  "Ford Heights Cottage Grove",
+                                "loser":  "Grant Park",
+                                "score":  "47-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                            },
+                      "5":  {
+                                "winner":  "Milford",
+                                "loser":  "Donovan",
+                                "score":  "36-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                            },
+                      "4":  {
+                                "winner":  "Grand Ridge",
+                                "loser":  "Tonica",
+                                "score":  "31-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                            },
+                      "8":  {
+                                "winner":  "Normal Epiphany",
+                                "loser":  "Normal Metcalf",
+                                "score":  "22-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                            },
+                      "26":  {
+                                 "winner":  "Virden",
+                                 "loser":  "Girard",
+                                 "score":  "21-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "14":  {
+                                 "winner":  "Media Southern",
+                                 "loser":  null,
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A",
+                                 "qualifierOnly":  true
+                             },
+                      "22":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Sigel St. Michael\u0027s",
+                                 "score":  "29-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "28":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Jacksonville Our Saviour",
+                                 "score":  "25-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "25":  {
+                                 "winner":  "Springfield Blessed Sacrament",
+                                 "loser":  "Springfield St. Aloysius",
+                                 "score":  "25-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "9":  {
+                                "winner":  "Washington Central",
+                                "loser":  "Washington St. Patrick",
+                                "score":  "31-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                            },
+                      "15":  {
+                                 "winner":  "Catlin",
+                                 "loser":  "Bismarck-Henning",
+                                 "score":  "33-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "21":  {
+                                 "winner":  "Noble West Richland",
+                                 "loser":  "Dieterich",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "24":  {
+                                 "winner":  "Beecher City",
+                                 "loser":  "Kinmundy South Central",
+                                 "score":  "40-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "16":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Hume Shiloh",
+                                 "score":  "51-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "32":  {
+                                 "winner":  "Greenfield",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "47-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             },
+                      "7":  {
+                                "winner":  "Chenoa",
+                                "loser":  "Flanagan (Coop)",
+                                "score":  "36-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                            },
+                      "2":  {
+                                "winner":  "Crest Hill Richland",
+                                "loser":  "Morris Saratoga",
+                                "score":  "17-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                            },
+                      "6":  {
+                                "winner":  "Rossville-Alvin",
+                                "loser":  "Gifford",
+                                "score":  "34-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                            },
+                      "31":  {
+                                 "winner":  "Bunker Hill Meissner",
+                                 "loser":  "Mt. Olive",
+                                 "score":  "40-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "27":  {
+                                               "team":  "Springfield Christ the King",
+                                               "record":  "13-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "3":  {
+                                              "team":  "Streator St. Stephen",
+                                              "record":  "9-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                          },
+                                    "5":  {
+                                              "team":  "Milford",
+                                              "record":  "9-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                          },
+                                    "21":  {
+                                               "team":  "Noble West Richland",
+                                               "record":  "7-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "31":  {
+                                               "team":  "Bunker Hill Meissner",
+                                               "record":  "10-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "16":  {
+                                               "team":  "Paris Crestwood",
+                                               "record":  "17-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "10":  {
+                                               "team":  "Peoria Limestone Walters",
+                                               "record":  "10-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "2":  {
+                                              "team":  "Crest Hill Richland",
+                                              "record":  "9-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                          },
+                                    "32":  {
+                                               "team":  "Greenfield",
+                                               "record":  "13-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "22":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "13-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "8":  {
+                                              "team":  "Normal Epiphany",
+                                              "record":  "22-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                          },
+                                    "17":  {
+                                               "team":  "Rantoul St. Malachy",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "15":  {
+                                               "team":  "Catlin",
+                                               "record":  "18-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "29":  {
+                                               "team":  "Hamilton",
+                                               "record":  "15-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "1":  {
+                                              "team":  "Ford Heights Cottage Grove",
+                                              "record":  "13-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                          },
+                                    "28":  {
+                                               "team":  "Winchester",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "9":  {
+                                              "team":  "Washington Central",
+                                              "record":  "11-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                          },
+                                    "24":  {
+                                               "team":  "Beecher City",
+                                               "record":  "18-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "20":  {
+                                               "team":  "Lincoln Chester-East Lincoln",
+                                               "record":  "12-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "7":  {
+                                              "team":  "Chenoa",
+                                              "record":  "3-17",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                          },
+                                    "23":  {
+                                               "team":  "Findlay Okaw Valley",
+                                               "record":  "7-12",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "6":  {
+                                              "team":  "Rossville-Alvin",
+                                              "record":  "9-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                          },
+                                    "19":  {
+                                               "team":  "Arcola",
+                                               "record":  "15-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "13":  {
+                                               "team":  "Abingdon",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           },
+                                    "26":  {
+                                               "team":  "Virden",
+                                               "record":  "13-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7A"
+                                           }
+                                },
+    "sectionals":  {
+                       "16":  {
+                                  "winner":  "Greenfield",
+                                  "loser":  "Bunker Hill Meissner",
+                                  "score":  "37-10",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                              },
+                       "3":  {
+                                 "winner":  "Milford",
+                                 "loser":  "Rossville-Alvin",
+                                 "score":  "22-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                             },
+                       "5":  {
+                                 "winner":  "Washington Central",
+                                 "loser":  "Peoria Limestone Walters",
+                                 "score":  "24-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                             },
+                       "12":  {
+                                  "winner":  "Beecher City",
+                                  "loser":  "Findlay Okaw Valley",
+                                  "score":  "43-9",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                              },
+                       "10":  {
+                                  "winner":  "Lincoln Chester-East Lincoln",
+                                  "loser":  "Arcola",
+                                  "score":  "34-13",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                              },
+                       "2":  {
+                                 "winner":  "Grand Ridge",
+                                 "loser":  "Streator St. Stephen",
+                                 "score":  "29-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                             },
+                       "8":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Catlin",
+                                 "score":  "42-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                             },
+                       "11":  {
+                                  "winner":  "Effingham St. Anthony",
+                                  "loser":  "Noble West Richland",
+                                  "score":  "31-24",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                              },
+                       "1":  {
+                                 "winner":  "Crest Hill Richland",
+                                 "loser":  "Ford Heights Cottage Grove",
+                                 "score":  "30-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                             },
+                       "9":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "Rantoul St. Malachy",
+                                 "score":  "36-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                             },
+                       "14":  {
+                                  "winner":  "Winchester",
+                                  "loser":  "Springfield Christ the King",
+                                  "score":  "32-25",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                              },
+                       "7":  {
+                                 "winner":  "Media Southern",
+                                 "loser":  "Abingdon",
+                                 "score":  "27-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                             },
+                       "15":  {
+                                  "winner":  "Hamilton",
+                                  "loser":  "Griggsville-Perry",
+                                  "score":  "28-15",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                              },
+                       "6":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "Hanna City Logan",
+                                 "score":  "46-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                             },
+                       "4":  {
+                                 "winner":  "Normal Epiphany",
+                                 "loser":  "Chenoa",
+                                 "score":  "56-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                             },
+                       "13":  {
+                                  "winner":  "Springfield Blessed Sacrament",
+                                  "loser":  "Virden",
+                                  "score":  "45-5",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7A"
+                              }
+                   },
+    "quarterfinalMatchups":  {
+                                 "7":  [
+                                           2,
+                                           13
+                                       ],
+                                 "3":  [
+                                           5,
+                                           10
+                                       ],
+                                 "2":  [
+                                           7,
+                                           6
+                                       ],
+                                 "1":  [
+                                           9,
+                                           16
+                                       ],
+                                 "4":  [
+                                           11,
+                                           8
+                                       ],
+                                 "6":  [
+                                           4,
+                                           15
+                                       ],
+                                 "5":  [
+                                           14,
+                                           1
+                                       ],
+                                 "8":  [
+                                           3,
+                                           12
+                                       ]
+                             },
+    "games":  {
+                  "12":  {
+                             "teams":  [
+                                           "Springfield Blessed Sacrament",
+                                           "Beecher City"
+                                       ],
+                             "scores":  [
+                                            36,
+                                            33
+                                        ],
+                             "winner":  "Springfield Blessed Sacrament",
+                             "loser":  "Beecher City",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                         },
+                  "7":  {
+                            "teams":  [
+                                          "Grand Ridge",
+                                          "Springfield Blessed Sacrament"
+                                      ],
+                            "scores":  [
+                                           11,
+                                           42
+                                       ],
+                            "winner":  "Springfield Blessed Sacrament",
+                            "loser":  "Grand Ridge",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Winchester",
+                                          "Crest Hill Richland"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           16
+                                       ],
+                            "winner":  "Winchester",
+                            "loser":  "Crest Hill Richland",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                        },
+                  "16":  {
+                             "teams":  [
+                                           "Paris Crestwood",
+                                           "Springfield Blessed Sacrament"
+                                       ],
+                             "scores":  [
+                                            35,
+                                            16
+                                        ],
+                             "winner":  "Paris Crestwood",
+                             "loser":  "Springfield Blessed Sacrament",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                         },
+                  "10":  {
+                             "teams":  [
+                                           "Lincoln Chester-East Lincoln",
+                                           "Paris Crestwood"
+                                       ],
+                             "scores":  [
+                                            18,
+                                            27
+                                        ],
+                             "winner":  "Paris Crestwood",
+                             "loser":  "Lincoln Chester-East Lincoln",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                         },
+                  "2":  {
+                            "teams":  [
+                                          "Media Southern",
+                                          "Bartonville Monroe"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           23
+                                       ],
+                            "winner":  "Media Southern",
+                            "loser":  "Bartonville Monroe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Washington Central",
+                                          "Lincoln Chester-East Lincoln"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           36
+                                       ],
+                            "winner":  "Lincoln Chester-East Lincoln",
+                            "loser":  "Washington Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Milford",
+                                          "Beecher City"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           44
+                                       ],
+                            "winner":  "Beecher City",
+                            "loser":  "Milford",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                        },
+                  "15":  {
+                             "teams":  [
+                                           "Media Southern",
+                                           "Normal Epiphany"
+                                       ],
+                             "scores":  [
+                                            33,
+                                            30
+                                        ],
+                             "winner":  "Media Southern",
+                             "loser":  "Normal Epiphany",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                         },
+                  "1":  {
+                            "teams":  [
+                                          "Champaign St. Matthew",
+                                          "Greenfield"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           34
+                                       ],
+                            "winner":  "Greenfield",
+                            "loser":  "Champaign St. Matthew",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                        },
+                  "9":  {
+                            "teams":  [
+                                          "Greenfield",
+                                          "Media Southern"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           28
+                                       ],
+                            "winner":  "Media Southern",
+                            "loser":  "Greenfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                        },
+                  "14":  {
+                             "teams":  [
+                                           "Normal Epiphany",
+                                           "Springfield Blessed Sacrament"
+                                       ],
+                             "scores":  [
+                                            23,
+                                            30
+                                        ],
+                             "winner":  "Springfield Blessed Sacrament",
+                             "loser":  "Normal Epiphany",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                         },
+                  "11":  {
+                             "teams":  [
+                                           "Winchester",
+                                           "Normal Epiphany"
+                                       ],
+                             "scores":  [
+                                            11,
+                                            32
+                                        ],
+                             "winner":  "Normal Epiphany",
+                             "loser":  "Winchester",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                         },
+                  "6":  {
+                            "teams":  [
+                                          "Normal Epiphany",
+                                          "Hamilton"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           27
+                                       ],
+                            "winner":  "Normal Epiphany",
+                            "loser":  "Hamilton",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Effingham St. Anthony",
+                                          "Paris Crestwood"
+                                      ],
+                            "scores":  [
+                                           13,
+                                           38
+                                       ],
+                            "winner":  "Paris Crestwood",
+                            "loser":  "Effingham St. Anthony",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                        },
+                  "13":  {
+                             "teams":  [
+                                           "Media Southern",
+                                           "Paris Crestwood"
+                                       ],
+                             "scores":  [
+                                            14,
+                                            36
+                                        ],
+                             "winner":  "Paris Crestwood",
+                             "loser":  "Media Southern",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7A"
+                         }
+              }
+};

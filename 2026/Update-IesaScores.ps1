@@ -7,7 +7,7 @@ $today = (Get-Date).Date
 if ($today -gt [datetime]::new(2026, 12, 18)) {
     throw "The 2026 season is complete; the scheduled score refresh ended after December 18."
 }
-$directoryPage = Invoke-WebRequest -UseBasicParsing "https://www.iesa.org/activities/members.asp"
+$directoryPage = Invoke-WebRequest -UseBasicParsing "https://www.iesa.org/activities/members.asp" -TimeoutSec 30
 $directory = @{}
 foreach ($match in [regex]::Matches($directoryPage.Content, "(?is)<a href='memberdetail\.asp\?SchoolID=(\d+)'[^>]*>(.*?)</a>")) {
     $schoolName = ([regex]::Replace($match.Groups[2].Value, "<[^>]+>", "") -replace "\s+", " ").Trim().ToLowerInvariant()
@@ -61,7 +61,7 @@ foreach ($grade in "7th", "8th") {
         $schoolId = $directory[$lookup]
         $sourceUrl = "https://www.iesa.org/activities/memberStats.asp?SchoolID=$schoolId&ActivityCode=GBK&GradeLevel=$gradeLevel"
         try {
-            $page = Invoke-WebRequest -UseBasicParsing $sourceUrl
+            $page = Invoke-WebRequest -UseBasicParsing $sourceUrl -TimeoutSec 30
             $games = @()
             foreach ($match in [regex]::Matches($page.Content, "(?is)<td class='ListData'>(.*?)</td>\s*<td class='ListData-R'>(.*?)</td>")) {
                 $games += [pscustomobject]@{ opponent = Get-PlainText $match.Groups[1].Value; score = (Get-PlainText $match.Groups[2].Value).ToUpperInvariant() }
@@ -98,6 +98,8 @@ foreach ($grade in "7th", "8th") {
             $teams[$team] = [pscustomobject]@{ sourceUrl = $sourceUrl; games = $games; record = [pscustomobject]@{ wins = $wins; losses = $losses; completed = $wins + $losses } }
         } catch {
             Write-Warning "Unable to refresh ${team}: $($_.Exception.Message)"
+        } finally {
+            Start-Sleep -Seconds 2
         }
     }
     $cache = [pscustomobject]@{
