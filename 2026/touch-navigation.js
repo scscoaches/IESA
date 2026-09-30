@@ -45,6 +45,7 @@
 
     viewport.addEventListener("pointerdown", function (event) {
         if (event.pointerType !== "touch") { return; }
+        if (event.target.closest("button, summary, a, input, select, textarea")) { return; }
         pointers.set(event.pointerId, point(event));
         viewport.setPointerCapture(event.pointerId);
         startGesture();

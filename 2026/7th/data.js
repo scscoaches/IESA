@@ -69,11 +69,13 @@ window.tournamentData = {
             return {
                 id: i + 1,
                 sectional: Math.floor(i / 2) + 1,
-                host: ["Marseilles ES", "Waterman Indian Creek",
-                    "Normal Epiphany", "Glasford Illini Bluffs",
-                    "Mt. Sterling Brown County", "Warrensburg-Latham",
-                    "TBD", "TBD"
-                ][Math.floor(i / 2)],
+                host: ["Lockport Kelvin Grove", "Joliet Laraway",
+                    "Rockford Montessori", "Wenona Fieldcrest",
+                    "TBD", "Normal Epiphany", "TBD", "Glasford Illini Bluffs",
+                    "Lewistown JHS", "Liberty", "TBD", "Nokomis JHS (Co-op)",
+                    "Albion (Co-op)", "TBD", "Springfield Blessed Sacrament",
+                    "Greenfield (Co-op)"
+                ][i],
                 teams: t
             }
         })

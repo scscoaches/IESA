@@ -7,6 +7,157 @@
         drag, sectionalOrder = [].concat.apply([], d.quarterfinals.map(function(q) {
             return q.matchup
         }));
+    var results = window.iesaBracketCache;
+    if (!results || results.year !== 2026 || results.grade !== d.grade) {
+        results = null;
+    }
+    if (results && results.quarterfinalMatchups) {
+        var pairings = d.quarterfinals.map(function(q) {
+            return results.quarterfinalMatchups[q.game];
+        });
+        var numbers = [].concat.apply([], pairings.filter(Array.isArray));
+        if (pairings.every(function(pair) { return Array.isArray(pair) && pair.length === 2; }) &&
+            numbers.length === 8 && numbers.every(function(n) { return Number.isInteger(n) && n >= 1 && n <= 8; }) &&
+            new Set(numbers).size === 8) {
+            d.quarterfinals.forEach(function(q, index) { q.matchup = pairings[index]; });
+            sectionalOrder = numbers;
+        }
+    }
+    function result(stage, id) {
+        return results && results[stage] && results[stage][id];
+    }
+    function matchTeam(name, candidates) {
+        if (!name) { return null; }
+        var normalized = name.replace(/\s+\(Co-op\)$/i, "").replace(/\s+/g, " ").trim().toLowerCase();
+        var matches = candidates.filter(function(candidate) {
+            return candidate && candidate.replace(/\s+\(Co-op\)$/i, "").replace(/\s+/g, " ").trim().toLowerCase() === normalized;
+        });
+        return matches.length === 1 ? matches[0] : null;
+    }
+    var seedCache = window.iesaRegionalSeedCache;
+    var seededRegionals = {};
+    if (seedCache && seedCache.year === 2026 && seedCache.grade === d.grade &&
+        seedCache.regionalBrackets) {
+        d.regionals.forEach(function(regional) {
+            var bracket = seedCache.regionalBrackets[regional.id];
+            if (!bracket || !Array.isArray(bracket.seeds) || !bracket.seeds.length) { return; }
+            var names = bracket.seeds && bracket.seeds.map(function(seed) {
+                return matchTeam(seed.team, regional.teams);
+            });
+            if (!names || names.length !== regional.teams.length ||
+                new Set(names).size !== names.length ||
+                bracket.seeds.some(function(seed, index) {
+                    return seed.seed !== index + 1 || !names[index];
+                })) {
+                console.error("Invalid official seeding for Regional " + regional.id);
+                return;
+            }
+            seededRegionals[regional.id] = bracket;
+        });
+    }
+    function seedProgress(regional, bracket) {
+        var bySeed = {};
+        bracket.seeds.forEach(function(seed) { bySeed[seed.seed] = matchTeam(seed.team, regional.teams); });
+        var names = [1, 8, 4, 5, 2, 7, 3, 6].map(function(seed) {
+            return bySeed[seed] || null;
+        });
+        var roundNames = [names];
+        var roundGameScores = [];
+        for (var round = 0; round < 3; round++) {
+            var current = roundNames[round];
+            var following = [];
+            var gameScores = [];
+            for (var gameIndex = 0; gameIndex < current.length / 2; gameIndex++) {
+                var pair = current.slice(gameIndex * 2, gameIndex * 2 + 2);
+                var game = bracket.rounds && bracket.rounds[round] && bracket.rounds[round][gameIndex];
+                // Only an empty first-round seed slot is a bye; later empty slots are pending.
+                var winner = round === 0 && pair[0] && !pair[1] ? pair[0] : null;
+                if (game && game.winner && pair[0] && pair[1] &&
+                    Array.isArray(game.teams) && Array.isArray(game.scores) &&
+                    game.teams.length === 2 && game.scores.length === 2 &&
+                    game.teams.every(function(team, i) { return matchTeam(team, [pair[i]]) === pair[i]; }) &&
+                    game.scores.every(function(score) { return Number.isInteger(score) && score >= 0; }) &&
+                    game.scores[0] !== game.scores[1]) {
+                    var officialWinner = matchTeam(game.winner, pair);
+                    if (officialWinner && game.scores[pair.indexOf(officialWinner)] >
+                        game.scores[1 - pair.indexOf(officialWinner)]) {
+                        winner = officialWinner;
+                        gameScores[gameIndex] = game.scores.slice();
+                    }
+                }
+                following.push(winner);
+            }
+            roundNames.push(following);
+            roundGameScores.push(gameScores);
+        }
+        return { names: roundNames, gameScores: roundGameScores };
+    }
+    var seededProgress = {};
+    Object.keys(seededRegionals).forEach(function(id) {
+        seededProgress[id] = seedProgress(d.regionals[id - 1], seededRegionals[id]);
+    });
+    var reportedMismatch = {};
+    function regionalWinner(id) {
+        var regional = d.regionals[id - 1];
+        var game = result("regionals", id);
+        var winner = game && matchTeam(game.winner, regional.teams);
+        var loser = game && matchTeam(game.loser, regional.teams);
+        var qualified = winner && loser && winner !== loser ? winner : null;
+        var bracketWinner = seededProgress[id] && seededProgress[id].names[3][0];
+        if (qualified && bracketWinner && qualified !== bracketWinner) {
+            if (!reportedMismatch[id]) {
+                console.error("Conflicting official regional winners for Regional " + id);
+                reportedMismatch[id] = true;
+            }
+            return null;
+        }
+        return qualified || bracketWinner || null;
+    }
+    function sectionalWinner(id) {
+        var game = result("sectionals", id);
+        var entrants = d.sectionals[id - 1].regionals.map(regionalWinner);
+        var winner = game && matchTeam(game.winner, entrants);
+        var loser = game && matchTeam(game.loser, entrants);
+        return winner && loser && winner !== loser ? winner : null;
+    }
+    function gameResult(id, entrants) {
+        var game = result("games", id);
+        if (!game || !entrants[0] || !entrants[1] ||
+            !Array.isArray(game.teams) || game.teams.length !== 2 ||
+            !Array.isArray(game.scores) || game.scores.length !== 2 ||
+            !game.scores.every(function(score) { return /^\d+$/.test(String(score)); })) {
+            return null;
+        }
+        var teams = game.teams.map(function(name) { return matchTeam(name, entrants); });
+        var winner = matchTeam(game.winner, entrants);
+        var loser = matchTeam(game.loser, entrants);
+        if (!teams[0] || !teams[1] || teams[0] === teams[1] ||
+            !winner || !loser || winner === loser ||
+            teams.indexOf(winner) === -1 || teams.indexOf(loser) === -1) {
+            return null;
+        }
+        return { teams: teams, scores: game.scores, winner: winner, loser: loser, sourceUrl: game.sourceUrl };
+    }
+    var quarterfinalResults = {}, semifinalResults = {};
+    d.quarterfinals.forEach(function(q) {
+        quarterfinalResults[q.game] = gameResult(q.game, q.matchup.map(sectionalWinner));
+    });
+    d.semifinals.forEach(function(q) {
+        semifinalResults[q.game] = gameResult(q.game, q.matchup.map(function(id) {
+            return quarterfinalResults[id] && quarterfinalResults[id].winner;
+        }));
+    });
+    function entrants(names, game, label) {
+        return names.map(function(name) {
+            return {
+                text: name,
+                score: game && game.scores[game.teams.indexOf(name)],
+                winner: game && game.winner === name,
+                label: label,
+                sourceUrl: game && game.sourceUrl
+            };
+        });
+    }
     document.querySelector(".title").textContent = "IESA " + d.grade +
         " Grade Class 2A State Tournament";
     document.querySelector(".detail").textContent = d.venue + " • " + d.stateDate;
@@ -23,11 +174,42 @@
         n.id = o.id;
         n.style.left = o.x + "px";
         n.style.top = o.y + "px";
-        n.appendChild(el("div", "head", o.title));
+        var heading = el("div", "head", o.location ? "" : o.title);
+        if (o.location) {
+            heading.appendChild(el("span", "regional-name", o.title));
+            var location = el("span", "regional-location", o.location);
+            location.title = o.location;
+            heading.appendChild(location);
+        }
+        n.appendChild(heading);
         if (o.meta) n.appendChild(el("div", "meta", o.meta));
         o.entries.forEach(function(e) {
-            n.appendChild(el("div", "entry " + (o.path ? "path" : ""), e))
+            var entry = typeof e === "string" ? { text: e } : e;
+            var row = el("div", "entry " + (o.path ? "path" : "") +
+                (entry.winner ? " advanced" : ""), entry.text);
+            if (entry.seed) {
+                row.dataset.team = entry.text;
+                row.dataset.seed = entry.seed;
+                row.textContent = "";
+                row.appendChild(el("span", "seed-badge", entry.seed));
+                row.appendChild(el("span", "team-label", entry.text));
+                row.title = entry.text + " • Seed " + entry.seed;
+            }
+            if (entry.winner) { row.title = entry.label || "Confirmed winner on IESA"; }
+            if (entry.sourceUrl) { row.title += (row.title ? " • " : "") + entry.sourceUrl; }
+            if (entry.score !== undefined && entry.score !== null) {
+                row.appendChild(el("span", "postseason-score", " " + entry.score));
+            }
+            n.appendChild(row)
         });
+        if (o.projected || o.official) {
+            var projection = el("button", o.official ? "regional-official-link" : "regional-projection-link",
+                o.official ? "Regional bracket (official)" : "Regional bracket (unofficial)");
+            projection.type = "button";
+            projection.setAttribute("aria-label", "Show " + (o.official ? "official" : "unofficial projected") +
+                " Regional " + o.regionalId + " bracket");
+            n.appendChild(projection);
+        }
         if (o.time) n.appendChild(el("div", "entry time", o.time));
         b.appendChild(n)
     }
@@ -63,15 +245,28 @@
             top = 110 + i * 245;
         q.regionals.forEach(function(r, column) {
             var regional = d.regionals[r - 1];
+            var seeding = seededRegionals[r];
+            var regionalResult = result("regionals", regional.id);
+            var listedTeams = seeding ? seeding.seeds.map(function(seed) {
+                return { name: matchTeam(seed.team, regional.teams), seed: seed.seed };
+            }) : regional.teams.map(function(team) { return { name: team }; });
             card({
                 id: "r" + regional.id,
-                kind: "regional",
+                kind: "regional" + (seeding ? " seeded" : ""),
                 x: 35 + column * 245,
                 y: top,
                 title: "Regional " + regional.id,
-                meta: "Feeds Sectional " + regional.sectional + " • " +
-                    regional.host,
-                entries: regional.teams
+                location: regional.host,
+                entries: listedTeams.map(function(listed) {
+                    return { text: listed.name, seed: listed.seed,
+                        winner: regionalWinner(regional.id) === listed.name,
+                        label: "Regional champion confirmed by IESA" +
+                            (regionalWinner(regional.id) === listed.name && regionalResult && regionalResult.score ?
+                                " • " + regionalResult.score : "") };
+                }),
+                projected: !seeding,
+                official: !!seeding,
+                regionalId: regional.id
             })
         });
         card({
@@ -81,7 +276,15 @@
             title: "Sectional " + q.id,
             meta: q.host + " • " + q.date,
             entries: q.regionals.map(function(r) {
-                return "Winner Regional " + r
+                var winner = regionalWinner(r);
+                var champion = sectionalWinner(q.id);
+                var outcome = champion && result("sectionals", q.id);
+                var score = outcome && /^\d+-\d+$/.test(outcome.score) ? outcome.score.split("-") : null;
+                return { text: winner || "Winner Regional " + r,
+                    winner: winner && champion === winner,
+                    score: winner && score ? score[winner === champion ? 0 : 1] : null,
+                    sourceUrl: outcome && outcome.sourceUrl,
+                    label: "Sectional champion confirmed by IESA" };
             }),
             path: true
         })
@@ -92,9 +295,9 @@
             x: 1180,
             y: 300 + i * 405,
             title: "State Quarterfinal • Game " + q.game,
-            entries: q.matchup.map(function(r) {
-                return "Winner Sectional " + r
-            }),
+            entries: entrants(q.matchup.map(function(r) {
+                return sectionalWinner(r) || "Winner Sectional " + r;
+            }), quarterfinalResults[q.game]),
             time: q.date + " • " + q.time,
             path: true
         })
@@ -105,9 +308,9 @@
             x: 1660,
             y: 500 + i * 810,
             title: "State Semifinal • Game " + q.game,
-            entries: q.matchup.map(function(r) {
-                return "Winner Game " + r
-            }),
+            entries: entrants(q.matchup.map(function(r) {
+                return quarterfinalResults[r] ? quarterfinalResults[r].winner : "Winner Game " + r;
+            }), semifinalResults[q.game]),
             time: q.date + " • " + q.time,
             path: true
         })
@@ -118,7 +321,11 @@
         x: 2140,
         y: 900,
         title: "Third Place • Game 7",
-        entries: ["Loser Game 5", "Loser Game 6"],
+        entries: entrants([5, 6].map(function(id) {
+            return semifinalResults[id] ? semifinalResults[id].loser : "Loser Game " + id;
+        }), gameResult(7, [5, 6].map(function(id) {
+            return semifinalResults[id] && semifinalResults[id].loser;
+        })), "Third place confirmed by IESA"),
         time: d.thirdPlace.date + " • " + d.thirdPlace.time,
         path: true
     });
@@ -128,7 +335,11 @@
         x: 2620,
         y: 900,
         title: "State Championship",
-        entries: ["Winner Game 5", "Winner Game 6"],
+        entries: entrants([5, 6].map(function(id) {
+            return semifinalResults[id] ? semifinalResults[id].winner : "Winner Game " + id;
+        }), gameResult(8, [5, 6].map(function(id) {
+            return semifinalResults[id] && semifinalResults[id].winner;
+        })), "State champion confirmed by IESA"),
         time: d.championship.date + " • " + d.championship.time,
         path: true
     });
@@ -152,8 +363,107 @@
     wire("m5", "final");
     wire("m6", "final");
     Array.prototype.forEach.call(document.querySelectorAll(".entry"), function(n) {
-        if (n.textContent === "Springfield Christian") n.classList.add(
+        if ((n.dataset.team || n.textContent) === "Springfield Christian") n.classList.add(
             "springfield-christian")
+    });
+
+    var projectionDialog = document.getElementById("projection-dialog");
+    var projectionTitle = document.getElementById("projection-title");
+    var projectionRounds = document.getElementById("projection-rounds");
+    var projectionSource = document.getElementById("projection-source");
+    function projectedTeam(seed, entries, cache) {
+        var entry = entries[seed - 1];
+        if (!entry) { return "BYE"; }
+        var name = entry.dataset.team;
+        var record = cache.teams[name] && cache.teams[name].record;
+        return { name: "#" + seed + " " + name + " (" +
+            (record ? record.wins + "-" + record.losses : "record unavailable") + ")",
+            standing: null };
+    }
+    function projectedStage(container, titleText, pairs) {
+        var stage = el("section", "projection-stage");
+        stage.appendChild(el("h3", "", titleText));
+        var games = el("div", "projection-games");
+        pairs.forEach(function(pair) {
+            var game = el("div", "projection-match");
+            pair.forEach(function(team) {
+                var row = el("div", "projection-team");
+                if (typeof team === "string") {
+                    row.textContent = team;
+                } else {
+                    row.appendChild(el("span", "projection-team-name", team.name));
+                    if (team.standing !== null) {
+                        row.appendChild(el("span", "projection-standing", team.standing));
+                    }
+                }
+                game.appendChild(row);
+            });
+            games.appendChild(game);
+        });
+        stage.appendChild(games);
+        container.appendChild(stage);
+    }
+    function officialStages(regional, bracket) {
+        var progress = seededProgress[regional.id];
+        ["First round", "Semifinals", "Regional final"].forEach(function(titleText, stage) {
+            var pairs = [];
+            for (var game = 0; game < progress.names[stage].length / 2; game++) {
+                var match = [];
+                for (var side = 0; side < 2; side++) {
+                    var team = progress.names[stage][game * 2 + side];
+                    if (!team) {
+                        match.push(stage === 0 ? "BYE" : "Winner " +
+                            (stage === 1 ? "first-round game " + (game * 2 + side + 1) :
+                                "semifinal " + (side + 1)));
+                        continue;
+                    }
+                    var seed = bracket.seeds.find(function(entry) {
+                        return matchTeam(entry.team, regional.teams) === team;
+                    });
+                    var scores = progress.gameScores[stage][game];
+                    match.push({ name: "#" + seed.seed + " " + team,
+                        standing: scores ? String(scores[side]) : null });
+                }
+                pairs.push(match);
+            }
+            projectedStage(projectionRounds, titleText, pairs);
+        });
+    }
+    b.addEventListener("click", function(event) {
+        var button = event.target.closest(".regional-projection-link, .regional-official-link");
+        if (!button) { return; }
+        var card = button.closest(".regional");
+        var regionalId = Number(card.id.substring(1));
+        var regional = d.regionals[regionalId - 1];
+        var official = seededRegionals[regionalId];
+        var cache = window.iesaScoreCache;
+        var entries = Array.prototype.slice.call(card.querySelectorAll(":scope > .entry"));
+        projectionTitle.textContent = official ? "OFFICIAL Regional Bracket" : "UNOFFICIAL Projected Bracket";
+        projectionDialog.setAttribute("aria-label", "Regional " + regionalId +
+            (official ? " official bracket" : " unofficial projected bracket"));
+        projectionRounds.replaceChildren();
+        projectionSource.hidden = !official || !official.sourceUrl;
+        if (!projectionSource.hidden) { projectionSource.href = official.sourceUrl; }
+        if (official) {
+            officialStages(regional, official);
+        } else if (!cache || !cache.teams) {
+            projectionRounds.textContent = "Official school records are unavailable; no projection can be shown.";
+        } else {
+            projectedStage(projectionRounds, "First round", [[1, 8], [4, 5], [2, 7], [3, 6]].map(function(pair) {
+                return pair.map(function(seed) { return projectedTeam(seed, entries, cache); });
+            }));
+            projectedStage(projectionRounds, "Semifinals", [
+                ["Winner first-round game 1", "Winner first-round game 2"],
+                ["Winner first-round game 3", "Winner first-round game 4"]
+            ]);
+            projectedStage(projectionRounds, "Regional final", [
+                ["Winner semifinal 1", "Winner semifinal 2"]
+            ]);
+        }
+        projectionDialog.showModal();
+    });
+    document.getElementById("close-projection").addEventListener("click", function() {
+        projectionDialog.close();
     });
 
     function current() {
@@ -200,6 +510,7 @@
     };
     document.querySelector("#fit").onclick = fit;
     v.onpointerdown = function(e) {
+        if (e.target.closest("button, summary, a, input, select, textarea")) { return; }
         var c = current();
         drag = {
             a: e.clientX,

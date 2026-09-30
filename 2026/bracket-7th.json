@@ -1,0 +1,135 @@
+﻿{
+    "updatedAt":  "2026-09-30 07:52",
+    "year":  2026,
+    "grade":  "7th",
+    "regionals":  {
+
+                  },
+    "sectionals":  {
+
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           1
+                                       ],
+                                 "4":  [
+                                           3,
+                                           4
+                                       ],
+                                 "1":  [
+                                           6,
+                                           2
+                                       ],
+                                 "3":  [
+                                           5,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        }
+              }
+}

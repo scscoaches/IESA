@@ -59,6 +59,32 @@
     border-color: #43516a;
 }
 
+.dark-theme .postseason-score {
+    color: #adbaff;
+}
+
+.dark-theme .regional-projection-link,
+.dark-theme .regional-official-link {
+    background: #29374c;
+    border-color: #46536b;
+    color: #adbaff;
+}
+
+.dark-theme .projection-match {
+    background: #29374c;
+    border-color: #536078;
+}
+
+.dark-theme .projection-team+.projection-team {
+    border-color: #46536b;
+}
+
+.dark-theme .regional .seed-badge {
+    background: #202b3e;
+    border-color: #536078;
+    color: #f0f3fa;
+}
+
 .dark-theme .regional .entry:hover {
     background: #364563;
 }

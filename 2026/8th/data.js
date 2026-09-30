@@ -66,15 +66,19 @@ window.tournamentData = {
                     "White Hall North Greene", "Wood River Lewis & Clark"
                 ]
             ],
-            h = ["Joliet Laraway", "Waterman Indian Creek", "Normal Epiphany",
-                "Glasford Illini Bluffs", "Mt. Sterling Brown County",
-                "Warrensburg-Latham", "TBD", "TBD"
+            h = ["TBD", "Dwight", "Rockford Montessori",
+                "Manlius Bureau Valley JHS", "TBD", "Gibson City GCMS",
+                "Green Valley Midwest Central", "Knoxville JHS",
+                "Rushville Schuyler Industry",
+                "Mt. Sterling Brown County (Co-op)", "Cerro Gordo (Co-op)",
+                "Nokomis JHS (Co-op)", "Casey-Westfield", "TBD",
+                "Morrisonville JHS (Co-op)", "Hardin Calhoun (Co-op)"
             ];
         return d.map(function(t, i) {
             return {
                 id: i + 1,
                 sectional: Math.floor(i / 2) + 1,
-                host: h[Math.floor(i / 2)],
+                host: h[i],
                 teams: t
             }
         })

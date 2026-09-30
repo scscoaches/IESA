@@ -12,7 +12,7 @@
                 label.textContent = entry.dataset.team;
                 entry.textContent = "";
                 entry.appendChild(label);
-                entry.title = entry.dataset.team;
+                entry.title = entry.dataset.team + (entry.title ? " • " + entry.title : "");
             }
             var data = records[entry.dataset.team];
             if (!data) { return; }
@@ -21,6 +21,7 @@
             badge.textContent = data.record.wins + "-" + data.record.losses;
             entry.appendChild(badge);
         });
+        if (card.classList.contains("seeded")) { return; }
         var hasCompleted = entries.some(function (entry) {
             return records[entry.dataset.team] && records[entry.dataset.team].record.completed;
         });
@@ -36,8 +37,9 @@
                 rightRecord.wins - leftRecord.wins || left.dataset.team.localeCompare(right.dataset.team);
         });
 
+        var projection = card.querySelector(".regional-projection-link");
         entries.forEach(function (entry) {
-            card.appendChild(entry);
+            card.insertBefore(entry, projection);
         });
     }
 

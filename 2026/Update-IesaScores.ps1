@@ -106,3 +106,18 @@ foreach ($grade in "7th", "8th") {
     $json | Set-Content -Encoding UTF8 (Join-Path $SitePath "scores-$grade.json")
     ("window.iesaScoreCache = " + $json + ";") | Set-Content -Encoding UTF8 (Join-Path $SitePath "scores-$grade.js")
 }
+
+$today = (Get-Date).Date
+$seedRefreshError = $null
+if ($today -ge [datetime]::new(2026, 11, 12)) {
+    try {
+        & (Join-Path $PSScriptRoot "Update-IesaSeeds.ps1") -SitePath $SitePath
+    } catch {
+        $seedRefreshError = $_
+        Write-Warning "Regional seed refresh failed: $($_.Exception.Message)"
+    }
+}
+if ($today -ge [datetime]::new(2026, 11, 21)) {
+    & (Join-Path $PSScriptRoot "Update-IesaBracket.ps1") -SitePath $SitePath
+}
+if ($seedRefreshError) { throw $seedRefreshError }
