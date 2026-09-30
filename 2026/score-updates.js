@@ -19,19 +19,19 @@
 
     changes.forEach(function (change) {
         var row = document.createElement("tr");
-        [change.team, change.opponent, change.previous, change.score].forEach(function (value) {
+        var teamCell = document.createElement("td");
+        var teamLink = document.createElement("a");
+        teamLink.href = change.sourceUrl;
+        teamLink.target = "_blank";
+        teamLink.rel = "noopener";
+        teamLink.textContent = change.team;
+        teamCell.appendChild(teamLink);
+        row.appendChild(teamCell);
+        [change.opponent, change.score].forEach(function (value) {
             var cell = document.createElement("td");
             cell.textContent = value;
             row.appendChild(cell);
         });
-        var linkCell = document.createElement("td");
-        var link = document.createElement("a");
-        link.href = change.sourceUrl;
-        link.target = "_blank";
-        link.rel = "noopener";
-        link.textContent = "IESA";
-        linkCell.appendChild(link);
-        row.appendChild(linkCell);
         tableBody.appendChild(row);
     });
 

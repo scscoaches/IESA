@@ -28,7 +28,9 @@ function Get-PlainText([string]$html) {
 }
 
 function Normalize-Matchup([string]$matchup) {
-    ([regex]::Replace($matchup, "\s+(?:vs\.?|def\.)\s+", "|", [System.Text.RegularExpressions.RegexOptions]::IgnoreCase) -replace "\s+", " ").Trim().ToLowerInvariant()
+    $names = [regex]::Split($matchup.Trim(), "\s+(?:vs\.?|def\.)\s+", [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
+    if ($names.Count -ne 2) { return $matchup.Trim().ToLowerInvariant() }
+    (($names | ForEach-Object { ($_ -replace "\s+", " ").Trim().ToLowerInvariant() } | Sort-Object) -join "|")
 }
 
 foreach ($grade in "7th", "8th") {
@@ -76,7 +78,7 @@ foreach ($grade in "7th", "8th") {
                     }
                 }
                 if ($previousScore -ne $game.score) {
-                    $priorResult = if ($null -eq $previousScore) { "Not previously reported" } else { $previousScore }
+                    $priorResult = if ($null -eq $previousScore) { "N/A" } else { $previousScore }
                     $updatedGames += [pscustomobject]@{
                         team = $team
                         opponent = $game.opponent
