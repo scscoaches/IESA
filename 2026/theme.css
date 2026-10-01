@@ -127,12 +127,8 @@
     color: #c3cde1;
 }
 
-.dark-theme #score-history .score-posted {
-    color: #c3cde1;
-}
-
-.dark-theme #score-history tr.recent-score .score-posted {
-    color: #7fe0a4;
+.dark-theme #score-history tr.recent-score td {
+    background: #26432f;
 }
 
 .dark-theme #score-history td,

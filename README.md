@@ -134,8 +134,9 @@ records older than `-RetentionDays` (default 7). The cache therefore reports
 before this change have no timestamp and are stamped with `previousCaptureAt`
 on the next run. A game between two teams in the field produces one change
 record per team; both are kept in the cache and collapsed to a single row for
-display. The team dialog uses the same data to annotate each game with how
-long ago its score was posted, leaving IESA's schedule ordering intact.
+display. The team dialog does not repeat the posted time as a column - it
+keeps IESA's schedule ordering and simply highlights any game whose score
+was posted within the last 24 hours.
 
 `Merge-ChangeWindow` must be called as `@(Merge-ChangeWindow ...)`. PowerShell
 unwraps a single-element array on return, which would make `ConvertTo-Json`

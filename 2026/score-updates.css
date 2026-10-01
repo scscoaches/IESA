@@ -67,14 +67,10 @@
     white-space: nowrap;
 }
 
-#score-history .score-posted {
-    color: #68718a;
-    font-size: 11px;
-    white-space: nowrap;
-}
-
-#score-history tr.recent-score .score-posted {
-    color: #1f6f3d;
+/* The team dialog no longer has a posted-time column, so mark a recently
+   scored game on the row itself. */
+#score-history tr.recent-score td {
+    background: #eef7f1;
     font-weight: 600;
 }
 
