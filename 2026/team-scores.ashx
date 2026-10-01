@@ -25,7 +25,18 @@ public class IESATeamScores : IHttpHandler
         context.Response.ContentType = "application/json";
         context.Response.Cache.SetCacheability(HttpCacheability.NoCache);
         context.Response.Cache.SetNoStore();
+        try {
+            Respond(context);
+        } catch (Exception ex) {
+            context.Trace.Warn("IESA scores", "Unhandled score lookup failure", ex);
+            context.Response.Clear();
+            context.Response.ContentType = "application/json";
+            Error(context, 500, "The score lookup failed unexpectedly. Existing scores were not changed.");
+        }
+    }
 
+    private static void Respond(HttpContext context)
+    {
         string origin = context.Request.Headers["Origin"];
         if (context.Request.HttpMethod != "POST" ||
             origin != context.Request.Url.GetLeftPart(UriPartial.Authority) ||
@@ -43,11 +54,14 @@ public class IESATeamScores : IHttpHandler
 
         ScoreCache siteCache;
         try {
-            siteCache = new JavaScriptSerializer().Deserialize<ScoreCache>(
-                File.ReadAllText(context.Server.MapPath("scores-" + grade + ".json")));
+            siteCache = ReadCache(context.Server.MapPath("scores-" + grade + ".json"));
         } catch (IOException ex) {
             context.Trace.Warn("IESA scores", "Could not read the nightly score cache", ex);
             Error(context, 503, "The site's nightly score cache is unavailable.");
+            return;
+        } catch (ArgumentException ex) {
+            context.Trace.Warn("IESA scores", "Invalid nightly score cache", ex);
+            Error(context, 503, "The site's nightly score cache is invalid.");
             return;
         } catch (InvalidOperationException ex) {
             context.Trace.Warn("IESA scores", "Invalid nightly score cache", ex);
@@ -93,6 +107,22 @@ public class IESATeamScores : IHttpHandler
             }
         }
         context.Response.Write(new JavaScriptSerializer().Serialize(result));
+    }
+
+    private static ScoreCache ReadCache(string path)
+    {
+        // The nightly refresh replaces this file, so a single failed read may simply
+        // have caught the swap. Retry briefly before reporting the cache as unusable.
+        for (int attempt = 0; ; attempt++) {
+            try {
+                return new JavaScriptSerializer().Deserialize<ScoreCache>(File.ReadAllText(path));
+            } catch (IOException) {
+                if (attempt == 2) { throw; }
+            } catch (ArgumentException) {
+                if (attempt == 2) { throw; }
+            }
+            System.Threading.Thread.Sleep(150);
+        }
     }
 
     private static TeamResult Fetch(string team, string grade, string schoolId)

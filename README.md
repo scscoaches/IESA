@@ -110,6 +110,18 @@ begin. The updater waits two seconds between school requests to avoid a
 burst. Do not add additional runs without reconsidering the source load; use
 the single-school Update button for occasional immediate checks.
 
+`Update-IesaScores.ps1` writes `scores-<grade>.json` and `scores-<grade>.js`
+atomically, to a `.tmp` file that is then moved over the target. This matters
+because `team-scores.ashx` reads the same JSON while visitors browse: an
+in-place rewrite of the ~170 KB cache leaves a truncated file readable for the
+duration of the write, and `JavaScriptSerializer` then throws
+`ArgumentException`, which surfaced as an HTML ASP.NET error page and a
+"Live score check failed: Unexpected token '<'" message in the team dialog.
+Keep future writes to these files atomic. The handler also retries the cache
+read, catches `ArgumentException`, and wraps the whole request so that every
+response - including an unexpected failure - is JSON rather than an error
+page; the client reports the HTTP status when a body is not valid JSON.
+
 For a future live season, confirm the *later* grade's final date on the
 official calendar when creating its Windows refresh task. Set every trigger's
 `EndBoundary` to five minutes after the first morning run following the

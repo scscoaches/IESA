@@ -37,6 +37,14 @@ function Normalize-Matchup([string]$matchup) {
     (($names | ForEach-Object { ($_ -replace "\s+", " ").Trim().ToLowerInvariant() } | Sort-Object) -join "|")
 }
 
+# The site handler reads these caches while visitors browse. Writing in place would
+# expose a truncated file for the duration of the write, so swap a finished copy in.
+function Write-AtomicFile([string]$path, [string]$content) {
+    $temporary = "$path.tmp"
+    $content | Set-Content -Encoding UTF8 -LiteralPath $temporary
+    Move-Item -LiteralPath $temporary -Destination $path -Force
+}
+
 foreach ($grade in "7th", "8th") {
     $gradeLevel = $grade.Substring(0, 1)
     $teams = @{}
@@ -109,8 +117,8 @@ foreach ($grade in "7th", "8th") {
         updatedGames = @($updatedGames | Sort-Object team, opponent)
     }
     $json = $cache | ConvertTo-Json -Depth 6
-    $json | Set-Content -Encoding UTF8 (Join-Path $SitePath "scores-$grade.json")
-    ("window.iesaScoreCache = " + $json + ";") | Set-Content -Encoding UTF8 (Join-Path $SitePath "scores-$grade.js")
+    Write-AtomicFile (Join-Path $SitePath "scores-$grade.json") $json
+    Write-AtomicFile (Join-Path $SitePath "scores-$grade.js") ("window.iesaScoreCache = " + $json + ";")
 }
 
 $seedRefreshError = $null

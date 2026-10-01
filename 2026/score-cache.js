@@ -83,7 +83,13 @@
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: new URLSearchParams({ grade: grade, team: requestedTeam })
             });
-            var result = await response.json();
+            var body = await response.text();
+            var result = null;
+            try { result = JSON.parse(body); } catch (parseError) { result = null; }
+            if (!result || typeof result !== "object") {
+                throw new Error("The site's score service returned an unexpected response (HTTP " +
+                    response.status + "). Please try again in a moment.");
+            }
             if (!response.ok) { throw new Error(result.error || "HTTP " + response.status); }
             if (result.team !== requestedTeam || !result.record ||
                 !Array.isArray(result.games) || !result.updatedAt || !result.sourceUrl) {
