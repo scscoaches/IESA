@@ -98,8 +98,11 @@ and writes `placements.json` at the site root. The dot is **grade aware**: it
 describes the page the menu would open, so the eighth-grade menu marks the years
 that team placed in eighth grade. A season where both grades placed is marked in
 both. Marking is best effort; if `placements.json` is missing or unreadable the
-menu still lists every year, just without dots. Re-run the script after a season
-finishes, or after adding an archived year, to pick up new placements.
+menu still lists every year, just without dots. The bracket's own game numbers
+determine its shape, so a season in progress is covered even though its
+`data.js` is executable JavaScript rather than JSON. Once the state bracket is
+published the refresh runs this automatically, so a finish in the current season
+appears without manual action; run it by hand after adding an archived year.
 
 ## End the scheduled refresh
 

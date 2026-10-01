@@ -14,7 +14,10 @@
     place game's winner and loser are third and fourth. Seasons use one of two
     layouts - an eight team bracket numbers the third place game 7 and the title
     game 8, and a sixteen team bracket numbers them 15 and 16 - matching the
-    numbering app.js uses to draw them.
+    numbering app.js uses to draw them. The shape is read from the bracket's own
+    game numbers so that a live season, whose data.js is executable JavaScript
+    rather than JSON, is still covered. Seasons before 1998 have no bracket file
+    and keep their results inline on the page instead.
 
     Re-run this after a season finishes.
 #>
@@ -53,34 +56,38 @@ foreach ($yearDir in Get-ChildItem -Directory $SiteRoot |
         $folder = Join-Path $yearDir.FullName $grade
         if (!(Test-Path $folder)) { continue }
 
-        $dataJson = Join-Path $folder "data.json"
-        $dataScript = Join-Path $folder "data.js"
-        $data = if (Test-Path $dataJson) { Read-JsonFile $dataJson }
-                elseif (Test-Path $dataScript) { Read-DataScript $dataScript }
-                else { $null }
-        if (!$data) { continue }
-
         $places = @{}
+        $bracketPath = Join-Path $yearDir.FullName "bracket-$grade.json"
 
-        if ($data.PSObject.Properties.Name -contains "rounds" -and $data.rounds) {
-            # 1979-1997: the whole state bracket is inline on the page.
-            $title = @($data.rounds."State Championship")[0]
-            $third = @($data.rounds."Third Place")[0]
-            if ($title) { $places[1] = $title.winner; $places[2] = Get-Opponent $title }
-            if ($third) { $places[3] = $third.winner; $places[4] = Get-Opponent $third }
-        } else {
-            # 1998 onward: results live in a sibling bracket file.
-            $bracketPath = Join-Path $yearDir.FullName "bracket-$grade.json"
-            if (!(Test-Path $bracketPath)) { continue }
+        if (Test-Path $bracketPath) {
+            # 1998 onward: results live in a sibling bracket file. The bracket's
+            # own game numbers reveal its shape, so the page data is not needed -
+            # which matters because a live season's data.js is executable
+            # JavaScript rather than JSON.
             $games = (Read-JsonFile $bracketPath).games
             if (!$games) { continue }
-            $hasFirstRound = $data.PSObject.Properties.Name -contains "firstRound" -and $data.firstRound
+            $numbers = $games.PSObject.Properties.Name
+            $hasFirstRound = $numbers -contains "16"
             $titleNumber = if ($hasFirstRound) { "16" } else { "8" }
             $thirdNumber = if ($hasFirstRound) { "15" } else { "7" }
             $title = $games.$titleNumber
             $third = $games.$thirdNumber
             if ($title) { $places[1] = $title.winner; $places[2] = $title.loser }
             if ($third) { $places[3] = $third.winner; $places[4] = $third.loser }
+        } else {
+            # 1979-1997: the whole state bracket is inline on the page.
+            $dataJson = Join-Path $folder "data.json"
+            $dataScript = Join-Path $folder "data.js"
+            $data = if (Test-Path $dataJson) { Read-JsonFile $dataJson }
+                    elseif (Test-Path $dataScript) { Read-DataScript $dataScript }
+                    else { $null }
+            if (!$data -or !($data.PSObject.Properties.Name -contains "rounds") -or !$data.rounds) {
+                continue
+            }
+            $title = @($data.rounds."State Championship")[0]
+            $third = @($data.rounds."Third Place")[0]
+            if ($title) { $places[1] = $title.winner; $places[2] = Get-Opponent $title }
+            if ($third) { $places[3] = $third.winner; $places[4] = Get-Opponent $third }
         }
 
         foreach ($place in 1..4) {

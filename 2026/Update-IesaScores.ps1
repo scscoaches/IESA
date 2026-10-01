@@ -189,5 +189,17 @@ if ($today -ge [datetime]::new(2026, 11, 12)) {
 }
 if ($today -ge [datetime]::new(2026, 11, 21)) {
     & (Join-Path $PSScriptRoot "Update-IesaBracket.ps1") -SitePath $SitePath
+
+    # State results decide top-four placement, so refresh the year menu's dots
+    # from the bracket that was just rewritten. This is presentation only, and
+    # must never fail a score refresh.
+    try {
+        $placementsScript = Join-Path (Split-Path -Parent $PSScriptRoot) "Build-IesaPlacements.ps1"
+        if (Test-Path $placementsScript) {
+            & $placementsScript -SiteRoot (Split-Path -Parent $PSScriptRoot) | Out-Null
+        }
+    } catch {
+        Write-Warning "Placement refresh failed: $($_.Exception.Message)"
+    }
 }
 if ($seedRefreshError) { throw $seedRefreshError }
