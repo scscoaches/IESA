@@ -346,15 +346,25 @@ try {
 
         $pairings = @(1..$openingGames | ForEach-Object {
             $pair = @($bracket.quarterfinalMatchups."$_")
-            $unmappedStateEntrant = $Year -eq 2008 -and $grade -eq '8th' -and $_ -eq 2 -and
-                $pair.Count -eq 2 -and $null -eq $pair[0] -and $pair[1] -eq 1 -and
-                $bracket.games.'2'.teams[0] -eq 'Decatur St. Patrick'
-            if ($pair.Count -ne 2 -or (!$unmappedStateEntrant -and
-                @($pair | Where-Object { $null -eq $_ }).Count)) {
-                throw "$grade $Year missing Game $_ pairing"
-            }
+            if ($pair.Count -ne 2) { throw "$grade $Year missing Game $_ pairing" }
             [pscustomobject]@{ game = $_; matchup = $pair; date = $firstDate; time = '' }
         })
+        # IESA sometimes omits a sectional final even though the state scoreboard names the
+        # team that advanced, which leaves one slot unmapped. When a single slot and a single
+        # sectional are left over the pairing is forced, so resolve it here: a null reaching
+        # the page data would collapse the bracket layout rather than merely drop one line.
+        $slotCount = 2 * $openingGames
+        $blank = @($pairings | Where-Object { @($_.matchup | Where-Object { $null -eq $_ }).Count })
+        $assigned = @($pairings | ForEach-Object { $_.matchup } | Where-Object { $null -ne $_ })
+        $unused = @(1..$slotCount | Where-Object { $assigned -notcontains $_ })
+        if ($blank.Count -eq 1 -and $unused.Count -eq 1 -and
+            @($blank[0].matchup | Where-Object { $null -eq $_ }).Count -eq 1) {
+            $blank[0].matchup = @($blank[0].matchup | ForEach-Object {
+                if ($null -eq $_) { $unused[0] } else { $_ }
+            })
+        } elseif ($blank.Count) {
+            throw "$grade $Year missing Game $($blank[0].game) pairing"
+        }
         if ($legacy) {
             $sectionalIds = @($pairings | ForEach-Object { $_.matchup })
             if ($sectionalIds.Count -ne 16 -or @($sectionalIds | Select-Object -Unique).Count -ne 16 -or

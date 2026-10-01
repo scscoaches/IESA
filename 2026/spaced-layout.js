@@ -15,12 +15,18 @@
     var groupHeight = 300;
     var order = [].concat.apply([], (data.firstRound || data.quarterfinals).map(function (game) {
         return game.matchup;
-    })).filter(function (id) {
-        return Number.isInteger(id) && id >= 1 && id <= data.sectionals.length;
+    })).map(function (id) {
+        return Number.isInteger(id) && id >= 1 && id <= data.sectionals.length ? id : null;
     });
-    data.sectionals.forEach(function (sectional) {
-        if (order.indexOf(sectional.id) === -1) order.push(sectional.id);
-    });
+    // An unmapped slot keeps its place so the bracket halves stay aligned. Collapsing it
+    // would slide every later sectional up one row and strand a card on the wrong side.
+    var unplaced = data.sectionals.filter(function (sectional) {
+        return order.indexOf(sectional.id) === -1;
+    }).map(function (sectional) { return sectional.id; });
+    order = order.map(function (id) {
+        return id === null ? unplaced.shift() : id;
+    }).filter(function (id) { return id !== undefined; });
+    unplaced.forEach(function (id) { order.push(id); });
     var flipHalves = data.grade === "7th" && (data.year || 2026) === 2026;
     var searchedCard;
 

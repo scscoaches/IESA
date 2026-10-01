@@ -73,10 +73,14 @@ verified finalists for each regional and uses hosts from the 7A sectional
 qualifier page. In 2003, some regional-final rows are absent; a school named
 on the published sectional pairing is shown as qualified without inventing a
 regional-final score.
-In 2008 eighth grade, Regional 10's first seed and final are unpublished.
-The scoreboard independently reports Decatur St. Patrick 26, Gardner 23
-in state Game 2, but does not identify Decatur St. Patrick's sectional;
-its state result is shown without an invented sectional connector.
+In 2008 eighth grade, Regional 10's first seed and Sectional 5's final are
+unpublished. The scoreboard independently reports Decatur St. Patrick 26,
+Gardner 23 in state Game 2 without naming Decatur St. Patrick's sectional.
+Sectional 5 is the only one left unclaimed by the published pairings, so the
+slot is filled by elimination rather than left empty: an unmapped slot would
+otherwise collapse the bracket ordering, sliding every later sectional up one
+row and stranding a card on the wrong half. The card names the team from the
+scoreboard and says so, since IESA never published that sectional final.
 
 The resulting pages only require ordinary static-file hosting under IIS. They
 share the 2026 renderer, styles and navigation scripts, so keep that folder

@@ -7,10 +7,18 @@
         drag, openingRound = d.firstRound || d.quarterfinals,
         sectionalOrder = [].concat.apply([], openingRound.map(function(q) {
             return q.matchup
-        })).filter(function(id) { return Number.isInteger(id) && id >= 1 && id <= d.sectionals.length; });
-    d.sectionals.forEach(function(sectional) {
-        if (sectionalOrder.indexOf(sectional.id) === -1) sectionalOrder.push(sectional.id);
-    });
+        })).map(function(id) {
+            return Number.isInteger(id) && id >= 1 && id <= d.sectionals.length ? id : null;
+        });
+    // An unmapped slot keeps its place so the bracket halves stay aligned. Collapsing it
+    // would slide every later sectional up one row and strand a card on the wrong side.
+    var unplacedSectionals = d.sectionals.filter(function(sectional) {
+        return sectionalOrder.indexOf(sectional.id) === -1;
+    }).map(function(sectional) { return sectional.id; });
+    sectionalOrder = sectionalOrder.map(function(id) {
+        return id === null ? unplacedSectionals.shift() : id;
+    }).filter(function(id) { return id !== undefined; });
+    unplacedSectionals.forEach(function(id) { sectionalOrder.push(id); });
     var year = d.year || 2026;
     var results = window.iesaBracketCache;
     if (!results || results.year !== year || results.grade !== d.grade) {
@@ -128,12 +136,17 @@
     }
     function gameResult(id, entrants) {
         var game = result("games", id);
-        if (game && year === 2008 && d.grade === "8th" && id === 2 &&
-            entrants[0] === null && entrants[1] &&
-            Array.isArray(game.teams) && game.teams.length === 2 &&
-            matchTeam(game.teams[1], [entrants[1]]) === entrants[1] &&
-            game.teams[0] === "Decatur St. Patrick") {
-            entrants = [game.teams[0], entrants[1]];
+        // IESA sometimes never publishes a sectional final even though the state scoreboard
+        // names the team that advanced. When one entrant is unresolved and the other matches
+        // the published pairing, the remaining published name is unambiguous.
+        if (game && Array.isArray(game.teams) && game.teams.length === 2) {
+            [0, 1].forEach(function(side) {
+                var other = entrants[1 - side];
+                if (!entrants[side] && other &&
+                    matchTeam(game.teams[1 - side], [other]) === other) {
+                    entrants[side] = game.teams[side];
+                }
+            });
         }
         if (!game || !entrants[0] || !entrants[1] ||
             !Array.isArray(game.teams) || game.teams.length !== 2 ||
@@ -358,21 +371,37 @@
         });
     });
     d.quarterfinals.forEach(function(q, i) {
+        // Names taken from the state scoreboard because IESA never published the sectional
+        // final that produced them. Collected here so the note describes exactly what was
+        // substituted rather than every sectional that is merely unplayed.
+        var scoreboardEntrants = [];
+        var names = q.matchup.map(function(r, side) {
+            if (d.firstRound) return firstRoundResults[r] ?
+                firstRoundResults[r].winner : "Winner Game " + r;
+            var known = r && sectionalWinner(r);
+            if (known) return known;
+            var published = result("games", q.game);
+            var other = q.matchup[1 - side];
+            var otherName = other && sectionalWinner(other);
+            // Trust the scoreboard order only when the opposite side confirms it.
+            if (published && Array.isArray(published.teams) && published.teams.length === 2 &&
+                published.teams[side] && otherName &&
+                matchTeam(published.teams[1 - side], [otherName]) === otherName) {
+                if (r) scoreboardEntrants.push(r);
+                return published.teams[side];
+            }
+            return r ? "Winner Sectional " + r : "State entrant unreported";
+        });
         card({
             id: "q" + q.game,
             x: 1180,
             y: 300 + i * 405,
             title: "State Quarterfinal • Game " + q.game,
-            entries: entrants(q.matchup.map(function(r, side) {
-                if (d.firstRound) return firstRoundResults[r] ?
-                    firstRoundResults[r].winner : "Winner Game " + r;
-                if (r) return sectionalWinner(r) || "Winner Sectional " + r;
-                var published = result("games", q.game);
-                return published && published.teams[side] || "State entrant unreported";
-            }), quarterfinalResults[q.game]),
+            entries: entrants(names, quarterfinalResults[q.game]),
             time: details(q.date, q.time),
-            note: year === 2008 && d.grade === "8th" && q.game === 2 ?
-                "IESA state entrant Decatur St. Patrick; sectional origin and final not published." : null,
+            note: scoreboardEntrants.length ?
+                "IESA did not publish the Sectional " + scoreboardEntrants.join(" or ") +
+                    " final; this entrant comes from the state scoreboard." : null,
             path: true
         })
     });
