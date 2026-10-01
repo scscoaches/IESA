@@ -1105,6 +1105,10 @@
                              "10":  {
                                         "seeds":  [
                                                       {
+                                                          "seed":  1,
+                                                          "team":  "Decatur St. Patrick"
+                                                      },
+                                                      {
                                                           "seed":  2,
                                                           "team":  "Decatur Holy Family"
                                                       },
@@ -1129,8 +1133,7 @@
 
                                                    ],
                                         "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2008\u0026Class=8-1A\u0026Regional=10",
-                                        "host":  "Atwood-Hammond",
-                                        "missingSeed":  1
+                                        "host":  "Atwood-Hammond"
                                     },
                              "11":  {
                                         "seeds":  [

@@ -130,6 +130,7 @@
                           "sectional":  5,
                           "host":  "Atwood-Hammond",
                           "teams":  [
+                                        "Decatur St. Patrick",
                                         "Decatur Holy Family",
                                         "Decatur Robertson",
                                         "Decatur Lutheran",
@@ -143,8 +144,7 @@
                                                 "Decatur Lutheran",
                                                 "Decatur Our Lady of Lourdes",
                                                 "Decatur Robertson"
-                                            ],
-                          "note":  "Published bracket leaves the first seed and regional final unresolved."
+                                            ]
                       },
                       {
                           "id":  11,

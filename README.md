@@ -74,14 +74,20 @@ qualifier page. In 2003, some regional-final rows are absent; a school named
 on the published sectional pairing is shown as qualified without inventing a
 regional-final score.
 In 2008 eighth grade, Regional 10's first seed and Sectional 5's final are
-unpublished. The scoreboard independently reports Decatur St. Patrick 26,
-Gardner 23 in state Game 2 without naming Decatur St. Patrick's sectional.
-Sectional 5 is the only one left unclaimed by the published pairings, so the
-slot is filled by elimination rather than left empty: an unmapped slot would
-otherwise collapse the bracket ordering, sliding every later sectional up one
-row and stranding a card on the wrong half. The card takes the team name from
-the scoreboard, which is only trusted when the opposite side confirms the
-published pairing matches the bracket.
+unpublished, and the name of Regional 10's winner is blank even though its
+score is printed. The state scoreboard independently reports Decatur St.
+Patrick 26, Gardner 23 in state Game 2 without naming its sectional. Sectional
+5 is the only one left unclaimed by the published pairings, so the slot is
+filled by elimination rather than left empty: an unmapped slot would otherwise
+collapse the bracket ordering, sliding every later sectional up one row and
+stranding a card on the wrong half. Sectional 5 pairs Regionals 9 and 10, and
+Regional 9's winner is published, so the blank first seed of Regional 10 is
+Decatur St. Patrick. The archive records that seed, Regional 10's final as
+Decatur St. Patrick over Atwood-Hammond 28-20, and Sectional 5 as Decatur St.
+Patrick over Champaign Judah Christian with no score, since IESA never printed
+one. The regional assignment page lists Bement in Regional 10 and never lists
+Decatur St. Patrick; that roster is kept as published and only the bracket's
+own team list is corrected.
 
 The resulting pages only require ordinary static-file hosting under IIS. They
 share the 2026 renderer, styles and navigation scripts, so keep that folder

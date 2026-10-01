@@ -57,6 +57,12 @@
                                 "score":  "28-24",
                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=8-1A"
                             },
+                      "10":  {
+                                 "winner":  "Decatur St. Patrick",
+                                 "loser":  "Atwood-Hammond",
+                                 "score":  "28-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=8-1A"
+                             },
                       "14":  {
                                  "winner":  "East St. Louis Jackson",
                                  "loser":  "Mt. Olive",
@@ -166,6 +172,12 @@
                                  "winner":  "Springfield Christian",
                                  "loser":  "East St. Louis Jackson",
                                  "score":  "46-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Decatur St. Patrick",
+                                 "loser":  "Champaign Judah Christian",
+                                 "score":  null,
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=8-1A"
                              },
                        "3":  {

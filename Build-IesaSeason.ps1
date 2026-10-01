@@ -219,6 +219,20 @@ try {
             $dataPath = Join-Path (Join-Path $staging $grade) 'data.json'
             $data = Get-Content -Raw -LiteralPath $dataPath | ConvertFrom-Json
             $seedData = Get-Content -Raw -LiteralPath (Join-Path $staging "regional-seeds-$grade.json") | ConvertFrom-Json
+            # IESA leaves Regional 10's first seed blank everywhere it appears, yet still
+            # publishes that regional's final score and sends the school to the state
+            # scoreboard. Decatur St. Patrick is the only team the blank can name: it wins
+            # Sectional 5 and plays state Game 2, but is absent from every 8-1A roster.
+            if ($Year -eq 2008 -and $ClassName -eq '1A' -and $grade -eq '8th') {
+                $blank = $seedData.regionalBrackets.'10'
+                if ($blank.missingSeed -ne 1 -or @($blank.seeds).Count -ne 5 -or
+                    @($blank.seeds | Where-Object { $_.seed -eq 1 }).Count) {
+                    throw '2008 8th Regional 10 no longer has an unnamed first seed'
+                }
+                $blank.seeds = @(
+                    [pscustomobject]@{ seed = 1; team = 'Decatur St. Patrick' }) + @($blank.seeds)
+                $blank.PSObject.Properties.Remove('missingSeed')
+            }
             foreach ($regional in $data.regionals) {
                 $publishedBracket = $seedData.regionalBrackets.("$($regional.id)")
                 $published = @($publishedBracket.seeds)
@@ -240,10 +254,36 @@ try {
                 }
             }
             $data | ConvertTo-Json -Depth 10 | Set-Content -Encoding UTF8 -LiteralPath $dataPath
+            $seedJson = $seedData | ConvertTo-Json -Depth 10
+            $seedJson | Set-Content -Encoding UTF8 -LiteralPath (Join-Path $staging "regional-seeds-$grade.json")
+            ("window.iesaRegionalSeedCache = " + $seedJson + ";") |
+                Set-Content -Encoding UTF8 -LiteralPath (Join-Path $staging "regional-seeds-$grade.js")
         }
     }
     & (Join-Path $PSScriptRoot '2026\Update-IesaBracket.ps1') -Year $Year -ClassName $ClassName `
         -SitePath $staging -OutputPath $staging
+
+    # The blank first seed also blanks the winner of Regional 10's published final and of
+    # Sectional 5, so the scraper skips both rows entirely. Restore them under the one name
+    # the blank can hold. IESA prints the regional score but never the sectional one.
+    if ($Year -eq 2008 -and $ClassName -eq '1A') {
+        $bracketPath = Join-Path $staging 'bracket-8th.json'
+        $capture = Get-Content -Raw -LiteralPath $bracketPath | ConvertFrom-Json
+        if ($capture.regionals.PSObject.Properties['10'] -or
+            $capture.sectionals.PSObject.Properties['5']) {
+            throw '2008 8th Regional 10 and Sectional 5 are no longer unnamed'
+        }
+        $capture.regionals | Add-Member -NotePropertyName '10' -NotePropertyValue ([pscustomobject]@{
+            winner = 'Decatur St. Patrick'; loser = 'Atwood-Hammond'; score = '28-20'
+            sourceUrl = "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=$Year&Class=8-1A" })
+        $capture.sectionals | Add-Member -NotePropertyName '5' -NotePropertyValue ([pscustomobject]@{
+            winner = 'Decatur St. Patrick'; loser = 'Champaign Judah Christian'; score = $null
+            sourceUrl = "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=$Year&Class=8-1A" })
+        $captureJson = $capture | ConvertTo-Json -Depth 8
+        $captureJson | Set-Content -Encoding UTF8 -LiteralPath $bracketPath
+        ("window.iesaBracketCache = " + $captureJson + ";") |
+            Set-Content -Encoding UTF8 -LiteralPath (Join-Path $staging 'bracket-8th.js')
+    }
 
     $template = Get-Content -Raw -LiteralPath (Join-Path $PSScriptRoot 'archive-grade-template.html')
     $seasonPage = (Get-Content -Raw -LiteralPath (Join-Path $PSScriptRoot 'archive-season-template.html')).
