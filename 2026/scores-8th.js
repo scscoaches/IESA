@@ -1,7 +1,7 @@
 ﻿window.iesaScoreCache = {
-    "updatedAt":  "2026-10-01 07:18",
-    "previousCaptureAt":  "2026-10-01 06:09",
-    "retainedSince":  "2026-09-24 07:22",
+    "updatedAt":  "2026-10-01 12:04",
+    "previousCaptureAt":  "2026-10-01 07:18",
+    "retainedSince":  "2026-09-24 12:09",
     "retainedDays":  7,
     "teams":  {
                   "Kinmundy South Central (Co-op)":  {
@@ -322,6 +322,14 @@
                                                       {
                                                           "opponent":  "Avon Abingdon Avon vs. Knoxville JHS",
                                                           "score":  "PENDING"
+                                                      },
+                                                      {
+                                                          "opponent":  "Aledo Mercer County vs. Knoxville JHS",
+                                                          "score":  "PENDING"
+                                                      },
+                                                      {
+                                                          "opponent":  "Aledo Mercer County vs. Knoxville JHS",
+                                                          "score":  "PENDING"
                                                       }
                                                   ],
                                         "record":  {
@@ -638,8 +646,8 @@
                                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=1796\u0026ActivityCode=GBK\u0026GradeLevel=8",
                                             "games":  [
                                                           {
-                                                              "opponent":  "Decatur Robertson vs. Urbana MS",
-                                                              "score":  "PENDING"
+                                                              "opponent":  "Urbana MS def. Decatur Robertson",
+                                                              "score":  "41-35"
                                                           },
                                                           {
                                                               "opponent":  "Decatur Robertson vs. Springfield Jefferson",
@@ -688,8 +696,8 @@
                                                       ],
                                             "record":  {
                                                            "wins":  0,
-                                                           "losses":  0,
-                                                           "completed":  0
+                                                           "losses":  1,
+                                                           "completed":  1
                                                        }
                                         },
                   "Morrisonville JHS (Co-op)":  {
@@ -1522,12 +1530,12 @@
                                                           "score":  "PENDING"
                                                       },
                                                       {
-                                                          "opponent":  "Nauvoo-Colusa vs. Colchester West Prairie",
-                                                          "score":  "PENDING"
+                                                          "opponent":  "Colchester West Prairie def. Nauvoo-Colusa",
+                                                          "score":  "25-16"
                                                       },
                                                       {
-                                                          "opponent":  "Nauvoo-Colusa vs. Mendon Unity",
-                                                          "score":  "PENDING"
+                                                          "opponent":  "Mendon Unity def. Nauvoo-Colusa",
+                                                          "score":  "19-17"
                                                       },
                                                       {
                                                           "opponent":  "Nauvoo-Colusa vs. La Harpe",
@@ -1584,8 +1592,8 @@
                                                   ],
                                         "record":  {
                                                        "wins":  0,
-                                                       "losses":  0,
-                                                       "completed":  0
+                                                       "losses":  2,
+                                                       "completed":  2
                                                    }
                                     },
                   "Peoria St. Vincent de Paul (Co-op)":  {
@@ -1798,8 +1806,8 @@
                                                          "score":  "PENDING"
                                                      },
                                                      {
-                                                         "opponent":  "Nauvoo-Colusa vs. Mendon Unity",
-                                                         "score":  "PENDING"
+                                                         "opponent":  "Mendon Unity def. Nauvoo-Colusa",
+                                                         "score":  "19-17"
                                                      },
                                                      {
                                                          "opponent":  "Nauvoo-Colusa vs. Mendon Unity",
@@ -1807,9 +1815,9 @@
                                                      }
                                                  ],
                                        "record":  {
-                                                      "wins":  0,
+                                                      "wins":  1,
                                                       "losses":  0,
-                                                      "completed":  0
+                                                      "completed":  1
                                                   }
                                    },
                   "Evanston King":  {
@@ -2007,6 +2015,10 @@
                                                {
                                                    "opponent":  "Morris Saratoga vs. Seneca",
                                                    "score":  "PENDING"
+                                               },
+                                               {
+                                                   "opponent":  "Coal City vs. Seneca",
+                                                   "score":  "PENDING"
                                                }
                                            ],
                                  "record":  {
@@ -2157,12 +2169,16 @@
                                                            {
                                                                "opponent":  "Greenfield def. Jacksonville Our Saviour",
                                                                "score":  "56-8"
+                                                           },
+                                                           {
+                                                               "opponent":  "Greenfield def. Carlinville",
+                                                               "score":  "22-17"
                                                            }
                                                        ],
                                              "record":  {
-                                                            "wins":  2,
+                                                            "wins":  3,
                                                             "losses":  0,
-                                                            "completed":  2
+                                                            "completed":  3
                                                         }
                                          },
                   "Bloomington Cornerstone":  {
@@ -3171,8 +3187,8 @@
                                                      "score":  "22-17"
                                                  },
                                                  {
-                                                     "opponent":  "Carthage vs. Virginia",
-                                                     "score":  "PENDING"
+                                                     "opponent":  "Virginia def. Carthage",
+                                                     "score":  "38-25"
                                                  },
                                                  {
                                                      "opponent":  "Nauvoo-Colusa vs. Carthage",
@@ -3181,8 +3197,8 @@
                                              ],
                                    "record":  {
                                                   "wins":  1,
-                                                  "losses":  0,
-                                                  "completed":  1
+                                                  "losses":  1,
+                                                  "completed":  2
                                               }
                                },
                   "Sparland Midland":  {
@@ -3333,8 +3349,8 @@
                                                                               "score":  "PENDING"
                                                                           },
                                                                           {
-                                                                              "opponent":  "Rushville Schuyler Industry vs. Mt. Sterling Brown County",
-                                                                              "score":  "PENDING"
+                                                                              "opponent":  "Mt. Sterling Brown County def. Rushville Schuyler Industry",
+                                                                              "score":  "42-23"
                                                                           },
                                                                           {
                                                                               "opponent":  "Carthage vs. Mt. Sterling Brown County",
@@ -3406,9 +3422,9 @@
                                                                           }
                                                                       ],
                                                             "record":  {
-                                                                           "wins":  0,
+                                                                           "wins":  1,
                                                                            "losses":  0,
-                                                                           "completed":  0
+                                                                           "completed":  1
                                                                        }
                                                         },
                   "Cerro Gordo (Co-op)":  {
@@ -4241,8 +4257,8 @@
                                                   "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=126\u0026ActivityCode=GBK\u0026GradeLevel=8",
                                                   "games":  [
                                                                 {
-                                                                    "opponent":  "Beardstown MS vs. Colchester West Prairie",
-                                                                    "score":  "PENDING"
+                                                                    "opponent":  "Colchester West Prairie def. Beardstown MS",
+                                                                    "score":  "33-8"
                                                                 },
                                                                 {
                                                                     "opponent":  "Bushnell-Prairie City vs. Colchester West Prairie",
@@ -4273,8 +4289,8 @@
                                                                     "score":  "PENDING"
                                                                 },
                                                                 {
-                                                                    "opponent":  "Nauvoo-Colusa vs. Colchester West Prairie",
-                                                                    "score":  "PENDING"
+                                                                    "opponent":  "Colchester West Prairie def. Nauvoo-Colusa",
+                                                                    "score":  "25-16"
                                                                 },
                                                                 {
                                                                     "opponent":  "Nauvoo-Colusa vs. Colchester West Prairie",
@@ -4286,9 +4302,9 @@
                                                                 }
                                                             ],
                                                   "record":  {
-                                                                 "wins":  0,
+                                                                 "wins":  2,
                                                                  "losses":  0,
-                                                                 "completed":  0
+                                                                 "completed":  2
                                                              }
                                               },
                   "Elmwood":  {
@@ -4406,12 +4422,12 @@
                                                                         "score":  "PENDING"
                                                                     },
                                                                     {
-                                                                        "opponent":  "Rushville Schuyler Industry vs. Mt. Sterling Brown County",
-                                                                        "score":  "PENDING"
+                                                                        "opponent":  "Mt. Sterling Brown County def. Rushville Schuyler Industry",
+                                                                        "score":  "42-23"
                                                                     },
                                                                     {
-                                                                        "opponent":  "Rushville Schuyler Industry vs. Pittsfield Pikeland",
-                                                                        "score":  "PENDING"
+                                                                        "opponent":  "Pittsfield Pikeland def. Rushville Schuyler Industry",
+                                                                        "score":  "34-31"
                                                                     },
                                                                     {
                                                                         "opponent":  "Rushville Schuyler Industry vs. Bluffs",
@@ -4476,8 +4492,8 @@
                                                                 ],
                                                       "record":  {
                                                                      "wins":  0,
-                                                                     "losses":  0,
-                                                                     "completed":  0
+                                                                     "losses":  2,
+                                                                     "completed":  2
                                                                  }
                                                   },
                   "Peoria Heights GS":  {
@@ -4662,6 +4678,10 @@
                                                {
                                                    "opponent":  "Kankakee Bishop McNamara def. Dwight",
                                                    "score":  "21-18"
+                                               },
+                                               {
+                                                   "opponent":  "Wilmington vs. Dwight",
+                                                   "score":  "PENDING"
                                                }
                                            ],
                                  "record":  {
@@ -4768,14 +4788,14 @@
                                                            "score":  "PENDING"
                                                        },
                                                        {
-                                                           "opponent":  "Jacksonville Our Saviour vs. Bluffs",
-                                                           "score":  "PENDING"
+                                                           "opponent":  "Bluffs def. Jacksonville Our Saviour",
+                                                           "score":  "45-11"
                                                        }
                                                    ],
                                          "record":  {
-                                                        "wins":  0,
+                                                        "wins":  1,
                                                         "losses":  0,
-                                                        "completed":  0
+                                                        "completed":  1
                                                     }
                                      },
                   "Arcola":  {
@@ -5180,8 +5200,8 @@
                                                                   "score":  "22-18"
                                                               },
                                                               {
-                                                                  "opponent":  "Champaign St. Matthew vs. Mahomet-Seymour",
-                                                                  "score":  "PENDING"
+                                                                  "opponent":  "Mahomet-Seymour def. Champaign St. Matthew",
+                                                                  "score":  "37-11"
                                                               },
                                                               {
                                                                   "opponent":  "Champaign St. Matthew vs. Villa Grove",
@@ -5242,8 +5262,8 @@
                                                           ],
                                                 "record":  {
                                                                "wins":  1,
-                                                               "losses":  1,
-                                                               "completed":  2
+                                                               "losses":  2,
+                                                               "completed":  3
                                                            }
                                             },
                   "East Alton MS":  {
@@ -5420,6 +5440,10 @@
                                                                  {
                                                                      "opponent":  "Avon Abingdon Avon vs. Stronghurst West Central",
                                                                      "score":  "PENDING"
+                                                                 },
+                                                                 {
+                                                                     "opponent":  "Aledo Mercer County vs. Stronghurst West Central",
+                                                                     "score":  "PENDING"
                                                                  }
                                                              ],
                                                    "record":  {
@@ -5573,6 +5597,10 @@
                                                               },
                                                               {
                                                                   "opponent":  "Toulon Stark County vs. Williamsfield",
+                                                                  "score":  "PENDING"
+                                                              },
+                                                              {
+                                                                  "opponent":  "Aledo Mercer County vs. Williamsfield",
                                                                   "score":  "PENDING"
                                                               }
                                                           ],
@@ -5994,6 +6022,123 @@
                                        }
               },
     "updatedGames":  [
+                         {
+                             "team":  "Bluffs (Co-op)",
+                             "opponent":  "Bluffs def. Jacksonville Our Saviour",
+                             "previous":  "PENDING",
+                             "score":  "45-11",
+                             "firstSeenAt":  "2026-10-01 12:04",
+                             "latestAt":  "2026-10-01 12:04",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=49\u0026ActivityCode=GBK\u0026GradeLevel=8"
+                         },
+                         {
+                             "team":  "Carthage",
+                             "opponent":  "Virginia def. Carthage",
+                             "previous":  "PENDING",
+                             "score":  "38-25",
+                             "firstSeenAt":  "2026-10-01 12:04",
+                             "latestAt":  "2026-10-01 12:04",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=93\u0026ActivityCode=GBK\u0026GradeLevel=8"
+                         },
+                         {
+                             "team":  "Champaign St. Matthew",
+                             "opponent":  "Mahomet-Seymour def. Champaign St. Matthew",
+                             "previous":  "PENDING",
+                             "score":  "37-11",
+                             "firstSeenAt":  "2026-10-01 12:04",
+                             "latestAt":  "2026-10-01 12:04",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=104\u0026ActivityCode=GBK\u0026GradeLevel=8"
+                         },
+                         {
+                             "team":  "Colchester West Prairie",
+                             "opponent":  "Colchester West Prairie def. Beardstown MS",
+                             "previous":  "PENDING",
+                             "score":  "33-8",
+                             "firstSeenAt":  "2026-10-01 12:04",
+                             "latestAt":  "2026-10-01 12:04",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=126\u0026ActivityCode=GBK\u0026GradeLevel=8"
+                         },
+                         {
+                             "team":  "Colchester West Prairie",
+                             "opponent":  "Colchester West Prairie def. Nauvoo-Colusa",
+                             "previous":  "PENDING",
+                             "score":  "25-16",
+                             "firstSeenAt":  "2026-10-01 12:04",
+                             "latestAt":  "2026-10-01 12:04",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=126\u0026ActivityCode=GBK\u0026GradeLevel=8"
+                         },
+                         {
+                             "team":  "Decatur Robertson",
+                             "opponent":  "Urbana MS def. Decatur Robertson",
+                             "previous":  "PENDING",
+                             "score":  "41-35",
+                             "firstSeenAt":  "2026-10-01 12:04",
+                             "latestAt":  "2026-10-01 12:04",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=1796\u0026ActivityCode=GBK\u0026GradeLevel=8"
+                         },
+                         {
+                             "team":  "Greenfield (Co-op)",
+                             "opponent":  "Greenfield def. Carlinville",
+                             "previous":  "N/A",
+                             "score":  "22-17",
+                             "firstSeenAt":  "2026-10-01 12:04",
+                             "latestAt":  "2026-10-01 12:04",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=223\u0026ActivityCode=GBK\u0026GradeLevel=8"
+                         },
+                         {
+                             "team":  "Mendon Unity",
+                             "opponent":  "Mendon Unity def. Nauvoo-Colusa",
+                             "previous":  "PENDING",
+                             "score":  "19-17",
+                             "firstSeenAt":  "2026-10-01 12:04",
+                             "latestAt":  "2026-10-01 12:04",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=354\u0026ActivityCode=GBK\u0026GradeLevel=8"
+                         },
+                         {
+                             "team":  "Mt. Sterling Brown County (Co-op)",
+                             "opponent":  "Mt. Sterling Brown County def. Rushville Schuyler Industry",
+                             "previous":  "PENDING",
+                             "score":  "42-23",
+                             "firstSeenAt":  "2026-10-01 12:04",
+                             "latestAt":  "2026-10-01 12:04",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=390\u0026ActivityCode=GBK\u0026GradeLevel=8"
+                         },
+                         {
+                             "team":  "Nauvoo-Colusa",
+                             "opponent":  "Colchester West Prairie def. Nauvoo-Colusa",
+                             "previous":  "PENDING",
+                             "score":  "25-16",
+                             "firstSeenAt":  "2026-10-01 12:04",
+                             "latestAt":  "2026-10-01 12:04",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=397\u0026ActivityCode=GBK\u0026GradeLevel=8"
+                         },
+                         {
+                             "team":  "Nauvoo-Colusa",
+                             "opponent":  "Mendon Unity def. Nauvoo-Colusa",
+                             "previous":  "PENDING",
+                             "score":  "19-17",
+                             "firstSeenAt":  "2026-10-01 12:04",
+                             "latestAt":  "2026-10-01 12:04",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=397\u0026ActivityCode=GBK\u0026GradeLevel=8"
+                         },
+                         {
+                             "team":  "Rushville Schuyler Industry",
+                             "opponent":  "Mt. Sterling Brown County def. Rushville Schuyler Industry",
+                             "previous":  "PENDING",
+                             "score":  "42-23",
+                             "firstSeenAt":  "2026-10-01 12:04",
+                             "latestAt":  "2026-10-01 12:04",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=1818\u0026ActivityCode=GBK\u0026GradeLevel=8"
+                         },
+                         {
+                             "team":  "Rushville Schuyler Industry",
+                             "opponent":  "Pittsfield Pikeland def. Rushville Schuyler Industry",
+                             "previous":  "PENDING",
+                             "score":  "34-31",
+                             "firstSeenAt":  "2026-10-01 12:04",
+                             "latestAt":  "2026-10-01 12:04",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=1818\u0026ActivityCode=GBK\u0026GradeLevel=8"
+                         },
                          {
                              "team":  "Manlius Bureau Valley JHS",
                              "opponent":  "Manlius Bureau Valley JHS def. Mendota Northbrook",

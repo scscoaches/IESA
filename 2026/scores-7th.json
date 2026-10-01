@@ -1,7 +1,7 @@
 ﻿{
-    "updatedAt":  "2026-10-01 07:13",
-    "previousCaptureAt":  "2026-10-01 06:04",
-    "retainedSince":  "2026-09-24 07:18",
+    "updatedAt":  "2026-10-01 12:00",
+    "previousCaptureAt":  "2026-10-01 07:13",
+    "retainedSince":  "2026-09-24 12:04",
     "retainedDays":  7,
     "teams":  {
                   "Kinmundy South Central (Co-op)":  {
@@ -384,12 +384,16 @@
                                                               {
                                                                   "opponent":  "Spring Valley Kennedy vs. Midland Junior High School",
                                                                   "score":  "PENDING"
+                                                              },
+                                                              {
+                                                                  "opponent":  "Spring Valley Kennedy def. LaSalle Dimmick",
+                                                                  "score":  "28-19"
                                                               }
                                                           ],
                                                 "record":  {
-                                                               "wins":  0,
+                                                               "wins":  1,
                                                                "losses":  0,
-                                                               "completed":  0
+                                                               "completed":  1
                                                            }
                                             },
                   "Princeville":  {
@@ -700,12 +704,12 @@
                                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=1796\u0026ActivityCode=GBK\u0026GradeLevel=7",
                                             "games":  [
                                                           {
-                                                              "opponent":  "Decatur Robertson vs. Urbana MS",
-                                                              "score":  "PENDING"
+                                                              "opponent":  "Decatur Robertson def. Urbana MS",
+                                                              "score":  "39-11"
                                                           },
                                                           {
-                                                              "opponent":  "Decatur Robertson vs. Springfield Jefferson",
-                                                              "score":  "PENDING"
+                                                              "opponent":  "Decatur Robertson def. Springfield Jefferson",
+                                                              "score":  "02-0"
                                                           },
                                                           {
                                                               "opponent":  "Decatur Robertson vs. Decatur Montessori Academy for Peace",
@@ -753,9 +757,9 @@
                                                           }
                                                       ],
                                             "record":  {
-                                                           "wins":  0,
+                                                           "wins":  2,
                                                            "losses":  0,
-                                                           "completed":  0
+                                                           "completed":  2
                                                        }
                                         },
                   "Morrisonville JHS (Co-op)":  {
@@ -1674,18 +1678,26 @@
                                                          "score":  "PENDING"
                                                      },
                                                      {
+                                                         "opponent":  "Nauvoo-Colusa def. Mendon Unity",
+                                                         "score":  "21-16"
+                                                     },
+                                                     {
                                                          "opponent":  "Nauvoo-Colusa vs. Mendon Unity",
                                                          "score":  "PENDING"
                                                      },
                                                      {
-                                                         "opponent":  "Nauvoo-Colusa vs. Mendon Unity",
+                                                         "opponent":  "Payson Seymour vs. Mendon Unity",
+                                                         "score":  "PENDING"
+                                                     },
+                                                     {
+                                                         "opponent":  "Payson Seymour vs. Mendon Unity",
                                                          "score":  "PENDING"
                                                      }
                                                  ],
                                        "record":  {
                                                       "wins":  0,
-                                                      "losses":  0,
-                                                      "completed":  0
+                                                      "losses":  1,
+                                                      "completed":  1
                                                   }
                                    },
                   "Camp Point Central":  {
@@ -1717,6 +1729,10 @@
                                                            },
                                                            {
                                                                "opponent":  "Nauvoo-Colusa vs. Camp Point Central",
+                                                               "score":  "PENDING"
+                                                           },
+                                                           {
+                                                               "opponent":  "Payson Seymour vs. Camp Point Central",
                                                                "score":  "PENDING"
                                                            }
                                                        ],
@@ -2652,6 +2668,14 @@
                                                 {
                                                     "opponent":  "Nauvoo-Colusa vs. Liberty",
                                                     "score":  "PENDING"
+                                                },
+                                                {
+                                                    "opponent":  "Payson Seymour vs. Liberty",
+                                                    "score":  "PENDING"
+                                                },
+                                                {
+                                                    "opponent":  "Payson Seymour vs. Liberty",
+                                                    "score":  "PENDING"
                                                 }
                                             ],
                                   "record":  {
@@ -3116,8 +3140,8 @@
                                                      "score":  "21-18"
                                                  },
                                                  {
-                                                     "opponent":  "Carthage vs. Virginia",
-                                                     "score":  "PENDING"
+                                                     "opponent":  "Carthage def. Virginia",
+                                                     "score":  "36-5"
                                                  },
                                                  {
                                                      "opponent":  "Carthage vs. Liberty",
@@ -3157,9 +3181,9 @@
                                                  }
                                              ],
                                    "record":  {
-                                                  "wins":  0,
+                                                  "wins":  1,
                                                   "losses":  1,
-                                                  "completed":  1
+                                                  "completed":  2
                                               }
                                },
                   "Sparland Midland":  {
@@ -3852,6 +3876,10 @@
                                                                {
                                                                    "opponent":  "Bluffs vs. Hardin Calhoun",
                                                                    "score":  "PENDING"
+                                                               },
+                                                               {
+                                                                   "opponent":  "Payson Seymour vs. Hardin Calhoun",
+                                                                   "score":  "PENDING"
                                                                }
                                                            ],
                                                  "record":  {
@@ -4174,8 +4202,8 @@
                                                   "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=126\u0026ActivityCode=GBK\u0026GradeLevel=7",
                                                   "games":  [
                                                                 {
-                                                                    "opponent":  "Beardstown MS vs. Colchester West Prairie",
-                                                                    "score":  "PENDING"
+                                                                    "opponent":  "Beardstown MS def. Colchester West Prairie",
+                                                                    "score":  "36-16"
                                                                 },
                                                                 {
                                                                     "opponent":  "Bushnell-Prairie City vs. Colchester West Prairie",
@@ -4202,8 +4230,8 @@
                                                                     "score":  "PENDING"
                                                                 },
                                                                 {
-                                                                    "opponent":  "Nauvoo-Colusa vs. Colchester West Prairie",
-                                                                    "score":  "PENDING"
+                                                                    "opponent":  "Nauvoo-Colusa def. Colchester West Prairie",
+                                                                    "score":  "35-7"
                                                                 },
                                                                 {
                                                                     "opponent":  "Nauvoo-Colusa vs. Colchester West Prairie",
@@ -4216,8 +4244,8 @@
                                                             ],
                                                   "record":  {
                                                                  "wins":  0,
-                                                                 "losses":  0,
-                                                                 "completed":  0
+                                                                 "losses":  2,
+                                                                 "completed":  2
                                                              }
                                               },
                   "Nauvoo-Colusa":  {
@@ -4228,12 +4256,12 @@
                                                           "score":  "PENDING"
                                                       },
                                                       {
-                                                          "opponent":  "Nauvoo-Colusa vs. Colchester West Prairie",
-                                                          "score":  "PENDING"
+                                                          "opponent":  "Nauvoo-Colusa def. Colchester West Prairie",
+                                                          "score":  "35-7"
                                                       },
                                                       {
-                                                          "opponent":  "Nauvoo-Colusa vs. Mendon Unity",
-                                                          "score":  "PENDING"
+                                                          "opponent":  "Nauvoo-Colusa def. Mendon Unity",
+                                                          "score":  "21-16"
                                                       },
                                                       {
                                                           "opponent":  "Nauvoo-Colusa vs. La Harpe",
@@ -4293,9 +4321,9 @@
                                                       }
                                                   ],
                                         "record":  {
-                                                       "wins":  0,
+                                                       "wins":  2,
                                                        "losses":  0,
-                                                       "completed":  0
+                                                       "completed":  2
                                                    }
                                     },
                   "Normal Metcalf":  {
@@ -4413,6 +4441,14 @@
                                                                     },
                                                                     {
                                                                         "opponent":  "Beardstown MS vs. Rushville Schuyler Industry",
+                                                                        "score":  "PENDING"
+                                                                    },
+                                                                    {
+                                                                        "opponent":  "Rushville Schuyler Industry vs. Hamilton ES",
+                                                                        "score":  "PENDING"
+                                                                    },
+                                                                    {
+                                                                        "opponent":  "Rushville Schuyler Industry vs. Table Grove VIT",
                                                                         "score":  "PENDING"
                                                                     }
                                                                 ],
@@ -5116,8 +5152,8 @@
                                                                   "score":  "15-14"
                                                               },
                                                               {
-                                                                  "opponent":  "Champaign St. Matthew vs. Mahomet-Seymour",
-                                                                  "score":  "PENDING"
+                                                                  "opponent":  "Mahomet-Seymour def. Champaign St. Matthew",
+                                                                  "score":  "40-18"
                                                               },
                                                               {
                                                                   "opponent":  "Champaign St. Matthew vs. Villa Grove",
@@ -5178,8 +5214,8 @@
                                                           ],
                                                 "record":  {
                                                                "wins":  1,
-                                                               "losses":  0,
-                                                               "completed":  1
+                                                               "losses":  1,
+                                                               "completed":  2
                                                            }
                                             },
                   "East Alton MS":  {
@@ -5301,6 +5337,10 @@
                                                                      },
                                                                      {
                                                                          "opponent":  "Pekin Edison vs. Green Valley Midwest Central",
+                                                                         "score":  "PENDING"
+                                                                     },
+                                                                     {
+                                                                         "opponent":  "Green Valley Midwest Central vs. Mackinaw Dee-Mack",
                                                                          "score":  "PENDING"
                                                                      }
                                                                  ],
@@ -5916,6 +5956,96 @@
                                          }
               },
     "updatedGames":  [
+                         {
+                             "team":  "Carthage",
+                             "opponent":  "Carthage def. Virginia",
+                             "previous":  "PENDING",
+                             "score":  "36-5",
+                             "firstSeenAt":  "2026-10-01 12:00",
+                             "latestAt":  "2026-10-01 12:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=93\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Champaign St. Matthew",
+                             "opponent":  "Mahomet-Seymour def. Champaign St. Matthew",
+                             "previous":  "PENDING",
+                             "score":  "40-18",
+                             "firstSeenAt":  "2026-10-01 12:00",
+                             "latestAt":  "2026-10-01 12:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=104\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Colchester West Prairie",
+                             "opponent":  "Beardstown MS def. Colchester West Prairie",
+                             "previous":  "PENDING",
+                             "score":  "36-16",
+                             "firstSeenAt":  "2026-10-01 12:00",
+                             "latestAt":  "2026-10-01 12:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=126\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Colchester West Prairie",
+                             "opponent":  "Nauvoo-Colusa def. Colchester West Prairie",
+                             "previous":  "PENDING",
+                             "score":  "35-7",
+                             "firstSeenAt":  "2026-10-01 12:00",
+                             "latestAt":  "2026-10-01 12:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=126\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Decatur Robertson",
+                             "opponent":  "Decatur Robertson def. Springfield Jefferson",
+                             "previous":  "PENDING",
+                             "score":  "02-0",
+                             "firstSeenAt":  "2026-10-01 12:00",
+                             "latestAt":  "2026-10-01 12:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=1796\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Decatur Robertson",
+                             "opponent":  "Decatur Robertson def. Urbana MS",
+                             "previous":  "PENDING",
+                             "score":  "39-11",
+                             "firstSeenAt":  "2026-10-01 12:00",
+                             "latestAt":  "2026-10-01 12:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=1796\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Mendon Unity",
+                             "opponent":  "Nauvoo-Colusa def. Mendon Unity",
+                             "previous":  "PENDING",
+                             "score":  "21-16",
+                             "firstSeenAt":  "2026-10-01 12:00",
+                             "latestAt":  "2026-10-01 12:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=354\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Nauvoo-Colusa",
+                             "opponent":  "Nauvoo-Colusa def. Colchester West Prairie",
+                             "previous":  "PENDING",
+                             "score":  "35-7",
+                             "firstSeenAt":  "2026-10-01 12:00",
+                             "latestAt":  "2026-10-01 12:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=397\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Nauvoo-Colusa",
+                             "opponent":  "Nauvoo-Colusa def. Mendon Unity",
+                             "previous":  "PENDING",
+                             "score":  "21-16",
+                             "firstSeenAt":  "2026-10-01 12:00",
+                             "latestAt":  "2026-10-01 12:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=397\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Spring Valley Kennedy",
+                             "opponent":  "Spring Valley Kennedy def. LaSalle Dimmick",
+                             "previous":  "N/A",
+                             "score":  "28-19",
+                             "firstSeenAt":  "2026-10-01 12:00",
+                             "latestAt":  "2026-10-01 12:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=525\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
                          {
                              "team":  "Manlius Bureau Valley JHS",
                              "opponent":  "Manlius Bureau Valley JHS def. Mendota Northbrook",
