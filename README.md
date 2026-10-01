@@ -160,6 +160,18 @@ A failed team fetch no longer drops that team from the cache; the previous
 capture's record is carried forward, so a transient IESA error cannot silently
 empty a school's schedule.
 
+The generated caches are marked `-merge` in `.gitattributes`. The working tree
+*is* the deployment, so an unresolved merge is a live site outage: Git's default
+text merge writes `<<<<<<<` markers into the very files `team-scores.ashx` reads
+and the browser parses. The caches are regenerated several times a day on more
+than one machine, and a line-level blend of two captures is never correct - one
+capture or the other is. The binary merge strategy keeps the local version in
+the working tree and marks the path conflicted *without* inserting markers, so
+the site keeps serving valid JSON while the conflict is resolved with
+`git checkout --ours|--theirs <path>` or by simply re-running the updater.
+Diffs are left enabled, since the caches are pretty-printed over thousands of
+lines and a textual diff is how a capture is checked for score regressions.
+
 For a future live season, confirm the *later* grade's final date on the
 official calendar when creating its Windows refresh task. Set every trigger's
 `EndBoundary` to five minutes after the first morning run following the
