@@ -79,8 +79,9 @@ Gardner 23 in state Game 2 without naming Decatur St. Patrick's sectional.
 Sectional 5 is the only one left unclaimed by the published pairings, so the
 slot is filled by elimination rather than left empty: an unmapped slot would
 otherwise collapse the bracket ordering, sliding every later sectional up one
-row and stranding a card on the wrong half. The card names the team from the
-scoreboard and says so, since IESA never published that sectional final.
+row and stranding a card on the wrong half. The card takes the team name from
+the scoreboard, which is only trusted when the opposite side confirms the
+published pairing matches the bracket.
 
 The resulting pages only require ordinary static-file hosting under IIS. They
 share the 2026 renderer, styles and navigation scripts, so keep that folder
