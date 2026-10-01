@@ -371,23 +371,20 @@
         });
     });
     d.quarterfinals.forEach(function(q, i) {
-        // Names taken from the state scoreboard because IESA never published the sectional
-        // final that produced them. Collected here so the note describes exactly what was
-        // substituted rather than every sectional that is merely unplayed.
-        var scoreboardEntrants = [];
         var names = q.matchup.map(function(r, side) {
             if (d.firstRound) return firstRoundResults[r] ?
                 firstRoundResults[r].winner : "Winner Game " + r;
             var known = r && sectionalWinner(r);
             if (known) return known;
+            // IESA sometimes never publishes a sectional final even though the state
+            // scoreboard names the team that advanced. Trust the scoreboard's order only
+            // when the opposite side confirms it matches the bracket.
             var published = result("games", q.game);
             var other = q.matchup[1 - side];
             var otherName = other && sectionalWinner(other);
-            // Trust the scoreboard order only when the opposite side confirms it.
             if (published && Array.isArray(published.teams) && published.teams.length === 2 &&
                 published.teams[side] && otherName &&
                 matchTeam(published.teams[1 - side], [otherName]) === otherName) {
-                if (r) scoreboardEntrants.push(r);
                 return published.teams[side];
             }
             return r ? "Winner Sectional " + r : "State entrant unreported";
@@ -399,9 +396,6 @@
             title: "State Quarterfinal • Game " + q.game,
             entries: entrants(names, quarterfinalResults[q.game]),
             time: details(q.date, q.time),
-            note: scoreboardEntrants.length ?
-                "IESA did not publish the Sectional " + scoreboardEntrants.join(" or ") +
-                    " final; this entrant comes from the state scoreboard." : null,
             path: true
         })
     });
