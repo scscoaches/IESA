@@ -62,6 +62,13 @@
     border-color: #464feb;
 }
 
+/* A returning visitor has unseen changes: make the button itself say so. */
+#updates-button.has-new {
+    color: #fff;
+    background: #464feb;
+    border-color: #464feb;
+}
+
 #updates-table td:last-child {
     color: #68718a;
     white-space: nowrap;

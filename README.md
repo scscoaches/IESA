@@ -140,6 +140,18 @@ lead (in IESA's schedule order), then games with a recorded
 `firstSeenAt`/`latestAt` in ascending timestamp order, and `PENDING` games last.
 Any game scored within the last 24 hours is highlighted.
 
+A returning visitor also gets a **"New for you"** window listing only changes
+posted since they last opened the dialog. The marker is a timestamp in
+`localStorage`, keyed by page path so each grade and season counts separately.
+Opening the dialog is the read receipt - merely loading the page does not clear
+the badge, so a change cannot be missed by navigating past it. The option is
+absent on a first visit (there is nothing to compare against) and the view falls
+back to 24 hours when nothing is new, rather than opening on an empty list. When
+the last visit predates `retainedSince`, the summary says so instead of implying
+the list is complete; the site only keeps `retainedDays` of history. The header
+badge counts the new-for-you total for a returning visitor, the 24-hour window
+otherwise, and turns solid when it is non-zero.
+
 `Merge-ChangeWindow` must be called as `@(Merge-ChangeWindow ...)`. PowerShell
 unwraps a single-element array on return, which would make `ConvertTo-Json`
 emit `updatedGames` as an object and break the client's `.filter()`.

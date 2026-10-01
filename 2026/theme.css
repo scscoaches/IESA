@@ -123,6 +123,12 @@
     border-color: #5560ff;
 }
 
+.dark-theme #updates-button.has-new {
+    color: #fff;
+    background: #5560ff;
+    border-color: #5560ff;
+}
+
 .dark-theme #updates-table td:last-child {
     color: #c3cde1;
 }
