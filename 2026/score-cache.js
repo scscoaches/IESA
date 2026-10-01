@@ -80,10 +80,10 @@
             row.appendChild(score);
             body.appendChild(row);
         });
-        note.textContent = (team.updatedAt ? "Checked directly with IESA: " + team.updatedAt +
-            ". Results may be reused for up to five minutes. This live result is for this browser only; the shared site cache still refreshes nightly." :
-            "Nightly cache updated from IESA: " + cache.updatedAt + ".") +
-            " PENDING games do not affect the record.";
+        note.textContent = team.updatedAt
+            ? "Checked directly with IESA: " + team.updatedAt +
+              ". Live result is for this browser session only."
+            : "Nightly cache updated from IESA: " + cache.updatedAt + ".";
         official.hidden = !team.sourceUrl;
         official.href = team.sourceUrl || "#";
         official.textContent = selected + " IESA page";
