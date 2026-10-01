@@ -32,8 +32,9 @@
                 var place = season && season[gradeFor(Number(option.value))];
                 if (!PLACES[place]) { return; }
                 // A native option cannot carry a styled element, so the marker
-                // is part of its text.
-                option.textContent = option.value + " \u2022";
+                // is part of its text. A trophy reads as a finish at a glance
+                // where a dot only reads as "something here".
+                option.textContent = option.value + " \uD83C\uDFC6";
                 option.dataset.place = String(place);
                 option.title = placements.team + " finished " + PLACES[place];
             });
