@@ -89,6 +89,18 @@ at the site root. The shared layout sizes
 the SVG connector surface to each year's bracket canvas, including the taller
 Class A canvas; keep both dimensions in sync if the layout changes.
 
+The year menu also marks seasons in which Springfield Christian finished in the
+top four with a dot, so the handful worth revisiting stand out among nearly
+fifty years. `Build-IesaPlacements.ps1` derives those placements from the two
+final games of each archived bracket - the championship winner and loser are
+first and second, the third place game's winner and loser are third and fourth -
+and writes `placements.json` at the site root. The dot is **grade aware**: it
+describes the page the menu would open, so the eighth-grade menu marks the years
+that team placed in eighth grade. A season where both grades placed is marked in
+both. Marking is best effort; if `placements.json` is missing or unreadable the
+menu still lists every year, just without dots. Re-run the script after a season
+finishes, or after adding an archived year, to pick up new placements.
+
 ## End the scheduled refresh
 
 IESA's [girls-basketball calendar](https://www.iesa.org/activities/calendar.asp?activitycode=GBK)

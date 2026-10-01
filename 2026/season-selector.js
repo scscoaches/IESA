@@ -8,6 +8,40 @@
         throw new Error("Tournament year selector requires valid season data.");
     }
 
+    // Picking a year keeps you in the grade you are reading, except where that
+    // grade did not exist. The dot below must describe the page you would land
+    // on, so both use this.
+    function gradeFor(selectedYear) {
+        return selectedYear <= 1985 ? "combined" :
+            data.grade === "combined" ? "7th" : data.grade;
+    }
+
+    var PLACES = { 1: "state champion", 2: "state runner-up", 3: "third place", 4: "fourth place" };
+
+    // Nearly fifty seasons makes the few worth revisiting impossible to spot.
+    // Marking is best-effort: a missing or unreadable file leaves plain years.
+    function markPlacements() {
+        return fetch("../../placements.json", { cache: "no-store" }).then(function (response) {
+            if (!response.ok) { throw new Error("Placements returned HTTP " + response.status); }
+            return response.json();
+        }).then(function (placements) {
+            var seasons = placements && placements.seasons;
+            if (!seasons) { return; }
+            Array.prototype.forEach.call(select.options, function (option) {
+                var season = seasons[option.value];
+                var place = season && season[gradeFor(Number(option.value))];
+                if (!PLACES[place]) { return; }
+                // A native option cannot carry a styled element, so the marker
+                // is part of its text.
+                option.textContent = option.value + " \u2022";
+                option.dataset.place = String(place);
+                option.title = placements.team + " finished " + PLACES[place];
+            });
+        }).catch(function (error) {
+            console.warn("Unable to mark tournament placements:", error);
+        });
+    }
+
     fetch("../../seasons.json", { cache: "no-store" }).then(function (response) {
         if (!response.ok) { throw new Error("Season list returned HTTP " + response.status); }
         return response.json();
@@ -33,6 +67,7 @@
         });
         select.value = String(year);
         select.disabled = false;
+        return markPlacements();
     }).catch(function (error) {
         console.error("Unable to load tournament seasons:", error);
         select.replaceChildren(new Option("Years unavailable", ""));
@@ -46,9 +81,7 @@
             throw new Error("Selected tournament year is not in the season list.");
         }
         var selectedYear = Number(select.value);
-        var targetGrade = selectedYear <= 1985 ? "combined" :
-            data.grade === "combined" ? "7th" : data.grade;
-        window.location.assign(new URL("../../" + selectedYear + "/" + targetGrade + "/index.html",
-            window.location.href).href);
+        window.location.assign(new URL("../../" + selectedYear + "/" + gradeFor(selectedYear) +
+            "/index.html", window.location.href).href);
     });
 }());
