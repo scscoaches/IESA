@@ -1,5 +1,6 @@
 param(
-    [string]$SitePath = "C:\inetpub\personalroot\IESA\2026"
+    [string]$SitePath = "C:\inetpub\personalroot\IESA\2026",
+    [int]$RetentionDays = 7
 )
 
 $ErrorActionPreference = "Stop"
@@ -37,6 +38,49 @@ function Normalize-Matchup([string]$matchup) {
     (($names | ForEach-Object { ($_ -replace "\s+", " ").Trim().ToLowerInvariant() } | Sort-Object) -join "|")
 }
 
+# The site is visited irregularly, so a single run's delta is not a useful view.
+# Carry prior changes forward and expire them by age, keeping one row per game:
+# the earliest observed "previous" value and the most recent score.
+function Merge-ChangeWindow($priorChanges, $newChanges, [datetime]$cutoff, [string]$legacyStamp) {
+    $merged = [ordered]@{}
+    foreach ($change in @($priorChanges) + @($newChanges)) {
+        if ($null -eq $change) { continue }
+        $stamp = $change.firstSeenAt
+        if (-not $stamp) { $stamp = $legacyStamp }
+        $seenAt = [datetime]::MinValue
+        if ([datetime]::TryParse($stamp, [ref]$seenAt)) {
+            if ($seenAt -lt $cutoff) { continue }
+        } else {
+            continue
+        }
+        $key = $change.team + "|" + (Normalize-Matchup $change.opponent)
+        if ($merged.Contains($key)) {
+            $existing = $merged[$key]
+            if ($existing.score -eq $change.score) { continue }
+            $merged[$key] = [pscustomobject]@{
+                team = $change.team
+                opponent = $change.opponent
+                previous = $existing.previous
+                score = $change.score
+                firstSeenAt = $existing.firstSeenAt
+                latestAt = $stamp
+                sourceUrl = $change.sourceUrl
+            }
+        } else {
+            $merged[$key] = [pscustomobject]@{
+                team = $change.team
+                opponent = $change.opponent
+                previous = $change.previous
+                score = $change.score
+                firstSeenAt = $stamp
+                latestAt = $stamp
+                sourceUrl = $change.sourceUrl
+            }
+        }
+    }
+    @($merged.Values | Sort-Object @{ e = "latestAt"; Descending = $true }, team, opponent)
+}
+
 # The site handler reads these caches while visitors browse. Writing in place would
 # expose a truncated file for the duration of the write, so swap a finished copy in.
 function Write-AtomicFile([string]$path, [string]$content) {
@@ -51,6 +95,8 @@ foreach ($grade in "7th", "8th") {
     $updatedGames = @()
     $previousTeams = @{}
     $previousCaptureAt = $null
+    $previousChanges = @()
+    $runTimestamp = (Get-Date).ToString("yyyy-MM-dd HH:mm")
     $previousPath = Join-Path $SitePath "scores-$grade.json"
     if (Test-Path -LiteralPath $previousPath) {
         $previousCache = Get-Content -Raw -LiteralPath $previousPath | ConvertFrom-Json
@@ -58,6 +104,7 @@ foreach ($grade in "7th", "8th") {
         foreach ($property in $previousCache.teams.PSObject.Properties) {
             $previousTeams[$property.Name] = $property.Value
         }
+        $previousChanges = @($previousCache.updatedGames)
     }
 
     foreach ($team in Get-Teams $grade) {
@@ -96,6 +143,7 @@ foreach ($grade in "7th", "8th") {
                         opponent = $game.opponent
                         previous = $priorResult
                         score = $game.score
+                        firstSeenAt = $runTimestamp
                         sourceUrl = $sourceUrl
                     }
                 }
@@ -106,15 +154,24 @@ foreach ($grade in "7th", "8th") {
             $teams[$team] = [pscustomobject]@{ sourceUrl = $sourceUrl; games = $games; record = [pscustomobject]@{ wins = $wins; losses = $losses; completed = $wins + $losses } }
         } catch {
             Write-Warning "Unable to refresh ${team}: $($_.Exception.Message)"
+            # Keep the last good data for this school. Dropping it would 404 the team's
+            # Update button and make the next run re-report every game as newly posted.
+            if ($previousTeams.ContainsKey($team)) {
+                $teams[$team] = $previousTeams[$team]
+            }
         } finally {
             Start-Sleep -Seconds 2
         }
     }
+    $cutoff = (Get-Date).AddDays(-$RetentionDays)
+    $rollingChanges = @(Merge-ChangeWindow $previousChanges $updatedGames $cutoff $previousCaptureAt)
     $cache = [pscustomobject]@{
-        updatedAt = (Get-Date).ToString("yyyy-MM-dd HH:mm")
+        updatedAt = $runTimestamp
         previousCaptureAt = $previousCaptureAt
+        retainedSince = $cutoff.ToString("yyyy-MM-dd HH:mm")
+        retainedDays = $RetentionDays
         teams = $teams
-        updatedGames = @($updatedGames | Sort-Object team, opponent)
+        updatedGames = $rollingChanges
     }
     $json = $cache | ConvertTo-Json -Depth 6
     Write-AtomicFile (Join-Path $SitePath "scores-$grade.json") $json

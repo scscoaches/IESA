@@ -38,10 +38,19 @@
             var row = document.createElement("tr");
             var opponent = document.createElement("td");
             var score = document.createElement("td");
+            var posted = document.createElement("td");
             opponent.textContent = game.opponent;
             score.textContent = game.score;
+            // Keep IESA's schedule order and mark recency here instead of re-sorting.
+            var changes = window.iesaScoreChanges;
+            posted.className = "score-posted";
+            posted.textContent = changes ? changes.describeAge(selected, game.opponent) : "";
+            if (changes && changes.isRecent(selected, game.opponent, 24)) {
+                row.className = "recent-score";
+            }
             row.appendChild(opponent);
             row.appendChild(score);
+            row.appendChild(posted);
             body.appendChild(row);
         });
         note.textContent = (team.updatedAt ? "Checked directly with IESA: " + team.updatedAt +

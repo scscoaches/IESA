@@ -122,6 +122,29 @@ read, catches `ArgumentException`, and wraps the whole request so that every
 response - including an unexpected failure - is JSON rather than an error
 page; the client reports the HTTP status when a body is not valid JSON.
 
+The "Score updates" dialog shows a **rolling 24-hour window**, not the
+difference between the last two captures. With three refreshes a day a
+per-capture delta covered only six to twelve hours, so a score posted in the
+morning disappeared from the list by evening. Each change record now carries
+`firstSeenAt` (when the updater first observed the new score) and `latestAt`,
+and `Update-IesaScores.ps1` merges the previous window forward, dropping
+records older than `-RetentionDays` (default 7). The cache therefore reports
+`retainedSince` and `retainedDays`, and the dialog offers 24-hour, 48-hour and
+7-day views; the header badge counts the 24-hour window. Records written
+before this change have no timestamp and are stamped with `previousCaptureAt`
+on the next run. A game between two teams in the field produces one change
+record per team; both are kept in the cache and collapsed to a single row for
+display. The team dialog uses the same data to annotate each game with how
+long ago its score was posted, leaving IESA's schedule ordering intact.
+
+`Merge-ChangeWindow` must be called as `@(Merge-ChangeWindow ...)`. PowerShell
+unwraps a single-element array on return, which would make `ConvertTo-Json`
+emit `updatedGames` as an object and break the client's `.filter()`.
+
+A failed team fetch no longer drops that team from the cache; the previous
+capture's record is carried forward, so a transient IESA error cannot silently
+empty a school's schedule.
+
 For a future live season, confirm the *later* grade's final date on the
 official calendar when creating its Windows refresh task. Set every trigger's
 `EndBoundary` to five minutes after the first morning run following the

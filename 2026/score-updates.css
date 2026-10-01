@@ -40,6 +40,44 @@
     font-size: 12px;
 }
 
+.updates-window {
+    display: flex;
+    gap: 6px;
+    margin: 0 0 12px;
+}
+
+.updates-window button {
+    padding: 4px 10px;
+    color: #182035;
+    font-size: 12px;
+    background: #f2f4f8;
+    border: 1px solid #d8dce5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.updates-window button.active {
+    color: #fff;
+    background: #464feb;
+    border-color: #464feb;
+}
+
+#updates-table td:last-child {
+    color: #68718a;
+    white-space: nowrap;
+}
+
+#score-history .score-posted {
+    color: #68718a;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+#score-history tr.recent-score .score-posted {
+    color: #1f6f3d;
+    font-weight: 600;
+}
+
 @media (max-width: 680px) {
     #updates-button {
         display: inline-block !important;

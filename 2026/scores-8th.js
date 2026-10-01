@@ -1,6 +1,8 @@
 ﻿window.iesaScoreCache = {
-    "updatedAt":  "2026-10-01 06:09",
-    "previousCaptureAt":  "2026-09-30 18:09",
+    "updatedAt":  "2026-10-01 07:18",
+    "previousCaptureAt":  "2026-10-01 06:09",
+    "retainedSince":  "2026-09-24 07:22",
+    "retainedDays":  7,
     "teams":  {
                   "Kinmundy South Central (Co-op)":  {
                                                          "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=281\u0026ActivityCode=GBK\u0026GradeLevel=8",
@@ -5997,6 +5999,8 @@
                              "opponent":  "Manlius Bureau Valley JHS def. Mendota Northbrook",
                              "previous":  "PENDING",
                              "score":  "34-8",
+                             "firstSeenAt":  "2026-10-01 06:09",
+                             "latestAt":  "2026-10-01 06:09",
                              "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=2454\u0026ActivityCode=GBK\u0026GradeLevel=8"
                          }
                      ]

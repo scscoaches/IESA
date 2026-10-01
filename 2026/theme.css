@@ -111,6 +111,30 @@
     color: #c3cde1;
 }
 
+.dark-theme .updates-window button {
+    color: #f0f3fa;
+    background: #31415a;
+    border-color: #536078;
+}
+
+.dark-theme .updates-window button.active {
+    color: #fff;
+    background: #5560ff;
+    border-color: #5560ff;
+}
+
+.dark-theme #updates-table td:last-child {
+    color: #c3cde1;
+}
+
+.dark-theme #score-history .score-posted {
+    color: #c3cde1;
+}
+
+.dark-theme #score-history tr.recent-score .score-posted {
+    color: #7fe0a4;
+}
+
 .dark-theme #score-history td,
 .dark-theme #updates-table td,
 .dark-theme #updates-table th {
