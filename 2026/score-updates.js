@@ -61,8 +61,8 @@
         return days === 1 ? "1 day ago" : days + " days ago";
     }
 
-    // The team dialog keeps IESA's schedule order, so expose the change timestamps
-    // by matchup to let it mark which games were scored recently.
+    // The team dialog sorts by when a score was posted, so expose the change
+    // timestamps by matchup. Only games changed since tracking began have one.
     function matchupKey(team, opponent) {
         var names = String(opponent || "").split(/\s+(?:vs\.?|def\.)\s+/i);
         if (names.length !== 2) { return team + "|" + opponent; }
@@ -83,6 +83,11 @@
         isRecent: function (team, opponent, hours) {
             var change = changeIndex[matchupKey(team, opponent)];
             return Boolean(change) && within(change, hours || 24);
+        },
+        postedAt: function (team, opponent) {
+            var change = changeIndex[matchupKey(team, opponent)];
+            var seen = change ? changeTime(change) : null;
+            return seen ? seen.getTime() : null;
         }
     };
 

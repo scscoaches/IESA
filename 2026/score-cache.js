@@ -16,6 +16,38 @@
 
     official.onclick = null;
 
+    function isPending(game) {
+        return !game.score || String(game.score).toUpperCase() === "PENDING";
+    }
+
+    // Show the most recently posted scores first. Only games whose score changed
+    // since tracking began carry a timestamp, so games without one keep IESA's
+    // schedule order below them, and unplayed games stay at the bottom.
+    function orderGames(games) {
+        if (!games || !games.length) {
+            return [{ opponent: "No IESA contests posted", score: "PENDING" }];
+        }
+        var changes = window.iesaScoreChanges;
+        return games.map(function (game, index) {
+            var postedAt = changes && !isPending(game)
+                ? changes.postedAt(selected, game.opponent)
+                : null;
+            return { game: game, index: index, postedAt: postedAt };
+        }).map(function (entry) {
+            // 0 = scored before change tracking began, so oldest of all;
+            // 1 = scored during tracking, ordered by its own timestamp;
+            // 2 = not yet played.
+            entry.tier = isPending(entry.game) ? 2 : (entry.postedAt === null ? 0 : 1);
+            return entry;
+        }).sort(function (a, b) {
+            if (a.tier !== b.tier) { return a.tier - b.tier; }
+            if (a.tier === 1) { return a.postedAt - b.postedAt || a.index - b.index; }
+            return a.index - b.index;
+        }).map(function (entry) {
+            return entry.game;
+        });
+    }
+
     function showSelectedTeam() {
         var team = cache.teams[selected];
         name.textContent = selected;
@@ -34,13 +66,12 @@
         }
 
         record.textContent = "Official IESA record: " + team.record.wins + "-" + team.record.losses;
-        (team.games.length ? team.games : [{ opponent: "No IESA contests posted", score: "PENDING" }]).forEach(function (game) {
+        orderGames(team.games).forEach(function (game) {
             var row = document.createElement("tr");
             var opponent = document.createElement("td");
             var score = document.createElement("td");
             opponent.textContent = game.opponent;
             score.textContent = game.score;
-            // Keep IESA's schedule order; highlight recently posted scores in place.
             var changes = window.iesaScoreChanges;
             if (changes && changes.isRecent(selected, game.opponent, 24)) {
                 row.className = "recent-score";
