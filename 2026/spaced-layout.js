@@ -36,6 +36,13 @@
         card.style.top = top + "px";
     }
 
+    function applyTransform(x, y, scale) {
+        var value = window.clampBracketTransform
+            ? window.clampBracketTransform(x, y, scale)
+            : { x: x, y: y, scale: scale };
+        bracket.style.transform = "translate(" + value.x + "px," + value.y + "px) scale(" + value.scale + ")";
+    }
+
     order.forEach(function (sectionalId, index) {
         var sectional = data.sectionals[sectionalId - 1];
         var perSide = legacy ? 8 : 4;
@@ -120,7 +127,7 @@
         var scale = Math.min((viewport.clientWidth - 30) / bracket.offsetWidth, (viewport.clientHeight - 30) / bracket.offsetHeight, 1);
         var panX = (viewport.clientWidth - bracket.offsetWidth * scale) / 2;
         var panY = (viewport.clientHeight - bracket.offsetHeight * scale) / 2;
-        bracket.style.transform = "translate(" + panX + "px," + panY + "px) scale(" + scale + ")";
+        applyTransform(panX, panY, scale);
     }
 
     function focusCard(card, scale) {
@@ -130,7 +137,7 @@
         var centerY = card.offsetTop + card.offsetHeight / 2;
         var panX = viewport.clientWidth / 2 - centerX * scale;
         var panY = viewport.clientHeight / 2 - centerY * scale;
-        bracket.style.transform = "translate(" + panX + "px," + panY + "px) scale(" + scale + ")";
+        applyTransform(panX, panY, scale);
     }
 
     document.addEventListener("iesaNavigateBracket", function (event) {
@@ -167,7 +174,7 @@
         var scale = Math.max(.18, Math.min(2.5, (viewport.clientWidth - padding * 2) / width, (viewport.clientHeight - padding * 2) / height));
         var panX = viewport.clientWidth / 2 - (minX + width / 2) * scale;
         var panY = padding - minY * scale;
-        bracket.style.transform = "translate(" + panX + "px," + panY + "px) scale(" + scale + ")";
+        applyTransform(panX, panY, scale);
     }
 
     function initialView() {
@@ -231,10 +238,10 @@
         } else if (mobile && wasMobile) {
             var transform = bracket.style.transform.match(/translate\(([-\d.]+)px,\s*([-\d.]+)px\)\s*scale\(([-\d.]+)\)/);
             if (transform) {
-                bracket.style.transform = "translate(" +
-                    (Number(transform[1]) + (width - viewportWidth) / 2) + "px," +
-                    (Number(transform[2]) + (height - viewportHeight) / 2) + "px) scale(" +
-                    transform[3] + ")";
+                applyTransform(
+                    Number(transform[1]) + (width - viewportWidth) / 2,
+                    Number(transform[2]) + (height - viewportHeight) / 2,
+                    Number(transform[3]));
             }
         } else {
             initialView();

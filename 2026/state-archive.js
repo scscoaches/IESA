@@ -6,6 +6,19 @@
     }
     var bracket = document.getElementById("bracket");
     var viewport = document.getElementById("viewport");
+    window.clampBracketTransform = function(x, y, scale) {
+        var scaledWidth = bracket.offsetWidth * scale;
+        var scaledHeight = bracket.offsetHeight * scale;
+        var marginX = Math.min(60, viewport.clientWidth / 2);
+        var marginY = Math.min(60, viewport.clientHeight / 2);
+        return {
+            x: scaledWidth <= viewport.clientWidth ? (viewport.clientWidth - scaledWidth) / 2 :
+                Math.max(marginX - scaledWidth, Math.min(viewport.clientWidth - marginX, x)),
+            y: scaledHeight <= viewport.clientHeight ? (viewport.clientHeight - scaledHeight) / 2 :
+                Math.max(marginY - scaledHeight, Math.min(viewport.clientHeight - marginY, y)),
+            scale: scale
+        };
+    };
     var svg = bracket.querySelector("svg");
     var dialog = document.getElementById("archive-dialog");
     var dialogTitle = document.getElementById("archive-dialog-title");

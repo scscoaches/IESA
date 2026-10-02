@@ -12,6 +12,9 @@
     }
 
     function apply(value) {
+        if (window.clampBracketTransform) {
+            value = window.clampBracketTransform(value.x, value.y, value.scale);
+        }
         bracket.style.transform = "translate(" + value.x + "px," + value.y + "px) scale(" + value.scale + ")";
     }
 

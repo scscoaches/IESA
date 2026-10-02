@@ -40,7 +40,10 @@
         var nextPanX = pointerX - (pointerX - panX) * nextScale / currentScale;
         var nextPanY = pointerY - (pointerY - panY) * nextScale / currentScale;
 
-        bracket.style.transform = "translate(" + nextPanX + "px," + nextPanY + "px) scale(" + nextScale + ")";
+        var next = window.clampBracketTransform
+            ? window.clampBracketTransform(nextPanX, nextPanY, nextScale)
+            : { x: nextPanX, y: nextPanY, scale: nextScale };
+        bracket.style.transform = "translate(" + next.x + "px," + next.y + "px) scale(" + next.scale + ")";
         event.stopImmediatePropagation();
     }, { capture: true, passive: false });
 }());
