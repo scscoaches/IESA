@@ -1,7 +1,7 @@
 ﻿window.iesaScoreCache = {
-    "updatedAt":  "2026-10-01 12:00",
-    "previousCaptureAt":  "2026-10-01 07:13",
-    "retainedSince":  "2026-09-24 12:04",
+    "updatedAt":  "2026-10-02 06:00",
+    "previousCaptureAt":  "2026-10-01 18:00",
+    "retainedSince":  "2026-09-25 06:04",
     "retainedDays":  7,
     "teams":  {
                   "Kinmundy South Central (Co-op)":  {
@@ -246,8 +246,8 @@
                                                                        "score":  "PENDING"
                                                                    },
                                                                    {
-                                                                       "opponent":  "Bloomington Corpus Christi vs. Normal Parkside",
-                                                                       "score":  "PENDING"
+                                                                       "opponent":  "Bloomington Corpus Christi def. Normal Parkside",
+                                                                       "score":  "30-1"
                                                                    },
                                                                    {
                                                                        "opponent":  "Bloomington Corpus Christi vs. Dwight",
@@ -279,9 +279,9 @@
                                                                    }
                                                                ],
                                                      "record":  {
-                                                                    "wins":  2,
+                                                                    "wins":  3,
                                                                     "losses":  0,
-                                                                    "completed":  2
+                                                                    "completed":  3
                                                                 }
                                                  },
                   "Knoxville JHS":  {
@@ -872,8 +872,8 @@
                                                                   "score":  "PENDING"
                                                               },
                                                               {
-                                                                  "opponent":  "Bushnell-Prairie City vs. Camp Point Central",
-                                                                  "score":  "PENDING"
+                                                                  "opponent":  "Camp Point Central def. Bushnell-Prairie City",
+                                                                  "score":  "42-6"
                                                               },
                                                               {
                                                                   "opponent":  "Bushnell-Prairie City vs. Rushville Schuyler Industry",
@@ -920,10 +920,6 @@
                                                                   "score":  "PENDING"
                                                               },
                                                               {
-                                                                  "opponent":  "Bushnell-Prairie City vs. Galesburg Costa",
-                                                                  "score":  "PENDING"
-                                                              },
-                                                              {
                                                                   "opponent":  "Bushnell-Prairie City vs. Colchester West Prairie",
                                                                   "score":  "PENDING"
                                                               },
@@ -950,8 +946,8 @@
                                                           ],
                                                 "record":  {
                                                                "wins":  0,
-                                                               "losses":  0,
-                                                               "completed":  0
+                                                               "losses":  1,
+                                                               "completed":  1
                                                            }
                                             },
                   "Havana":  {
@@ -1216,8 +1212,8 @@
                                                                   "score":  "PENDING"
                                                               },
                                                               {
-                                                                  "opponent":  "Oblong vs. Effingham St. Anthony",
-                                                                  "score":  "PENDING"
+                                                                  "opponent":  "Effingham St. Anthony def. Oblong",
+                                                                  "score":  "27-26"
                                                               },
                                                               {
                                                                   "opponent":  "Taylorville JHS vs. Effingham St. Anthony",
@@ -1225,9 +1221,9 @@
                                                               }
                                                           ],
                                                 "record":  {
-                                                               "wins":  0,
+                                                               "wins":  1,
                                                                "losses":  0,
-                                                               "completed":  0
+                                                               "completed":  1
                                                            }
                                             },
                   "Petersburg PORTA JHS":  {
@@ -1325,6 +1321,34 @@
                                                  },
                                                  {
                                                      "opponent":  "Somonauk vs. Plano",
+                                                     "score":  "PENDING"
+                                                 },
+                                                 {
+                                                     "opponent":  "Somonauk vs. Hinckley-Big Rock",
+                                                     "score":  "PENDING"
+                                                 },
+                                                 {
+                                                     "opponent":  "Somonauk vs. Millbrook",
+                                                     "score":  "PENDING"
+                                                 },
+                                                 {
+                                                     "opponent":  "Somonauk vs. Lisbon",
+                                                     "score":  "PENDING"
+                                                 },
+                                                 {
+                                                     "opponent":  "Somonauk vs. Leland",
+                                                     "score":  "PENDING"
+                                                 },
+                                                 {
+                                                     "opponent":  "Somonauk vs. Earlville",
+                                                     "score":  "PENDING"
+                                                 },
+                                                 {
+                                                     "opponent":  "Somonauk vs. Leland",
+                                                     "score":  "PENDING"
+                                                 },
+                                                 {
+                                                     "opponent":  "Somonauk vs. Hinckley-Big Rock",
                                                      "score":  "PENDING"
                                                  }
                                              ],
@@ -1580,6 +1604,10 @@
                                                                {
                                                                    "opponent":  "Avon Abingdon Avon vs. Glasford Illini Bluffs",
                                                                    "score":  "PENDING"
+                                                               },
+                                                               {
+                                                                   "opponent":  "Eureka vs. Glasford Illini Bluffs",
+                                                                   "score":  "PENDING"
                                                                }
                                                            ],
                                                  "record":  {
@@ -1708,8 +1736,8 @@
                                                                "score":  "PENDING"
                                                            },
                                                            {
-                                                               "opponent":  "Bushnell-Prairie City vs. Camp Point Central",
-                                                               "score":  "PENDING"
+                                                               "opponent":  "Camp Point Central def. Bushnell-Prairie City",
+                                                               "score":  "42-6"
                                                            },
                                                            {
                                                                "opponent":  "Quincy St. Peter vs. Camp Point Central",
@@ -1737,9 +1765,9 @@
                                                            }
                                                        ],
                                              "record":  {
-                                                            "wins":  0,
+                                                            "wins":  1,
                                                             "losses":  0,
-                                                            "completed":  0
+                                                            "completed":  1
                                                         }
                                          },
                   "Wood River Lewis \u0026 Clark":  {
@@ -1800,8 +1828,8 @@
                                                        "score":  "PENDING"
                                                    },
                                                    {
-                                                       "opponent":  "Oakwood GS vs. Sidell Salt Fork",
-                                                       "score":  "PENDING"
+                                                       "opponent":  "Sidell Salt Fork def. Oakwood GS",
+                                                       "score":  "24-16"
                                                    },
                                                    {
                                                        "opponent":  "Oakwood GS vs. Champaign International",
@@ -1850,8 +1878,8 @@
                                                ],
                                      "record":  {
                                                     "wins":  0,
-                                                    "losses":  0,
-                                                    "completed":  0
+                                                    "losses":  1,
+                                                    "completed":  1
                                                 }
                                  },
                   "Seneca":  {
@@ -2082,12 +2110,16 @@
                                                            {
                                                                "opponent":  "Bluffs vs. Greenfield",
                                                                "score":  "PENDING"
+                                                           },
+                                                           {
+                                                               "opponent":  "Greenfield def. Carlinville",
+                                                               "score":  "20-15"
                                                            }
                                                        ],
                                              "record":  {
-                                                            "wins":  0,
+                                                            "wins":  1,
                                                             "losses":  0,
-                                                            "completed":  0
+                                                            "completed":  1
                                                         }
                                          },
                   "Bloomington Cornerstone":  {
@@ -2189,6 +2221,10 @@
                                                              },
                                                              {
                                                                  "opponent":  "Peoria St. Vincent de Paul vs. Peoria St. Philomena",
+                                                                 "score":  "PENDING"
+                                                             },
+                                                             {
+                                                                 "opponent":  "Eureka vs. Peoria St. Philomena",
                                                                  "score":  "PENDING"
                                                              }
                                                          ],
@@ -2912,8 +2948,8 @@
                                                    "score":  "PENDING"
                                                },
                                                {
-                                                   "opponent":  "Oblong vs. Effingham St. Anthony",
-                                                   "score":  "PENDING"
+                                                   "opponent":  "Effingham St. Anthony def. Oblong",
+                                                   "score":  "27-26"
                                                },
                                                {
                                                    "opponent":  "Oblong vs. Marshall JHS",
@@ -2950,8 +2986,8 @@
                                            ],
                                  "record":  {
                                                 "wins":  0,
-                                                "losses":  2,
-                                                "completed":  2
+                                                "losses":  3,
+                                                "completed":  3
                                             }
                              },
                   "Riverdale Washington":  {
@@ -2979,6 +3015,18 @@
                                                              },
                                                              {
                                                                  "opponent":  "Dolton Lincoln vs. Riverdale Washington",
+                                                                 "score":  "PENDING"
+                                                             },
+                                                             {
+                                                                 "opponent":  "Blue Island Veterans Memorial vs. Riverdale Washington",
+                                                                 "score":  "PENDING"
+                                                             },
+                                                             {
+                                                                 "opponent":  "Calumet Park Calumet vs. Riverdale Washington",
+                                                                 "score":  "PENDING"
+                                                             },
+                                                             {
+                                                                 "opponent":  "Sauk Village Rickover vs. Riverdale Washington",
                                                                  "score":  "PENDING"
                                                              }
                                                          ],
@@ -3110,8 +3158,8 @@
                                                    "score":  "PENDING"
                                                },
                                                {
-                                                   "opponent":  "Rantoul St. Malachy vs. Fisher",
-                                                   "score":  "PENDING"
+                                                   "opponent":  "Rantoul St. Malachy def. Fisher",
+                                                   "score":  "27-8"
                                                },
                                                {
                                                    "opponent":  "Heyworth vs. Fisher",
@@ -3120,8 +3168,8 @@
                                            ],
                                  "record":  {
                                                 "wins":  1,
-                                                "losses":  1,
-                                                "completed":  2
+                                                "losses":  2,
+                                                "completed":  3
                                             }
                              },
                   "Carthage":  {
@@ -3760,14 +3808,14 @@
                                                               "score":  "PENDING"
                                                           },
                                                           {
-                                                              "opponent":  "Peru Parkside vs. Wenona Fieldcrest",
-                                                              "score":  "PENDING"
+                                                              "opponent":  "Peru Parkside def. Wenona Fieldcrest",
+                                                              "score":  "27-5"
                                                           }
                                                       ],
                                             "record":  {
                                                            "wins":  0,
-                                                           "losses":  0,
-                                                           "completed":  0
+                                                           "losses":  1,
+                                                           "completed":  1
                                                        }
                                         },
                   "Lewistown JHS":  {
@@ -4066,8 +4114,8 @@
                                                             "score":  "PENDING"
                                                         },
                                                         {
-                                                            "opponent":  "Sidell Salt Fork vs. Paris Crestwood",
-                                                            "score":  "PENDING"
+                                                            "opponent":  "Paris Crestwood def. Sidell Salt Fork",
+                                                            "score":  "45-15"
                                                         },
                                                         {
                                                             "opponent":  "Paris Crestwood vs. Danville North Ridge",
@@ -4119,9 +4167,9 @@
                                                         }
                                                     ],
                                           "record":  {
-                                                         "wins":  0,
+                                                         "wins":  1,
                                                          "losses":  0,
-                                                         "completed":  0
+                                                         "completed":  1
                                                      }
                                       },
                   "Marquette Heights Georgetowne":  {
@@ -4487,6 +4535,10 @@
                                                           },
                                                           {
                                                               "opponent":  "Peoria Christian vs. Peoria Heights GS",
+                                                              "score":  "PENDING"
+                                                          },
+                                                          {
+                                                              "opponent":  "Peoria Hollis vs. Peoria Heights GS",
                                                               "score":  "PENDING"
                                                           }
                                                       ],
@@ -5442,6 +5494,10 @@
                                                       {
                                                           "opponent":  "Calumet City Dolton 149 vs. Markham Obama",
                                                           "score":  "PENDING"
+                                                      },
+                                                      {
+                                                          "opponent":  "Blue Island Kerr vs. Markham Obama",
+                                                          "score":  "PENDING"
                                                       }
                                                   ],
                                         "record":  {
@@ -5687,6 +5743,10 @@
                                                              },
                                                              {
                                                                  "opponent":  "Pekin Edison vs. Creve Coeur Parkview",
+                                                                 "score":  "PENDING"
+                                                             },
+                                                             {
+                                                                 "opponent":  "Peoria Hollis vs. Creve Coeur Parkview",
                                                                  "score":  "PENDING"
                                                              }
                                                          ],
@@ -5956,6 +6016,96 @@
                                          }
               },
     "updatedGames":  [
+                         {
+                             "team":  "Bloomington Corpus Christi",
+                             "opponent":  "Bloomington Corpus Christi def. Normal Parkside",
+                             "previous":  "PENDING",
+                             "score":  "30-1",
+                             "firstSeenAt":  "2026-10-02 06:00",
+                             "latestAt":  "2026-10-02 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=46\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Effingham St. Anthony",
+                             "opponent":  "Effingham St. Anthony def. Oblong",
+                             "previous":  "PENDING",
+                             "score":  "27-26",
+                             "firstSeenAt":  "2026-10-02 06:00",
+                             "latestAt":  "2026-10-02 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=177\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Fisher",
+                             "opponent":  "Rantoul St. Malachy def. Fisher",
+                             "previous":  "PENDING",
+                             "score":  "27-8",
+                             "firstSeenAt":  "2026-10-02 06:00",
+                             "latestAt":  "2026-10-02 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=189\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Oakwood GS",
+                             "opponent":  "Sidell Salt Fork def. Oakwood GS",
+                             "previous":  "PENDING",
+                             "score":  "24-16",
+                             "firstSeenAt":  "2026-10-02 06:00",
+                             "latestAt":  "2026-10-02 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=422\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Oblong",
+                             "opponent":  "Effingham St. Anthony def. Oblong",
+                             "previous":  "PENDING",
+                             "score":  "27-26",
+                             "firstSeenAt":  "2026-10-02 06:00",
+                             "latestAt":  "2026-10-02 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=423\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Paris Crestwood",
+                             "opponent":  "Paris Crestwood def. Sidell Salt Fork",
+                             "previous":  "PENDING",
+                             "score":  "45-15",
+                             "firstSeenAt":  "2026-10-02 06:00",
+                             "latestAt":  "2026-10-02 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=440\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Bushnell-Prairie City",
+                             "opponent":  "Camp Point Central def. Bushnell-Prairie City",
+                             "previous":  "PENDING",
+                             "score":  "42-6",
+                             "firstSeenAt":  "2026-10-01 18:00",
+                             "latestAt":  "2026-10-01 18:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=77\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Camp Point Central",
+                             "opponent":  "Camp Point Central def. Bushnell-Prairie City",
+                             "previous":  "PENDING",
+                             "score":  "42-6",
+                             "firstSeenAt":  "2026-10-01 18:00",
+                             "latestAt":  "2026-10-01 18:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=88\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Greenfield (Co-op)",
+                             "opponent":  "Greenfield def. Carlinville",
+                             "previous":  "N/A",
+                             "score":  "20-15",
+                             "firstSeenAt":  "2026-10-01 18:00",
+                             "latestAt":  "2026-10-01 18:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=223\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Wenona Fieldcrest",
+                             "opponent":  "Peru Parkside def. Wenona Fieldcrest",
+                             "previous":  "PENDING",
+                             "score":  "27-5",
+                             "firstSeenAt":  "2026-10-01 18:00",
+                             "latestAt":  "2026-10-01 18:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=1834\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
                          {
                              "team":  "Carthage",
                              "opponent":  "Carthage def. Virginia",
