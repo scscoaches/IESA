@@ -20,16 +20,15 @@
     }).filter(function(id) { return id !== undefined; });
     unplacedSectionals.forEach(function(id) { sectionalOrder.push(id); });
     var year = d.year || 2026;
-    window.clampBracketTransform = function(x, y, scale) {
+    window.clampBracketTransform = function(x, y, scale, alignTop) {
         var width = b.offsetWidth * scale;
         var height = b.offsetHeight * scale;
-        var marginX = Math.min(60, v.clientWidth / 2);
-        var marginY = Math.min(60, v.clientHeight / 2);
+        var keepTopAligned = alignTop || window.matchMedia("(max-width: 680px)").matches;
         return {
             x: width <= v.clientWidth ? (v.clientWidth - width) / 2 :
-                Math.max(marginX - width, Math.min(v.clientWidth - marginX, x)),
-            y: height <= v.clientHeight ? (v.clientHeight - height) / 2 :
-                Math.max(marginY - height, Math.min(v.clientHeight - marginY, y)),
+                Math.max(v.clientWidth - width, Math.min(0, x)),
+            y: height <= v.clientHeight ? (keepTopAligned ? 0 : (v.clientHeight - height) / 2) :
+                Math.max(v.clientHeight - height, Math.min(0, y)),
             scale: scale
         };
     };
@@ -203,8 +202,17 @@
             };
         });
     }
-    document.querySelector(".title").textContent = "IESA " + year + " " + d.grade +
+    var headerTitle = document.querySelector(".title");
+    var fullTitle = "IESA " + year + " " + d.grade +
         " Grade Class " + (d.className || "2A") + " State Tournament";
+    var compactTitle = d.grade === "combined" ? "Combined 7th/8th" :
+        [d.className || (year >= 2024 ? "2A" : ""), d.grade].filter(Boolean).join(" ");
+    function updateTitle() {
+        var nextTitle = window.matchMedia("(max-width: 680px)").matches ? compactTitle : fullTitle;
+        if (headerTitle.textContent !== nextTitle) { headerTitle.textContent = nextTitle; }
+    }
+    updateTitle();
+    window.addEventListener("resize", updateTitle);
     function details() {
         return Array.prototype.filter.call(arguments, function(value) {
             return typeof value === "string" && value.trim();
@@ -490,7 +498,7 @@
             standing: null };
     }
     function projectedStage(container, titleText, pairs, annotations) {
-        var stage = el("section", "projection-stage");
+        var stage = el("section", "projection-stage projection-stage-" + (container.children.length + 1));
         stage.appendChild(el("h3", "", titleText));
         var games = el("div", "projection-games");
         pairs.forEach(function(pair, index) {
@@ -615,7 +623,7 @@
 
     function zoom(k) {
         var c = current(),
-            z = Math.max(.18, Math.min(2.5, c.z * k));
+            z = Math.max(.05, Math.min(2.5, c.z * k));
         setTransform({
             x: v.clientWidth / 2 - (v.clientWidth / 2 - c.x) * z / c.z,
             y: v.clientHeight / 2 - (v.clientHeight / 2 - c.y) * z / c.z,

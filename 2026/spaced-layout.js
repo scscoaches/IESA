@@ -28,17 +28,18 @@
     }).filter(function (id) { return id !== undefined; });
     unplaced.forEach(function (id) { order.push(id); });
     var flipHalves = data.grade === "7th" && (data.year || 2026) === 2026;
+    var mobileTopOffset = window.matchMedia("(max-width: 680px)").matches ? -35 : 0;
     var searchedCard;
 
     function setPosition(id, left, top) {
         var card = document.getElementById(id);
         card.style.left = left + "px";
-        card.style.top = top + "px";
+        card.style.top = (top + mobileTopOffset) + "px";
     }
 
-    function applyTransform(x, y, scale) {
+    function applyTransform(x, y, scale, alignTop) {
         var value = window.clampBracketTransform
-            ? window.clampBracketTransform(x, y, scale)
+            ? window.clampBracketTransform(x, y, scale, alignTop)
             : { x: x, y: y, scale: scale };
         bracket.style.transform = "translate(" + value.x + "px," + value.y + "px) scale(" + value.scale + ")";
     }
@@ -127,12 +128,12 @@
         var scale = Math.min((viewport.clientWidth - 30) / bracket.offsetWidth, (viewport.clientHeight - 30) / bracket.offsetHeight, 1);
         var panX = (viewport.clientWidth - bracket.offsetWidth * scale) / 2;
         var panY = (viewport.clientHeight - bracket.offsetHeight * scale) / 2;
-        applyTransform(panX, panY, scale);
+        applyTransform(panX, panY, scale, isMobile());
     }
 
     function focusCard(card, scale) {
         if (!card) { return; }
-        scale = Math.max(.18, Math.min(2.5, scale || 1));
+        scale = Math.max(.05, Math.min(2.5, scale || 1));
         var centerX = card.offsetLeft + card.offsetWidth / 2;
         var centerY = card.offsetTop + card.offsetHeight / 2;
         var panX = viewport.clientWidth / 2 - centerX * scale;
@@ -171,10 +172,10 @@
         });
         if (minX === Infinity) { fitAll(); return; }
         var width = maxX - minX, height = maxY - minY;
-        var scale = Math.max(.18, Math.min(2.5, (viewport.clientWidth - padding * 2) / width, (viewport.clientHeight - padding * 2) / height));
+        var scale = Math.max(.05, Math.min(2.5, (viewport.clientWidth - padding * 2) / width, (viewport.clientHeight - padding * 2) / height));
         var panX = viewport.clientWidth / 2 - (minX + width / 2) * scale;
         var panY = padding - minY * scale;
-        applyTransform(panX, panY, scale);
+        applyTransform(panX, panY, scale, true);
     }
 
     function initialView() {
@@ -224,30 +225,23 @@
         fitAll();
     };
     initialView();
-    var viewportWidth = viewport.clientWidth;
-    var viewportHeight = viewport.clientHeight;
     var wasMobile = isMobile();
     // The legacy renderer's resize fit would discard the current pan and search focus.
     window.onresize = null;
     window.addEventListener("resize", function () {
-        var width = viewport.clientWidth;
-        var height = viewport.clientHeight;
         var mobile = isMobile();
-        if (searchedCard) {
-            focusCard(searchedCard, 1.3);
-        } else if (mobile && wasMobile) {
+        if (mobile && wasMobile) {
             var transform = bracket.style.transform.match(/translate\(([-\d.]+)px,\s*([-\d.]+)px\)\s*scale\(([-\d.]+)\)/);
             if (transform) {
                 applyTransform(
-                    Number(transform[1]) + (width - viewportWidth) / 2,
-                    Number(transform[2]) + (height - viewportHeight) / 2,
-                    Number(transform[3]));
+                    Number(transform[1]),
+                    Number(transform[2]),
+                    Number(transform[3]),
+                    true);
             }
         } else {
             initialView();
         }
-        viewportWidth = width;
-        viewportHeight = height;
         wasMobile = mobile;
     });
 }());

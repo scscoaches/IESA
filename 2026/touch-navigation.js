@@ -23,12 +23,18 @@
     }
 
     function point(event) {
+        return { x: event.clientX, y: event.clientY };
+    }
+
+    function localPoints() {
         var bounds = viewport.getBoundingClientRect();
-        return { x: event.clientX - bounds.left, y: event.clientY - bounds.top };
+        return Array.from(pointers.values()).map(function (value) {
+            return { x: value.x - bounds.left, y: value.y - bounds.top };
+        });
     }
 
     function startGesture() {
-        var active = Array.from(pointers.values());
+        var active = localPoints();
         var current = transform();
         if (active.length === 1) {
             gesture = { type: "pan", point: active[0], transform: current };
@@ -59,7 +65,7 @@
     viewport.addEventListener("pointermove", function (event) {
         if (event.pointerType !== "touch" || !pointers.has(event.pointerId)) { return; }
         pointers.set(event.pointerId, point(event));
-        var active = Array.from(pointers.values());
+        var active = localPoints();
         if (!gesture || !active.length) { return; }
 
         if (gesture.type === "pan" && active.length === 1) {
@@ -72,7 +78,7 @@
         } else if (gesture.type === "pinch" && active.length === 2) {
             var midpoint = { x: (active[0].x + active[1].x) / 2, y: (active[0].y + active[1].y) / 2 };
             var distance = Math.hypot(active[1].x - active[0].x, active[1].y - active[0].y);
-            var scale = Math.max(.18, Math.min(2.5, gesture.transform.scale * distance / gesture.distance));
+            var scale = Math.max(.05, Math.min(2.5, gesture.transform.scale * distance / gesture.distance));
             apply({ x: midpoint.x - gesture.canvas.x * scale, y: midpoint.y - gesture.canvas.y * scale, scale: scale });
         }
         event.preventDefault();
@@ -89,4 +95,8 @@
 
     viewport.addEventListener("pointerup", end, { capture: true, passive: false });
     viewport.addEventListener("pointercancel", end, { capture: true, passive: false });
+
+    window.addEventListener("resize", function () {
+        if (pointers.size) { startGesture(); }
+    });
 }());

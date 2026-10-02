@@ -99,12 +99,20 @@ for a separate-grade year opens seventh grade. Keep `seasons.json` available
 at the site root. The shared layout sizes
 the SVG connector surface to each year's bracket canvas, including the taller
 Class A canvas; keep both dimensions in sync if the layout changes.
-Panning and zooming keep at least a 60-pixel strip of the bracket canvas inside
-the viewport, so it can always be recovered if dragged or zoomed toward an
-edge. This applies to mouse drag and wheel zoom, touch pan and pinch, and
-card-focus navigation across both seeded and state-only archive pages
+Panning and zooming clamp to the bracket canvas edges, so empty space outside
+the canvas cannot be exposed; when the canvas is larger than the viewport,
+individual cards can still be off-screen while navigating. On mobile, the
+initial bracket view is top-aligned and preserves its position during browser
+chrome resize; active touch gestures rebase on resize to avoid jumps. This
+applies to mouse drag and wheel zoom, touch pan and pinch, and card-focus
+navigation across both seeded and state-only archive pages. The zoom floor is
+below the scale needed to fit the widest tournament on a narrow mobile screen,
+so the first zoom step does not jump from the initial fitted view
 (`2026\app.js`, `2026\spaced-layout.js`, `2026\pointer-zoom.js`,
-`2026\touch-navigation.js`, `2026\state-archive.js`).
+`2026\touch-navigation.js`, `2026\state-archive.js`). On mobile, the title
+omits the year because the season selector already identifies it; regional
+projection popups keep their three rounds in a compact horizontal bracket
+instead of stacking the rounds vertically.
 
 The year menu also marks seasons in which Springfield Christian finished in the
 top four with a dot, so the handful worth revisiting stand out among nearly

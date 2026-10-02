@@ -6,16 +6,26 @@
     }
     var bracket = document.getElementById("bracket");
     var viewport = document.getElementById("viewport");
-    window.clampBracketTransform = function(x, y, scale) {
+    var title = document.querySelector(".title");
+    var fullTitle = title.textContent;
+    var compactClass = data.className || ((data.label || "").match(/Class\s+([^\s]+)/i) || [])[1];
+    var compactTitle = data.grade === "combined" ? "Combined 7th/8th" :
+        [compactClass, data.grade].filter(Boolean).join(" ");
+    function updateTitle() {
+        var nextTitle = window.matchMedia("(max-width: 680px)").matches ? compactTitle : fullTitle;
+        if (title.textContent !== nextTitle) { title.textContent = nextTitle; }
+    }
+    updateTitle();
+    window.addEventListener("resize", updateTitle);
+    window.clampBracketTransform = function(x, y, scale, alignTop) {
         var scaledWidth = bracket.offsetWidth * scale;
         var scaledHeight = bracket.offsetHeight * scale;
-        var marginX = Math.min(60, viewport.clientWidth / 2);
-        var marginY = Math.min(60, viewport.clientHeight / 2);
+        var keepTopAligned = alignTop || window.matchMedia("(max-width: 680px)").matches;
         return {
             x: scaledWidth <= viewport.clientWidth ? (viewport.clientWidth - scaledWidth) / 2 :
-                Math.max(marginX - scaledWidth, Math.min(viewport.clientWidth - marginX, x)),
-            y: scaledHeight <= viewport.clientHeight ? (viewport.clientHeight - scaledHeight) / 2 :
-                Math.max(marginY - scaledHeight, Math.min(viewport.clientHeight - marginY, y)),
+                Math.max(viewport.clientWidth - scaledWidth, Math.min(0, x)),
+            y: scaledHeight <= viewport.clientHeight ? (keepTopAligned ? 0 : (viewport.clientHeight - scaledHeight) / 2) :
+                Math.max(viewport.clientHeight - scaledHeight, Math.min(0, y)),
             scale: scale
         };
     };
@@ -178,10 +188,26 @@
     function fit() {
         var scale = Math.min(1, (viewport.clientWidth - 32) / width, (viewport.clientHeight - 32) / height);
         var x = (viewport.clientWidth - width * scale) / 2;
-        var y = (viewport.clientHeight - height * scale) / 2;
-        bracket.style.transform = "translate(" + x + "px," + y + "px) scale(" + scale + ")";
+        var y = window.matchMedia("(max-width: 680px)").matches ? 0 :
+            (viewport.clientHeight - height * scale) / 2;
+        var bounded = window.clampBracketTransform(x, y, scale, true);
+        bracket.style.transform = "translate(" + bounded.x + "px," + bounded.y + "px) scale(" + bounded.scale + ")";
     }
     document.getElementById("fit").addEventListener("click", fit);
-    window.addEventListener("resize", fit);
+    var wasMobile = window.matchMedia("(max-width: 680px)").matches;
+    window.addEventListener("resize", function () {
+        var mobile = window.matchMedia("(max-width: 680px)").matches;
+        if (mobile && wasMobile) {
+            var current = bracket.style.transform.match(/translate\(([-\d.]+)px,\s*([-\d.]+)px\)\s*scale\(([-\d.]+)\)/);
+            if (current) {
+                var bounded = window.clampBracketTransform(
+                    Number(current[1]), Number(current[2]), Number(current[3]), true);
+                bracket.style.transform = "translate(" + bounded.x + "px," + bounded.y + "px) scale(" + bounded.scale + ")";
+            }
+        } else {
+            fit();
+        }
+        wasMobile = mobile;
+    });
     fit();
 }());
