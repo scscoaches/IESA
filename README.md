@@ -153,7 +153,11 @@ regional bracket popup has an icon-only refresh button that runs the same
 single-school lookup for every school in that regional, one request at a time,
 then re-sorts the regional and redraws the projection. Like the single-school
 button, its results apply to the current browser session only; official
-(seeded) and archived popups do not show it.
+(seeded) and archived popups do not show it. Both live buttons need IIS to run
+`2026\team-scores.ashx`. The public copy on GitHub Pages
+(`scscoaches.github.io`) serves static files only and answers that POST with
+HTTP 405, so `score-cache.js` hides both buttons on `*.github.io` hosts; those
+visitors see the scheduled score refresh only.
 
 `Update-IesaScores.ps1` writes `scores-<grade>.json` and `scores-<grade>.js`
 atomically, to a `.tmp` file that is then moved over the target. This matters

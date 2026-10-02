@@ -44,6 +44,7 @@
 .dialog-actions #refresh-scores{display:inline-flex;align-items:center;justify-content:center;gap:6px;flex:0 0 auto;margin-left:auto;white-space:nowrap}
 .dialog-actions #refresh-scores img{width:15px;height:15px}
 .dialog-actions #refresh-scores:disabled{opacity:.65;cursor:wait}
+.dialog-actions #refresh-scores[hidden]{display:none}
 .dialog-head .projection-refresh{display:inline-flex;align-items:center;justify-content:center;flex:none;width:34px;height:34px;margin-left:auto;margin-right:-8px;padding:0;border-radius:4px;background:var(--blue)}
 .dialog-head .projection-refresh[hidden]{display:none}
 .projection-refresh img{width:16px;height:16px}

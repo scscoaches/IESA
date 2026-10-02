@@ -133,7 +133,10 @@
         if (selected === requestedTeam && dialog.open) { showSelectedTeam(); }
         return result;
     }
-    window.iesaFetchLiveTeam = fetchLiveTeam;
+    // GitHub Pages serves static files only, so the ASP.NET live lookup exists only under IIS.
+    var liveLookupAvailable = !/\.github\.io$/i.test(location.hostname);
+    refresh.hidden = !liveLookupAvailable;
+    if (liveLookupAvailable) { window.iesaFetchLiveTeam = fetchLiveTeam; }
 
     refresh.addEventListener("click", async function () {
         if (!selected) { return; }
