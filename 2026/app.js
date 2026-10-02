@@ -556,10 +556,23 @@
             projectedStage(projectionRounds, titleText, pairs, annotations);
         });
     }
-    b.addEventListener("click", function(event) {
-        var button = event.target.closest(".regional-projection-link, .regional-official-link");
-        if (!button) { return; }
-        var card = button.closest(".regional");
+    var projectionCard = null;
+    var projectionRefresh = el("button", "projection-refresh");
+    projectionRefresh.type = "button";
+    projectionRefresh.hidden = true;
+    projectionRefresh.setAttribute("aria-label", "Update all teams' IESA scores in this regional");
+    projectionRefresh.title = "Update all teams' IESA scores";
+    var refreshIcon = el("img");
+    refreshIcon.alt = "";
+    refreshIcon.setAttribute("aria-hidden", "true");
+    projectionRefresh.appendChild(refreshIcon);
+    var projectionStatus = el("p", "projection-status");
+    projectionStatus.setAttribute("role", "status");
+    projectionStatus.hidden = true;
+    var closeProjection = document.getElementById("close-projection");
+    closeProjection.parentNode.insertBefore(projectionRefresh, closeProjection);
+    projectionRounds.parentNode.insertBefore(projectionStatus, projectionRounds);
+    function renderProjection(card) {
         var regionalId = Number(card.id.substring(1));
         var regional = d.regionals[regionalId - 1];
         var official = seededRegionals[regionalId];
@@ -568,6 +581,10 @@
         projectionTitle.textContent = official ? "OFFICIAL Regional Bracket" : "UNOFFICIAL Projected Bracket";
         projectionDialog.setAttribute("aria-label", "Regional " + regionalId +
             (official ? " official bracket" : " unofficial projected bracket"));
+        projectionRefresh.hidden = Boolean(official) || typeof window.iesaFetchLiveTeam !== "function";
+        if (!projectionRefresh.hidden && !refreshIcon.getAttribute("src")) {
+            refreshIcon.src = "../refresh-icon.svg";
+        }
         projectionRounds.replaceChildren();
         projectionSource.hidden = !official || !official.sourceUrl;
         if (!projectionSource.hidden) { projectionSource.href = official.sourceUrl; }
@@ -587,9 +604,46 @@
                 ["Winner semifinal 1", "Winner semifinal 2"]
             ]);
         }
+    }
+    b.addEventListener("click", function(event) {
+        var button = event.target.closest(".regional-projection-link, .regional-official-link");
+        if (!button) { return; }
+        var card = button.closest(".regional");
+        if (projectionCard !== card) { projectionStatus.hidden = true; }
+        projectionCard = card;
+        renderProjection(card);
         projectionDialog.showModal();
     });
-    document.getElementById("close-projection").addEventListener("click", function() {
+    projectionRefresh.addEventListener("click", async function() {
+        var card = projectionCard;
+        if (!card || typeof window.iesaFetchLiveTeam !== "function") { return; }
+        var teams = Array.prototype.map.call(card.querySelectorAll(":scope > .entry"), function(entry) {
+            return entry.dataset.team;
+        }).filter(Boolean);
+        var failed = [];
+        projectionRefresh.disabled = true;
+        projectionRefresh.classList.add("busy");
+        projectionStatus.hidden = false;
+        // Sequential requests keep the load on IESA to one school at a time.
+        for (var i = 0; i < teams.length; i++) {
+            if (projectionCard === card) {
+                projectionStatus.textContent = "Checking IESA scores " + (i + 1) + " of " + teams.length + "...";
+            }
+            try {
+                await window.iesaFetchLiveTeam(teams[i]);
+            } catch (error) {
+                failed.push(teams[i]);
+            }
+        }
+        projectionRefresh.disabled = false;
+        projectionRefresh.classList.remove("busy");
+        if (projectionCard !== card) { return; }
+        renderProjection(card);
+        projectionStatus.hidden = !failed.length;
+        projectionStatus.textContent = failed.length ?
+            "Could not update: " + failed.join(", ") + ". Their previous scores are shown." : "";
+    });
+    closeProjection.addEventListener("click", function() {
         projectionDialog.close();
     });
 

@@ -108,34 +108,40 @@
         }
     }
 
+    async function fetchLiveTeam(requestedTeam) {
+        var response = await fetch("../team-scores.ashx", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams({ grade: grade, team: requestedTeam })
+        });
+        var body = await response.text();
+        var result = null;
+        try { result = JSON.parse(body); } catch (parseError) { result = null; }
+        if (!result || typeof result !== "object") {
+            throw new Error("The site's score service returned an unexpected response (HTTP " +
+                response.status + "). Please try again in a moment.");
+        }
+        if (!response.ok) { throw new Error(result.error || "HTTP " + response.status); }
+        if (result.team !== requestedTeam || !result.record ||
+            !Array.isArray(result.games) || !result.updatedAt || !result.sourceUrl) {
+            throw new Error("IESA returned an invalid score response.");
+        }
+        cache.teams[requestedTeam] = result;
+        cacheLoaded = true;
+        window.iesaScoreCache = cache;
+        document.dispatchEvent(new CustomEvent("iesaScoresLoaded", { detail: cache }));
+        if (selected === requestedTeam && dialog.open) { showSelectedTeam(); }
+        return result;
+    }
+    window.iesaFetchLiveTeam = fetchLiveTeam;
+
     refresh.addEventListener("click", async function () {
         if (!selected) { return; }
         var requestedTeam = selected;
         refresh.disabled = true;
         note.textContent = "Checking " + requestedTeam + "'s scores directly with IESA...";
         try {
-            var response = await fetch("../team-scores.ashx", {
-                method: "POST",
-                headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: new URLSearchParams({ grade: grade, team: requestedTeam })
-            });
-            var body = await response.text();
-            var result = null;
-            try { result = JSON.parse(body); } catch (parseError) { result = null; }
-            if (!result || typeof result !== "object") {
-                throw new Error("The site's score service returned an unexpected response (HTTP " +
-                    response.status + "). Please try again in a moment.");
-            }
-            if (!response.ok) { throw new Error(result.error || "HTTP " + response.status); }
-            if (result.team !== requestedTeam || !result.record ||
-                !Array.isArray(result.games) || !result.updatedAt || !result.sourceUrl) {
-                throw new Error("IESA returned an invalid score response.");
-            }
-            cache.teams[requestedTeam] = result;
-            cacheLoaded = true;
-            window.iesaScoreCache = cache;
-            document.dispatchEvent(new CustomEvent("iesaScoresLoaded", { detail: cache }));
-            if (selected === requestedTeam) { showSelectedTeam(); }
+            await fetchLiveTeam(requestedTeam);
         } catch (error) {
             if (selected === requestedTeam) {
                 note.textContent = "Live score check failed: " + error.message +

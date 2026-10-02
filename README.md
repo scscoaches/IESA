@@ -148,7 +148,12 @@ weekday runs make approximately 639 IESA requests a day, while weekend runs
 make approximately 212 requests per day, plus postseason queries when those
 begin. The updater waits two seconds between school requests to avoid a
 burst. Do not add additional runs without reconsidering the source load; use
-the single-school Update button for occasional immediate checks.
+the single-school Update button for occasional immediate checks. The unofficial
+regional bracket popup has an icon-only refresh button that runs the same
+single-school lookup for every school in that regional, one request at a time,
+then re-sorts the regional and redraws the projection. Like the single-school
+button, its results apply to the current browser session only; official
+(seeded) and archived popups do not show it.
 
 `Update-IesaScores.ps1` writes `scores-<grade>.json` and `scores-<grade>.js`
 atomically, to a `.tmp` file that is then moved over the target. This matters
