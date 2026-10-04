@@ -1,233 +1,220 @@
 window.iesaScoreCache = {
-  "updatedAt": "2026-10-03 03:38",
-  "previousCaptureAt": "2026-10-02 12:04",
-  "retainedSince": "2026-09-26 03:42",
+  "updatedAt": "2026-10-04 05:22",
+  "previousCaptureAt": "2026-10-03 03:38",
+  "retainedSince": "2026-09-27 05:27",
   "retainedDays": 7,
   "teams": {
-    "Evanston King": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2622&ActivityCode=GBK&GradeLevel=8",
-      "games": [],
+    "Petersburg PORTA JHS": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=467&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Beardstown MS vs. Petersburg PORTA JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Auburn JHS at Divernon vs. Petersburg PORTA JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Havana vs. Petersburg PORTA JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Petersburg PORTA JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Petersburg PORTA JHS def. New Berlin JHS",
+          "score": "32-14"
+        },
+        {
+          "opponent": "Petersburg PORTA JHS vs. Our Savior School Jacksonville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Petersburg PORTA JHS vs. Mason City Illini Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Petersburg PORTA JHS vs. Pleasant Plains",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Petersburg PORTA JHS def. Springfield Blessed Sacrament",
+          "score": "35-16"
+        },
+        {
+          "opponent": "Petersburg PORTA JHS vs. Springfield Calvary",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Petersburg PORTA JHS vs. Athens",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Petersburg PORTA JHS vs. Riverton",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Petersburg PORTA JHS vs. Table Grove VIT",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Petersburg PORTA JHS vs. Ashland A-C Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Petersburg PORTA JHS vs. Pawnee",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Petersburg PORTA JHS vs. Lewistown JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Williamsville vs. Petersburg PORTA JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Petersburg PORTA JHS def. Jacksonville Our Saviour",
+          "score": "56-2"
+        }
+      ],
       "record": {
-        "wins": 0,
+        "wins": 3,
         "losses": 0,
-        "completed": 0
+        "completed": 3
       }
     },
-    "Warrensburg-Latham": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=582&ActivityCode=GBK&GradeLevel=8",
+    "Oblong": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=423&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Mt. Zion vs. Warrensburg-Latham",
+          "opponent": "Paris Mayo vs. Oblong",
           "score": "PENDING"
         },
         {
-          "opponent": "Cerro Gordo vs. Warrensburg-Latham",
+          "opponent": "Dieterich vs. Oblong",
           "score": "PENDING"
         },
         {
-          "opponent": "Macon Meridian vs. Warrensburg-Latham",
+          "opponent": "Bridgeport Red Hill def. Oblong",
+          "score": "42-10"
+        },
+        {
+          "opponent": "Mattoon St. John's vs. Oblong",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Our Lady of Lourdes vs. Warrensburg-Latham",
+          "opponent": "Oblong def. Palestine",
+          "score": "26-20"
+        },
+        {
+          "opponent": "Effingham St. Anthony def. Oblong",
+          "score": "35-10"
+        },
+        {
+          "opponent": "Oblong vs. Marshall JHS",
           "score": "PENDING"
         },
         {
-          "opponent": "Maroa-Forsyth def. Warrensburg-Latham",
-          "score": "26-16"
-        },
-        {
-          "opponent": "Warrensburg-Latham vs. Clinton",
+          "opponent": "Oblong vs. Lawrenceville Parkview",
           "score": "PENDING"
         },
         {
-          "opponent": "Warrensburg-Latham vs. Assumption Central A & M",
+          "opponent": "Oblong vs. Toledo Cumberland",
           "score": "PENDING"
         },
         {
-          "opponent": "Warrensburg-Latham vs. Lincoln JHS",
+          "opponent": "Oblong vs. Robinson Nuttall",
           "score": "PENDING"
         },
         {
-          "opponent": "Warrensburg-Latham vs. Argenta-Oreana",
+          "opponent": "Oblong vs. Newton Jasper County",
           "score": "PENDING"
         },
         {
-          "opponent": "Warrensburg-Latham vs. Monticello",
+          "opponent": "Oblong vs. Palestine",
           "score": "PENDING"
         },
         {
-          "opponent": "Warrensburg-Latham vs. Shelbyville Moulton",
+          "opponent": "Oblong vs. Martinsville",
           "score": "PENDING"
         },
         {
-          "opponent": "Warrensburg-Latham vs. Illiopolis Sangamon Valley",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Warrensburg-Latham vs. Decatur Johns Hill",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Warrensburg-Latham vs. Arthur",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Warrensburg-Latham vs. Heyworth",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Warrensburg-Latham vs. Sullivan",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Warrensburg-Latham vs. Mt. Pulaski",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Warrensburg-Latham vs. Athens",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Williamsville vs. Warrensburg-Latham",
+          "opponent": "Oblong vs. Casey-Westfield",
           "score": "PENDING"
         }
       ],
       "record": {
-        "wins": 0,
-        "losses": 1,
-        "completed": 1
-      }
-    },
-    "East Alton MS": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1973&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Piasa Southwestern vs. East Alton MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Jerseyville St. Francis HG vs. East Alton MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. East Alton MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. East Alton MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Jerseyville Community vs. East Alton MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Jerseyville Community vs. East Alton MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Staunton vs. East Alton MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Gillespie def. East Alton MS",
-          "score": "37-29"
-        },
-        {
-          "opponent": "Bethalto Trimpe vs. East Alton MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bethalto Trimpe vs. East Alton MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Olive def. East Alton MS",
-          "score": "54-36"
-        },
-        {
-          "opponent": "East Alton MS vs. Roxana",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "East Alton MS vs. Granite City Coolidge",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "East Alton MS vs. Roxana",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "East Alton MS vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "East Alton MS vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "East Alton MS vs. Alton",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "East Alton MS vs. Madison",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
-        "completed": 2
+        "completed": 3
       }
     },
-    "Sparland Midland": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=523&ActivityCode=GBK&GradeLevel=8",
+    "Fisher": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=189&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "El Paso-Gridley vs. Sparland Midland",
+          "opponent": "Colfax Ridgeview vs. Fisher",
           "score": "PENDING"
         },
         {
-          "opponent": "Roanoke-Benson vs. Sparland Midland",
+          "opponent": "Fisher def. Potomac",
+          "score": "22-18"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Fisher",
           "score": "PENDING"
         },
         {
-          "opponent": "Brimfield def. Sparland Midland",
-          "score": "22-15"
+          "opponent": "Philo St. Thomas def. Fisher",
+          "score": "27-19"
         },
         {
-          "opponent": "McNabb Putnam County vs. Sparland Midland",
+          "opponent": "Champaign St. Matthew vs. Fisher",
           "score": "PENDING"
         },
         {
-          "opponent": "Peoria Christian vs. Sparland Midland",
+          "opponent": "Buckley St. John's vs. Fisher",
           "score": "PENDING"
         },
         {
-          "opponent": "Toulon Stark County vs. Sparland Midland",
+          "opponent": "Fisher def. Rantoul St. Malachy",
+          "score": "34-5"
+        },
+        {
+          "opponent": "Heyworth vs. Fisher",
           "score": "PENDING"
         }
       ],
       "record": {
-        "wins": 0,
+        "wins": 2,
         "losses": 1,
-        "completed": 1
+        "completed": 3
       }
     },
-    "Burr Ridge MS": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=993&ActivityCode=GBK&GradeLevel=8",
+    "Decatur Dennis": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2179&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Bolingbrook Humphrey vs. Burr Ridge MS",
+          "opponent": "Decatur Robertson vs. Decatur Dennis",
           "score": "PENDING"
         },
         {
-          "opponent": "Burr Ridge Gower vs. Burr Ridge MS",
+          "opponent": "Champaign Edison vs. Decatur Dennis",
           "score": "PENDING"
         },
         {
-          "opponent": "Burr Ridge Gower vs. Burr Ridge MS",
+          "opponent": "Jacksonville ISD vs. Decatur Dennis",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Decatur Dennis",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Unity vs. Decatur Dennis",
           "score": "PENDING"
         }
       ],
@@ -235,6 +222,108 @@ window.iesaScoreCache = {
         "wins": 0,
         "losses": 0,
         "completed": 0
+      }
+    },
+    "Maryville Christian": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2127&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Highland MS vs. Maryville Christian",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian def. Coolidge",
+          "score": "33-26"
+        },
+        {
+          "opponent": "Jerseyville Community def. Maryville Christian",
+          "score": "31-28"
+        },
+        {
+          "opponent": "Maryville Christian vs. East Alton MS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. Roxana",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. Bethalto Trimpe",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. Wood River Lewis & Clark",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. St. Rose",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. East Alton MS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. Lebanon",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. Roxana",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. Immaculate Conception",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. Triad",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. Wood River Lewis & Clark",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. MCS Tournament",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. MCS Tournament",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. Jerseyville Community",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. Mascoutah",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. Shiloh",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. Bethalto Trimpe",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. O'Fallon Fulton",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. Smithton",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Maryville Christian vs. MCS Tournament",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 1,
+        "completed": 2
       }
     },
     "Mattoon St. John's": {
@@ -339,255 +428,93 @@ window.iesaScoreCache = {
         "completed": 2
       }
     },
-    "Georgetown Mary Miller": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=206&ActivityCode=GBK&GradeLevel=8",
+    "Casey-Westfield": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=95&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Paris Mayo vs. Georgetown Mary Miller",
+          "opponent": "Paris Mayo vs. Casey-Westfield",
           "score": "PENDING"
         },
         {
-          "opponent": "Potomac vs. Georgetown Mary Miller",
+          "opponent": "Sigel St. Michael's vs. Casey-Westfield",
           "score": "PENDING"
         },
         {
-          "opponent": "Westville JHS def. Georgetown Mary Miller",
-          "score": "37-23"
-        },
-        {
-          "opponent": "Oakwood GS vs. Georgetown Mary Miller",
+          "opponent": "Charleston vs. Casey-Westfield",
           "score": "PENDING"
         },
         {
-          "opponent": "Georgetown Mary Miller vs. Hume Shiloh",
+          "opponent": "Paris Crestwood vs. Casey-Westfield",
           "score": "PENDING"
         },
         {
-          "opponent": "Georgetown Mary Miller vs. Rossville-Alvin",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Georgetown Mary Miller vs. Homer Heritage",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Georgetown Mary Miller vs. Chrisman Scottland",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Georgetown Mary Miller vs. Bismarck-Henning",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Georgetown Mary Miller vs. Hoopeston Area",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Georgetown Mary Miller vs. Philo St. Thomas",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Georgetown Mary Miller vs. Sidell Jamaica",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Georgetown Mary Miller vs. St. Joseph",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Georgetown Mary Miller vs. Danville North Ridge",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Georgetown Mary Miller vs. Royal Prairieview Ogden",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Sidell Salt Fork vs. Georgetown Mary Miller",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 1,
-        "completed": 1
-      }
-    },
-    "Decatur Dansby": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2613&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Mattoon St. John's vs. Decatur Dansby",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Hope vs. Decatur Dansby",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Unity vs. Decatur Dansby",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Riverdale Washington": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1978&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Ford Heights Cottage Grove UGC vs. Riverdale Washington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ford Heights Cottage Grove UGC vs. Riverdale Washington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dolton Roosevelt vs. Riverdale Washington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Blue Island Veterans Memorial vs. Riverdale Washington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Calumet Park Calumet vs. Riverdale Washington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Sauk Village Rickover vs. Riverdale Washington",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Brownstown (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=68&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Louisville North Clay vs. Brownstown",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ramsey vs. Brownstown",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Sigel St. Michael's vs. Brownstown",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Brownstown",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Greenville vs. Brownstown",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Stewardson-Strasburg def. Brownstown",
-          "score": "31-23"
-        },
-        {
-          "opponent": "Beecher City vs. Brownstown",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Kinmundy South Central vs. Brownstown",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brownstown def. Effingham Sacred Heart",
-          "score": "38-8"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 1,
-        "completed": 2
-      }
-    },
-    "Stewardson-Strasburg (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=545&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Louisville North Clay vs. Stewardson-Strasburg",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ramsey vs. Stewardson-Strasburg",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Pana Sacred Heart vs. Stewardson-Strasburg",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Sigel St. Michael's vs. Stewardson-Strasburg",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Stewardson-Strasburg",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Teutopolis vs. Stewardson-Strasburg",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Stewardson-Strasburg def. Beecher City",
-          "score": "23-10"
+          "opponent": "Bridgeport Red Hill def. Casey-Westfield",
+          "score": "33-17"
         },
         {
           "opponent": "Stewardson-Strasburg def. Casey-Westfield",
           "score": "44-14"
         },
         {
-          "opponent": "Stewardson-Strasburg def. Brownstown",
-          "score": "31-23"
-        },
-        {
-          "opponent": "Stewardson-Strasburg vs. Altamont",
+          "opponent": "Mattoon vs. Casey-Westfield",
           "score": "PENDING"
         },
         {
-          "opponent": "Stewardson-Strasburg vs. Neoga",
+          "opponent": "Mattoon St. John's vs. Casey-Westfield",
           "score": "PENDING"
         },
         {
-          "opponent": "Stewardson-Strasburg vs. Arthur",
+          "opponent": "Oblong vs. Casey-Westfield",
           "score": "PENDING"
         },
         {
-          "opponent": "Stewardson-Strasburg vs. Findlay Okaw Valley",
+          "opponent": "Lawrenceville Parkview vs. Casey-Westfield",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 2,
+        "completed": 2
+      }
+    },
+    "Springfield Christian": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=530&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Auburn JHS at Divernon vs. Springfield Christian",
           "score": "PENDING"
         },
         {
-          "opponent": "Stewardson-Strasburg vs. Effingham Sacred Heart",
+          "opponent": "Mt. Zion vs. Springfield Christian",
           "score": "PENDING"
         },
         {
-          "opponent": "Stewardson-Strasburg vs. Shelbyville Moulton",
+          "opponent": "Springfield Christian def. Springfield Calvary",
+          "score": "41-13"
+        },
+        {
+          "opponent": "Springfield Lincoln vs. Springfield Christian",
           "score": "PENDING"
         },
         {
-          "opponent": "Stewardson-Strasburg vs. Kinmundy South Central",
+          "opponent": "Lincoln Chester-East Lincoln vs. Springfield Christian",
           "score": "PENDING"
         },
         {
-          "opponent": "Stewardson-Strasburg vs. Pana JHS",
+          "opponent": "Springfield Christian def. Ashland A-C Central",
+          "score": "30-8"
+        },
+        {
+          "opponent": "Springfield Blessed Sacrament vs. Springfield Christian",
           "score": "PENDING"
         },
         {
-          "opponent": "Stewardson-Strasburg vs. Toledo Cumberland",
+          "opponent": "Springfield Christian def. New Berlin JHS",
+          "score": "35-13"
+        },
+        {
+          "opponent": "Decatur Unity vs. Springfield Christian",
           "score": "PENDING"
         }
       ],
@@ -597,40 +524,44 @@ window.iesaScoreCache = {
         "completed": 3
       }
     },
-    "Lewistown JHS": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=298&ActivityCode=GBK&GradeLevel=8",
+    "Altamont (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=5&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Beardstown MS vs. Lewistown JHS",
+          "opponent": "Louisville North Clay vs. Altamont",
           "score": "PENDING"
         },
         {
-          "opponent": "Bushnell-Prairie City vs. Lewistown JHS",
+          "opponent": "Effingham JHS vs. Altamont",
           "score": "PENDING"
         },
         {
-          "opponent": "Havana vs. Lewistown JHS",
+          "opponent": "Ramsey vs. Altamont",
           "score": "PENDING"
         },
         {
-          "opponent": "London Mills Valley vs. Lewistown JHS",
+          "opponent": "Vandalia vs. Altamont",
           "score": "PENDING"
         },
         {
-          "opponent": "Rushville Schuyler Industry vs. Lewistown JHS",
+          "opponent": "Sigel St. Michael's vs. Altamont",
           "score": "PENDING"
         },
         {
-          "opponent": "Brimfield vs. Lewistown JHS",
+          "opponent": "Charleston vs. Altamont",
           "score": "PENDING"
         },
         {
-          "opponent": "Petersburg PORTA JHS vs. Lewistown JHS",
+          "opponent": "Dieterich def. Altamont",
+          "score": "26-15"
+        },
+        {
+          "opponent": "Stewardson-Strasburg vs. Altamont",
           "score": "PENDING"
         },
         {
-          "opponent": "Avon Abingdon Avon def. Lewistown JHS",
-          "score": "27-18"
+          "opponent": "Kinmundy South Central vs. Altamont",
+          "score": "PENDING"
         }
       ],
       "record": {
@@ -639,145 +570,71 @@ window.iesaScoreCache = {
         "completed": 1
       }
     },
-    "Decatur Hope": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1849&ActivityCode=GBK&GradeLevel=8",
+    "Bunker Hill Wolf Ridge": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=74&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Decatur Robertson vs. Decatur Hope",
+          "opponent": "Piasa Southwestern vs. Bunker Hill Wolf Ridge",
           "score": "PENDING"
         },
         {
-          "opponent": "Macon Meridian vs. Decatur Hope",
+          "opponent": "Piasa Southwestern vs. Bunker Hill Wolf Ridge",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Decatur Our Lady of Lourdes",
+          "opponent": "Staunton def. Bunker Hill Wolf Ridge",
+          "score": "36-0"
+        },
+        {
+          "opponent": "Staunton vs. Bunker Hill Wolf Ridge",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Decatur Johns Hill",
+          "opponent": "Mt. Olive def. Bunker Hill Wolf Ridge",
+          "score": "38-9"
+        },
+        {
+          "opponent": "Bunker Hill Wolf Ridge vs. White Hall North Greene",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Assumption Central A & M",
+          "opponent": "Bunker Hill Wolf Ridge vs. Pocahontas",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Decatur Dansby",
+          "opponent": "Bunker Hill Wolf Ridge vs. Greenfield",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Decatur Montessori Academy for Peace",
+          "opponent": "Bunker Hill Wolf Ridge vs. Carlinville",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Decatur Dennis",
+          "opponent": "Bunker Hill Wolf Ridge vs. Wood River Lewis & Clark",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Decatur Johns Hill",
+          "opponent": "Bunker Hill Wolf Ridge vs. Gillespie",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Decatur Stephen Decatur",
+          "opponent": "Bunker Hill Wolf Ridge vs. Morrisonville JHS",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Decatur Unity",
+          "opponent": "Bunker Hill Wolf Ridge vs. Carlinville",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Normal Calvary",
+          "opponent": "Bunker Hill Wolf Ridge vs. Jerseyville St. Francis HG",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Champaign International",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Nauvoo-Colusa": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=397&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Mt. Sterling Brown County vs. Nauvoo-Colusa",
+          "opponent": "Bunker Hill Wolf Ridge vs. Gillespie",
           "score": "PENDING"
         },
         {
-          "opponent": "Hamilton ES vs. Nauvoo-Colusa",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Hamilton ES vs. Nauvoo-Colusa",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Hamilton ES vs. Nauvoo-Colusa",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Colchester West Prairie def. Nauvoo-Colusa",
-          "score": "25-16"
-        },
-        {
-          "opponent": "Mendon Unity def. Nauvoo-Colusa",
-          "score": "19-17"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. La Harpe",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. La Harpe",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. Colchester West Prairie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. Camp Point Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. Kinderhook Western",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. Stronghurst West Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. Payson Seymour",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. Mendon Unity",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. Augusta Southeastern",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. Macomb",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. Quincy St. Peter",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. Liberty",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. Carthage",
+          "opponent": "Bunker Hill Wolf Ridge vs. Mt. Olive",
           "score": "PENDING"
         }
       ],
@@ -787,63 +644,107 @@ window.iesaScoreCache = {
         "completed": 2
       }
     },
-    "McNabb Putnam County": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=350&ActivityCode=GBK&GradeLevel=8",
+    "Green Valley Midwest Central": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=222&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Spring Valley Kennedy vs. McNabb Putnam County",
+          "opponent": "Havana vs. Green Valley Midwest Central",
           "score": "PENDING"
         },
         {
-          "opponent": "Mendota Northbrook def. McNabb Putnam County",
-          "score": "19-8"
-        },
-        {
-          "opponent": "El Paso-Gridley vs. McNabb Putnam County",
+          "opponent": "Chillicothe vs. Green Valley Midwest Central",
           "score": "PENDING"
         },
         {
-          "opponent": "Roanoke-Benson vs. McNabb Putnam County",
+          "opponent": "Green Valley Midwest Central def. Mackinaw Dee-Mack",
+          "score": "35-16"
+        },
+        {
+          "opponent": "Green Valley Midwest Central vs. Tremont",
           "score": "PENDING"
         },
         {
-          "opponent": "Chillicothe vs. McNabb Putnam County",
+          "opponent": "Bartonville GS vs. Green Valley Midwest Central",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Lowpoint-Washburn",
+          "opponent": "Brimfield vs. Green Valley Midwest Central",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Streator Woodland",
+          "opponent": "Peoria Christian vs. Green Valley Midwest Central",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Sparland Midland",
+          "opponent": "Green Valley Midwest Central vs. Pekin Broadmoor",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Ottawa Marquette",
+          "opponent": "Green Valley Midwest Central vs. Mason City Illini Central",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Peru Parkside",
+          "opponent": "Lincoln Chester-East Lincoln vs. Green Valley Midwest Central",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Toulon Stark County",
+          "opponent": "Green Valley Midwest Central def. Lincoln JHS",
+          "score": "47-9"
+        },
+        {
+          "opponent": "Pekin Edison vs. Green Valley Midwest Central",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 2,
+        "losses": 0,
+        "completed": 2
+      }
+    },
+    "Rockford Montessori": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2555&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Rockford Kennedy vs. Rockford Montessori",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Wenona Fieldcrest",
+          "opponent": "Rockford Kennedy vs. Rockford Montessori",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. LaSalle St. Acutis",
+          "opponent": "Rockford Flinn vs. Rockford Montessori",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Henry-Senachwine",
+          "opponent": "Rockford Lincoln vs. Rockford Montessori",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Manlius Bureau Valley JHS": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2454&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Spring Valley Kennedy vs. Manlius Bureau Valley JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Manlius Bureau Valley JHS def. Mendota Northbrook",
+          "score": "34-8"
+        },
+        {
+          "opponent": "Manlius Bureau Valley JHS def. Annawan",
+          "score": "44-19"
+        },
+        {
+          "opponent": "Ottawa Shepherd vs. Manlius Bureau Valley JHS",
           "score": "PENDING"
         },
         {
@@ -851,49 +752,57 @@ window.iesaScoreCache = {
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Mendota Holy Cross",
+          "opponent": "Peru Parkside vs. Manlius Bureau Valley JHS",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Princeton Logan",
+          "opponent": "Toulon Stark County vs. Manlius Bureau Valley JHS",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Marseilles ES",
+          "opponent": "Oglesby Washington vs. Manlius Bureau Valley JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kewanee Central vs. Manlius Bureau Valley JHS",
           "score": "PENDING"
         }
       ],
       "record": {
-        "wins": 0,
-        "losses": 1,
-        "completed": 1
+        "wins": 2,
+        "losses": 0,
+        "completed": 2
       }
     },
-    "Normal Metcalf": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=418&ActivityCode=GBK&GradeLevel=8",
+    "Hardin Calhoun (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=765&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Colfax Ridgeview vs. Normal Metcalf",
+          "opponent": "Carrollton GS vs. Hardin Calhoun",
           "score": "PENDING"
         },
         {
-          "opponent": "Bloomington Corpus Christi vs. Normal Metcalf",
+          "opponent": "Carrollton GS vs. Hardin Calhoun",
           "score": "PENDING"
         },
         {
-          "opponent": "Roanoke-Benson vs. Normal Metcalf",
+          "opponent": "Jerseyville St. Francis HG vs. Hardin Calhoun",
           "score": "PENDING"
         },
         {
-          "opponent": "Pontiac JHS vs. Normal Metcalf",
+          "opponent": "Jerseyville St. Francis HG vs. Hardin Calhoun",
           "score": "PENDING"
         },
         {
-          "opponent": "Bloomington Cornerstone vs. Normal Metcalf",
+          "opponent": "Mt. Sterling Brown County vs. Hardin Calhoun",
           "score": "PENDING"
         },
         {
-          "opponent": "Bloomington Trinity Lutheran vs. Normal Metcalf",
+          "opponent": "Jerseyville Community vs. Hardin Calhoun",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Jacksonville Our Saviour vs. Hardin Calhoun",
           "score": "PENDING"
         }
       ],
@@ -903,187 +812,117 @@ window.iesaScoreCache = {
         "completed": 0
       }
     },
-    "Beecher City (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=36&ActivityCode=GBK&GradeLevel=8",
+    "Wood River Lewis & Clark": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=956&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Louisville North Clay vs. Beecher City",
+          "opponent": "Bunker Hill Wolf Ridge vs. Wood River Lewis & Clark",
           "score": "PENDING"
         },
         {
-          "opponent": "Ramsey vs. Beecher City",
+          "opponent": "Maryville Christian vs. Wood River Lewis & Clark",
           "score": "PENDING"
         },
         {
-          "opponent": "Vandalia def. Beecher City",
-          "score": "39-23"
-        },
-        {
-          "opponent": "Pana Sacred Heart vs. Beecher City",
+          "opponent": "Maryville Christian vs. Wood River Lewis & Clark",
           "score": "PENDING"
         },
         {
-          "opponent": "Sigel St. Michael's vs. Beecher City",
+          "opponent": "Jerseyville Community vs. Wood River Lewis & Clark",
           "score": "PENDING"
         },
         {
-          "opponent": "Dieterich vs. Beecher City",
+          "opponent": "Jerseyville Community vs. Wood River Lewis & Clark",
           "score": "PENDING"
         },
         {
-          "opponent": "Teutopolis vs. Beecher City",
+          "opponent": "Bethalto Trimpe vs. Wood River Lewis & Clark",
           "score": "PENDING"
         },
         {
-          "opponent": "Stewardson-Strasburg def. Beecher City",
-          "score": "23-10"
-        },
-        {
-          "opponent": "Beecher City vs. Kinmundy South Central",
+          "opponent": "East Alton MS vs. Wood River Lewis & Clark",
           "score": "PENDING"
         },
         {
-          "opponent": "Beecher City vs. Nokomis JHS",
+          "opponent": "East Alton MS vs. Wood River Lewis & Clark",
           "score": "PENDING"
         },
         {
-          "opponent": "Beecher City vs. Effingham Sacred Heart",
-          "score": "PENDING"
+          "opponent": "Wood River Lewis & Clark def. Pocahontas",
+          "score": "21-8"
         },
         {
-          "opponent": "Beecher City vs. Brownstown",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Beecher City vs. Mulberry Grove JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Beecher City vs. Effingham St. Anthony",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Beecher City vs. Shelbyville Moulton",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Beecher City vs. Toledo Cumberland",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Beecher City vs. Mattoon St. John's",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Beecher City vs. Neoga",
+          "opponent": "Pocahontas vs. Wood River Lewis & Clark",
           "score": "PENDING"
         }
       ],
       "record": {
-        "wins": 0,
-        "losses": 2,
-        "completed": 2
-      }
-    },
-    "Waterman Indian Creek": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=590&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Hinckley-Big Rock def. Waterman Indian Creek",
-          "score": "23-19"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Plano",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Leland",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Sandwich",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Somonauk",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Leland",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Serena",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Mendota Holy Cross",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Paw Paw",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Newark Lisbon",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Earlville",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Plano",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Millbrook",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Ottawa Shepherd",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Sandwich",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Hinckley-Big Rock",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Paw Paw",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Morris Saratoga",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Waterman Indian Creek vs. Marseilles ES",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 1,
+        "wins": 1,
+        "losses": 0,
         "completed": 1
       }
     },
-    "Camp Point Central": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=88&ActivityCode=GBK&GradeLevel=8",
+    "Mt. Sterling Brown County (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=390&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Beardstown MS vs. Camp Point Central",
+          "opponent": "Beardstown MS vs. Mt. Sterling Brown County",
           "score": "PENDING"
         },
         {
-          "opponent": "Camp Point Central def. Bushnell-Prairie City",
-          "score": "28-26"
+          "opponent": "Havana vs. Mt. Sterling Brown County",
+          "score": "PENDING"
         },
         {
-          "opponent": "Rushville Schuyler Industry vs. Camp Point Central",
+          "opponent": "Mt. Sterling Brown County def. Rushville Schuyler Industry",
+          "score": "42-23"
+        },
+        {
+          "opponent": "Carthage vs. Mt. Sterling Brown County",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County vs. Pittsfield Pikeland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County vs. Griggsville-Perry",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County vs. Hardin Calhoun",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County vs. Quincy",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County vs. Carrollton St. John",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County vs. Bluffs",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County vs. Liberty",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County vs. Colchester West Prairie",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County vs. Virginia",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County vs. Macomb",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County vs. Washington Central",
           "score": "PENDING"
         },
         {
@@ -1091,579 +930,19 @@ window.iesaScoreCache = {
           "score": "PENDING"
         },
         {
-          "opponent": "Hamilton ES vs. Camp Point Central",
+          "opponent": "Mt. Sterling Brown County vs. Nauvoo-Colusa",
           "score": "PENDING"
         },
         {
-          "opponent": "Nauvoo-Colusa vs. Camp Point Central",
+          "opponent": "Mt. Sterling Brown County vs. Mendon Unity",
           "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 0,
-        "completed": 1
-      }
-    },
-    "Kinmundy South Central (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=281&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Kinmundy South Central def. Louisville North Clay",
-          "score": "50-11"
-        },
-        {
-          "opponent": "Ramsey vs. Kinmundy South Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Sigel St. Michael's vs. Kinmundy South Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Kinmundy South Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Stewardson-Strasburg vs. Kinmundy South Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Beecher City vs. Kinmundy South Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Kinmundy South Central vs. Mulberry Grove JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Kinmundy South Central vs. Effingham JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Kinmundy South Central vs. Effingham Sacred Heart",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Kinmundy South Central vs. Brownstown",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Kinmundy South Central vs. Toledo Cumberland",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Kinmundy South Central vs. Altamont",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Kinmundy South Central vs. Sandoval",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Kinmundy South Central vs. Woodlawn",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Kinmundy South Central vs. Flora",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Kinmundy South Central vs. Neoga",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 0,
-        "completed": 1
-      }
-    },
-    "Spring Valley Kennedy": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=525&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Spring Valley Kennedy vs. LaSalle Dimmick",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Spring Valley Kennedy vs. Ottawa Marquette",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Spring Valley Kennedy vs. LaSalle St. Acutis",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Spring Valley Kennedy vs. Princeton Logan",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Spring Valley Kennedy vs. Metamora GS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Spring Valley Kennedy vs. Peru Parkside",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Spring Valley Kennedy vs. Streator Northlawn",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Spring Valley Kennedy vs. Mendota Northbrook",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Spring Valley Kennedy vs. Streator Northlawn",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Spring Valley Kennedy vs. Manlius Bureau Valley JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Spring Valley Kennedy vs. Ottawa Shepherd",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Spring Valley Kennedy vs. Oglesby Washington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Spring Valley Kennedy vs. McNabb Putnam County",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Decatur Our Lady of Lourdes (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=930&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Mt. Zion vs. Decatur Our Lady of Lourdes",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Robertson vs. Decatur Our Lady of Lourdes",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "St. Jacob Triad def. Decatur Our Lady of Lourdes",
-          "score": "29-28"
-        },
-        {
-          "opponent": "Pana Sacred Heart vs. Decatur Our Lady of Lourdes",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Lincoln Chester-East Lincoln vs. Decatur Our Lady of Lourdes",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Staunton def. Decatur Our Lady of Lourdes",
-          "score": "36-11"
-        },
-        {
-          "opponent": "Decatur Hope vs. Decatur Our Lady of Lourdes",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Arthur",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Illiopolis Sangamon Valley",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Springfield Washington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Warrensburg-Latham",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Lincoln West Lincoln-Broadwell",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Decatur Johns Hill",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Taylorville JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Assumption Central A & M",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Mattoon St. John's",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Decatur Unity",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Mt. Pulaski",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Decatur Montessori Academy for Peace",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Maroa-Forsyth",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Argenta-Oreana",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Clinton",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Highland MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bethalto Trimpe vs. Decatur Our Lady of Lourdes",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 2,
-        "completed": 2
-      }
-    },
-    "Wenona Fieldcrest": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1834&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Washington MS vs. Wenona Fieldcrest",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bloomington Corpus Christi vs. Wenona Fieldcrest",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "El Paso-Gridley vs. Wenona Fieldcrest",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Roanoke-Benson vs. Wenona Fieldcrest",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Shepherd vs. Wenona Fieldcrest",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "McNabb Putnam County vs. Wenona Fieldcrest",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Pontiac JHS vs. Wenona Fieldcrest",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Wenona Fieldcrest def. Peru Parkside",
-          "score": "32-31"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 0,
-        "completed": 1
-      }
-    },
-    "Peoria St. Philomena": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=702&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Kickapoo St. Mary's vs. Peoria St. Philomena",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Germantown Hills vs. Peoria St. Philomena",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Morton Blessed Sacrament vs. Peoria St. Philomena",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Marquette Heights Georgetowne vs. Peoria St. Philomena",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dunlap MS vs. Peoria St. Philomena",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria St. Philomena def. Champaign St. Matthew",
-          "score": "32-10"
-        },
-        {
-          "opponent": "Peoria Christian vs. Peoria St. Philomena",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Washington Central vs. Peoria St. Philomena",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bartonville Monroe vs. Peoria St. Philomena",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria St. Vincent de Paul vs. Peoria St. Philomena",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 0,
-        "completed": 1
-      }
-    },
-    "Macon Meridian": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=48&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Macon Meridian vs. Argenta-Oreana",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Pana JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Maroa-Forsyth",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Clinton",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Decatur Unity",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Assumption Central A & M",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Warrensburg-Latham",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Shelbyville Moulton",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Monticello",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Arthur",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Decatur Hope",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Decatur Stephen Decatur",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Nokomis JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Decatur Johns Hill",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Illiopolis Sangamon Valley",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Kincaid South Fork",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Findlay Okaw Valley",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Albion (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Palestine vs. Albion",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Lawrenceville",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Jasper",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Fairfield",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. New Hope",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Cisne",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. St Joe",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Salem",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Flora",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Fairfield",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Mt. Carmel",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Carmi",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Olney",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Wayne City",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Hamilton County",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Grayville",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Albion vs. Hamilton County Tournament",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Lawrenceville Parkview vs. Albion",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Momence JHS": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=368&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Braidwood Reed-Custer vs. Momence JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Manteno vs. Momence JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Gardner vs. Momence JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Wilmington vs. Momence JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Herscher Limestone vs. Momence JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Watseka JHS vs. Momence JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Momence JHS vs. Kankakee Grace Christian",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peotone vs. Momence JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Momence JHS def. Bourbonnais St. George",
-          "score": "22-19"
-        },
-        {
-          "opponent": "Momence JHS vs. Bradley Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Momence JHS vs. Beecher",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Momence JHS vs. Onarga Iroquois West",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Momence JHS vs. Grant Park",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Momence JHS vs. St. Anne",
-          "score": "PENDING"
         },
         {
-          "opponent": "Momence JHS vs. Crete Illinois Lutheran",
+          "opponent": "Mt. Sterling Brown County vs. Quincy St. Peter",
           "score": "PENDING"
         },
         {
-          "opponent": "Momence JHS vs. Donovan",
+          "opponent": "Mt. Sterling Brown County vs. Kinderhook Western",
           "score": "PENDING"
         }
       ],
@@ -1763,172 +1042,129 @@ window.iesaScoreCache = {
         "completed": 2
       }
     },
-    "Assumption Central A & M": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=18&ActivityCode=GBK&GradeLevel=8",
+    "Beecher City (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=36&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Cerro Gordo vs. Assumption Central A & M",
+          "opponent": "Louisville North Clay vs. Beecher City",
           "score": "PENDING"
         },
         {
-          "opponent": "Pana Sacred Heart vs. Assumption Central A & M",
+          "opponent": "Ramsey vs. Beecher City",
           "score": "PENDING"
         },
         {
-          "opponent": "Macon Meridian vs. Assumption Central A & M",
+          "opponent": "Vandalia def. Beecher City",
+          "score": "39-23"
+        },
+        {
+          "opponent": "Pana Sacred Heart vs. Beecher City",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Our Lady of Lourdes vs. Assumption Central A & M",
+          "opponent": "Sigel St. Michael's vs. Beecher City",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Assumption Central A & M",
+          "opponent": "Dieterich vs. Beecher City",
           "score": "PENDING"
         },
         {
-          "opponent": "Warrensburg-Latham vs. Assumption Central A & M",
+          "opponent": "Teutopolis vs. Beecher City",
           "score": "PENDING"
         },
         {
-          "opponent": "Assumption Central A & M vs. Monticello",
+          "opponent": "Stewardson-Strasburg def. Beecher City",
+          "score": "23-10"
+        },
+        {
+          "opponent": "Beecher City vs. Kinmundy South Central",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Unity vs. Assumption Central A & M",
+          "opponent": "Beecher City vs. Nokomis JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Beecher City vs. Effingham Sacred Heart",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Beecher City vs. Brownstown",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Beecher City vs. Mulberry Grove JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Beecher City vs. Effingham St. Anthony",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Beecher City vs. Shelbyville Moulton",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Beecher City vs. Toledo Cumberland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Beecher City vs. Mattoon St. John's",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Beecher City vs. Neoga",
           "score": "PENDING"
         }
       ],
       "record": {
         "wins": 0,
-        "losses": 0,
-        "completed": 0
+        "losses": 2,
+        "completed": 2
       }
     },
-    "White Hall North Greene": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=502&ActivityCode=GBK&GradeLevel=8",
+    "London Mills Valley (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=319&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Carrollton GS vs. White Hall North Greene",
+          "opponent": "Bushnell-Prairie City vs. London Mills Valley",
           "score": "PENDING"
         },
         {
-          "opponent": "Carrollton GS vs. White Hall North Greene",
+          "opponent": "London Mills Valley vs. Monmouth ICS",
           "score": "PENDING"
         },
         {
-          "opponent": "Bunker Hill Wolf Ridge vs. White Hall North Greene",
+          "opponent": "London Mills Valley def. Table Grove VIT",
+          "score": "20-13"
+        },
+        {
+          "opponent": "London Mills Valley vs. Princeville",
           "score": "PENDING"
         },
         {
-          "opponent": "Jerseyville St. Francis HG vs. White Hall North Greene",
+          "opponent": "London Mills Valley vs. Avon Abingdon Avon",
           "score": "PENDING"
         },
         {
-          "opponent": "Jerseyville St. Francis HG vs. White Hall North Greene",
+          "opponent": "London Mills Valley vs. Farmington Central",
           "score": "PENDING"
         },
         {
-          "opponent": "Jacksonville ISD vs. White Hall North Greene",
+          "opponent": "London Mills Valley vs. Elmwood",
           "score": "PENDING"
         },
         {
-          "opponent": "Jerseyville Community vs. White Hall North Greene",
+          "opponent": "London Mills Valley vs. Glasford Illini Bluffs",
           "score": "PENDING"
         },
         {
-          "opponent": "Jacksonville Our Saviour vs. White Hall North Greene",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Evanston St. Athanasius": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2348&ActivityCode=GBK&GradeLevel=8",
-      "games": [],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Williamsfield (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=604&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Annawan vs. Williamsfield",
+          "opponent": "London Mills Valley vs. Colchester West Prairie",
           "score": "PENDING"
         },
         {
-          "opponent": "Brimfield vs. Williamsfield",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Monmouth United vs. Williamsfield",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Toulon Stark County vs. Williamsfield",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Aledo Mercer County vs. Williamsfield",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Mt. Pulaski (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=389&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Springfield Calvary vs. Mt. Pulaski",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Lincoln Chester-East Lincoln vs. Mt. Pulaski",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Mt. Pulaski",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Warrensburg-Latham vs. Mt. Pulaski",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Williamsville vs. Mt. Pulaski",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Unity vs. Mt. Pulaski",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Stronghurst West Central": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1783&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Galesburg JHS vs. Stronghurst West Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bushnell-Prairie City vs. Stronghurst West Central",
+          "opponent": "London Mills Valley vs. Lewistown JHS",
           "score": "PENDING"
         },
         {
@@ -1936,27 +1172,507 @@ window.iesaScoreCache = {
           "score": "PENDING"
         },
         {
-          "opponent": "Monmouth United vs. Stronghurst West Central",
+          "opponent": "London Mills Valley vs. Peoria Heights GS",
           "score": "PENDING"
         },
         {
-          "opponent": "Hamilton ES vs. Stronghurst West Central",
+          "opponent": "London Mills Valley vs. La Harpe",
           "score": "PENDING"
         },
         {
-          "opponent": "Monmouth-Roseville JHS vs. Stronghurst West Central",
+          "opponent": "London Mills Valley vs. Chillicothe",
           "score": "PENDING"
         },
         {
-          "opponent": "Nauvoo-Colusa vs. Stronghurst West Central",
+          "opponent": "Brimfield vs. London Mills Valley",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "completed": 1
+      }
+    },
+    "Ottawa Wallace": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=435&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Serena vs. Ottawa Wallace",
           "score": "PENDING"
         },
         {
-          "opponent": "Avon Abingdon Avon vs. Stronghurst West Central",
+          "opponent": "Ottawa Wallace def. Flanagan",
+          "score": "35-25"
+        },
+        {
+          "opponent": "Ottawa Shepherd vs. Ottawa Wallace",
           "score": "PENDING"
         },
         {
-          "opponent": "Aledo Mercer County vs. Stronghurst West Central",
+          "opponent": "Peru Parkside vs. Ottawa Wallace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Marseilles Milton Pope vs. Ottawa Wallace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ottawa Wallace def. Princeton Logan",
+          "score": "24-19"
+        },
+        {
+          "opponent": "Ottawa Wallace def. Ransom",
+          "score": "24-18"
+        },
+        {
+          "opponent": "Ottawa Wallace def. Morris Nettle Creek",
+          "score": "50-2"
+        },
+        {
+          "opponent": "Ottawa Wallace vs. LaSalle St. Acutis",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ottawa Wallace vs. LaSalle Dimmick",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ottawa Wallace vs. Lostant",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ottawa Wallace vs. Oglesby Washington",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ottawa Wallace vs. Ottawa Marquette",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ottawa Wallace vs. Marseilles ES",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ottawa Wallace vs. Ladd",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ottawa Wallace vs. Plano",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ottawa Wallace vs. Seneca",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ottawa Wallace vs. Morris GS",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 4,
+        "losses": 0,
+        "completed": 4
+      }
+    },
+    "Dieterich": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=157&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Dieterich def. Louisville North Clay",
+          "score": "25-14"
+        },
+        {
+          "opponent": "Effingham JHS vs. Dieterich",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Sigel St. Michael's vs. Dieterich",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich def. Altamont",
+          "score": "26-15"
+        },
+        {
+          "opponent": "Dieterich vs. Oblong",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Martinsville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Stewardson-Strasburg",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Neoga",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Kinmundy South Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Effingham St. Anthony",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Beecher City",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Newton Jasper County",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Toledo Cumberland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Brownstown",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Robinson Nuttall",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Effingham Sacred Heart",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Teutopolis",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich def. Mattoon St. John's",
+          "score": "29-22"
+        },
+        {
+          "opponent": "Dieterich def. Vandalia",
+          "score": "29-15"
+        }
+      ],
+      "record": {
+        "wins": 4,
+        "losses": 0,
+        "completed": 4
+      }
+    },
+    "Joliet Laraway": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1671&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Lockport Fairmont vs. Joliet Laraway",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Lockport Fairmont vs. Joliet Laraway",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Joliet Laraway def. Elwood GS",
+          "score": "43-13"
+        },
+        {
+          "opponent": "Lockport Taft vs. Joliet Laraway",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Lockport Taft vs. Joliet Laraway",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Joliet Laraway vs. Joliet Gompers",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Joliet Laraway vs. Rockdale",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Joliet Laraway vs. Crest Hill Richland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Joliet Laraway vs. Chaney Monge",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Joliet Laraway vs. Rockdale",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Joliet Laraway vs. Chaney Monge",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Joliet Laraway vs. Crest Hill Richland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Joliet Laraway vs. Elwood GS",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "completed": 1
+      }
+    },
+    "Gibson City GCMS": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=353&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Gibson City GCMS def. Colfax Ridgeview",
+          "score": "34-13"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Gibson City GCMS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "El Paso-Gridley vs. Gibson City GCMS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cissna Park vs. Gibson City GCMS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Watseka JHS vs. Gibson City GCMS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rantoul St. Malachy vs. Gibson City GCMS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Heyworth vs. Gibson City GCMS",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "completed": 1
+      }
+    },
+    "Elmwood": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=180&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Havana vs. Elmwood",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "London Mills Valley vs. Elmwood",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Chillicothe vs. Elmwood",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Elmwood",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Limestone Walters vs. Elmwood",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dunlap MS vs. Elmwood",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Christian vs. Elmwood",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Washington St. Patrick vs. Elmwood",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bartonville Monroe vs. Elmwood",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Avon Abingdon Avon def. Elmwood",
+          "score": "32-12"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 1,
+        "completed": 1
+      }
+    },
+    "Albion (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Palestine vs. Albion",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Lawrenceville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Jasper",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Fairfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. New Hope",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Cisne",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. St Joe",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Salem",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Flora",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Fairfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Mt. Carmel",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Carmi",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Olney",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Wayne City",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Hamilton County",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Grayville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Albion vs. Hamilton County Tournament",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Lawrenceville Parkview vs. Albion",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Normal Epiphany": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=417&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Bloomington Corpus Christi vs. Normal Epiphany",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Roanoke-Benson vs. Normal Epiphany",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Normal Epiphany def. Morton Blessed Sacrament",
+          "score": "42-24"
+        },
+        {
+          "opponent": "Champaign St. Matthew vs. Normal Epiphany",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Washington Central def. Normal Epiphany",
+          "score": "38-13"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Normal Epiphany",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Trinity Lutheran vs. Normal Epiphany",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Normal Epiphany def. Champaign Holy Cross",
+          "score": "51-0"
+        },
+        {
+          "opponent": "Normal Epiphany def. Heyworth",
+          "score": "35-15"
+        }
+      ],
+      "record": {
+        "wins": 3,
+        "losses": 1,
+        "completed": 4
+      }
+    },
+    "Princeville": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=485&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "London Mills Valley vs. Princeville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Chillicothe vs. Princeville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Princeville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Limestone Walters vs. Princeville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Christian vs. Princeville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bartonville Monroe vs. Princeville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria St. Vincent de Paul vs. Princeville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Toulon Stark County vs. Princeville",
           "score": "PENDING"
         }
       ],
@@ -2004,213 +1720,175 @@ window.iesaScoreCache = {
         "completed": 2
       }
     },
-    "Knoxville JHS": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1897&ActivityCode=GBK&GradeLevel=8",
+    "Mendon Unity": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=354&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Orion vs. Knoxville JHS",
+          "opponent": "Jacksonville ISD vs. Mendon Unity",
           "score": "PENDING"
         },
         {
-          "opponent": "Orion vs. Knoxville JHS",
+          "opponent": "Mt. Sterling Brown County vs. Mendon Unity",
           "score": "PENDING"
         },
         {
-          "opponent": "Springfield Lincoln vs. Knoxville JHS",
+          "opponent": "Hamilton ES vs. Mendon Unity",
           "score": "PENDING"
         },
         {
-          "opponent": "Monmouth United vs. Knoxville JHS",
+          "opponent": "Mendon Unity def. Nauvoo-Colusa",
+          "score": "19-17"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. Mendon Unity",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "completed": 1
+      }
+    },
+    "Nauvoo-Colusa": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=397&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Mt. Sterling Brown County vs. Nauvoo-Colusa",
           "score": "PENDING"
         },
         {
-          "opponent": "Monmouth-Roseville JHS vs. Knoxville JHS",
+          "opponent": "Hamilton ES vs. Nauvoo-Colusa",
           "score": "PENDING"
         },
         {
-          "opponent": "Monmouth-Roseville JHS vs. Knoxville JHS",
+          "opponent": "Hamilton ES vs. Nauvoo-Colusa",
           "score": "PENDING"
         },
         {
-          "opponent": "Avon Abingdon Avon vs. Knoxville JHS",
+          "opponent": "Hamilton ES vs. Nauvoo-Colusa",
           "score": "PENDING"
         },
         {
-          "opponent": "Aledo Mercer County vs. Knoxville JHS",
+          "opponent": "Colchester West Prairie def. Nauvoo-Colusa",
+          "score": "25-16"
+        },
+        {
+          "opponent": "Mendon Unity def. Nauvoo-Colusa",
+          "score": "19-17"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. La Harpe",
           "score": "PENDING"
         },
         {
-          "opponent": "Aledo Mercer County vs. Knoxville JHS",
+          "opponent": "Nauvoo-Colusa vs. La Harpe",
           "score": "PENDING"
         },
         {
-          "opponent": "Kewanee Central vs. Knoxville JHS",
+          "opponent": "Nauvoo-Colusa vs. Colchester West Prairie",
           "score": "PENDING"
         },
         {
-          "opponent": "Kewanee Central vs. Knoxville JHS",
+          "opponent": "Nauvoo-Colusa vs. Camp Point Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. Kinderhook Western",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. Stronghurst West Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. Payson Seymour",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. Mendon Unity",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. Augusta Southeastern",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. Macomb",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. Quincy St. Peter",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. Liberty",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. Carthage",
           "score": "PENDING"
         }
       ],
       "record": {
         "wins": 0,
-        "losses": 0,
-        "completed": 0
+        "losses": 2,
+        "completed": 2
       }
     },
-    "Creve Coeur Parkview": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=133&ActivityCode=GBK&GradeLevel=8",
+    "Spring Valley Kennedy": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=525&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Roanoke-Benson vs. Creve Coeur Parkview",
+          "opponent": "Spring Valley Kennedy vs. LaSalle Dimmick",
           "score": "PENDING"
         },
         {
-          "opponent": "Marquette Heights Georgetowne vs. Creve Coeur Parkview",
+          "opponent": "Spring Valley Kennedy vs. Ottawa Marquette",
           "score": "PENDING"
         },
         {
-          "opponent": "Peoria Limestone Walters vs. Creve Coeur Parkview",
+          "opponent": "Spring Valley Kennedy vs. LaSalle St. Acutis",
           "score": "PENDING"
         },
         {
-          "opponent": "Peoria Christian vs. Creve Coeur Parkview",
+          "opponent": "Spring Valley Kennedy vs. Princeton Logan",
           "score": "PENDING"
         },
         {
-          "opponent": "Pekin Edison vs. Creve Coeur Parkview",
+          "opponent": "Spring Valley Kennedy vs. Metamora GS",
           "score": "PENDING"
         },
         {
-          "opponent": "Peoria Hollis vs. Creve Coeur Parkview",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Cerro Gordo (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=99&ActivityCode=GBK&GradeLevel=8",
-      "games": [
+          "opponent": "Peru Parkside def. Spring Valley Kennedy",
+          "score": "28-15"
+        },
         {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Cerro Gordo",
+          "opponent": "Spring Valley Kennedy vs. Streator Northlawn",
           "score": "PENDING"
         },
         {
-          "opponent": "Cerro Gordo vs. Arthur Christian",
+          "opponent": "Spring Valley Kennedy vs. Mendota Northbrook",
           "score": "PENDING"
         },
         {
-          "opponent": "Cerro Gordo vs. LeRoy",
+          "opponent": "Spring Valley Kennedy vs. Streator Northlawn",
           "score": "PENDING"
         },
         {
-          "opponent": "Cerro Gordo vs. Decatur Unity",
+          "opponent": "Spring Valley Kennedy vs. Manlius Bureau Valley JHS",
           "score": "PENDING"
         },
         {
-          "opponent": "Cerro Gordo vs. Champaign Next Generation",
+          "opponent": "Spring Valley Kennedy vs. Ottawa Shepherd",
           "score": "PENDING"
         },
         {
-          "opponent": "Cerro Gordo vs. Arthur",
+          "opponent": "Spring Valley Kennedy vs. Oglesby Washington",
           "score": "PENDING"
         },
         {
-          "opponent": "Cerro Gordo vs. Hume Shiloh",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Oakland Lake Crest",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Arthur Christian",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Villa Grove",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Decatur Unity",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Arcola",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Tuscola East Prairie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Assumption Central A & M",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Findlay Okaw Valley",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Maroa-Forsyth",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Argenta-Oreana",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Sullivan",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Champaign International",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Warrensburg-Latham",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Champaign St. Matthew",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Bismarck-Henning": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=44&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Potomac def. Bismarck-Henning",
-          "score": "30-23"
-        },
-        {
-          "opponent": "Westville JHS vs. Bismarck-Henning",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oakwood GS vs. Bismarck-Henning",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Georgetown Mary Miller vs. Bismarck-Henning",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Sidell Salt Fork vs. Bismarck-Henning",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "St. Joseph vs. Bismarck-Henning",
+          "opponent": "Spring Valley Kennedy vs. McNabb Putnam County",
           "score": "PENDING"
         }
       ],
@@ -2218,6 +1896,486 @@ window.iesaScoreCache = {
         "wins": 0,
         "losses": 1,
         "completed": 1
+      }
+    },
+    "Greenfield (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=223&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Greenfield def. Carrollton GS",
+          "score": "26-14"
+        },
+        {
+          "opponent": "Piasa Southwestern vs. Greenfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bunker Hill Wolf Ridge vs. Greenfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Jerseyville St. Francis HG vs. Greenfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Greenfield def. Jacksonville Our Saviour",
+          "score": "56-8"
+        },
+        {
+          "opponent": "Greenfield def. Carlinville",
+          "score": "22-17"
+        }
+      ],
+      "record": {
+        "wins": 3,
+        "losses": 0,
+        "completed": 3
+      }
+    },
+    "Oakwood GS": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=422&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Westville JHS vs. Oakwood GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oakwood GS vs. Bismarck-Henning",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Sidell Salt Fork def. Oakwood GS",
+          "score": "21-15"
+        },
+        {
+          "opponent": "Oakwood GS vs. Champaign International",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oakwood GS vs. Hoopeston Area",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oakwood GS vs. Rossville-Alvin",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oakwood GS vs. St. Joseph",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oakwood GS vs. Potomac",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oakwood GS vs. Danville Schlarman",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oakwood GS vs. Milford",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oakwood GS vs. Georgetown Mary Miller",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oakwood GS vs. Homer Heritage",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oakwood GS vs. Chrisman Scottland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oakwood GS vs. Royal Prairieview Ogden",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 1,
+        "completed": 1
+      }
+    },
+    "Toulon Stark County": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=617&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Annawan vs. Toulon Stark County",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "McNabb Putnam County vs. Toulon Stark County",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Monmouth United vs. Toulon Stark County",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Toulon Stark County vs. Sparland Midland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Toulon Stark County vs. Henry-Senachwine",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Toulon Stark County vs. Kewanee Visitation",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Toulon Stark County vs. Manlius Bureau Valley JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Toulon Stark County vs. Williamsfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Toulon Stark County vs. Princeville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Toulon Stark County vs. Kewanee Wethersfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Toulon Stark County vs. Cambridge JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Toulon Stark County vs. Galva",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Toulon Stark County vs. Woodhull AlWood",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kewanee Central vs. Toulon Stark County",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Oglesby Washington": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=787&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Spring Valley Kennedy vs. Oglesby Washington",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mendota Northbrook vs. Oglesby Washington",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Morris Nettle Creek vs. Oglesby Washington",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peru Parkside def. Oglesby Washington",
+          "score": "23-22"
+        },
+        {
+          "opponent": "Marseilles Milton Pope vs. Oglesby Washington",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ottawa Wallace vs. Oglesby Washington",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oglesby Washington def. LaSalle Dimmick",
+          "score": "46-16"
+        },
+        {
+          "opponent": "Seneca def. Oglesby Washington",
+          "score": "30-27"
+        },
+        {
+          "opponent": "Oglesby Washington vs. Lostant",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oglesby Washington vs. Ladd",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oglesby Washington vs. Ottawa Marquette",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oglesby Washington vs. LaSalle Lincoln",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oglesby Washington vs. Marseilles ES",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oglesby Washington vs. LaSalle St. Acutis",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oglesby Washington vs. Manlius Bureau Valley JHS",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 2,
+        "completed": 3
+      }
+    },
+    "Bloomington Cornerstone": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1094&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Colfax Ridgeview vs. Bloomington Cornerstone",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Bloomington Cornerstone",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Corpus Christi vs. Bloomington Cornerstone",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Lincoln Chester-East Lincoln",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Normal Epiphany",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Lexington",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Decatur Montessori Academy for Peace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Bloomington Trinity Lutheran",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Piper City Tri-Point",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Normal Metcalf",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Normal Calvary",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Champaign Holy Cross",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Champaign International",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Bloomington St. Mary's",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Colchester West Prairie": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=126&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Colchester West Prairie def. Beardstown MS",
+          "score": "33-8"
+        },
+        {
+          "opponent": "Bushnell-Prairie City vs. Colchester West Prairie",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bushnell-Prairie City vs. Colchester West Prairie",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bushnell-Prairie City vs. Colchester West Prairie",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "London Mills Valley vs. Colchester West Prairie",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Colchester West Prairie",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County vs. Colchester West Prairie",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Hamilton ES vs. Colchester West Prairie",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Colchester West Prairie def. Nauvoo-Colusa",
+          "score": "25-16"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. Colchester West Prairie",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Avon Abingdon Avon vs. Colchester West Prairie",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 2,
+        "losses": 0,
+        "completed": 2
+      }
+    },
+    "Macon Meridian": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=48&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Macon Meridian vs. Argenta-Oreana",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Pana JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Maroa-Forsyth",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Clinton",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Decatur Unity",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Assumption Central A & M",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Warrensburg-Latham",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Shelbyville Moulton",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Monticello",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Arthur",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Decatur Hope",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Decatur Stephen Decatur",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Nokomis JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Decatur Johns Hill",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Illiopolis Sangamon Valley",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Kincaid South Fork",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Findlay Okaw Valley",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Brownstown (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=68&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Louisville North Clay vs. Brownstown",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ramsey vs. Brownstown",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Sigel St. Michael's vs. Brownstown",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Brownstown",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Greenville vs. Brownstown",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Stewardson-Strasburg def. Brownstown",
+          "score": "31-23"
+        },
+        {
+          "opponent": "Beecher City vs. Brownstown",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kinmundy South Central vs. Brownstown",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brownstown def. Effingham Sacred Heart",
+          "score": "38-8"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 1,
+        "completed": 2
       }
     },
     "Nokomis JHS (Co-op)": {
@@ -2356,173 +2514,41 @@ window.iesaScoreCache = {
         "completed": 1
       }
     },
-    "Bluffs (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=49&ActivityCode=GBK&GradeLevel=8",
+    "Table Grove VIT (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=555&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Beardstown MS vs. Bluffs",
+          "opponent": "Beardstown MS vs. Table Grove VIT",
           "score": "PENDING"
         },
         {
-          "opponent": "Carrollton GS vs. Bluffs",
+          "opponent": "Bushnell-Prairie City vs. Table Grove VIT",
           "score": "PENDING"
         },
         {
-          "opponent": "Mt. Sterling Brown County vs. Bluffs",
+          "opponent": "Havana vs. Table Grove VIT",
           "score": "PENDING"
         },
         {
-          "opponent": "Bluffs def. Jacksonville Our Saviour",
-          "score": "45-11"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 0,
-        "completed": 1
-      }
-    },
-    "Springfield Christ the King": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=529&ActivityCode=GBK&GradeLevel=8",
-      "games": [
+          "opponent": "London Mills Valley def. Table Grove VIT",
+          "score": "20-13"
+        },
         {
-          "opponent": "Auburn JHS at Divernon vs. Springfield Christ the King",
+          "opponent": "Rushville Schuyler Industry vs. Table Grove VIT",
           "score": "PENDING"
         },
         {
-          "opponent": "Springfield Calvary vs. Springfield Christ the King",
+          "opponent": "Jacksonville ISD vs. Table Grove VIT",
           "score": "PENDING"
         },
         {
-          "opponent": "Springfield Lincoln vs. Springfield Christ the King",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Pana Sacred Heart vs. Springfield Christ the King",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Springfield Christ the King def. Kickapoo St. Mary's",
-          "score": "30-9"
-        },
-        {
-          "opponent": "Lincoln Chester-East Lincoln vs. Springfield Christ the King",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Williamsville vs. Springfield Christ the King",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Jacksonville Our Saviour vs. Springfield Christ the King",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rochester vs. Springfield Christ the King",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Taylorville JHS vs. Springfield Christ the King",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Springfield Blessed Sacrament vs. Springfield Christ the King",
+          "opponent": "Petersburg PORTA JHS vs. Table Grove VIT",
           "score": "PENDING"
         }
       ],
       "record": {
-        "wins": 1,
-        "losses": 0,
-        "completed": 1
-      }
-    },
-    "Mt. Sterling Brown County (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=390&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Beardstown MS vs. Mt. Sterling Brown County",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Havana vs. Mt. Sterling Brown County",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County def. Rushville Schuyler Industry",
-          "score": "42-23"
-        },
-        {
-          "opponent": "Carthage vs. Mt. Sterling Brown County",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Pittsfield Pikeland",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Griggsville-Perry",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Hardin Calhoun",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Quincy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Carrollton St. John",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Bluffs",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Liberty",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Colchester West Prairie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Virginia",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Macomb",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Washington Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Camp Point Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Nauvoo-Colusa",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Mendon Unity",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Quincy St. Peter",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Kinderhook Western",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 0,
+        "wins": 0,
+        "losses": 1,
         "completed": 1
       }
     },
@@ -2616,63 +2642,105 @@ window.iesaScoreCache = {
         "completed": 4
       }
     },
-    "Toulon Stark County": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=617&ActivityCode=GBK&GradeLevel=8",
+    "Warrensburg-Latham": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=582&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Annawan vs. Toulon Stark County",
+          "opponent": "Mt. Zion vs. Warrensburg-Latham",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Toulon Stark County",
+          "opponent": "Cerro Gordo vs. Warrensburg-Latham",
           "score": "PENDING"
         },
         {
-          "opponent": "Monmouth United vs. Toulon Stark County",
+          "opponent": "Macon Meridian vs. Warrensburg-Latham",
           "score": "PENDING"
         },
         {
-          "opponent": "Toulon Stark County vs. Sparland Midland",
+          "opponent": "Decatur Our Lady of Lourdes vs. Warrensburg-Latham",
           "score": "PENDING"
         },
         {
-          "opponent": "Toulon Stark County vs. Henry-Senachwine",
+          "opponent": "Maroa-Forsyth def. Warrensburg-Latham",
+          "score": "26-16"
+        },
+        {
+          "opponent": "Warrensburg-Latham vs. Clinton",
           "score": "PENDING"
         },
         {
-          "opponent": "Toulon Stark County vs. Kewanee Visitation",
+          "opponent": "Warrensburg-Latham vs. Assumption Central A & M",
           "score": "PENDING"
         },
         {
-          "opponent": "Toulon Stark County vs. Manlius Bureau Valley JHS",
+          "opponent": "Warrensburg-Latham vs. Lincoln JHS",
           "score": "PENDING"
         },
         {
-          "opponent": "Toulon Stark County vs. Williamsfield",
+          "opponent": "Warrensburg-Latham vs. Argenta-Oreana",
           "score": "PENDING"
         },
         {
-          "opponent": "Toulon Stark County vs. Princeville",
+          "opponent": "Warrensburg-Latham vs. Monticello",
           "score": "PENDING"
         },
         {
-          "opponent": "Toulon Stark County vs. Kewanee Wethersfield",
+          "opponent": "Warrensburg-Latham vs. Shelbyville Moulton",
           "score": "PENDING"
         },
         {
-          "opponent": "Toulon Stark County vs. Cambridge JHS",
+          "opponent": "Warrensburg-Latham vs. Illiopolis Sangamon Valley",
           "score": "PENDING"
         },
         {
-          "opponent": "Toulon Stark County vs. Galva",
+          "opponent": "Warrensburg-Latham vs. Decatur Johns Hill",
           "score": "PENDING"
         },
         {
-          "opponent": "Toulon Stark County vs. Woodhull AlWood",
+          "opponent": "Warrensburg-Latham vs. Arthur",
           "score": "PENDING"
         },
         {
-          "opponent": "Kewanee Central vs. Toulon Stark County",
+          "opponent": "Warrensburg-Latham vs. Heyworth",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Warrensburg-Latham vs. Sullivan",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Warrensburg-Latham vs. Mt. Pulaski",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Warrensburg-Latham vs. Athens",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Williamsville vs. Warrensburg-Latham",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 1,
+        "completed": 1
+      }
+    },
+    "Decatur Dansby": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2613&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Mattoon St. John's vs. Decatur Dansby",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Decatur Dansby",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Unity vs. Decatur Dansby",
           "score": "PENDING"
         }
       ],
@@ -2682,150 +2750,90 @@ window.iesaScoreCache = {
         "completed": 0
       }
     },
-    "Bartonville GS (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=28&ActivityCode=GBK&GradeLevel=8",
+    "Waterman Indian Creek": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=590&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Peoria Pleasant Valley vs. Bartonville GS",
+          "opponent": "Hinckley-Big Rock def. Waterman Indian Creek",
+          "score": "23-19"
+        },
+        {
+          "opponent": "Waterman Indian Creek vs. Plano",
           "score": "PENDING"
         },
         {
-          "opponent": "South Pekin vs. Bartonville GS",
+          "opponent": "Waterman Indian Creek vs. Leland",
           "score": "PENDING"
         },
         {
-          "opponent": "Bartonville GS vs. Green Valley Midwest Central",
+          "opponent": "Waterman Indian Creek vs. Sandwich",
           "score": "PENDING"
         },
         {
-          "opponent": "Marquette Heights Georgetowne vs. Bartonville GS",
+          "opponent": "Waterman Indian Creek vs. Somonauk",
           "score": "PENDING"
         },
         {
-          "opponent": "Tremont vs. Bartonville GS",
+          "opponent": "Waterman Indian Creek vs. Leland",
           "score": "PENDING"
         },
         {
-          "opponent": "Peoria Limestone Walters vs. Bartonville GS",
+          "opponent": "Waterman Indian Creek vs. Serena",
           "score": "PENDING"
         },
         {
-          "opponent": "Peoria Christian vs. Bartonville GS",
+          "opponent": "Waterman Indian Creek vs. Mendota Holy Cross",
           "score": "PENDING"
         },
         {
-          "opponent": "Bartonville GS vs. Washington St. Patrick",
+          "opponent": "Waterman Indian Creek vs. Paw Paw",
           "score": "PENDING"
         },
         {
-          "opponent": "Bartonville GS vs. Bartonville Monroe",
+          "opponent": "Waterman Indian Creek vs. Newark Lisbon",
           "score": "PENDING"
         },
         {
-          "opponent": "Peoria Christ Lutheran vs. Bartonville GS",
+          "opponent": "Waterman Indian Creek vs. Earlville",
           "score": "PENDING"
         },
         {
-          "opponent": "Bartonville GS vs. Peoria Hollis",
+          "opponent": "Waterman Indian Creek vs. Plano",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Waterman Indian Creek vs. Millbrook",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Waterman Indian Creek vs. Ottawa Shepherd",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Waterman Indian Creek vs. Sandwich",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Waterman Indian Creek vs. Hinckley-Big Rock",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Waterman Indian Creek vs. Paw Paw",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Waterman Indian Creek vs. Morris Saratoga",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Waterman Indian Creek vs. Marseilles ES",
           "score": "PENDING"
         }
       ],
       "record": {
         "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Rockford Barbour": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2144&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Rockford Kennedy vs. Rockford Barbour",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rockford Kennedy vs. Rockford Barbour",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rockford Flinn vs. Rockford Barbour",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rockford Lincoln vs. Rockford Barbour",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Oblong": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=423&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Paris Mayo vs. Oblong",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Oblong",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bridgeport Red Hill def. Oblong",
-          "score": "42-10"
-        },
-        {
-          "opponent": "Mattoon St. John's vs. Oblong",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oblong def. Palestine",
-          "score": "26-20"
-        },
-        {
-          "opponent": "Effingham St. Anthony def. Oblong",
-          "score": "35-10"
-        },
-        {
-          "opponent": "Oblong vs. Marshall JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oblong vs. Lawrenceville Parkview",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oblong vs. Toledo Cumberland",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oblong vs. Robinson Nuttall",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oblong vs. Newton Jasper County",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oblong vs. Palestine",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oblong vs. Martinsville",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oblong vs. Casey-Westfield",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 2,
-        "completed": 3
+        "losses": 1,
+        "completed": 1
       }
     },
     "Glasford Illini Bluffs": {
@@ -2874,27 +2882,360 @@ window.iesaScoreCache = {
         "completed": 0
       }
     },
-    "Mendon Unity": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=354&ActivityCode=GBK&GradeLevel=8",
+    "White Hall North Greene": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=502&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Jacksonville ISD vs. Mendon Unity",
+          "opponent": "Carrollton GS vs. White Hall North Greene",
           "score": "PENDING"
         },
         {
-          "opponent": "Mt. Sterling Brown County vs. Mendon Unity",
+          "opponent": "Carrollton GS vs. White Hall North Greene",
           "score": "PENDING"
         },
         {
-          "opponent": "Hamilton ES vs. Mendon Unity",
+          "opponent": "Bunker Hill Wolf Ridge vs. White Hall North Greene",
           "score": "PENDING"
         },
         {
-          "opponent": "Mendon Unity def. Nauvoo-Colusa",
-          "score": "19-17"
+          "opponent": "Jerseyville St. Francis HG vs. White Hall North Greene",
+          "score": "PENDING"
         },
         {
-          "opponent": "Nauvoo-Colusa vs. Mendon Unity",
+          "opponent": "Jerseyville St. Francis HG vs. White Hall North Greene",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Jacksonville ISD vs. White Hall North Greene",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Jerseyville Community vs. White Hall North Greene",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Jacksonville Our Saviour vs. White Hall North Greene",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Evanston St. Athanasius": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2348&ActivityCode=GBK&GradeLevel=8",
+      "games": [],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Cerro Gordo (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=99&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Cerro Gordo",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Arthur Christian",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. LeRoy",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Decatur Unity",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Champaign Next Generation",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Arthur",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Hume Shiloh",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Oakland Lake Crest",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Arthur Christian",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Villa Grove",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Decatur Unity",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Arcola",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Tuscola East Prairie",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Assumption Central A & M",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Findlay Okaw Valley",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Maroa-Forsyth",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Argenta-Oreana",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Sullivan",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Champaign International",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Warrensburg-Latham",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Champaign St. Matthew",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Sparland Midland": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=523&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "El Paso-Gridley vs. Sparland Midland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Roanoke-Benson vs. Sparland Midland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield def. Sparland Midland",
+          "score": "22-15"
+        },
+        {
+          "opponent": "McNabb Putnam County vs. Sparland Midland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Christian vs. Sparland Midland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Toulon Stark County vs. Sparland Midland",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 1,
+        "completed": 1
+      }
+    },
+    "Peoria St. Vincent de Paul (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=964&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Peoria Pleasant Valley vs. Peoria St. Vincent de Paul",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kickapoo St. Mary's vs. Peoria St. Vincent de Paul",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Chillicothe vs. Peoria St. Vincent de Paul",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Morton Blessed Sacrament vs. Peoria St. Vincent de Paul",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Peoria St. Vincent de Paul",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Limestone Walters vs. Peoria St. Vincent de Paul",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Christian vs. Peoria St. Vincent de Paul",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Washington St. Patrick vs. Peoria St. Vincent de Paul",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bartonville Monroe vs. Peoria St. Vincent de Paul",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Christ Lutheran vs. Peoria St. Vincent de Paul",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria St. Vincent de Paul vs. Peoria St. Philomena",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria St. Vincent de Paul vs. Peoria Hollis",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria St. Vincent de Paul vs. Peoria St. Jude",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria St. Vincent de Paul vs. Princeville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria St. Vincent de Paul vs. Bartonville Oak Grove",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Springfield Blessed Sacrament def. Peoria St. Vincent de Paul",
+          "score": "10-7"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 1,
+        "completed": 1
+      }
+    },
+    "Burr Ridge MS": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=993&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Bolingbrook Humphrey vs. Burr Ridge MS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Burr Ridge Gower vs. Burr Ridge MS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Burr Ridge Gower vs. Burr Ridge MS",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Arcola": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=9&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Philo St. Thomas vs. Arcola",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Arcola",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Tolono Unity vs. Arcola",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Paris Crestwood vs. Arcola",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mattoon St. John's vs. Arcola",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Villa Grove vs. Arcola",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Tuscola East Prairie vs. Arcola",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Peoria St. Philomena": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=702&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Kickapoo St. Mary's vs. Peoria St. Philomena",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Germantown Hills vs. Peoria St. Philomena",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Morton Blessed Sacrament vs. Peoria St. Philomena",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Marquette Heights Georgetowne vs. Peoria St. Philomena",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dunlap MS vs. Peoria St. Philomena",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria St. Philomena def. Champaign St. Matthew",
+          "score": "32-10"
+        },
+        {
+          "opponent": "Peoria Christian vs. Peoria St. Philomena",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Washington Central vs. Peoria St. Philomena",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bartonville Monroe vs. Peoria St. Philomena",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria St. Vincent de Paul vs. Peoria St. Philomena",
           "score": "PENDING"
         }
       ],
@@ -2904,87 +3245,323 @@ window.iesaScoreCache = {
         "completed": 1
       }
     },
-    "Paris Crestwood": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=440&ActivityCode=GBK&GradeLevel=8",
+    "Stronghurst West Central": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1783&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Effingham JHS vs. Paris Crestwood",
+          "opponent": "Galesburg JHS vs. Stronghurst West Central",
           "score": "PENDING"
         },
         {
-          "opponent": "Mt. Zion vs. Paris Crestwood",
+          "opponent": "Bushnell-Prairie City vs. Stronghurst West Central",
           "score": "PENDING"
         },
         {
-          "opponent": "Westville JHS vs. Paris Crestwood",
+          "opponent": "London Mills Valley vs. Stronghurst West Central",
           "score": "PENDING"
         },
         {
-          "opponent": "Tolono Unity vs. Paris Crestwood",
+          "opponent": "Monmouth United vs. Stronghurst West Central",
           "score": "PENDING"
         },
         {
-          "opponent": "Charleston vs. Paris Crestwood",
+          "opponent": "Hamilton ES vs. Stronghurst West Central",
           "score": "PENDING"
         },
         {
-          "opponent": "Teutopolis vs. Paris Crestwood",
+          "opponent": "Monmouth-Roseville JHS vs. Stronghurst West Central",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood def. Sidell Salt Fork",
-          "score": "32-19"
-        },
-        {
-          "opponent": "Oakland Lake Crest vs. Paris Crestwood",
+          "opponent": "Nauvoo-Colusa vs. Stronghurst West Central",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Danville North Ridge",
+          "opponent": "Avon Abingdon Avon vs. Stronghurst West Central",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Neoga",
+          "opponent": "Aledo Mercer County vs. Stronghurst West Central",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Bluffs (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=49&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Beardstown MS vs. Bluffs",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Hume Shiloh",
+          "opponent": "Carrollton GS vs. Bluffs",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Tuscola East Prairie",
+          "opponent": "Mt. Sterling Brown County vs. Bluffs",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Teutopolis",
+          "opponent": "Bluffs def. Jacksonville Our Saviour",
+          "score": "45-11"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "completed": 1
+      }
+    },
+    "Stewardson-Strasburg (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=545&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Louisville North Clay vs. Stewardson-Strasburg",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Mattoon",
+          "opponent": "Ramsey vs. Stewardson-Strasburg",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Chrisman Scottland",
+          "opponent": "Pana Sacred Heart vs. Stewardson-Strasburg",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Robinson Nuttall",
+          "opponent": "Sigel St. Michael's vs. Stewardson-Strasburg",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Casey-Westfield",
+          "opponent": "Dieterich vs. Stewardson-Strasburg",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Olney",
+          "opponent": "Teutopolis vs. Stewardson-Strasburg",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Arcola",
+          "opponent": "Stewardson-Strasburg def. Beecher City",
+          "score": "23-10"
+        },
+        {
+          "opponent": "Stewardson-Strasburg def. Casey-Westfield",
+          "score": "44-14"
+        },
+        {
+          "opponent": "Stewardson-Strasburg def. Brownstown",
+          "score": "31-23"
+        },
+        {
+          "opponent": "Stewardson-Strasburg vs. Altamont",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Marshall JHS",
+          "opponent": "Stewardson-Strasburg vs. Neoga",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Stewardson-Strasburg vs. Arthur",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Stewardson-Strasburg vs. Findlay Okaw Valley",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Stewardson-Strasburg vs. Effingham Sacred Heart",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Stewardson-Strasburg vs. Shelbyville Moulton",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Stewardson-Strasburg vs. Kinmundy South Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Stewardson-Strasburg vs. Pana JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Stewardson-Strasburg vs. Toledo Cumberland",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 3,
+        "losses": 0,
+        "completed": 3
+      }
+    },
+    "Brimfield": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=66&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Peoria Pleasant Valley vs. Brimfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Orion vs. Brimfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Germantown Hills def. Brimfield",
+          "score": "38-17"
+        },
+        {
+          "opponent": "Chillicothe vs. Brimfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield def. Sparland Midland",
+          "score": "22-15"
+        },
+        {
+          "opponent": "Brimfield vs. Peoria St. Jude",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Christian def. Brimfield",
+          "score": "31-12"
+        },
+        {
+          "opponent": "Brimfield vs. Elmwood",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Williamsfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Farmington Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Dunlap MS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Glasford Illini Bluffs",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Bartonville Monroe",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Dunlap Valley MS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Metamora GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Green Valley Midwest Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Peoria St. Vincent de Paul",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Lewistown JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Princeville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. London Mills Valley",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Peoria Heights GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Peoria Limestone Walters",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 2,
+        "completed": 3
+      }
+    },
+    "Momence JHS": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=368&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Braidwood Reed-Custer vs. Momence JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Manteno vs. Momence JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Gardner vs. Momence JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Wilmington vs. Momence JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Herscher Limestone vs. Momence JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Watseka JHS vs. Momence JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Momence JHS vs. Kankakee Grace Christian",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peotone vs. Momence JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Momence JHS def. Bourbonnais St. George",
+          "score": "22-19"
+        },
+        {
+          "opponent": "Momence JHS vs. Bradley Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Momence JHS vs. Beecher",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Momence JHS vs. Onarga Iroquois West",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Momence JHS vs. Grant Park",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Momence JHS vs. St. Anne",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Momence JHS vs. Crete Illinois Lutheran",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Momence JHS vs. Donovan",
           "score": "PENDING"
         }
       ],
@@ -2992,6 +3569,352 @@ window.iesaScoreCache = {
         "wins": 1,
         "losses": 0,
         "completed": 1
+      }
+    },
+    "Decatur Robertson": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1796&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Urbana MS def. Decatur Robertson",
+          "score": "41-35"
+        },
+        {
+          "opponent": "Decatur Robertson def. Springfield Jefferson",
+          "score": "40-6"
+        },
+        {
+          "opponent": "Decatur Robertson vs. Decatur Montessori Academy for Peace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Robertson vs. Decatur Johns Hill",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Robertson vs. Decatur Hope",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Robertson vs. Springfield Lincoln",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Robertson vs. Decatur Dennis",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Robertson vs. Decatur Stephen Decatur",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Robertson vs. Decatur Our Lady of Lourdes",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Robertson vs. Decatur Montessori Academy for Peace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Robertson vs. Decatur Johns Hill",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Robertson vs. Champaign International",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 1,
+        "completed": 2
+      }
+    },
+    "Knoxville JHS": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1897&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Orion vs. Knoxville JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Orion vs. Knoxville JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Springfield Lincoln vs. Knoxville JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Monmouth United vs. Knoxville JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Monmouth-Roseville JHS vs. Knoxville JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Monmouth-Roseville JHS vs. Knoxville JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Avon Abingdon Avon vs. Knoxville JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Aledo Mercer County vs. Knoxville JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Aledo Mercer County vs. Knoxville JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kewanee Central vs. Knoxville JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kewanee Central vs. Knoxville JHS",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Peoria Heights GS": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=461&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Peoria Pleasant Valley vs. Peoria Heights GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "London Mills Valley vs. Peoria Heights GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Chillicothe vs. Peoria Heights GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Marquette Heights Georgetowne vs. Peoria Heights GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Peoria Heights GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Christian vs. Peoria Heights GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Hollis vs. Peoria Heights GS",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Williamsfield (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=604&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Annawan vs. Williamsfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Brimfield vs. Williamsfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Monmouth United vs. Williamsfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Toulon Stark County vs. Williamsfield",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Aledo Mercer County vs. Williamsfield",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Mansfield Blue Ridge IJHS (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=328&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Colfax Ridgeview vs. Mansfield Blue Ridge IJHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Champaign Judah Christian",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Champaign Next Generation",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Rantoul St. Malachy",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Argenta-Oreana",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Bloomington St. Mary's",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Lexington",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Cerro Gordo",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Fisher",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. LeRoy",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Champaign Holy Cross",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Downs Tri-Valley",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Gibson City GCMS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Clinton",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Heyworth",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Maroa-Forsyth",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Bloomington Cornerstone",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Normal Calvary",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "LeRoy": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=297&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Colfax Ridgeview vs. LeRoy",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. LeRoy",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. LeRoy",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Tolono Unity vs. LeRoy",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "El Paso-Gridley vs. LeRoy",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Flanagan vs. LeRoy",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Champaign St. Matthew vs. LeRoy",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Heyworth vs. LeRoy",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Unity vs. LeRoy",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Lynwood Sandridge": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1877&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Chicago Horizon Southwest vs. Lynwood Sandridge",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Chicago Horizon Southwest vs. Lynwood Sandridge",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ford Heights Cottage Grove UGC vs. Lynwood Sandridge",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Lansing Heritage vs. Lynwood Sandridge",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Markham Obama vs. Lynwood Sandridge",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Hazel Crest Jesse White vs. Lynwood Sandridge",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Sauk Village Rickover vs. Lynwood Sandridge",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
       }
     },
     "Marquette Heights Georgetowne": {
@@ -3068,61 +3991,23 @@ window.iesaScoreCache = {
         "completed": 1
       }
     },
-    "Table Grove VIT (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=555&ActivityCode=GBK&GradeLevel=8",
+    "Markham Obama": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2260&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Beardstown MS vs. Table Grove VIT",
+          "opponent": "Hazel Crest Jesse White vs. Markham Obama",
           "score": "PENDING"
         },
         {
-          "opponent": "Bushnell-Prairie City vs. Table Grove VIT",
+          "opponent": "Hazel Crest Jesse White vs. Markham Obama",
           "score": "PENDING"
         },
         {
-          "opponent": "Havana vs. Table Grove VIT",
+          "opponent": "Ford Heights Cottage Grove UGC vs. Markham Obama",
           "score": "PENDING"
         },
         {
-          "opponent": "London Mills Valley def. Table Grove VIT",
-          "score": "20-13"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Table Grove VIT",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Jacksonville ISD vs. Table Grove VIT",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS vs. Table Grove VIT",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 1,
-        "completed": 1
-      }
-    },
-    "Lynwood Sandridge": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1877&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Chicago Horizon Southwest vs. Lynwood Sandridge",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Chicago Horizon Southwest vs. Lynwood Sandridge",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ford Heights Cottage Grove UGC vs. Lynwood Sandridge",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Lansing Heritage vs. Lynwood Sandridge",
+          "opponent": "Ford Heights Cottage Grove UGC vs. Markham Obama",
           "score": "PENDING"
         },
         {
@@ -3130,11 +4015,23 @@ window.iesaScoreCache = {
           "score": "PENDING"
         },
         {
-          "opponent": "Hazel Crest Jesse White vs. Lynwood Sandridge",
+          "opponent": "Markham Obama vs. Dolton Lincoln",
           "score": "PENDING"
         },
         {
-          "opponent": "Sauk Village Rickover vs. Lynwood Sandridge",
+          "opponent": "Markham Obama vs. Robbins Kellar",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Calumet City Dolton 149 vs. Markham Obama",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Calumet City Dolton 149 vs. Markham Obama",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Blue Island Kerr vs. Markham Obama",
           "score": "PENDING"
         }
       ],
@@ -3144,50 +4041,654 @@ window.iesaScoreCache = {
         "completed": 0
       }
     },
-    "Normal Epiphany": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=417&ActivityCode=GBK&GradeLevel=8",
+    "Washington Beverly Manor": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=585&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Bloomington Corpus Christi vs. Normal Epiphany",
+          "opponent": "Washington MS vs. Washington Beverly Manor",
           "score": "PENDING"
         },
         {
-          "opponent": "Roanoke-Benson vs. Normal Epiphany",
+          "opponent": "South Pekin vs. Washington Beverly Manor",
           "score": "PENDING"
         },
         {
-          "opponent": "Normal Epiphany def. Morton Blessed Sacrament",
-          "score": "42-24"
-        },
-        {
-          "opponent": "Champaign St. Matthew vs. Normal Epiphany",
+          "opponent": "Roanoke-Benson vs. Washington Beverly Manor",
           "score": "PENDING"
         },
         {
-          "opponent": "Washington Central def. Normal Epiphany",
-          "score": "38-13"
-        },
-        {
-          "opponent": "Bloomington Cornerstone vs. Normal Epiphany",
+          "opponent": "Germantown Hills vs. Washington Beverly Manor",
           "score": "PENDING"
         },
         {
-          "opponent": "Bloomington Trinity Lutheran vs. Normal Epiphany",
+          "opponent": "Tremont vs. Washington Beverly Manor",
           "score": "PENDING"
         },
         {
-          "opponent": "Champaign Holy Cross vs. Normal Epiphany",
+          "opponent": "Peoria Christian vs. Washington Beverly Manor",
           "score": "PENDING"
         },
         {
-          "opponent": "Normal Epiphany def. Heyworth",
-          "score": "35-15"
+          "opponent": "Washington Central vs. Washington Beverly Manor",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Washington St. Patrick vs. Washington Beverly Manor",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bartonville Monroe vs. Washington Beverly Manor",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Christ Lutheran vs. Washington Beverly Manor",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Bismarck-Henning": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=44&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Potomac def. Bismarck-Henning",
+          "score": "30-23"
+        },
+        {
+          "opponent": "Westville JHS vs. Bismarck-Henning",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oakwood GS vs. Bismarck-Henning",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Georgetown Mary Miller vs. Bismarck-Henning",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Sidell Salt Fork vs. Bismarck-Henning",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "St. Joseph vs. Bismarck-Henning",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 1,
+        "completed": 1
+      }
+    },
+    "Rockford Barbour": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2144&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Rockford Kennedy vs. Rockford Barbour",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rockford Kennedy vs. Rockford Barbour",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rockford Flinn vs. Rockford Barbour",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rockford Lincoln vs. Rockford Barbour",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Springfield Christ the King": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=529&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Auburn JHS at Divernon vs. Springfield Christ the King",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Springfield Calvary vs. Springfield Christ the King",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Springfield Lincoln vs. Springfield Christ the King",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Pana Sacred Heart vs. Springfield Christ the King",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Springfield Christ the King def. Kickapoo St. Mary's",
+          "score": "30-9"
+        },
+        {
+          "opponent": "Lincoln Chester-East Lincoln vs. Springfield Christ the King",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Williamsville vs. Springfield Christ the King",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Jacksonville Our Saviour vs. Springfield Christ the King",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rochester vs. Springfield Christ the King",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Taylorville JHS vs. Springfield Christ the King",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Springfield Blessed Sacrament vs. Springfield Christ the King",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "completed": 1
+      }
+    },
+    "Decatur Montessori Academy for Peace": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1751&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Decatur Robertson vs. Decatur Montessori Academy for Peace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Robertson vs. Decatur Montessori Academy for Peace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Decatur Montessori Academy for Peace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Decatur Montessori Academy for Peace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Decatur Montessori Academy for Peace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Springfield Blessed Sacrament vs. Decatur Montessori Academy for Peace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Unity vs. Decatur Montessori Academy for Peace",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Assumption Central A & M": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=18&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Cerro Gordo vs. Assumption Central A & M",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Pana Sacred Heart vs. Assumption Central A & M",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Assumption Central A & M",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Assumption Central A & M",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Assumption Central A & M",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Warrensburg-Latham vs. Assumption Central A & M",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Assumption Central A & M vs. Monticello",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Unity vs. Assumption Central A & M",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Camp Point Central": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=88&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Beardstown MS vs. Camp Point Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Camp Point Central def. Bushnell-Prairie City",
+          "score": "28-26"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Camp Point Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County vs. Camp Point Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Hamilton ES vs. Camp Point Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. Camp Point Central",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "completed": 1
+      }
+    },
+    "Decatur Hope": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1849&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Decatur Robertson vs. Decatur Hope",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Decatur Hope",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Decatur Our Lady of Lourdes",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Decatur Johns Hill",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Assumption Central A & M",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Decatur Dansby",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Decatur Montessori Academy for Peace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Decatur Dennis",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Decatur Johns Hill",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Decatur Stephen Decatur",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Decatur Unity",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Normal Calvary",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Champaign International",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Serena": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1746&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Waterman Indian Creek vs. Serena",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Millbrook vs. Serena",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Paw Paw vs. Serena",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Serena vs. Marseilles Milton Pope",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Serena vs. Earlville",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Serena vs. Ottawa Wallace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Serena vs. Newark Lisbon",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Serena vs. Somonauk",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Serena vs. Leland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Serena vs. LaSalle Dimmick",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Serena vs. Seneca",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Serena vs. Mendota Holy Cross",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Serena vs. Hinkley-Big Rock",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Serena vs. Sandwich",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Mt. Pulaski (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=389&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Springfield Calvary vs. Mt. Pulaski",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Lincoln Chester-East Lincoln vs. Mt. Pulaski",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Mt. Pulaski",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Warrensburg-Latham vs. Mt. Pulaski",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Williamsville vs. Mt. Pulaski",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Unity vs. Mt. Pulaski",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Morton Grove MCC": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2302&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Morton Grove MCC def. Burhan Academy",
+          "score": "42-0"
+        },
+        {
+          "opponent": "Morton Grove MCC def. AQSA",
+          "score": "32-10"
+        },
+        {
+          "opponent": "Morton Grove MCC vs. Lombard College Preparatory",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Morton Grove MCC vs. AQSA",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Morton Grove MCC vs. Huda Academy",
+          "score": "PENDING"
         }
       ],
       "record": {
         "wins": 2,
+        "losses": 0,
+        "completed": 2
+      }
+    },
+    "Decatur Our Lady of Lourdes (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=930&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Mt. Zion vs. Decatur Our Lady of Lourdes",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Robertson vs. Decatur Our Lady of Lourdes",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "St. Jacob Triad def. Decatur Our Lady of Lourdes",
+          "score": "29-28"
+        },
+        {
+          "opponent": "Pana Sacred Heart vs. Decatur Our Lady of Lourdes",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Lincoln Chester-East Lincoln vs. Decatur Our Lady of Lourdes",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Staunton def. Decatur Our Lady of Lourdes",
+          "score": "36-11"
+        },
+        {
+          "opponent": "Decatur Hope vs. Decatur Our Lady of Lourdes",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Arthur",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Illiopolis Sangamon Valley",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Springfield Washington",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Warrensburg-Latham",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Lincoln West Lincoln-Broadwell",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Decatur Johns Hill",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Taylorville JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Assumption Central A & M",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Mattoon St. John's",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Decatur Unity",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Mt. Pulaski",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Decatur Montessori Academy for Peace",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Maroa-Forsyth",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Argenta-Oreana",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Clinton",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Highland MS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bethalto Trimpe vs. Decatur Our Lady of Lourdes",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 2,
+        "completed": 2
+      }
+    },
+    "Georgetown Mary Miller": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=206&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Paris Mayo vs. Georgetown Mary Miller",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Potomac vs. Georgetown Mary Miller",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Westville JHS def. Georgetown Mary Miller",
+          "score": "37-23"
+        },
+        {
+          "opponent": "Oakwood GS vs. Georgetown Mary Miller",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Georgetown Mary Miller vs. Hume Shiloh",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Georgetown Mary Miller vs. Rossville-Alvin",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Georgetown Mary Miller vs. Homer Heritage",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Georgetown Mary Miller vs. Chrisman Scottland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Georgetown Mary Miller vs. Bismarck-Henning",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Georgetown Mary Miller vs. Hoopeston Area",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Georgetown Mary Miller vs. Philo St. Thomas",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Georgetown Mary Miller vs. Sidell Jamaica",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Georgetown Mary Miller vs. St. Joseph",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Georgetown Mary Miller vs. Danville North Ridge",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Georgetown Mary Miller vs. Royal Prairieview Ogden",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Sidell Salt Fork vs. Georgetown Mary Miller",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
         "losses": 1,
-        "completed": 3
+        "completed": 1
       }
     },
     "Lincoln Chester-East Lincoln (Co-op)": {
@@ -3256,35 +4757,443 @@ window.iesaScoreCache = {
         "completed": 0
       }
     },
-    "Decatur Montessori Academy for Peace": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1751&ActivityCode=GBK&GradeLevel=8",
+    "Carthage": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=93&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Decatur Robertson vs. Decatur Montessori Academy for Peace",
+          "opponent": "Bushnell-Prairie City vs. Carthage",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Robertson vs. Decatur Montessori Academy for Peace",
+          "opponent": "Havana vs. Carthage",
           "score": "PENDING"
         },
         {
-          "opponent": "Bloomington Cornerstone vs. Decatur Montessori Academy for Peace",
+          "opponent": "Carthage vs. Rushville Schuyler Industry",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Our Lady of Lourdes vs. Decatur Montessori Academy for Peace",
+          "opponent": "Carthage vs. Mt. Sterling Brown County",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Decatur Montessori Academy for Peace",
+          "opponent": "Hamilton ES vs. Carthage",
           "score": "PENDING"
         },
         {
-          "opponent": "Springfield Blessed Sacrament vs. Decatur Montessori Academy for Peace",
+          "opponent": "Carthage def. Quincy St. Peter",
+          "score": "22-17"
+        },
+        {
+          "opponent": "Virginia def. Carthage",
+          "score": "38-25"
+        },
+        {
+          "opponent": "Nauvoo-Colusa vs. Carthage",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 1,
+        "completed": 2
+      }
+    },
+    "Argenta-Oreana": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=10&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Mansfield Blue Ridge IJHS vs. Argenta-Oreana",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Unity vs. Decatur Montessori Academy for Peace",
+          "opponent": "Cerro Gordo vs. Argenta-Oreana",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Macon Meridian vs. Argenta-Oreana",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Our Lady of Lourdes vs. Argenta-Oreana",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Warrensburg-Latham vs. Argenta-Oreana",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Unity vs. Argenta-Oreana",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Champaign International": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2496&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Decatur Robertson vs. Champaign International",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Cerro Gordo vs. Champaign International",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oakwood GS vs. Champaign International",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Champaign St. Matthew vs. Champaign International",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Cornerstone vs. Champaign International",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mattoon St. John's vs. Champaign International",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Decatur Hope vs. Champaign International",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Champaign Holy Cross vs. Champaign International",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Somonauk": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1838&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Waterman Indian Creek vs. Somonauk",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Millbrook vs. Somonauk",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Paw Paw vs. Somonauk",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Serena vs. Somonauk",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Somonauk vs. Plano",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Newark Lisbon vs. Somonauk",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Bourbonnais St. George": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=56&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Manteno vs. Bourbonnais St. George",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Wilmington vs. Bourbonnais St. George",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Herscher Limestone vs. Bourbonnais St. George",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peotone def. Bourbonnais St. George",
+          "score": "34-12"
+        },
+        {
+          "opponent": "Momence JHS def. Bourbonnais St. George",
+          "score": "22-19"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 2,
+        "completed": 2
+      }
+    },
+    "Rushville Schuyler Industry": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1818&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Beardstown MS vs. Rushville Schuyler Industry",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry def. Bushnell-Prairie City",
+          "score": "39-26"
+        },
+        {
+          "opponent": "Havana vs. Rushville Schuyler Industry",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Carthage vs. Rushville Schuyler Industry",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mt. Sterling Brown County def. Rushville Schuyler Industry",
+          "score": "42-23"
+        },
+        {
+          "opponent": "Pittsfield Pikeland def. Rushville Schuyler Industry",
+          "score": "34-31"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Virginia",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Beardstown MS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Hamilton ES",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Camp Point Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Liberty",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Table Grove VIT",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Lewistown JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Colchester West Prairie",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Petersburg PORTA JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Canton Ingersoll",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Griggsville-Perry",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Augusta Southeastern",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Rushville Schuyler Industry vs. Quincy St. Peter",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Beardstown MS vs. Rushville Schuyler Industry",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 2,
+        "completed": 3
+      }
+    },
+    "Kinmundy South Central (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=281&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Kinmundy South Central def. Louisville North Clay",
+          "score": "50-11"
+        },
+        {
+          "opponent": "Ramsey vs. Kinmundy South Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Sigel St. Michael's vs. Kinmundy South Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Dieterich vs. Kinmundy South Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Stewardson-Strasburg vs. Kinmundy South Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Beecher City vs. Kinmundy South Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kinmundy South Central vs. Mulberry Grove JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kinmundy South Central vs. Effingham JHS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kinmundy South Central vs. Effingham Sacred Heart",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kinmundy South Central vs. Brownstown",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kinmundy South Central vs. Toledo Cumberland",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kinmundy South Central vs. Altamont",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kinmundy South Central vs. Sandoval",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kinmundy South Central vs. Woodlawn",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kinmundy South Central vs. Flora",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Kinmundy South Central vs. Neoga",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "completed": 1
+      }
+    },
+    "Marseilles ES": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=336&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Waterman Indian Creek vs. Marseilles ES",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Morris Nettle Creek vs. Marseilles ES",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "McNabb Putnam County vs. Marseilles ES",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Mazon-Verona-Kinsman vs. Marseilles ES",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Marseilles Milton Pope vs. Marseilles ES",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ottawa Wallace vs. Marseilles ES",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "LaSalle Dimmick vs. Marseilles ES",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ransom vs. Marseilles ES",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Oglesby Washington vs. Marseilles ES",
+          "score": "PENDING"
+        }
+      ],
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "completed": 0
+      }
+    },
+    "Bartonville GS (Co-op)": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=28&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Peoria Pleasant Valley vs. Bartonville GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "South Pekin vs. Bartonville GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bartonville GS vs. Green Valley Midwest Central",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Marquette Heights Georgetowne vs. Bartonville GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Tremont vs. Bartonville GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Limestone Walters vs. Bartonville GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Christian vs. Bartonville GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bartonville GS vs. Washington St. Patrick",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bartonville GS vs. Bartonville Monroe",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Peoria Christ Lutheran vs. Bartonville GS",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bartonville GS vs. Peoria Hollis",
           "score": "PENDING"
         }
       ],
@@ -3396,99 +5305,127 @@ window.iesaScoreCache = {
         "completed": 2
       }
     },
-    "Decatur Dennis": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2179&ActivityCode=GBK&GradeLevel=8",
+    "McNabb Putnam County": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=350&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Decatur Robertson vs. Decatur Dennis",
+          "opponent": "Spring Valley Kennedy vs. McNabb Putnam County",
           "score": "PENDING"
         },
         {
-          "opponent": "Champaign Edison vs. Decatur Dennis",
+          "opponent": "Mendota Northbrook def. McNabb Putnam County",
+          "score": "19-8"
+        },
+        {
+          "opponent": "El Paso-Gridley vs. McNabb Putnam County",
           "score": "PENDING"
         },
         {
-          "opponent": "Jacksonville ISD vs. Decatur Dennis",
+          "opponent": "Roanoke-Benson vs. McNabb Putnam County",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Hope vs. Decatur Dennis",
+          "opponent": "Chillicothe vs. McNabb Putnam County",
           "score": "PENDING"
         },
         {
-          "opponent": "Decatur Unity vs. Decatur Dennis",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Oakwood GS": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=422&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Westville JHS vs. Oakwood GS",
+          "opponent": "McNabb Putnam County vs. Lowpoint-Washburn",
           "score": "PENDING"
         },
         {
-          "opponent": "Oakwood GS vs. Bismarck-Henning",
+          "opponent": "McNabb Putnam County vs. Streator Woodland",
           "score": "PENDING"
         },
         {
-          "opponent": "Sidell Salt Fork def. Oakwood GS",
-          "score": "21-15"
-        },
-        {
-          "opponent": "Oakwood GS vs. Champaign International",
+          "opponent": "McNabb Putnam County vs. Sparland Midland",
           "score": "PENDING"
         },
         {
-          "opponent": "Oakwood GS vs. Hoopeston Area",
+          "opponent": "McNabb Putnam County vs. Ottawa Marquette",
           "score": "PENDING"
         },
         {
-          "opponent": "Oakwood GS vs. Rossville-Alvin",
+          "opponent": "McNabb Putnam County vs. Peru Parkside",
           "score": "PENDING"
         },
         {
-          "opponent": "Oakwood GS vs. St. Joseph",
+          "opponent": "McNabb Putnam County vs. Toulon Stark County",
           "score": "PENDING"
         },
         {
-          "opponent": "Oakwood GS vs. Potomac",
+          "opponent": "McNabb Putnam County vs. Wenona Fieldcrest",
           "score": "PENDING"
         },
         {
-          "opponent": "Oakwood GS vs. Danville Schlarman",
+          "opponent": "McNabb Putnam County vs. LaSalle St. Acutis",
           "score": "PENDING"
         },
         {
-          "opponent": "Oakwood GS vs. Milford",
+          "opponent": "McNabb Putnam County vs. Henry-Senachwine",
           "score": "PENDING"
         },
         {
-          "opponent": "Oakwood GS vs. Georgetown Mary Miller",
+          "opponent": "McNabb Putnam County vs. Manlius Bureau Valley JHS",
           "score": "PENDING"
         },
         {
-          "opponent": "Oakwood GS vs. Homer Heritage",
+          "opponent": "McNabb Putnam County vs. Mendota Holy Cross",
           "score": "PENDING"
         },
         {
-          "opponent": "Oakwood GS vs. Chrisman Scottland",
+          "opponent": "McNabb Putnam County vs. Princeton Logan",
           "score": "PENDING"
         },
         {
-          "opponent": "Oakwood GS vs. Royal Prairieview Ogden",
+          "opponent": "McNabb Putnam County vs. Marseilles ES",
           "score": "PENDING"
         }
       ],
       "record": {
         "wins": 0,
         "losses": 1,
+        "completed": 1
+      }
+    },
+    "Wenona Fieldcrest": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1834&ActivityCode=GBK&GradeLevel=8",
+      "games": [
+        {
+          "opponent": "Washington MS vs. Wenona Fieldcrest",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Bloomington Corpus Christi vs. Wenona Fieldcrest",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "El Paso-Gridley vs. Wenona Fieldcrest",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Roanoke-Benson vs. Wenona Fieldcrest",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Ottawa Shepherd vs. Wenona Fieldcrest",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "McNabb Putnam County vs. Wenona Fieldcrest",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Pontiac JHS vs. Wenona Fieldcrest",
+          "score": "PENDING"
+        },
+        {
+          "opponent": "Wenona Fieldcrest def. Peru Parkside",
+          "score": "32-31"
+        }
+      ],
+      "record": {
+        "wins": 1,
+        "losses": 0,
         "completed": 1
       }
     },
@@ -3590,209 +5527,31 @@ window.iesaScoreCache = {
         "completed": 4
       }
     },
-    "Peoria St. Vincent de Paul (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=964&ActivityCode=GBK&GradeLevel=8",
+    "Creve Coeur Parkview": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=133&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Peoria Pleasant Valley vs. Peoria St. Vincent de Paul",
+          "opponent": "Roanoke-Benson vs. Creve Coeur Parkview",
           "score": "PENDING"
         },
         {
-          "opponent": "Kickapoo St. Mary's vs. Peoria St. Vincent de Paul",
+          "opponent": "Marquette Heights Georgetowne vs. Creve Coeur Parkview",
           "score": "PENDING"
         },
         {
-          "opponent": "Chillicothe vs. Peoria St. Vincent de Paul",
+          "opponent": "Peoria Limestone Walters vs. Creve Coeur Parkview",
           "score": "PENDING"
         },
         {
-          "opponent": "Morton Blessed Sacrament vs. Peoria St. Vincent de Paul",
+          "opponent": "Peoria Christian vs. Creve Coeur Parkview",
           "score": "PENDING"
         },
         {
-          "opponent": "Brimfield vs. Peoria St. Vincent de Paul",
+          "opponent": "Pekin Edison vs. Creve Coeur Parkview",
           "score": "PENDING"
         },
         {
-          "opponent": "Peoria Limestone Walters vs. Peoria St. Vincent de Paul",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria Christian vs. Peoria St. Vincent de Paul",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Washington St. Patrick vs. Peoria St. Vincent de Paul",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bartonville Monroe vs. Peoria St. Vincent de Paul",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria Christ Lutheran vs. Peoria St. Vincent de Paul",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria St. Vincent de Paul vs. Peoria St. Philomena",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria St. Vincent de Paul vs. Peoria Hollis",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria St. Vincent de Paul vs. Peoria St. Jude",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria St. Vincent de Paul vs. Princeville",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria St. Vincent de Paul vs. Bartonville Oak Grove",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Springfield Blessed Sacrament def. Peoria St. Vincent de Paul",
-          "score": "10-7"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 1,
-        "completed": 1
-      }
-    },
-    "Springfield Christian": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=530&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Auburn JHS at Divernon vs. Springfield Christian",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Zion vs. Springfield Christian",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Springfield Christian def. Springfield Calvary",
-          "score": "41-13"
-        },
-        {
-          "opponent": "Springfield Lincoln vs. Springfield Christian",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Lincoln Chester-East Lincoln vs. Springfield Christian",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Springfield Christian def. Ashland A-C Central",
-          "score": "30-8"
-        },
-        {
-          "opponent": "Springfield Blessed Sacrament vs. Springfield Christian",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Springfield Christian def. New Berlin JHS",
-          "score": "35-13"
-        },
-        {
-          "opponent": "Decatur Unity vs. Springfield Christian",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 3,
-        "losses": 0,
-        "completed": 3
-      }
-    },
-    "Altamont (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=5&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Louisville North Clay vs. Altamont",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Effingham JHS vs. Altamont",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ramsey vs. Altamont",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Vandalia vs. Altamont",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Sigel St. Michael's vs. Altamont",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Charleston vs. Altamont",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich def. Altamont",
-          "score": "26-15"
-        },
-        {
-          "opponent": "Stewardson-Strasburg vs. Altamont",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Kinmundy South Central vs. Altamont",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 1,
-        "completed": 1
-      }
-    },
-    "LeRoy": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=297&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Colfax Ridgeview vs. LeRoy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. LeRoy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. LeRoy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Tolono Unity vs. LeRoy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "El Paso-Gridley vs. LeRoy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Flanagan vs. LeRoy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Champaign St. Matthew vs. LeRoy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Heyworth vs. LeRoy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Unity vs. LeRoy",
+          "opponent": "Peoria Hollis vs. Creve Coeur Parkview",
           "score": "PENDING"
         }
       ],
@@ -3802,170 +5561,13 @@ window.iesaScoreCache = {
         "completed": 0
       }
     },
-    "Somonauk": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1838&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Waterman Indian Creek vs. Somonauk",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Millbrook vs. Somonauk",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Paw Paw vs. Somonauk",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Serena vs. Somonauk",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Somonauk vs. Plano",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Newark Lisbon vs. Somonauk",
-          "score": "PENDING"
-        }
-      ],
+    "Evanston King": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2622&ActivityCode=GBK&GradeLevel=8",
+      "games": [],
       "record": {
         "wins": 0,
         "losses": 0,
         "completed": 0
-      }
-    },
-    "Green Valley Midwest Central": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=222&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Havana vs. Green Valley Midwest Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Chillicothe vs. Green Valley Midwest Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Green Valley Midwest Central def. Mackinaw Dee-Mack",
-          "score": "35-16"
-        },
-        {
-          "opponent": "Green Valley Midwest Central vs. Tremont",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bartonville GS vs. Green Valley Midwest Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Green Valley Midwest Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria Christian vs. Green Valley Midwest Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Green Valley Midwest Central vs. Pekin Broadmoor",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Green Valley Midwest Central vs. Mason City Illini Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Lincoln Chester-East Lincoln vs. Green Valley Midwest Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Green Valley Midwest Central def. Lincoln JHS",
-          "score": "47-9"
-        },
-        {
-          "opponent": "Pekin Edison vs. Green Valley Midwest Central",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 2,
-        "losses": 0,
-        "completed": 2
-      }
-    },
-    "Bunker Hill Wolf Ridge": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=74&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Piasa Southwestern vs. Bunker Hill Wolf Ridge",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Piasa Southwestern vs. Bunker Hill Wolf Ridge",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Staunton def. Bunker Hill Wolf Ridge",
-          "score": "36-0"
-        },
-        {
-          "opponent": "Staunton vs. Bunker Hill Wolf Ridge",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Olive def. Bunker Hill Wolf Ridge",
-          "score": "38-9"
-        },
-        {
-          "opponent": "Bunker Hill Wolf Ridge vs. White Hall North Greene",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bunker Hill Wolf Ridge vs. Pocahontas",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bunker Hill Wolf Ridge vs. Greenfield",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bunker Hill Wolf Ridge vs. Carlinville",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bunker Hill Wolf Ridge vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bunker Hill Wolf Ridge vs. Gillespie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bunker Hill Wolf Ridge vs. Morrisonville JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bunker Hill Wolf Ridge vs. Carlinville",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bunker Hill Wolf Ridge vs. Jerseyville St. Francis HG",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bunker Hill Wolf Ridge vs. Gillespie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bunker Hill Wolf Ridge vs. Mt. Olive",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 2,
-        "completed": 2
       }
     },
     "Effingham St. Anthony": {
@@ -4022,213 +5624,31 @@ window.iesaScoreCache = {
         "completed": 1
       }
     },
-    "Manlius Bureau Valley JHS": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2454&ActivityCode=GBK&GradeLevel=8",
+    "Riverdale Washington": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1978&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Spring Valley Kennedy vs. Manlius Bureau Valley JHS",
+          "opponent": "Ford Heights Cottage Grove UGC vs. Riverdale Washington",
           "score": "PENDING"
         },
         {
-          "opponent": "Manlius Bureau Valley JHS def. Mendota Northbrook",
-          "score": "34-8"
-        },
-        {
-          "opponent": "Manlius Bureau Valley JHS def. Annawan",
-          "score": "44-19"
-        },
-        {
-          "opponent": "Ottawa Shepherd vs. Manlius Bureau Valley JHS",
+          "opponent": "Ford Heights Cottage Grove UGC vs. Riverdale Washington",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Manlius Bureau Valley JHS",
+          "opponent": "Dolton Roosevelt vs. Riverdale Washington",
           "score": "PENDING"
         },
         {
-          "opponent": "Peru Parkside vs. Manlius Bureau Valley JHS",
+          "opponent": "Blue Island Veterans Memorial vs. Riverdale Washington",
           "score": "PENDING"
         },
         {
-          "opponent": "Toulon Stark County vs. Manlius Bureau Valley JHS",
+          "opponent": "Calumet Park Calumet vs. Riverdale Washington",
           "score": "PENDING"
         },
         {
-          "opponent": "Oglesby Washington vs. Manlius Bureau Valley JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Kewanee Central vs. Manlius Bureau Valley JHS",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 2,
-        "losses": 0,
-        "completed": 2
-      }
-    },
-    "Greenfield (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=223&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Greenfield def. Carrollton GS",
-          "score": "26-14"
-        },
-        {
-          "opponent": "Piasa Southwestern vs. Greenfield",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bunker Hill Wolf Ridge vs. Greenfield",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Jerseyville St. Francis HG vs. Greenfield",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Greenfield def. Jacksonville Our Saviour",
-          "score": "56-8"
-        },
-        {
-          "opponent": "Greenfield def. Carlinville",
-          "score": "22-17"
-        }
-      ],
-      "record": {
-        "wins": 3,
-        "losses": 0,
-        "completed": 3
-      }
-    },
-    "Brimfield": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=66&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Peoria Pleasant Valley vs. Brimfield",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Orion vs. Brimfield",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Germantown Hills def. Brimfield",
-          "score": "38-17"
-        },
-        {
-          "opponent": "Chillicothe vs. Brimfield",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield def. Sparland Midland",
-          "score": "22-15"
-        },
-        {
-          "opponent": "Brimfield vs. Peoria St. Jude",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Peoria Christian",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Elmwood",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Williamsfield",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Farmington Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Dunlap MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Glasford Illini Bluffs",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Bartonville Monroe",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Dunlap Valley MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Metamora GS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Green Valley Midwest Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Peoria St. Vincent de Paul",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Lewistown JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Princeville",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. London Mills Valley",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Peoria Heights GS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Peoria Limestone Walters",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 1,
-        "completed": 2
-      }
-    },
-    "Peoria Heights GS": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=461&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Peoria Pleasant Valley vs. Peoria Heights GS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "London Mills Valley vs. Peoria Heights GS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Chillicothe vs. Peoria Heights GS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Marquette Heights Georgetowne vs. Peoria Heights GS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Peoria Heights GS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria Christian vs. Peoria Heights GS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria Hollis vs. Peoria Heights GS",
+          "opponent": "Sauk Village Rickover vs. Riverdale Washington",
           "score": "PENDING"
         }
       ],
@@ -4238,105 +5658,87 @@ window.iesaScoreCache = {
         "completed": 0
       }
     },
-    "Marseilles ES": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=336&ActivityCode=GBK&GradeLevel=8",
+    "Paris Crestwood": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=440&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Waterman Indian Creek vs. Marseilles ES",
+          "opponent": "Effingham JHS vs. Paris Crestwood",
           "score": "PENDING"
         },
         {
-          "opponent": "Morris Nettle Creek vs. Marseilles ES",
+          "opponent": "Mt. Zion vs. Paris Crestwood",
           "score": "PENDING"
         },
         {
-          "opponent": "McNabb Putnam County vs. Marseilles ES",
+          "opponent": "Westville JHS vs. Paris Crestwood",
           "score": "PENDING"
         },
         {
-          "opponent": "Mazon-Verona-Kinsman vs. Marseilles ES",
+          "opponent": "Tolono Unity vs. Paris Crestwood",
           "score": "PENDING"
         },
         {
-          "opponent": "Marseilles Milton Pope vs. Marseilles ES",
+          "opponent": "Charleston vs. Paris Crestwood",
           "score": "PENDING"
         },
         {
-          "opponent": "Ottawa Wallace vs. Marseilles ES",
+          "opponent": "Teutopolis vs. Paris Crestwood",
           "score": "PENDING"
         },
         {
-          "opponent": "LaSalle Dimmick vs. Marseilles ES",
+          "opponent": "Paris Crestwood def. Sidell Salt Fork",
+          "score": "32-19"
+        },
+        {
+          "opponent": "Oakland Lake Crest vs. Paris Crestwood",
           "score": "PENDING"
         },
         {
-          "opponent": "Ransom vs. Marseilles ES",
+          "opponent": "Paris Crestwood vs. Danville North Ridge",
           "score": "PENDING"
         },
         {
-          "opponent": "Oglesby Washington vs. Marseilles ES",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Joliet Laraway": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1671&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Lockport Fairmont vs. Joliet Laraway",
+          "opponent": "Paris Crestwood vs. Neoga",
           "score": "PENDING"
         },
         {
-          "opponent": "Lockport Fairmont vs. Joliet Laraway",
+          "opponent": "Paris Crestwood vs. Hume Shiloh",
           "score": "PENDING"
         },
         {
-          "opponent": "Joliet Laraway def. Elwood GS",
-          "score": "43-13"
-        },
-        {
-          "opponent": "Lockport Taft vs. Joliet Laraway",
+          "opponent": "Paris Crestwood vs. Tuscola East Prairie",
           "score": "PENDING"
         },
         {
-          "opponent": "Lockport Taft vs. Joliet Laraway",
+          "opponent": "Paris Crestwood vs. Teutopolis",
           "score": "PENDING"
         },
         {
-          "opponent": "Joliet Laraway vs. Joliet Gompers",
+          "opponent": "Paris Crestwood vs. Mattoon",
           "score": "PENDING"
         },
         {
-          "opponent": "Joliet Laraway vs. Rockdale",
+          "opponent": "Paris Crestwood vs. Chrisman Scottland",
           "score": "PENDING"
         },
         {
-          "opponent": "Joliet Laraway vs. Crest Hill Richland",
+          "opponent": "Paris Crestwood vs. Robinson Nuttall",
           "score": "PENDING"
         },
         {
-          "opponent": "Joliet Laraway vs. Chaney Monge",
+          "opponent": "Paris Crestwood vs. Casey-Westfield",
           "score": "PENDING"
         },
         {
-          "opponent": "Joliet Laraway vs. Rockdale",
+          "opponent": "Paris Crestwood vs. Olney",
           "score": "PENDING"
         },
         {
-          "opponent": "Joliet Laraway vs. Chaney Monge",
+          "opponent": "Paris Crestwood vs. Arcola",
           "score": "PENDING"
         },
         {
-          "opponent": "Joliet Laraway vs. Crest Hill Richland",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Joliet Laraway vs. Elwood GS",
+          "opponent": "Paris Crestwood vs. Marshall JHS",
           "score": "PENDING"
         }
       ],
@@ -4346,35 +5748,27 @@ window.iesaScoreCache = {
         "completed": 1
       }
     },
-    "Arcola": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=9&ActivityCode=GBK&GradeLevel=8",
+    "Liberty": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=301&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Philo St. Thomas vs. Arcola",
+          "opponent": "Beardstown MS vs. Liberty",
           "score": "PENDING"
         },
         {
-          "opponent": "Cerro Gordo vs. Arcola",
+          "opponent": "Rushville Schuyler Industry vs. Liberty",
           "score": "PENDING"
         },
         {
-          "opponent": "Tolono Unity vs. Arcola",
+          "opponent": "Mt. Sterling Brown County vs. Liberty",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Arcola",
+          "opponent": "Hamilton ES vs. Liberty",
           "score": "PENDING"
         },
         {
-          "opponent": "Mattoon St. John's vs. Arcola",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Villa Grove vs. Arcola",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Tuscola East Prairie vs. Arcola",
+          "opponent": "Nauvoo-Colusa vs. Liberty",
           "score": "PENDING"
         }
       ],
@@ -4384,155 +5778,61 @@ window.iesaScoreCache = {
         "completed": 0
       }
     },
-    "Rockford Montessori": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2555&ActivityCode=GBK&GradeLevel=8",
+    "Seneca": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=513&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Rockford Kennedy vs. Rockford Montessori",
+          "opponent": "Braidwood Reed-Custer vs. Seneca",
           "score": "PENDING"
         },
         {
-          "opponent": "Rockford Kennedy vs. Rockford Montessori",
+          "opponent": "Serena vs. Seneca",
           "score": "PENDING"
         },
         {
-          "opponent": "Rockford Flinn vs. Rockford Montessori",
+          "opponent": "Gardner vs. Seneca",
           "score": "PENDING"
         },
         {
-          "opponent": "Rockford Lincoln vs. Rockford Montessori",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Princeville": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=485&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "London Mills Valley vs. Princeville",
+          "opponent": "Ottawa Shepherd vs. Seneca",
           "score": "PENDING"
         },
         {
-          "opponent": "Chillicothe vs. Princeville",
+          "opponent": "Wilmington vs. Seneca",
           "score": "PENDING"
         },
         {
-          "opponent": "Brimfield vs. Princeville",
+          "opponent": "Peru Parkside vs. Seneca",
           "score": "PENDING"
         },
         {
-          "opponent": "Peoria Limestone Walters vs. Princeville",
+          "opponent": "Mazon-Verona-Kinsman vs. Seneca",
           "score": "PENDING"
         },
         {
-          "opponent": "Peoria Christian vs. Princeville",
+          "opponent": "Marseilles Milton Pope vs. Seneca",
           "score": "PENDING"
         },
         {
-          "opponent": "Bartonville Monroe vs. Princeville",
+          "opponent": "Ottawa Wallace vs. Seneca",
           "score": "PENDING"
         },
         {
-          "opponent": "Peoria St. Vincent de Paul vs. Princeville",
+          "opponent": "Morris Saratoga vs. Seneca",
           "score": "PENDING"
         },
         {
-          "opponent": "Toulon Stark County vs. Princeville",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Colchester West Prairie": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=126&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Colchester West Prairie def. Beardstown MS",
-          "score": "33-8"
+          "opponent": "Seneca def. Coal City",
+          "score": "27-11"
         },
         {
-          "opponent": "Bushnell-Prairie City vs. Colchester West Prairie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bushnell-Prairie City vs. Colchester West Prairie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bushnell-Prairie City vs. Colchester West Prairie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "London Mills Valley vs. Colchester West Prairie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Colchester West Prairie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mt. Sterling Brown County vs. Colchester West Prairie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Hamilton ES vs. Colchester West Prairie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Colchester West Prairie def. Nauvoo-Colusa",
-          "score": "25-16"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. Colchester West Prairie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Avon Abingdon Avon vs. Colchester West Prairie",
-          "score": "PENDING"
+          "opponent": "Seneca def. Oglesby Washington",
+          "score": "30-27"
         }
       ],
       "record": {
         "wins": 2,
         "losses": 0,
-        "completed": 2
-      }
-    },
-    "Bourbonnais St. George": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=56&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Manteno vs. Bourbonnais St. George",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Wilmington vs. Bourbonnais St. George",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Herscher Limestone vs. Bourbonnais St. George",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peotone def. Bourbonnais St. George",
-          "score": "34-12"
-        },
-        {
-          "opponent": "Momence JHS def. Bourbonnais St. George",
-          "score": "22-19"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 2,
         "completed": 2
       }
     },
@@ -4630,611 +5930,79 @@ window.iesaScoreCache = {
         "completed": 4
       }
     },
-    "Decatur Robertson": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1796&ActivityCode=GBK&GradeLevel=8",
+    "East Alton MS": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1973&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Urbana MS def. Decatur Robertson",
-          "score": "41-35"
-        },
-        {
-          "opponent": "Decatur Robertson def. Springfield Jefferson",
-          "score": "40-6"
-        },
-        {
-          "opponent": "Decatur Robertson vs. Decatur Montessori Academy for Peace",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Robertson vs. Decatur Johns Hill",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Robertson vs. Decatur Hope",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Robertson vs. Springfield Lincoln",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Robertson vs. Decatur Dennis",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Robertson vs. Decatur Stephen Decatur",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Robertson vs. Decatur Our Lady of Lourdes",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Robertson vs. Decatur Montessori Academy for Peace",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Robertson vs. Decatur Johns Hill",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Robertson vs. Champaign International",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 1,
-        "completed": 2
-      }
-    },
-    "Champaign International": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2496&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Decatur Robertson vs. Champaign International",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Champaign International",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oakwood GS vs. Champaign International",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Champaign St. Matthew vs. Champaign International",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bloomington Cornerstone vs. Champaign International",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mattoon St. John's vs. Champaign International",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Hope vs. Champaign International",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Champaign Holy Cross vs. Champaign International",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Argenta-Oreana": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=10&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Argenta-Oreana",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cerro Gordo vs. Argenta-Oreana",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Macon Meridian vs. Argenta-Oreana",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Our Lady of Lourdes vs. Argenta-Oreana",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Warrensburg-Latham vs. Argenta-Oreana",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Decatur Unity vs. Argenta-Oreana",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Carthage": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=93&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Bushnell-Prairie City vs. Carthage",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Havana vs. Carthage",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Carthage vs. Rushville Schuyler Industry",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Carthage vs. Mt. Sterling Brown County",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Hamilton ES vs. Carthage",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Carthage def. Quincy St. Peter",
-          "score": "22-17"
-        },
-        {
-          "opponent": "Virginia def. Carthage",
-          "score": "38-25"
-        },
-        {
-          "opponent": "Nauvoo-Colusa vs. Carthage",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 1,
-        "completed": 2
-      }
-    },
-    "Mansfield Blue Ridge IJHS (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=328&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Colfax Ridgeview vs. Mansfield Blue Ridge IJHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Champaign Judah Christian",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Champaign Next Generation",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Rantoul St. Malachy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Argenta-Oreana",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Bloomington St. Mary's",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Lexington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Cerro Gordo",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Fisher",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. LeRoy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Champaign Holy Cross",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Downs Tri-Valley",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Gibson City GCMS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Clinton",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Heyworth",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Maroa-Forsyth",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Bloomington Cornerstone",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Normal Calvary",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Rushville Schuyler Industry": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1818&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Beardstown MS vs. Rushville Schuyler Industry",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry def. Bushnell-Prairie City",
-          "score": "39-26"
-        },
-        {
-          "opponent": "Havana vs. Rushville Schuyler Industry",
+          "opponent": "Piasa Southwestern vs. East Alton MS",
           "score": "PENDING"
         },
         {
-          "opponent": "Carthage vs. Rushville Schuyler Industry",
+          "opponent": "Jerseyville St. Francis HG vs. East Alton MS",
           "score": "PENDING"
         },
         {
-          "opponent": "Mt. Sterling Brown County def. Rushville Schuyler Industry",
-          "score": "42-23"
-        },
-        {
-          "opponent": "Pittsfield Pikeland def. Rushville Schuyler Industry",
-          "score": "34-31"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Virginia",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Beardstown MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Hamilton ES",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Camp Point Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Liberty",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Table Grove VIT",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Lewistown JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Colchester West Prairie",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Petersburg PORTA JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Canton Ingersoll",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Griggsville-Perry",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Augusta Southeastern",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Quincy St. Peter",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Beardstown MS vs. Rushville Schuyler Industry",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 2,
-        "completed": 3
-      }
-    },
-    "Morton Grove MCC": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2302&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Morton Grove MCC vs. Burhan Academy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Morton Grove MCC vs. Huda Academy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Morton Grove MCC vs. Kindi Academy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Morton Grove MCC vs. Burhan Academy",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Morton Grove MCC vs. Huda Academy",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "London Mills Valley (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=319&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Bushnell-Prairie City vs. London Mills Valley",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "London Mills Valley vs. Monmouth ICS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "London Mills Valley def. Table Grove VIT",
-          "score": "20-13"
-        },
-        {
-          "opponent": "London Mills Valley vs. Princeville",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "London Mills Valley vs. Avon Abingdon Avon",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "London Mills Valley vs. Farmington Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "London Mills Valley vs. Elmwood",
+          "opponent": "Maryville Christian vs. East Alton MS",
           "score": "PENDING"
         },
         {
-          "opponent": "London Mills Valley vs. Glasford Illini Bluffs",
+          "opponent": "Maryville Christian vs. East Alton MS",
           "score": "PENDING"
         },
         {
-          "opponent": "London Mills Valley vs. Colchester West Prairie",
+          "opponent": "Jerseyville Community vs. East Alton MS",
           "score": "PENDING"
         },
         {
-          "opponent": "London Mills Valley vs. Lewistown JHS",
+          "opponent": "Jerseyville Community vs. East Alton MS",
           "score": "PENDING"
         },
         {
-          "opponent": "London Mills Valley vs. Stronghurst West Central",
+          "opponent": "Staunton vs. East Alton MS",
           "score": "PENDING"
         },
         {
-          "opponent": "London Mills Valley vs. Peoria Heights GS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "London Mills Valley vs. La Harpe",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "London Mills Valley vs. Chillicothe",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. London Mills Valley",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 0,
-        "completed": 1
-      }
-    },
-    "Elmwood": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=180&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Havana vs. Elmwood",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "London Mills Valley vs. Elmwood",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Chillicothe vs. Elmwood",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Brimfield vs. Elmwood",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria Limestone Walters vs. Elmwood",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dunlap MS vs. Elmwood",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria Christian vs. Elmwood",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Washington St. Patrick vs. Elmwood",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bartonville Monroe vs. Elmwood",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Avon Abingdon Avon def. Elmwood",
-          "score": "32-12"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 1,
-        "completed": 1
-      }
-    },
-    "Bloomington Cornerstone": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1094&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Colfax Ridgeview vs. Bloomington Cornerstone",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Bloomington Cornerstone",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bloomington Corpus Christi vs. Bloomington Cornerstone",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bloomington Cornerstone vs. Lincoln Chester-East Lincoln",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bloomington Cornerstone vs. Normal Epiphany",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bloomington Cornerstone vs. Lexington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bloomington Cornerstone vs. Decatur Montessori Academy for Peace",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bloomington Cornerstone vs. Bloomington Trinity Lutheran",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bloomington Cornerstone vs. Piper City Tri-Point",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bloomington Cornerstone vs. Normal Metcalf",
-          "score": "PENDING"
+          "opponent": "Gillespie def. East Alton MS",
+          "score": "37-29"
         },
         {
-          "opponent": "Bloomington Cornerstone vs. Normal Calvary",
+          "opponent": "Bethalto Trimpe vs. East Alton MS",
           "score": "PENDING"
         },
         {
-          "opponent": "Bloomington Cornerstone vs. Champaign Holy Cross",
+          "opponent": "Bethalto Trimpe vs. East Alton MS",
           "score": "PENDING"
         },
         {
-          "opponent": "Bloomington Cornerstone vs. Champaign International",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bloomington Cornerstone vs. Bloomington St. Mary's",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Casey-Westfield": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=95&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Paris Mayo vs. Casey-Westfield",
-          "score": "PENDING"
+          "opponent": "Mt. Olive def. East Alton MS",
+          "score": "54-36"
         },
         {
-          "opponent": "Sigel St. Michael's vs. Casey-Westfield",
+          "opponent": "East Alton MS vs. Roxana",
           "score": "PENDING"
         },
         {
-          "opponent": "Charleston vs. Casey-Westfield",
+          "opponent": "East Alton MS vs. Granite City Coolidge",
           "score": "PENDING"
         },
         {
-          "opponent": "Paris Crestwood vs. Casey-Westfield",
+          "opponent": "East Alton MS vs. Roxana",
           "score": "PENDING"
-        },
-        {
-          "opponent": "Bridgeport Red Hill def. Casey-Westfield",
-          "score": "33-17"
-        },
-        {
-          "opponent": "Stewardson-Strasburg def. Casey-Westfield",
-          "score": "44-14"
         },
         {
-          "opponent": "Mattoon vs. Casey-Westfield",
+          "opponent": "East Alton MS vs. Wood River Lewis & Clark",
           "score": "PENDING"
         },
         {
-          "opponent": "Mattoon St. John's vs. Casey-Westfield",
+          "opponent": "East Alton MS vs. Wood River Lewis & Clark",
           "score": "PENDING"
         },
         {
-          "opponent": "Oblong vs. Casey-Westfield",
+          "opponent": "East Alton MS vs. Alton",
           "score": "PENDING"
         },
         {
-          "opponent": "Lawrenceville Parkview vs. Casey-Westfield",
+          "opponent": "East Alton MS vs. Madison",
           "score": "PENDING"
         }
       ],
@@ -5242,184 +6010,6 @@ window.iesaScoreCache = {
         "wins": 0,
         "losses": 2,
         "completed": 2
-      }
-    },
-    "Markham Obama": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2260&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Hazel Crest Jesse White vs. Markham Obama",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Hazel Crest Jesse White vs. Markham Obama",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ford Heights Cottage Grove UGC vs. Markham Obama",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ford Heights Cottage Grove UGC vs. Markham Obama",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Markham Obama vs. Lynwood Sandridge",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Markham Obama vs. Dolton Lincoln",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Markham Obama vs. Robbins Kellar",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Calumet City Dolton 149 vs. Markham Obama",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Calumet City Dolton 149 vs. Markham Obama",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Blue Island Kerr vs. Markham Obama",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Dieterich": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=157&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Dieterich def. Louisville North Clay",
-          "score": "25-14"
-        },
-        {
-          "opponent": "Effingham JHS vs. Dieterich",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Sigel St. Michael's vs. Dieterich",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich def. Altamont",
-          "score": "26-15"
-        },
-        {
-          "opponent": "Dieterich vs. Oblong",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Martinsville",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Stewardson-Strasburg",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Neoga",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Kinmundy South Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Effingham St. Anthony",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Beecher City",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Newton Jasper County",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Toledo Cumberland",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Brownstown",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Robinson Nuttall",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Effingham Sacred Heart",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich vs. Teutopolis",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Dieterich def. Mattoon St. John's",
-          "score": "29-22"
-        },
-        {
-          "opponent": "Dieterich def. Vandalia",
-          "score": "29-15"
-        }
-      ],
-      "record": {
-        "wins": 4,
-        "losses": 0,
-        "completed": 4
-      }
-    },
-    "Fisher": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=189&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Colfax Ridgeview vs. Fisher",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Fisher def. Potomac",
-          "score": "22-18"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Fisher",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Philo St. Thomas def. Fisher",
-          "score": "27-19"
-        },
-        {
-          "opponent": "Champaign St. Matthew vs. Fisher",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Buckley St. John's vs. Fisher",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Fisher def. Rantoul St. Malachy",
-          "score": "34-5"
-        },
-        {
-          "opponent": "Heyworth vs. Fisher",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 2,
-        "losses": 1,
-        "completed": 3
       }
     },
     "Kankakee Bishop McNamara": {
@@ -5450,386 +6040,6 @@ window.iesaScoreCache = {
         "wins": 2,
         "losses": 1,
         "completed": 3
-      }
-    },
-    "Ottawa Wallace": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=435&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Serena vs. Ottawa Wallace",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Wallace def. Flanagan",
-          "score": "35-25"
-        },
-        {
-          "opponent": "Ottawa Shepherd vs. Ottawa Wallace",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peru Parkside vs. Ottawa Wallace",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Marseilles Milton Pope vs. Ottawa Wallace",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Wallace def. Princeton Logan",
-          "score": "24-19"
-        },
-        {
-          "opponent": "Ottawa Wallace def. Ransom",
-          "score": "24-18"
-        },
-        {
-          "opponent": "Ottawa Wallace def. Morris Nettle Creek",
-          "score": "50-2"
-        },
-        {
-          "opponent": "Ottawa Wallace vs. LaSalle St. Acutis",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Wallace vs. LaSalle Dimmick",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Wallace vs. Lostant",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Wallace vs. Oglesby Washington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Wallace vs. Ottawa Marquette",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Wallace vs. Marseilles ES",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Wallace vs. Ladd",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Wallace vs. Plano",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Wallace vs. Seneca",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Wallace vs. Morris GS",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 4,
-        "losses": 0,
-        "completed": 4
-      }
-    },
-    "Petersburg PORTA JHS": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=467&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Beardstown MS vs. Petersburg PORTA JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Auburn JHS at Divernon vs. Petersburg PORTA JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Havana vs. Petersburg PORTA JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rushville Schuyler Industry vs. Petersburg PORTA JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS def. New Berlin JHS",
-          "score": "32-14"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS vs. Our Savior School Jacksonville",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS vs. Mason City Illini Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS vs. Pleasant Plains",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS def. Springfield Blessed Sacrament",
-          "score": "35-16"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS vs. Springfield Calvary",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS vs. Athens",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS vs. Riverton",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS vs. Table Grove VIT",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS vs. Ashland A-C Central",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS vs. Pawnee",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS vs. Lewistown JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Williamsville vs. Petersburg PORTA JHS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Petersburg PORTA JHS def. Jacksonville Our Saviour",
-          "score": "56-2"
-        }
-      ],
-      "record": {
-        "wins": 3,
-        "losses": 0,
-        "completed": 3
-      }
-    },
-    "Seneca": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=513&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Braidwood Reed-Custer vs. Seneca",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Serena vs. Seneca",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Gardner vs. Seneca",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Shepherd vs. Seneca",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Wilmington vs. Seneca",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peru Parkside vs. Seneca",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mazon-Verona-Kinsman vs. Seneca",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Marseilles Milton Pope vs. Seneca",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Wallace vs. Seneca",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Morris Saratoga vs. Seneca",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Seneca def. Coal City",
-          "score": "27-11"
-        },
-        {
-          "opponent": "Seneca def. Oglesby Washington",
-          "score": "30-27"
-        }
-      ],
-      "record": {
-        "wins": 2,
-        "losses": 0,
-        "completed": 2
-      }
-    },
-    "Washington Beverly Manor": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=585&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Washington MS vs. Washington Beverly Manor",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "South Pekin vs. Washington Beverly Manor",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Roanoke-Benson vs. Washington Beverly Manor",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Germantown Hills vs. Washington Beverly Manor",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Tremont vs. Washington Beverly Manor",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria Christian vs. Washington Beverly Manor",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Washington Central vs. Washington Beverly Manor",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Washington St. Patrick vs. Washington Beverly Manor",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bartonville Monroe vs. Washington Beverly Manor",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peoria Christ Lutheran vs. Washington Beverly Manor",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Oglesby Washington": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=787&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Spring Valley Kennedy vs. Oglesby Washington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Mendota Northbrook vs. Oglesby Washington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Morris Nettle Creek vs. Oglesby Washington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Peru Parkside def. Oglesby Washington",
-          "score": "23-22"
-        },
-        {
-          "opponent": "Marseilles Milton Pope vs. Oglesby Washington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Ottawa Wallace vs. Oglesby Washington",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oglesby Washington def. LaSalle Dimmick",
-          "score": "46-16"
-        },
-        {
-          "opponent": "Seneca def. Oglesby Washington",
-          "score": "30-27"
-        },
-        {
-          "opponent": "Oglesby Washington vs. Lostant",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oglesby Washington vs. Ladd",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oglesby Washington vs. Ottawa Marquette",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oglesby Washington vs. LaSalle Lincoln",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oglesby Washington vs. Marseilles ES",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oglesby Washington vs. LaSalle St. Acutis",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Oglesby Washington vs. Manlius Bureau Valley JHS",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 2,
-        "completed": 3
-      }
-    },
-    "Gibson City GCMS": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=353&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Gibson City GCMS def. Colfax Ridgeview",
-          "score": "34-13"
-        },
-        {
-          "opponent": "Mansfield Blue Ridge IJHS vs. Gibson City GCMS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "El Paso-Gridley vs. Gibson City GCMS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Cissna Park vs. Gibson City GCMS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Watseka JHS vs. Gibson City GCMS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Rantoul St. Malachy vs. Gibson City GCMS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Heyworth vs. Gibson City GCMS",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 0,
-        "completed": 1
       }
     },
     "Dwight": {
@@ -5890,283 +6100,73 @@ window.iesaScoreCache = {
         "completed": 1
       }
     },
-    "Hardin Calhoun (Co-op)": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=765&ActivityCode=GBK&GradeLevel=8",
+    "Lewistown JHS": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=298&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Carrollton GS vs. Hardin Calhoun",
+          "opponent": "Beardstown MS vs. Lewistown JHS",
           "score": "PENDING"
         },
         {
-          "opponent": "Carrollton GS vs. Hardin Calhoun",
+          "opponent": "Bushnell-Prairie City vs. Lewistown JHS",
           "score": "PENDING"
         },
         {
-          "opponent": "Jerseyville St. Francis HG vs. Hardin Calhoun",
+          "opponent": "Havana vs. Lewistown JHS",
           "score": "PENDING"
         },
         {
-          "opponent": "Jerseyville St. Francis HG vs. Hardin Calhoun",
+          "opponent": "London Mills Valley vs. Lewistown JHS",
           "score": "PENDING"
         },
         {
-          "opponent": "Mt. Sterling Brown County vs. Hardin Calhoun",
+          "opponent": "Rushville Schuyler Industry vs. Lewistown JHS",
           "score": "PENDING"
         },
         {
-          "opponent": "Jerseyville Community vs. Hardin Calhoun",
+          "opponent": "Brimfield vs. Lewistown JHS",
           "score": "PENDING"
         },
         {
-          "opponent": "Jacksonville Our Saviour vs. Hardin Calhoun",
+          "opponent": "Petersburg PORTA JHS vs. Lewistown JHS",
           "score": "PENDING"
+        },
+        {
+          "opponent": "Avon Abingdon Avon def. Lewistown JHS",
+          "score": "27-18"
         }
       ],
       "record": {
         "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Maryville Christian": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2127&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Highland MS vs. Maryville Christian",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian def. Coolidge",
-          "score": "33-26"
-        },
-        {
-          "opponent": "Jerseyville Community def. Maryville Christian",
-          "score": "31-28"
-        },
-        {
-          "opponent": "Maryville Christian vs. East Alton MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Roxana",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Bethalto Trimpe",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. St. Rose",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. East Alton MS",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Lebanon",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Roxana",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Immaculate Conception",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Triad",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. MCS Tournament",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. MCS Tournament",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Jerseyville Community",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Mascoutah",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Shiloh",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Bethalto Trimpe",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. O'Fallon Fulton",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Smithton",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. MCS Tournament",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
         "losses": 1,
-        "completed": 2
-      }
-    },
-    "Wood River Lewis & Clark": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=956&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Bunker Hill Wolf Ridge vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Maryville Christian vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Jerseyville Community vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Jerseyville Community vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Bethalto Trimpe vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "East Alton MS vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "East Alton MS vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Wood River Lewis & Clark def. Pocahontas",
-          "score": "21-8"
-        },
-        {
-          "opponent": "Pocahontas vs. Wood River Lewis & Clark",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 1,
-        "losses": 0,
         "completed": 1
       }
     },
-    "Liberty": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=301&ActivityCode=GBK&GradeLevel=8",
+    "Normal Metcalf": {
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=418&ActivityCode=GBK&GradeLevel=8",
       "games": [
         {
-          "opponent": "Beardstown MS vs. Liberty",
+          "opponent": "Colfax Ridgeview vs. Normal Metcalf",
           "score": "PENDING"
         },
         {
-          "opponent": "Rushville Schuyler Industry vs. Liberty",
+          "opponent": "Bloomington Corpus Christi vs. Normal Metcalf",
           "score": "PENDING"
         },
         {
-          "opponent": "Mt. Sterling Brown County vs. Liberty",
+          "opponent": "Roanoke-Benson vs. Normal Metcalf",
           "score": "PENDING"
         },
         {
-          "opponent": "Hamilton ES vs. Liberty",
+          "opponent": "Pontiac JHS vs. Normal Metcalf",
           "score": "PENDING"
         },
         {
-          "opponent": "Nauvoo-Colusa vs. Liberty",
-          "score": "PENDING"
-        }
-      ],
-      "record": {
-        "wins": 0,
-        "losses": 0,
-        "completed": 0
-      }
-    },
-    "Serena": {
-      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=1746&ActivityCode=GBK&GradeLevel=8",
-      "games": [
-        {
-          "opponent": "Waterman Indian Creek vs. Serena",
+          "opponent": "Bloomington Cornerstone vs. Normal Metcalf",
           "score": "PENDING"
         },
         {
-          "opponent": "Millbrook vs. Serena",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Paw Paw vs. Serena",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Serena vs. Marseilles Milton Pope",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Serena vs. Earlville",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Serena vs. Ottawa Wallace",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Serena vs. Newark Lisbon",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Serena vs. Somonauk",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Serena vs. Leland",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Serena vs. LaSalle Dimmick",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Serena vs. Seneca",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Serena vs. Mendota Holy Cross",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Serena vs. Hinkley-Big Rock",
-          "score": "PENDING"
-        },
-        {
-          "opponent": "Serena vs. Sandwich",
+          "opponent": "Bloomington Trinity Lutheran vs. Normal Metcalf",
           "score": "PENDING"
         }
       ],
@@ -6178,6 +6178,51 @@ window.iesaScoreCache = {
     }
   },
   "updatedGames": [
+    {
+      "team": "Brimfield",
+      "opponent": "Peoria Christian def. Brimfield",
+      "previous": "PENDING",
+      "score": "31-12",
+      "firstSeenAt": "2026-10-04 05:22",
+      "latestAt": "2026-10-04 05:22",
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=66&ActivityCode=GBK&GradeLevel=8"
+    },
+    {
+      "team": "Morton Grove MCC",
+      "opponent": "Morton Grove MCC def. AQSA",
+      "previous": "N/A",
+      "score": "32-10",
+      "firstSeenAt": "2026-10-04 05:22",
+      "latestAt": "2026-10-04 05:22",
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2302&ActivityCode=GBK&GradeLevel=8"
+    },
+    {
+      "team": "Morton Grove MCC",
+      "opponent": "Morton Grove MCC def. Burhan Academy",
+      "previous": "PENDING",
+      "score": "42-0",
+      "firstSeenAt": "2026-10-04 05:22",
+      "latestAt": "2026-10-04 05:22",
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=2302&ActivityCode=GBK&GradeLevel=8"
+    },
+    {
+      "team": "Normal Epiphany",
+      "opponent": "Normal Epiphany def. Champaign Holy Cross",
+      "previous": "PENDING",
+      "score": "51-0",
+      "firstSeenAt": "2026-10-04 05:22",
+      "latestAt": "2026-10-04 05:22",
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=417&ActivityCode=GBK&GradeLevel=8"
+    },
+    {
+      "team": "Spring Valley Kennedy",
+      "opponent": "Peru Parkside def. Spring Valley Kennedy",
+      "previous": "PENDING",
+      "score": "28-15",
+      "firstSeenAt": "2026-10-04 05:22",
+      "latestAt": "2026-10-04 05:22",
+      "sourceUrl": "https://www.iesa.org/activities/memberStats.asp?SchoolID=525&ActivityCode=GBK&GradeLevel=8"
+    },
     {
       "team": "Beecher City (Co-op)",
       "opponent": "Stewardson-Strasburg def. Beecher City",
