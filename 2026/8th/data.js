@@ -4,7 +4,7 @@ window.tournamentData = {
     stateDate: "December 12 & 17, 2026",
     regionals: (function() {
         var d = [
-                ["Burr Ridge MS", "Evanston King", "Evanston St. Athanasius",
+                ["Burr Ridge MS",
                     "Lockport Kelvin Grove", "Lynwood Sandridge", "Markham Obama",
                     "Morton Grove MCC", "Riverdale Washington"
                 ],
@@ -57,7 +57,7 @@ window.tournamentData = {
                     "Effingham St. Anthony", "Kinmundy South Central (Co-op)",
                     "Stewardson-Strasburg (Co-op)"
                 ],
-                ["Bluffs (Co-op)", "Morrisonville JHS (Co-op)", "Petersburg PORTA JHS",
+                ["Morrisonville JHS (Co-op)", "Petersburg PORTA JHS",
                     "Springfield Blessed Sacrament", "Springfield Christ the King",
                     "Springfield Christian"
                 ],

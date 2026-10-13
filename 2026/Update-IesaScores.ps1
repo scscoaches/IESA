@@ -15,7 +15,7 @@ foreach ($match in [regex]::Matches($directoryPage.Content, "(?is)<a href='membe
     $directory[$schoolName] = $match.Groups[1].Value
 }
 
-function Get-Teams([string]$grade) {
+function Get-Regionals([string]$grade) {
     $script = Get-Content -Raw (Join-Path $SitePath "$grade\data.js")
     $match = if ($grade -eq "7th") {
         [regex]::Match($script, "(?s)\bvar\s+teams\s*=\s*\[(.*?)\]\s*;\s*return\s+teams\.map")
@@ -25,7 +25,42 @@ function Get-Teams([string]$grade) {
     if (!$match.Success) {
         throw "Unable to read regional teams from $grade\data.js."
     }
-    [regex]::Matches($match.Groups[1].Value, '"([^"]+)"') | ForEach-Object { $_.Groups[1].Value } | Select-Object -Unique
+    foreach ($group in [regex]::Matches($match.Groups[1].Value, '\[([^\[\]]*)\]')) {
+        , @([regex]::Matches($group.Groups[1].Value, '"([^"]+)"') | ForEach-Object { $_.Groups[1].Value })
+    }
+}
+
+function Get-Teams([string]$grade) {
+    Get-Regionals $grade | ForEach-Object { $_ } | Select-Object -Unique
+}
+
+# Rosters are fixed in data.js when the season is built, but IESA edits the
+# assignment page when a school withdraws. Report drift so data.js can be fixed.
+function Get-RosterChanges([string]$grade) {
+    $classCode = $grade.Substring(0, 1) + "-2A"
+    $url = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=2026&Class=$classCode"
+    $html = (Invoke-WebRequest -UseBasicParsing $url -TimeoutSec 30).Content
+    $headers = @([regex]::Matches($html, "(?is)<td\s+class=['""]TableSubtitle2['""][^>]*>\s*Regional\s+(\d+)\s*</td>"))
+    $local = @(Get-Regionals $grade)
+    if ($headers.Count -ne $local.Count) {
+        throw "$grade assignment page lists $($headers.Count) regionals; data.js has $($local.Count)."
+    }
+    for ($i = 0; $i -lt $headers.Count; $i++) {
+        $end = if ($i -lt $headers.Count - 1) { $headers[$i + 1].Index } else { $html.Length }
+        $block = $html.Substring($headers[$i].Index, $end - $headers[$i].Index)
+        $list = [regex]::Match($block, "(?is)<td\s+class=['""]ListData['""][^>]*>(.*?)</td>")
+        if (!$list.Success) { throw "$grade Regional $($i + 1) has no team list on the assignment page." }
+        $official = @(foreach ($line in [regex]::Split($list.Groups[1].Value, '(?i)<br\s*/?>')) {
+            $name = (Get-PlainText $line) -replace '(?i)\(\s*(?:Host Info|Host)\s*\)', ''
+            $name = ($name -replace '\s+', ' ').Trim()
+            if ($name -and $name -notmatch '(?i)\(NON-COMPETITOR\)') { $name }
+        })
+        $added = @($official | Where-Object { $_ -notin $local[$i] })
+        $removed = @($local[$i] | Where-Object { $_ -notin $official })
+        if ($added.Count -or $removed.Count) {
+            [pscustomobject]@{ regional = $i + 1; added = $added; removed = $removed; sourceUrl = $url }
+        }
+    }
 }
 
 function Get-PlainText([string]$html) {
@@ -107,6 +142,21 @@ foreach ($grade in "7th", "8th") {
         $previousChanges = @($previousCache.updatedGames)
     }
 
+    $rosterChanges = @()
+    try {
+        $rosterChanges = @(Get-RosterChanges $grade)
+        foreach ($change in $rosterChanges) {
+            $message = "$grade Regional $($change.regional) roster differs from IESA assignments." +
+                $(if ($change.removed.Count) { " No longer listed: $($change.removed -join ', ')." } else { "" }) +
+                $(if ($change.added.Count) { " Newly listed: $($change.added -join ', ')." } else { "" }) +
+                " Update $grade\data.js."
+            Write-Warning $message
+            if ($env:GITHUB_ACTIONS) { Write-Output "::warning title=IESA roster change::$message" }
+        }
+    } catch {
+        Write-Warning "Roster check for $grade failed: $($_.Exception.Message)"
+    }
+
     foreach ($team in Get-Teams $grade) {
         $lookup = ($team -replace "\s+\(Co-op\)", "").Trim().ToLowerInvariant()
         if (!$directory.ContainsKey($lookup)) {
@@ -172,6 +222,7 @@ foreach ($grade in "7th", "8th") {
         retainedDays = $RetentionDays
         teams = $teams
         updatedGames = $rollingChanges
+        rosterChanges = $rosterChanges
     }
     $json = $cache | ConvertTo-Json -Depth 6
     Write-AtomicFile (Join-Path $SitePath "scores-$grade.json") $json

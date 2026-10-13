@@ -159,6 +159,17 @@ button, its results apply to the current browser session only; official
 HTTP 405, so `score-cache.js` hides both buttons on `*.github.io` hosts; those
 visitors see the scheduled score refresh only.
 
+Regional rosters are fixed in each grade's `data.js` and are **not** updated
+automatically when a school withdraws. Every run of `Update-IesaScores.ps1`
+compares those rosters with the IESA regional assignment page
+(`assignments_Regional.asp?Year=2026&Class=7-2A` / `8-2A`), prints a warning
+(a `::warning` annotation under GitHub Actions) for each regional whose
+schools were added or removed, and records the drift as `rosterChanges` in the
+score cache. A failed check only warns. Fix the roster in `data.js` by hand
+and bump that page's `data.js?v=` token. In 2026, Bluffs (Co-op) withdrew from
+8th-grade Regional 15, and Evanston King and Evanston St. Athanasius from
+8th-grade Regional 1; 7th-grade Regional 15 still lists Bluffs (Co-op).
+
 `Update-IesaScores.ps1` writes `scores-<grade>.json` and `scores-<grade>.js`
 atomically, to a `.tmp` file that is then moved over the target. This matters
 because `team-scores.ashx` reads the same JSON while visitors browse: an
