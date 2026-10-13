@@ -1,15 +1,20 @@
 // Streaming pages for each 2026 school, keyed by the team name used in data.js.
-// NFHS links open the school's girls middle-school basketball page; add a hudl URL by hand.
+// NFHS links open the school's girls middle-school basketball page when NFHS has one, otherwise the school page; add a hudl URL by hand.
 window.iesaTeamLinks = {
     "Albion (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/edwards-county-high-school-albion-il/basketball/girls/middle-school" },
+    "Altamont (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/altamont-high-school-altamont-il" },
     "Arcola": { nfhs: "https://www.nfhsnetwork.com/schools/arcola-high-school-arcola-il/basketball/girls/middle-school" },
     "Argenta-Oreana": { nfhs: "https://www.nfhsnetwork.com/schools/argentaoreana-high-school-argenta-il/basketball/girls/middle-school" },
+    "Assumption Central A & M": { nfhs: "https://www.nfhsnetwork.com/schools/central-a-m-middle-school-assumption-il" },
     "Bismarck-Henning": { nfhs: "https://www.nfhsnetwork.com/schools/bismarckhenning-junior-high-school-bismarck-il/basketball/girls/middle-school" },
     "Bloomington Cornerstone": { nfhs: "https://www.nfhsnetwork.com/schools/cornerstone-christian-academy-bloomington-il/basketball/girls/middle-school" },
     "Bloomington Corpus Christi": { nfhs: "https://www.nfhsnetwork.com/schools/corpus-christi-catholic-school-bloomington-il/basketball/girls/middle-school" },
     "Bluffs (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/bluffs-junior-high-school-bluffs-il/basketball/girls/middle-school" },
     "Brimfield": { nfhs: "https://www.nfhsnetwork.com/schools/brimfield-high-school-brimfield-il/basketball/girls/middle-school" },
+    "Burr Ridge MS": { nfhs: "https://www.nfhsnetwork.com/schools/burr-ridge-middle-school-burr-ridge-il" },
     "Camp Point Central": { nfhs: "https://www.nfhsnetwork.com/schools/central-high-school-camp-point-camp-point-il/basketball/girls/middle-school" },
+    "Carthage": { nfhs: "https://www.nfhsnetwork.com/schools/carthage-middle-school-carthage-il" },
+    "Casey-Westfield": { nfhs: "https://www.nfhsnetwork.com/schools/caseywestfield-high-school-casey-il" },
     "Cerro Gordo (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/cerro-gordo-high-school-cerro-gordo-il/basketball/girls/middle-school" },
     "Champaign International": { nfhs: "https://www.nfhsnetwork.com/schools/international-prep-academy-champaign-il/basketball/girls/middle-school" },
     "Champaign St. Matthew": { nfhs: "https://www.nfhsnetwork.com/schools/st-matthew-catholic-school-champaign-il/basketball/girls/middle-school" },
@@ -19,7 +24,9 @@ window.iesaTeamLinks = {
     "Elmwood": { nfhs: "https://www.nfhsnetwork.com/schools/elmwood-high-school-elmwood-il/basketball/girls/middle-school" },
     "Fisher": { nfhs: "https://www.nfhsnetwork.com/schools/fisher-high-school-fisher-il/basketball/girls/middle-school" },
     "Glasford Illini Bluffs": { nfhs: "https://www.nfhsnetwork.com/schools/illini-bluffs-high-school-glasford-il/basketball/girls/middle-school" },
+    "Green Valley Midwest Central": { nfhs: "https://www.nfhsnetwork.com/schools/midwest-central-middle-school-green-valley-il/basketball/girls/middle-school" },
     "Greenfield (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/greenfield-high-school-greenfield-il/basketball/girls/middle-school", hudl: "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school" },
+    "Hardin Calhoun (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/calhoun-high-school-hardin-il" },
     "Havana": { nfhs: "https://www.nfhsnetwork.com/schools/havana-high-school-havana-il/basketball/girls/middle-school" },
     "Kinmundy South Central (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/south-central-high-school-farina-il/basketball/girls/middle-school" },
     "Knoxville JHS": { nfhs: "https://www.nfhsnetwork.com/schools/knoxville-high-school-knoxville-il/basketball/girls/middle-school" },
@@ -33,12 +40,16 @@ window.iesaTeamLinks = {
     "Morrisonville JHS (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/morrisonville-high-school-morrisonville-il/basketball/girls/middle-school" },
     "Morton Grove MCC": { nfhs: "https://www.nfhsnetwork.com/schools/morton-grove-academy-morton-grove-il/basketball/girls/middle-school" },
     "Mt. Pulaski (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/mt-pulaski-high-school-mt-pulaski-il/basketball/girls/middle-school" },
+    "Mt. Sterling Brown County (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/brown-county-high-school-mt-sterling-il/basketball/girls/middle-school" },
     "Nokomis JHS (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/nokomis-high-school-nokomis-il/basketball/girls/middle-school" },
     "Normal Epiphany": { nfhs: "https://www.nfhsnetwork.com/schools/epiphany-school-normal-il/basketball/girls/middle-school" },
     "Oakwood GS": { nfhs: "https://www.nfhsnetwork.com/schools/oakwood-high-school-fithian-il/basketball/girls/middle-school" },
     "Oblong": { nfhs: "https://www.nfhsnetwork.com/schools/oblong-high-school-oblong-il/basketball/girls/middle-school" },
+    "Paris Crestwood": { nfhs: "https://www.nfhsnetwork.com/schools/paris-high-school-paris-il/basketball/girls/middle-school" },
     "Petersburg PORTA JHS": { nfhs: "https://www.nfhsnetwork.com/schools/porta-high-school-petersburg-il/basketball/girls/middle-school" },
     "Princeville": { nfhs: "https://www.nfhsnetwork.com/schools/princeville-high-school-princeville-il/basketball/girls/middle-school" },
+    "Rushville Schuyler Industry": { nfhs: "https://www.nfhsnetwork.com/schools/schuyler-industry-middle-school-rushville-il" },
+    "Seneca": { nfhs: "https://www.nfhsnetwork.com/schools/seneca-high-school-seneca-il" },
     "Serena": { nfhs: "https://www.nfhsnetwork.com/schools/serena-middle-school-serena-il/basketball/girls/middle-school" },
     "Somonauk": { nfhs: "https://www.nfhsnetwork.com/schools/somonauk-middle-school-somonauk-il/basketball/girls/middle-school" },
     "Stewardson-Strasburg (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/stewardsonstrasburg-high-school-strasburg-il/basketball/girls/middle-school" },
@@ -46,5 +57,8 @@ window.iesaTeamLinks = {
     "Table Grove VIT (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/vit-high-school-astoriatable-grove-coop-table-grove-il/basketball/girls/middle-school" },
     "Toulon Stark County": { nfhs: "https://www.nfhsnetwork.com/schools/stark-county-high-school-toulon-il/basketball/girls/middle-school" },
     "Warrensburg-Latham": { nfhs: "https://www.nfhsnetwork.com/schools/warrensburglatham-high-school-warrensburg-il/basketball/girls/middle-school" },
-    "Waterman Indian Creek": { nfhs: "https://www.nfhsnetwork.com/schools/indian-creek-high-school-shabbona-il/basketball/girls/middle-school" }
+    "Waterman Indian Creek": { nfhs: "https://www.nfhsnetwork.com/schools/indian-creek-high-school-shabbona-il/basketball/girls/middle-school" },
+    "Wenona Fieldcrest": { nfhs: "https://www.nfhsnetwork.com/schools/fieldcrest-middle-school-wenona-il" },
+    "White Hall North Greene": { nfhs: "https://www.nfhsnetwork.com/schools/north-greene-high-school-white-hall-il/basketball/girls/middle-school" },
+    "Wood River Lewis & Clark": { nfhs: "https://www.nfhsnetwork.com/schools/east-altonwood-river-high-school-wood-river-il" }
 };
