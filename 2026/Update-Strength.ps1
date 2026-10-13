@@ -79,8 +79,14 @@ foreach ($grade in $grades) {
     }
 }
 if (!$due) { return }
+. (Join-Path $PSScriptRoot "IesaRequest.ps1")
+$paused = Get-IesaPause
+if ($paused) {
+    Write-Warning "Strength of schedule not rebuilt. $paused"
+    return
+}
 
-$directoryPage = (Invoke-WebRequest -UseBasicParsing "https://www.iesa.org/activities/members.asp" -TimeoutSec 30).Content
+$directoryPage = (Invoke-IesaPage "https://www.iesa.org/activities/members.asp").Content
 $directory = @{}
 foreach ($match in [regex]::Matches($directoryPage, "(?is)<a href='memberdetail\.asp\?SchoolID=(\d+)'[^>]*>(.*?)</a>")) {
     $directory[(Get-Key (Get-PlainText $match.Groups[2].Value))] = $match.Groups[1].Value
@@ -91,14 +97,13 @@ foreach ($grade in $grades) {
     $map = @{}
     foreach ($class in $classes) {
         $url = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=2026&Class=$($grade.Substring(0, 1))-$class"
-        $html = (Invoke-WebRequest -UseBasicParsing $url -TimeoutSec 30).Content
+        $html = (Invoke-IesaPage $url).Content
         foreach ($cell in [regex]::Matches($html, "(?is)<td\s+class=['""]ListData['""][^>]*>(.*?)</td>")) {
             foreach ($line in [regex]::Split($cell.Groups[1].Value, '(?i)<br\s*/?>')) {
                 $key = Get-Key (Get-PlainText $line)
                 if ($key) { $map[$key] = $class }
             }
         }
-        Start-Sleep -Milliseconds 500
     }
     $classOf[$grade] = $map
 }
@@ -127,8 +132,9 @@ foreach ($grade in $grades) {
     foreach ($key in $played.Keys) {
         if (!$directory.ContainsKey($key)) { continue }
         $url = "https://www.iesa.org/activities/memberStats.asp?SchoolID=$($directory[$key])&ActivityCode=GBK&GradeLevel=$($grade.Substring(0, 1))"
+        if (Get-IesaPause) { break }
         try {
-            $html = (Invoke-WebRequest -UseBasicParsing $url -TimeoutSec 30).Content
+            $html = (Invoke-IesaPage $url).Content
             $games = foreach ($row in [regex]::Matches($html, "(?is)<td class='ListData'>(.*?)</td>\s*<td class='ListData-R'>(.*?)</td>")) {
                 [pscustomobject]@{ opponent = Get-PlainText $row.Groups[1].Value; score = (Get-PlainText $row.Groups[2].Value).ToUpperInvariant() }
             }
@@ -139,9 +145,12 @@ foreach ($grade in $grades) {
             if ($old -and $null -ne $old.results) {
                 $records[$key] = @($old.results | ForEach-Object { [pscustomobject]@{ opponent = $_.o; won = [bool]$_.w } })
             }
-        } finally {
-            Start-Sleep -Seconds 1
         }
+    }
+    $pausedNow = Get-IesaPause
+    if ($pausedNow) {
+        Write-Warning "$grade strength of schedule not saved. $pausedNow"
+        continue
     }
 
     $opponents = [ordered]@{}

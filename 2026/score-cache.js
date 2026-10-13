@@ -18,6 +18,12 @@
     strengthNote.className = "strength-note";
     strengthNote.hidden = true;
     record.insertAdjacentElement("afterend", strengthNote);
+    // Only the schedule scrolls, so the team name, close button and Update stay visible on phones.
+    var scrollArea = document.createElement("div");
+    scrollArea.className = "record-scroll";
+    strengthNote.insertAdjacentElement("beforebegin", scrollArea);
+    scrollArea.appendChild(strengthNote);
+    scrollArea.appendChild(document.getElementById("score-history"));
 
     official.onclick = null;
 
@@ -101,14 +107,29 @@
     }
 
     function opponentName(matchup, ownWords) {
-        var parts = String(matchup).split(/\s+(?:def\.|vs\.)\s+/i);
+        var sides = matchupSides(matchup, ownWords);
+        return sides ? sides.opponent : null;
+    }
+
+    function matchupSides(matchup, ownWords) {
+        var text = String(matchup);
+        var parts = text.split(/\s+(?:def\.|vs\.)\s+/i);
         if (parts.length !== 2) { return null; }
         var own = selected.replace(/\s+\(Co-?op\)$/i, "").trim().toLowerCase();
         var index = parts.findIndex(function (part) { return part.trim().toLowerCase() === own; });
         if (index < 0) {
             index = parts.findIndex(function (part) { return sideMatches(nameWords(part), ownWords); });
         }
-        return index < 0 ? null : parts[1 - index].trim();
+        if (index < 0) { return null; }
+        return { ownFirst: index === 0, decided: /\sdef\.\s/i.test(text), opponent: parts[1 - index].trim() };
+    }
+
+    // "def. Ramsey" / "lost to Westville JHS" / "vs. Litchfield" for narrow screens.
+    function shortMatchup(matchup) {
+        var sides = matchupSides(matchup, nameWords(selected));
+        if (!sides) { return matchup; }
+        if (!sides.decided) { return "vs. " + sides.opponent; }
+        return (sides.ownFirst ? "def. " : "lost to ") + sides.opponent;
     }
 
     // Weekly, unofficial strength of schedule from Update-Strength.ps1.
@@ -284,19 +305,24 @@
             var row = document.createElement("tr");
             var opponent = document.createElement("td");
             var score = document.createElement("td");
-            opponent.textContent = game.opponent;
+            var matchup = document.createElement("span");
+            matchup.className = "matchup";
+            var full = document.createElement("span");
+            full.className = "matchup-full";
+            full.textContent = game.opponent;
+            var brief = document.createElement("span");
+            brief.className = "matchup-short";
+            brief.textContent = shortMatchup(game.opponent);
+            matchup.appendChild(full);
+            matchup.appendChild(brief);
+            opponent.appendChild(matchup);
             var tagText = opponentTag(game);
             if (tagText) {
-                opponent.textContent = "";
                 opponent.classList.add("has-tag");
-                var matchup = document.createElement("span");
-                matchup.className = "matchup";
-                matchup.textContent = game.opponent;
                 var tag = document.createElement("span");
                 tag.className = "opponent-tag";
                 tag.title = "Opponent's IESA class and record (weekly)";
                 tag.textContent = tagText;
-                opponent.appendChild(matchup);
                 opponent.appendChild(tag);
             }
             score.textContent = game.score;

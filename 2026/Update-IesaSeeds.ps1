@@ -8,6 +8,7 @@
 )
 
 $ErrorActionPreference = 'Stop'
+. (Join-Path $PSScriptRoot 'IesaRequest.ps1')
 if ($Year -lt 2006 -or $Year -gt 2100) { throw "Invalid IESA year: $Year" }
 if (!(Test-Path -LiteralPath $SitePath -PathType Container)) { throw "Missing site directory: $SitePath" }
 if (!(Test-Path -LiteralPath $OutputPath -PathType Container)) { throw "Missing output directory: $OutputPath" }
@@ -162,7 +163,7 @@ foreach ($grade in $Grades) {
         $hasRoster = (Test-Path -LiteralPath (Join-Path $SitePath "$grade\data.json") -PathType Leaf) -or
             (Split-Path $SitePath -Leaf) -eq "$Year"
         $roster = if ($hasRoster -and !$AllowBracketParticipants) { Get-Roster $grade } else { $null }
-        $html = (Invoke-WebRequest -UseBasicParsing -Uri $url).Content
+        $html = (Invoke-IesaPage $url).Content
         $headings = @([regex]::Matches($html, "(?is)<td\s+class=['""]TableSubtitle['""]>\s*Class $level-$ClassName Regional (\d+)\s*</td>"))
         if ($headings.Count -ne 16) { throw "expected 16 regional headings, got $($headings.Count)" }
         $brackets = [ordered]@{}

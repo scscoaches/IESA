@@ -1,14 +1,51 @@
 param(
     [string]$SitePath = "C:\inetpub\personalroot\IESA\2026",
-    [int]$RetentionDays = 7
+    [int]$RetentionDays = 7,
+    [double]$MinimumHoursBetweenRuns = 2,
+    [switch]$Force
 )
 
 $ErrorActionPreference = "Stop"
+. (Join-Path $PSScriptRoot "IesaRequest.ps1")
 $today = (Get-Date).Date
 if ($today -gt [datetime]::new(2026, 12, 18)) {
     throw "The 2026 season is complete; the scheduled score refresh ended after December 18."
 }
-$directoryPage = Invoke-WebRequest -UseBasicParsing "https://www.iesa.org/activities/members.asp" -TimeoutSec 30
+
+# NFHS and Hudl watch links are a convenience beside the scores and must never fail a refresh.
+function Update-StreamLinks {
+    try {
+        & (Join-Path $PSScriptRoot "Update-NfhsEvents.ps1") -SitePath $SitePath
+    } catch {
+        Write-Warning "NFHS game refresh failed: $($_.Exception.Message)"
+    }
+    try {
+        & (Join-Path $PSScriptRoot "Update-HudlEvents.ps1") -SitePath $SitePath
+    } catch {
+        Write-Warning "Hudl game refresh failed: $($_.Exception.Message)"
+    }
+}
+
+# Repeated runs (manual or test) within a few hours add IESA load for little gain.
+$lastRun = $null
+foreach ($grade in "7th", "8th") {
+    try {
+        $stamp = (Get-Content -Raw -LiteralPath (Join-Path $SitePath "scores-$grade.json") | ConvertFrom-Json).updatedAt
+        $time = [datetime]::ParseExact($stamp, "yyyy-MM-dd HH:mm", [Globalization.CultureInfo]::InvariantCulture)
+        if ($null -eq $lastRun -or $time -lt $lastRun) { $lastRun = $time }
+    } catch { $lastRun = $null; break }
+}
+$paused = Get-IesaPause
+if (!$paused -and !$Force -and $lastRun -and ((Get-Date) - $lastRun).TotalHours -lt $MinimumHoursBetweenRuns) {
+    $paused = "Scores were refreshed at $($lastRun.ToString('yyyy-MM-dd HH:mm')); skipping IESA until $MinimumHoursBetweenRuns hours have passed (use -Force to override)."
+}
+if ($paused) {
+    Write-Warning $paused
+    Update-StreamLinks
+    return
+}
+
+$directoryPage = Invoke-IesaPage "https://www.iesa.org/activities/members.asp"
 $directory = @{}
 foreach ($match in [regex]::Matches($directoryPage.Content, "(?is)<a href='memberdetail\.asp\?SchoolID=(\d+)'[^>]*>(.*?)</a>")) {
     $schoolName = ([regex]::Replace($match.Groups[2].Value, "<[^>]+>", "") -replace "\s+", " ").Trim().ToLowerInvariant()
@@ -39,7 +76,7 @@ function Get-Teams([string]$grade) {
 function Get-RosterChanges([string]$grade) {
     $classCode = $grade.Substring(0, 1) + "-2A"
     $url = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=2026&Class=$classCode"
-    $html = (Invoke-WebRequest -UseBasicParsing $url -TimeoutSec 30).Content
+    $html = (Invoke-IesaPage $url).Content
     $headers = @([regex]::Matches($html, "(?is)<td\s+class=['""]TableSubtitle2['""][^>]*>\s*Regional\s+(\d+)\s*</td>"))
     $local = @(Get-Regionals $grade)
     if ($headers.Count -ne $local.Count) {
@@ -158,6 +195,7 @@ foreach ($grade in "7th", "8th") {
     }
 
     foreach ($team in Get-Teams $grade) {
+        if (Get-IesaPause) { break }
         $lookup = ($team -replace "\s+\(Co-op\)", "").Trim().ToLowerInvariant()
         if (!$directory.ContainsKey($lookup)) {
             Write-Warning "No IESA member match found for $team."
@@ -166,7 +204,7 @@ foreach ($grade in "7th", "8th") {
         $schoolId = $directory[$lookup]
         $sourceUrl = "https://www.iesa.org/activities/memberStats.asp?SchoolID=$schoolId&ActivityCode=GBK&GradeLevel=$gradeLevel"
         try {
-            $page = Invoke-WebRequest -UseBasicParsing $sourceUrl -TimeoutSec 30
+            $page = Invoke-IesaPage $sourceUrl
             $games = @()
             foreach ($match in [regex]::Matches($page.Content, "(?is)<td class='ListData'>(.*?)</td>\s*<td class='ListData-R'>(.*?)</td>")) {
                 $games += [pscustomobject]@{ opponent = Get-PlainText $match.Groups[1].Value; score = (Get-PlainText $match.Groups[2].Value).ToUpperInvariant() }
@@ -209,9 +247,13 @@ foreach ($grade in "7th", "8th") {
             if ($previousTeams.ContainsKey($team)) {
                 $teams[$team] = $previousTeams[$team]
             }
-        } finally {
-            Start-Sleep -Seconds 2
         }
+    }
+    # IESA stopped answering partway through; keep the last good files untouched.
+    $pausedNow = Get-IesaPause
+    if ($pausedNow) {
+        Write-Warning "$grade scores were not saved. $pausedNow"
+        continue
     }
     $cutoff = (Get-Date).AddDays(-$RetentionDays)
     $rollingChanges = @(Merge-ChangeWindow $previousChanges $updatedGames $cutoff $previousCaptureAt)
@@ -229,16 +271,11 @@ foreach ($grade in "7th", "8th") {
     Write-AtomicFile (Join-Path $SitePath "scores-$grade.js") ("window.iesaScoreCache = " + $json + ";")
 }
 
-# NFHS and Hudl watch links are a convenience beside the scores and must never fail a refresh.
-try {
-    & (Join-Path $PSScriptRoot "Update-NfhsEvents.ps1") -SitePath $SitePath
-} catch {
-    Write-Warning "NFHS game refresh failed: $($_.Exception.Message)"
-}
-try {
-    & (Join-Path $PSScriptRoot "Update-HudlEvents.ps1") -SitePath $SitePath
-} catch {
-    Write-Warning "Hudl game refresh failed: $($_.Exception.Message)"
+Update-StreamLinks
+$pausedNow = Get-IesaPause
+if ($pausedNow) {
+    Write-Warning "Skipping strength of schedule, seeds and bracket. $pausedNow"
+    return
 }
 # Strength of schedule rebuilds itself only on Sundays (or when stale), and is unofficial.
 try {

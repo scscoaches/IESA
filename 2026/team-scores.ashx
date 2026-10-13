@@ -12,6 +12,7 @@ using System.Web.Script.Serialization;
 public class IESATeamScores : IHttpHandler
 {
     private static readonly object RefreshLock = new object();
+    private static DateTime LastFetchUtc = DateTime.MinValue;
     private static readonly Regex SourcePattern = new Regex(
         @"^https://www\.iesa\.org/activities/memberStats\.asp\?SchoolID=(\d+)&ActivityCode=GBK&GradeLevel=([78])$",
         RegexOptions.IgnoreCase);
@@ -86,6 +87,17 @@ public class IESATeamScores : IHttpHandler
             lock (RefreshLock) {
                 result = HttpRuntime.Cache[key] as TeamResult;
                 if (result == null) {
+                    string paused = PauseMessage(context);
+                    if (paused != null) {
+                        Error(context, 503, paused);
+                        return;
+                    }
+                    // One live IESA request at most every 10 seconds across all visitors.
+                    if ((DateTime.UtcNow - LastFetchUtc).TotalSeconds < 10) {
+                        Error(context, 429, "Please wait a few seconds and try again.");
+                        return;
+                    }
+                    LastFetchUtc = DateTime.UtcNow;
                     try {
                         result = Fetch(team, grade, source.Groups[1].Value);
                     } catch (WebException ex) {
@@ -101,12 +113,31 @@ public class IESATeamScores : IHttpHandler
                         Error(context, 502, "IESA returned an unexpected page. Existing scores were not changed.");
                         return;
                     }
-                    HttpRuntime.Cache.Insert(key, result, null, DateTime.UtcNow.AddMinutes(5),
+                    HttpRuntime.Cache.Insert(key, result, null, DateTime.UtcNow.AddMinutes(30),
                         Cache.NoSlidingExpiration);
                 }
             }
         }
         context.Response.Write(new JavaScriptSerializer().Serialize(result));
+    }
+
+    // Matches IesaRequest.ps1: iesa-pause.json {"until":"yyyy-MM-dd HH:mm"} (server local time)
+    // stops live IESA requests until that time.
+    private static string PauseMessage(HttpContext context)
+    {
+        string path = context.Server.MapPath("iesa-pause.json");
+        if (!File.Exists(path)) { return null; }
+        try {
+            Match until = Regex.Match(File.ReadAllText(path), "\"until\"\\s*:\\s*\"([^\"]+)\"");
+            DateTime time;
+            if (until.Success && DateTime.TryParseExact(until.Groups[1].Value, "yyyy-MM-dd HH:mm",
+                    System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out time) &&
+                DateTime.Now >= time) {
+                return null;
+            }
+        } catch (IOException) {
+        }
+        return "Live IESA updates are paused to give IESA's site a rest. Showing the latest saved scores.";
     }
 
     private static ScoreCache ReadCache(string path)

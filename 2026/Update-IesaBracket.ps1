@@ -7,6 +7,7 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
+. (Join-Path $PSScriptRoot 'IesaRequest.ps1')
 if ($Year -lt 2002 -or $Year -gt 2100 -or (($Year -le 2005) -ne ($ClassName -eq 'A'))) {
     throw "Invalid IESA year/class: $Year $ClassName"
 }
@@ -132,7 +133,7 @@ function Get-Result([string]$html, [string]$url) {
 }
 
 function Get-OfficialPage([string]$url, [string]$marker) {
-    $response = Invoke-WebRequest -UseBasicParsing -Uri $url
+    $response = Invoke-IesaPage $url
     if ($response.StatusCode -ne 200 -or $response.Content -notmatch [regex]::Escape($marker)) {
         throw "Unexpected official page at $url"
     }

@@ -5,6 +5,7 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
+. (Join-Path $PSScriptRoot '2026\IesaRequest.ps1')
 if (!(Test-Path -LiteralPath $OutputRoot -PathType Container)) {
     throw "Output root does not exist: $OutputRoot"
 }
@@ -17,7 +18,7 @@ function Get-Text([string]$html) {
 }
 
 function Get-OfficialPage([string]$url, [string]$marker) {
-    $page = Invoke-WebRequest -UseBasicParsing -Uri $url -TimeoutSec 30
+    $page = Invoke-IesaPage $url
     if ($page.StatusCode -ne 200 -or $page.Content -notmatch [regex]::Escape($marker)) {
         throw "Unexpected IESA page at $url"
     }
