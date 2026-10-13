@@ -61,3 +61,4 @@
 .sectional .sectional-team{flex:1;min-width:0}
 .sectional .record-badge{flex:none;margin-left:auto}
 .sectional .postseason-score{margin-left:0}
+.dialog-actions{flex-wrap:wrap;justify-content:flex-start}.dialog-actions .stream-link{background:none;padding:0;width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;border-radius:7px;overflow:hidden}.dialog-actions .stream-link img{width:32px;height:32px;display:block}.dialog-actions .stream-link[hidden]{display:none}

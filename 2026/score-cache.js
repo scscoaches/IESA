@@ -16,6 +16,33 @@
 
     official.onclick = null;
 
+    // Each link is inserted directly after the IESA link, so build them in reverse.
+    var streamLinks = ["hudl", "nfhs"].map(function (kind) {
+        var link = document.createElement("a");
+        link.className = "stream-link";
+        link.target = "_blank";
+        link.rel = "noopener";
+        link.hidden = true;
+        var label = kind === "nfhs" ? "NFHS Network" : "Hudl";
+        var icon = document.createElement("img");
+        icon.src = "../icons/" + kind + ".svg";
+        icon.alt = "";
+        link.title = label;
+        link.appendChild(icon);
+        official.insertAdjacentElement("afterend", link);
+        return { kind: kind, label: label, link: link };
+    });
+
+    function showStreamLinks() {
+        var links = (window.iesaTeamLinks || {})[selected] || {};
+        streamLinks.forEach(function (entry) {
+            var url = links[entry.kind];
+            entry.link.hidden = !url;
+            entry.link.href = url || "#";
+            entry.link.setAttribute("aria-label", selected + " on " + entry.label);
+        });
+    }
+
     function isPending(game) {
         return !game.score || String(game.score).toUpperCase() === "PENDING";
     }
@@ -52,6 +79,7 @@
         var team = cache.teams[selected];
         name.textContent = selected;
         body.innerHTML = "";
+        showStreamLinks();
         if (!cacheLoaded) {
             record.textContent = "Loading latest IESA score cache...";
             note.textContent = "Retrieving the most recent overnight IESA update.";

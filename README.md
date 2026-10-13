@@ -170,6 +170,21 @@ button, its results apply to the current browser session only; official
 HTTP 405, so `score-cache.js` hides both buttons on `*.github.io` hosts; those
 visitors see the scheduled score refresh only.
 
+Each 2026 team dialog can also link to the school's streaming page
+(`2026\team-links.js`, read by `score-cache.js`). Entries are keyed by the
+exact team name in `data.js` and hold an `nfhs` and/or `hudl` URL; a button
+appears only for the services a school has, so unmatched schools show none.
+NFHS links use `https://www.nfhsnetwork.com/schools/<slug>/basketball/girls/middle-school`.
+The 46 initial NFHS slugs came from
+`https://search-api.nfhsnetwork.com/search/schools?state=IL&search_term=<name>`
+(only `search_term` filters, and `state` - not `state_code` - limits to
+Illinois) and were kept only when the girls middle-school page's title says
+"Girls Middle School" **and** it lists at least one `gam...` event key; NFHS
+answers HTTP 200 for any sport/level path, so status codes prove nothing.
+Matches in another town or a different school in the same town (for example
+the Decatur and Washington public schools) were rejected rather than guessed.
+Hudl has no usable public search, so Hudl URLs are added by hand.
+
 Regional rosters are fixed in each grade's `data.js` and are **not** updated
 automatically when a school withdraws. Every run of `Update-IesaScores.ps1`
 compares those rosters with the IESA regional assignment page
