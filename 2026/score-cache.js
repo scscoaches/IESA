@@ -13,6 +13,11 @@
     var cache = window.iesaScoreCache || { teams: {} };
     var cacheLoaded = Boolean(window.iesaScoreCache);
     var selected;
+    var strength = null;
+    var strengthNote = document.createElement("div");
+    strengthNote.className = "strength-note";
+    strengthNote.hidden = true;
+    record.insertAdjacentElement("afterend", strengthNote);
 
     official.onclick = null;
 
@@ -91,6 +96,11 @@
     }
 
     function opponentWords(matchup, ownWords) {
+        var name = opponentName(matchup, ownWords);
+        return name === null ? null : nameWords(name);
+    }
+
+    function opponentName(matchup, ownWords) {
         var parts = String(matchup).split(/\s+(?:def\.|vs\.)\s+/i);
         if (parts.length !== 2) { return null; }
         var own = selected.replace(/\s+\(Co-?op\)$/i, "").trim().toLowerCase();
@@ -98,7 +108,99 @@
         if (index < 0) {
             index = parts.findIndex(function (part) { return sideMatches(nameWords(part), ownWords); });
         }
-        return index < 0 ? null : nameWords(parts[1 - index]);
+        return index < 0 ? null : parts[1 - index].trim();
+    }
+
+    // Weekly, unofficial strength of schedule from Update-Strength.ps1.
+    async function loadStrength() {
+        try {
+            var response = await fetch("../strength-" + grade + ".json?v=" + Date.now(), { cache: "no-store" });
+            if (!response.ok) { return; }
+            strength = await response.json();
+            if (selected && dialog.open) { showSelectedTeam(); }
+        } catch (error) {
+            strength = null;
+        }
+    }
+
+    function ordinal(n) {
+        var suffixes = ["th", "st", "nd", "rd"];
+        var v = n % 100;
+        return n + (suffixes[(v - 20) % 10] || suffixes[v] || suffixes[0]);
+    }
+
+    function showStrength() {
+        var entry = strength && strength.teams && strength.teams[selected];
+        strengthNote.hidden = !entry;
+        if (!entry) { return; }
+        strengthNote.innerHTML = "";
+
+        var head = el("div", "sos-head");
+        head.appendChild(el("span", "sos-title", "Strength of schedule"));
+        var rank = el("span", "sos-rank", ordinal(entry.rank) + " of " + entry.of);
+        rank.title = "Rank among regional teams (1st = toughest)";
+        head.appendChild(rank);
+        strengthNote.appendChild(head);
+        if (entry.ratedGames < 4) {
+            strengthNote.appendChild(el("div", "sos-sub", "Early season, few games rated"));
+        }
+
+        var hasOwp = entry.opponentsWinPct !== null && entry.opponentsWinPct !== undefined;
+        var bigger = entry.vsBigger.wins + entry.vsBigger.losses;
+        var stats = el("div", "sos-stats");
+        stats.appendChild(stat(hasOwp ? entry.opponentsWinPct.toFixed(3).replace(/^0/, "") : "—",
+            "Opp. win %", entry.ratedGames + (entry.ratedGames === 1 ? " game" : " games")));
+        stats.appendChild(stat(bigger ? entry.vsBigger.wins + "-" + entry.vsBigger.losses : "—",
+            "vs 3A/4A", bigger ? "" : "none played"));
+        stats.appendChild(stat(String(entry.qualityWins || 0), "Quality wins", "over .500 teams"));
+        strengthNote.appendChild(stats);
+
+        var classes = ["1A", "2A", "3A", "4A", "other"];
+        var total = classes.reduce(function (sum, c) { return sum + (entry.mix[c] || 0); }, 0);
+        if (total) {
+            var bar = el("div", "sos-bar");
+            bar.setAttribute("role", "img");
+            var labels = [];
+            classes.forEach(function (c) {
+                var n = entry.mix[c] || 0;
+                if (!n) { return; }
+                var label = c === "other" ? "Other" : c;
+                var seg = el("span", "sos-seg sos-" + c.toLowerCase(), label + "-" + n);
+                seg.style.flexGrow = n;
+                seg.title = label + ": " + n + (n === 1 ? " game" : " games");
+                bar.appendChild(seg);
+                labels.push(label + " " + n);
+            });
+            bar.setAttribute("aria-label", "Schedule by class: " + labels.join(", "));
+            strengthNote.appendChild(el("div", "sos-label", total + (total === 1 ? " game" : " games")));
+            strengthNote.appendChild(bar);
+        }
+    }
+
+    function el(tag, className, text) {
+        var node = document.createElement(tag);
+        if (className) { node.className = className; }
+        if (text !== undefined) { node.textContent = text; }
+        return node;
+    }
+
+    function stat(value, label, note) {
+        var box = el("div", "sos-stat");
+        box.appendChild(el("b", "", value));
+        box.appendChild(el("span", "", label));
+        if (note) { box.appendChild(el("small", "", note)); }
+        return box;
+    }
+
+    function opponentTag(game) {
+        if (!strength || !strength.opponents) { return ""; }
+        var name = opponentName(game.opponent, nameWords(selected));
+        var info = name && strength.opponents[name.replace(/\((?:Host Info|Host|Co-?op|NON-COMPETITOR)\)/gi, "").replace(/\s+/g, " ").trim().toLowerCase()];
+        if (!info) { return ""; }
+        var bits = [];
+        if (info.class) { bits.push(info.class); }
+        if (info.wins !== undefined && info.wins !== null) { bits.push(info.wins + "-" + info.losses); }
+        return bits.join(" · ");
     }
 
     // Only link a game when exactly one card from a provider fits the row and no
@@ -161,6 +263,7 @@
         name.textContent = selected;
         body.innerHTML = "";
         showStreamLinks();
+        showStrength();
         if (!cacheLoaded) {
             record.textContent = "Loading latest IESA score cache...";
             note.textContent = "Retrieving the most recent overnight IESA update.";
@@ -182,6 +285,20 @@
             var opponent = document.createElement("td");
             var score = document.createElement("td");
             opponent.textContent = game.opponent;
+            var tagText = opponentTag(game);
+            if (tagText) {
+                opponent.textContent = "";
+                opponent.classList.add("has-tag");
+                var matchup = document.createElement("span");
+                matchup.className = "matchup";
+                matchup.textContent = game.opponent;
+                var tag = document.createElement("span");
+                tag.className = "opponent-tag";
+                tag.title = "Opponent's IESA class and record (weekly)";
+                tag.textContent = tagText;
+                opponent.appendChild(matchup);
+                opponent.appendChild(tag);
+            }
             score.textContent = game.score;
             score.className = "score-cell";
             var changes = window.iesaScoreChanges;
@@ -301,4 +418,5 @@
         loadCache();
     }
     streamKinds.forEach(loadStreamGames);
+    loadStrength();
 }());

@@ -225,6 +225,32 @@ Womens Other Basketball"), so the label is rewritten as "<bracket team> vs.
 link is `<organizationProfileUrl>/watch?b=<broadcast id>`. Each provider is
 matched separately, so a row can show both icons.
 
+### Strength of schedule (unofficial, weekly)
+
+`2026\Update-Strength.ps1` writes `strength-7th.json` and `strength-8th.json`.
+It is called on every `Update-IesaScores.ps1` run but returns at once unless
+it is Sunday (Central time) and has not run today, the file is 8+ days old or
+missing, the bracket team list changed, or `-Force` is given. A full build
+takes about 9 minutes because requests are spaced 1 second apart.
+
+It goes one step out from the bracket, not class-wide:
+
+- **Class**: the eight `assignments_Regional.asp?Year=2026&Class=<7|8>-<1A..4A>`
+  pages give every member's class (the other grade's map fills gaps).
+  Non-members and placeholders ("... Tournament", "TBD") show no class.
+- **Opponent records**: each bracket team's record comes from the
+  `scores-<grade>.json` cache. Other opponents' `memberStats.asp` pages are
+  fetched only when a bracket team has a decided game against them. Games
+  against the team being rated are excluded from its opponents' win %.
+- **Rating** = `0.6 × (opp. wins + 2) / (opp. games + 4)` +
+  `0.4 × (average opponent class − 1) / 3`, ranked within each regional.
+  Fewer than 4 rated games shows "early season".
+
+The team dialog shows the rank, opponents' win %, class mix (all scheduled
+games), record against 3A/4A, and wins over teams above .500. Each result row
+gets a class and record tag. If a fetch fails, the previous week's data is
+kept for that opponent.
+
 Regional rosters are fixed in each grade's `data.js` and are **not** updated
 automatically when a school withdraws. Every run of `Update-IesaScores.ps1`
 compares those rosters with the IESA regional assignment page

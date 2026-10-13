@@ -240,6 +240,12 @@ try {
 } catch {
     Write-Warning "Hudl game refresh failed: $($_.Exception.Message)"
 }
+# Strength of schedule rebuilds itself only on Sundays (or when stale), and is unofficial.
+try {
+    & (Join-Path $PSScriptRoot "Update-Strength.ps1") -SitePath $SitePath
+} catch {
+    Write-Warning "Strength of schedule refresh failed: $($_.Exception.Message)"
+}
 
 $seedRefreshError = $null
 if ($today -ge [datetime]::new(2026, 11, 12)) {

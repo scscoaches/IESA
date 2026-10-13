@@ -107,8 +107,52 @@
 }
 
 .dark-theme .record-note,
+.dark-theme .strength-note,
 .dark-theme #updates-summary {
     color: #c3cde1;
+}
+
+.dark-theme .strength-note {
+    background: #26324a;
+    border-color: #3a4862;
+}
+
+.dark-theme .sos-title,
+.dark-theme .sos-stat b {
+    color: #f0f3fa;
+}
+
+.dark-theme .sos-rank {
+    background: #5560ff;
+}
+
+.dark-theme .sos-stat {
+    background: #202b3e;
+    border-color: #3a4862;
+}
+
+.dark-theme .sos-sub,
+.dark-theme .sos-stat small,
+.dark-theme .sos-foot {
+    color: #9aa6bf;
+}
+
+.dark-theme .sos-bar {
+    background: #31415a;
+}
+
+.dark-theme .sos-seg + .sos-seg {
+    border-left-color: #26324a;
+}
+
+.dark-theme .sos-4a {
+    background: #2c3b94;
+    box-shadow: inset 0 0 0 1px #8ea0db66;
+}
+
+.dark-theme #score-history .opponent-tag {
+    color: #c3cde1;
+    background: #31415a;
 }
 
 .dark-theme .updates-window button {
