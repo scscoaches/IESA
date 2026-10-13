@@ -359,7 +359,9 @@
             : "Nightly cache updated from IESA: " + cache.updatedAt + ".";
         official.hidden = !team.sourceUrl;
         official.href = team.sourceUrl || "#";
-        official.textContent = selected + " IESA page";
+        official.textContent = "";
+        official.append(el("span", "official-team", selected + " "), "IESA page");
+        official.setAttribute("aria-label", selected + " IESA page");
     }
 
     async function loadCache() {
