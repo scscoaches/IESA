@@ -157,7 +157,8 @@ task. Existing static caches and archived pages remain available.
 Each refresh reads the member directory and about 212 separate team pages;
 weekday runs make approximately 639 IESA requests a day, while weekend runs
 make approximately 212 requests per day, plus postseason queries when those
-begin. The updater waits two seconds between school requests to avoid a
+begin. Requests go through `2026\IesaRequest.ps1` (see below), which spaces
+them at least three seconds apart to avoid a
 burst. Do not add additional runs without reconsidering the source load; use
 the single-school Update button for occasional immediate checks. The unofficial
 regional bracket popup has an icon-only refresh button that runs the same
@@ -169,6 +170,37 @@ button, its results apply to the current browser session only; official
 (`scscoaches.github.io`) serves static files only and answers that POST with
 HTTP 405, so `score-cache.js` hides both buttons on `*.github.io` hosts; those
 visitors see the scheduled score refresh only.
+
+### Going easy on IESA
+
+Every script that reads www.iesa.org (`Update-IesaScores`, `Update-Strength`,
+`Update-IesaSeeds`, `Update-IesaBracket`, `Build-IesaSeason`,
+`Build-IesaEarlyArchive`) dot-sources `2026\IesaRequest.ps1` and calls
+`Invoke-IesaPage` instead of `Invoke-WebRequest`. The guard:
+
+- spaces IESA requests at least 3 seconds apart and stops a single run after
+  700 requests;
+- after **3 failures in a row** writes `2026\iesa-pause.json`
+  (`{"until":"yyyy-MM-dd HH:mm","reason":"..."}`, local time) and refuses
+  every IESA request until then (6 hours). Delete the file to resume sooner,
+  or create it by hand to pause on purpose during an IESA outage;
+- blocks all IESA requests when `$env:IESA_OFFLINE = "1"`. Use this when
+  testing script changes so they run against the saved files only.
+
+While paused, `Update-IesaScores.ps1` still refreshes NFHS/Hudl links but
+skips IESA, and a grade interrupted by a pause is not saved, so the last good
+scores stay. It also skips IESA when the score files are under 2 hours old
+(`-MinimumHoursBetweenRuns`), so repeated manual runs do not re-read all 212
+schools; `-Force` overrides this. The PC writes local (Central) times and the
+GitHub runner UTC, so keep the window under 2.75 hours or the 6 AM run would
+skip after GitHub's 03:15 UTC run.
+
+`team-scores.ashx` honors the same `iesa-pause.json` (HTTP 503 with a
+friendly message), keeps each school's live result for 30 minutes, and makes
+at most one live IESA request every 10 seconds across all visitors (others get
+HTTP 429 "try again"). The pause file is in `.gitignore`, so it pauses this PC
+only; to pause the GitHub copy, disable the `update-scores` workflow under
+**Actions**.
 
 Each 2026 team dialog can also link to the school's streaming page
 (`2026\team-links.js`, read by `score-cache.js`). Entries are keyed by the
@@ -231,7 +263,7 @@ matched separately, so a row can show both icons.
 It is called on every `Update-IesaScores.ps1` run but returns at once unless
 it is Sunday (Central time) and has not run today, the file is 8+ days old or
 missing, the bracket team list changed, or `-Force` is given. A full build
-takes about 9 minutes because requests are spaced 1 second apart.
+takes about 15 minutes because IESA requests are spaced 3 seconds apart.
 
 It goes one step out from the bracket, not class-wide:
 
