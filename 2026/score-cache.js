@@ -28,13 +28,14 @@
     official.onclick = null;
 
     // Each link is inserted directly after the IESA link, so build them in reverse.
-    var streamLinks = ["hudl", "nfhs"].map(function (kind) {
+    var streamLabels = { nfhs: "NFHS Network", youtube: "YouTube", hudl: "Hudl" };
+    var streamLinks = ["hudl", "youtube", "nfhs"].map(function (kind) {
         var link = document.createElement("a");
         link.className = "stream-link";
         link.target = "_blank";
         link.rel = "noopener";
         link.hidden = true;
-        var label = kind === "nfhs" ? "NFHS Network" : "Hudl";
+        var label = streamLabels[kind];
         var icon = document.createElement("img");
         icon.src = "../icons/" + kind + ".svg";
         icon.alt = "";

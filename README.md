@@ -204,8 +204,12 @@ only; to pause the GitHub copy, disable the `update-scores` workflow under
 
 Each 2026 team dialog can also link to the school's streaming page
 (`2026\team-links.js`, read by `score-cache.js`). Entries are keyed by the
-exact team name in `data.js` and hold an `nfhs` and/or `hudl` URL; a button
+exact team name in `data.js` and hold any of an `nfhs`, `youtube` and `hudl`
+URL (shown in that order after the IESA link); a button
 appears only for the services a school has, so unmatched schools show none.
+YouTube links are the school's athletics channel, added by hand (Bluffs
+(Co-op), the Winchester/Bluffs co-op, uses "WC Athletics"); there are no
+per-game YouTube links.
 NFHS links use `https://www.nfhsnetwork.com/schools/<slug>/basketball/girls/middle-school`.
 The 46 initial NFHS slugs came from
 `https://search-api.nfhsnetwork.com/search/schools?state=IL&search_term=<name>`

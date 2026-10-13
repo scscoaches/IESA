@@ -1,5 +1,5 @@
 // Streaming pages for each 2026 school, keyed by the team name used in data.js.
-// NFHS links open the school's girls middle-school basketball page when NFHS has one, otherwise the school page; Hudl links are added by hand from the school's fan.hudl.com organization page.
+// NFHS links open the school's girls middle-school basketball page when NFHS has one, otherwise the school page; Hudl links are added by hand from the school's fan.hudl.com organization page; YouTube links are the school's athletics channel, also added by hand.
 window.iesaTeamLinks = {
     "Albion (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/edwards-county-high-school-albion-il/basketball/girls/middle-school" },
     "Altamont (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/altamont-high-school-altamont-il" },
@@ -9,7 +9,7 @@ window.iesaTeamLinks = {
     "Bismarck-Henning": { nfhs: "https://www.nfhsnetwork.com/schools/bismarckhenning-junior-high-school-bismarck-il/basketball/girls/middle-school" },
     "Bloomington Cornerstone": { nfhs: "https://www.nfhsnetwork.com/schools/cornerstone-christian-academy-bloomington-il/basketball/girls/middle-school" },
     "Bloomington Corpus Christi": { nfhs: "https://www.nfhsnetwork.com/schools/corpus-christi-catholic-school-bloomington-il/basketball/girls/middle-school" },
-    "Bluffs (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/bluffs-junior-high-school-bluffs-il/basketball/girls/middle-school" },
+    "Bluffs (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/bluffs-junior-high-school-bluffs-il/basketball/girls/middle-school", youtube: "https://www.youtube.com/channel/UCstyuVKU1369N4hZBNK_JUA" },
     "Brimfield": { nfhs: "https://www.nfhsnetwork.com/schools/brimfield-high-school-brimfield-il/basketball/girls/middle-school" },
     "Burr Ridge MS": { nfhs: "https://www.nfhsnetwork.com/schools/burr-ridge-middle-school-burr-ridge-il" },
     "Bushnell-Prairie City": { nfhs: "https://www.nfhsnetwork.com/schools/bushnellprairie-city-high-school-bushnell-il" },
