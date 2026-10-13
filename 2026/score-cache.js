@@ -18,11 +18,10 @@
     strengthNote.className = "strength-note";
     strengthNote.hidden = true;
     record.insertAdjacentElement("afterend", strengthNote);
-    // Only the schedule scrolls, so the team name, close button and Update stay visible on phones.
+    // Only the schedule scrolls; the team name, strength card, close button and Update stay visible.
     var scrollArea = document.createElement("div");
     scrollArea.className = "record-scroll";
-    strengthNote.insertAdjacentElement("beforebegin", scrollArea);
-    scrollArea.appendChild(strengthNote);
+    strengthNote.insertAdjacentElement("afterend", scrollArea);
     scrollArea.appendChild(document.getElementById("score-history"));
 
     official.onclick = null;
