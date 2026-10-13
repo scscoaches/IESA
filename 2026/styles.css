@@ -62,3 +62,4 @@
 .sectional .record-badge{flex:none;margin-left:auto}
 .sectional .postseason-score{margin-left:0}
 .dialog-actions{flex-wrap:wrap;justify-content:flex-start}.dialog-actions .stream-link{background:none;padding:0;width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;border-radius:7px;overflow:hidden}.dialog-actions .stream-link img{width:32px;height:32px;display:block}.dialog-actions .stream-link[hidden]{display:none}
+#score-history td.score-cell{width:64px;background:#fff0d9;text-align:center;font-weight:bold}#score-history td.stream-cell{width:30px;padding:2px;background:none;text-align:center}#score-history td.stream-cell a{display:inline-block;line-height:0}#score-history td.stream-cell img{width:22px;height:22px;border-radius:5px}

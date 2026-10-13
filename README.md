@@ -185,6 +185,26 @@ Matches in another town or a different school in the same town (for example
 the Decatur and Washington public schools) were rejected rather than guessed.
 Hudl has no usable public search, so Hudl URLs are added by hand.
 
+Beside each score the team dialog can show an NFHS icon that opens that game's
+broadcast (`https://www.nfhsnetwork.com/events/<host>/gam...`). NFHS refuses
+cross-site browser requests, so `Update-IesaScores.ps1` finishes each run by
+calling `2026\Update-NfhsEvents.ps1`, which reads the girls middle-school page
+of every school in `team-links.js` (about 63 requests, one second apart) and
+writes `nfhs-events.json`; a failure only warns, and a school that cannot be
+read keeps its previous games. Only cards bannered "Middle School Girls
+Basketball" and starting on or after August 1 are kept - pages without a
+middle-school section fall back to every school event, and the school pages
+still show last season's tournament streams. IESA lists no game dates, so
+`score-cache.js` matches on names: a card such as "Sangamon Valley vs.
+Morrisonville" fits a row when each side's words (ignoring words like "JHS",
+"Middle School" and "Co-op") appear in one of the two IESA team names, and a
+tournament prefix ("2026 ... Championship — A vs. B") is dropped first. A
+link is shown only when exactly one card fits the row and no other row fits
+that card, so a team met twice is left unlinked rather than guessed. Because
+every school's cards are pooled, a team with no NFHS page still gets links for
+games against linked schools. The page does not distinguish seventh from
+eighth grade, so both grades link the same broadcast.
+
 Regional rosters are fixed in each grade's `data.js` and are **not** updated
 automatically when a school withdraws. Every run of `Update-IesaScores.ps1`
 compares those rosters with the IESA regional assignment page

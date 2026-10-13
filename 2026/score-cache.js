@@ -47,6 +47,77 @@
         return !game.score || String(game.score).toUpperCase() === "PENDING";
     }
 
+    // NFHS game cards use short school names ("Sangamon Valley vs. Morrisonville"),
+    // so a card matches a score row when each card side's words appear in one team.
+    var nfhsGames = null;
+    var genericWords = /\b(?:middle|school|schools|jr|junior|high|jhs|ms|gs|hs|grade|co ?op|elementary|the|and)\b/g;
+
+    function nameWords(text) {
+        return String(text).toLowerCase().replace(/[^a-z0-9]+/g, " ")
+            .replace(genericWords, " ").split(" ").filter(Boolean);
+    }
+
+    function sideMatches(side, words) {
+        return side.length > 0 && side.every(function (word) { return words.indexOf(word) >= 0; });
+    }
+
+    async function loadNfhsGames() {
+        try {
+            var response = await fetch("../nfhs-events.json?v=" + Date.now(), { cache: "no-store" });
+            if (!response.ok) { return; }
+            var loaded = await response.json();
+            var seen = {};
+            var games = [];
+            Object.keys(loaded.schools || {}).forEach(function (slug) {
+                [].concat(loaded.schools[slug] || []).forEach(function (game) {
+                    if (!game || !game.key || !game.url || seen[game.key]) { return; }
+                    // Tournament streams prefix the matchup: "2026 ... Championship — A vs. B".
+                    var sides = String(game.label).split(/\s+[\u2014\u2013]\s+/).pop().split(/\s+vs\.?\s+/i);
+                    if (sides.length !== 2) { return; }
+                    seen[game.key] = true;
+                    games.push({ url: game.url, sides: sides.map(nameWords) });
+                });
+            });
+            nfhsGames = games;
+            if (selected && dialog.open) { showSelectedTeam(); }
+        } catch (error) {
+            nfhsGames = null;
+        }
+    }
+
+    function opponentWords(matchup, ownWords) {
+        var parts = String(matchup).split(/\s+(?:def\.|vs\.)\s+/i);
+        if (parts.length !== 2) { return null; }
+        var own = selected.replace(/\s+\(Co-?op\)$/i, "").trim().toLowerCase();
+        var index = parts.findIndex(function (part) { return part.trim().toLowerCase() === own; });
+        if (index < 0) {
+            index = parts.findIndex(function (part) { return sideMatches(nameWords(part), ownWords); });
+        }
+        return index < 0 ? null : nameWords(parts[1 - index]);
+    }
+
+    // Only link a game when exactly one NFHS card fits the row and no other row
+    // fits that card, so repeat opponents are left unlinked rather than guessed.
+    function nfhsLinksFor(games) {
+        var links = new Map();
+        if (!nfhsGames || !nfhsGames.length) { return links; }
+        var ownWords = nameWords(selected);
+        var candidates = games.map(function (game) {
+            var opponent = opponentWords(game.opponent, ownWords);
+            if (!opponent || !opponent.length) { return []; }
+            return nfhsGames.filter(function (nfhs) {
+                return (sideMatches(nfhs.sides[0], ownWords) && sideMatches(nfhs.sides[1], opponent)) ||
+                    (sideMatches(nfhs.sides[1], ownWords) && sideMatches(nfhs.sides[0], opponent));
+            });
+        });
+        candidates.forEach(function (list, index) {
+            if (list.length !== 1) { return; }
+            var shared = candidates.filter(function (other) { return other.indexOf(list[0]) >= 0; }).length;
+            if (shared === 1) { links.set(games[index], list[0].url); }
+        });
+        return links;
+    }
+
     // Show the most recently posted scores first. Only games whose score changed
     // since tracking began carry a timestamp, so games without one keep IESA's
     // schedule order below them, and unplayed games stay at the bottom.
@@ -94,18 +165,40 @@
         }
 
         record.textContent = "Official IESA record: " + team.record.wins + "-" + team.record.losses;
-        orderGames(team.games).forEach(function (game) {
+        var ordered = orderGames(team.games);
+        var watchLinks = nfhsLinksFor(ordered);
+        ordered.forEach(function (game) {
             var row = document.createElement("tr");
             var opponent = document.createElement("td");
             var score = document.createElement("td");
             opponent.textContent = game.opponent;
             score.textContent = game.score;
+            score.className = "score-cell";
             var changes = window.iesaScoreChanges;
             if (changes && changes.isRecent(selected, game.opponent, 24)) {
                 row.className = "recent-score";
             }
             row.appendChild(opponent);
             row.appendChild(score);
+            if (watchLinks.size) {
+                var watch = document.createElement("td");
+                watch.className = "stream-cell";
+                var url = watchLinks.get(game);
+                if (url) {
+                    var link = document.createElement("a");
+                    link.href = url;
+                    link.target = "_blank";
+                    link.rel = "noopener";
+                    link.title = "Watch on NFHS Network";
+                    link.setAttribute("aria-label", "Watch " + game.opponent + " on NFHS Network");
+                    var icon = document.createElement("img");
+                    icon.src = "../icons/nfhs.svg";
+                    icon.alt = "";
+                    link.appendChild(icon);
+                    watch.appendChild(link);
+                }
+                row.appendChild(watch);
+            }
             body.appendChild(row);
         });
         note.textContent = team.updatedAt
@@ -198,4 +291,5 @@
     } else {
         loadCache();
     }
+    loadNfhsGames();
 }());

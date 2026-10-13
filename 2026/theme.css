@@ -149,6 +149,15 @@
     color: #f0f3fa;
 }
 
+.dark-theme #score-history td.score-cell {
+    background: #31415a;
+    color: #f0f3fa;
+}
+
+.dark-theme #score-history td.stream-cell {
+    background: transparent;
+}
+
 .dark-theme dialog input {
     background: #172235;
     border-color: #536078;

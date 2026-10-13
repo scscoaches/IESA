@@ -28,3 +28,4 @@
 2026/bracket-*.js          -merge
 2026/regional-seeds-*.json -merge
 2026/regional-seeds-*.js   -merge
+2026/nfhs-events.json      -merge
