@@ -593,12 +593,19 @@
         } else if (!cache || !cache.teams) {
             projectionRounds.textContent = "Official school records are unavailable; no projection can be shown.";
         } else {
-            projectedStage(projectionRounds, "First round", [[1, 8], [4, 5], [2, 7], [3, 6]].map(function(pair) {
+            var firstRound = [[1, 8], [4, 5], [2, 7], [3, 6]].map(function(pair) {
                 return pair.map(function(seed) { return projectedTeam(seed, entries, cache); });
-            }));
+            });
+            projectedStage(projectionRounds, "First round", firstRound);
+            // A team paired with a BYE advances straight to the semifinal slot.
+            var advanced = firstRound.map(function(pair, index) {
+                var team = pair[0] === "BYE" ? pair[1] : pair[1] === "BYE" ? pair[0] : null;
+                return team && team !== "BYE" ? { team: team.team, name: team.name, standing: null } :
+                    "Winner first-round game " + (index + 1);
+            });
             projectedStage(projectionRounds, "Semifinals", [
-                ["Winner first-round game 1", "Winner first-round game 2"],
-                ["Winner first-round game 3", "Winner first-round game 4"]
+                [advanced[0], advanced[1]],
+                [advanced[2], advanced[3]]
             ]);
             projectedStage(projectionRounds, "Regional final", [
                 ["Winner semifinal 1", "Winner semifinal 2"]

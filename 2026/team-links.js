@@ -53,6 +53,7 @@ window.iesaTeamLinks = {
     "Seneca": { nfhs: "https://www.nfhsnetwork.com/schools/seneca-high-school-seneca-il" },
     "Serena": { nfhs: "https://www.nfhsnetwork.com/schools/serena-middle-school-serena-il/basketball/girls/middle-school" },
     "Somonauk": { nfhs: "https://www.nfhsnetwork.com/schools/somonauk-middle-school-somonauk-il/basketball/girls/middle-school" },
+    "Sparland Midland": { nfhs: "https://www.nfhsnetwork.com/schools/sparland-midland-middle-school-sparland-il" },
     "Stewardson-Strasburg (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/stewardsonstrasburg-high-school-strasburg-il/basketball/girls/middle-school" },
     "Stronghurst West Central": { nfhs: "https://www.nfhsnetwork.com/schools/west-central-high-school-coop-w-winchester-biggsville-il/basketball/girls/middle-school" },
     "Table Grove VIT (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/vit-high-school-astoriatable-grove-coop-table-grove-il/basketball/girls/middle-school" },
@@ -61,5 +62,6 @@ window.iesaTeamLinks = {
     "Waterman Indian Creek": { nfhs: "https://www.nfhsnetwork.com/schools/indian-creek-high-school-shabbona-il/basketball/girls/middle-school" },
     "Wenona Fieldcrest": { nfhs: "https://www.nfhsnetwork.com/schools/fieldcrest-middle-school-wenona-il" },
     "White Hall North Greene": { nfhs: "https://www.nfhsnetwork.com/schools/north-greene-high-school-white-hall-il/basketball/girls/middle-school" },
+    "Williamsfield (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/williamsfield-high-school-williamsfield-il/basketball/girls/middle-school" },
     "Wood River Lewis & Clark": { nfhs: "https://www.nfhsnetwork.com/schools/east-altonwood-river-high-school-wood-river-il" }
 };
