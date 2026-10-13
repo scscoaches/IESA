@@ -1,9 +1,9 @@
 // Streaming pages for each 2026 school, keyed by the team name used in data.js.
-// NFHS links open the school's girls middle-school basketball page when NFHS has one, otherwise the school page; add a hudl URL by hand.
+// NFHS links open the school's girls middle-school basketball page when NFHS has one, otherwise the school page; Hudl links are added by hand from the school's fan.hudl.com organization page.
 window.iesaTeamLinks = {
     "Albion (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/edwards-county-high-school-albion-il/basketball/girls/middle-school" },
     "Altamont (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/altamont-high-school-altamont-il" },
-    "Arcola": { nfhs: "https://www.nfhsnetwork.com/schools/arcola-high-school-arcola-il/basketball/girls/middle-school" },
+    "Arcola": { nfhs: "https://www.nfhsnetwork.com/schools/arcola-high-school-arcola-il/basketball/girls/middle-school", hudl: "https://fan.hudl.com/usa/il/arcola/organization/78055/arcola-high-school" },
     "Argenta-Oreana": { nfhs: "https://www.nfhsnetwork.com/schools/argentaoreana-high-school-argenta-il/basketball/girls/middle-school" },
     "Assumption Central A & M": { nfhs: "https://www.nfhsnetwork.com/schools/central-a-m-middle-school-assumption-il" },
     "Bismarck-Henning": { nfhs: "https://www.nfhsnetwork.com/schools/bismarckhenning-junior-high-school-bismarck-il/basketball/girls/middle-school" },
@@ -22,6 +22,7 @@ window.iesaTeamLinks = {
     "Colchester West Prairie": { nfhs: "https://www.nfhsnetwork.com/schools/west-prairie-middle-school-colchester-il/basketball/girls/middle-school" },
     "Dieterich": { nfhs: "https://www.nfhsnetwork.com/schools/dieterich-high-school-dieterich-il/basketball/girls/middle-school" },
     "Dwight": { nfhs: "https://www.nfhsnetwork.com/schools/dwight-township-high-school-dwight-il/basketball/girls/middle-school" },
+    "Effingham St. Anthony": { hudl: "https://fan.hudl.com/usa/il/effingham/organization/131445/st-anthony-effingham-high-school" },
     "Elmwood": { nfhs: "https://www.nfhsnetwork.com/schools/elmwood-high-school-elmwood-il/basketball/girls/middle-school" },
     "Fisher": { nfhs: "https://www.nfhsnetwork.com/schools/fisher-high-school-fisher-il/basketball/girls/middle-school" },
     "Glasford Illini Bluffs": { nfhs: "https://www.nfhsnetwork.com/schools/illini-bluffs-high-school-glasford-il/basketball/girls/middle-school" },
@@ -33,7 +34,7 @@ window.iesaTeamLinks = {
     "Knoxville JHS": { nfhs: "https://www.nfhsnetwork.com/schools/knoxville-high-school-knoxville-il/basketball/girls/middle-school" },
     "LeRoy": { nfhs: "https://www.nfhsnetwork.com/schools/leroy-high-school-leroy-il/basketball/girls/middle-school" },
     "Lewistown JHS": { nfhs: "https://www.nfhsnetwork.com/schools/lewistown-high-school-lewistown-il/basketball/girls/middle-school" },
-    "Liberty": { nfhs: "https://www.nfhsnetwork.com/schools/liberty-high-school-liberty-il/basketball/girls/middle-school" },
+    "Liberty": { nfhs: "https://www.nfhsnetwork.com/schools/liberty-high-school-liberty-il/basketball/girls/middle-school", hudl: "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school" },
     "Lincoln Chester-East Lincoln (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/chestereast-lincoln-lincoln-il/basketball/girls/middle-school" },
     "London Mills Valley (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/spoon-river-valley-high-school-coop-w-cuba-london-mills-il/basketball/girls/middle-school" },
     "Macon Meridian": { nfhs: "https://www.nfhsnetwork.com/schools/meridian-high-school-macon-macon-il/basketball/girls/middle-school" },

@@ -183,7 +183,14 @@ Illinois) and were kept only when the girls middle-school page's title says
 answers HTTP 200 for any sport/level path, so status codes prove nothing.
 Matches in another town or a different school in the same town (for example
 the Decatur and Washington public schools) were rejected rather than guessed.
-Hudl has no usable public search, so Hudl URLs are added by hand.
+Hudl URLs are the school's `fan.hudl.com/.../organization/<id>/...` page. Hudl
+has no documented API, but its fan site's public GraphQL endpoint
+(`https://www.hudl.com/api/public/graphql/query`, no login) answers
+`fanSearch(input:{searchTerm, types:[ORGANIZATION], organizationClassificationIds:[],
+resultStartIndex:0, resultSize:40})`; a search of every bracket team found
+only Greenfield, Arcola, Effingham St. Anthony and Liberty with junior-high
+girls basketball broadcasts, and those four were added. Search results lean
+toward colleges and other states, so new Hudl URLs are still added by hand.
 
 Beside each score the team dialog can show an NFHS icon that opens that game's
 broadcast (`https://www.nfhsnetwork.com/events/<host>/gam...`). NFHS refuses
@@ -204,6 +211,19 @@ that card, so a team met twice is left unlinked rather than guessed. Because
 every school's cards are pooled, a team with no NFHS page still gets links for
 games against linked schools. The page does not distinguish seventh from
 eighth grade, so both grades link the same broadcast.
+
+Hudl game links work the same way. `Update-IesaScores.ps1` then calls
+`2026\Update-HudlEvents.ps1`, which asks the GraphQL endpoint above for
+`fanBroadcasts` (upcoming/streaming and archived, `sortType: BROADCAST_DATE`)
+of each school with a Hudl URL and writes `hudl-events.json` in the
+`nfhs-events.json` shape. It keeps broadcasts from August 1 on whose team is
+women's basketball **and** whose team name says JH/Jr./Junior/Middle/7th/8th
+(one school files volleyball under a basketball team). Hudl titles use the
+high school's name ("Greenfield/Northwestern High School vs North Greene
+Womens Other Basketball"), so the label is rewritten as "<bracket team> vs.
+<opponent>" with the sport suffix, "JH" and "Lady ..." removed. The watch
+link is `<organizationProfileUrl>/watch?b=<broadcast id>`. Each provider is
+matched separately, so a row can show both icons.
 
 Regional rosters are fixed in each grade's `data.js` and are **not** updated
 automatically when a school withdraws. Every run of `Update-IesaScores.ps1`

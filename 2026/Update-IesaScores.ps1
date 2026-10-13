@@ -229,11 +229,16 @@ foreach ($grade in "7th", "8th") {
     Write-AtomicFile (Join-Path $SitePath "scores-$grade.js") ("window.iesaScoreCache = " + $json + ";")
 }
 
-# NFHS watch links are a convenience beside the scores and must never fail a refresh.
+# NFHS and Hudl watch links are a convenience beside the scores and must never fail a refresh.
 try {
     & (Join-Path $PSScriptRoot "Update-NfhsEvents.ps1") -SitePath $SitePath
 } catch {
     Write-Warning "NFHS game refresh failed: $($_.Exception.Message)"
+}
+try {
+    & (Join-Path $PSScriptRoot "Update-HudlEvents.ps1") -SitePath $SitePath
+} catch {
+    Write-Warning "Hudl game refresh failed: $($_.Exception.Message)"
 }
 
 $seedRefreshError = $null
