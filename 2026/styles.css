@@ -4,7 +4,6 @@
 @media(max-width:380px){.topbar{padding-right:4px;padding-left:4px;gap:4px}.title{max-width:80px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.switcher a{min-width:30px;padding-right:4px;padding-left:4px}.tools button#updates-button{max-width:58px}.tools #fit{min-width:30px}}
 #bracket{width:3360px}
 .switcher a,.tools button{display:inline-flex;align-items:center;justify-content:center;height:40px}
-.tools button#minus,.tools button#plus{display:none!important}
 .regional{width:240px}
 .regional .head{display:flex;align-items:center;gap:5px}
 .regional-name{flex:none;white-space:nowrap}
