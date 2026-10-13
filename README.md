@@ -114,6 +114,17 @@ omits the year because the season selector already identifies it; regional
 projection popups keep their three rounds in a compact horizontal bracket
 instead of stacking the rounds vertically.
 
+Desktops without a mouse wheel can zoom several ways (`2026\pointer-zoom.js`).
+A trackpad pinch arrives as a `ctrlKey` wheel event with small deltas, so it is
+scaled far more strongly than a wheel notch and follows the fingers. Double-
+clicking empty canvas zooms in 1.6x at the pointer (Shift+double-click zooms
+out); double-clicks on regional team names are ignored so they still open the
+team dialog. Keyboard: `+`/`=` and `-` zoom about the center, `0` fits, and the
+arrow keys pan; keys are ignored while a dialog is open, in form fields, or
+with Ctrl/Cmd/Alt so browser zoom still works. The +/- buttons are shown on
+desktop (hidden at 680px and below); a click steps 1.2x and holding one
+zooms continuously after 300 ms.
+
 The year menu also marks seasons in which Springfield Christian finished in the
 top four with a dot, so the handful worth revisiting stand out among nearly
 fifty years. `Build-IesaPlacements.ps1` derives those placements from the two

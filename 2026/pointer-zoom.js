@@ -118,7 +118,7 @@
     });
 
     // Holding + or - zooms continuously; a quick click keeps the single step.
-    [["plus", 1.025], ["minus", 1 / 1.025]].forEach(function (pair) {
+    [["plus", 1.012], ["minus", 1 / 1.012]].forEach(function (pair) {
         var button = document.getElementById(pair[0]);
         if (!button) { return; }
         var timer = 0;
