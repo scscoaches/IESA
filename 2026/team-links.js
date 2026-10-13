@@ -12,6 +12,7 @@ window.iesaTeamLinks = {
     "Bluffs (Co-op)": { nfhs: "https://www.nfhsnetwork.com/schools/bluffs-junior-high-school-bluffs-il/basketball/girls/middle-school" },
     "Brimfield": { nfhs: "https://www.nfhsnetwork.com/schools/brimfield-high-school-brimfield-il/basketball/girls/middle-school" },
     "Burr Ridge MS": { nfhs: "https://www.nfhsnetwork.com/schools/burr-ridge-middle-school-burr-ridge-il" },
+    "Bushnell-Prairie City": { nfhs: "https://www.nfhsnetwork.com/schools/bushnellprairie-city-high-school-bushnell-il" },
     "Camp Point Central": { nfhs: "https://www.nfhsnetwork.com/schools/central-high-school-camp-point-camp-point-il/basketball/girls/middle-school" },
     "Carthage": { nfhs: "https://www.nfhsnetwork.com/schools/carthage-middle-school-carthage-il" },
     "Casey-Westfield": { nfhs: "https://www.nfhsnetwork.com/schools/caseywestfield-high-school-casey-il" },
