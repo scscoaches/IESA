@@ -1,7 +1,7 @@
 ﻿{
-    "updatedAt":  "2026-10-13 12:00",
-    "previousCaptureAt":  "2026-10-13 06:00",
-    "retainedSince":  "2026-10-06 12:04",
+    "updatedAt":  "2026-10-14 06:00",
+    "previousCaptureAt":  "2026-10-13 12:00",
+    "retainedSince":  "2026-10-07 06:06",
     "retainedDays":  7,
     "teams":  {
                   "Kinmundy South Central (Co-op)":  {
@@ -214,10 +214,6 @@
                                                                        "score":  "34-4"
                                                                    },
                                                                    {
-                                                                       "opponent":  "Bloomington Corpus Christi vs. Heyworth",
-                                                                       "score":  "PENDING"
-                                                                   },
-                                                                   {
                                                                        "opponent":  "Bloomington Corpus Christi vs. Normal Calvary",
                                                                        "score":  "PENDING"
                                                                    },
@@ -276,12 +272,16 @@
                                                                    {
                                                                        "opponent":  "Bloomington Corpus Christi def. Normal Kingsley",
                                                                        "score":  "25-21"
+                                                                   },
+                                                                   {
+                                                                       "opponent":  "Bloomington Corpus Christi def. Heyworth",
+                                                                       "score":  "37-4"
                                                                    }
                                                                ],
                                                      "record":  {
-                                                                    "wins":  5,
+                                                                    "wins":  6,
                                                                     "losses":  0,
-                                                                    "completed":  5
+                                                                    "completed":  6
                                                                 }
                                                  },
                   "Knoxville JHS":  {
@@ -340,8 +340,8 @@
                                                           "score":  "27-22"
                                                       },
                                                       {
-                                                          "opponent":  "Knoxville JHS vs. Lewistown JHS",
-                                                          "score":  "PENDING"
+                                                          "opponent":  "Lewistown JHS def. Knoxville JHS",
+                                                          "score":  "40-13"
                                                       },
                                                       {
                                                           "opponent":  "Knoxville JHS vs. Sherrard JHS",
@@ -370,8 +370,8 @@
                                                   ],
                                         "record":  {
                                                        "wins":  2,
-                                                       "losses":  1,
-                                                       "completed":  3
+                                                       "losses":  2,
+                                                       "completed":  4
                                                    }
                                     },
                   "Spring Valley Kennedy":  {
@@ -477,6 +477,10 @@
                                                     },
                                                     {
                                                         "opponent":  "Peoria St. Vincent de Paul vs. Princeville",
+                                                        "score":  "PENDING"
+                                                    },
+                                                    {
+                                                        "opponent":  "Toulon Stark County vs. Princeville",
                                                         "score":  "PENDING"
                                                     }
                                                 ],
@@ -1226,6 +1230,10 @@
                                                         {
                                                             "opponent":  "Palestine vs. Casey-Westfield",
                                                             "score":  "PENDING"
+                                                        },
+                                                        {
+                                                            "opponent":  "Martinsville vs. Casey-Westfield",
+                                                            "score":  "PENDING"
                                                         }
                                                     ],
                                           "record":  {
@@ -1614,12 +1622,12 @@
                                                                           "score":  "PENDING"
                                                                       },
                                                                       {
-                                                                          "opponent":  "Pana Sacred Heart vs. Assumption Central A \u0026 M",
-                                                                          "score":  "PENDING"
+                                                                          "opponent":  "Pana Sacred Heart def. Assumption Central A \u0026 M",
+                                                                          "score":  "18-17"
                                                                       },
                                                                       {
-                                                                          "opponent":  "Macon Meridian vs. Assumption Central A \u0026 M",
-                                                                          "score":  "PENDING"
+                                                                          "opponent":  "Macon Meridian def. Assumption Central A \u0026 M",
+                                                                          "score":  "35-23"
                                                                       },
                                                                       {
                                                                           "opponent":  "Assumption Central A \u0026 M def. Decatur Hope",
@@ -1652,12 +1660,16 @@
                                                                       {
                                                                           "opponent":  "Maroa-Forsyth vs. Assumption Central A \u0026 M",
                                                                           "score":  "PENDING"
+                                                                      },
+                                                                      {
+                                                                          "opponent":  "Assumption Central A \u0026 M vs. Argenta-Oreana",
+                                                                          "score":  "PENDING"
                                                                       }
                                                                   ],
                                                         "record":  {
                                                                        "wins":  4,
-                                                                       "losses":  0,
-                                                                       "completed":  4
+                                                                       "losses":  2,
+                                                                       "completed":  6
                                                                    }
                                                     },
                   "Peoria St. Vincent de Paul (Co-op)":  {
@@ -2044,8 +2056,8 @@
                                                        "score":  "PENDING"
                                                    },
                                                    {
-                                                       "opponent":  "Oakwood GS vs. Rossville-Alvin",
-                                                       "score":  "PENDING"
+                                                       "opponent":  "Rossville-Alvin def. Oakwood GS",
+                                                       "score":  "27-26"
                                                    },
                                                    {
                                                        "opponent":  "Oakwood GS vs. St. Joseph",
@@ -2082,8 +2094,8 @@
                                                ],
                                      "record":  {
                                                     "wins":  0,
-                                                    "losses":  1,
-                                                    "completed":  1
+                                                    "losses":  2,
+                                                    "completed":  2
                                                 }
                                  },
                   "Seneca":  {
@@ -2184,8 +2196,8 @@
                                                         "score":  "22-14"
                                                     },
                                                     {
-                                                        "opponent":  "Momence JHS vs. Manteno",
-                                                        "score":  "PENDING"
+                                                        "opponent":  "Manteno def. Momence JHS",
+                                                        "score":  "32-11"
                                                     },
                                                     {
                                                         "opponent":  "Momence JHS vs. Onarga Iroquois West",
@@ -2218,8 +2230,8 @@
                                                 ],
                                       "record":  {
                                                      "wins":  1,
-                                                     "losses":  1,
-                                                     "completed":  2
+                                                     "losses":  2,
+                                                     "completed":  3
                                                  }
                                   },
                   "Stewardson-Strasburg (Co-op)":  {
@@ -2450,6 +2462,10 @@
                                                              {
                                                                  "opponent":  "Eureka vs. Peoria St. Philomena",
                                                                  "score":  "PENDING"
+                                                             },
+                                                             {
+                                                                 "opponent":  "Peoria St. Philomena vs. Pekin Broadmoor",
+                                                                 "score":  "PENDING"
                                                              }
                                                          ],
                                                "record":  {
@@ -2599,6 +2615,10 @@
                                                        },
                                                        {
                                                            "opponent":  "Maroa-Forsyth vs. Argenta-Oreana",
+                                                           "score":  "PENDING"
+                                                       },
+                                                       {
+                                                           "opponent":  "Assumption Central A \u0026 M vs. Argenta-Oreana",
                                                            "score":  "PENDING"
                                                        }
                                                    ],
@@ -2780,8 +2800,8 @@
                                                       "score":  "23-13"
                                                   },
                                                   {
-                                                      "opponent":  "Dieterich vs. Neoga",
-                                                      "score":  "PENDING"
+                                                      "opponent":  "Dieterich def. Neoga",
+                                                      "score":  "30-16"
                                                   },
                                                   {
                                                       "opponent":  "Dieterich vs. Kinmundy South Central",
@@ -2821,9 +2841,9 @@
                                                   }
                                               ],
                                     "record":  {
-                                                   "wins":  2,
+                                                   "wins":  3,
                                                    "losses":  2,
-                                                   "completed":  4
+                                                   "completed":  5
                                                }
                                 },
                   "London Mills Valley (Co-op)":  {
@@ -3336,8 +3356,8 @@
                                                       "score":  "PENDING"
                                                   },
                                                   {
-                                                      "opponent":  "Farmington Central vs. Brimfield",
-                                                      "score":  "PENDING"
+                                                      "opponent":  "Farmington Central def. Brimfield",
+                                                      "score":  "32-10"
                                                   },
                                                   {
                                                       "opponent":  "Germantown Hills def. Brimfield",
@@ -3414,8 +3434,8 @@
                                               ],
                                     "record":  {
                                                    "wins":  0,
-                                                   "losses":  2,
-                                                   "completed":  2
+                                                   "losses":  3,
+                                                   "completed":  3
                                                }
                                 },
                   "Fisher":  {
@@ -3547,6 +3567,10 @@
                                                          },
                                                          {
                                                              "opponent":  "Kewanee Visitation vs. Sparland Midland",
+                                                             "score":  "PENDING"
+                                                         },
+                                                         {
+                                                             "opponent":  "Toulon Stark County vs. Sparland Midland",
                                                              "score":  "PENDING"
                                                          }
                                                      ],
@@ -3962,6 +3986,10 @@
                                                                   {
                                                                       "opponent":  "Manlius Bureau Valley JHS def. Lasalle Lincoln",
                                                                       "score":  "34-5"
+                                                                  },
+                                                                  {
+                                                                      "opponent":  "Toulon Stark County vs. Manlius Bureau Valley JHS",
+                                                                      "score":  "PENDING"
                                                                   }
                                                               ],
                                                     "record":  {
@@ -4000,6 +4028,34 @@
                                                             {
                                                                 "opponent":  "Manlius Bureau Valley JHS def. Toulon Stark County",
                                                                 "score":  "40-6"
+                                                            },
+                                                            {
+                                                                "opponent":  "Toulon Stark County vs. Henry-Senachwine",
+                                                                "score":  "PENDING"
+                                                            },
+                                                            {
+                                                                "opponent":  "Toulon Stark County vs. Sparland Midland",
+                                                                "score":  "PENDING"
+                                                            },
+                                                            {
+                                                                "opponent":  "Toulon Stark County vs. Williamsfield",
+                                                                "score":  "PENDING"
+                                                            },
+                                                            {
+                                                                "opponent":  "Toulon Stark County vs. Manlius Bureau Valley JHS",
+                                                                "score":  "PENDING"
+                                                            },
+                                                            {
+                                                                "opponent":  "Toulon Stark County vs. Princeville",
+                                                                "score":  "PENDING"
+                                                            },
+                                                            {
+                                                                "opponent":  "Toulon Stark County vs. Kewanee Wethersfield",
+                                                                "score":  "PENDING"
+                                                            },
+                                                            {
+                                                                "opponent":  "Toulon Stark County vs. Cambridge JHS",
+                                                                "score":  "PENDING"
                                                             }
                                                         ],
                                               "record":  {
@@ -4242,8 +4298,8 @@
                                                           "score":  "25-17"
                                                       },
                                                       {
-                                                          "opponent":  "Knoxville JHS vs. Lewistown JHS",
-                                                          "score":  "PENDING"
+                                                          "opponent":  "Lewistown JHS def. Knoxville JHS",
+                                                          "score":  "40-13"
                                                       },
                                                       {
                                                           "opponent":  "Lewistown JHS def. Canton Ingersoll",
@@ -4251,9 +4307,9 @@
                                                       }
                                                   ],
                                         "record":  {
-                                                       "wins":  2,
+                                                       "wins":  3,
                                                        "losses":  0,
-                                                       "completed":  2
+                                                       "completed":  3
                                                    }
                                     },
                   "Decatur Montessori Academy for Peace":  {
@@ -5080,8 +5136,8 @@
                                                                     "score":  "PENDING"
                                                                 },
                                                                 {
-                                                                    "opponent":  "Mattoon St. John\u0027s vs. Philo St. Thomas",
-                                                                    "score":  "PENDING"
+                                                                    "opponent":  "Mattoon St. John\u0027s def. Philo St. Thomas",
+                                                                    "score":  "17-6"
                                                                 },
                                                                 {
                                                                     "opponent":  "Mattoon St. John\u0027s vs. Decatur Dansby",
@@ -5125,9 +5181,9 @@
                                                                 }
                                                             ],
                                                   "record":  {
-                                                                 "wins":  1,
+                                                                 "wins":  2,
                                                                  "losses":  1,
-                                                                 "completed":  2
+                                                                 "completed":  3
                                                              }
                                               },
                   "Dwight":  {
@@ -5212,8 +5268,8 @@
                                                            "score":  "PENDING"
                                                        },
                                                        {
-                                                           "opponent":  "Macon Meridian vs. Assumption Central A \u0026 M",
-                                                           "score":  "PENDING"
+                                                           "opponent":  "Macon Meridian def. Assumption Central A \u0026 M",
+                                                           "score":  "35-23"
                                                        },
                                                        {
                                                            "opponent":  "Macon Meridian vs. Warrensburg-Latham",
@@ -5257,9 +5313,9 @@
                                                        }
                                                    ],
                                          "record":  {
-                                                        "wins":  0,
+                                                        "wins":  1,
                                                         "losses":  0,
-                                                        "completed":  0
+                                                        "completed":  1
                                                     }
                                      },
                   "Bluffs (Co-op)":  {
@@ -5377,6 +5433,10 @@
                                                },
                                                {
                                                    "opponent":  "Tuscola East Prairie vs. Arcola",
+                                                   "score":  "PENDING"
+                                               },
+                                               {
+                                                   "opponent":  "Martinsville vs. Arcola",
                                                    "score":  "PENDING"
                                                }
                                            ],
@@ -5550,8 +5610,8 @@
                                                                 "score":  "37-18"
                                                             },
                                                             {
-                                                                "opponent":  "Maryville Christian vs. Bethalto Trimpe",
-                                                                "score":  "PENDING"
+                                                                "opponent":  "Bethalto Trimpe def. Maryville Christian",
+                                                                "score":  "31-20"
                                                             },
                                                             {
                                                                 "opponent":  "Maryville Christian vs. Wood River Lewis \u0026 Clark",
@@ -5632,8 +5692,8 @@
                                                         ],
                                               "record":  {
                                                              "wins":  3,
-                                                             "losses":  1,
-                                                             "completed":  4
+                                                             "losses":  2,
+                                                             "completed":  5
                                                          }
                                           },
                   "Champaign International":  {
@@ -5784,8 +5844,8 @@
                                                                   "score":  "35-14"
                                                               },
                                                               {
-                                                                  "opponent":  "Champaign St. Matthew vs. Champaign Jefferson",
-                                                                  "score":  "PENDING"
+                                                                  "opponent":  "Champaign St. Matthew def. Champaign Jefferson",
+                                                                  "score":  "42-2"
                                                               },
                                                               {
                                                                   "opponent":  "Champaign St. Matthew vs. Champaign Holy Cross",
@@ -5825,9 +5885,9 @@
                                                               }
                                                           ],
                                                 "record":  {
-                                                               "wins":  5,
+                                                               "wins":  6,
                                                                "losses":  1,
-                                                               "completed":  6
+                                                               "completed":  7
                                                            }
                                             },
                   "East Alton MS":  {
@@ -5964,8 +6024,8 @@
                                                                          "score":  "PENDING"
                                                                      },
                                                                      {
-                                                                         "opponent":  "Green Valley Midwest Central vs. Pekin Broadmoor",
-                                                                         "score":  "PENDING"
+                                                                         "opponent":  "Pekin Broadmoor def. Green Valley Midwest Central",
+                                                                         "score":  "31-11"
                                                                      },
                                                                      {
                                                                          "opponent":  "Pekin Rankin vs. Green Valley Midwest Central",
@@ -5974,8 +6034,8 @@
                                                                  ],
                                                        "record":  {
                                                                       "wins":  1,
-                                                                      "losses":  2,
-                                                                      "completed":  3
+                                                                      "losses":  3,
+                                                                      "completed":  4
                                                                   }
                                                    },
                   "Stronghurst West Central":  {
@@ -6032,8 +6092,8 @@
                                                           "score":  "PENDING"
                                                       },
                                                       {
-                                                          "opponent":  "Ford Heights Cottage Grove UGC vs. Markham Obama",
-                                                          "score":  "PENDING"
+                                                          "opponent":  "Ford Heights Cottage Grove UGC def. Markham Obama",
+                                                          "score":  "33-0"
                                                       },
                                                       {
                                                           "opponent":  "Ford Heights Cottage Grove UGC vs. Markham Obama",
@@ -6064,18 +6124,14 @@
                                                           "score":  "PENDING"
                                                       },
                                                       {
-                                                          "opponent":  "Calumet City Dolton 149 vs. Markham Obama",
-                                                          "score":  "PENDING"
-                                                      },
-                                                      {
                                                           "opponent":  "Blue Island Kerr vs. Markham Obama",
                                                           "score":  "PENDING"
                                                       }
                                                   ],
                                         "record":  {
                                                        "wins":  0,
-                                                       "losses":  0,
-                                                       "completed":  0
+                                                       "losses":  1,
+                                                       "completed":  1
                                                    }
                                     },
                   "Ottawa Wallace":  {
@@ -6185,6 +6241,10 @@
                                                               },
                                                               {
                                                                   "opponent":  "Knoxville JHS vs. Williamsfield",
+                                                                  "score":  "PENDING"
+                                                              },
+                                                              {
+                                                                  "opponent":  "Toulon Stark County vs. Williamsfield",
                                                                   "score":  "PENDING"
                                                               }
                                                           ],
@@ -6336,12 +6396,16 @@
                                                              {
                                                                  "opponent":  "Pekin Rankin vs. Creve Coeur Parkview",
                                                                  "score":  "PENDING"
+                                                             },
+                                                             {
+                                                                 "opponent":  "Pekin Broadmoor def. Creve Coeur Parkview",
+                                                                 "score":  "51-3"
                                                              }
                                                          ],
                                                "record":  {
                                                               "wins":  2,
-                                                              "losses":  2,
-                                                              "completed":  4
+                                                              "losses":  3,
+                                                              "completed":  5
                                                           }
                                            },
                   "Decatur Our Lady of Lourdes (Co-op)":  {
@@ -6605,6 +6669,159 @@
               },
     "updatedGames":  [
                          {
+                             "team":  "Assumption Central A \u0026 M",
+                             "opponent":  "Macon Meridian def. Assumption Central A \u0026 M",
+                             "previous":  "PENDING",
+                             "score":  "35-23",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=18\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Assumption Central A \u0026 M",
+                             "opponent":  "Pana Sacred Heart def. Assumption Central A \u0026 M",
+                             "previous":  "PENDING",
+                             "score":  "18-17",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=18\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Bloomington Corpus Christi",
+                             "opponent":  "Bloomington Corpus Christi def. Heyworth",
+                             "previous":  "PENDING",
+                             "score":  "37-4",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=46\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Brimfield",
+                             "opponent":  "Farmington Central def. Brimfield",
+                             "previous":  "PENDING",
+                             "score":  "32-10",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=66\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Champaign St. Matthew",
+                             "opponent":  "Champaign St. Matthew def. Champaign Jefferson",
+                             "previous":  "PENDING",
+                             "score":  "42-2",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=104\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Creve Coeur Parkview",
+                             "opponent":  "Pekin Broadmoor def. Creve Coeur Parkview",
+                             "previous":  "N/A",
+                             "score":  "51-3",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=133\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Dieterich",
+                             "opponent":  "Dieterich def. Neoga",
+                             "previous":  "PENDING",
+                             "score":  "30-16",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=157\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Green Valley Midwest Central",
+                             "opponent":  "Pekin Broadmoor def. Green Valley Midwest Central",
+                             "previous":  "PENDING",
+                             "score":  "31-11",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=222\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Knoxville JHS",
+                             "opponent":  "Lewistown JHS def. Knoxville JHS",
+                             "previous":  "PENDING",
+                             "score":  "40-13",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=1897\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Lewistown JHS",
+                             "opponent":  "Lewistown JHS def. Knoxville JHS",
+                             "previous":  "PENDING",
+                             "score":  "40-13",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=298\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Macon Meridian",
+                             "opponent":  "Macon Meridian def. Assumption Central A \u0026 M",
+                             "previous":  "PENDING",
+                             "score":  "35-23",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=48\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Markham Obama",
+                             "opponent":  "Ford Heights Cottage Grove UGC def. Markham Obama",
+                             "previous":  "PENDING",
+                             "score":  "33-0",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=2260\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Maryville Christian",
+                             "opponent":  "Bethalto Trimpe def. Maryville Christian",
+                             "previous":  "PENDING",
+                             "score":  "31-20",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=2127\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Mattoon St. John\u0027s",
+                             "opponent":  "Mattoon St. John\u0027s def. Philo St. Thomas",
+                             "previous":  "PENDING",
+                             "score":  "17-6",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=2083\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Momence JHS",
+                             "opponent":  "Manteno def. Momence JHS",
+                             "previous":  "PENDING",
+                             "score":  "32-11",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=368\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Oakwood GS",
+                             "opponent":  "Rossville-Alvin def. Oakwood GS",
+                             "previous":  "PENDING",
+                             "score":  "27-26",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=422\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Peoria St. Vincent de Paul (Co-op)",
+                             "opponent":  "Peoria St. Jude def. Peoria St. Vincent de Paul",
+                             "previous":  "PENDING",
+                             "score":  "21-12",
+                             "firstSeenAt":  "2026-10-14 06:00",
+                             "latestAt":  "2026-10-14 06:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=964\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
                              "team":  "Bunker Hill Wolf Ridge",
                              "opponent":  "Greenfield def. Bunker Hill Wolf Ridge",
                              "previous":  "PENDING",
@@ -6729,15 +6946,6 @@
                              "firstSeenAt":  "2026-10-13 12:00",
                              "latestAt":  "2026-10-13 12:00",
                              "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=585\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Waterman Indian Creek",
-                             "opponent":  "Leland def. Waterman Indian Creek",
-                             "previous":  "PENDING",
-                             "score":  "22-12",
-                             "firstSeenAt":  "2026-10-07 18:00",
-                             "latestAt":  "2026-10-13 12:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=590\u0026ActivityCode=GBK\u0026GradeLevel=7"
                          },
                          {
                              "team":  "Waterman Indian Creek",
@@ -7515,6 +7723,15 @@
                          },
                          {
                              "team":  "Waterman Indian Creek",
+                             "opponent":  "Leland def. Waterman Indian Creek",
+                             "previous":  "PENDING",
+                             "score":  "22-12",
+                             "firstSeenAt":  "2026-10-07 18:00",
+                             "latestAt":  "2026-10-07 18:00",
+                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=590\u0026ActivityCode=GBK\u0026GradeLevel=7"
+                         },
+                         {
+                             "team":  "Waterman Indian Creek",
                              "opponent":  "Plano def. Waterman Indian Creek",
                              "previous":  "PENDING",
                              "score":  "17-15",
@@ -7539,141 +7756,6 @@
                              "firstSeenAt":  "2026-10-07 18:00",
                              "latestAt":  "2026-10-07 18:00",
                              "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=502\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Altamont (Co-op)",
-                             "opponent":  "Altamont def. Vandalia",
-                             "previous":  "PENDING",
-                             "score":  "20-8",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=5\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Arcola",
-                             "opponent":  "Tolono Unity def. Arcola",
-                             "previous":  "PENDING",
-                             "score":  "37-10",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=9\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Bloomington Corpus Christi",
-                             "opponent":  "Bloomington Corpus Christi def. Normal Kingsley",
-                             "previous":  "PENDING",
-                             "score":  "25-21",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=46\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Decatur Our Lady of Lourdes (Co-op)",
-                             "opponent":  "Staunton def. Decatur Our Lady of Lourdes",
-                             "previous":  "N/A",
-                             "score":  "35-17",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=930\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Dieterich",
-                             "opponent":  "Dieterich def. Martinsville",
-                             "previous":  "PENDING",
-                             "score":  "22-9",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=157\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "East Alton MS",
-                             "opponent":  "Maryville Christian def. East Alton MS",
-                             "previous":  "PENDING",
-                             "score":  "43-7",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=1973\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Green Valley Midwest Central",
-                             "opponent":  "Tremont def. Green Valley Midwest Central",
-                             "previous":  "PENDING",
-                             "score":  "29-8",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=222\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Hardin Calhoun (Co-op)",
-                             "opponent":  "Mt. Sterling Brown County def. Hardin Calhoun",
-                             "previous":  "PENDING",
-                             "score":  "35-19",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=765\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Mansfield Blue Ridge IJHS (Co-op)",
-                             "opponent":  "Rantoul St. Malachy def. Mansfield Blue Ridge IJHS",
-                             "previous":  "PENDING",
-                             "score":  "27-8",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=328\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Maryville Christian",
-                             "opponent":  "Maryville Christian def. East Alton MS",
-                             "previous":  "PENDING",
-                             "score":  "43-7",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=2127\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Mt. Sterling Brown County (Co-op)",
-                             "opponent":  "Mt. Sterling Brown County def. Hardin Calhoun",
-                             "previous":  "PENDING",
-                             "score":  "35-19",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=390\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Ottawa Wallace",
-                             "opponent":  "Ottawa Wallace def. Utica Waltham",
-                             "previous":  "PENDING",
-                             "score":  "33-20",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=435\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Peoria Heights GS",
-                             "opponent":  "Peoria Heights GS def. Peoria St. Vincent de Paul",
-                             "previous":  "N/A",
-                             "score":  "26-14",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=461\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Peoria St. Vincent de Paul (Co-op)",
-                             "opponent":  "Peoria Heights GS def. Peoria St. Vincent de Paul",
-                             "previous":  "N/A",
-                             "score":  "26-14",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=964\u0026ActivityCode=GBK\u0026GradeLevel=7"
-                         },
-                         {
-                             "team":  "Peoria St. Vincent de Paul (Co-op)",
-                             "opponent":  "Peoria St. Jude def. Peoria St. Vincent de Paul",
-                             "previous":  "PENDING",
-                             "score":  "21-12",
-                             "firstSeenAt":  "2026-10-07 06:00",
-                             "latestAt":  "2026-10-07 06:00",
-                             "sourceUrl":  "https://www.iesa.org/activities/memberStats.asp?SchoolID=964\u0026ActivityCode=GBK\u0026GradeLevel=7"
                          }
                      ],
     "rosterChanges":  [

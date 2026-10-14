@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-10-13 12:59",
+    "updatedAt":  "2026-10-14 06:15",
     "schools":  {
                     "altamont-high-school-altamont-il":  [
 
@@ -410,12 +410,7 @@
 
                                                            ],
                     "fisher-high-school-fisher-il":  [
-                                                         {
-                                                             "key":  "gam93e2480036",
-                                                             "url":  "https://www.nfhsnetwork.com/events/trivalley-high-school-downs-il/gam93e2480036",
-                                                             "label":  "Fisher vs. Tri-Valley",
-                                                             "start":  "2026-10-13T22:30:00.000Z"
-                                                         }
+
                                                      ],
                     "greenfield-high-school-greenfield-il":  [
 
@@ -901,6 +896,12 @@
                                                                      "url":  "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamf7aa855e6d",
                                                                      "label":  "W\u0027burg-Latham vs. Mt. Pulaski",
                                                                      "start":  "2026-11-12T23:00:00.000Z"
+                                                                 },
+                                                                 {
+                                                                     "key":  "gam4188930c6f",
+                                                                     "url":  "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam4188930c6f",
+                                                                     "label":  "Maroa-Forsyth vs. Mt. Pulaski",
+                                                                     "start":  "2026-11-16T23:00:00.000Z"
                                                                  }
                                                              ],
                     "nokomis-high-school-nokomis-il":  [
@@ -1116,12 +1117,6 @@
                                                                                        "url":  "https://www.nfhsnetwork.com/events/vit-high-school-astoriatable-grove-coop-table-grove-il/gam86273b9c0b",
                                                                                        "label":  "Cuba vs. VIT",
                                                                                        "start":  "2026-09-28T22:30:00.000Z"
-                                                                                   },
-                                                                                   {
-                                                                                       "key":  "gam90196f1746",
-                                                                                       "url":  "https://www.nfhsnetwork.com/events/vit-high-school-astoriatable-grove-coop-table-grove-il/gam90196f1746",
-                                                                                       "label":  "Triopia vs. VIT",
-                                                                                       "start":  "2026-10-13T22:30:00.000Z"
                                                                                    },
                                                                                    {
                                                                                        "key":  "gamc7209aaf47",
