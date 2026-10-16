@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15 08:31",
+  "updatedAt": "2026-10-16 08:24",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -479,6 +479,12 @@
         "start": "2026-11-09T23:00:00.000Z"
       },
       {
+        "key": "gam099072c002",
+        "url": "https://www.nfhsnetwork.com/events/illini-bluffs-high-school-glasford-il/gam099072c002",
+        "label": "Away vs. Illini Bluffs",
+        "start": "2026-11-10T23:00:00.000Z"
+      },
+      {
         "key": "gam6b8c7e7514",
         "url": "https://www.nfhsnetwork.com/events/illini-bluffs-high-school-glasford-il/gam6b8c7e7514",
         "label": "2026 IHSA Girls Basketball Playoffs — Cuba vs. Illini Bluffs",
@@ -569,12 +575,6 @@
         "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gam3941ee62be",
         "label": "Epiphany School vs. LeRoy",
         "start": "2026-10-13T22:25:00.000Z"
-      },
-      {
-        "key": "gam33085f8e10",
-        "url": "https://www.nfhsnetwork.com/events/trivalley-high-school-downs-il/gam33085f8e10",
-        "label": "LeRoy vs. Tri-Valley",
-        "start": "2026-10-15T22:30:00.000Z"
       },
       {
         "key": "gam26a7b40316",
