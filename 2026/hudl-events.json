@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16 08:24",
+  "updatedAt": "2026-10-17 08:01",
   "schools": {
     "Arcola": [
       {
@@ -133,6 +133,13 @@
         "label": "Liberty vs. LaHarpe",
         "title": "Liberty JH vs LaHarpe JH Girls Basketball",
         "start": "2026-09-28T22:25:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDY0MjY4OA==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDY0MjY4OA%3D%3D",
+        "label": "Liberty vs. Carthage",
+        "title": "Liberty Junior High School Girls Basketball vs Carthage JH Girls Basketball",
+        "start": "2026-10-16T22:50:00Z"
       }
     ]
   }

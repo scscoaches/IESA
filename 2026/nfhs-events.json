@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16 08:24",
+  "updatedAt": "2026-10-17 08:01",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -635,6 +635,12 @@
         "url": "https://www.nfhsnetwork.com/events/sangamon-valley-high-school-niantic-il/gam1b0124b1e7",
         "label": "Meridian Macon vs. Sangamon Valley",
         "start": "2026-11-10T23:55:00.000Z"
+      },
+      {
+        "key": "gamb283391690",
+        "url": "https://www.nfhsnetwork.com/events/century-high-school-ullin-il/gamb283391690",
+        "label": "Meridian Macon vs. Century",
+        "start": "2026-12-12T00:00:00.000Z"
       }
     ],
     "midwest-central-middle-school-green-valley-il": [
