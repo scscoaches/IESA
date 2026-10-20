@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19 09:04",
+  "updatedAt": "2026-10-20 08:45",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -575,6 +575,12 @@
         "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gam3941ee62be",
         "label": "Epiphany School vs. LeRoy",
         "start": "2026-10-13T22:25:00.000Z"
+      },
+      {
+        "key": "gam224c20bf18",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gam224c20bf18",
+        "label": "Blue Ridge vs. LeRoy",
+        "start": "2026-10-19T22:37:00.000Z"
       },
       {
         "key": "gam26a7b40316",
