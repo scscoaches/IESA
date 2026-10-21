@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20 08:45",
+  "updatedAt": "2026-10-21 08:47",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -196,6 +196,12 @@
         "url": "https://www.nfhsnetwork.com/events/arthur-christian-arthur-il/gam877288fc1e",
         "label": "Cerro Gordo vs. Arthur Chr.",
         "start": "2026-10-15T23:00:00.000Z"
+      },
+      {
+        "key": "gam9205ecc1ab",
+        "url": "https://www.nfhsnetwork.com/events/cerro-gordo-high-school-cerro-gordo-il/gam9205ecc1ab",
+        "label": "Cerro Gordo",
+        "start": "2026-10-20T22:30:00.000Z"
       }
     ],
     "chestereast-lincoln-lincoln-il": [
@@ -776,32 +782,20 @@
     "morton-grove-academy-morton-grove-il": [],
     "mt-pulaski-high-school-mt-pulaski-il": [
       {
-        "key": "gamd639bab22d",
-        "url": "https://www.nfhsnetwork.com/events/clinton-high-school-clinton-il/gamd639bab22d",
-        "label": "Mt. Pulaski vs. Clinton",
-        "start": "2026-09-29T22:30:00.000Z"
-      },
-      {
-        "key": "gamf95ad21921",
-        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamf95ad21921",
-        "label": "Mt. Pulaski",
-        "start": "2026-10-01T22:00:00.000Z"
-      },
-      {
         "key": "gam396ca8f627",
         "url": "https://www.nfhsnetwork.com/events/sangamon-valley-high-school-niantic-il/gam396ca8f627",
         "label": "Mt. Pulaski vs. Sangamon Valley",
         "start": "2026-10-05T21:55:00.000Z"
       },
       {
-        "key": "gamd627f7e041",
-        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamd627f7e041",
+        "key": "gamc0f1163216",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamc0f1163216",
         "label": "Mt. Pulaski",
         "start": "2026-10-10T14:00:00.000Z"
       },
       {
-        "key": "gamc0f1163216",
-        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamc0f1163216",
+        "key": "gamd627f7e041",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamd627f7e041",
         "label": "Mt. Pulaski",
         "start": "2026-10-10T14:00:00.000Z"
       },
@@ -1167,12 +1161,6 @@
         "url": "https://www.nfhsnetwork.com/events/west-central-high-school-coop-w-winchester-biggsville-il/gam84740a45a8",
         "label": "Away vs. WCHS",
         "start": "2026-10-08T22:30:00.000Z"
-      },
-      {
-        "key": "gam9dffb792e2",
-        "url": "https://www.nfhsnetwork.com/events/west-central-high-school-coop-w-winchester-biggsville-il/gam9dffb792e2",
-        "label": "Galesburg vs. WCHS",
-        "start": "2026-10-20T22:30:00.000Z"
       },
       {
         "key": "gam63a213ae9e",
