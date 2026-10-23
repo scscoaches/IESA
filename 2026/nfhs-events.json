@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22 08:50",
+  "updatedAt": "2026-10-23 08:45",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -215,7 +215,7 @@
         "key": "gam4df162f0c8",
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam4df162f0c8",
         "label": "Chester East vs. Mt. Pulaski",
-        "start": "2026-10-22T22:55:00.000Z"
+        "start": "2026-10-22T21:55:00.000Z"
       }
     ],
     "cornerstone-christian-academy-bloomington-il": [
@@ -776,12 +776,6 @@
     "morton-grove-academy-morton-grove-il": [],
     "mt-pulaski-high-school-mt-pulaski-il": [
       {
-        "key": "gam396ca8f627",
-        "url": "https://www.nfhsnetwork.com/events/sangamon-valley-high-school-niantic-il/gam396ca8f627",
-        "label": "Mt. Pulaski vs. Sangamon Valley",
-        "start": "2026-10-05T21:55:00.000Z"
-      },
-      {
         "key": "gamc0f1163216",
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamc0f1163216",
         "label": "Mt. Pulaski",
@@ -794,14 +788,14 @@
         "start": "2026-10-10T14:00:00.000Z"
       },
       {
-        "key": "gamc459dba47e",
-        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamc459dba47e",
+        "key": "gam4ee7f900e4",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam4ee7f900e4",
         "label": "Mt. Pulaski",
         "start": "2026-10-10T18:00:00.000Z"
       },
       {
-        "key": "gam4ee7f900e4",
-        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam4ee7f900e4",
+        "key": "gamc459dba47e",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamc459dba47e",
         "label": "Mt. Pulaski",
         "start": "2026-10-10T18:00:00.000Z"
       },
@@ -839,7 +833,7 @@
         "key": "gam4df162f0c8",
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam4df162f0c8",
         "label": "Chester East vs. Mt. Pulaski",
-        "start": "2026-10-22T22:55:00.000Z"
+        "start": "2026-10-22T21:55:00.000Z"
       },
       {
         "key": "gamd994c38887",
