@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18 03:16",
+  "updatedAt": "2026-10-25 03:38",
   "teamList": [
     "Albion (Co-op)",
     "Altamont (Co-op)",
@@ -113,9 +113,9 @@
       "regional": 1,
       "rank": 1,
       "of": 6,
-      "rating": 0.5667,
-      "opponentsWinPct": null,
-      "ratedGames": 0,
+      "rating": 0.5967,
+      "opponentsWinPct": 0.75,
+      "ratedGames": 1,
       "classAverage": 3.0,
       "mix": {
         "1A": 0,
@@ -126,59 +126,38 @@
       },
       "vsBigger": {
         "wins": 0,
-        "losses": 0
-      },
-      "qualityWins": 0
-    },
-    "Markham Obama": {
-      "regional": 1,
-      "rank": 2,
-      "of": 6,
-      "rating": 0.5597,
-      "opponentsWinPct": 0.95,
-      "ratedGames": 2,
-      "classAverage": 2.27,
-      "mix": {
-        "1A": 4,
-        "2A": 1,
-        "3A": 5,
-        "4A": 1,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
         "losses": 1
       },
       "qualityWins": 0
     },
     "Lockport Kelvin Grove": {
       "regional": 1,
-      "rank": 3,
+      "rank": 2,
       "of": 6,
-      "rating": 0.5549,
-      "opponentsWinPct": 0.442,
-      "ratedGames": 8,
-      "classAverage": 3.09,
+      "rating": 0.5758,
+      "opponentsWinPct": 0.466,
+      "ratedGames": 11,
+      "classAverage": 3.18,
       "mix": {
-        "1A": 5,
+        "1A": 4,
         "2A": 0,
         "3A": 6,
         "4A": 12,
         "other": 0
       },
       "vsBigger": {
-        "wins": 2,
+        "wins": 5,
         "losses": 3
       },
-      "qualityWins": 0
+      "qualityWins": 1
     },
     "Riverdale Washington": {
       "regional": 1,
-      "rank": 4,
+      "rank": 3,
       "of": 6,
-      "rating": 0.508,
-      "opponentsWinPct": 0.9,
-      "ratedGames": 1,
+      "rating": 0.5008,
+      "opponentsWinPct": 0.659,
+      "ratedGames": 3,
       "classAverage": 2.2,
       "mix": {
         "1A": 2,
@@ -188,8 +167,29 @@
         "other": 0
       },
       "vsBigger": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Markham Obama": {
+      "regional": 1,
+      "rank": 4,
+      "of": 6,
+      "rating": 0.4882,
+      "opponentsWinPct": 0.585,
+      "ratedGames": 5,
+      "classAverage": 2.2,
+      "mix": {
+        "1A": 4,
+        "2A": 1,
+        "3A": 4,
+        "4A": 1,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 3
       },
       "qualityWins": 0
     },
@@ -197,9 +197,9 @@
       "regional": 1,
       "rank": 5,
       "of": 6,
-      "rating": 0.49,
-      "opponentsWinPct": 0.7,
-      "ratedGames": 2,
+      "rating": 0.4675,
+      "opponentsWinPct": 0.558,
+      "ratedGames": 4,
       "classAverage": 2.12,
       "mix": {
         "1A": 3,
@@ -239,8 +239,8 @@
       "regional": 2,
       "rank": 1,
       "of": 7,
-      "rating": 0.5601,
-      "opponentsWinPct": 0.589,
+      "rating": 0.5615,
+      "opponentsWinPct": 0.594,
       "ratedGames": 4,
       "classAverage": 2.75,
       "mix": {
@@ -260,9 +260,9 @@
       "regional": 2,
       "rank": 2,
       "of": 7,
-      "rating": 0.4766,
-      "opponentsWinPct": 0.439,
-      "ratedGames": 7,
+      "rating": 0.4928,
+      "opponentsWinPct": 0.483,
+      "ratedGames": 9,
       "classAverage": 2.5,
       "mix": {
         "1A": 3,
@@ -272,7 +272,7 @@
         "other": 0
       },
       "vsBigger": {
-        "wins": 3,
+        "wins": 4,
         "losses": 0
       },
       "qualityWins": 3
@@ -281,9 +281,9 @@
       "regional": 2,
       "rank": 3,
       "of": 7,
-      "rating": 0.4727,
-      "opponentsWinPct": 0.568,
-      "ratedGames": 4,
+      "rating": 0.4654,
+      "opponentsWinPct": 0.534,
+      "ratedGames": 7,
       "classAverage": 2.14,
       "mix": {
         "1A": 5,
@@ -293,7 +293,7 @@
         "other": 0
       },
       "vsBigger": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1
       },
       "qualityWins": 0
@@ -302,33 +302,54 @@
       "regional": 2,
       "rank": 4,
       "of": 7,
-      "rating": 0.4606,
-      "opponentsWinPct": 0.467,
-      "ratedGames": 7,
-      "classAverage": 2.3,
+      "rating": 0.4522,
+      "opponentsWinPct": 0.426,
+      "ratedGames": 8,
+      "classAverage": 2.36,
       "mix": {
         "1A": 3,
         "2A": 2,
-        "3A": 4,
+        "3A": 5,
         "4A": 1,
         "other": 1
       },
       "vsBigger": {
         "wins": 2,
-        "losses": 0
+        "losses": 1
       },
-      "qualityWins": 2
+      "qualityWins": 1
     },
-    "Marseilles ES": {
+    "Momence JHS": {
       "regional": 2,
       "rank": 5,
       "of": 7,
-      "rating": 0.4606,
-      "opponentsWinPct": 1.0,
-      "ratedGames": 2,
-      "classAverage": 1.45,
+      "rating": 0.436,
+      "opponentsWinPct": 0.401,
+      "ratedGames": 5,
+      "classAverage": 2.27,
       "mix": {
-        "1A": 6,
+        "1A": 5,
+        "2A": 1,
+        "3A": 9,
+        "4A": 0,
+        "other": 1
+      },
+      "vsBigger": {
+        "wins": 1,
+        "losses": 3
+      },
+      "qualityWins": 0
+    },
+    "Marseilles ES": {
+      "regional": 2,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.3841,
+      "opponentsWinPct": 0.611,
+      "ratedGames": 3,
+      "classAverage": 1.42,
+      "mix": {
+        "1A": 7,
         "2A": 5,
         "3A": 0,
         "4A": 0,
@@ -340,34 +361,13 @@
       },
       "qualityWins": 0
     },
-    "Momence JHS": {
-      "regional": 2,
-      "rank": 6,
-      "of": 7,
-      "rating": 0.4489,
-      "opponentsWinPct": 0.433,
-      "ratedGames": 4,
-      "classAverage": 2.27,
-      "mix": {
-        "1A": 5,
-        "2A": 1,
-        "3A": 9,
-        "4A": 0,
-        "other": 1
-      },
-      "vsBigger": {
-        "wins": 1,
-        "losses": 2
-      },
-      "qualityWins": 0
-    },
     "Joliet Laraway": {
       "regional": 2,
       "rank": 7,
       "of": 7,
-      "rating": 0.3671,
-      "opponentsWinPct": 0.447,
-      "ratedGames": 5,
+      "rating": 0.3584,
+      "opponentsWinPct": 0.427,
+      "ratedGames": 6,
       "classAverage": 1.64,
       "mix": {
         "1A": 8,
@@ -378,38 +378,17 @@
       },
       "vsBigger": {
         "wins": 1,
-        "losses": 0
-      },
-      "qualityWins": 0
-    },
-    "Rockford Barbour": {
-      "regional": 3,
-      "rank": 1,
-      "of": 7,
-      "rating": 0.65,
-      "opponentsWinPct": 0.75,
-      "ratedGames": 2,
-      "classAverage": 3.25,
-      "mix": {
-        "1A": 0,
-        "2A": 2,
-        "3A": 2,
-        "4A": 4,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
         "losses": 1
       },
       "qualityWins": 0
     },
     "Rockford Montessori": {
       "regional": 3,
-      "rank": 2,
+      "rank": 1,
       "of": 7,
-      "rating": 0.5402,
-      "opponentsWinPct": 0.25,
-      "ratedGames": 4,
+      "rating": 0.5955,
+      "opponentsWinPct": 0.448,
+      "ratedGames": 7,
       "classAverage": 3.36,
       "mix": {
         "1A": 0,
@@ -420,17 +399,38 @@
       },
       "vsBigger": {
         "wins": 3,
-        "losses": 0
+        "losses": 3
       },
-      "qualityWins": 1
+      "qualityWins": 0
+    },
+    "Rockford Barbour": {
+      "regional": 3,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.5571,
+      "opponentsWinPct": 0.333,
+      "ratedGames": 3,
+      "classAverage": 3.25,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 2,
+        "4A": 4,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 2
+      },
+      "qualityWins": 0
     },
     "Waterman Indian Creek": {
       "regional": 3,
       "rank": 3,
       "of": 7,
-      "rating": 0.4279,
-      "opponentsWinPct": 0.393,
-      "ratedGames": 4,
+      "rating": 0.4655,
+      "opponentsWinPct": 0.514,
+      "ratedGames": 8,
       "classAverage": 2.2,
       "mix": {
         "1A": 6,
@@ -449,13 +449,13 @@
       "regional": 3,
       "rank": 4,
       "of": 7,
-      "rating": 0.4125,
-      "opponentsWinPct": 0.486,
-      "ratedGames": 7,
-      "classAverage": 1.88,
+      "rating": 0.4447,
+      "opponentsWinPct": 0.561,
+      "ratedGames": 10,
+      "classAverage": 1.89,
       "mix": {
         "1A": 9,
-        "2A": 3,
+        "2A": 4,
         "3A": 3,
         "4A": 2,
         "other": 0
@@ -464,22 +464,22 @@
         "wins": 2,
         "losses": 0
       },
-      "qualityWins": 4
+      "qualityWins": 6
     },
     "Somonauk": {
       "regional": 3,
       "rank": 5,
       "of": 7,
-      "rating": 0.4,
-      "opponentsWinPct": 0.5,
-      "ratedGames": 1,
-      "classAverage": 1.75,
+      "rating": 0.4176,
+      "opponentsWinPct": 0.546,
+      "ratedGames": 4,
+      "classAverage": 1.78,
       "mix": {
         "1A": 4,
-        "2A": 3,
+        "2A": 4,
         "3A": 0,
         "4A": 1,
-        "other": 0
+        "other": 4
       },
       "vsBigger": {
         "wins": 0,
@@ -491,9 +491,9 @@
       "regional": 3,
       "rank": 6,
       "of": 7,
-      "rating": 0.3908,
-      "opponentsWinPct": 0.625,
-      "ratedGames": 4,
+      "rating": 0.4063,
+      "opponentsWinPct": 0.647,
+      "ratedGames": 6,
       "classAverage": 1.4,
       "mix": {
         "1A": 7,
@@ -512,12 +512,12 @@
       "regional": 3,
       "rank": 7,
       "of": 7,
-      "rating": 0.3419,
-      "opponentsWinPct": 0.386,
-      "ratedGames": 5,
-      "classAverage": 1.6,
+      "rating": 0.3423,
+      "opponentsWinPct": 0.396,
+      "ratedGames": 9,
+      "classAverage": 1.64,
       "mix": {
-        "1A": 8,
+        "1A": 7,
         "2A": 5,
         "3A": 2,
         "4A": 0,
@@ -527,19 +527,19 @@
         "wins": 1,
         "losses": 1
       },
-      "qualityWins": 0
+      "qualityWins": 1
     },
     "Wenona Fieldcrest": {
       "regional": 4,
       "rank": 1,
       "of": 7,
-      "rating": 0.5849,
-      "opponentsWinPct": 0.709,
-      "ratedGames": 4,
-      "classAverage": 2.67,
+      "rating": 0.5407,
+      "opponentsWinPct": 0.64,
+      "ratedGames": 5,
+      "classAverage": 2.45,
       "mix": {
-        "1A": 1,
-        "2A": 2,
+        "1A": 2,
+        "2A": 3,
         "3A": 5,
         "4A": 1,
         "other": 0
@@ -554,51 +554,30 @@
       "regional": 4,
       "rank": 2,
       "of": 7,
-      "rating": 0.5125,
-      "opponentsWinPct": 0.542,
-      "ratedGames": 4,
-      "classAverage": 2.5,
+      "rating": 0.4769,
+      "opponentsWinPct": 0.487,
+      "ratedGames": 7,
+      "classAverage": 2.36,
       "mix": {
-        "1A": 1,
+        "1A": 2,
         "2A": 4,
         "3A": 4,
         "4A": 1,
         "other": 1
       },
       "vsBigger": {
-        "wins": 2,
+        "wins": 4,
         "losses": 0
       },
-      "qualityWins": 2
-    },
-    "Spring Valley Kennedy": {
-      "regional": 4,
-      "rank": 3,
-      "of": 7,
-      "rating": 0.4292,
-      "opponentsWinPct": 0.298,
-      "ratedGames": 2,
-      "classAverage": 2.27,
-      "mix": {
-        "1A": 3,
-        "2A": 3,
-        "3A": 4,
-        "4A": 1,
-        "other": 2
-      },
-      "vsBigger": {
-        "wins": 1,
-        "losses": 1
-      },
-      "qualityWins": 0
+      "qualityWins": 3
     },
     "Toulon Stark County": {
       "regional": 4,
-      "rank": 4,
+      "rank": 3,
       "of": 7,
-      "rating": 0.3983,
-      "opponentsWinPct": 0.472,
-      "ratedGames": 4,
+      "rating": 0.4592,
+      "opponentsWinPct": 0.627,
+      "ratedGames": 9,
       "classAverage": 1.8,
       "mix": {
         "1A": 7,
@@ -613,13 +592,76 @@
       },
       "qualityWins": 0
     },
-    "McNabb Putnam County": {
+    "Spring Valley Kennedy": {
+      "regional": 4,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.4438,
+      "opponentsWinPct": 0.399,
+      "ratedGames": 3,
+      "classAverage": 2.27,
+      "mix": {
+        "1A": 3,
+        "2A": 3,
+        "3A": 4,
+        "4A": 1,
+        "other": 2
+      },
+      "vsBigger": {
+        "wins": 1,
+        "losses": 2
+      },
+      "qualityWins": 0
+    },
+    "Sparland Midland": {
       "regional": 4,
       "rank": 5,
       "of": 7,
-      "rating": 0.3879,
-      "opponentsWinPct": 0.381,
-      "ratedGames": 3,
+      "rating": 0.3593,
+      "opponentsWinPct": 0.428,
+      "ratedGames": 5,
+      "classAverage": 1.62,
+      "mix": {
+        "1A": 4,
+        "2A": 3,
+        "3A": 1,
+        "4A": 0,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Princeville": {
+      "regional": 4,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.3471,
+      "opponentsWinPct": 0.301,
+      "ratedGames": 4,
+      "classAverage": 1.8,
+      "mix": {
+        "1A": 3,
+        "2A": 6,
+        "3A": 1,
+        "4A": 0,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "McNabb Putnam County": {
+      "regional": 4,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.3454,
+      "opponentsWinPct": 0.281,
+      "ratedGames": 5,
       "classAverage": 1.89,
       "mix": {
         "1A": 7,
@@ -634,76 +676,13 @@
       },
       "qualityWins": 0
     },
-    "Princeville": {
-      "regional": 4,
-      "rank": 6,
-      "of": 7,
-      "rating": 0.3837,
-      "opponentsWinPct": 0.333,
-      "ratedGames": 1,
-      "classAverage": 1.78,
-      "mix": {
-        "1A": 3,
-        "2A": 5,
-        "3A": 1,
-        "4A": 0,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
-        "losses": 0
-      },
-      "qualityWins": 0
-    },
-    "Sparland Midland": {
-      "regional": 4,
-      "rank": 7,
-      "of": 7,
-      "rating": 0.3672,
-      "opponentsWinPct": 0.391,
-      "ratedGames": 3,
-      "classAverage": 1.71,
-      "mix": {
-        "1A": 3,
-        "2A": 3,
-        "3A": 1,
-        "4A": 0,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
-        "losses": 0
-      },
-      "qualityWins": 0
-    },
-    "Bismarck-Henning": {
+    "Champaign St. Matthew": {
       "regional": 5,
       "rank": 1,
       "of": 6,
-      "rating": 0.4789,
-      "opponentsWinPct": 0.548,
-      "ratedGames": 3,
-      "classAverage": 2.25,
-      "mix": {
-        "1A": 2,
-        "2A": 2,
-        "3A": 4,
-        "4A": 0,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 1,
-        "losses": 0
-      },
-      "qualityWins": 1
-    },
-    "Champaign St. Matthew": {
-      "regional": 5,
-      "rank": 2,
-      "of": 6,
-      "rating": 0.4771,
-      "opponentsWinPct": 0.503,
-      "ratedGames": 7,
+      "rating": 0.4492,
+      "opponentsWinPct": 0.441,
+      "ratedGames": 12,
       "classAverage": 2.32,
       "mix": {
         "1A": 6,
@@ -714,21 +693,42 @@
       },
       "vsBigger": {
         "wins": 1,
-        "losses": 3
+        "losses": 5
       },
       "qualityWins": 0
+    },
+    "Bismarck-Henning": {
+      "regional": 5,
+      "rank": 2,
+      "of": 6,
+      "rating": 0.4402,
+      "opponentsWinPct": 0.482,
+      "ratedGames": 6,
+      "classAverage": 2.1,
+      "mix": {
+        "1A": 3,
+        "2A": 3,
+        "3A": 4,
+        "4A": 0,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 1,
+        "losses": 0
+      },
+      "qualityWins": 1
     },
     "Oakwood GS": {
       "regional": 5,
       "rank": 3,
       "of": 6,
-      "rating": 0.4396,
-      "opponentsWinPct": 0.589,
-      "ratedGames": 4,
-      "classAverage": 1.85,
+      "rating": 0.4344,
+      "opponentsWinPct": 0.567,
+      "ratedGames": 9,
+      "classAverage": 1.8,
       "mix": {
-        "1A": 6,
-        "2A": 3,
+        "1A": 7,
+        "2A": 4,
         "3A": 4,
         "4A": 0,
         "other": 0
@@ -739,33 +739,12 @@
       },
       "qualityWins": 0
     },
-    "Champaign International": {
+    "Fisher": {
       "regional": 5,
       "rank": 4,
       "of": 6,
-      "rating": 0.4183,
-      "opponentsWinPct": 0.375,
-      "ratedGames": 1,
-      "classAverage": 2.0,
-      "mix": {
-        "1A": 1,
-        "2A": 7,
-        "3A": 1,
-        "4A": 0,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
-        "losses": 0
-      },
-      "qualityWins": 0
-    },
-    "Fisher": {
-      "regional": 5,
-      "rank": 5,
-      "of": 6,
-      "rating": 0.3922,
-      "opponentsWinPct": 0.599,
+      "rating": 0.3917,
+      "opponentsWinPct": 0.597,
       "ratedGames": 3,
       "classAverage": 1.5,
       "mix": {
@@ -783,22 +762,43 @@
     },
     "Georgetown Mary Miller": {
       "regional": 5,
-      "rank": 6,
+      "rank": 5,
       "of": 6,
-      "rating": 0.314,
-      "opponentsWinPct": 0.169,
-      "ratedGames": 6,
-      "classAverage": 2.0,
+      "rating": 0.3834,
+      "opponentsWinPct": 0.354,
+      "ratedGames": 8,
+      "classAverage": 2.06,
       "mix": {
         "1A": 7,
         "2A": 2,
-        "3A": 5,
+        "3A": 6,
         "4A": 1,
-        "other": 1
+        "other": 0
       },
       "vsBigger": {
         "wins": 0,
-        "losses": 2
+        "losses": 3
+      },
+      "qualityWins": 0
+    },
+    "Champaign International": {
+      "regional": 5,
+      "rank": 6,
+      "of": 6,
+      "rating": 0.3814,
+      "opponentsWinPct": 0.307,
+      "ratedGames": 2,
+      "classAverage": 1.9,
+      "mix": {
+        "1A": 2,
+        "2A": 7,
+        "3A": 1,
+        "4A": 0,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
       },
       "qualityWins": 0
     },
@@ -806,8 +806,8 @@
       "regional": 6,
       "rank": 1,
       "of": 7,
-      "rating": 0.4848,
-      "opponentsWinPct": 0.69,
+      "rating": 0.4833,
+      "opponentsWinPct": 0.683,
       "ratedGames": 2,
       "classAverage": 2.1,
       "mix": {
@@ -823,16 +823,37 @@
       },
       "qualityWins": 0
     },
-    "Bloomington Corpus Christi": {
+    "Normal Metcalf": {
       "regional": 6,
       "rank": 2,
       "of": 7,
-      "rating": 0.48,
-      "opponentsWinPct": 0.517,
-      "ratedGames": 8,
-      "classAverage": 2.3,
+      "rating": 0.4726,
+      "opponentsWinPct": 0.719,
+      "ratedGames": 7,
+      "classAverage": 1.67,
       "mix": {
         "1A": 6,
+        "2A": 4,
+        "3A": 2,
+        "4A": 0,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 2
+      },
+      "qualityWins": 1
+    },
+    "Bloomington Corpus Christi": {
+      "regional": 6,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.4612,
+      "opponentsWinPct": 0.491,
+      "ratedGames": 11,
+      "classAverage": 2.24,
+      "mix": {
+        "1A": 7,
         "2A": 6,
         "3A": 4,
         "4A": 4,
@@ -842,39 +863,18 @@
         "wins": 2,
         "losses": 2
       },
-      "qualityWins": 2
-    },
-    "Normal Metcalf": {
-      "regional": 6,
-      "rank": 3,
-      "of": 7,
-      "rating": 0.4348,
-      "opponentsWinPct": 0.757,
-      "ratedGames": 2,
-      "classAverage": 1.62,
-      "mix": {
-        "1A": 4,
-        "2A": 3,
-        "3A": 1,
-        "4A": 0,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
-        "losses": 1
-      },
-      "qualityWins": 1
+      "qualityWins": 4
     },
     "Gibson City GCMS": {
       "regional": 6,
       "rank": 4,
       "of": 7,
-      "rating": 0.4256,
-      "opponentsWinPct": 0.25,
+      "rating": 0.4314,
+      "opponentsWinPct": 0.222,
       "ratedGames": 1,
-      "classAverage": 2.17,
+      "classAverage": 2.24,
       "mix": {
-        "1A": 6,
+        "1A": 5,
         "2A": 3,
         "3A": 9,
         "4A": 0,
@@ -886,12 +886,33 @@
       },
       "qualityWins": 0
     },
-    "Mansfield Blue Ridge IJHS (Co-op)": {
+    "Normal Epiphany": {
       "regional": 6,
       "rank": 5,
       "of": 7,
-      "rating": 0.417,
-      "opponentsWinPct": 0.567,
+      "rating": 0.4312,
+      "opponentsWinPct": 0.495,
+      "ratedGames": 11,
+      "classAverage": 2.0,
+      "mix": {
+        "1A": 8,
+        "2A": 6,
+        "3A": 4,
+        "4A": 2,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 2,
+        "losses": 1
+      },
+      "qualityWins": 3
+    },
+    "Mansfield Blue Ridge IJHS (Co-op)": {
+      "regional": 6,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.4269,
+      "opponentsWinPct": 0.616,
       "ratedGames": 2,
       "classAverage": 1.78,
       "mix": {
@@ -907,34 +928,13 @@
       },
       "qualityWins": 1
     },
-    "Normal Epiphany": {
-      "regional": 6,
-      "rank": 6,
-      "of": 7,
-      "rating": 0.3977,
-      "opponentsWinPct": 0.392,
-      "ratedGames": 8,
-      "classAverage": 2.06,
-      "mix": {
-        "1A": 7,
-        "2A": 5,
-        "3A": 4,
-        "4A": 2,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 2,
-        "losses": 1
-      },
-      "qualityWins": 1
-    },
     "Bloomington Cornerstone": {
       "regional": 6,
       "rank": 7,
       "of": 7,
-      "rating": 0.3506,
-      "opponentsWinPct": 0.42,
-      "ratedGames": 2,
+      "rating": 0.4,
+      "opponentsWinPct": 0.6,
+      "ratedGames": 5,
       "classAverage": 1.5,
       "mix": {
         "1A": 7,
@@ -953,30 +953,30 @@
       "regional": 7,
       "rank": 1,
       "of": 7,
-      "rating": 0.5278,
-      "opponentsWinPct": 0.65,
-      "ratedGames": 5,
-      "classAverage": 2.33,
+      "rating": 0.5432,
+      "opponentsWinPct": 0.68,
+      "ratedGames": 9,
+      "classAverage": 2.26,
       "mix": {
-        "1A": 6,
+        "1A": 7,
         "2A": 4,
         "3A": 4,
         "4A": 4,
         "other": 0
       },
       "vsBigger": {
-        "wins": 0,
+        "wins": 2,
         "losses": 2
       },
-      "qualityWins": 0
+      "qualityWins": 2
     },
     "Washington Beverly Manor": {
       "regional": 7,
       "rank": 2,
       "of": 7,
-      "rating": 0.507,
-      "opponentsWinPct": 0.757,
-      "ratedGames": 2,
+      "rating": 0.5412,
+      "opponentsWinPct": 0.738,
+      "ratedGames": 6,
       "classAverage": 2.17,
       "mix": {
         "1A": 6,
@@ -987,7 +987,7 @@
       },
       "vsBigger": {
         "wins": 0,
-        "losses": 1
+        "losses": 3
       },
       "qualityWins": 0
     },
@@ -995,14 +995,14 @@
       "regional": 7,
       "rank": 3,
       "of": 7,
-      "rating": 0.4711,
-      "opponentsWinPct": 0.409,
-      "ratedGames": 6,
-      "classAverage": 2.53,
+      "rating": 0.4694,
+      "opponentsWinPct": 0.424,
+      "ratedGames": 8,
+      "classAverage": 2.5,
       "mix": {
         "1A": 3,
-        "2A": 5,
-        "3A": 6,
+        "2A": 7,
+        "3A": 7,
         "4A": 3,
         "other": 0
       },
@@ -1010,14 +1010,14 @@
         "wins": 5,
         "losses": 0
       },
-      "qualityWins": 2
+      "qualityWins": 0
     },
     "Creve Coeur Parkview": {
       "regional": 7,
       "rank": 4,
       "of": 7,
-      "rating": 0.4238,
-      "opponentsWinPct": 0.471,
+      "rating": 0.4259,
+      "opponentsWinPct": 0.478,
       "ratedGames": 5,
       "classAverage": 2.0,
       "mix": {
@@ -1033,38 +1033,38 @@
       },
       "qualityWins": 0
     },
-    "Peoria St. Vincent de Paul (Co-op)": {
+    "Peoria Heights GS": {
       "regional": 7,
       "rank": 5,
       "of": 7,
-      "rating": 0.3812,
-      "opponentsWinPct": 0.604,
-      "ratedGames": 4,
-      "classAverage": 1.38,
+      "rating": 0.3865,
+      "opponentsWinPct": 0.349,
+      "ratedGames": 2,
+      "classAverage": 1.88,
       "mix": {
-        "1A": 11,
-        "2A": 4,
-        "3A": 1,
+        "1A": 3,
+        "2A": 3,
+        "3A": 2,
         "4A": 0,
         "other": 0
       },
       "vsBigger": {
         "wins": 0,
-        "losses": 0
+        "losses": 1
       },
       "qualityWins": 0
     },
-    "Peoria Heights GS": {
+    "Peoria St. Vincent de Paul (Co-op)": {
       "regional": 7,
       "rank": 6,
       "of": 7,
-      "rating": 0.3592,
-      "opponentsWinPct": 0.2,
-      "ratedGames": 1,
-      "classAverage": 1.71,
+      "rating": 0.3663,
+      "opponentsWinPct": 0.539,
+      "ratedGames": 11,
+      "classAverage": 1.37,
       "mix": {
-        "1A": 3,
-        "2A": 3,
+        "1A": 13,
+        "2A": 5,
         "3A": 1,
         "4A": 0,
         "other": 0
@@ -1079,9 +1079,9 @@
       "regional": 7,
       "rank": 7,
       "of": 7,
-      "rating": 0.3367,
-      "opponentsWinPct": 0.433,
-      "ratedGames": 2,
+      "rating": 0.3273,
+      "opponentsWinPct": 0.447,
+      "ratedGames": 10,
       "classAverage": 1.38,
       "mix": {
         "1A": 11,
@@ -1091,18 +1091,18 @@
         "other": 0
       },
       "vsBigger": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0
       },
-      "qualityWins": 1
+      "qualityWins": 0
     },
     "Glasford Illini Bluffs": {
       "regional": 8,
       "rank": 1,
       "of": 7,
-      "rating": 0.5778,
-      "opponentsWinPct": 0.778,
-      "ratedGames": 2,
+      "rating": 0.5875,
+      "opponentsWinPct": 0.718,
+      "ratedGames": 4,
       "classAverage": 2.67,
       "mix": {
         "1A": 1,
@@ -1117,13 +1117,34 @@
       },
       "qualityWins": 1
     },
-    "Brimfield": {
+    "Elmwood": {
       "regional": 8,
       "rank": 2,
       "of": 7,
-      "rating": 0.4812,
-      "opponentsWinPct": 0.562,
-      "ratedGames": 7,
+      "rating": 0.4913,
+      "opponentsWinPct": 0.616,
+      "ratedGames": 10,
+      "classAverage": 2.06,
+      "mix": {
+        "1A": 5,
+        "2A": 7,
+        "3A": 2,
+        "4A": 2,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 2
+      },
+      "qualityWins": 0
+    },
+    "Brimfield": {
+      "regional": 8,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.4765,
+      "opponentsWinPct": 0.544,
+      "ratedGames": 10,
       "classAverage": 2.18,
       "mix": {
         "1A": 5,
@@ -1134,28 +1155,7 @@
       },
       "vsBigger": {
         "wins": 0,
-        "losses": 2
-      },
-      "qualityWins": 0
-    },
-    "Elmwood": {
-      "regional": 8,
-      "rank": 3,
-      "of": 7,
-      "rating": 0.4452,
-      "opponentsWinPct": 0.546,
-      "ratedGames": 3,
-      "classAverage": 2.0,
-      "mix": {
-        "1A": 4,
-        "2A": 5,
-        "3A": 2,
-        "4A": 1,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
-        "losses": 1
+        "losses": 3
       },
       "qualityWins": 0
     },
@@ -1163,9 +1163,9 @@
       "regional": 8,
       "rank": 4,
       "of": 7,
-      "rating": 0.4422,
-      "opponentsWinPct": 0.207,
-      "ratedGames": 5,
+      "rating": 0.4738,
+      "opponentsWinPct": 0.341,
+      "ratedGames": 9,
       "classAverage": 2.8,
       "mix": {
         "1A": 2,
@@ -1175,18 +1175,18 @@
         "other": 0
       },
       "vsBigger": {
-        "wins": 3,
+        "wins": 7,
         "losses": 0
       },
-      "qualityWins": 0
+      "qualityWins": 3
     },
     "London Mills Valley (Co-op)": {
       "regional": 8,
       "rank": 5,
       "of": 7,
-      "rating": 0.4133,
-      "opponentsWinPct": 0.403,
-      "ratedGames": 4,
+      "rating": 0.4192,
+      "opponentsWinPct": 0.436,
+      "ratedGames": 6,
       "classAverage": 2.07,
       "mix": {
         "1A": 2,
@@ -1205,13 +1205,13 @@
       "regional": 8,
       "rank": 6,
       "of": 7,
-      "rating": 0.4033,
-      "opponentsWinPct": 0.25,
-      "ratedGames": 1,
-      "classAverage": 2.0,
+      "rating": 0.3376,
+      "opponentsWinPct": 0.231,
+      "ratedGames": 3,
+      "classAverage": 1.8,
       "mix": {
-        "1A": 2,
-        "2A": 3,
+        "1A": 4,
+        "2A": 4,
         "3A": 2,
         "4A": 0,
         "other": 0
@@ -1226,9 +1226,9 @@
       "regional": 8,
       "rank": 7,
       "of": 7,
-      "rating": 0.3336,
-      "opponentsWinPct": 0.448,
-      "ratedGames": 3,
+      "rating": 0.3161,
+      "opponentsWinPct": 0.397,
+      "ratedGames": 4,
       "classAverage": 1.35,
       "mix": {
         "1A": 12,
@@ -1247,34 +1247,34 @@
       "regional": 9,
       "rank": 1,
       "of": 7,
-      "rating": 0.5567,
-      "opponentsWinPct": 0.772,
-      "ratedGames": 3,
-      "classAverage": 2.4,
+      "rating": 0.5668,
+      "opponentsWinPct": 0.706,
+      "ratedGames": 4,
+      "classAverage": 2.54,
       "mix": {
         "1A": 0,
-        "2A": 7,
-        "3A": 2,
-        "4A": 1,
+        "2A": 8,
+        "3A": 3,
+        "4A": 2,
         "other": 0
       },
       "vsBigger": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1
       },
-      "qualityWins": 0
+      "qualityWins": 1
     },
     "Rushville Schuyler Industry": {
       "regional": 9,
       "rank": 2,
       "of": 7,
-      "rating": 0.5195,
-      "opponentsWinPct": 0.647,
-      "ratedGames": 6,
-      "classAverage": 2.25,
+      "rating": 0.4908,
+      "opponentsWinPct": 0.56,
+      "ratedGames": 10,
+      "classAverage": 2.24,
       "mix": {
         "1A": 3,
-        "2A": 10,
+        "2A": 11,
         "3A": 6,
         "4A": 1,
         "other": 0
@@ -1283,15 +1283,36 @@
         "wins": 1,
         "losses": 2
       },
-      "qualityWins": 2
+      "qualityWins": 1
     },
-    "Havana": {
+    "Table Grove VIT (Co-op)": {
       "regional": 9,
       "rank": 3,
       "of": 7,
-      "rating": 0.4856,
-      "opponentsWinPct": 0.49,
-      "ratedGames": 7,
+      "rating": 0.481,
+      "opponentsWinPct": 0.633,
+      "ratedGames": 3,
+      "classAverage": 2.1,
+      "mix": {
+        "1A": 2,
+        "2A": 6,
+        "3A": 1,
+        "4A": 1,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Havana": {
+      "regional": 9,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.4706,
+      "opponentsWinPct": 0.454,
+      "ratedGames": 9,
       "classAverage": 2.42,
       "mix": {
         "1A": 2,
@@ -1308,10 +1329,10 @@
     },
     "Stronghurst West Central": {
       "regional": 9,
-      "rank": 4,
+      "rank": 5,
       "of": 7,
-      "rating": 0.4687,
-      "opponentsWinPct": 0.545,
+      "rating": 0.4551,
+      "opponentsWinPct": 0.508,
       "ratedGames": 6,
       "classAverage": 2.14,
       "mix": {
@@ -1327,17 +1348,38 @@
       },
       "qualityWins": 0
     },
+    "Bushnell-Prairie City": {
+      "regional": 9,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.4526,
+      "opponentsWinPct": 0.476,
+      "ratedGames": 10,
+      "classAverage": 2.22,
+      "mix": {
+        "1A": 2,
+        "2A": 11,
+        "3A": 4,
+        "4A": 1,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 4,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
     "Colchester West Prairie": {
       "regional": 9,
-      "rank": 5,
+      "rank": 7,
       "of": 7,
-      "rating": 0.4026,
-      "opponentsWinPct": 0.386,
-      "ratedGames": 6,
-      "classAverage": 2.08,
+      "rating": 0.3976,
+      "opponentsWinPct": 0.431,
+      "ratedGames": 8,
+      "classAverage": 1.94,
       "mix": {
-        "1A": 1,
-        "2A": 10,
+        "1A": 3,
+        "2A": 11,
         "3A": 2,
         "4A": 0,
         "other": 0
@@ -1348,102 +1390,39 @@
       },
       "qualityWins": 0
     },
-    "Table Grove VIT (Co-op)": {
-      "regional": 9,
-      "rank": 6,
-      "of": 7,
-      "rating": 0.3905,
-      "opponentsWinPct": 0.286,
-      "ratedGames": 2,
-      "classAverage": 2.0,
+    "Mt. Sterling Brown County (Co-op)": {
+      "regional": 10,
+      "rank": 1,
+      "of": 6,
+      "rating": 0.5715,
+      "opponentsWinPct": 0.723,
+      "ratedGames": 8,
+      "classAverage": 2.37,
       "mix": {
-        "1A": 1,
-        "2A": 5,
-        "3A": 1,
-        "4A": 0,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
-        "losses": 0
-      },
-      "qualityWins": 0
-    },
-    "Bushnell-Prairie City": {
-      "regional": 9,
-      "rank": 7,
-      "of": 7,
-      "rating": 0.379,
-      "opponentsWinPct": 0.267,
-      "ratedGames": 6,
-      "classAverage": 2.22,
-      "mix": {
-        "1A": 2,
-        "2A": 11,
+        "1A": 3,
+        "2A": 9,
         "3A": 4,
-        "4A": 1,
+        "4A": 3,
         "other": 0
       },
       "vsBigger": {
         "wins": 3,
         "losses": 0
       },
-      "qualityWins": 0
-    },
-    "Mt. Sterling Brown County (Co-op)": {
-      "regional": 10,
-      "rank": 1,
-      "of": 6,
-      "rating": 0.6262,
-      "opponentsWinPct": 0.892,
-      "ratedGames": 6,
-      "classAverage": 2.39,
-      "mix": {
-        "1A": 3,
-        "2A": 8,
-        "3A": 4,
-        "4A": 3,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 2,
-        "losses": 0
-      },
       "qualityWins": 6
     },
-    "Carthage": {
+    "Liberty": {
       "regional": 10,
       "rank": 2,
       "of": 6,
-      "rating": 0.5442,
-      "opponentsWinPct": 0.717,
-      "ratedGames": 8,
-      "classAverage": 2.18,
+      "rating": 0.4951,
+      "opponentsWinPct": 0.709,
+      "ratedGames": 6,
+      "classAverage": 1.9,
       "mix": {
-        "1A": 2,
-        "2A": 6,
+        "1A": 3,
+        "2A": 5,
         "3A": 2,
-        "4A": 1,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 2,
-        "losses": 1
-      },
-      "qualityWins": 4
-    },
-    "Camp Point Central": {
-      "regional": 10,
-      "rank": 3,
-      "of": 6,
-      "rating": 0.4924,
-      "opponentsWinPct": 0.714,
-      "ratedGames": 1,
-      "classAverage": 2.25,
-      "mix": {
-        "1A": 1,
-        "2A": 4,
-        "3A": 3,
         "4A": 0,
         "other": 0
       },
@@ -1451,47 +1430,68 @@
         "wins": 0,
         "losses": 0
       },
-      "qualityWins": 1
+      "qualityWins": 0
     },
-    "Mendon Unity": {
+    "Carthage": {
+      "regional": 10,
+      "rank": 3,
+      "of": 6,
+      "rating": 0.4806,
+      "opponentsWinPct": 0.521,
+      "ratedGames": 11,
+      "classAverage": 2.29,
+      "mix": {
+        "1A": 2,
+        "2A": 8,
+        "3A": 2,
+        "4A": 2,
+        "other": 1
+      },
+      "vsBigger": {
+        "wins": 3,
+        "losses": 1
+      },
+      "qualityWins": 3
+    },
+    "Camp Point Central": {
       "regional": 10,
       "rank": 4,
       "of": 6,
-      "rating": 0.4048,
-      "opponentsWinPct": 0.454,
-      "ratedGames": 4,
-      "classAverage": 1.89,
+      "rating": 0.4793,
+      "opponentsWinPct": 0.504,
+      "ratedGames": 7,
+      "classAverage": 2.33,
       "mix": {
         "1A": 2,
-        "2A": 6,
+        "2A": 8,
+        "3A": 3,
+        "4A": 2,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 1
+      },
+      "qualityWins": 3
+    },
+    "Mendon Unity": {
+      "regional": 10,
+      "rank": 5,
+      "of": 6,
+      "rating": 0.4311,
+      "opponentsWinPct": 0.531,
+      "ratedGames": 6,
+      "classAverage": 1.9,
+      "mix": {
+        "1A": 2,
+        "2A": 7,
         "3A": 1,
         "4A": 0,
         "other": 0
       },
       "vsBigger": {
         "wins": 0,
-        "losses": 0
-      },
-      "qualityWins": 0
-    },
-    "Liberty": {
-      "regional": 10,
-      "rank": 5,
-      "of": 6,
-      "rating": 0.3733,
-      "opponentsWinPct": 0.0,
-      "ratedGames": 1,
-      "classAverage": 2.0,
-      "mix": {
-        "1A": 2,
-        "2A": 4,
-        "3A": 2,
-        "4A": 0,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
-        "losses": 0
+        "losses": 1
       },
       "qualityWins": 0
     },
@@ -1499,9 +1499,9 @@
       "regional": 10,
       "rank": 6,
       "of": 6,
-      "rating": 0.3649,
-      "opponentsWinPct": 0.4,
-      "ratedGames": 5,
+      "rating": 0.3999,
+      "opponentsWinPct": 0.504,
+      "ratedGames": 8,
       "classAverage": 1.74,
       "mix": {
         "1A": 8,
@@ -1516,39 +1516,18 @@
       },
       "qualityWins": 0
     },
-    "Decatur Robertson": {
+    "Argenta-Oreana": {
       "regional": 11,
       "rank": 1,
       "of": 7,
-      "rating": 0.5444,
-      "opponentsWinPct": 0.5,
+      "rating": 0.5338,
+      "opponentsWinPct": 0.736,
       "ratedGames": 2,
-      "classAverage": 2.83,
+      "classAverage": 2.4,
       "mix": {
         "1A": 0,
         "2A": 6,
-        "3A": 2,
-        "4A": 4,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 1,
-        "losses": 2
-      },
-      "qualityWins": 0
-    },
-    "Argenta-Oreana": {
-      "regional": 11,
-      "rank": 2,
-      "of": 7,
-      "rating": 0.5206,
-      "opponentsWinPct": 0.714,
-      "ratedGames": 2,
-      "classAverage": 2.33,
-      "mix": {
-        "1A": 0,
-        "2A": 6,
-        "3A": 3,
+        "3A": 4,
         "4A": 0,
         "other": 0
       },
@@ -1560,11 +1539,11 @@
     },
     "Lincoln Chester-East Lincoln (Co-op)": {
       "regional": 11,
-      "rank": 3,
+      "rank": 2,
       "of": 7,
-      "rating": 0.475,
-      "opponentsWinPct": null,
-      "ratedGames": 0,
+      "rating": 0.5041,
+      "opponentsWinPct": 0.587,
+      "ratedGames": 5,
       "classAverage": 2.31,
       "mix": {
         "1A": 1,
@@ -1575,38 +1554,38 @@
       },
       "vsBigger": {
         "wins": 0,
-        "losses": 0
+        "losses": 1
       },
-      "qualityWins": 0
+      "qualityWins": 2
     },
-    "Warrensburg-Latham": {
+    "Decatur Robertson": {
       "regional": 11,
-      "rank": 4,
+      "rank": 3,
       "of": 7,
-      "rating": 0.471,
-      "opponentsWinPct": 0.337,
-      "ratedGames": 7,
-      "classAverage": 2.75,
+      "rating": 0.493,
+      "opponentsWinPct": 0.333,
+      "ratedGames": 3,
+      "classAverage": 2.77,
       "mix": {
         "1A": 0,
-        "2A": 6,
-        "3A": 13,
-        "4A": 1,
+        "2A": 7,
+        "3A": 2,
+        "4A": 4,
         "other": 0
       },
       "vsBigger": {
         "wins": 1,
-        "losses": 3
+        "losses": 2
       },
       "qualityWins": 0
     },
     "Decatur Hope": {
       "regional": 11,
-      "rank": 5,
+      "rank": 4,
       "of": 7,
-      "rating": 0.4667,
-      "opponentsWinPct": null,
-      "ratedGames": 0,
+      "rating": 0.4787,
+      "opponentsWinPct": 0.6,
+      "ratedGames": 1,
       "classAverage": 2.25,
       "mix": {
         "1A": 1,
@@ -1621,34 +1600,13 @@
       },
       "qualityWins": 0
     },
-    "Cerro Gordo (Co-op)": {
-      "regional": 11,
-      "rank": 6,
-      "of": 7,
-      "rating": 0.4619,
-      "opponentsWinPct": 0.8,
-      "ratedGames": 1,
-      "classAverage": 1.94,
-      "mix": {
-        "1A": 5,
-        "2A": 9,
-        "3A": 4,
-        "4A": 0,
-        "other": 2
-      },
-      "vsBigger": {
-        "wins": 0,
-        "losses": 0
-      },
-      "qualityWins": 1
-    },
     "Mt. Pulaski (Co-op)": {
       "regional": 11,
-      "rank": 7,
+      "rank": 5,
       "of": 7,
-      "rating": 0.4383,
-      "opponentsWinPct": 0.347,
-      "ratedGames": 6,
+      "rating": 0.4683,
+      "opponentsWinPct": 0.435,
+      "ratedGames": 7,
       "classAverage": 2.45,
       "mix": {
         "1A": 3,
@@ -1659,34 +1617,55 @@
       },
       "vsBigger": {
         "wins": 0,
-        "losses": 4
+        "losses": 5
       },
       "qualityWins": 0
     },
-    "Decatur Our Lady of Lourdes (Co-op)": {
-      "regional": 12,
-      "rank": 1,
+    "Cerro Gordo (Co-op)": {
+      "regional": 11,
+      "rank": 6,
       "of": 7,
-      "rating": 0.5871,
-      "opponentsWinPct": 0.703,
-      "ratedGames": 4,
-      "classAverage": 2.7,
+      "rating": 0.4542,
+      "opponentsWinPct": 0.679,
+      "ratedGames": 2,
+      "classAverage": 1.89,
       "mix": {
-        "1A": 2,
-        "2A": 9,
-        "3A": 6,
-        "4A": 6,
-        "other": 0
+        "1A": 6,
+        "2A": 8,
+        "3A": 4,
+        "4A": 0,
+        "other": 2
       },
       "vsBigger": {
         "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Warrensburg-Latham": {
+      "regional": 11,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.43,
+      "opponentsWinPct": 0.242,
+      "ratedGames": 8,
+      "classAverage": 2.75,
+      "mix": {
+        "1A": 0,
+        "2A": 6,
+        "3A": 13,
+        "4A": 1,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 1,
         "losses": 3
       },
       "qualityWins": 0
     },
     "Decatur Dennis": {
       "regional": 12,
-      "rank": 2,
+      "rank": 1,
       "of": 7,
       "rating": 0.5822,
       "opponentsWinPct": 1.0,
@@ -1705,13 +1684,34 @@
       },
       "qualityWins": 0
     },
+    "Decatur Our Lady of Lourdes (Co-op)": {
+      "regional": 12,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.5791,
+      "opponentsWinPct": 0.647,
+      "ratedGames": 6,
+      "classAverage": 2.7,
+      "mix": {
+        "1A": 2,
+        "2A": 9,
+        "3A": 6,
+        "4A": 6,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 1,
+        "losses": 4
+      },
+      "qualityWins": 0
+    },
     "Decatur Montessori Academy for Peace": {
       "regional": 12,
       "rank": 3,
       "of": 7,
       "rating": 0.5539,
-      "opponentsWinPct": 1.0,
-      "ratedGames": 1,
+      "opponentsWinPct": 0.8,
+      "ratedGames": 2,
       "classAverage": 2.45,
       "mix": {
         "1A": 1,
@@ -1726,33 +1726,33 @@
       },
       "qualityWins": 0
     },
-    "Nokomis JHS (Co-op)": {
+    "Macon Meridian": {
       "regional": 12,
       "rank": 4,
       "of": 7,
-      "rating": 0.5394,
-      "opponentsWinPct": 0.667,
+      "rating": 0.5471,
+      "opponentsWinPct": 0.736,
       "ratedGames": 2,
-      "classAverage": 2.55,
+      "classAverage": 2.5,
       "mix": {
-        "1A": 1,
-        "2A": 3,
-        "3A": 7,
-        "4A": 0,
+        "1A": 2,
+        "2A": 5,
+        "3A": 8,
+        "4A": 1,
         "other": 0
       },
       "vsBigger": {
-        "wins": 1,
+        "wins": 0,
         "losses": 1
       },
-      "qualityWins": 1
+      "qualityWins": 0
     },
     "Assumption Central A & M": {
       "regional": 12,
       "rank": 5,
       "of": 7,
-      "rating": 0.5162,
-      "opponentsWinPct": 0.714,
+      "rating": 0.5205,
+      "opponentsWinPct": 0.736,
       "ratedGames": 2,
       "classAverage": 2.3,
       "mix": {
@@ -1768,38 +1768,38 @@
       },
       "qualityWins": 0
     },
-    "Macon Meridian": {
+    "Nokomis JHS (Co-op)": {
       "regional": 12,
       "rank": 6,
       "of": 7,
-      "rating": 0.5086,
-      "opponentsWinPct": 0.571,
-      "ratedGames": 1,
-      "classAverage": 2.5,
+      "rating": 0.513,
+      "opponentsWinPct": 0.527,
+      "ratedGames": 3,
+      "classAverage": 2.55,
       "mix": {
-        "1A": 2,
-        "2A": 5,
-        "3A": 8,
-        "4A": 1,
+        "1A": 1,
+        "2A": 3,
+        "3A": 7,
+        "4A": 0,
         "other": 0
       },
       "vsBigger": {
-        "wins": 0,
-        "losses": 0
+        "wins": 1,
+        "losses": 1
       },
-      "qualityWins": 0
+      "qualityWins": 1
     },
     "Decatur Dansby": {
       "regional": 12,
       "rank": 7,
       "of": 7,
-      "rating": 0.4867,
-      "opponentsWinPct": null,
-      "ratedGames": 0,
-      "classAverage": 2.4,
+      "rating": 0.4898,
+      "opponentsWinPct": 0.6,
+      "ratedGames": 1,
+      "classAverage": 2.33,
       "mix": {
         "1A": 1,
-        "2A": 2,
+        "2A": 3,
         "3A": 1,
         "4A": 1,
         "other": 0
@@ -1814,9 +1814,9 @@
       "regional": 13,
       "rank": 1,
       "of": 7,
-      "rating": 0.5961,
-      "opponentsWinPct": 0.758,
-      "ratedGames": 3,
+      "rating": 0.5399,
+      "opponentsWinPct": 0.525,
+      "ratedGames": 9,
       "classAverage": 2.72,
       "mix": {
         "1A": 4,
@@ -1826,39 +1826,18 @@
         "other": 1
       },
       "vsBigger": {
-        "wins": 2,
-        "losses": 1
+        "wins": 5,
+        "losses": 2
       },
-      "qualityWins": 1
-    },
-    "Casey-Westfield": {
-      "regional": 13,
-      "rank": 2,
-      "of": 7,
-      "rating": 0.4892,
-      "opponentsWinPct": 0.534,
-      "ratedGames": 5,
-      "classAverage": 2.33,
-      "mix": {
-        "1A": 3,
-        "2A": 4,
-        "3A": 3,
-        "4A": 2,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 1,
-        "losses": 1
-      },
-      "qualityWins": 1
+      "qualityWins": 3
     },
     "Oblong": {
       "regional": 13,
-      "rank": 3,
+      "rank": 2,
       "of": 7,
-      "rating": 0.4633,
-      "opponentsWinPct": 0.479,
-      "ratedGames": 7,
+      "rating": 0.4957,
+      "opponentsWinPct": 0.558,
+      "ratedGames": 9,
       "classAverage": 2.29,
       "mix": {
         "1A": 3,
@@ -1869,17 +1848,38 @@
       },
       "vsBigger": {
         "wins": 1,
-        "losses": 3
+        "losses": 5
       },
       "qualityWins": 0
+    },
+    "Casey-Westfield": {
+      "regional": 13,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.4722,
+      "opponentsWinPct": 0.484,
+      "ratedGames": 6,
+      "classAverage": 2.33,
+      "mix": {
+        "1A": 4,
+        "2A": 4,
+        "3A": 5,
+        "4A": 2,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 1,
+        "losses": 1
+      },
+      "qualityWins": 1
     },
     "Mattoon St. John's": {
       "regional": 13,
       "rank": 4,
       "of": 7,
-      "rating": 0.4532,
-      "opponentsWinPct": 0.581,
-      "ratedGames": 5,
+      "rating": 0.4366,
+      "opponentsWinPct": 0.529,
+      "ratedGames": 6,
       "classAverage": 1.95,
       "mix": {
         "1A": 7,
@@ -1889,18 +1889,18 @@
         "other": 2
       },
       "vsBigger": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0
       },
-      "qualityWins": 2
+      "qualityWins": 3
     },
     "Dieterich": {
       "regional": 13,
       "rank": 5,
       "of": 7,
-      "rating": 0.4304,
-      "opponentsWinPct": 0.459,
-      "ratedGames": 9,
+      "rating": 0.4163,
+      "opponentsWinPct": 0.428,
+      "ratedGames": 10,
       "classAverage": 2.11,
       "mix": {
         "1A": 5,
@@ -1919,8 +1919,8 @@
       "regional": 13,
       "rank": 6,
       "of": 7,
-      "rating": 0.3476,
-      "opponentsWinPct": 0.071,
+      "rating": 0.3698,
+      "opponentsWinPct": 0.183,
       "ratedGames": 2,
       "classAverage": 2.0,
       "mix": {
@@ -1940,51 +1940,30 @@
       "regional": 13,
       "rank": 7,
       "of": 7,
-      "rating": 0.3263,
-      "opponentsWinPct": 0.272,
-      "ratedGames": 6,
-      "classAverage": 1.81,
+      "rating": 0.3388,
+      "opponentsWinPct": 0.322,
+      "ratedGames": 7,
+      "classAverage": 1.8,
       "mix": {
         "1A": 7,
-        "2A": 5,
+        "2A": 4,
         "3A": 4,
         "4A": 0,
         "other": 2
       },
       "vsBigger": {
         "wins": 0,
-        "losses": 3
-      },
-      "qualityWins": 0
-    },
-    "Altamont (Co-op)": {
-      "regional": 14,
-      "rank": 1,
-      "of": 6,
-      "rating": 0.5247,
-      "opponentsWinPct": 0.656,
-      "ratedGames": 4,
-      "classAverage": 2.33,
-      "mix": {
-        "1A": 2,
-        "2A": 4,
-        "3A": 1,
-        "4A": 2,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 1,
-        "losses": 0
+        "losses": 4
       },
       "qualityWins": 0
     },
     "Effingham St. Anthony": {
       "regional": 14,
-      "rank": 2,
+      "rank": 1,
       "of": 6,
-      "rating": 0.5167,
-      "opponentsWinPct": 0.4,
-      "ratedGames": 3,
+      "rating": 0.5372,
+      "opponentsWinPct": 0.483,
+      "ratedGames": 4,
       "classAverage": 2.82,
       "mix": {
         "1A": 2,
@@ -1999,13 +1978,34 @@
       },
       "qualityWins": 0
     },
+    "Altamont (Co-op)": {
+      "regional": 14,
+      "rank": 2,
+      "of": 6,
+      "rating": 0.5201,
+      "opponentsWinPct": 0.6,
+      "ratedGames": 5,
+      "classAverage": 2.4,
+      "mix": {
+        "1A": 2,
+        "2A": 4,
+        "3A": 2,
+        "4A": 2,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 1,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
     "Stewardson-Strasburg (Co-op)": {
       "regional": 14,
       "rank": 3,
       "of": 6,
-      "rating": 0.4489,
-      "opponentsWinPct": 0.573,
-      "ratedGames": 9,
+      "rating": 0.4675,
+      "opponentsWinPct": 0.614,
+      "ratedGames": 10,
       "classAverage": 1.89,
       "mix": {
         "1A": 7,
@@ -2024,9 +2024,9 @@
       "regional": 14,
       "rank": 4,
       "of": 6,
-      "rating": 0.3774,
-      "opponentsWinPct": 0.406,
-      "ratedGames": 6,
+      "rating": 0.3828,
+      "opponentsWinPct": 0.426,
+      "ratedGames": 7,
       "classAverage": 1.83,
       "mix": {
         "1A": 7,
@@ -2039,36 +2039,15 @@
         "wins": 0,
         "losses": 1
       },
-      "qualityWins": 0
-    },
-    "Brownstown (Co-op)": {
-      "regional": 14,
-      "rank": 5,
-      "of": 6,
-      "rating": 0.3726,
-      "opponentsWinPct": 0.383,
-      "ratedGames": 3,
-      "classAverage": 1.77,
-      "mix": {
-        "1A": 5,
-        "2A": 6,
-        "3A": 2,
-        "4A": 0,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
-        "losses": 0
-      },
-      "qualityWins": 0
+      "qualityWins": 1
     },
     "Kinmundy South Central (Co-op)": {
       "regional": 14,
-      "rank": 6,
+      "rank": 5,
       "of": 6,
-      "rating": 0.3471,
-      "opponentsWinPct": 0.346,
-      "ratedGames": 6,
+      "rating": 0.3523,
+      "opponentsWinPct": 0.368,
+      "ratedGames": 7,
       "classAverage": 1.77,
       "mix": {
         "1A": 6,
@@ -2081,57 +2060,57 @@
         "wins": 0,
         "losses": 1
       },
+      "qualityWins": 1
+    },
+    "Brownstown (Co-op)": {
+      "regional": 14,
+      "rank": 6,
+      "of": 6,
+      "rating": 0.3329,
+      "opponentsWinPct": 0.326,
+      "ratedGames": 8,
+      "classAverage": 1.77,
+      "mix": {
+        "1A": 5,
+        "2A": 6,
+        "3A": 2,
+        "4A": 0,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 1
+      },
       "qualityWins": 0
     },
     "Springfield Christian": {
       "regional": 15,
       "rank": 1,
       "of": 5,
-      "rating": 0.5243,
-      "opponentsWinPct": 0.393,
-      "ratedGames": 3,
-      "classAverage": 2.89,
+      "rating": 0.5679,
+      "opponentsWinPct": 0.549,
+      "ratedGames": 4,
+      "classAverage": 2.9,
       "mix": {
         "1A": 1,
         "2A": 2,
-        "3A": 3,
+        "3A": 4,
         "4A": 3,
         "other": 0
       },
       "vsBigger": {
         "wins": 2,
-        "losses": 0
+        "losses": 1
       },
       "qualityWins": 0
     },
-    "Morrisonville JHS (Co-op)": {
+    "Springfield Blessed Sacrament": {
       "regional": 15,
       "rank": 2,
       "of": 5,
-      "rating": 0.505,
-      "opponentsWinPct": 0.557,
-      "ratedGames": 6,
-      "classAverage": 2.38,
-      "mix": {
-        "1A": 3,
-        "2A": 2,
-        "3A": 8,
-        "4A": 0,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 3,
-        "losses": 0
-      },
-      "qualityWins": 1
-    },
-    "Springfield Blessed Sacrament": {
-      "regional": 15,
-      "rank": 3,
-      "of": 5,
-      "rating": 0.4659,
-      "opponentsWinPct": 0.466,
-      "ratedGames": 9,
+      "rating": 0.4635,
+      "opponentsWinPct": 0.461,
+      "ratedGames": 10,
       "classAverage": 2.35,
       "mix": {
         "1A": 4,
@@ -2146,13 +2125,34 @@
       },
       "qualityWins": 0
     },
+    "Morrisonville JHS (Co-op)": {
+      "regional": 15,
+      "rank": 3,
+      "of": 5,
+      "rating": 0.4596,
+      "opponentsWinPct": 0.472,
+      "ratedGames": 9,
+      "classAverage": 2.29,
+      "mix": {
+        "1A": 4,
+        "2A": 2,
+        "3A": 8,
+        "4A": 0,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 4,
+        "losses": 1
+      },
+      "qualityWins": 1
+    },
     "Petersburg PORTA JHS": {
       "regional": 15,
       "rank": 4,
       "of": 5,
-      "rating": 0.4576,
-      "opponentsWinPct": 0.424,
-      "ratedGames": 4,
+      "rating": 0.4411,
+      "opponentsWinPct": 0.382,
+      "ratedGames": 5,
       "classAverage": 2.35,
       "mix": {
         "1A": 3,
@@ -2162,7 +2162,7 @@
         "other": 1
       },
       "vsBigger": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0
       },
       "qualityWins": 1
@@ -2171,9 +2171,9 @@
       "regional": 15,
       "rank": 5,
       "of": 5,
-      "rating": 0.457,
-      "opponentsWinPct": 0.342,
-      "ratedGames": 5,
+      "rating": 0.4306,
+      "opponentsWinPct": 0.293,
+      "ratedGames": 7,
       "classAverage": 2.57,
       "mix": {
         "1A": 3,
@@ -2184,38 +2184,17 @@
       },
       "vsBigger": {
         "wins": 1,
-        "losses": 1
-      },
-      "qualityWins": 1
-    },
-    "East Alton MS": {
-      "regional": 16,
-      "rank": 1,
-      "of": 7,
-      "rating": 0.5916,
-      "opponentsWinPct": 0.652,
-      "ratedGames": 6,
-      "classAverage": 2.78,
-      "mix": {
-        "1A": 3,
-        "2A": 4,
-        "3A": 5,
-        "4A": 6,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
-        "losses": 4
+        "losses": 2
       },
       "qualityWins": 0
     },
     "Maryville Christian": {
       "regional": 16,
-      "rank": 2,
+      "rank": 1,
       "of": 7,
-      "rating": 0.5641,
-      "opponentsWinPct": 0.4,
-      "ratedGames": 5,
+      "rating": 0.569,
+      "opponentsWinPct": 0.421,
+      "ratedGames": 6,
       "classAverage": 3.23,
       "mix": {
         "1A": 0,
@@ -2230,13 +2209,55 @@
       },
       "qualityWins": 0
     },
-    "Bunker Hill Wolf Ridge": {
+    "East Alton MS": {
+      "regional": 16,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.5561,
+      "opponentsWinPct": 0.549,
+      "ratedGames": 10,
+      "classAverage": 2.76,
+      "mix": {
+        "1A": 3,
+        "2A": 4,
+        "3A": 4,
+        "4A": 6,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 2,
+        "losses": 4
+      },
+      "qualityWins": 1
+    },
+    "Wood River Lewis & Clark": {
       "regional": 16,
       "rank": 3,
       "of": 7,
-      "rating": 0.5082,
-      "opponentsWinPct": 0.625,
-      "ratedGames": 5,
+      "rating": 0.4799,
+      "opponentsWinPct": 0.386,
+      "ratedGames": 8,
+      "classAverage": 2.69,
+      "mix": {
+        "1A": 2,
+        "2A": 5,
+        "3A": 1,
+        "4A": 5,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 5
+      },
+      "qualityWins": 0
+    },
+    "Bunker Hill Wolf Ridge": {
+      "regional": 16,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.4677,
+      "opponentsWinPct": 0.503,
+      "ratedGames": 7,
       "classAverage": 2.25,
       "mix": {
         "1A": 4,
@@ -2247,28 +2268,7 @@
       },
       "vsBigger": {
         "wins": 0,
-        "losses": 1
-      },
-      "qualityWins": 0
-    },
-    "Wood River Lewis & Clark": {
-      "regional": 16,
-      "rank": 4,
-      "of": 7,
-      "rating": 0.4992,
-      "opponentsWinPct": 0.542,
-      "ratedGames": 4,
-      "classAverage": 2.4,
-      "mix": {
-        "1A": 2,
-        "2A": 5,
-        "3A": 0,
-        "4A": 3,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
-        "losses": 2
+        "losses": 3
       },
       "qualityWins": 0
     },
@@ -2276,8 +2276,8 @@
       "regional": 16,
       "rank": 5,
       "of": 7,
-      "rating": 0.4646,
-      "opponentsWinPct": 0.771,
+      "rating": 0.462,
+      "opponentsWinPct": 0.764,
       "ratedGames": 5,
       "classAverage": 1.56,
       "mix": {
@@ -2297,12 +2297,12 @@
       "regional": 16,
       "rank": 6,
       "of": 7,
-      "rating": 0.458,
-      "opponentsWinPct": 0.528,
-      "ratedGames": 8,
-      "classAverage": 2.1,
+      "rating": 0.3913,
+      "opponentsWinPct": 0.399,
+      "ratedGames": 9,
+      "classAverage": 2.0,
       "mix": {
-        "1A": 3,
+        "1A": 4,
         "2A": 3,
         "3A": 4,
         "4A": 0,
@@ -2318,9 +2318,9 @@
       "regional": 16,
       "rank": 7,
       "of": 7,
-      "rating": 0.2969,
-      "opponentsWinPct": 0.179,
-      "ratedGames": 4,
+      "rating": 0.3111,
+      "opponentsWinPct": 0.271,
+      "ratedGames": 6,
       "classAverage": 1.7,
       "mix": {
         "1A": 6,
@@ -2331,7 +2331,7 @@
       },
       "vsBigger": {
         "wins": 0,
-        "losses": 0
+        "losses": 2
       },
       "qualityWins": 0
     }
@@ -2339,14 +2339,14 @@
   "opponents": {
     "albion": {
       "class": "2A",
-      "wins": 3,
+      "wins": 6,
       "losses": 0,
       "results": []
     },
     "aledo mercer county": {
       "class": "3A",
-      "wins": 1,
-      "losses": 2,
+      "wins": 2,
+      "losses": 3,
       "results": [
         {
           "o": "stronghurst west central",
@@ -2357,7 +2357,7 @@
     "altamont": {
       "class": "2A",
       "wins": 1,
-      "losses": 3,
+      "losses": 4,
       "results": [
         {
           "o": "dieterich",
@@ -2366,16 +2366,28 @@
         {
           "o": "stewardson-strasburg",
           "w": 0
+        },
+        {
+          "o": "brownstown",
+          "w": 0
         }
       ]
     },
     "alton": {
-      "class": "4A"
+      "class": "4A",
+      "wins": 3,
+      "losses": 2,
+      "results": [
+        {
+          "o": "wood river lewis & clark",
+          "w": 1
+        }
+      ]
     },
     "annawan": {
       "class": "1A",
       "wins": 3,
-      "losses": 1,
+      "losses": 2,
       "results": [
         {
           "o": "manlius bureau valley jhs",
@@ -2389,7 +2401,7 @@
     "arcola": {
       "class": "2A",
       "wins": 2,
-      "losses": 6,
+      "losses": 7,
       "results": []
     },
     "argenta-oreana": {
@@ -2405,12 +2417,20 @@
     },
     "arthur": {
       "class": "3A",
-      "wins": 0,
-      "losses": 2,
+      "wins": 2,
+      "losses": 3,
       "results": [
         {
           "o": "stewardson-strasburg",
           "w": 0
+        },
+        {
+          "o": "decatur our lady of lourdes",
+          "w": 0
+        },
+        {
+          "o": "arcola",
+          "w": 1
         }
       ]
     },
@@ -2453,10 +2473,14 @@
     "athens": {
       "class": "3A",
       "wins": 2,
-      "losses": 3,
+      "losses": 6,
       "results": [
         {
           "o": "havana",
+          "w": 0
+        },
+        {
+          "o": "petersburg porta jhs",
           "w": 0
         },
         {
@@ -2467,8 +2491,8 @@
     },
     "auburn jhs at divernon": {
       "class": "3A",
-      "wins": 3,
-      "losses": 2,
+      "wins": 4,
+      "losses": 6,
       "results": [
         {
           "o": "springfield christ the king",
@@ -2479,7 +2503,7 @@
     "augusta southeastern": {
       "class": "1A",
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "results": [
         {
           "o": "carthage",
@@ -2490,8 +2514,12 @@
     "avon abingdon avon": {
       "class": "3A",
       "wins": 9,
-      "losses": 1,
+      "losses": 3,
       "results": [
+        {
+          "o": "bushnell-prairie city",
+          "w": 0
+        },
         {
           "o": "london mills valley",
           "w": 1
@@ -2511,6 +2539,10 @@
         {
           "o": "glasford illini bluffs",
           "w": 1
+        },
+        {
+          "o": "knoxville jhs",
+          "w": 0
         }
       ]
     },
@@ -2527,30 +2559,50 @@
     },
     "bartonville monroe": {
       "class": "1A",
-      "wins": 1,
+      "wins": 6,
       "losses": 0,
       "results": [
         {
+          "o": "washington beverly manor",
+          "w": 1
+        },
+        {
           "o": "peoria st. vincent de paul",
+          "w": 1
+        },
+        {
+          "o": "glasford illini bluffs",
           "w": 1
         }
       ]
     },
     "bartonville oak grove": {
       "class": "1A",
-      "wins": 2,
-      "losses": 0,
+      "wins": 3,
+      "losses": 4,
       "results": [
+        {
+          "o": "marquette heights georgetowne",
+          "w": 0
+        },
         {
           "o": "bartonville gs",
           "w": 1
+        },
+        {
+          "o": "peoria st. vincent de paul",
+          "w": 0
+        },
+        {
+          "o": "elmwood",
+          "w": 0
         }
       ]
     },
     "beardstown ms": {
       "class": "3A",
-      "wins": 0,
-      "losses": 5,
+      "wins": 1,
+      "losses": 6,
       "results": [
         {
           "o": "colchester west prairie",
@@ -2561,6 +2613,10 @@
           "w": 0
         },
         {
+          "o": "mt. sterling brown county",
+          "w": 0
+        },
+        {
           "o": "rushville schuyler industry",
           "w": 0
         }
@@ -2568,8 +2624,8 @@
     },
     "beecher": {
       "class": "3A",
-      "wins": 5,
-      "losses": 1,
+      "wins": 6,
+      "losses": 3,
       "results": [
         {
           "o": "momence jhs",
@@ -2579,7 +2635,7 @@
     },
     "beecher city": {
       "class": "2A",
-      "wins": 1,
+      "wins": 2,
       "losses": 5,
       "results": [
         {
@@ -2589,13 +2645,17 @@
         {
           "o": "kinmundy south central",
           "w": 0
+        },
+        {
+          "o": "brownstown",
+          "w": 1
         }
       ]
     },
     "bethalto trimpe": {
       "class": "4A",
-      "wins": 9,
-      "losses": 0,
+      "wins": 10,
+      "losses": 1,
       "results": [
         {
           "o": "maryville christian",
@@ -2617,15 +2677,36 @@
     },
     "bismarck-henning": {
       "class": "2A",
-      "wins": 2,
+      "wins": 5,
       "losses": 1,
-      "results": []
+      "results": [
+        {
+          "o": "oakwood gs",
+          "w": 1
+        },
+        {
+          "o": "georgetown mary miller",
+          "w": 1
+        },
+        {
+          "o": "oakwood gs",
+          "w": 1
+        }
+      ]
     },
     "bloomington cornerstone": {
       "class": "2A",
       "wins": 0,
-      "losses": 2,
+      "losses": 5,
       "results": [
+        {
+          "o": "bloomington corpus christi",
+          "w": 0
+        },
+        {
+          "o": "lincoln chester-east lincoln",
+          "w": 0
+        },
         {
           "o": "normal epiphany",
           "w": 0
@@ -2634,11 +2715,19 @@
     },
     "bloomington corpus christi": {
       "class": "2A",
-      "wins": 7,
+      "wins": 9,
       "losses": 2,
       "results": [
         {
           "o": "wenona fieldcrest",
+          "w": 1
+        },
+        {
+          "o": "normal metcalf",
+          "w": 1
+        },
+        {
+          "o": "bloomington cornerstone",
           "w": 1
         }
       ]
@@ -2649,7 +2738,7 @@
     "bloomington jhs": {
       "class": "4A",
       "wins": 5,
-      "losses": 5,
+      "losses": 4,
       "results": [
         {
           "o": "normal epiphany",
@@ -2659,7 +2748,7 @@
     },
     "bloomington st. mary's": {
       "class": "1A",
-      "wins": 0,
+      "wins": 2,
       "losses": 1,
       "results": [
         {
@@ -2669,7 +2758,15 @@
       ]
     },
     "bloomington trinity lutheran": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 3,
+      "losses": 0,
+      "results": [
+        {
+          "o": "normal metcalf",
+          "w": 1
+        }
+      ]
     },
     "blue island kerr": {
       "class": "3A"
@@ -2677,15 +2774,29 @@
     "blue island veterans memorial": {
       "class": "3A"
     },
+    "bluffs": {
+      "class": "2A",
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
     "bolingbrook brooks": {
-      "class": "4A"
+      "class": "4A",
+      "wins": 1,
+      "losses": 3,
+      "results": [
+        {
+          "o": "lockport kelvin grove",
+          "w": 0
+        }
+      ]
     },
     "bolingbrook humphrey": {
       "class": "4A"
     },
     "bolingbrook jane addams": {
       "class": "4A",
-      "wins": 7,
+      "wins": 9,
       "losses": 0,
       "results": [
         {
@@ -2712,7 +2823,7 @@
     "bourbonnais ugc": {
       "class": "4A",
       "wins": 3,
-      "losses": 3,
+      "losses": 6,
       "results": [
         {
           "o": "kankakee bishop mcnamara",
@@ -2723,7 +2834,7 @@
     "bradley central": {
       "class": "3A",
       "wins": 0,
-      "losses": 3,
+      "losses": 5,
       "results": [
         {
           "o": "momence jhs",
@@ -2736,8 +2847,8 @@
     },
     "bridgeport red hill": {
       "class": "3A",
-      "wins": 4,
-      "losses": 0,
+      "wins": 5,
+      "losses": 1,
       "results": [
         {
           "o": "oblong",
@@ -2752,7 +2863,7 @@
     "brimfield": {
       "class": "2A",
       "wins": 2,
-      "losses": 7,
+      "losses": 8,
       "results": [
         {
           "o": "sparland midland",
@@ -2774,12 +2885,24 @@
     },
     "brownstown": {
       "class": "2A",
-      "wins": 2,
-      "losses": 1,
+      "wins": 4,
+      "losses": 4,
       "results": [
         {
           "o": "stewardson-strasburg",
           "w": 0
+        },
+        {
+          "o": "beecher city",
+          "w": 0
+        },
+        {
+          "o": "kinmundy south central",
+          "w": 0
+        },
+        {
+          "o": "altamont",
+          "w": 1
         }
       ]
     },
@@ -2789,7 +2912,7 @@
     "bunker hill wolf ridge": {
       "class": "2A",
       "wins": 0,
-      "losses": 5,
+      "losses": 7,
       "results": [
         {
           "o": "white hall north greene",
@@ -2810,12 +2933,12 @@
     "burr ridge ms": {
       "class": "2A",
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "results": []
     },
     "bushnell-prairie city": {
       "class": "2A",
-      "wins": 5,
+      "wins": 8,
       "losses": 3,
       "results": [
         {
@@ -2828,6 +2951,14 @@
         },
         {
           "o": "table grove vit",
+          "w": 1
+        },
+        {
+          "o": "colchester west prairie",
+          "w": 1
+        },
+        {
+          "o": "havana",
           "w": 1
         }
       ]
@@ -2843,11 +2974,31 @@
     },
     "camp point central": {
       "class": "2A",
-      "wins": 1,
-      "losses": 0,
+      "wins": 6,
+      "losses": 1,
       "results": [
         {
           "o": "bushnell-prairie city",
+          "w": 1
+        },
+        {
+          "o": "rushville schuyler industry",
+          "w": 1
+        },
+        {
+          "o": "nauvoo-colusa",
+          "w": 1
+        },
+        {
+          "o": "colchester west prairie",
+          "w": 1
+        },
+        {
+          "o": "liberty",
+          "w": 1
+        },
+        {
+          "o": "mendon unity",
           "w": 1
         }
       ]
@@ -2865,9 +3016,13 @@
     },
     "carlinville": {
       "class": "3A",
-      "wins": 3,
-      "losses": 1,
+      "wins": 5,
+      "losses": 3,
       "results": [
+        {
+          "o": "bunker hill wolf ridge",
+          "w": 1
+        },
         {
           "o": "greenfield",
           "w": 0
@@ -2909,7 +3064,7 @@
     },
     "carthage": {
       "class": "2A",
-      "wins": 7,
+      "wins": 10,
       "losses": 2,
       "results": [
         {
@@ -2927,13 +3082,17 @@
         {
           "o": "stronghurst west central",
           "w": 1
+        },
+        {
+          "o": "liberty",
+          "w": 1
         }
       ]
     },
     "casey-westfield": {
       "class": "2A",
       "wins": 3,
-      "losses": 2,
+      "losses": 3,
       "results": [
         {
           "o": "stewardson-strasburg",
@@ -2943,7 +3102,7 @@
     },
     "cerro gordo": {
       "class": "2A",
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "results": []
     },
@@ -2953,8 +3112,12 @@
     "champaign holy cross": {
       "class": "1A",
       "wins": 0,
-      "losses": 5,
+      "losses": 6,
       "results": [
+        {
+          "o": "champaign st. matthew",
+          "w": 0
+        },
         {
           "o": "normal epiphany",
           "w": 0
@@ -2964,8 +3127,12 @@
     "champaign international": {
       "class": "2A",
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "results": [
+        {
+          "o": "oakwood gs",
+          "w": 0
+        },
         {
           "o": "champaign st. matthew",
           "w": 0
@@ -2974,8 +3141,8 @@
     },
     "champaign jefferson": {
       "class": "4A",
-      "wins": 2,
-      "losses": 1,
+      "wins": 3,
+      "losses": 2,
       "results": [
         {
           "o": "champaign st. matthew",
@@ -2988,7 +3155,7 @@
     },
     "champaign next generation": {
       "class": "1A",
-      "wins": 4,
+      "wins": 6,
       "losses": 2,
       "results": [
         {
@@ -3003,8 +3170,8 @@
     },
     "champaign st. matthew": {
       "class": "2A",
-      "wins": 4,
-      "losses": 5,
+      "wins": 5,
+      "losses": 7,
       "results": [
         {
           "o": "peoria st. philomena",
@@ -3021,7 +3188,7 @@
     },
     "channahon": {
       "class": "3A",
-      "wins": 5,
+      "wins": 7,
       "losses": 2,
       "results": [
         {
@@ -3033,7 +3200,7 @@
     "charleston": {
       "class": "4A",
       "wins": 2,
-      "losses": 4,
+      "losses": 5,
       "results": [
         {
           "o": "paris crestwood",
@@ -3048,7 +3215,7 @@
     "chicago horizon southwest": {
       "class": "3A",
       "wins": 3,
-      "losses": 2,
+      "losses": 3,
       "results": [
         {
           "o": "lynwood sandridge",
@@ -3062,7 +3229,7 @@
     "chrisman scottland": {
       "class": "1A",
       "wins": 0,
-      "losses": 5,
+      "losses": 6,
       "results": [
         {
           "o": "georgetown mary miller",
@@ -3075,8 +3242,8 @@
     },
     "cissna park": {
       "class": "1A",
-      "wins": 2,
-      "losses": 1,
+      "wins": 3,
+      "losses": 3,
       "results": [
         {
           "o": "kankakee bishop mcnamara",
@@ -3090,7 +3257,7 @@
     "clinton": {
       "class": "3A",
       "wins": 2,
-      "losses": 1,
+      "losses": 2,
       "results": [
         {
           "o": "warrensburg-latham",
@@ -3116,8 +3283,12 @@
     "colchester west prairie": {
       "class": "2A",
       "wins": 5,
-      "losses": 1,
+      "losses": 3,
       "results": [
+        {
+          "o": "bushnell-prairie city",
+          "w": 0
+        },
         {
           "o": "nauvoo-colusa",
           "w": 1
@@ -3133,13 +3304,17 @@
         {
           "o": "stronghurst west central",
           "w": 1
+        },
+        {
+          "o": "camp point central",
+          "w": 0
         }
       ]
     },
     "colfax ridgeview": {
       "class": "1A",
       "wins": 2,
-      "losses": 7,
+      "losses": 8,
       "results": [
         {
           "o": "gibson city gcms",
@@ -3156,9 +3331,13 @@
     },
     "country club hills southwood": {
       "class": "3A",
-      "wins": 3,
+      "wins": 4,
       "losses": 0,
       "results": [
+        {
+          "o": "markham obama",
+          "w": 1
+        },
         {
           "o": "markham obama",
           "w": 1
@@ -3166,7 +3345,19 @@
       ]
     },
     "crest hill richland": {
-      "class": "3A"
+      "class": "3A",
+      "wins": 7,
+      "losses": 2,
+      "results": [
+        {
+          "o": "lockport kelvin grove",
+          "w": 0
+        },
+        {
+          "o": "joliet laraway",
+          "w": 1
+        }
+      ]
     },
     "crete illinois lutheran": {
       "class": null
@@ -3178,7 +3369,15 @@
       "results": []
     },
     "danville north ridge": {
-      "class": "4A"
+      "class": "4A",
+      "wins": 0,
+      "losses": 1,
+      "results": [
+        {
+          "o": "paris crestwood",
+          "w": 0
+        }
+      ]
     },
     "danville schlarman": {
       "class": "1A"
@@ -3186,8 +3385,13 @@
     "decatur dansby": {
       "class": "2A",
       "wins": 0,
-      "losses": 0,
-      "results": []
+      "losses": 1,
+      "results": [
+        {
+          "o": "decatur robertson",
+          "w": 0
+        }
+      ]
     },
     "decatur dennis": {
       "class": "2A",
@@ -3198,8 +3402,13 @@
     "decatur hope": {
       "class": "2A",
       "wins": 0,
-      "losses": 0,
-      "results": []
+      "losses": 1,
+      "results": [
+        {
+          "o": "decatur robertson",
+          "w": 0
+        }
+      ]
     },
     "decatur johns hill": {
       "class": "3A",
@@ -3223,13 +3432,18 @@
     "decatur montessori academy for peace": {
       "class": "2A",
       "wins": 0,
-      "losses": 1,
-      "results": []
+      "losses": 2,
+      "results": [
+        {
+          "o": "decatur robertson",
+          "w": 0
+        }
+      ]
     },
     "decatur our lady of lourdes": {
       "class": "2A",
-      "wins": 0,
-      "losses": 4,
+      "wins": 1,
+      "losses": 5,
       "results": [
         {
           "o": "warrensburg-latham",
@@ -3239,16 +3453,29 @@
     },
     "decatur robertson": {
       "class": "2A",
-      "wins": 1,
+      "wins": 4,
       "losses": 2,
-      "results": []
+      "results": [
+        {
+          "o": "decatur montessori academy for peace",
+          "w": 1
+        },
+        {
+          "o": "decatur hope",
+          "w": 1
+        },
+        {
+          "o": "decatur dansby",
+          "w": 1
+        }
+      ]
     },
     "decatur stephen decatur": {
       "class": "4A"
     },
     "dieterich": {
       "class": "2A",
-      "wins": 8,
+      "wins": 9,
       "losses": 1,
       "results": [
         {
@@ -3268,41 +3495,81 @@
           "w": 1
         },
         {
+          "o": "effingham st. anthony",
+          "w": 1
+        },
+        {
           "o": "mattoon st. john's",
           "w": 1
         }
       ]
     },
     "dolton lincoln": {
-      "class": "3A"
+      "class": "3A",
+      "wins": 1,
+      "losses": 0,
+      "results": [
+        {
+          "o": "markham obama",
+          "w": 1
+        }
+      ]
     },
     "donovan": {
       "class": "1A"
     },
     "downs tri-valley": {
-      "class": "3A"
-    },
-    "dunlap ms": {
-      "class": "4A",
+      "class": "3A",
       "wins": 4,
-      "losses": 4,
+      "losses": 0,
       "results": [
         {
-          "o": "havana",
+          "o": "normal metcalf",
           "w": 1
         }
       ]
     },
+    "dunlap ms": {
+      "class": "4A",
+      "wins": 6,
+      "losses": 5,
+      "results": [
+        {
+          "o": "havana",
+          "w": 1
+        },
+        {
+          "o": "brimfield",
+          "w": 1
+        },
+        {
+          "o": "peoria st. philomena",
+          "w": 0
+        }
+      ]
+    },
     "dunlap valley ms": {
-      "class": "4A"
+      "class": "4A",
+      "wins": 4,
+      "losses": 6,
+      "results": [
+        {
+          "o": "elmwood",
+          "w": 1
+        }
+      ]
     },
     "dwight": {
       "class": "2A",
-      "wins": 1,
-      "losses": 3,
+      "wins": 3,
+      "losses": 4,
       "results": [
         {
           "o": "kankakee bishop mcnamara",
+          "w": 0
+        },
+        {
+          "o": "seneca",
           "w": 0
         }
       ]
@@ -3310,8 +3577,12 @@
     "earlville": {
       "class": "1A",
       "wins": 0,
-      "losses": 4,
+      "losses": 7,
       "results": [
+        {
+          "o": "waterman indian creek",
+          "w": 0
+        },
         {
           "o": "serena",
           "w": 0
@@ -3320,18 +3591,26 @@
     },
     "east alton ms": {
       "class": "2A",
-      "wins": 0,
+      "wins": 4,
       "losses": 6,
       "results": [
         {
           "o": "maryville christian",
           "w": 0
+        },
+        {
+          "o": "maryville christian",
+          "w": 1
+        },
+        {
+          "o": "wood river lewis & clark",
+          "w": 1
         }
       ]
     },
     "east peoria central": {
       "class": "4A",
-      "wins": 7,
+      "wins": 9,
       "losses": 1,
       "results": [
         {
@@ -3343,7 +3622,7 @@
     "effingham jhs": {
       "class": "4A",
       "wins": 4,
-      "losses": 2,
+      "losses": 3,
       "results": [
         {
           "o": "kinmundy south central",
@@ -3369,8 +3648,12 @@
     "effingham st. anthony": {
       "class": "2A",
       "wins": 1,
-      "losses": 2,
+      "losses": 3,
       "results": [
+        {
+          "o": "dieterich",
+          "w": 0
+        },
         {
           "o": "oblong",
           "w": 1
@@ -3382,16 +3665,28 @@
     },
     "elmwood": {
       "class": "2A",
-      "wins": 1,
-      "losses": 2,
+      "wins": 2,
+      "losses": 8,
       "results": [
         {
           "o": "havana",
           "w": 0
         },
         {
+          "o": "london mills valley",
+          "w": 0
+        },
+        {
           "o": "brimfield",
           "w": 1
+        },
+        {
+          "o": "princeville",
+          "w": 0
+        },
+        {
+          "o": "williamsfield",
+          "w": 0
         }
       ]
     },
@@ -3413,10 +3708,14 @@
     "eureka": {
       "class": "3A",
       "wins": 2,
-      "losses": 2,
+      "losses": 6,
       "results": [
         {
           "o": "glasford illini bluffs",
+          "w": 0
+        },
+        {
+          "o": "peoria st. philomena",
           "w": 0
         }
       ]
@@ -3426,8 +3725,8 @@
     },
     "farmington central": {
       "class": "3A",
-      "wins": 4,
-      "losses": 2,
+      "wins": 6,
+      "losses": 4,
       "results": [
         {
           "o": "london mills valley",
@@ -3436,6 +3735,14 @@
         {
           "o": "brimfield",
           "w": 1
+        },
+        {
+          "o": "peoria heights gs",
+          "w": 1
+        },
+        {
+          "o": "lewistown jhs",
+          "w": 0
         }
       ]
     },
@@ -3450,8 +3757,8 @@
     },
     "flanagan": {
       "class": "1A",
-      "wins": 5,
-      "losses": 2,
+      "wins": 7,
+      "losses": 3,
       "results": [
         {
           "o": "ottawa wallace",
@@ -3468,7 +3775,7 @@
     },
     "ford heights cottage grove ugc": {
       "class": "1A",
-      "wins": 10,
+      "wins": 13,
       "losses": 1,
       "results": [
         {
@@ -3477,6 +3784,14 @@
         },
         {
           "o": "markham obama",
+          "w": 1
+        },
+        {
+          "o": "lynwood sandridge",
+          "w": 1
+        },
+        {
+          "o": "riverdale washington",
           "w": 1
         },
         {
@@ -3504,8 +3819,8 @@
     },
     "gardner": {
       "class": "1A",
-      "wins": 1,
-      "losses": 2,
+      "wins": 2,
+      "losses": 6,
       "results": [
         {
           "o": "seneca",
@@ -3516,16 +3831,25 @@
     "georgetown mary miller": {
       "class": "2A",
       "wins": 2,
-      "losses": 4,
-      "results": []
+      "losses": 6,
+      "results": [
+        {
+          "o": "bismarck-henning",
+          "w": 0
+        }
+      ]
     },
     "germantown hills": {
       "class": "3A",
-      "wins": 3,
-      "losses": 2,
+      "wins": 6,
+      "losses": 3,
       "results": [
         {
           "o": "brimfield",
+          "w": 1
+        },
+        {
+          "o": "washington beverly manor",
           "w": 1
         }
       ]
@@ -3538,8 +3862,8 @@
     },
     "gillespie": {
       "class": "3A",
-      "wins": 5,
-      "losses": 4,
+      "wins": 7,
+      "losses": 5,
       "results": [
         {
           "o": "east alton ms",
@@ -3547,6 +3871,10 @@
         },
         {
           "o": "nokomis jhs",
+          "w": 1
+        },
+        {
+          "o": "white hall north greene",
           "w": 1
         }
       ]
@@ -3556,15 +3884,51 @@
     },
     "glasford illini bluffs": {
       "class": "2A",
-      "wins": 1,
-      "losses": 1,
-      "results": []
+      "wins": 2,
+      "losses": 2,
+      "results": [
+        {
+          "o": "green valley midwest central",
+          "w": 1
+        }
+      ]
+    },
+    "grand ridge": {
+      "class": "1A",
+      "wins": 0,
+      "losses": 6,
+      "results": [
+        {
+          "o": "marseilles es",
+          "w": 0
+        }
+      ]
     },
     "granite city coolidge": {
-      "class": "4A"
+      "class": "4A",
+      "wins": 1,
+      "losses": 2,
+      "results": [
+        {
+          "o": "east alton ms",
+          "w": 0
+        },
+        {
+          "o": "wood river lewis & clark",
+          "w": 1
+        }
+      ]
     },
     "grant park": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 2,
+      "losses": 5,
+      "results": [
+        {
+          "o": "momence jhs",
+          "w": 0
+        }
+      ]
     },
     "grayville": {
       "class": null
@@ -3572,17 +3936,21 @@
     "green valley midwest central": {
       "class": "2A",
       "wins": 6,
-      "losses": 0,
+      "losses": 2,
       "results": [
         {
           "o": "havana",
           "w": 1
+        },
+        {
+          "o": "glasford illini bluffs",
+          "w": 0
         }
       ]
     },
     "greenfield": {
       "class": "2A",
-      "wins": 6,
+      "wins": 7,
       "losses": 2,
       "results": [
         {
@@ -3601,8 +3969,8 @@
     },
     "greenville": {
       "class": "3A",
-      "wins": 5,
-      "losses": 2,
+      "wins": 6,
+      "losses": 3,
       "results": [
         {
           "o": "nokomis jhs",
@@ -3621,14 +3989,21 @@
         }
       ]
     },
+    "hamilton": {
+      "class": null
+    },
     "hamilton county": {
       "class": null
     },
     "hamilton es": {
       "class": "1A",
       "wins": 1,
-      "losses": 2,
+      "losses": 5,
       "results": [
+        {
+          "o": "rushville schuyler industry",
+          "w": 0
+        },
         {
           "o": "stronghurst west central",
           "w": 1
@@ -3661,8 +4036,12 @@
     "havana": {
       "class": "2A",
       "wins": 4,
-      "losses": 3,
+      "losses": 5,
       "results": [
+        {
+          "o": "bushnell-prairie city",
+          "w": 0
+        },
         {
           "o": "elmwood",
           "w": 1
@@ -3674,19 +4053,43 @@
         {
           "o": "green valley midwest central",
           "w": 0
+        },
+        {
+          "o": "rushville schuyler industry",
+          "w": 0
         }
       ]
     },
     "hazel crest jesse white": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 1,
+      "losses": 5,
+      "results": [
+        {
+          "o": "markham obama",
+          "w": 1
+        }
+      ]
     },
     "henry-senachwine": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 2,
+      "losses": 3,
+      "results": [
+        {
+          "o": "toulon stark county",
+          "w": 1
+        },
+        {
+          "o": "manlius bureau valley jhs",
+          "w": 0
+        }
+      ]
     },
     "herscher limestone": {
       "class": "3A",
-      "wins": 4,
-      "losses": 3,
+      "wins": 5,
+      "losses": 4,
       "results": [
         {
           "o": "bourbonnais st. george",
@@ -3713,7 +4116,15 @@
       "class": "4A"
     },
     "hillsboro": {
-      "class": "3A"
+      "class": "3A",
+      "wins": 5,
+      "losses": 2,
+      "results": [
+        {
+          "o": "morrisonville jhs",
+          "w": 1
+        }
+      ]
     },
     "hinckley-big rock": {
       "class": null
@@ -3723,8 +4134,8 @@
     },
     "homer heritage": {
       "class": "1A",
-      "wins": 0,
-      "losses": 6,
+      "wins": 2,
+      "losses": 8,
       "results": [
         {
           "o": "georgetown mary miller",
@@ -3739,7 +4150,7 @@
     "hoopeston area": {
       "class": "3A",
       "wins": 3,
-      "losses": 6,
+      "losses": 7,
       "results": [
         {
           "o": "oakwood gs",
@@ -3756,12 +4167,16 @@
     },
     "hume shiloh": {
       "class": "1A",
-      "wins": 1,
-      "losses": 1,
+      "wins": 3,
+      "losses": 3,
       "results": [
         {
           "o": "georgetown mary miller",
           "w": 1
+        },
+        {
+          "o": "paris crestwood",
+          "w": 0
         }
       ]
     },
@@ -3795,7 +4210,7 @@
     "jacksonville our saviour": {
       "class": "1A",
       "wins": 1,
-      "losses": 7,
+      "losses": 8,
       "results": [
         {
           "o": "greenfield",
@@ -3816,8 +4231,8 @@
     },
     "jerseyville community": {
       "class": "4A",
-      "wins": 3,
-      "losses": 4,
+      "wins": 4,
+      "losses": 6,
       "results": [
         {
           "o": "maryville christian",
@@ -3834,12 +4249,16 @@
         {
           "o": "east alton ms",
           "w": 1
+        },
+        {
+          "o": "white hall north greene",
+          "w": 1
         }
       ]
     },
     "jerseyville st. francis hg": {
       "class": "1A",
-      "wins": 3,
+      "wins": 5,
       "losses": 1,
       "results": [
         {
@@ -3855,7 +4274,7 @@
     "joliet dirksen": {
       "class": "4A",
       "wins": 0,
-      "losses": 2,
+      "losses": 3,
       "results": [
         {
           "o": "lockport kelvin grove",
@@ -3866,8 +4285,12 @@
     "joliet gompers": {
       "class": "4A",
       "wins": 1,
-      "losses": 2,
+      "losses": 5,
       "results": [
+        {
+          "o": "lockport kelvin grove",
+          "w": 0
+        },
         {
           "o": "joliet laraway",
           "w": 0
@@ -3880,7 +4303,7 @@
     "joliet laraway": {
       "class": "2A",
       "wins": 4,
-      "losses": 1,
+      "losses": 2,
       "results": []
     },
     "joliet washington": {
@@ -3889,7 +4312,7 @@
     "kankakee bishop mcnamara": {
       "class": "2A",
       "wins": 7,
-      "losses": 1,
+      "losses": 2,
       "results": [
         {
           "o": "dwight",
@@ -3907,25 +4330,49 @@
     "kewanee central": {
       "class": "3A",
       "wins": 0,
-      "losses": 5,
+      "losses": 8,
       "results": [
         {
           "o": "toulon stark county",
+          "w": 0
+        },
+        {
+          "o": "knoxville jhs",
           "w": 0
         }
       ]
     },
     "kewanee visitation": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 2,
+      "losses": 0,
+      "results": [
+        {
+          "o": "toulon stark county",
+          "w": 1
+        }
+      ]
     },
     "kewanee wethersfield": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 8,
+      "losses": 0,
+      "results": [
+        {
+          "o": "sparland midland",
+          "w": 1
+        }
+      ]
     },
     "kickapoo st. mary's": {
       "class": "1A",
       "wins": 1,
-      "losses": 3,
+      "losses": 7,
       "results": [
+        {
+          "o": "peoria st. vincent de paul",
+          "w": 0
+        },
         {
           "o": "springfield christ the king",
           "w": 0
@@ -3935,10 +4382,14 @@
     "kincaid south fork": {
       "class": "1A",
       "wins": 0,
-      "losses": 6,
+      "losses": 7,
       "results": [
         {
           "o": "mt. pulaski",
+          "w": 0
+        },
+        {
+          "o": "greenfield",
           "w": 0
         }
       ]
@@ -3956,7 +4407,7 @@
     },
     "kinmundy south central": {
       "class": "2A",
-      "wins": 4,
+      "wins": 5,
       "losses": 2,
       "results": [
         {
@@ -3966,12 +4417,16 @@
         {
           "o": "beecher city",
           "w": 1
+        },
+        {
+          "o": "brownstown",
+          "w": 1
         }
       ]
     },
     "knoxville jhs": {
       "class": "2A",
-      "wins": 5,
+      "wins": 9,
       "losses": 0,
       "results": [
         {
@@ -3982,7 +4437,7 @@
     },
     "la harpe": {
       "class": "1A",
-      "wins": 3,
+      "wins": 10,
       "losses": 0,
       "results": [
         {
@@ -3990,13 +4445,37 @@
           "w": 1
         },
         {
+          "o": "nauvoo-colusa",
+          "w": 1
+        },
+        {
+          "o": "nauvoo-colusa",
+          "w": 1
+        },
+        {
           "o": "carthage",
+          "w": 1
+        },
+        {
+          "o": "liberty",
+          "w": 1
+        },
+        {
+          "o": "table grove vit",
           "w": 1
         }
       ]
     },
     "ladd": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 0,
+      "losses": 2,
+      "results": [
+        {
+          "o": "oglesby washington",
+          "w": 0
+        }
+      ]
     },
     "lansing heritage": {
       "class": "3A"
@@ -4004,7 +4483,7 @@
     "lasalle dimmick": {
       "class": "1A",
       "wins": 0,
-      "losses": 4,
+      "losses": 5,
       "results": [
         {
           "o": "ottawa wallace",
@@ -4038,8 +4517,8 @@
     },
     "lawrenceville parkview": {
       "class": "3A",
-      "wins": 0,
-      "losses": 6,
+      "wins": 1,
+      "losses": 7,
       "results": [
         {
           "o": "oblong",
@@ -4077,7 +4556,7 @@
     },
     "lewistown jhs": {
       "class": "2A",
-      "wins": 1,
+      "wins": 2,
       "losses": 2,
       "results": [
         {
@@ -4092,19 +4571,49 @@
     "liberty": {
       "class": "2A",
       "wins": 1,
-      "losses": 0,
-      "results": []
+      "losses": 5,
+      "results": [
+        {
+          "o": "rushville schuyler industry",
+          "w": 0
+        },
+        {
+          "o": "mt. sterling brown county",
+          "w": 0
+        },
+        {
+          "o": "carthage",
+          "w": 0
+        },
+        {
+          "o": "camp point central",
+          "w": 0
+        }
+      ]
     },
     "lincoln chester-east lincoln": {
       "class": "2A",
-      "wins": 0,
-      "losses": 0,
-      "results": []
+      "wins": 3,
+      "losses": 2,
+      "results": [
+        {
+          "o": "bloomington cornerstone",
+          "w": 1
+        },
+        {
+          "o": "springfield christ the king",
+          "w": 1
+        },
+        {
+          "o": "springfield blessed sacrament",
+          "w": 1
+        }
+      ]
     },
     "lincoln jhs": {
       "class": "3A",
       "wins": 0,
-      "losses": 5,
+      "losses": 7,
       "results": [
         {
           "o": "warrensburg-latham",
@@ -4122,9 +4631,13 @@
     },
     "lincoln west lincoln-broadwell": {
       "class": "1A",
-      "wins": 5,
+      "wins": 7,
       "losses": 0,
       "results": [
+        {
+          "o": "lincoln chester-east lincoln",
+          "w": 1
+        },
         {
           "o": "springfield blessed sacrament",
           "w": 1
@@ -4136,14 +4649,34 @@
         {
           "o": "normal epiphany",
           "w": 1
+        },
+        {
+          "o": "green valley midwest central",
+          "w": 1
         }
       ]
     },
     "lisle": {
-      "class": "3A"
+      "class": "3A",
+      "wins": 4,
+      "losses": 1,
+      "results": [
+        {
+          "o": "burr ridge ms",
+          "w": 1
+        }
+      ]
     },
     "litchfield": {
-      "class": "3A"
+      "class": "3A",
+      "wins": 2,
+      "losses": 8,
+      "results": [
+        {
+          "o": "morrisonville jhs",
+          "w": 0
+        }
+      ]
     },
     "lockport fairmont": {
       "class": "1A",
@@ -4158,13 +4691,13 @@
     },
     "lockport kelvin grove": {
       "class": "2A",
-      "wins": 4,
+      "wins": 7,
       "losses": 4,
       "results": []
     },
     "lockport oak prairie": {
       "class": "4A",
-      "wins": 3,
+      "wins": 6,
       "losses": 4,
       "results": [
         {
@@ -4175,8 +4708,8 @@
     },
     "lockport taft": {
       "class": "1A",
-      "wins": 8,
-      "losses": 0,
+      "wins": 11,
+      "losses": 1,
       "results": [
         {
           "o": "lockport kelvin grove",
@@ -4193,11 +4726,19 @@
     },
     "london mills valley": {
       "class": "2A",
-      "wins": 1,
-      "losses": 3,
+      "wins": 2,
+      "losses": 4,
       "results": [
         {
           "o": "table grove vit",
+          "w": 1
+        },
+        {
+          "o": "princeville",
+          "w": 0
+        },
+        {
+          "o": "elmwood",
           "w": 1
         },
         {
@@ -4209,7 +4750,7 @@
     "lostant": {
       "class": "1A",
       "wins": 1,
-      "losses": 3,
+      "losses": 4,
       "results": [
         {
           "o": "ottawa wallace",
@@ -4241,18 +4782,39 @@
       ]
     },
     "lowpoint-washburn": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 0,
+      "losses": 8,
+      "results": [
+        {
+          "o": "marquette heights georgetowne",
+          "w": 0
+        },
+        {
+          "o": "mcnabb putnam county",
+          "w": 0
+        },
+        {
+          "o": "sparland midland",
+          "w": 0
+        }
+      ]
     },
     "lynwood sandridge": {
       "class": "2A",
       "wins": 0,
-      "losses": 2,
-      "results": []
+      "losses": 4,
+      "results": [
+        {
+          "o": "markham obama",
+          "w": 0
+        }
+      ]
     },
     "mackinaw dee-mack": {
       "class": "3A",
       "wins": 3,
-      "losses": 4,
+      "losses": 7,
       "results": [
         {
           "o": "green valley midwest central",
@@ -4263,7 +4825,7 @@
     "macomb": {
       "class": "4A",
       "wins": 0,
-      "losses": 6,
+      "losses": 7,
       "results": [
         {
           "o": "bushnell-prairie city",
@@ -4286,7 +4848,7 @@
     "macon meridian": {
       "class": "2A",
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "results": [
         {
           "o": "warrensburg-latham",
@@ -4299,7 +4861,7 @@
     },
     "mahomet-seymour": {
       "class": "4A",
-      "wins": 6,
+      "wins": 8,
       "losses": 1,
       "results": [
         {
@@ -4310,7 +4872,7 @@
     },
     "manlius bureau valley jhs": {
       "class": "2A",
-      "wins": 5,
+      "wins": 8,
       "losses": 0,
       "results": [
         {
@@ -4327,7 +4889,7 @@
     },
     "manteno": {
       "class": "3A",
-      "wins": 4,
+      "wins": 6,
       "losses": 2,
       "results": [
         {
@@ -4338,14 +4900,19 @@
     },
     "markham obama": {
       "class": "2A",
-      "wins": 0,
-      "losses": 2,
-      "results": []
+      "wins": 1,
+      "losses": 5,
+      "results": [
+        {
+          "o": "lynwood sandridge",
+          "w": 1
+        }
+      ]
     },
     "maroa-forsyth": {
       "class": "3A",
       "wins": 2,
-      "losses": 0,
+      "losses": 1,
       "results": [
         {
           "o": "warrensburg-latham",
@@ -4355,13 +4922,18 @@
     },
     "marquette heights georgetowne": {
       "class": "2A",
-      "wins": 2,
-      "losses": 0,
-      "results": []
+      "wins": 6,
+      "losses": 4,
+      "results": [
+        {
+          "o": "peoria st. philomena",
+          "w": 0
+        }
+      ]
     },
     "marseilles es": {
       "class": "2A",
-      "wins": 0,
+      "wins": 1,
       "losses": 2,
       "results": [
         {
@@ -4373,7 +4945,7 @@
     "marseilles milton pope": {
       "class": "1A",
       "wins": 6,
-      "losses": 0,
+      "losses": 1,
       "results": [
         {
           "o": "serena",
@@ -4382,12 +4954,16 @@
         {
           "o": "marseilles es",
           "w": 1
+        },
+        {
+          "o": "ottawa wallace",
+          "w": 0
         }
       ]
     },
     "marshall jhs": {
       "class": "3A",
-      "wins": 2,
+      "wins": 4,
       "losses": 2,
       "results": [
         {
@@ -4399,7 +4975,7 @@
     "martinsville": {
       "class": "1A",
       "wins": 1,
-      "losses": 4,
+      "losses": 8,
       "results": [
         {
           "o": "dieterich",
@@ -4414,7 +4990,7 @@
     "maryville christian": {
       "class": "2A",
       "wins": 3,
-      "losses": 4,
+      "losses": 5,
       "results": [
         {
           "o": "east alton ms",
@@ -4423,6 +4999,10 @@
         {
           "o": "wood river lewis & clark",
           "w": 1
+        },
+        {
+          "o": "east alton ms",
+          "w": 0
         }
       ]
     },
@@ -4431,9 +5011,13 @@
     },
     "mason city illini central": {
       "class": "3A",
-      "wins": 1,
-      "losses": 3,
+      "wins": 3,
+      "losses": 4,
       "results": [
+        {
+          "o": "marquette heights georgetowne",
+          "w": 0
+        },
         {
           "o": "green valley midwest central",
           "w": 0
@@ -4445,11 +5029,19 @@
       ]
     },
     "mattoon": {
-      "class": "4A"
+      "class": "4A",
+      "wins": 1,
+      "losses": 3,
+      "results": [
+        {
+          "o": "paris crestwood",
+          "w": 1
+        }
+      ]
     },
     "mattoon st. john's": {
       "class": "2A",
-      "wins": 4,
+      "wins": 5,
       "losses": 1,
       "results": [
         {
@@ -4460,7 +5052,7 @@
     },
     "mazon-verona-kinsman": {
       "class": "1A",
-      "wins": 3,
+      "wins": 5,
       "losses": 2,
       "results": [
         {
@@ -4475,14 +5067,19 @@
     },
     "mcnabb putnam county": {
       "class": "2A",
-      "wins": 0,
-      "losses": 3,
-      "results": []
+      "wins": 1,
+      "losses": 4,
+      "results": [
+        {
+          "o": "toulon stark county",
+          "w": 0
+        }
+      ]
     },
     "mendon unity": {
       "class": "2A",
       "wins": 2,
-      "losses": 2,
+      "losses": 4,
       "results": [
         {
           "o": "nauvoo-colusa",
@@ -4499,12 +5096,16 @@
         {
           "o": "rushville schuyler industry",
           "w": 0
+        },
+        {
+          "o": "camp point central",
+          "w": 0
         }
       ]
     },
     "mendota holy cross": {
       "class": "1A",
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "results": [
         {
@@ -4516,7 +5117,7 @@
     "mendota northbrook": {
       "class": "3A",
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "results": [
         {
           "o": "spring valley kennedy",
@@ -4544,19 +5145,23 @@
     },
     "millbrook": {
       "class": "1A",
-      "wins": 5,
+      "wins": 6,
       "losses": 0,
       "results": [
         {
           "o": "serena",
+          "w": 1
+        },
+        {
+          "o": "somonauk",
           "w": 1
         }
       ]
     },
     "momence jhs": {
       "class": "2A",
-      "wins": 2,
-      "losses": 2,
+      "wins": 3,
+      "losses": 3,
       "results": [
         {
           "o": "bourbonnais st. george",
@@ -4577,7 +5182,7 @@
     },
     "monmouth united": {
       "class": "3A",
-      "wins": 2,
+      "wins": 3,
       "losses": 5,
       "results": [
         {
@@ -4593,7 +5198,7 @@
     "monmouth-roseville jhs": {
       "class": "3A",
       "wins": 1,
-      "losses": 5,
+      "losses": 8,
       "results": [
         {
           "o": "bushnell-prairie city",
@@ -4607,9 +5212,17 @@
     },
     "monticello": {
       "class": "3A",
-      "wins": 7,
+      "wins": 10,
       "losses": 1,
       "results": [
+        {
+          "o": "champaign st. matthew",
+          "w": 1
+        },
+        {
+          "o": "macon meridian",
+          "w": 1
+        },
         {
           "o": "warrensburg-latham",
           "w": 1
@@ -4630,8 +5243,12 @@
     "morris nettle creek": {
       "class": "1A",
       "wins": 0,
-      "losses": 2,
+      "losses": 3,
       "results": [
+        {
+          "o": "oglesby washington",
+          "w": 0
+        },
         {
           "o": "ottawa wallace",
           "w": 0
@@ -4641,28 +5258,36 @@
     "morris saratoga": {
       "class": "3A",
       "wins": 0,
-      "losses": 5,
+      "losses": 8,
       "results": [
         {
           "o": "seneca",
+          "w": 0
+        },
+        {
+          "o": "dwight",
           "w": 0
         }
       ]
     },
     "morrisonville jhs": {
       "class": "2A",
-      "wins": 5,
-      "losses": 1,
+      "wins": 7,
+      "losses": 2,
       "results": []
     },
     "morton blessed sacrament": {
       "class": "1A",
-      "wins": 1,
+      "wins": 3,
       "losses": 3,
       "results": [
         {
           "o": "bloomington corpus christi",
           "w": 0
+        },
+        {
+          "o": "peoria st. vincent de paul",
+          "w": 1
         },
         {
           "o": "normal epiphany",
@@ -4681,7 +5306,7 @@
     },
     "mt. olive": {
       "class": "1A",
-      "wins": 6,
+      "wins": 8,
       "losses": 1,
       "results": [
         {
@@ -4701,7 +5326,7 @@
     "mt. pulaski": {
       "class": "2A",
       "wins": 1,
-      "losses": 5,
+      "losses": 6,
       "results": [
         {
           "o": "springfield christ the king",
@@ -4711,7 +5336,7 @@
     },
     "mt. sterling brown county": {
       "class": "2A",
-      "wins": 6,
+      "wins": 8,
       "losses": 0,
       "results": [
         {
@@ -4720,6 +5345,10 @@
         },
         {
           "o": "hardin calhoun",
+          "w": 1
+        },
+        {
+          "o": "liberty",
           "w": 1
         }
       ]
@@ -4730,10 +5359,14 @@
     "mulberry grove jhs": {
       "class": "1A",
       "wins": 0,
-      "losses": 3,
+      "losses": 5,
       "results": [
         {
           "o": "kinmundy south central",
+          "w": 0
+        },
+        {
+          "o": "brownstown",
           "w": 0
         }
       ]
@@ -4741,7 +5374,7 @@
     "nauvoo-colusa": {
       "class": "2A",
       "wins": 1,
-      "losses": 4,
+      "losses": 7,
       "results": [
         {
           "o": "colchester west prairie",
@@ -4753,6 +5386,10 @@
         },
         {
           "o": "colchester west prairie",
+          "w": 0
+        },
+        {
+          "o": "camp point central",
           "w": 0
         },
         {
@@ -4763,11 +5400,15 @@
     },
     "neoga": {
       "class": "1A",
-      "wins": 1,
-      "losses": 3,
+      "wins": 2,
+      "losses": 4,
       "results": [
         {
           "o": "dieterich",
+          "w": 0
+        },
+        {
+          "o": "paris crestwood",
           "w": 0
         },
         {
@@ -4782,8 +5423,8 @@
     },
     "new berlin jhs": {
       "class": "3A",
-      "wins": 3,
-      "losses": 5,
+      "wins": 4,
+      "losses": 6,
       "results": [
         {
           "o": "petersburg porta jhs",
@@ -4803,21 +5444,33 @@
       "class": null
     },
     "newark lisbon": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 5,
+      "losses": 1,
+      "results": [
+        {
+          "o": "waterman indian creek",
+          "w": 1
+        },
+        {
+          "o": "serena",
+          "w": 1
+        }
+      ]
     },
     "newton jasper county": {
       "class": "3A"
     },
     "nokomis jhs": {
       "class": "2A",
-      "wins": 1,
+      "wins": 2,
       "losses": 1,
       "results": []
     },
     "normal calvary": {
       "class": "1A",
       "wins": 4,
-      "losses": 2,
+      "losses": 4,
       "results": [
         {
           "o": "bloomington corpus christi",
@@ -4825,6 +5478,10 @@
         },
         {
           "o": "normal metcalf",
+          "w": 0
+        },
+        {
+          "o": "normal epiphany",
           "w": 0
         }
       ]
@@ -4834,8 +5491,8 @@
     },
     "normal epiphany": {
       "class": "2A",
-      "wins": 6,
-      "losses": 2,
+      "wins": 8,
+      "losses": 3,
       "results": [
         {
           "o": "bloomington cornerstone",
@@ -4844,13 +5501,17 @@
         {
           "o": "leroy",
           "w": 1
+        },
+        {
+          "o": "peoria st. vincent de paul",
+          "w": 1
         }
       ]
     },
     "normal kingsley": {
       "class": "4A",
-      "wins": 3,
-      "losses": 1,
+      "wins": 4,
+      "losses": 2,
       "results": [
         {
           "o": "bloomington corpus christi",
@@ -4861,8 +5522,17 @@
     "normal metcalf": {
       "class": "2A",
       "wins": 1,
-      "losses": 1,
-      "results": []
+      "losses": 6,
+      "results": [
+        {
+          "o": "bloomington corpus christi",
+          "w": 0
+        },
+        {
+          "o": "wenona fieldcrest",
+          "w": 0
+        }
+      ]
     },
     "normal parkside": {
       "class": "4A",
@@ -4879,18 +5549,47 @@
       "class": "4A"
     },
     "oakland lake crest": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 4,
+      "losses": 5,
+      "results": [
+        {
+          "o": "cerro gordo",
+          "w": 0
+        },
+        {
+          "o": "paris crestwood",
+          "w": 0
+        },
+        {
+          "o": "casey-westfield",
+          "w": 1
+        }
+      ]
     },
     "oakwood gs": {
       "class": "2A",
-      "wins": 2,
-      "losses": 2,
-      "results": []
+      "wins": 3,
+      "losses": 6,
+      "results": [
+        {
+          "o": "bismarck-henning",
+          "w": 0
+        },
+        {
+          "o": "champaign international",
+          "w": 1
+        },
+        {
+          "o": "bismarck-henning",
+          "w": 0
+        }
+      ]
     },
     "oblong": {
       "class": "2A",
       "wins": 2,
-      "losses": 5,
+      "losses": 7,
       "results": [
         {
           "o": "dieterich",
@@ -4903,13 +5602,25 @@
       ]
     },
     "odell": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 2,
+      "losses": 4,
+      "results": [
+        {
+          "o": "dwight",
+          "w": 0
+        }
+      ]
     },
     "oglesby washington": {
       "class": "2A",
-      "wins": 3,
-      "losses": 2,
+      "wins": 6,
+      "losses": 3,
       "results": [
+        {
+          "o": "ottawa wallace",
+          "w": 0
+        },
         {
           "o": "seneca",
           "w": 0
@@ -4920,38 +5631,75 @@
       "class": null
     },
     "onarga iroquois west": {
-      "class": "3A"
+      "class": "3A",
+      "wins": 1,
+      "losses": 0,
+      "results": [
+        {
+          "o": "momence jhs",
+          "w": 1
+        }
+      ]
     },
     "orion": {
-      "class": "3A"
+      "class": "3A",
+      "wins": 7,
+      "losses": 3,
+      "results": [
+        {
+          "o": "knoxville jhs",
+          "w": 0
+        }
+      ]
     },
     "ottawa marquette": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 2,
+      "losses": 2,
+      "results": [
+        {
+          "o": "ottawa wallace",
+          "w": 0
+        },
+        {
+          "o": "oglesby washington",
+          "w": 0
+        }
+      ]
     },
     "ottawa shepherd": {
       "class": "4A",
       "wins": 4,
-      "losses": 4,
+      "losses": 5,
       "results": [
         {
           "o": "ottawa wallace",
+          "w": 0
+        },
+        {
+          "o": "manlius bureau valley jhs",
           "w": 0
         }
       ]
     },
     "ottawa wallace": {
       "class": "2A",
-      "wins": 8,
+      "wins": 11,
       "losses": 0,
-      "results": []
+      "results": [
+        {
+          "o": "oglesby washington",
+          "w": 1
+        }
+      ]
     },
     "our savior school jacksonville": {
       "class": null
     },
     "palestine": {
       "class": "1A",
-      "wins": 1,
-      "losses": 7,
+      "wins": 2,
+      "losses": 8,
       "results": [
         {
           "o": "albion",
@@ -4971,17 +5719,25 @@
       "class": "3A"
     },
     "pana sacred heart": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 3,
+      "losses": 0,
+      "results": [
+        {
+          "o": "stewardson-strasburg",
+          "w": 1
+        }
+      ]
     },
     "paris crestwood": {
       "class": "2A",
-      "wins": 2,
-      "losses": 1,
+      "wins": 8,
+      "losses": 2,
       "results": []
     },
     "paris mayo": {
       "class": "3A",
-      "wins": 8,
+      "wins": 10,
       "losses": 0,
       "results": [
         {
@@ -4992,11 +5748,15 @@
     },
     "paw paw": {
       "class": "1A",
-      "wins": 1,
-      "losses": 3,
+      "wins": 2,
+      "losses": 6,
       "results": [
         {
           "o": "waterman indian creek",
+          "w": 0
+        },
+        {
+          "o": "somonauk",
           "w": 0
         }
       ]
@@ -5004,10 +5764,14 @@
     "pawnee": {
       "class": "1A",
       "wins": 0,
-      "losses": 2,
+      "losses": 4,
       "results": [
         {
           "o": "springfield blessed sacrament",
+          "w": 0
+        },
+        {
+          "o": "morrisonville jhs",
           "w": 0
         }
       ]
@@ -5029,7 +5793,7 @@
     "pekin broadmoor": {
       "class": "4A",
       "wins": 4,
-      "losses": 3,
+      "losses": 5,
       "results": [
         {
           "o": "green valley midwest central",
@@ -5043,8 +5807,8 @@
     },
     "pekin edison": {
       "class": "3A",
-      "wins": 1,
-      "losses": 5,
+      "wins": 2,
+      "losses": 7,
       "results": [
         {
           "o": "creve coeur parkview",
@@ -5053,12 +5817,20 @@
       ]
     },
     "pekin rankin": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 8,
+      "losses": 2,
+      "results": [
+        {
+          "o": "marquette heights georgetowne",
+          "w": 1
+        }
+      ]
     },
     "peoria christ lutheran": {
       "class": "1A",
-      "wins": 3,
-      "losses": 1,
+      "wins": 4,
+      "losses": 2,
       "results": [
         {
           "o": "peoria st. vincent de paul",
@@ -5068,7 +5840,7 @@
     },
     "peoria christian": {
       "class": "1A",
-      "wins": 6,
+      "wins": 11,
       "losses": 0,
       "results": [
         {
@@ -5086,22 +5858,38 @@
         {
           "o": "peoria st. philomena",
           "w": 1
+        },
+        {
+          "o": "elmwood",
+          "w": 1
+        },
+        {
+          "o": "peoria st. philomena",
+          "w": 1
+        },
+        {
+          "o": "normal epiphany",
+          "w": 1
         }
       ]
     },
     "peoria heights gs": {
       "class": "2A",
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "results": []
     },
     "peoria hollis": {
       "class": "1A",
       "wins": 1,
-      "losses": 5,
+      "losses": 7,
       "results": [
         {
           "o": "marquette heights georgetowne",
+          "w": 0
+        },
+        {
+          "o": "peoria st. vincent de paul",
           "w": 0
         },
         {
@@ -5120,9 +5908,13 @@
     },
     "peoria limestone walters": {
       "class": "1A",
-      "wins": 3,
-      "losses": 0,
+      "wins": 4,
+      "losses": 1,
       "results": [
+        {
+          "o": "marquette heights georgetowne",
+          "w": 1
+        },
         {
           "o": "brimfield",
           "w": 1
@@ -5133,12 +5925,20 @@
       "class": "1A"
     },
     "peoria pleasant valley": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 0,
+      "losses": 4,
+      "results": [
+        {
+          "o": "marquette heights georgetowne",
+          "w": 0
+        }
+      ]
     },
     "peoria st. jude": {
       "class": "1A",
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "results": [
         {
           "o": "brimfield",
@@ -5148,9 +5948,13 @@
     },
     "peoria st. philomena": {
       "class": "2A",
-      "wins": 2,
-      "losses": 3,
+      "wins": 5,
+      "losses": 4,
       "results": [
+        {
+          "o": "marquette heights georgetowne",
+          "w": 1
+        },
         {
           "o": "champaign st. matthew",
           "w": 1
@@ -5163,8 +5967,8 @@
     },
     "peoria st. vincent de paul": {
       "class": "2A",
-      "wins": 0,
-      "losses": 5,
+      "wins": 4,
+      "losses": 7,
       "results": [
         {
           "o": "peoria st. philomena",
@@ -5173,24 +5977,32 @@
         {
           "o": "springfield blessed sacrament",
           "w": 0
+        },
+        {
+          "o": "normal epiphany",
+          "w": 0
         }
       ]
     },
     "peotone": {
       "class": "3A",
-      "wins": 4,
-      "losses": 3,
+      "wins": 7,
+      "losses": 4,
       "results": [
         {
           "o": "bourbonnais st. george",
+          "w": 1
+        },
+        {
+          "o": "kankakee bishop mcnamara",
           "w": 1
         }
       ]
     },
     "peru parkside": {
       "class": "3A",
-      "wins": 4,
-      "losses": 4,
+      "wins": 6,
+      "losses": 5,
       "results": [
         {
           "o": "spring valley kennedy",
@@ -5211,12 +6023,16 @@
         {
           "o": "seneca",
           "w": 0
+        },
+        {
+          "o": "manlius bureau valley jhs",
+          "w": 0
         }
       ]
     },
     "petersburg porta jhs": {
       "class": "2A",
-      "wins": 4,
+      "wins": 5,
       "losses": 0,
       "results": [
         {
@@ -5227,8 +6043,8 @@
     },
     "philo st. thomas": {
       "class": "1A",
-      "wins": 4,
-      "losses": 1,
+      "wins": 5,
+      "losses": 2,
       "results": [
         {
           "o": "fisher",
@@ -5241,10 +6057,26 @@
       ]
     },
     "piasa southwestern": {
-      "class": "3A"
+      "class": "3A",
+      "wins": 1,
+      "losses": 5,
+      "results": [
+        {
+          "o": "bunker hill wolf ridge",
+          "w": 1
+        }
+      ]
     },
     "piper city tri-point": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 9,
+      "losses": 1,
+      "results": [
+        {
+          "o": "bloomington cornerstone",
+          "w": 1
+        }
+      ]
     },
     "pittsfield pikeland": {
       "class": "3A",
@@ -5263,19 +6095,23 @@
     },
     "plano": {
       "class": "4A",
-      "wins": 2,
-      "losses": 5,
+      "wins": 3,
+      "losses": 6,
       "results": [
         {
           "o": "waterman indian creek",
+          "w": 0
+        },
+        {
+          "o": "seneca",
           "w": 0
         }
       ]
     },
     "pleasant plains": {
       "class": "3A",
-      "wins": 3,
-      "losses": 1,
+      "wins": 4,
+      "losses": 2,
       "results": [
         {
           "o": "springfield blessed sacrament",
@@ -5286,7 +6122,7 @@
     "pocahontas": {
       "class": "1A",
       "wins": 1,
-      "losses": 2,
+      "losses": 3,
       "results": [
         {
           "o": "bunker hill wolf ridge",
@@ -5300,8 +6136,8 @@
     },
     "pontiac jhs": {
       "class": "3A",
-      "wins": 6,
-      "losses": 2,
+      "wins": 8,
+      "losses": 4,
       "results": [
         {
           "o": "normal metcalf",
@@ -5313,9 +6149,12 @@
         }
       ]
     },
+    "pontiac st. mary's": {
+      "class": "1A"
+    },
     "potomac": {
       "class": "1A",
-      "wins": 5,
+      "wins": 6,
       "losses": 3,
       "results": [
         {
@@ -5325,6 +6164,10 @@
         {
           "o": "bismarck-henning",
           "w": 1
+        },
+        {
+          "o": "oakwood gs",
+          "w": 1
         }
       ]
     },
@@ -5333,6 +6176,10 @@
       "wins": 6,
       "losses": 4,
       "results": [
+        {
+          "o": "spring valley kennedy",
+          "w": 1
+        },
         {
           "o": "ottawa wallace",
           "w": 0
@@ -5345,41 +6192,65 @@
     },
     "princeville": {
       "class": "2A",
-      "wins": 1,
+      "wins": 4,
       "losses": 0,
       "results": [
         {
+          "o": "london mills valley",
+          "w": 1
+        },
+        {
+          "o": "toulon stark county",
+          "w": 1
+        },
+        {
           "o": "bartonville gs",
+          "w": 1
+        },
+        {
+          "o": "elmwood",
           "w": 1
         }
       ]
     },
     "quincy": {
       "class": "4A",
-      "wins": 3,
-      "losses": 2,
+      "wins": 5,
+      "losses": 3,
       "results": [
         {
           "o": "mt. sterling brown county",
           "w": 0
+        },
+        {
+          "o": "carthage",
+          "w": 0
+        },
+        {
+          "o": "camp point central",
+          "w": 1
         }
       ]
     },
     "quincy st. peter": {
       "class": "3A",
-      "wins": 2,
-      "losses": 1,
+      "wins": 4,
+      "losses": 2,
       "results": [
         {
           "o": "carthage",
           "w": 0
+        },
+        {
+          "o": "mendon unity",
+          "w": 1
         }
       ]
     },
     "ramsey": {
       "class": "1A",
       "wins": 2,
-      "losses": 4,
+      "losses": 6,
       "results": [
         {
           "o": "morrisonville jhs",
@@ -5396,12 +6267,16 @@
         {
           "o": "brownstown",
           "w": 0
+        },
+        {
+          "o": "nokomis jhs",
+          "w": 0
         }
       ]
     },
     "ransom": {
       "class": "1A",
-      "wins": 1,
+      "wins": 2,
       "losses": 1,
       "results": [
         {
@@ -5413,7 +6288,7 @@
     "rantoul eater": {
       "class": "4A",
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "results": [
         {
           "o": "champaign st. matthew",
@@ -5423,8 +6298,8 @@
     },
     "rantoul st. malachy": {
       "class": "1A",
-      "wins": 2,
-      "losses": 5,
+      "wins": 3,
+      "losses": 6,
       "results": [
         {
           "o": "mansfield blue ridge ijhs",
@@ -5442,24 +6317,28 @@
     },
     "riverdale washington": {
       "class": "2A",
-      "wins": 0,
-      "losses": 1,
+      "wins": 1,
+      "losses": 2,
       "results": []
     },
     "riverton": {
       "class": "3A",
-      "wins": 3,
+      "wins": 4,
       "losses": 5,
       "results": [
         {
           "o": "morrisonville jhs",
           "w": 0
+        },
+        {
+          "o": "springfield christ the king",
+          "w": 1
         }
       ]
     },
     "roanoke-benson": {
       "class": "1A",
-      "wins": 6,
+      "wins": 8,
       "losses": 2,
       "results": [
         {
@@ -5477,19 +6356,28 @@
         {
           "o": "wenona fieldcrest",
           "w": 1
+        },
+        {
+          "o": "normal metcalf",
+          "w": 1
         }
       ]
     },
-    "robbins kellar": {
-      "class": "3A"
-    },
     "robinson nuttall": {
-      "class": "3A"
+      "class": "3A",
+      "wins": 5,
+      "losses": 1,
+      "results": [
+        {
+          "o": "oblong",
+          "w": 1
+        }
+      ]
     },
     "rochester": {
       "class": "3A",
-      "wins": 3,
-      "losses": 5,
+      "wins": 4,
+      "losses": 7,
       "results": [
         {
           "o": "springfield christ the king",
@@ -5504,7 +6392,7 @@
     "rockdale": {
       "class": "1A",
       "wins": 1,
-      "losses": 5,
+      "losses": 6,
       "results": [
         {
           "o": "lockport kelvin grove",
@@ -5519,7 +6407,7 @@
     "rockford barbour": {
       "class": "2A",
       "wins": 0,
-      "losses": 2,
+      "losses": 3,
       "results": [
         {
           "o": "rockford montessori",
@@ -5537,25 +6425,45 @@
       "class": "4A"
     },
     "rockford flinn": {
-      "class": "4A"
+      "class": "4A",
+      "wins": 3,
+      "losses": 1,
+      "results": [
+        {
+          "o": "rockford montessori",
+          "w": 1
+        }
+      ]
     },
     "rockford kennedy": {
       "class": "3A",
-      "wins": 1,
-      "losses": 4,
+      "wins": 2,
+      "losses": 6,
       "results": [
         {
           "o": "rockford montessori",
           "w": 0
+        },
+        {
+          "o": "rockford barbour",
+          "w": 1
         }
       ]
     },
     "rockford lincoln": {
-      "class": "4A"
+      "class": "4A",
+      "wins": 5,
+      "losses": 1,
+      "results": [
+        {
+          "o": "rockford montessori",
+          "w": 1
+        }
+      ]
     },
     "rockford marshall": {
       "class": "3A",
-      "wins": 0,
+      "wins": 1,
       "losses": 3,
       "results": [
         {
@@ -5567,7 +6475,7 @@
     "rockford montessori": {
       "class": "2A",
       "wins": 5,
-      "losses": 0,
+      "losses": 3,
       "results": [
         {
           "o": "rockford barbour",
@@ -5578,7 +6486,7 @@
     "rockford resa": {
       "class": "4A",
       "wins": 3,
-      "losses": 2,
+      "losses": 5,
       "results": [
         {
           "o": "rockford montessori",
@@ -5591,7 +6499,15 @@
       ]
     },
     "rockford west": {
-      "class": "4A"
+      "class": "4A",
+      "wins": 6,
+      "losses": 3,
+      "results": [
+        {
+          "o": "rockford montessori",
+          "w": 1
+        }
+      ]
     },
     "romeoville lukancic": {
       "class": "4A",
@@ -5628,24 +6544,36 @@
     },
     "roxana": {
       "class": "3A",
-      "wins": 2,
-      "losses": 2,
+      "wins": 3,
+      "losses": 3,
       "results": [
         {
           "o": "maryville christian",
           "w": 1
         },
         {
+          "o": "east alton ms",
+          "w": 0
+        },
+        {
           "o": "greenfield",
           "w": 0
+        },
+        {
+          "o": "wood river lewis & clark",
+          "w": 1
         }
       ]
     },
     "royal prairieview ogden": {
       "class": "1A",
-      "wins": 4,
-      "losses": 1,
+      "wins": 5,
+      "losses": 2,
       "results": [
+        {
+          "o": "oakwood gs",
+          "w": 1
+        },
         {
           "o": "champaign st. matthew",
           "w": 1
@@ -5654,16 +6582,28 @@
     },
     "rushville schuyler industry": {
       "class": "2A",
-      "wins": 3,
-      "losses": 3,
+      "wins": 7,
+      "losses": 4,
       "results": [
         {
           "o": "bushnell-prairie city",
           "w": 1
         },
         {
+          "o": "havana",
+          "w": 1
+        },
+        {
           "o": "mt. sterling brown county",
           "w": 0
+        },
+        {
+          "o": "camp point central",
+          "w": 0
+        },
+        {
+          "o": "liberty",
+          "w": 1
         },
         {
           "o": "mendon unity",
@@ -5679,7 +6619,7 @@
     },
     "sandwich": {
       "class": "3A",
-      "wins": 5,
+      "wins": 8,
       "losses": 3,
       "results": [
         {
@@ -5689,11 +6629,19 @@
       ]
     },
     "sauk village rickover": {
-      "class": "3A"
+      "class": "3A",
+      "wins": 1,
+      "losses": 7,
+      "results": [
+        {
+          "o": "riverdale washington",
+          "w": 0
+        }
+      ]
     },
     "seneca": {
       "class": "2A",
-      "wins": 7,
+      "wins": 9,
       "losses": 0,
       "results": [
         {
@@ -5703,17 +6651,25 @@
         {
           "o": "marseilles es",
           "w": 1
+        },
+        {
+          "o": "dwight",
+          "w": 1
         }
       ]
     },
     "serena": {
       "class": "2A",
       "wins": 2,
-      "losses": 2,
+      "losses": 4,
       "results": [
         {
           "o": "waterman indian creek",
           "w": 1
+        },
+        {
+          "o": "somonauk",
+          "w": 0
         }
       ]
     },
@@ -5721,17 +6677,22 @@
       "class": "3A"
     },
     "sherrard jhs": {
-      "class": "3A"
+      "class": "3A",
+      "wins": 1,
+      "losses": 4,
+      "results": [
+        {
+          "o": "knoxville jhs",
+          "w": 0
+        }
+      ]
     },
     "shiloh": {
       "class": null
     },
-    "sidell jamaica": {
-      "class": null
-    },
     "sidell salt fork": {
       "class": "3A",
-      "wins": 7,
+      "wins": 8,
       "losses": 1,
       "results": [
         {
@@ -5751,7 +6712,7 @@
     "sigel st. michael's": {
       "class": "1A",
       "wins": 7,
-      "losses": 3,
+      "losses": 4,
       "results": [
         {
           "o": "stewardson-strasburg",
@@ -5780,22 +6741,34 @@
     },
     "somonauk": {
       "class": "2A",
-      "wins": 1,
-      "losses": 0,
+      "wins": 4,
+      "losses": 1,
       "results": [
         {
           "o": "waterman indian creek",
+          "w": 1
+        },
+        {
+          "o": "serena",
           "w": 1
         }
       ]
     },
     "south pekin": {
-      "class": "1A"
+      "class": "1A",
+      "wins": 2,
+      "losses": 5,
+      "results": [
+        {
+          "o": "washington beverly manor",
+          "w": 1
+        }
+      ]
     },
     "sparland midland": {
       "class": "2A",
-      "wins": 1,
-      "losses": 2,
+      "wins": 2,
+      "losses": 3,
       "results": [
         {
           "o": "brimfield",
@@ -5809,11 +6782,15 @@
     },
     "spring bay riverview": {
       "class": "1A",
-      "wins": 2,
-      "losses": 2,
+      "wins": 4,
+      "losses": 5,
       "results": [
         {
           "o": "marquette heights georgetowne",
+          "w": 0
+        },
+        {
+          "o": "peoria st. vincent de paul",
           "w": 0
         }
       ]
@@ -5821,14 +6798,18 @@
     "spring valley kennedy": {
       "class": "2A",
       "wins": 1,
-      "losses": 1,
+      "losses": 2,
       "results": []
     },
     "springfield blessed sacrament": {
       "class": "2A",
       "wins": 5,
-      "losses": 4,
+      "losses": 5,
       "results": [
+        {
+          "o": "lincoln chester-east lincoln",
+          "w": 0
+        },
         {
           "o": "petersburg porta jhs",
           "w": 0
@@ -5841,8 +6822,8 @@
     },
     "springfield calvary": {
       "class": "3A",
-      "wins": 3,
-      "losses": 4,
+      "wins": 4,
+      "losses": 5,
       "results": [
         {
           "o": "springfield christian",
@@ -5861,8 +6842,12 @@
     "springfield christ the king": {
       "class": "2A",
       "wins": 4,
-      "losses": 1,
+      "losses": 3,
       "results": [
+        {
+          "o": "lincoln chester-east lincoln",
+          "w": 0
+        },
         {
           "o": "mt. pulaski",
           "w": 1
@@ -5872,13 +6857,13 @@
     "springfield christian": {
       "class": "2A",
       "wins": 3,
-      "losses": 0,
+      "losses": 1,
       "results": []
     },
     "springfield franklin": {
       "class": "4A",
       "wins": 4,
-      "losses": 2,
+      "losses": 4,
       "results": [
         {
           "o": "springfield blessed sacrament",
@@ -5909,7 +6894,7 @@
     "st. anne": {
       "class": "1A",
       "wins": 0,
-      "losses": 3,
+      "losses": 5,
       "results": [
         {
           "o": "kankakee bishop mcnamara",
@@ -5919,8 +6904,8 @@
     },
     "st. jacob triad": {
       "class": "4A",
-      "wins": 4,
-      "losses": 6,
+      "wins": 5,
+      "losses": 7,
       "results": [
         {
           "o": "decatur our lady of lourdes",
@@ -5930,11 +6915,15 @@
     },
     "st. joseph": {
       "class": "3A",
-      "wins": 6,
-      "losses": 3,
+      "wins": 7,
+      "losses": 4,
       "results": [
         {
           "o": "oakwood gs",
+          "w": 1
+        },
+        {
+          "o": "champaign st. matthew",
           "w": 1
         }
       ]
@@ -5944,11 +6933,15 @@
     },
     "stanford olympia": {
       "class": "3A",
-      "wins": 4,
-      "losses": 1,
+      "wins": 6,
+      "losses": 2,
       "results": [
         {
           "o": "bloomington corpus christi",
+          "w": 1
+        },
+        {
+          "o": "lincoln chester-east lincoln",
           "w": 1
         },
         {
@@ -5959,7 +6952,7 @@
     },
     "staunton": {
       "class": "3A",
-      "wins": 11,
+      "wins": 13,
       "losses": 1,
       "results": [
         {
@@ -5979,7 +6972,7 @@
     "stewardson-strasburg": {
       "class": "2A",
       "wins": 7,
-      "losses": 2,
+      "losses": 3,
       "results": [
         {
           "o": "dieterich",
@@ -6026,7 +7019,7 @@
     },
     "sullivan": {
       "class": "3A",
-      "wins": 5,
+      "wins": 6,
       "losses": 1,
       "results": [
         {
@@ -6038,7 +7031,7 @@
     "table grove vit": {
       "class": "2A",
       "wins": 0,
-      "losses": 2,
+      "losses": 3,
       "results": [
         {
           "o": "bushnell-prairie city",
@@ -6055,9 +7048,13 @@
     },
     "taylorville jhs": {
       "class": "4A",
-      "wins": 5,
-      "losses": 2,
+      "wins": 6,
+      "losses": 3,
       "results": [
+        {
+          "o": "decatur our lady of lourdes",
+          "w": 1
+        },
         {
           "o": "effingham st. anthony",
           "w": 1
@@ -6066,7 +7063,7 @@
     },
     "teutopolis": {
       "class": "3A",
-      "wins": 8,
+      "wins": 9,
       "losses": 1,
       "results": [
         {
@@ -6080,24 +7077,44 @@
       ]
     },
     "toledo cumberland": {
-      "class": "3A"
+      "class": "3A",
+      "wins": 5,
+      "losses": 3,
+      "results": [
+        {
+          "o": "oblong",
+          "w": 1
+        },
+        {
+          "o": "brownstown",
+          "w": 1
+        }
+      ]
     },
     "tolono unity": {
       "class": "3A",
       "wins": 3,
-      "losses": 4,
+      "losses": 6,
       "results": [
         {
           "o": "arcola",
           "w": 1
+        },
+        {
+          "o": "paris crestwood",
+          "w": 0
         }
       ]
     },
     "toulon stark county": {
       "class": "2A",
-      "wins": 1,
-      "losses": 3,
+      "wins": 2,
+      "losses": 7,
       "results": [
+        {
+          "o": "mcnabb putnam county",
+          "w": 1
+        },
         {
           "o": "sparland midland",
           "w": 0
@@ -6105,13 +7122,21 @@
         {
           "o": "manlius bureau valley jhs",
           "w": 0
+        },
+        {
+          "o": "williamsfield",
+          "w": 0
+        },
+        {
+          "o": "princeville",
+          "w": 0
         }
       ]
     },
     "tremont": {
       "class": "3A",
       "wins": 2,
-      "losses": 6,
+      "losses": 8,
       "results": [
         {
           "o": "green valley midwest central",
@@ -6128,9 +7153,17 @@
     },
     "tuscola east prairie": {
       "class": "3A",
-      "wins": 3,
-      "losses": 2,
+      "wins": 5,
+      "losses": 4,
       "results": [
+        {
+          "o": "paris crestwood",
+          "w": 0
+        },
+        {
+          "o": "mattoon st. john's",
+          "w": 0
+        },
         {
           "o": "arcola",
           "w": 1
@@ -6150,8 +7183,8 @@
     },
     "vandalia": {
       "class": "3A",
-      "wins": 3,
-      "losses": 7,
+      "wins": 5,
+      "losses": 8,
       "results": [
         {
           "o": "beecher city",
@@ -6170,7 +7203,7 @@
     "villa grove": {
       "class": "1A",
       "wins": 0,
-      "losses": 4,
+      "losses": 8,
       "results": [
         {
           "o": "champaign st. matthew",
@@ -6184,7 +7217,7 @@
     },
     "virginia": {
       "class": "3A",
-      "wins": 6,
+      "wins": 7,
       "losses": 0,
       "results": [
         {
@@ -6223,16 +7256,20 @@
     "washington beverly manor": {
       "class": "2A",
       "wins": 0,
-      "losses": 2,
+      "losses": 6,
       "results": []
     },
     "washington central": {
       "class": "4A",
-      "wins": 7,
+      "wins": 10,
       "losses": 0,
       "results": [
         {
           "o": "normal epiphany",
+          "w": 1
+        },
+        {
+          "o": "washington beverly manor",
           "w": 1
         },
         {
@@ -6243,7 +7280,7 @@
     },
     "washington ms": {
       "class": "3A",
-      "wins": 5,
+      "wins": 7,
       "losses": 1,
       "results": [
         {
@@ -6258,9 +7295,17 @@
     },
     "washington st. patrick": {
       "class": "1A",
-      "wins": 1,
+      "wins": 5,
       "losses": 1,
       "results": [
+        {
+          "o": "marquette heights georgetowne",
+          "w": 1
+        },
+        {
+          "o": "elmwood",
+          "w": 1
+        },
         {
           "o": "bloomington corpus christi",
           "w": 0
@@ -6269,8 +7314,8 @@
     },
     "waterman indian creek": {
       "class": "2A",
-      "wins": 4,
-      "losses": 5,
+      "wins": 5,
+      "losses": 6,
       "results": [
         {
           "o": "somonauk",
@@ -6298,18 +7343,22 @@
     },
     "wenona fieldcrest": {
       "class": "2A",
-      "wins": 1,
+      "wins": 2,
       "losses": 3,
       "results": [
         {
           "o": "bloomington corpus christi",
           "w": 0
+        },
+        {
+          "o": "normal metcalf",
+          "w": 1
         }
       ]
     },
     "westville jhs": {
       "class": "3A",
-      "wins": 4,
+      "wins": 5,
       "losses": 4,
       "results": [
         {
@@ -6319,13 +7368,17 @@
         {
           "o": "bismarck-henning",
           "w": 0
+        },
+        {
+          "o": "georgetown mary miller",
+          "w": 1
         }
       ]
     },
     "white hall north greene": {
       "class": "2A",
       "wins": 3,
-      "losses": 1,
+      "losses": 3,
       "results": [
         {
           "o": "bunker hill wolf ridge",
@@ -6339,22 +7392,42 @@
     },
     "williamsfield": {
       "class": "2A",
-      "wins": 1,
+      "wins": 3,
       "losses": 0,
       "results": [
         {
           "o": "brimfield",
           "w": 1
+        },
+        {
+          "o": "toulon stark county",
+          "w": 1
+        },
+        {
+          "o": "elmwood",
+          "w": 1
         }
       ]
     },
     "williamsville": {
-      "class": "3A"
+      "class": "3A",
+      "wins": 7,
+      "losses": 0,
+      "results": [
+        {
+          "o": "mt. pulaski",
+          "w": 1
+        },
+        {
+          "o": "springfield christian",
+          "w": 1
+        }
+      ]
     },
     "wilmington": {
       "class": "3A",
-      "wins": 1,
-      "losses": 5,
+      "wins": 2,
+      "losses": 6,
       "results": [
         {
           "o": "dwight",
@@ -6365,10 +7438,14 @@
     "wood river lewis & clark": {
       "class": "2A",
       "wins": 1,
-      "losses": 3,
+      "losses": 7,
       "results": [
         {
           "o": "maryville christian",
+          "w": 0
+        },
+        {
+          "o": "east alton ms",
           "w": 0
         }
       ]
