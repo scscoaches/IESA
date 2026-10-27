@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26 09:07",
+  "updatedAt": "2026-10-27 09:12",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -396,7 +396,14 @@
     ],
     "fieldcrest-middle-school-wenona-il": [],
     "fisher-high-school-fisher-il": [],
-    "greenfield-high-school-greenfield-il": [],
+    "greenfield-high-school-greenfield-il": [
+      {
+        "key": "gam863abc92bf",
+        "url": "https://www.nfhsnetwork.com/events/franklin-high-school-franklin-il/gam863abc92bf",
+        "label": "Greenfield vs. Franklin",
+        "start": "2026-10-30T23:00:00.000Z"
+      }
+    ],
     "havana-high-school-havana-il": [
       {
         "key": "gamaf8433d638",
@@ -640,7 +647,7 @@
         "key": "gam1b0124b1e7",
         "url": "https://www.nfhsnetwork.com/events/sangamon-valley-high-school-niantic-il/gam1b0124b1e7",
         "label": "Meridian Macon vs. Sangamon Valley",
-        "start": "2026-11-10T23:55:00.000Z"
+        "start": "2026-11-10T22:55:00.000Z"
       },
       {
         "key": "gamb283391690",
@@ -782,12 +789,6 @@
         "start": "2026-10-10T14:00:00.000Z"
       },
       {
-        "key": "gamd627f7e041",
-        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamd627f7e041",
-        "label": "Mt. Pulaski",
-        "start": "2026-10-10T14:00:00.000Z"
-      },
-      {
         "key": "gam4ee7f900e4",
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam4ee7f900e4",
         "label": "Mt. Pulaski",
@@ -839,13 +840,13 @@
         "key": "gamd994c38887",
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamd994c38887",
         "label": "Decatur vs. Mt. Pulaski",
-        "start": "2026-10-26T22:55:00.000Z"
+        "start": "2026-10-26T21:55:00.000Z"
       },
       {
         "key": "gamf0762a94e3",
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamf0762a94e3",
         "label": "Lincoln Junior High School vs. Mt. Pulaski",
-        "start": "2026-10-29T22:00:00.000Z"
+        "start": "2026-10-29T22:55:00.000Z"
       },
       {
         "key": "gam7dee666830",
@@ -1161,6 +1162,12 @@
         "url": "https://www.nfhsnetwork.com/events/west-central-high-school-coop-w-winchester-biggsville-il/gam56c217ec1f",
         "label": "Away vs. WCHS",
         "start": "2026-10-27T22:30:00.000Z"
+      },
+      {
+        "key": "gam9a7da6c995",
+        "url": "https://www.nfhsnetwork.com/events/franklin-high-school-franklin-il/gam9a7da6c995",
+        "label": "WCHS vs. Franklin",
+        "start": "2026-11-05T00:00:00.000Z"
       },
       {
         "key": "gam43d1b795b9",
