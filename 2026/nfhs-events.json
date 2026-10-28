@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27 09:12",
+  "updatedAt": "2026-10-28 09:52",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -540,6 +540,18 @@
         "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam03d4ec5024",
         "label": "Paw Paw Jr vs. Indian Creek",
         "start": "2026-10-15T21:30:00.000Z"
+      },
+      {
+        "key": "gamb53a70a768",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gamb53a70a768",
+        "label": "Newark vs. Indian Creek",
+        "start": "2026-10-27T21:30:00.000Z"
+      },
+      {
+        "key": "gam50f23a30a6",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam50f23a30a6",
+        "label": "Indian Creek",
+        "start": "2026-10-28T21:30:00.000Z"
       }
     ],
     "international-prep-academy-champaign-il": [
@@ -1156,12 +1168,6 @@
         "url": "https://www.nfhsnetwork.com/events/west-central-high-school-coop-w-winchester-biggsville-il/gam63a213ae9e",
         "label": "Away vs. WCHS",
         "start": "2026-10-21T22:30:00.000Z"
-      },
-      {
-        "key": "gam56c217ec1f",
-        "url": "https://www.nfhsnetwork.com/events/west-central-high-school-coop-w-winchester-biggsville-il/gam56c217ec1f",
-        "label": "Away vs. WCHS",
-        "start": "2026-10-27T22:30:00.000Z"
       },
       {
         "key": "gam9a7da6c995",
