@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29 10:10",
+  "updatedAt": "2026-10-30 10:13",
   "schools": {
     "Arcola": [
       {
@@ -61,13 +61,6 @@
     ],
     "Effingham St. Anthony": [
       {
-        "key": "RmFuQnJvYWRjYXN0NDU0NjY0Mw==",
-        "url": "https://fan.hudl.com/usa/il/effingham/organization/131445/st-anthony-effingham-high-school/watch?b=RmFuQnJvYWRjYXN0NDU0NjY0Mw%3D%3D",
-        "label": "Effingham St. Anthony vs. Teutopolis",
-        "title": "7th Gr. followed by 8th Gr. - St Anthony Effingham vs Teutopolis JH Womens Basketball",
-        "start": "2026-10-29T22:50:00Z"
-      },
-      {
         "key": "RmFuQnJvYWRjYXN0NDU0NjY1Ng==",
         "url": "https://fan.hudl.com/usa/il/effingham/organization/131445/st-anthony-effingham-high-school/watch?b=RmFuQnJvYWRjYXN0NDU0NjY1Ng%3D%3D",
         "label": "Effingham St. Anthony vs. Effingham",
@@ -83,6 +76,13 @@
       }
     ],
     "Greenfield (Co-op)": [
+      {
+        "key": "RmFuQnJvYWRjYXN0NDcyMjcxNw==",
+        "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDcyMjcxNw%3D%3D",
+        "label": "Greenfield vs. North Mac Girls'",
+        "title": "Greenfield/Northwest vs North Mac Girls' JH Basketball",
+        "start": "2026-11-02T23:55:00Z"
+      },
       {
         "key": "RmFuQnJvYWRjYXN0NDE2MjkzMg==",
         "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDE2MjkzMg%3D%3D",

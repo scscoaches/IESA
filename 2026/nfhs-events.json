@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29 10:10",
+  "updatedAt": "2026-10-30 10:13",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -788,12 +788,6 @@
     ],
     "morton-grove-academy-morton-grove-il": [],
     "mt-pulaski-high-school-mt-pulaski-il": [
-      {
-        "key": "gamc0f1163216",
-        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamc0f1163216",
-        "label": "Mt. Pulaski",
-        "start": "2026-10-10T14:00:00.000Z"
-      },
       {
         "key": "gam4ee7f900e4",
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam4ee7f900e4",
