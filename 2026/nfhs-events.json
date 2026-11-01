@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31 09:50",
+  "updatedAt": "2026-11-01 10:40",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -216,6 +216,12 @@
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam4df162f0c8",
         "label": "Chester East vs. Mt. Pulaski",
         "start": "2026-10-22T21:55:00.000Z"
+      },
+      {
+        "key": "gam46b9cd68cd",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam46b9cd68cd",
+        "label": "Chester East vs. MCMS",
+        "start": "2026-11-05T23:15:00.000Z"
       }
     ],
     "cornerstone-christian-academy-bloomington-il": [
@@ -696,7 +702,7 @@
       {
         "key": "gam46b9cd68cd",
         "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam46b9cd68cd",
-        "label": "MCMS",
+        "label": "Chester East vs. MCMS",
         "start": "2026-11-05T23:15:00.000Z"
       },
       {
