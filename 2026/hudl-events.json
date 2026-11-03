@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02 11:14",
+  "updatedAt": "2026-11-03 11:03",
   "schools": {
     "Arcola": [
       {
@@ -77,13 +77,6 @@
     ],
     "Greenfield (Co-op)": [
       {
-        "key": "RmFuQnJvYWRjYXN0NDcyMjcxNw==",
-        "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDcyMjcxNw%3D%3D",
-        "label": "Greenfield vs. North Mac Girls'",
-        "title": "Greenfield/Northwest vs North Mac Girls' JH Basketball",
-        "start": "2026-11-02T23:55:00Z"
-      },
-      {
         "key": "RmFuQnJvYWRjYXN0NDE2MjkzMg==",
         "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDE2MjkzMg%3D%3D",
         "label": "Greenfield vs. Morrisonville",
@@ -119,6 +112,13 @@
         "label": "Liberty vs. Carthage",
         "title": "Liberty Junior High School Girls Basketball vs Carthage JH Girls Basketball",
         "start": "2026-10-16T22:50:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDc0MDk5Ng==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDc0MDk5Ng%3D%3D",
+        "label": "Liberty vs. Quincy Notre Dame",
+        "title": "Liberty JH vs Quincy Notre Dame JH Basketball",
+        "start": "2026-11-02T23:25:00Z"
       }
     ]
   }
