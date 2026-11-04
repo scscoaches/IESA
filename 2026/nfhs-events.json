@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03 11:03",
+  "updatedAt": "2026-11-04 11:07",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -38,14 +38,7 @@
         "start": "2026-11-03T00:00:00.000Z"
       }
     ],
-    "bluffs-junior-high-school-bluffs-il": [
-      {
-        "key": "gam838304fc84",
-        "url": "https://www.nfhsnetwork.com/events/new-berlin-elementary-school-new-berlin-il/gam838304fc84",
-        "label": "Bluffs Junior High School vs. New Berlin Elem",
-        "start": "2026-11-05T00:00:00.000Z"
-      }
-    ],
+    "bluffs-junior-high-school-bluffs-il": [],
     "brimfield-high-school-brimfield-il": [
       {
         "key": "gam9881bbacb3",
@@ -266,6 +259,12 @@
         "url": "https://www.nfhsnetwork.com/events/calvary-christian-academy-normal-il/gam84e28add66",
         "label": "Cornerstone vs. Calvary",
         "start": "2026-11-03T23:55:00.000Z"
+      },
+      {
+        "key": "gam4192616232",
+        "url": "https://www.nfhsnetwork.com/events/calvary-christian-academy-normal-il/gam4192616232",
+        "label": "Middle School Girls Basketball",
+        "start": "2026-11-07T17:55:00.000Z"
       },
       {
         "key": "gam5bc096ee1e",
@@ -795,12 +794,6 @@
         "start": "2026-10-10T18:00:00.000Z"
       },
       {
-        "key": "gamc459dba47e",
-        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamc459dba47e",
-        "label": "Mt. Pulaski",
-        "start": "2026-10-10T18:00:00.000Z"
-      },
-      {
         "key": "gam8931b09f2d",
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam8931b09f2d",
         "label": "Mt. Pulaski",
@@ -1100,12 +1093,6 @@
         "start": "2026-10-27T22:30:00.000Z"
       },
       {
-        "key": "gamf325131225",
-        "url": "https://www.nfhsnetwork.com/events/vit-high-school-astoriatable-grove-coop-table-grove-il/gamf325131225",
-        "label": "West Prairie Middle School vs. VIT",
-        "start": "2026-11-03T23:30:00.000Z"
-      },
-      {
         "key": "gam33d952068d",
         "url": "https://www.nfhsnetwork.com/events/vit-high-school-astoriatable-grove-coop-table-grove-il/gam33d952068d",
         "label": "MCMS vs. VIT",
@@ -1176,12 +1163,6 @@
         "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gam47a3dfa968",
         "label": "West Prairie Middle School vs. Camp Point",
         "start": "2026-10-15T23:00:00.000Z"
-      },
-      {
-        "key": "gamf325131225",
-        "url": "https://www.nfhsnetwork.com/events/vit-high-school-astoriatable-grove-coop-table-grove-il/gamf325131225",
-        "label": "West Prairie Middle School vs. VIT",
-        "start": "2026-11-03T23:30:00.000Z"
       }
     ],
     "williamsfield-high-school-williamsfield-il": []
