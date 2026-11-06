@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05 11:05",
+  "updatedAt": "2026-11-06 11:04",
   "schools": {
     "Arcola": [
       {
@@ -61,13 +61,6 @@
     ],
     "Effingham St. Anthony": [
       {
-        "key": "RmFuQnJvYWRjYXN0NDU0NjY1Ng==",
-        "url": "https://fan.hudl.com/usa/il/effingham/organization/131445/st-anthony-effingham-high-school/watch?b=RmFuQnJvYWRjYXN0NDU0NjY1Ng%3D%3D",
-        "label": "Effingham St. Anthony vs. Effingham",
-        "title": "7th Gr. followed by 8th Gr. - St Anthony Effingham vs Effingham JH Womens Basketball",
-        "start": "2026-11-05T23:50:00Z"
-      },
-      {
         "key": "RmFuQnJvYWRjYXN0NDU0NjY2OA==",
         "url": "https://fan.hudl.com/usa/il/effingham/organization/131445/st-anthony-effingham-high-school/watch?b=RmFuQnJvYWRjYXN0NDU0NjY2OA%3D%3D",
         "label": "Effingham St. Anthony vs. Casey-Westfield",
@@ -112,6 +105,13 @@
         "label": "Liberty vs. Quincy Notre Dame",
         "title": "Liberty JH vs Quincy Notre Dame JH Basketball",
         "start": "2026-11-02T23:25:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDc2NTMxOA==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDc2NTMxOA%3D%3D",
+        "label": "Liberty vs. Beardstown",
+        "title": "Liberty JH vs Beardstown JH  GIrls Basketball",
+        "start": "2026-11-05T23:55:00Z"
       }
     ]
   }
