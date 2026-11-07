@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06 11:04",
+  "updatedAt": "2026-11-07 10:17",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -771,6 +771,12 @@
         "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gam23b14e79df",
         "label": "Auburn vs. Morrisonville",
         "start": "2026-11-05T23:50:00.000Z"
+      },
+      {
+        "key": "gam8eb9f7e9d7",
+        "url": "https://www.nfhsnetwork.com/events/lincolnwood-high-school-raymond-il/gam8eb9f7e9d7",
+        "label": "Middle School Girls Basketball",
+        "start": "2026-11-11T00:00:00.000Z"
       },
       {
         "key": "gam4df5d446b8",
