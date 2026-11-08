@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07 10:17",
+  "updatedAt": "2026-11-08 10:31",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -858,6 +858,12 @@
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam7dee666830",
         "label": "Mt. Pulaski",
         "start": "2026-11-03T23:25:00.000Z"
+      },
+      {
+        "key": "gam5f3c12a81b",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam5f3c12a81b",
+        "label": "Mt. Pulaski",
+        "start": "2026-11-08T19:00:00.000Z"
       },
       {
         "key": "gam5d03915e13",
