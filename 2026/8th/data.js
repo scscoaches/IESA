@@ -89,7 +89,7 @@ window.tournamentData = {
             regionals: [n * 2 - 1, n * 2],
             host: ["Joliet Laraway", "Waterman Indian Creek", "Normal Epiphany",
                 "Glasford Illini Bluffs", "Mt. Sterling Brown County",
-                "Warrensburg-Latham", "TBD", "TBD"
+                "Warrensburg-Latham", "Paris Crestwood", "Bunker HIll"
             ][n - 1],
             date: "Wednesday, December 9, 2026 • 6:00 PM"
         }
