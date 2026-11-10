@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09 11:42",
+  "updatedAt": "2026-11-10 11:22",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -488,7 +488,7 @@
         "key": "gam1d3589f5df",
         "url": "https://www.nfhsnetwork.com/events/illini-bluffs-high-school-glasford-il/gam1d3589f5df",
         "label": "Away vs. Illini Bluffs",
-        "start": "2026-11-09T23:00:00.000Z"
+        "start": "2026-11-09T22:00:00.000Z"
       },
       {
         "key": "gam099072c002",
@@ -551,6 +551,36 @@
         "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam50f23a30a6",
         "label": "Indian Creek",
         "start": "2026-10-28T21:30:00.000Z"
+      },
+      {
+        "key": "game118a14663",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/game118a14663",
+        "label": "Teams TBD",
+        "start": "2026-11-10T22:30:00.000Z"
+      },
+      {
+        "key": "game4c627284b",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/game4c627284b",
+        "label": "Teams TBD",
+        "start": "2026-11-11T22:30:00.000Z"
+      },
+      {
+        "key": "gama65bc73b2e",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gama65bc73b2e",
+        "label": "Teams TBD",
+        "start": "2026-11-12T22:30:00.000Z"
+      },
+      {
+        "key": "gam24aa356e28",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam24aa356e28",
+        "label": "Teams TBD",
+        "start": "2026-11-13T22:30:00.000Z"
+      },
+      {
+        "key": "gamd83f770377",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gamd83f770377",
+        "label": "Indian Creek",
+        "start": "2026-11-16T22:30:00.000Z"
       }
     ],
     "international-prep-academy-champaign-il": [
@@ -800,12 +830,6 @@
     "morton-grove-academy-morton-grove-il": [],
     "mt-pulaski-high-school-mt-pulaski-il": [
       {
-        "key": "gam8931b09f2d",
-        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam8931b09f2d",
-        "label": "Mt. Pulaski",
-        "start": "2026-10-11T18:00:00.000Z"
-      },
-      {
         "key": "gam5a852058da",
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam5a852058da",
         "label": "Illini Central vs. Mt. Pulaski",
@@ -958,12 +982,6 @@
         "url": "https://www.nfhsnetwork.com/events/stark-county-high-school-toulon-il/gam7ab111091a",
         "label": "Putnam County Junior High School vs. Stark County",
         "start": "2026-10-17T15:00:00.000Z"
-      },
-      {
-        "key": "gamf18b414b89",
-        "url": "https://www.nfhsnetwork.com/events/bureau-valley-high-school-manlius-il/gamf18b414b89",
-        "label": "Putnam County Junior High School vs. Bureau Valley",
-        "start": "2026-11-09T23:30:00.000Z"
       }
     ],
     "schuyler-industry-middle-school-rushville-il": [],

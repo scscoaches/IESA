@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09 11:42",
+  "updatedAt": "2026-11-10 11:22",
   "schools": {
     "Arcola": [
       {
@@ -105,6 +105,13 @@
         "label": "Liberty vs. Beardstown",
         "title": "Liberty JH vs Beardstown JH  GIrls Basketball",
         "start": "2026-11-05T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDc4ODQ2MA==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDc4ODQ2MA%3D%3D",
+        "label": "Liberty vs. Palmyra Junior High",
+        "title": "Liberty Junior High School vs Palmyra Junior High Girls Basketball",
+        "start": "2026-11-09T23:52:00Z"
       }
     ]
   }
