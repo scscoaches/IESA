@@ -355,7 +355,7 @@
                     link.title = "Watch on " + entry.source.label;
                     link.setAttribute("aria-label", "Watch " + game.opponent + " on " + entry.source.label);
                     var icon = document.createElement("img");
-                    icon.src = "../icons/" + entry.source.kind + ".svg";
+                    icon.src = new URL("icons/" + entry.source.kind + ".svg", shared).href;
                     icon.alt = "";
                     link.appendChild(icon);
                     watch.appendChild(link);

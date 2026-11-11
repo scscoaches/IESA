@@ -1,5 +1,6 @@
 (function() {
     "use strict";
+    var appScript = document.currentScript.src;
     var d = window.tournamentData,
         b = document.querySelector("#bracket"),
         v = document.querySelector("#viewport"),
@@ -584,7 +585,8 @@
             (official ? " official bracket" : " unofficial projected bracket"));
         projectionRefresh.hidden = Boolean(official) || typeof window.iesaFetchLiveTeam !== "function";
         if (!projectionRefresh.hidden && !refreshIcon.getAttribute("src")) {
-            refreshIcon.src = "../refresh-icon.svg";
+            // Resolved from this script so pages in 2026/<class>/<grade>/ work too.
+            refreshIcon.src = new URL("refresh-icon.svg", appScript).href;
         }
         projectionRounds.replaceChildren();
         projectionSource.hidden = !official || !official.sourceUrl;
