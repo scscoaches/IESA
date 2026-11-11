@@ -2,8 +2,11 @@ param(
     [string]$SitePath = "C:\inetpub\personalroot\IESA\2026",
     [int]$RetentionDays = 7,
     [double]$MinimumHoursBetweenRuns = 2,
-    [switch]$Force
+    [switch]$Force,
+    # Refresh only these classes (for example -Classes 1A). Scheduled runs omit it.
+    [ValidateSet("1A", "2A", "3A", "4A")][string[]]$Classes
 )
+$includes2A = !$Classes -or $Classes -contains "2A"
 
 $ErrorActionPreference = "Stop"
 . (Join-Path $PSScriptRoot "IesaRequest.ps1")
@@ -37,12 +40,12 @@ foreach ($grade in "7th", "8th") {
     } catch { $lastRun = $null; break }
 }
 $paused = Get-IesaPause
-if (!$paused -and !$Force -and $lastRun -and ((Get-Date) - $lastRun).TotalHours -lt $MinimumHoursBetweenRuns) {
+if (!$paused -and !$Force -and $includes2A -and $lastRun -and ((Get-Date) - $lastRun).TotalHours -lt $MinimumHoursBetweenRuns) {
     $paused = "Scores were refreshed at $($lastRun.ToString('yyyy-MM-dd HH:mm')); skipping IESA until $MinimumHoursBetweenRuns hours have passed (use -Force to override)."
 }
 if ($paused) {
     Write-Warning $paused
-    Update-StreamLinks
+    if ($includes2A) { Update-StreamLinks }
     return
 }
 
@@ -54,7 +57,14 @@ foreach ($match in [regex]::Matches($directoryPage.Content, "(?is)<a href='membe
 }
 
 function Get-Regionals([string]$grade) {
-    $script = Get-Content -Raw (Join-Path $SitePath "$grade\data.js")
+    # Classes built by Build-IesaSeason.ps1 -Live publish their rosters as JSON;
+    # the hand-maintained Class 2A pages keep them in executable data.js.
+    $json = Join-Path $ClassPath "$grade\data.json"
+    if (Test-Path -LiteralPath $json) {
+        foreach ($regional in (Get-Content -Raw -LiteralPath $json | ConvertFrom-Json).regionals) { , @($regional.teams) }
+        return
+    }
+    $script = Get-Content -Raw (Join-Path $ClassPath "$grade\data.js")
     $match = if ($grade -eq "7th") {
         [regex]::Match($script, "(?s)\bvar\s+teams\s*=\s*\[(.*?)\]\s*;\s*return\s+teams\.map")
     } else {
@@ -72,10 +82,45 @@ function Get-Teams([string]$grade) {
     Get-Regionals $grade | ForEach-Object { $_ } | Select-Object -Unique
 }
 
+function Get-TeamKey([string]$name) {
+    (($name -replace "(?i)\s+\(Co-?op\)$", "") -replace "\s+", " ").Trim().ToLowerInvariant()
+}
+
+# Schools that lost a regional or sectional game have finished their season;
+# their IESA page only changes if a late regular-season score is posted, which
+# the next morning's full check picks up. State qualifiers stay on the list.
+function Get-EliminatedTeams([string]$grade) {
+    $out = @{}
+    $seedsPath = Join-Path $ClassPath "regional-seeds-$grade.json"
+    if (Test-Path -LiteralPath $seedsPath) {
+        $seeds = Get-Content -Raw -LiteralPath $seedsPath | ConvertFrom-Json
+        foreach ($bracket in $seeds.regionalBrackets.PSObject.Properties) {
+            foreach ($round in @($bracket.Value.rounds)) {
+                foreach ($game in @($round)) {
+                    if (!$game.winner -or $game.bye) { continue }
+                    foreach ($name in @($game.teams)) {
+                        if ($name -and $name -ne $game.winner) { $out[(Get-TeamKey $name)] = $true }
+                    }
+                }
+            }
+        }
+    }
+    $bracketPath = Join-Path $ClassPath "bracket-$grade.json"
+    if (Test-Path -LiteralPath $bracketPath) {
+        $capture = Get-Content -Raw -LiteralPath $bracketPath | ConvertFrom-Json
+        foreach ($stage in "regionals", "sectionals") {
+            foreach ($result in @($capture.$stage.PSObject.Properties)) {
+                if ($result.Value.loser) { $out[(Get-TeamKey $result.Value.loser)] = $true }
+            }
+        }
+    }
+    return $out
+}
+
 # Rosters are fixed in data.js when the season is built, but IESA edits the
 # assignment page when a school withdraws. Report drift so data.js can be fixed.
 function Get-RosterChanges([string]$grade) {
-    $classCode = $grade.Substring(0, 1) + "-2A"
+    $classCode = $grade.Substring(0, 1) + "-$ClassName"
     $url = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=2026&Class=$classCode"
     $html = (Invoke-IesaPage $url).Content
     $headers = @([regex]::Matches($html, "(?is)<td\s+class=['""]TableSubtitle2['""][^>]*>\s*Regional\s+(\d+)\s*</td>"))
@@ -162,6 +207,33 @@ function Write-AtomicFile([string]$path, [string]$content) {
     Move-Item -LiteralPath $temporary -Destination $path -Force
 }
 
+# Class 2A (the hand-maintained pages in this folder) is re-read on every run.
+# Classes 1A, 3A and 4A (2026\<class>\, built by Build-IesaSeason.ps1 -Live) are
+# read once a day, on their first run of the Central day, to keep IESA load down.
+$liveClasses = @([pscustomobject]@{ Name = "2A"; Path = $SitePath; EveryRun = $true })
+foreach ($other in "1A", "3A", "4A") {
+    $otherPath = Join-Path $SitePath $other
+    if (Test-Path -LiteralPath (Join-Path $otherPath "7th\data.json")) {
+        $liveClasses += [pscustomobject]@{ Name = $other; Path = $otherPath; EveryRun = $false }
+    }
+}
+if ($Classes) { $liveClasses = @($liveClasses | Where-Object { $_.Name -in $Classes }) }
+$refreshedClasses = @()
+foreach ($liveClass in $liveClasses) {
+$ClassName = $liveClass.Name
+$ClassPath = $liveClass.Path
+if (!$liveClass.EveryRun -and !$Force) {
+    $doneToday = @("7th", "8th" | Where-Object {
+        $cachePath = Join-Path $ClassPath "scores-$_.json"
+        (Test-Path -LiteralPath $cachePath) -and
+            (Get-Content -Raw -LiteralPath $cachePath | ConvertFrom-Json).fullSweepDate -eq $today.ToString("yyyy-MM-dd")
+    }).Count -eq 2
+    if ($doneToday) { continue }
+}
+if (Get-IesaPause) { break }
+# Each class is its own job for the per-run request cap (about 190-220 schools).
+$global:IesaGuard.Count = 0
+$refreshedClasses += $liveClass
 foreach ($grade in "7th", "8th") {
     $gradeLevel = $grade.Substring(0, 1)
     $teams = @{}
@@ -169,8 +241,10 @@ foreach ($grade in "7th", "8th") {
     $previousTeams = @{}
     $previousCaptureAt = $null
     $previousChanges = @()
+    $previousSweep = $null
+    $previousCache = $null
     $runTimestamp = (Get-Date).ToString("yyyy-MM-dd HH:mm")
-    $previousPath = Join-Path $SitePath "scores-$grade.json"
+    $previousPath = Join-Path $ClassPath "scores-$grade.json"
     if (Test-Path -LiteralPath $previousPath) {
         $previousCache = Get-Content -Raw -LiteralPath $previousPath | ConvertFrom-Json
         $previousCaptureAt = $previousCache.updatedAt
@@ -178,16 +252,31 @@ foreach ($grade in "7th", "8th") {
             $previousTeams[$property.Name] = $property.Value
         }
         $previousChanges = @($previousCache.updatedGames)
+        if ($previousCache.PSObject.Properties["fullSweepDate"]) { $previousSweep = $previousCache.fullSweepDate }
     }
 
+    # Go easy on IESA: the first run of each Central day reads every school. Later
+    # runs that day skip only schools knocked out of the postseason and reuse
+    # this morning's page for them. Schools may enter a game with its final score
+    # without ever listing it as PENDING, so every other school is re-read.
+    $todayKey = $today.ToString("yyyy-MM-dd")
+    $fullSweep = $Force -or !$previousSweep -or $previousSweep -ne $todayKey -or !$previousTeams.Count
+    $eliminated = if ($fullSweep) { @{} } else { Get-EliminatedTeams $grade }
+    $fetched = 0
+    $reused = 0
+
     $rosterChanges = @()
+    if (!$fullSweep -and $previousCache.PSObject.Properties["rosterChanges"]) {
+        $rosterChanges = @($previousCache.rosterChanges)
+    }
     try {
-        $rosterChanges = @(Get-RosterChanges $grade)
+        if ($fullSweep) { $rosterChanges = @(Get-RosterChanges $grade) }
         foreach ($change in $rosterChanges) {
             $message = "$grade Regional $($change.regional) roster differs from IESA assignments." +
                 $(if ($change.removed.Count) { " No longer listed: $($change.removed -join ', ')." } else { "" }) +
                 $(if ($change.added.Count) { " Newly listed: $($change.added -join ', ')." } else { "" }) +
-                " Update $grade\data.js."
+                $(if ($ClassName -eq "2A") { " Update $grade\data.js." } else {
+                    " Rebuild with .\Build-IesaSeason.ps1 -Year 2026 -ClassName $ClassName -Live." })
             Write-Warning $message
             if ($env:GITHUB_ACTIONS) { Write-Output "::warning title=IESA roster change::$message" }
         }
@@ -197,6 +286,11 @@ foreach ($grade in "7th", "8th") {
 
     foreach ($team in Get-Teams $grade) {
         if (Get-IesaPause) { break }
+        if (!$fullSweep -and $previousTeams.ContainsKey($team) -and $eliminated.ContainsKey((Get-TeamKey $team))) {
+            $teams[$team] = $previousTeams[$team]
+            $reused++
+            continue
+        }
         $lookup = ($team -replace "\s+\(Co-op\)", "").Trim().ToLowerInvariant()
         if (!$directory.ContainsKey($lookup)) {
             Write-Warning "No IESA member match found for $team."
@@ -205,6 +299,7 @@ foreach ($grade in "7th", "8th") {
         $schoolId = $directory[$lookup]
         $sourceUrl = "https://www.iesa.org/activities/memberStats.asp?SchoolID=$schoolId&ActivityCode=GBK&GradeLevel=$gradeLevel"
         try {
+            $fetched++
             $page = Invoke-IesaPage $sourceUrl
             $games = @()
             foreach ($match in [regex]::Matches($page.Content, "(?is)<td class='ListData'>(.*?)</td>\s*<td class='ListData-R'>(.*?)</td>")) {
@@ -225,7 +320,9 @@ foreach ($grade in "7th", "8th") {
                         break
                     }
                 }
-                if ($previousScore -ne $game.score) {
+                # A class's first capture is the baseline; reporting every game
+                # already played as newly posted would flood "Score updates".
+                if ($previousTeams.Count -and $previousScore -ne $game.score) {
                     $priorResult = if ($null -eq $previousScore) { "N/A" } else { $previousScore }
                     $updatedGames += [pscustomobject]@{
                         team = $team
@@ -258,9 +355,12 @@ foreach ($grade in "7th", "8th") {
     }
     $cutoff = (Get-Date).AddDays(-$RetentionDays)
     $rollingChanges = @(Merge-ChangeWindow $previousChanges $updatedGames $cutoff $previousCaptureAt)
+    Write-Output ("{0} {1}: {2} - read {3} school pages, reused {4} unchanged since today's full check." -f
+        $ClassName, $grade, $(if ($fullSweep) { "full daily check" } else { "partial check" }), $fetched, $reused)
     $cache = [pscustomobject]@{
         updatedAt = $runTimestamp
         previousCaptureAt = $previousCaptureAt
+        fullSweepDate = if ($fullSweep) { $todayKey } else { $previousSweep }
         retainedSince = $cutoff.ToString("yyyy-MM-dd HH:mm")
         retainedDays = $RetentionDays
         teams = $teams
@@ -268,34 +368,48 @@ foreach ($grade in "7th", "8th") {
         rosterChanges = $rosterChanges
     }
     $json = $cache | ConvertTo-Json -Depth 6
-    Write-AtomicFile (Join-Path $SitePath "scores-$grade.json") $json
-    Write-AtomicFile (Join-Path $SitePath "scores-$grade.js") ("window.iesaScoreCache = " + $json + ";")
+    Write-AtomicFile (Join-Path $ClassPath "scores-$grade.json") $json
+    Write-AtomicFile (Join-Path $ClassPath "scores-$grade.js") ("window.iesaScoreCache = " + $json + ";")
+}
 }
 
-Update-StreamLinks
+if ($includes2A) { Update-StreamLinks }
 $pausedNow = Get-IesaPause
 if ($pausedNow) {
     Write-Warning "Skipping strength of schedule, seeds and bracket. $pausedNow"
     return
 }
-# Strength of schedule rebuilds itself only on Sundays (or when stale), and is unofficial.
-try {
-    & (Join-Path $PSScriptRoot "Update-Strength.ps1") -SitePath $SitePath
-} catch {
-    Write-Warning "Strength of schedule refresh failed: $($_.Exception.Message)"
+# Strength of schedule rebuilds itself per class on Saturdays (or when missing or
+# stale), and is unofficial. Records already cached for other classes are reused.
+foreach ($liveClass in $refreshedClasses) {
+    try {
+        & (Join-Path $PSScriptRoot "Update-Strength.ps1") -SitePath $liveClass.Path
+    } catch {
+        Write-Warning "Class $($liveClass.Name) strength of schedule refresh failed: $($_.Exception.Message)"
+    }
 }
 
 $seedRefreshError = $null
 if ($today -ge [datetime]::new(2026, 11, 12)) {
-    try {
-        & (Join-Path $PSScriptRoot "Update-IesaSeeds.ps1") -SitePath $SitePath
-    } catch {
-        $seedRefreshError = $_
-        Write-Warning "Regional seed refresh failed: $($_.Exception.Message)"
+    foreach ($liveClass in $refreshedClasses) {
+        try {
+            & (Join-Path $PSScriptRoot "Update-IesaSeeds.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name
+        } catch {
+            if ($liveClass.EveryRun) { $seedRefreshError = $_ }
+            Write-Warning "Class $($liveClass.Name) regional seed refresh failed: $($_.Exception.Message)"
+        }
     }
 }
 if ($today -ge [datetime]::new(2026, 11, 21)) {
-    & (Join-Path $PSScriptRoot "Update-IesaBracket.ps1") -SitePath $SitePath
+    foreach ($liveClass in $refreshedClasses) {
+        try {
+            & (Join-Path $PSScriptRoot "Update-IesaBracket.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name
+        } catch {
+            # Class 2A's bracket failure still fails the run, as before.
+            if ($liveClass.EveryRun) { throw }
+            Write-Warning "Class $($liveClass.Name) bracket refresh failed: $($_.Exception.Message)"
+        }
+    }
 
     # State results decide top-four placement, so refresh the year menu's
     # trophies from IESA's state tournament history once the finals are being

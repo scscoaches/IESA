@@ -89,3 +89,7 @@
 #my-team-dialog .settings-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:14px;padding-top:12px;border-top:1px solid #e0e4ed;font-size:14px;font-weight:bold}
 #my-team-dialog .settings-row .theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:44px;height:34px;padding:0;border:0;border-radius:4px;background:var(--navy)}
 .dark-theme #my-team-dialog .settings-row{border-top-color:#2c3550}
+@media(max-width:430px){.app.live.has-class-select .switcher select{width:64px}.app.live.has-class-select .switcher select#class-select{width:44px}}
+@media(max-width:340px){.app.live.has-class-select .switcher{gap:2px}.app.live.has-class-select .switcher select{width:52px}.app.live.has-class-select .switcher select#class-select{width:38px}.app.live.has-class-select .tools button#updates-button{max-width:40px}}
+@media(max-width:680px){.tools button#fit{display:none!important}}
+@media(max-width:760px){.tools button#minus,.tools button#plus{display:none!important}}

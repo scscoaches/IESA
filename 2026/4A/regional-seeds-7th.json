@@ -1,0 +1,167 @@
+﻿{
+    "updatedAt":  "2026-11-11 12:05",
+    "year":  2026,
+    "grade":  "7th",
+    "regionalBrackets":  {
+                             "1":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=1",
+                                       "host":  "Barrington Station"
+                                   },
+                             "2":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=2",
+                                       "host":  "Rockford Eisenhower"
+                                   },
+                             "3":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=3",
+                                       "host":  ""
+                                   },
+                             "4":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=4",
+                                       "host":  "Downers Grove O\u0027Neill"
+                                   },
+                             "5":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=5",
+                                       "host":  "Phoenix Coolidge"
+                                   },
+                             "6":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=6",
+                                       "host":  "Chicago Heights MS"
+                                   },
+                             "7":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=7",
+                                       "host":  "Bolingbrook Brooks"
+                                   },
+                             "8":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=8",
+                                       "host":  "New Lenox Liberty"
+                                   },
+                             "9":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=9",
+                                       "host":  "Minooka"
+                                   },
+                             "10":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=10",
+                                        "host":  "Mahomet-Seymour"
+                                    },
+                             "11":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=11",
+                                        "host":  "Normal Kingsley"
+                                    },
+                             "12":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=12",
+                                        "host":  "Dunlap MS"
+                                    },
+                             "13":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=13",
+                                        "host":  "Taylorville JHS"
+                                    },
+                             "14":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=14",
+                                        "host":  "Quincy"
+                                    },
+                             "15":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=15",
+                                        "host":  "Jerseyville Community"
+                                    },
+                             "16":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-4A\u0026Regional=16",
+                                        "host":  "O\u0027Fallon Fulton"
+                                    }
+                         }
+}

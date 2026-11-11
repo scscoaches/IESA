@@ -1,0 +1,167 @@
+﻿window.iesaRegionalSeedCache = {
+    "updatedAt":  "2026-11-11 12:04",
+    "year":  2026,
+    "grade":  "8th",
+    "regionalBrackets":  {
+                             "1":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=1",
+                                       "host":  "Ford Heights Cottage Grove UGC"
+                                   },
+                             "2":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=2",
+                                       "host":  "Milford"
+                                   },
+                             "3":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=3",
+                                       "host":  "Mazon-Verona-Kinsman"
+                                   },
+                             "4":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=4",
+                                       "host":  "Ransom"
+                                   },
+                             "5":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=5",
+                                       "host":  ""
+                                   },
+                             "6":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=6",
+                                       "host":  "Kewanee Wethersfield"
+                                   },
+                             "7":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=7",
+                                       "host":  "Pontiac St. Mary\u0027s"
+                                   },
+                             "8":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=8",
+                                       "host":  "Bloomington Trinity Lutheran"
+                                   },
+                             "9":  {
+                                       "seeds":  [
+
+                                                 ],
+                                       "rounds":  [
+
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=9",
+                                       "host":  "Washington St. Patrick"
+                                   },
+                             "10":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=10",
+                                        "host":  "Bartonville Monroe"
+                                    },
+                             "11":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=11",
+                                        "host":  "Oakland Lake Crest"
+                                    },
+                             "12":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=12",
+                                        "host":  "Decatur Unity"
+                                    },
+                             "13":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=13",
+                                        "host":  "Jerseyville St. Francis HG"
+                                    },
+                             "14":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=14",
+                                        "host":  "La Harpe"
+                                    },
+                             "15":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=15",
+                                        "host":  "Palestine"
+                                    },
+                             "16":  {
+                                        "seeds":  [
+
+                                                  ],
+                                        "rounds":  [
+
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-1A\u0026Regional=16",
+                                        "host":  "Mulberry Grove JHS"
+                                    }
+                         }
+};

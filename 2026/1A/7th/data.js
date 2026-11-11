@@ -1,0 +1,353 @@
+﻿window.tournamentData = {
+    "year":  2026,
+    "grade":  "7th",
+    "className":  "1A",
+    "archived":  false,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Lockport Taft",
+                          "teams":  [
+                                        "Ford Heights Cottage Grove UGC",
+                                        "Grant Park",
+                                        "Hazel Crest Jesse White",
+                                        "Lockport Fairmont",
+                                        "Lockport Taft"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Milford",
+                          "teams":  [
+                                        "Cissna Park (Co-op)",
+                                        "Milford",
+                                        "Piper City Tri-Point",
+                                        "Rossville-Alvin",
+                                        "St. Anne"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Gardner  (Co-op)",
+                          "teams":  [
+                                        "Elwood GS",
+                                        "Gardner  (Co-op)",
+                                        "Mazon-Verona-Kinsman",
+                                        "Rockdale"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Mendota Holy Cross",
+                          "teams":  [
+                                        "Grand Ridge (Co-op)",
+                                        "Marseilles Milton Pope (Co-op)",
+                                        "Mendota Holy Cross",
+                                        "Ottawa Marquette",
+                                        "Paw Paw",
+                                        "Ransom (Co-op)"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "LaSalle St. Acutis",
+                          "teams":  [
+                                        "Henry-Senachwine",
+                                        "Ladd (Co-op)",
+                                        "LaSalle St. Acutis",
+                                        "Lostant (Co-op)",
+                                        "Lowpoint-Washburn",
+                                        "Spring Bay Riverview",
+                                        "Utica Waltham"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Monmouth ICS",
+                          "teams":  [
+                                        "Annawan",
+                                        "Cambridge JHS",
+                                        "Galva",
+                                        "Kewanee Visitation",
+                                        "Kewanee Wethersfield",
+                                        "Monmouth ICS",
+                                        "Woodhull AlWood"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Pontiac St. Mary\u0027s  (Co-op)",
+                          "teams":  [
+                                        "Colfax Ridgeview",
+                                        "Flanagan (Co-op)",
+                                        "Lexington",
+                                        "Normal Calvary",
+                                        "Odell (Co-op)",
+                                        "Pontiac St. Mary\u0027s  (Co-op)",
+                                        "Streator Woodland"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Morton Blessed Sacrament",
+                          "teams":  [
+                                        "Bloomington Trinity Lutheran",
+                                        "Lincoln West Lincoln-Broadwell",
+                                        "Morton Blessed Sacrament",
+                                        "Pekin Rankin",
+                                        "Roanoke-Benson"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Peoria St. Jude",
+                          "teams":  [
+                                        "Peoria Christ Lutheran",
+                                        "Peoria Christian",
+                                        "Peoria St. Jude",
+                                        "Washington St. Patrick"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Bartonville Oak Grove",
+                          "teams":  [
+                                        "Bartonville Monroe",
+                                        "Bartonville Oak Grove",
+                                        "Kickapoo St. Mary\u0027s",
+                                        "Peoria Hollis",
+                                        "Peoria Limestone Walters",
+                                        "Peoria Pleasant Hill",
+                                        "Peoria Pleasant Valley"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Oakland Lake Crest  (Co-op)",
+                          "teams":  [
+                                        "Chrisman Scottland",
+                                        "Danville Schlarman",
+                                        "Homer Heritage",
+                                        "Hume Shiloh",
+                                        "Oakland Lake Crest  (Co-op)",
+                                        "Potomac (Co-op)",
+                                        "Royal Prairieview Ogden"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Rantoul St. Malachy",
+                          "teams":  [
+                                        "Champaign Holy Cross",
+                                        "Champaign Judah Christian",
+                                        "Champaign Next Generation",
+                                        "Decatur Unity",
+                                        "Philo St. Thomas",
+                                        "Rantoul St. Malachy",
+                                        "Villa Grove"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Carrollton St. John",
+                          "teams":  [
+                                        "Ashland A-C Central",
+                                        "Carrollton St. John",
+                                        "Jerseyville St. Francis HG",
+                                        "Pawnee"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Augusta Southeastern",
+                          "teams":  [
+                                        "Augusta Southeastern",
+                                        "Griggsville-Perry",
+                                        "Kinderhook Western",
+                                        "La Harpe (Co-op)",
+                                        "Payson Seymour"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Palestine  (Co-op)",
+                          "teams":  [
+                                        "Effingham Sacred Heart",
+                                        "Findlay Okaw Valley",
+                                        "Martinsville",
+                                        "Neoga",
+                                        "Palestine  (Co-op)",
+                                        "Sigel St. Michael\u0027s"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Pocahontas",
+                          "teams":  [
+                                        "Mt. Olive",
+                                        "Mulberry Grove JHS",
+                                        "Pana Sacred Heart",
+                                        "Pocahontas",
+                                        "Ramsey (Co-op)"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Ford Heights Cottage Grove UGC",
+                           "date":  "Wednesday, December 2, 2026, 6:00 PM"
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Gardner",
+                           "date":  "Wednesday, December 2, 2026, 6:00 PM"
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Woodhull AlWood",
+                           "date":  "Wednesday, December 2, 2026, 6:00 PM"
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Pontiac St. Mary\u0027s",
+                           "date":  "Wednesday, December 2, 2026, 6:00 PM"
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Bartonville Oak Grove",
+                           "date":  "Wednesday, December 2, 2026, 6:00 PM"
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Rantoul St. Malachy",
+                           "date":  "Wednesday, December 2, 2026, 6:00 PM"
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Jerseyville St. Francis HG",
+                           "date":  "Wednesday, December 2, 2026, 6:00 PM"
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Sigel St. Michael\u0027s",
+                           "date":  "Wednesday, December 2, 2026, 6:00 PM"
+                       }
+                   ],
+    "venue":  "Wenona Fieldcrest",
+    "stateDate":  "December 5 \u0026 10, 2026",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              2,
+                                              3
+                                          ],
+                              "date":  "December 5, 2026",
+                              "time":  "10:00 AM"
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              7,
+                                              8
+                                          ],
+                              "date":  "December 5, 2026",
+                              "time":  "11:30 AM"
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              4,
+                                              6
+                                          ],
+                              "date":  "December 5, 2026",
+                              "time":  "1:00 PM"
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              1,
+                                              5
+                                          ],
+                              "date":  "December 5, 2026",
+                              "time":  "2:30 PM"
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "December 5, 2026",
+                           "time":  "5:00 PM"
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "December 5, 2026",
+                           "time":  "6:30 PM"
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "December 10, 2026",
+                       "time":  "6:00 PM"
+                   },
+    "championship":  {
+                         "date":  "December 10, 2026",
+                         "time":  "7:30 PM"
+                     }
+};

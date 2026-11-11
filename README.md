@@ -15,8 +15,10 @@ divisions; 1990–2001 are state-only) and Classes 1A–4A for 2006–2019 and
 2021–2025. The first class archived for a year keeps `<year>/<grade>/` (1A for
 2006–2023, 2A for 2024–2025, A before 2006); every other class lives in
 `<year>/<class>/<grade>/`, and `seasons.json` lists a year's classes in
-`classes`. The live 2026
-Class 2A site retains its separate scheduled score and postseason refreshes.
+`classes`. The live 2026 season has all four classes: Class 2A keeps its
+hand-maintained pages in `2026/7th/` and `2026/8th/`, and Classes 1A, 3A and 4A
+live in `2026/<class>/<grade>/`, built from IESA's regional assignments and
+state scoreboard by `.\Build-IesaSeason.ps1 -Year 2026 -ClassName 1A -Live`.
 Historical pages show published seeds, bracket results and state pairings.
 Sectional cards show each qualifying school's pre-sectional W–L record when
 IESA prints it on the sectional-pairings page; missing records stay blank.
@@ -184,8 +186,10 @@ Once the state finals begin the refresh runs this and the team index
 automatically, so a current-season finish appears as soon as IESA adds it to
 the history; run them by hand at any time to re-check the history.
 
-On phones the header keeps the year and class menus, grade buttons, settings,
-find and Fit controls on one line down to 320 px: the title is hidden when a
+On phones (680 px and below) the Fit and +/- buttons are hidden, as pinch-zoom
+replaces them (+/- are also hidden up to 760 px so small tablets fit), and the
+header keeps the year and class menus, grade buttons, settings, find and (on
+the live season) Score updates on one line down to 320 px: the title is hidden when a
 class menu is shown (the menus already identify the page), and on the live
 season below 430 px.
 
@@ -211,20 +215,27 @@ its sectional slot as "Regional N canceled".
 
 IESA's [girls-basketball calendar](https://www.iesa.org/activities/calendar.asp?activitycode=GBK)
 lists December 17 as the last 2026 eighth-grade state date (the seventh-grade
-finals end December 10). The Windows task `IESA 2026 Score Refresh` runs at
-**6 AM, noon and 6 PM local time on weekdays**, plus **6 PM on Saturdays and
-Sundays**, not midnight. Its end boundary is
-**December 18, 2026 at 6:05 AM local time**: the final morning run captures
-results from December 17, and there are no later scheduled runs. Reapply its
-four bounded triggers with `.\2026\Set-IesaScoreSchedule.ps1` after moving
-the site or recreating the task. `2026\Update-IesaScores.ps1` also refuses to
-fetch after December 18 if run manually or from an accidentally extended
-task. Existing static caches and archived pages remain available.
+finals end December 10). The GitHub Actions workflow
+(`.github\workflows\update-scores.yml`) runs at **5 AM, 11 AM and 5 PM Central
+on weekdays** and **9 PM Central on Saturdays** (cron in UTC: weekdays 11:00,
+17:00 and 23:00; Sunday 03:00). GitHub can start scheduled runs hours late.
+Cron has no end date, so the workflow's first step skips scheduled runs after
+**December 18, 2026** (Central); manual runs still work, and
+`2026\Update-IesaScores.ps1` itself refuses to fetch after December 18. The
+workflow commits the score, stream-link, strength, seed, bracket, placement and
+team-index files. The local Windows task `IESA 2026 Score Refresh` (and
+`.\2026\Set-IesaScoreSchedule.ps1`, which set its triggers) is disabled and no
+longer used. Existing static caches and archived pages remain available.
 
-Each refresh reads the member directory and about 212 separate team pages;
-weekday runs make approximately 639 IESA requests a day, while weekend runs
-make approximately 212 requests per day, plus postseason queries when those
-begin. Requests go through `2026\IesaRequest.ps1` (see below), which spaces
+The day's first refresh reads **all four classes**: the member directory, two
+assignment pages per class and about 830 school pages (about 850 requests,
+roughly 43 minutes). The 11 AM and 5 PM refreshes re-read **only Class 2A**
+(about 210 requests); Classes 1A, 3A and 4A are read once a day, decided by the
+`fullSweepDate` in each class's `scores-<grade>.json`. Each class has its own
+700-request budget. A regular-season weekday therefore makes about 1,270 IESA
+requests (850 + 210 + 210), and Saturday about 850 plus the weekly Class 2A
+strength-of-schedule rebuild (about 600): roughly 7,800 a week. Once the
+regionals are played, later runs skip eliminated schools. Requests go through `2026\IesaRequest.ps1` (see below), which spaces
 them at least three seconds apart to avoid a
 burst. Do not add additional runs without reconsidering the source load; use
 the single-school Update button for occasional immediate checks. The unofficial
@@ -258,9 +269,27 @@ While paused, `Update-IesaScores.ps1` still refreshes NFHS/Hudl links but
 skips IESA, and a grade interrupted by a pause is not saved, so the last good
 scores stay. It also skips IESA when the score files are under 2 hours old
 (`-MinimumHoursBetweenRuns`), so repeated manual runs do not re-read all 212
-schools; `-Force` overrides this. The PC writes local (Central) times and the
-GitHub runner UTC, so keep the window under 2.75 hours or the 6 AM run would
-skip after GitHub's 03:15 UTC run.
+schools; `-Force` overrides this.
+
+Each refresh reads only the schools that can still change. IESA's school pages
+list no game dates, so the first run of each Central day is a **full check**
+(the member directory, two assignment pages for roster drift, and every 2A
+school: about 212 requests). Later runs that day skip only schools that have
+lost a regional or sectional game and reuse the morning's page for them
+(`fullSweepDate` in `scores-<grade>.json` records the day). Every other school
+is re-read, because schools may enter a game with its final score without ever
+listing it as `PENDING`. During the regular season every run therefore reads
+every school; once the regionals are played most schools are eliminated, and
+later runs read only the remaining qualifiers (roughly 30 requests or fewer). A
+late regular-season score from an eliminated school appears the next morning.
+`-Force` always does a full check.
+
+The scheduled refresh runs only on GitHub Actions
+(`.github\workflows\update-scores.yml`): weekdays 5:00 AM, 11:00 AM and 5:00 PM
+and Saturdays 9:00 PM Central, through December 18, 2026 (a first step skips
+scheduled runs after that date). The local Windows task "IESA 2026 Score
+Refresh" is disabled; re-enabling it would double the IESA traffic. Season
+dates in `Update-IesaScores.ps1` are Central dates even on the UTC runner.
 
 `team-scores.ashx` honors the same `iesa-pause.json` (HTTP 503 with a
 friendly message), keeps each school's live result for 30 minutes, and makes
@@ -332,9 +361,13 @@ matched separately, so a row can show both icons.
 
 `2026\Update-Strength.ps1` writes `strength-7th.json` and `strength-8th.json`.
 It is called on every `Update-IesaScores.ps1` run but returns at once unless
-it is Sunday (Central time) and has not run today, the file is 8+ days old or
-missing, the bracket team list changed, or `-Force` is given. A full build
-takes about 15 minutes because IESA requests are spaced 3 seconds apart.
+it is Saturday (Central time; the Saturday 9 PM run is the week's only Saturday
+run) and has not run today, the file is 8+ days old or
+missing, the bracket team list changed, or `-Force` is given. A full build reads
+the member directory, eight assignment pages and every non-bracket opponent a
+bracket team has played (about 600 requests by mid-November), so it takes about
+30 minutes at 3 seconds apart and has its own 700-request budget rather than
+sharing the score refresh's.
 
 It goes one step out from the bracket, not class-wide:
 

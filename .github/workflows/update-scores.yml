@@ -51,13 +51,16 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           # Scores and watch links every run; regional seeds from November 12;
           # the state bracket, trophy placements and team index from November 21.
-          $files = @(
-            "2026/scores-7th.json", "2026/scores-7th.js", "2026/scores-8th.json", "2026/scores-8th.js",
+          # Classes 1A, 3A and 4A keep the same files in 2026/<class>/.
+          $perClass = foreach ($folder in "2026", "2026/1A", "2026/3A", "2026/4A") {
+            foreach ($grade in "7th", "8th") {
+              foreach ($name in "scores-$grade.json", "scores-$grade.js", "regional-seeds-$grade.json",
+                "regional-seeds-$grade.js", "bracket-$grade.json", "bracket-$grade.js") { "$folder/$name" }
+            }
+          }
+          $files = @($perClass) + @(
             "2026/nfhs-events.json", "2026/hudl-events.json",
             "2026/strength-7th.json", "2026/strength-8th.json",
-            "2026/regional-seeds-7th.json", "2026/regional-seeds-7th.js",
-            "2026/regional-seeds-8th.json", "2026/regional-seeds-8th.js",
-            "2026/bracket-7th.json", "2026/bracket-7th.js", "2026/bracket-8th.json", "2026/bracket-8th.js",
             "placements.json", "teams.json"
           ) | Where-Object { Test-Path $_ }
           git add -- $files

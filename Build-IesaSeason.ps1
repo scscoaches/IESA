@@ -1,7 +1,11 @@
 param(
     [Parameter(Mandatory)][ValidateRange(2002, 2100)][int]$Year,
     [Parameter(Mandatory)][ValidateSet('A', 'AA', '1A', '2A', '3A', '4A')][string]$ClassName,
-    [string]$OutputRoot = $PSScriptRoot
+    [string]$OutputRoot = $PSScriptRoot,
+    # A season still being played: rosters come from the assignment pages,
+    # seeds and results may not exist yet, state game times come from the
+    # scoreboard, and pages use the live template with score refreshes.
+    [switch]$Live
 )
 
 $ErrorActionPreference = 'Stop'
@@ -108,7 +112,8 @@ function Get-Assignments([string]$html, [string]$grade) {
             $regionalHost = 'TBD'
             foreach ($line in [regex]::Split($list.Groups[1].Value, '(?i)<br\s*/?>')) {
                 $name = (Get-Text $line) -replace '(?i)\(\s*(?:Host Info|Host)\s*\)', ''
-                $name = $name.Trim()
+                # Removing "(Host)" from "Gardner (Host) (Co-op)" leaves a double space.
+                $name = ($name -replace '\s+', ' ').Trim()
                 if (!$name) { continue }
                 $listedTeams += $name
                 if ($line -match 'RegPlaqueInfo\.pdf|(?i)\(\s*Host\s*\)') {
@@ -216,7 +221,7 @@ try {
             year = $Year
             grade = $grade
             className = $ClassName
-            archived = $true
+            archived = !$Live
             regionals = $assignments.regionals
             sectionals = $assignments.sectionals
         }
@@ -225,11 +230,11 @@ try {
 
     if ($Year -ge 2006) {
         & (Join-Path $PSScriptRoot '2026\Update-IesaSeeds.ps1') -Year $Year -ClassName $ClassName `
-            -SitePath $staging -OutputPath $staging -AllowBracketParticipants
+            -SitePath $staging -OutputPath $staging -AllowBracketParticipants:(!$Live)
     }
     # Archived seasons take participants from the published bracket and keep the
     # assignment list as assignedTeams; only the live season matches rosters strictly.
-    if ($Year -ge 2006) {
+    if ($Year -ge 2006 -and !$Live) {
         foreach ($grade in @('7th', '8th')) {
             $dataPath = Join-Path (Join-Path $staging $grade) 'data.json'
             $data = Get-Content -Raw -LiteralPath $dataPath | ConvertFrom-Json
@@ -347,7 +352,7 @@ try {
         $openingGames = if ($legacy) { 8 } else { 4 }
         $canceled = @($data.regionals | Where-Object { $_.PSObject.Properties['canceled'] }).Count
         if (@($bracket.quarterfinalMatchups.PSObject.Properties).Count -ne $openingGames -or
-            (!$legacy -and
+            (!$legacy -and !$Live -and
                 @($seeds.regionalBrackets.PSObject.Properties | Where-Object { $_.Value.seeds.Count -gt 0 }).Count -ne 16 - $canceled)) {
             throw "$grade $Year has incomplete IESA opening-round pairings or regional seeds"
         }
@@ -383,7 +388,7 @@ try {
         }
         foreach ($regional in $data.regionals) {
             $bracketHost = if (!$legacy) { $seeds.regionalBrackets.("$($regional.id)").host } else { '' }
-            if (!$bracketHost -and $Year -gt 2019 -and !$regional.PSObject.Properties['canceled']) {
+            if (!$bracketHost -and $Year -gt 2019 -and !$Live -and !$regional.PSObject.Properties['canceled']) {
                 throw "$grade $Year Regional $($regional.id) has no published bracket host"
             }
             if ($regional.host -eq 'TBD' -and $bracketHost) { $regional.host = $bracketHost }
@@ -402,11 +407,36 @@ try {
         $schedule = Get-CalendarSchedule $calendarHtml $grade
         $firstDate = if ($schedule) { $schedule.first } else { '' }
         $finalDate = if ($schedule) { $schedule.last } else { '' }
+        # The scoreboard lists each state game's date and time before it is played
+        # ("Winner Sectional 2  Winner Sectional 3  Dec. 5 10:00 am").
+        $slots = @{}
+        if ($Live) {
+            $scopeStart = $stateHtml.IndexOf($stateMarker)
+            $scopeEnd = $stateHtml.IndexOf('State Tournament', $scopeStart + $stateMarker.Length)
+            $scopeText = Get-Text $stateHtml.Substring($scopeStart,
+                $(if ($scopeEnd -gt 0) { $scopeEnd } else { $stateHtml.Length }) - $scopeStart)
+            $when = '(?<month>[A-Z][a-z]{2})\.?\s+(?<day>\d{1,2})\s+(?<time>\d{1,2}:\d{2}\s*[ap]m)'
+            $months = @{ Nov = 'November'; Dec = 'December' }
+            foreach ($slot in [regex]::Matches($scopeText,
+                "(?i)(?<side>Winner|Loser)\s+(?<kind>Sectional|Game)\s+(?<a>\d+)\s+(?:Winner|Loser)\s+(?:Sectional|Game)\s+(?<b>\d+)\s+$when")) {
+                $month = $months[$slot.Groups['month'].Value]
+                if (!$month) { continue }
+                $pair = @([int]$slot.Groups['a'].Value, [int]$slot.Groups['b'].Value) | Sort-Object
+                $slots["$($slot.Groups['side'].Value.ToLower())-$($slot.Groups['kind'].Value.ToLower())-$($pair -join '-')"] =
+                    [pscustomobject]@{ date = "$month $($slot.Groups['day'].Value), $Year"; time = $slot.Groups['time'].Value.ToUpper() -replace '\s+', ' ' }
+            }
+        }
+        function Get-Slot([string]$side, [string]$kind, [object[]]$pair, [string]$fallback) {
+            $found = $slots["$side-$kind-$((@($pair) | Sort-Object) -join '-')"]
+            if ($found) { return $found }
+            return [pscustomobject]@{ date = $fallback; time = '' }
+        }
 
         $pairings = @(1..$openingGames | ForEach-Object {
             $pair = @($bracket.quarterfinalMatchups."$_")
             if ($pair.Count -ne 2) { throw "$grade $Year missing Game $_ pairing" }
-            [pscustomobject]@{ game = $_; matchup = $pair; date = $firstDate; time = '' }
+            $slot = Get-Slot 'winner' 'sectional' $pair $firstDate
+            [pscustomobject]@{ game = $_; matchup = $pair; date = $slot.date; time = $slot.time }
         })
         # IESA sometimes omits a sectional final even though the state scoreboard names the
         # team that advanced, which leaves one slot unmapped. When a single slot and a single
@@ -432,7 +462,17 @@ try {
             }
         }
         $data | Add-Member -NotePropertyName venue -NotePropertyValue $venue
-        $data | Add-Member -NotePropertyName stateDate -NotePropertyValue $(if ($schedule) { $schedule.label } else { '' })
+        $stateLabel = if ($schedule) { $schedule.label } else { '' }
+        # The scoreboard's own dates read better than the calendar's "Dec." label.
+        if ($Live -and $pairings[0].time -and $pairings[0].date -match '^(\w+) (\d+), (\d{4})$') {
+            $startMonth, $startDay = $Matches[1], $Matches[2]
+            $finalSlot = Get-Slot 'winner' 'game' $(if ($legacy) { @(13, 14) } else { @(5, 6) }) ''
+            if ($finalSlot.date -match '^(\w+) (\d+), (\d{4})$') {
+                $stateLabel = if ($Matches[1] -eq $startMonth) { "$startMonth $startDay & $($Matches[2]), $Year" } else {
+                    "$startMonth $startDay & $($Matches[1]) $($Matches[2]), $Year" }
+            }
+        }
+        $data | Add-Member -NotePropertyName stateDate -NotePropertyValue $stateLabel
         if ($legacy) {
             $data | Add-Member -NotePropertyName firstRound -NotePropertyValue $pairings
             $pairings = @(9..12 | ForEach-Object {
@@ -442,12 +482,17 @@ try {
             })
         }
         $data | Add-Member -NotePropertyName quarterfinals -NotePropertyValue $pairings
+        $semiOne = Get-Slot 'winner' 'game' @($pairings[0].game, $pairings[1].game) $firstDate
+        $semiTwo = Get-Slot 'winner' 'game' @($pairings[2].game, $pairings[3].game) $firstDate
+        $semiGames = if ($legacy) { @(13, 14) } else { @(5, 6) }
+        $third = Get-Slot 'loser' 'game' $semiGames $finalDate
+        $final = Get-Slot 'winner' 'game' $semiGames $finalDate
         $data | Add-Member -NotePropertyName semifinals -NotePropertyValue @(
-            [pscustomobject]@{ game = $(if ($legacy) { 13 } else { 5 }); matchup = @($pairings[0].game, $pairings[1].game); date = $firstDate; time = '' },
-            [pscustomobject]@{ game = $(if ($legacy) { 14 } else { 6 }); matchup = @($pairings[2].game, $pairings[3].game); date = $firstDate; time = '' }
+            [pscustomobject]@{ game = $semiGames[0]; matchup = @($pairings[0].game, $pairings[1].game); date = $semiOne.date; time = $semiOne.time },
+            [pscustomobject]@{ game = $semiGames[1]; matchup = @($pairings[2].game, $pairings[3].game); date = $semiTwo.date; time = $semiTwo.time }
         )
-        $data | Add-Member -NotePropertyName thirdPlace -NotePropertyValue ([pscustomobject]@{ date = $finalDate; time = '' })
-        $data | Add-Member -NotePropertyName championship -NotePropertyValue ([pscustomobject]@{ date = $finalDate; time = '' })
+        $data | Add-Member -NotePropertyName thirdPlace -NotePropertyValue ([pscustomobject]@{ date = $third.date; time = $third.time })
+        $data | Add-Member -NotePropertyName championship -NotePropertyValue ([pscustomobject]@{ date = $final.date; time = $final.time })
         $json = $data | ConvertTo-Json -Depth 10
         $json | Set-Content -Encoding UTF8 -LiteralPath $dataPath
         ("window.tournamentData = " + $json + ";") |
@@ -479,7 +524,7 @@ try {
     [pscustomobject]@{ year = $Year; className = $ClassName } | ConvertTo-Json |
         Set-Content -Encoding UTF8 -LiteralPath (Join-Path $destination 'season.json')
     Add-IesaCatalogueClass $OutputRoot $Year $ClassName
-    Write-IesaClassPages $OutputRoot $Year $ClassName
+    if ($Live) { Write-IesaLiveClassPages $OutputRoot $Year $ClassName } else { Write-IesaClassPages $OutputRoot $Year $ClassName }
     Write-Output "Published $Year Class $ClassName 7th/8th regional-to-state brackets to $relative."
 } finally {
     Remove-Item -LiteralPath $staging -Recurse -Force

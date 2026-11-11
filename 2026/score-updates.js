@@ -225,4 +225,15 @@
         writeSeen(Date.now());
     });
     document.getElementById("close-updates").addEventListener("click", function () { dialog.close(); });
+
+    // Only the visitor's own class reports score updates; with four classes the
+    // other classes' changes would bury the ones that matter. The CSS display
+    // rule for toolbar buttons overrides [hidden], so hide it inline.
+    var team = window.iesaMyTeam;
+    var data = window.tournamentData || {};
+    if (team && team.name) {
+        team.classFor(data.year || 2026, data.grade).then(function (teamClass) {
+            if (teamClass && teamClass !== (data.className || "2A")) { button.style.display = "none"; }
+        }).catch(function () { /* keep the button when the team list is unavailable */ });
+    }
 }());

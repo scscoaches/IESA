@@ -78,11 +78,17 @@ foreach ($season in Read-IesaCatalogue $SiteRoot) {
         foreach ($grade in 'combined', '7th', '8th') {
             $gradeFolder = Join-Path $folder $grade
             if ($year -ge 2026) {
-                $cache = Join-Path (Join-Path $SiteRoot "$year") "scores-$grade.json"
+                # The live season: each class's score cache, or its roster before the first refresh.
+                $cache = Join-Path $folder "scores-$grade.json"
+                $names = @()
                 if (Test-Path -LiteralPath $cache) {
-                    $teams = (Get-Content -Raw -LiteralPath $cache | ConvertFrom-Json).teams
-                    foreach ($name in $teams.PSObject.Properties.Name) { Add-Team $year $grade $className $name }
+                    $names = @((Get-Content -Raw -LiteralPath $cache | ConvertFrom-Json).teams.PSObject.Properties.Name | Where-Object { $_ })
                 }
+                $roster = Join-Path $gradeFolder 'data.json'
+                if (!$names.Count -and (Test-Path -LiteralPath $roster)) {
+                    $names = @((Get-Content -Raw -LiteralPath $roster | ConvertFrom-Json).regionals | ForEach-Object { $_.teams })
+                }
+                foreach ($name in $names) { Add-Team $year $grade $className $name }
                 continue
             }
             $dataScript = Join-Path $gradeFolder 'data.js'

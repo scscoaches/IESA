@@ -107,3 +107,31 @@ function Write-IesaClassPages([string]$root, [int]$year, [string]$className) {
     }
     Write-IesaText (Join-Path $folder 'index.html') $landing
 }
+
+# Pages for a class of the season still being played (not the hand-maintained
+# 2026 Class 2A pages). They load the per-class score cache written by
+# Update-IesaScores.ps1; an empty cache is created until the first refresh.
+function Write-IesaLiveClassPages([string]$root, [int]$year, [string]$className) {
+    $relative = Get-IesaClassFolder $root $year $className
+    $folder = Join-Path $root $relative
+    $depth = @($relative -split '\\').Count
+    $template = Get-Content -Raw -LiteralPath (Join-Path $script:IesaSiteRoot 'live-grade-template.html')
+    foreach ($grade in '7th', '8th') {
+        $page = $template.Replace('{{YEAR}}', "$year").Replace('{{CLASS}}', $className).
+            Replace('{{GRADE}}', $grade).Replace('{{ROOT}}', '../' * ($depth + 1)).
+            Replace('{{SEVENTH_ACTIVE}}', $(if ($grade -eq '7th') { 'class="active"' } else { '' })).
+            Replace('{{EIGHTH_ACTIVE}}', $(if ($grade -eq '8th') { 'class="active"' } else { '' }))
+        Write-IesaText (Join-Path (Join-Path $folder $grade) 'index.html') $page
+        $cache = Join-Path $folder "scores-$grade.json"
+        if (!(Test-Path -LiteralPath $cache)) {
+            $empty = '{"updatedAt":null,"previousCaptureAt":null,"teams":{},"updatedGames":[],"rosterChanges":[]}'
+            Write-IesaText $cache $empty
+            Write-IesaText (Join-Path $folder "scores-$grade.js") "window.iesaScoreCache = $empty;"
+        }
+    }
+    $landing = (Get-Content -Raw -LiteralPath (Join-Path $script:IesaSiteRoot 'archive-season-template.html')).
+        Replace('{{YEAR}}', "$year").Replace('{{CLASS}}', $className).Replace('{{ROOT}}', '../' * $depth).
+        Replace('Explore the published regional seeds and postseason results, from regionals to the state championship. Historical regular-season records are unavailable.',
+            'Follow this season''s regional assignments, regular-season records and postseason results, from regionals to the state championship.')
+    Write-IesaText (Join-Path $folder 'index.html') $landing
+}

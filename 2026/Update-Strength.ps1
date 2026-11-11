@@ -3,7 +3,7 @@ param(
     [switch]$Force
 )
 
-# Weekly, unofficial strength of schedule for each bracket team. Runs on Sunday
+# Weekly, unofficial strength of schedule for each bracket team. Runs on Saturday
 # (Central time, because GitHub runners use UTC) or when the last run is over
 # eight days old or the bracket teams changed; other refreshes skip it.
 #   Class strength: every opponent's IESA class (1A-4A) from the four regional
@@ -25,6 +25,12 @@ function Get-Key([string]$name) {
 }
 
 function Get-Regionals([string]$grade) {
+    # Classes built with Build-IesaSeason.ps1 -Live keep their rosters in data.json.
+    $json = Join-Path $SitePath "$grade\data.json"
+    if (Test-Path -LiteralPath $json) {
+        foreach ($regional in (Get-Content -Raw -LiteralPath $json | ConvertFrom-Json).regionals) { , @($regional.teams) }
+        return
+    }
     $script = Get-Content -Raw (Join-Path $SitePath "$grade\data.js")
     $match = if ($grade -eq "7th") {
         [regex]::Match($script, "(?s)\bvar\s+teams\s*=\s*\[(.*?)\]\s*;\s*return\s+teams\.map")
@@ -62,6 +68,11 @@ function Get-OpponentKeys([string]$ownKey, $games) {
 }
 
 $grades = "7th", "8th"
+# The class of the pages in $SitePath (Class 2A unless built with -Live).
+$className = "2A"
+$classData = Join-Path $SitePath "7th\data.json"
+if (Test-Path -LiteralPath $classData) { $className = (Get-Content -Raw -LiteralPath $classData | ConvertFrom-Json).className }
+$ownClassNumber = [int]$className.Substring(0, 1)
 $prior = @{}
 $due = [bool]$Force
 foreach ($grade in $grades) {
@@ -72,7 +83,7 @@ foreach ($grade in $grades) {
     try {
         $prior[$grade] = Get-Content -Raw -LiteralPath $path | ConvertFrom-Json
         $last = [datetime]::ParseExact($prior[$grade].updatedAt, "yyyy-MM-dd HH:mm", [Globalization.CultureInfo]::InvariantCulture)
-        if (($central.DayOfWeek -eq "Sunday" -and $last.Date -ne $central.Date) -or ($central - $last).TotalDays -ge 8 -or
+        if (($central.DayOfWeek -eq "Saturday" -and $last.Date -ne $central.Date) -or ($central - $last).TotalDays -ge 8 -or
             (($prior[$grade].teamList -join "|") -ne $teamList)) { $due = $true }
     } catch {
         $due = $true
@@ -80,6 +91,10 @@ foreach ($grade in $grades) {
 }
 if (!$due) { return }
 . (Join-Path $PSScriptRoot "IesaRequest.ps1")
+# The rebuild reads several hundred opponent pages, so it gets its own per-run
+# request budget instead of sharing the score refresh's. Spacing and the
+# failure pause still apply.
+$global:IesaGuard.Count = 0
 $paused = Get-IesaPause
 if ($paused) {
     Write-Warning "Strength of schedule not rebuilt. $paused"
@@ -129,6 +144,25 @@ foreach ($grade in $grades) {
         Get-OpponentKeys $key $bracket[$key].Value.games | Where-Object { $_.decided -and !$bracket.ContainsKey($_.key) } |
             ForEach-Object { $played[$_.key] = $true }
     }
+    # Opponents in another 2026 class already have their games in that class's
+    # score cache, so only schools outside every cache cost an IESA request.
+    $known = @{}
+    foreach ($folder in @($PSScriptRoot) + @("1A", "2A", "3A", "4A" | ForEach-Object { Join-Path $PSScriptRoot $_ })) {
+        $other = Join-Path $folder "scores-$grade.json"
+        if (!(Test-Path -LiteralPath $other) -or (Resolve-Path $folder).Path -eq (Resolve-Path $SitePath).Path) { continue }
+        foreach ($property in (Get-Content -Raw -LiteralPath $other | ConvertFrom-Json).teams.PSObject.Properties) {
+            $known[(Get-Key ($property.Name -replace '\s*\(Co-?op\)$', ''))] = $property.Value.games
+        }
+    }
+    $reusedRecords = 0
+    foreach ($key in @($played.Keys)) {
+        if ($known.ContainsKey($key)) {
+            $records[$key] = @(Get-Results $key $known[$key])
+            $played.Remove($key)
+            $reusedRecords++
+        }
+    }
+    Write-Output "$className $grade strength: $reusedRecords opponent records reused from other classes, $($played.Count) read from IESA."
     foreach ($key in $played.Keys) {
         if (!$directory.ContainsKey($key)) { continue }
         $url = "https://www.iesa.org/activities/memberStats.asp?SchoolID=$($directory[$key])&ActivityCode=GBK&GradeLevel=$($grade.Substring(0, 1))"
@@ -186,7 +220,7 @@ foreach ($grade in $grades) {
             $owpTotal = 0.0; $owpGames = 0; $quality = 0; $biggerWins = 0; $biggerLosses = 0
             foreach ($result in $records[$key]) {
                 $opponent = $opponents[$result.opponent]
-                if ($opponent.class -in "3A", "4A") { if ($result.won) { $biggerWins++ } else { $biggerLosses++ } }
+                if ($opponent.class -and [int]$opponent.class.Substring(0, 1) -gt $ownClassNumber) { if ($result.won) { $biggerWins++ } else { $biggerLosses++ } }
                 if ($null -eq $opponent.wins) { continue }
                 $mine = @($opponent.results | Where-Object { $_.o -eq $key })
                 $wins = $opponent.wins - @($mine | Where-Object { $_.w }).Count

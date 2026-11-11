@@ -2,6 +2,14 @@
     "use strict";
 
     var grade = window.tournamentData.grade === "7th" ? "7th" : "8th";
+    // Per-class files sit beside the page's class folder; shared 2026 assets
+    // (icons, stream links, the live lookup) are found from this script's URL,
+    // so pages for other classes (2026/<class>/<grade>/) work too.
+    var shared = new URL(".", document.currentScript.src);
+    // Strength of schedule (Update-Strength.ps1) exists once a class has been rated.
+    var strengthAvailable = true;
+    // "Bigger" opponents are the classes above this page's class.
+    var biggerLabel = { "1A": "vs 2A-4A", "2A": "vs 3A/4A", "3A": "vs 4A", "4A": "" }[window.tournamentData.className || "2A"];
     var cacheUrl = "../scores-" + grade + ".json";
     var dialog = document.getElementById("record-dialog");
     var name = document.getElementById("team-name");
@@ -36,7 +44,7 @@
         link.hidden = true;
         var label = streamLabels[kind];
         var icon = document.createElement("img");
-        icon.src = "../icons/" + kind + ".svg";
+        icon.src = new URL("icons/" + kind + ".svg", shared).href;
         icon.alt = "";
         link.title = label;
         link.appendChild(icon);
@@ -62,8 +70,8 @@
     // so a card matches a score row when each card side's words appear in one team.
     // Hudl games are published in the same shape, labelled with the bracket name.
     var streamKinds = [
-        { kind: "nfhs", label: "NFHS Network", file: "../nfhs-events.json" },
-        { kind: "hudl", label: "Hudl", file: "../hudl-events.json" }
+        { kind: "nfhs", label: "NFHS Network", file: new URL("nfhs-events.json", shared).href },
+        { kind: "hudl", label: "Hudl", file: new URL("hudl-events.json", shared).href }
     ];
     var streamGames = {};
     var genericWords = /\b(?:middle|school|schools|jr|junior|high|jhs|ms|gs|hs|grade|co ?op|elementary|the|and)\b/g;
@@ -134,6 +142,7 @@
 
     // Weekly, unofficial strength of schedule from Update-Strength.ps1.
     async function loadStrength() {
+        if (!strengthAvailable) { return; }
         try {
             var response = await fetch("../strength-" + grade + ".json?v=" + Date.now(), { cache: "no-store" });
             if (!response.ok) { return; }
@@ -171,8 +180,10 @@
         var stats = el("div", "sos-stats");
         stats.appendChild(stat(hasOwp ? entry.opponentsWinPct.toFixed(3).replace(/^0/, "") : "—",
             "Opp. win %", entry.ratedGames + (entry.ratedGames === 1 ? " game" : " games")));
-        stats.appendChild(stat(bigger ? entry.vsBigger.wins + "-" + entry.vsBigger.losses : "—",
-            "vs 3A/4A", bigger ? "" : "none played"));
+        if (biggerLabel) {
+            stats.appendChild(stat(bigger ? entry.vsBigger.wins + "-" + entry.vsBigger.losses : "—",
+                biggerLabel, bigger ? "" : "none played"));
+        }
         stats.appendChild(stat(String(entry.qualityWins || 0), "Quality wins", "over .500 teams"));
         strengthNote.appendChild(stats);
 
@@ -384,7 +395,7 @@
     }
 
     async function fetchLiveTeam(requestedTeam) {
-        var response = await fetch("../team-scores.ashx", {
+        var response = await fetch(new URL("team-scores.ashx", shared).href, {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: new URLSearchParams({ grade: grade, team: requestedTeam })
@@ -408,8 +419,10 @@
         if (selected === requestedTeam && dialog.open) { showSelectedTeam(); }
         return result;
     }
-    // GitHub Pages serves static files only, so the ASP.NET live lookup exists only under IIS.
-    var liveLookupAvailable = !/\.github\.io$/i.test(location.hostname);
+    // GitHub Pages serves static files only, so the ASP.NET live lookup exists only under IIS,
+    // and it validates schools against the Class 2A score cache.
+    var pageClass = window.tournamentData.className;
+    var liveLookupAvailable = !/\.github\.io$/i.test(location.hostname) && (!pageClass || pageClass === "2A");
     refresh.hidden = !liveLookupAvailable;
     if (liveLookupAvailable) { window.iesaFetchLiveTeam = fetchLiveTeam; }
 

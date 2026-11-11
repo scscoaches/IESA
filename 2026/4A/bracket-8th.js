@@ -1,0 +1,138 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 12:05",
+    "year":  2026,
+    "grade":  "8th",
+    "regionals":  {
+
+                  },
+    "sectionalPairingRecords":  {
+
+                                },
+    "sectionals":  {
+
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           1
+                                       ],
+                                 "4":  [
+                                           3,
+                                           5
+                                       ],
+                                 "1":  [
+                                           2,
+                                           8
+                                       ],
+                                 "3":  [
+                                           7,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        }
+              }
+};
