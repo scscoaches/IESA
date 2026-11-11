@@ -2,21 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="iesa-site-version" content="{{SITE_VERSION}}">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#101d4d">
     <title>IESA {{YEAR}} {{GRADE}} Grade Class {{CLASS}}</title>
     <link rel="icon" type="image/png" sizes="32x32" href="{{ROOT}}2026/favicon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ROOT}}2026/apple-touch-icon.png">
     <script src="{{ROOT}}2026/theme.js?v=2"></script>
-    <script src="{{ROOT}}2026/my-team.js?v=2"></script>
-    <link rel="stylesheet" href="{{ROOT}}2026/styles.css?v=49">
-    <link rel="stylesheet" href="{{ROOT}}2026/theme.css?v=25">
+    <script src="{{ROOT}}2026/my-team.js?v=5"></script>
+    <link rel="stylesheet" href="{{ROOT}}2026/styles.css?v=57">
+    <link rel="stylesheet" href="{{ROOT}}2026/theme.css?v=26">
     <link rel="stylesheet" href="{{ROOT}}2026/bracket-navigation.css?v=4">
 </head>
 <body class="app">
     <header class="topbar">
         <div><div class="title"></div><div class="detail"></div></div>
-        <nav class="switcher" aria-label="Tournament season, class and grade"><select id="season-select" aria-label="Tournament year" disabled><option>Loading years...</option></select><a href="../7th/index.html" {{SEVENTH_ACTIVE}}>7th</a><a href="../8th/index.html" {{EIGHTH_ACTIVE}}>8th</a></nav>
+        <nav class="switcher" aria-label="Tournament season, class and grade"><select id="season-select" aria-label="Tournament year" disabled><option>Loading years...</option></select><span class="grade-switch"><a href="../7th/index.html" {{SEVENTH_ACTIVE}}>7th</a><a href="../8th/index.html" {{EIGHTH_ACTIVE}}>8th</a></span></nav>
         <div class="tools">
             <button id="find-button" type="button" aria-label="Find a team"><img src="{{ROOT}}2026/search-icon.svg" alt="" aria-hidden="true"></button>
             <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><img src="{{ROOT}}2026/theme-moon.svg" alt="" aria-hidden="true"></button>
@@ -36,7 +37,7 @@
         <div id="projection-rounds"></div>
         <a id="projection-source" href="#" target="_blank" rel="noopener noreferrer" hidden>View official IESA bracket</a>
     </dialog>
-    <script src="data.js"></script><script src="../bracket-{{GRADE}}.js"></script><script src="../regional-seeds-{{GRADE}}.js"></script><script src="{{ROOT}}2026/app.js?v=43"></script><script src="{{ROOT}}2026/season-selector.js?v=7"></script>
+    <script src="data.js?v={{SITE_VERSION}}"></script><script src="../bracket-{{GRADE}}.js?v={{SITE_VERSION}}"></script><script src="../regional-seeds-{{GRADE}}.js?v={{SITE_VERSION}}"></script><script src="{{ROOT}}2026/app.js?v=43"></script><script src="{{ROOT}}2026/season-selector.js?v=8"></script>
     <script src="{{ROOT}}2026/pointer-zoom.js?v=8"></script><script src="{{ROOT}}2026/spaced-layout.js?v=26"></script>
     <script src="{{ROOT}}2026/bracket-navigation.js?v=2"></script><script src="{{ROOT}}2026/touch-navigation.js?v=5"></script>
 </body>

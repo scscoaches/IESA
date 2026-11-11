@@ -1,40 +1,58 @@
 param(
-    [string]$SitePath = "C:\inetpub\personalroot\IESA\2026",
+    # The live season's folder; defaults to <site>\<year> from live-season.json.
+    [string]$SitePath,
     [int]$RetentionDays = 7,
     [double]$MinimumHoursBetweenRuns = 2,
     [switch]$Force,
     # Refresh only these classes (for example -Classes 1A). Scheduled runs omit it.
     [ValidateSet("1A", "2A", "3A", "4A")][string[]]$Classes
 )
-$includes2A = !$Classes -or $Classes -contains "2A"
 
 $ErrorActionPreference = "Stop"
 . (Join-Path $PSScriptRoot "IesaRequest.ps1")
+# Everything season-specific lives in live-season.json at the site root, so a new
+# season needs no script edits (see Start-IesaSeason.ps1).
+$siteRoot = Split-Path -Parent $PSScriptRoot
+$liveSeason = Get-Content -Raw -LiteralPath (Join-Path $siteRoot "live-season.json") | ConvertFrom-Json
+$SeasonYear = [int]$liveSeason.year
+$FollowedClass = [string]$liveSeason.followedClass
+function Get-SeasonDate([string]$value) { [datetime]::ParseExact($value, "yyyy-MM-dd", [Globalization.CultureInfo]::InvariantCulture) }
+$seedsFrom = Get-SeasonDate $liveSeason.seedsFrom
+$bracketFrom = Get-SeasonDate $liveSeason.bracketFrom
+$endDate = Get-SeasonDate $liveSeason.endDate
+if (!$SitePath) { $SitePath = Join-Path $siteRoot "$SeasonYear" }
+$includes2A = !$Classes -or $Classes -contains $FollowedClass
+
 # Season dates are Illinois dates; the GitHub Actions runner clock is UTC.
 $today = [TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, "Central Standard Time").Date
-if ($today -gt [datetime]::new(2026, 12, 18)) {
-    throw "The 2026 season is complete; the scheduled score refresh ended after December 18."
+if ($today -gt $endDate) {
+    throw "The $SeasonYear season is complete; the scheduled score refresh ended after $($endDate.ToString('MMMM d'))."
 }
 
 # NFHS and Hudl watch links are a convenience beside the scores and must never fail a refresh.
 function Update-StreamLinks {
+    $seasonStart = [datetime]::new($SeasonYear, 8, 1)
     try {
-        & (Join-Path $PSScriptRoot "Update-NfhsEvents.ps1") -SitePath $SitePath
+        & (Join-Path $PSScriptRoot "Update-NfhsEvents.ps1") -SitePath $SitePath -SeasonStart $seasonStart
     } catch {
         Write-Warning "NFHS game refresh failed: $($_.Exception.Message)"
     }
     try {
-        & (Join-Path $PSScriptRoot "Update-HudlEvents.ps1") -SitePath $SitePath
+        & (Join-Path $PSScriptRoot "Update-HudlEvents.ps1") -SitePath $SitePath -SeasonStart $seasonStart
     } catch {
         Write-Warning "Hudl game refresh failed: $($_.Exception.Message)"
     }
 }
 
 # Repeated runs (manual or test) within a few hours add IESA load for little gain.
+# The followed class is the one refreshed every run, so its timestamps decide.
+$primaryClass = ((Get-Content -Raw -LiteralPath (Join-Path $siteRoot "seasons.json") | ConvertFrom-Json | ForEach-Object { $_ }) |
+    Where-Object { $_.year -eq $SeasonYear } | Select-Object -First 1).className
+$followedPath = if ($FollowedClass -eq $primaryClass) { $SitePath } else { Join-Path $SitePath $FollowedClass }
 $lastRun = $null
 foreach ($grade in "7th", "8th") {
     try {
-        $stamp = (Get-Content -Raw -LiteralPath (Join-Path $SitePath "scores-$grade.json") | ConvertFrom-Json).updatedAt
+        $stamp = (Get-Content -Raw -LiteralPath (Join-Path $followedPath "scores-$grade.json") | ConvertFrom-Json).updatedAt
         $time = [datetime]::ParseExact($stamp, "yyyy-MM-dd HH:mm", [Globalization.CultureInfo]::InvariantCulture)
         if ($null -eq $lastRun -or $time -lt $lastRun) { $lastRun = $time }
     } catch { $lastRun = $null; break }
@@ -121,7 +139,7 @@ function Get-EliminatedTeams([string]$grade) {
 # assignment page when a school withdraws. Report drift so data.js can be fixed.
 function Get-RosterChanges([string]$grade) {
     $classCode = $grade.Substring(0, 1) + "-$ClassName"
-    $url = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=2026&Class=$classCode"
+    $url = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=$SeasonYear&Class=$classCode"
     $html = (Invoke-IesaPage $url).Content
     $headers = @([regex]::Matches($html, "(?is)<td\s+class=['""]TableSubtitle2['""][^>]*>\s*Regional\s+(\d+)\s*</td>"))
     $local = @(Get-Regionals $grade)
@@ -207,16 +225,19 @@ function Write-AtomicFile([string]$path, [string]$content) {
     Move-Item -LiteralPath $temporary -Destination $path -Force
 }
 
-# Class 2A (the hand-maintained pages in this folder) is re-read on every run.
-# Classes 1A, 3A and 4A (2026\<class>\, built by Build-IesaSeason.ps1 -Live) are
-# read once a day, on their first run of the Central day, to keep IESA load down.
-$liveClasses = @([pscustomobject]@{ Name = "2A"; Path = $SitePath; EveryRun = $true })
-foreach ($other in "1A", "3A", "4A") {
-    $otherPath = Join-Path $SitePath $other
-    if (Test-Path -LiteralPath (Join-Path $otherPath "7th\data.json")) {
-        $liveClasses += [pscustomobject]@{ Name = $other; Path = $otherPath; EveryRun = $false }
+# The followed class (live-season.json; Class 2A in 2026) is re-read on every run;
+# the season's other classes once a day, on their first run of the Central day,
+# to keep IESA load down. The season's first class lives in <year>\, the others
+# in <year>\<class>\ (see IesaSitePages.ps1).
+$catalogueSeason = (Get-Content -Raw -LiteralPath (Join-Path $siteRoot "seasons.json") | ConvertFrom-Json | ForEach-Object { $_ }) |
+    Where-Object { $_.year -eq $SeasonYear } | Select-Object -First 1
+$seasonClasses = if ($catalogueSeason.PSObject.Properties["classes"]) { @($catalogueSeason.classes) } else { @($catalogueSeason.className) }
+$liveClasses = @(foreach ($name in $seasonClasses) {
+    $path = if ($name -eq $catalogueSeason.className) { $SitePath } else { Join-Path $SitePath $name }
+    if ((Test-Path -LiteralPath (Join-Path $path "7th\data.json")) -or (Test-Path -LiteralPath (Join-Path $path "7th\data.js"))) {
+        [pscustomobject]@{ Name = $name; Path = $path; EveryRun = $name -eq $FollowedClass }
     }
-}
+}) | Sort-Object { !$_.EveryRun }
 if ($Classes) { $liveClasses = @($liveClasses | Where-Object { $_.Name -in $Classes }) }
 $refreshedClasses = @()
 foreach ($liveClass in $liveClasses) {
@@ -275,8 +296,8 @@ foreach ($grade in "7th", "8th") {
             $message = "$grade Regional $($change.regional) roster differs from IESA assignments." +
                 $(if ($change.removed.Count) { " No longer listed: $($change.removed -join ', ')." } else { "" }) +
                 $(if ($change.added.Count) { " Newly listed: $($change.added -join ', ')." } else { "" }) +
-                $(if ($ClassName -eq "2A") { " Update $grade\data.js." } else {
-                    " Rebuild with .\Build-IesaSeason.ps1 -Year 2026 -ClassName $ClassName -Live." })
+                $(if (!(Test-Path -LiteralPath (Join-Path $ClassPath "$grade\data.json"))) { " Update $grade\data.js." } else {
+                    " Rebuild with .\Build-IesaSeason.ps1 -Year $SeasonYear -ClassName $ClassName -Live." })
             Write-Warning $message
             if ($env:GITHUB_ACTIONS) { Write-Output "::warning title=IESA roster change::$message" }
         }
@@ -383,27 +404,27 @@ if ($pausedNow) {
 # stale), and is unofficial. Records already cached for other classes are reused.
 foreach ($liveClass in $refreshedClasses) {
     try {
-        & (Join-Path $PSScriptRoot "Update-Strength.ps1") -SitePath $liveClass.Path
+        & (Join-Path $PSScriptRoot "Update-Strength.ps1") -SitePath $liveClass.Path -Year $SeasonYear
     } catch {
         Write-Warning "Class $($liveClass.Name) strength of schedule refresh failed: $($_.Exception.Message)"
     }
 }
 
 $seedRefreshError = $null
-if ($today -ge [datetime]::new(2026, 11, 12)) {
+if ($today -ge $seedsFrom) {
     foreach ($liveClass in $refreshedClasses) {
         try {
-            & (Join-Path $PSScriptRoot "Update-IesaSeeds.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name
+            & (Join-Path $PSScriptRoot "Update-IesaSeeds.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name -Year $SeasonYear
         } catch {
             if ($liveClass.EveryRun) { $seedRefreshError = $_ }
             Write-Warning "Class $($liveClass.Name) regional seed refresh failed: $($_.Exception.Message)"
         }
     }
 }
-if ($today -ge [datetime]::new(2026, 11, 21)) {
+if ($today -ge $bracketFrom) {
     foreach ($liveClass in $refreshedClasses) {
         try {
-            & (Join-Path $PSScriptRoot "Update-IesaBracket.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name
+            & (Join-Path $PSScriptRoot "Update-IesaBracket.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name -Year $SeasonYear
         } catch {
             # Class 2A's bracket failure still fails the run, as before.
             if ($liveClass.EveryRun) { throw }

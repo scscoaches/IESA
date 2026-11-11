@@ -233,7 +233,8 @@
     var data = window.tournamentData || {};
     if (team && team.name) {
         team.classFor(data.year || 2026, data.grade).then(function (teamClass) {
-            if (teamClass && teamClass !== (data.className || "2A")) { button.style.display = "none"; }
+            // The mobile stylesheet shows this button with !important, so hide it the same way.
+            if (teamClass && teamClass !== (data.className || "2A")) { button.style.setProperty("display", "none", "important"); }
         }).catch(function () { /* keep the button when the team list is unavailable */ });
     }
 }());

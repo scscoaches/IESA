@@ -1,4 +1,4 @@
-﻿{
+{
     "year":  2004,
     "grade":  "7th",
     "className":  "AA",
@@ -65,10 +65,10 @@
                       {
                           "id":  6,
                           "sectional":  3,
-                          "host":  "Chicago Heights Washington  (Coop)",
+                          "host":  "Chicago Heights Washington (Coop)",
                           "teams":  [
                                         "Calumet Park",
-                                        "Chicago Heights Washington  (Coop)",
+                                        "Chicago Heights Washington (Coop)",
                                         "Ford Heights Cottage Grove",
                                         "Lansing Heritage",
                                         "University Park Crete Monee"
@@ -277,10 +277,10 @@
                       {
                           "id":  23,
                           "sectional":  12,
-                          "host":  "Petersburg PORTA JHS  (Coop)",
+                          "host":  "Petersburg PORTA JHS (Coop)",
                           "teams":  [
                                         "Athens",
-                                        "Petersburg PORTA JHS  (Coop)",
+                                        "Petersburg PORTA JHS (Coop)",
                                         "Springfield Franklin",
                                         "Springfield Grant",
                                         "Springfield Lincoln",

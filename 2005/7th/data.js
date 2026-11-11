@@ -1,4 +1,4 @@
-﻿window.tournamentData = {
+window.tournamentData = {
     "year":  2005,
     "grade":  "7th",
     "className":  "A",
@@ -91,11 +91,11 @@
                       {
                           "id":  8,
                           "sectional":  4,
-                          "host":  "Odell  (Coop)",
+                          "host":  "Odell (Coop)",
                           "teams":  [
                                         "Flanagan (Coop)",
                                         "Lexington",
-                                        "Odell  (Coop)",
+                                        "Odell (Coop)",
                                         "Pontiac St. Mary\u0027s"
                                     ]
                       },
@@ -114,13 +114,13 @@
                       {
                           "id":  10,
                           "sectional":  5,
-                          "host":  "Royal Prairieview  (Coop)",
+                          "host":  "Royal Prairieview (Coop)",
                           "teams":  [
                                         "Bismarck-Henning",
                                         "Cissna Park",
                                         "Potomac (Coop)",
                                         "Rossville-Alvin",
-                                        "Royal Prairieview  (Coop)"
+                                        "Royal Prairieview (Coop)"
                                     ]
                       },
                       {
@@ -174,10 +174,10 @@
                       {
                           "id":  15,
                           "sectional":  8,
-                          "host":  "Lincoln Carroll Catholic  (Coop)",
+                          "host":  "Lincoln Carroll Catholic (Coop)",
                           "teams":  [
                                         "DeLand-Weldon",
-                                        "Lincoln Carroll Catholic  (Coop)",
+                                        "Lincoln Carroll Catholic (Coop)",
                                         "Lincoln Chester-East Lincoln",
                                         "Lincoln West Lincoln-Broadwell",
                                         "Mt. Pulaski (Coop)"
@@ -186,13 +186,13 @@
                       {
                           "id":  16,
                           "sectional":  8,
-                          "host":  "Kincaid South Fork  (Coop)",
+                          "host":  "Kincaid South Fork (Coop)",
                           "teams":  [
                                         "Argenta-Oreana",
                                         "Decatur Johns Hill",
                                         "Decatur Our Lady of Lourdes",
                                         "Decatur St. Patrick (Coop)",
-                                        "Kincaid South Fork  (Coop)",
+                                        "Kincaid South Fork (Coop)",
                                         "Pana Sacred Heart"
                                     ]
                       },
@@ -236,13 +236,13 @@
                       {
                           "id":  20,
                           "sectional":  10,
-                          "host":  "Table Grove VIT  (Coop)",
+                          "host":  "Table Grove VIT (Coop)",
                           "teams":  [
                                         "Cuba",
                                         "Glasford Illini Bluffs",
                                         "Lewistown Central",
                                         "London Mills Valley",
-                                        "Table Grove VIT  (Coop)"
+                                        "Table Grove VIT (Coop)"
                                     ]
                       },
                       {
@@ -295,11 +295,11 @@
                       {
                           "id":  25,
                           "sectional":  13,
-                          "host":  "Nokomis JHS  (Coop)",
+                          "host":  "Nokomis JHS (Coop)",
                           "teams":  [
                                         "Beecher City",
                                         "Cowden-Herrick",
-                                        "Nokomis JHS  (Coop)",
+                                        "Nokomis JHS (Coop)",
                                         "Pocahontas",
                                         "Ramsey"
                                     ]

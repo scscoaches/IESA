@@ -1,4 +1,4 @@
-﻿{
+{
     "updatedAt":  "2026-11-11 10:45",
     "year":  2003,
     "grade":  "7th",
@@ -40,14 +40,14 @@
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7AA"
                              },
                       "13":  {
-                                 "winner":  "Metamora St. Mary\u0027s  (Coop)",
+                                 "winner":  "Metamora St. Mary\u0027s (Coop)",
                                  "loser":  "Washington MS",
                                  "score":  "39-30",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7AA"
                              },
                       "27":  {
                                  "winner":  "Mattoon",
-                                 "loser":  "Shelbyville Moulton  (Coop)",
+                                 "loser":  "Shelbyville Moulton (Coop)",
                                  "score":  null,
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7AA"
                              },
@@ -71,7 +71,7 @@
                              },
                       "23":  {
                                  "winner":  "Macomb",
-                                 "loser":  "Bushnell-Prairie City  (Coop)",
+                                 "loser":  "Bushnell-Prairie City (Coop)",
                                  "score":  "20-18",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7AA"
                              },
@@ -106,7 +106,7 @@
                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7AA"
                             },
                       "26":  {
-                                 "winner":  "Newton Jasper County  (Coop)",
+                                 "winner":  "Newton Jasper County (Coop)",
                                  "loser":  "Sumner Red Hill",
                                  "score":  "31-21",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7AA"
@@ -223,7 +223,7 @@
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7AA"
                                            },
                                     "13":  {
-                                               "team":  "Metamora St. Mary\u0027s  (Coop)",
+                                               "team":  "Metamora St. Mary\u0027s (Coop)",
                                                "record":  "18-0",
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7AA"
                                            },
@@ -268,7 +268,7 @@
                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7AA"
                                           },
                                     "26":  {
-                                               "team":  "Newton Jasper County  (Coop)",
+                                               "team":  "Newton Jasper County (Coop)",
                                                "record":  "17-2",
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=7AA"
                                            },
@@ -401,7 +401,7 @@
                                   "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7AA"
                               },
                        "7":  {
-                                 "winner":  "Metamora St. Mary\u0027s  (Coop)",
+                                 "winner":  "Metamora St. Mary\u0027s (Coop)",
                                  "loser":  "Stanford Olympia",
                                  "score":  "26-18",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7AA"
@@ -425,7 +425,7 @@
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7AA"
                              },
                        "13":  {
-                                  "winner":  "Newton Jasper County  (Coop)",
+                                  "winner":  "Newton Jasper County (Coop)",
                                   "loser":  "Paris Mayo",
                                   "score":  "41-28",
                                   "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=7AA"
@@ -520,14 +520,14 @@
                          },
                   "10":  {
                              "teams":  [
-                                           "Newton Jasper County  (Coop)",
+                                           "Newton Jasper County (Coop)",
                                            "Dunlap MS"
                                        ],
                              "scores":  [
                                             30,
                                             28
                                         ],
-                             "winner":  "Newton Jasper County  (Coop)",
+                             "winner":  "Newton Jasper County (Coop)",
                              "loser":  "Dunlap MS",
                              "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7AA"
                          },
@@ -547,13 +547,13 @@
                   "3":  {
                             "teams":  [
                                           "Harvey Brooks",
-                                          "Newton Jasper County  (Coop)"
+                                          "Newton Jasper County (Coop)"
                                       ],
                             "scores":  [
                                            41,
                                            42
                                        ],
-                            "winner":  "Newton Jasper County  (Coop)",
+                            "winner":  "Newton Jasper County (Coop)",
                             "loser":  "Harvey Brooks",
                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7AA"
                         },
@@ -572,14 +572,14 @@
                         },
                   "15":  {
                              "teams":  [
-                                           "Newton Jasper County  (Coop)",
+                                           "Newton Jasper County (Coop)",
                                            "Shorewood Troy"
                                        ],
                              "scores":  [
                                             32,
                                             27
                                         ],
-                             "winner":  "Newton Jasper County  (Coop)",
+                             "winner":  "Newton Jasper County (Coop)",
                              "loser":  "Shorewood Troy",
                              "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7AA"
                          },
@@ -625,26 +625,26 @@
                   "11":  {
                              "teams":  [
                                            "Shorewood Troy",
-                                           "Metamora St. Mary\u0027s  (Coop)"
+                                           "Metamora St. Mary\u0027s (Coop)"
                                        ],
                              "scores":  [
                                             37,
                                             30
                                         ],
                              "winner":  "Shorewood Troy",
-                             "loser":  "Metamora St. Mary\u0027s  (Coop)",
+                             "loser":  "Metamora St. Mary\u0027s (Coop)",
                              "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7AA"
                          },
                   "6":  {
                             "teams":  [
                                           "Manteno",
-                                          "Metamora St. Mary\u0027s  (Coop)"
+                                          "Metamora St. Mary\u0027s (Coop)"
                                       ],
                             "scores":  [
                                            11,
                                            36
                                        ],
-                            "winner":  "Metamora St. Mary\u0027s  (Coop)",
+                            "winner":  "Metamora St. Mary\u0027s (Coop)",
                             "loser":  "Manteno",
                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7AA"
                         },
@@ -664,14 +664,14 @@
                   "13":  {
                              "teams":  [
                                            "Taylorville JHS",
-                                           "Newton Jasper County  (Coop)"
+                                           "Newton Jasper County (Coop)"
                                        ],
                              "scores":  [
                                             34,
                                             26
                                         ],
                              "winner":  "Taylorville JHS",
-                             "loser":  "Newton Jasper County  (Coop)",
+                             "loser":  "Newton Jasper County (Coop)",
                              "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=7AA"
                          }
               }

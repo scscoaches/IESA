@@ -523,7 +523,7 @@ try {
     }
     [pscustomobject]@{ year = $Year; className = $ClassName } | ConvertTo-Json |
         Set-Content -Encoding UTF8 -LiteralPath (Join-Path $destination 'season.json')
-    Add-IesaCatalogueClass $OutputRoot $Year $ClassName
+    Add-IesaCatalogueClass $OutputRoot $Year $ClassName -Live:$Live
     if ($Live) { Write-IesaLiveClassPages $OutputRoot $Year $ClassName } else { Write-IesaClassPages $OutputRoot $Year $ClassName }
     Write-Output "Published $Year Class $ClassName 7th/8th regional-to-state brackets to $relative."
 } finally {

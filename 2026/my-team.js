@@ -30,7 +30,16 @@
         }
     }
 
-    var name = stored();
+    // A shared link (?team=Normal%20Epiphany) makes that school the visitor's team.
+    var linkedTeam = new URLSearchParams(window.location.search).get("team");
+    if (linkedTeam !== null && linkedTeam.trim() && linkedTeam.trim() !== stored()) {
+        try {
+            window.localStorage.setItem(STORAGE_KEY, linkedTeam.trim());
+            window.localStorage.removeItem(KEYS_KEY);
+        } catch (error) { /* private browsing: use it for this page only */ }
+    }
+
+    var name = linkedTeam !== null && linkedTeam.trim() ? linkedTeam.trim() : stored();
     var myKey = key(name);
     var myKeys = [myKey];
     try {
@@ -212,6 +221,59 @@
                 var clear = element("button", "my-team-clear", "Clear");
                 clear.type = "button";
                 clear.addEventListener("click", function () { choose(""); });
+                // A link to this page that opens with this team chosen. It is only
+                // copied: no share sheet, window or prompt opens.
+                // Each platform's familiar share symbol: Apple's box and arrow, otherwise
+                // Android's three connected dots.
+                var apple = /iPhone|iPad|iPod|Macintosh|Mac OS X/.test(navigator.userAgent);
+                var shareIcon = apple
+                    ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M8 7l4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>'
+                    : '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.2 10.9l7.6-4.4M8.2 13.1l7.6 4.4"/><circle cx="18" cy="5" r="2.8" fill="currentColor" stroke="none"/><circle cx="6" cy="12" r="2.8" fill="currentColor" stroke="none"/><circle cx="18" cy="19" r="2.8" fill="currentColor" stroke="none"/></svg>';
+                var copiedIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>';
+                var share = element("button", "my-team-clear my-team-share", "");
+                share.type = "button";
+                share.innerHTML = shareIcon;
+                share.title = "Copy a link that opens with " + name;
+                share.setAttribute("aria-label", share.title);
+                var shareStatus = element("span", "my-team-share-status", "");
+                shareStatus.setAttribute("role", "status");
+                var shareTimer = 0;
+                share.addEventListener("click", function () {
+                    var url = new URL(window.location.href);
+                    url.searchParams.delete("v");
+                    url.searchParams.set("team", name);
+                    var report = function (copied) {
+                        share.innerHTML = copied ? copiedIcon : shareIcon;
+                        shareStatus.textContent = copied ? "Link copied" : "Copy failed";
+                        clearTimeout(shareTimer);
+                        shareTimer = setTimeout(function () {
+                            share.innerHTML = shareIcon;
+                            shareStatus.textContent = "";
+                        }, 2500);
+                    };
+                    var fallback = function () {
+                        var field = document.createElement("textarea");
+                        field.value = url.href;
+                        field.setAttribute("readonly", "");
+                        field.style.position = "fixed";
+                        field.style.opacity = "0";
+                        dialog.appendChild(field);
+                        field.select();
+                        var copied = false;
+                        try { copied = document.execCommand("copy"); } catch (error) { copied = false; }
+                        field.remove();
+                        report(copied);
+                    };
+                    if (navigator.clipboard && window.isSecureContext) {
+                        navigator.clipboard.writeText(url.href).then(function () { report(true); }, fallback);
+                    } else {
+                        fallback();
+                    }
+                });
+                var shareWrap = element("span", "my-team-share-wrap", "");
+                shareWrap.appendChild(share);
+                shareWrap.appendChild(shareStatus);
+                current.appendChild(shareWrap);
                 current.appendChild(clear);
             }
             input.value = "";
@@ -307,6 +369,25 @@
 
     // Keep the saved name variants current (aliases can be added later);
     // the next page load highlights with them.
+    // A browser may show a cached copy of a page after the site changed. Pages
+    // carry the site version they were built with; if site-version.json is newer,
+    // reload once with ?v= so the browser fetches the current page.
+    var versionTag = document.querySelector('meta[name="iesa-site-version"]');
+    if (versionTag) {
+        load("site-version.json").then(function (site) {
+            var pageVersion = Number(versionTag.content) || 0;
+            if (!site || !(site.version > pageVersion)) { return; }
+            var marker = "iesa-reloaded:" + window.location.pathname + ":" + site.version;
+            try {
+                if (window.sessionStorage.getItem(marker)) { return; }
+                window.sessionStorage.setItem(marker, "1");
+            } catch (error) { return; }
+            var url = new URL(window.location.href);
+            url.searchParams.set("v", site.version);
+            window.location.replace(url.href);
+        }).catch(function () { /* keep the page as it is */ });
+    }
+
     if (myKey) {
         load("teams.json").then(function (teams) {
             var keys = keysFor(teams, myKey);

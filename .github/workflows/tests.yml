@@ -1,0 +1,21 @@
+name: Tests
+
+# Score-refresh commits are pushed with GITHUB_TOKEN, which never triggers
+# workflows, so this runs only for your own pushes and pull requests.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run tests (no IESA requests)
+        shell: powershell
+        run: ./tests/Run-Tests.ps1

@@ -1,4 +1,4 @@
-﻿window.tournamentData = {
+window.tournamentData = {
     "year":  2005,
     "grade":  "7th",
     "className":  "AA",
@@ -335,12 +335,12 @@
                       {
                           "id":  28,
                           "sectional":  14,
-                          "host":  "Petersburg PORTA JHS  (Coop)",
+                          "host":  "Petersburg PORTA JHS (Coop)",
                           "teams":  [
                                         "Beardstown MS",
                                         "Franklin (Coop)",
                                         "Jacksonville Turner",
-                                        "Petersburg PORTA JHS  (Coop)",
+                                        "Petersburg PORTA JHS (Coop)",
                                         "Pleasant Plains",
                                         "Roodhouse North Greene"
                                     ]
@@ -374,14 +374,14 @@
                       {
                           "id":  31,
                           "sectional":  16,
-                          "host":  "Vandalia  (Coop)",
+                          "host":  "Vandalia (Coop)",
                           "teams":  [
                                         "Gillespie",
                                         "Greenville",
                                         "Hillsboro",
                                         "Litchfield",
                                         "Staunton",
-                                        "Vandalia  (Coop)"
+                                        "Vandalia (Coop)"
                                     ]
                       },
                       {

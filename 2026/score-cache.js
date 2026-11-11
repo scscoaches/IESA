@@ -6,6 +6,9 @@
     // (icons, stream links, the live lookup) are found from this script's URL,
     // so pages for other classes (2026/<class>/<grade>/) work too.
     var shared = new URL(".", document.currentScript.src);
+    // The live season's folder (/<year>/, also under a GitHub Pages prefix) holds
+    // the season-wide stream-link files.
+    var seasonBase = new URL((window.location.pathname.match(/^(.*?\/\d{4}\/)/) || [null, "../"])[1], window.location.href);
     // Strength of schedule (Update-Strength.ps1) exists once a class has been rated.
     var strengthAvailable = true;
     // "Bigger" opponents are the classes above this page's class.
@@ -70,8 +73,8 @@
     // so a card matches a score row when each card side's words appear in one team.
     // Hudl games are published in the same shape, labelled with the bracket name.
     var streamKinds = [
-        { kind: "nfhs", label: "NFHS Network", file: new URL("nfhs-events.json", shared).href },
-        { kind: "hudl", label: "Hudl", file: new URL("hudl-events.json", shared).href }
+        { kind: "nfhs", label: "NFHS Network", file: new URL("nfhs-events.json", seasonBase).href },
+        { kind: "hudl", label: "Hudl", file: new URL("hudl-events.json", seasonBase).href }
     ];
     var streamGames = {};
     var genericWords = /\b(?:middle|school|schools|jr|junior|high|jhs|ms|gs|hs|grade|co ?op|elementary|the|and)\b/g;

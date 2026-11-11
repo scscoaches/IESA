@@ -1,4 +1,4 @@
-﻿window.tournamentData = {
+window.tournamentData = {
     "year":  2002,
     "grade":  "7th",
     "className":  "AA",
@@ -331,11 +331,11 @@
                       {
                           "id":  28,
                           "sectional":  14,
-                          "host":  "Ste. Marie East  (Coop)",
+                          "host":  "Ste. Marie East (Coop)",
                           "teams":  [
                                         "Lawrenceville Parkview",
                                         "Oblong",
-                                        "Ste. Marie East  (Coop)",
+                                        "Ste. Marie East (Coop)",
                                         "Sumner Red Hill"
                                     ]
                       },

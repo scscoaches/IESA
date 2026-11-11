@@ -1,4 +1,4 @@
-﻿window.tournamentData = {
+window.tournamentData = {
     "year":  2003,
     "grade":  "8th",
     "className":  "AA",
@@ -317,10 +317,10 @@
                       {
                           "id":  26,
                           "sectional":  13,
-                          "host":  "Newton Jasper County  (Coop)",
+                          "host":  "Newton Jasper County (Coop)",
                           "teams":  [
                                         "Lawrenceville Parkview",
-                                        "Newton Jasper County  (Coop)",
+                                        "Newton Jasper County (Coop)",
                                         "Robinson Nuttall",
                                         "Sumner Red Hill",
                                         "Teutopolis"

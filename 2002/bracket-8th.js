@@ -1,4 +1,4 @@
-﻿window.iesaBracketCache = {
+window.iesaBracketCache = {
     "updatedAt":  "2026-09-30 14:28",
     "year":  2002,
     "grade":  "8th",
@@ -71,7 +71,7 @@
                              },
                       "23":  {
                                  "winner":  "Sigel St. Michael",
-                                 "loser":  "Arthur  (Coop)",
+                                 "loser":  "Arthur (Coop)",
                                  "score":  "30-26",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=8A"
                              },
@@ -100,7 +100,7 @@
                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=8A"
                             },
                       "8":  {
-                                "winner":  "Ogden  (Coop)",
+                                "winner":  "Ogden (Coop)",
                                 "loser":  "Gifford",
                                 "score":  "31-17",
                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=8A"
@@ -137,7 +137,7 @@
                              },
                       "9":  {
                                 "winner":  "Pontiac St. Mary\u0027s",
-                                "loser":  "Odell  (Coop)",
+                                "loser":  "Odell (Coop)",
                                 "score":  "41-21",
                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=8A"
                             },
@@ -243,7 +243,7 @@
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=8A"
                                            },
                                     "8":  {
-                                              "team":  "Ogden  (Coop)",
+                                              "team":  "Ogden (Coop)",
                                               "record":  "21-0",
                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=8A"
                                           },
@@ -414,7 +414,7 @@
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=8A"
                              },
                        "4":  {
-                                 "winner":  "Ogden  (Coop)",
+                                 "winner":  "Ogden (Coop)",
                                  "loser":  "Champaign St. Matthew",
                                  "score":  "39-18",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=8A"
@@ -476,7 +476,7 @@
                          },
                   "7":  {
                             "teams":  [
-                                          "Ogden  (Coop)",
+                                          "Ogden (Coop)",
                                           "Paris Crestwood"
                                       ],
                             "scores":  [
@@ -484,7 +484,7 @@
                                            54
                                        ],
                             "winner":  "Paris Crestwood",
-                            "loser":  "Ogden  (Coop)",
+                            "loser":  "Ogden (Coop)",
                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=8A"
                         },
                   "5":  {

@@ -1,4 +1,4 @@
-﻿window.iesaBracketCache = {
+window.iesaBracketCache = {
     "updatedAt":  "2026-11-11 11:28",
     "year":  2004,
     "grade":  "7th",
@@ -70,7 +70,7 @@
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=7AA"
                              },
                       "23":  {
-                                 "winner":  "Petersburg PORTA JHS  (Coop)",
+                                 "winner":  "Petersburg PORTA JHS (Coop)",
                                  "loser":  "Springfield Franklin",
                                  "score":  "30-24",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004\u0026Class=7AA"
@@ -359,7 +359,7 @@
                              },
                        "12":  {
                                   "winner":  "Chatham Glenwood",
-                                  "loser":  "Petersburg PORTA JHS  (Coop)",
+                                  "loser":  "Petersburg PORTA JHS (Coop)",
                                   "score":  "44-20",
                                   "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2004\u0026Class=7AA"
                               },

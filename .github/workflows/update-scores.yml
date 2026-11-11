@@ -2,9 +2,9 @@ name: Update IESA scores
 
 on:
   schedule:
-    # GitHub cron runs on UTC. Central Standard Time is UTC-6 for the rest of
-    # the season (no clock change before December 18). GitHub may start
-    # scheduled runs late when its queue is busy.
+    # GitHub cron runs on UTC. Central Standard Time is UTC-6 for the whole
+    # postseason (November-December). GitHub may start scheduled runs late
+    # when its queue is busy.
     # Weekdays 5:00 AM, 11:00 AM and 5:00 PM Central.
     - cron: "0 11,17,23 * * 1-5"
     # Saturdays 9:00 PM Central (Sunday 03:00 UTC).
@@ -23,25 +23,29 @@ jobs:
   update-scores:
     runs-on: windows-latest
     steps:
-      # Cron has no end date, so scheduled runs stop themselves after the
-      # season's last day (December 18, 2026, Central). Manual runs still work.
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # Cron has no end date, so scheduled runs stop themselves after the live
+      # season's last day (endDate in live-season.json, Central). Manual runs
+      # still work.
       - name: Check season window
         id: season
         shell: pwsh
         run: |
+          $season = Get-Content -Raw live-season.json | ConvertFrom-Json
+          $end = [datetime]::ParseExact($season.endDate, "yyyy-MM-dd", [Globalization.CultureInfo]::InvariantCulture)
           $central = [TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, "Central Standard Time")
-          $active = "${{ github.event_name }}" -ne "schedule" -or $central.Date -le [datetime]::new(2026, 12, 18)
-          Write-Host "Central time $($central.ToString('yyyy-MM-dd HH:mm')); refresh active: $active"
+          $active = "${{ github.event_name }}" -ne "schedule" -or $central.Date -le $end
+          Write-Host "Season $($season.year); Central time $($central.ToString('yyyy-MM-dd HH:mm')); refresh active: $active"
           "active=$($active.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
-
-      - name: Check out repository
-        if: steps.season.outputs.active == 'true'
-        uses: actions/checkout@v4
+          "year=$($season.year)" >> $env:GITHUB_OUTPUT
 
       - name: Run score refresh script
         if: steps.season.outputs.active == 'true'
         shell: pwsh
-        run: ./2026/Update-IesaScores.ps1 -SitePath "${{ github.workspace }}/2026"
+        # The refresh scripts live in the 2026 folder for every season.
+        run: ./2026/Update-IesaScores.ps1 -SitePath "${{ github.workspace }}/${{ steps.season.outputs.year }}"
 
       - name: Commit and push refreshed data
         if: steps.season.outputs.active == 'true'
@@ -49,18 +53,20 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Scores and watch links every run; regional seeds from November 12;
-          # the state bracket, trophy placements and team index from November 21.
-          # Classes 1A, 3A and 4A keep the same files in 2026/<class>/.
-          $perClass = foreach ($folder in "2026", "2026/1A", "2026/3A", "2026/4A") {
+          # Scores, watch links and strength of schedule every run; regional seeds
+          # once published; the state bracket, trophy placements and team index
+          # during the postseason. The season's first class lives in <year>/, the
+          # others in <year>/<class>/.
+          $year = "${{ steps.season.outputs.year }}"
+          $folders = @($year) + @("1A", "2A", "3A", "4A" | ForEach-Object { "$year/$_" })
+          $perClass = foreach ($folder in $folders) {
             foreach ($grade in "7th", "8th") {
               foreach ($name in "scores-$grade.json", "scores-$grade.js", "regional-seeds-$grade.json",
-                "regional-seeds-$grade.js", "bracket-$grade.json", "bracket-$grade.js") { "$folder/$name" }
+                "regional-seeds-$grade.js", "bracket-$grade.json", "bracket-$grade.js", "strength-$grade.json") { "$folder/$name" }
             }
           }
           $files = @($perClass) + @(
-            "2026/nfhs-events.json", "2026/hudl-events.json",
-            "2026/strength-7th.json", "2026/strength-8th.json",
+            "$year/nfhs-events.json", "$year/hudl-events.json",
             "placements.json", "teams.json"
           ) | Where-Object { Test-Path $_ }
           git add -- $files

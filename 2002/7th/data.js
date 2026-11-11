@@ -1,4 +1,4 @@
-﻿window.tournamentData = {
+window.tournamentData = {
     "year":  2002,
     "grade":  "7th",
     "className":  "A",
@@ -101,10 +101,10 @@
                       {
                           "id":  9,
                           "sectional":  5,
-                          "host":  "Odell  (Coop)",
+                          "host":  "Odell (Coop)",
                           "teams":  [
                                         "Gardner",
-                                        "Odell  (Coop)",
+                                        "Odell (Coop)",
                                         "Piper City Tri-Point",
                                         "Pontiac St. Mary\u0027s",
                                         "South Wilmington"
@@ -220,9 +220,9 @@
                       {
                           "id":  19,
                           "sectional":  10,
-                          "host":  "Bowen Southeastern  (Coop)",
+                          "host":  "Bowen Southeastern (Coop)",
                           "teams":  [
-                                        "Bowen Southeastern  (Coop)",
+                                        "Bowen Southeastern (Coop)",
                                         "Mendon Unity",
                                         "Mt. Sterling Brown County",
                                         "Mt. Sterling St. Mary",
@@ -268,10 +268,10 @@
                       {
                           "id":  23,
                           "sectional":  12,
-                          "host":  "Arthur  (Coop)",
+                          "host":  "Arthur (Coop)",
                           "teams":  [
                                         "Arcola",
-                                        "Arthur  (Coop)",
+                                        "Arthur (Coop)",
                                         "Atwood-Hammond",
                                         "Neoga",
                                         "Sigel St. Michael"

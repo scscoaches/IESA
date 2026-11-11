@@ -1,4 +1,4 @@
-﻿{
+{
     "year":  2005,
     "grade":  "8th",
     "className":  "A",
@@ -96,11 +96,11 @@
                       {
                           "id":  8,
                           "sectional":  4,
-                          "host":  "Odell  (Coop)",
+                          "host":  "Odell (Coop)",
                           "teams":  [
                                         "Flanagan (Coop)",
                                         "Lexington",
-                                        "Odell  (Coop)",
+                                        "Odell (Coop)",
                                         "Pontiac St. Mary\u0027s"
                                     ]
                       },
@@ -180,14 +180,14 @@
                       {
                           "id":  15,
                           "sectional":  8,
-                          "host":  "Mt. Pulaski  (Coop)",
+                          "host":  "Mt. Pulaski (Coop)",
                           "teams":  [
                                         "Argenta-Oreana",
                                         "DeLand-Weldon",
                                         "Lincoln Carroll Catholic (Coop)",
                                         "Lincoln Chester-East Lincoln",
                                         "Lincoln West Lincoln-Broadwell",
-                                        "Mt. Pulaski  (Coop)"
+                                        "Mt. Pulaski (Coop)"
                                     ]
                       },
                       {
@@ -290,23 +290,23 @@
                       {
                           "id":  24,
                           "sectional":  12,
-                          "host":  "Palestine  (Coop)",
+                          "host":  "Palestine (Coop)",
                           "teams":  [
                                         "Dieterich",
                                         "Effingham St. Anthony",
                                         "Martinsville",
                                         "Oblong",
-                                        "Palestine  (Coop)"
+                                        "Palestine (Coop)"
                                     ]
                       },
                       {
                           "id":  25,
                           "sectional":  13,
-                          "host":  "Nokomis JHS  (Coop)",
+                          "host":  "Nokomis JHS (Coop)",
                           "teams":  [
                                         "Beecher City",
                                         "Cowden-Herrick",
-                                        "Nokomis JHS  (Coop)",
+                                        "Nokomis JHS (Coop)",
                                         "Pocahontas",
                                         "Ramsey"
                                     ]

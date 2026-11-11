@@ -37,11 +37,11 @@ function Get-IesaClassFolder([string]$root, [int]$year, [string]$className) {
     return "$year\$className"
 }
 
-function Add-IesaCatalogueClass([string]$root, [int]$year, [string]$className) {
+function Add-IesaCatalogueClass([string]$root, [int]$year, [string]$className, [switch]$Live) {
     $seasons = @(Read-IesaCatalogue $root)
     $season = $seasons | Where-Object { $_.year -eq $year } | Select-Object -First 1
     if (!$season) {
-        $season = [pscustomobject]@{ year = $year; className = $className; archived = $true }
+        $season = [pscustomobject]@{ year = $year; className = $className; archived = !$Live }
         $seasons += $season
     }
     $existing = if ($season.PSObject.Properties['classes']) { @($season.classes) } else { @($season.className) }
@@ -54,6 +54,28 @@ function Add-IesaCatalogueClass([string]$root, [int]$year, [string]$className) {
 
 function Write-IesaText([string]$path, [string]$text) {
     [System.IO.File]::WriteAllText($path, $text, [System.Text.UTF8Encoding]::new($false))
+}
+
+# Pages carry the site version in a meta tag and on their data scripts. my-team.js
+# compares it with site-version.json and reloads an outdated (cached) page once.
+function Get-IesaSiteVersion([string]$root) {
+    $path = Join-Path $root 'site-version.json'
+    if (!(Test-Path -LiteralPath $path)) { return 1 }
+    [int](Get-Content -Raw -LiteralPath $path | ConvertFrom-Json).version
+}
+
+# Call after pages or their data change, before rendering them.
+function Step-IesaSiteVersion([string]$root) {
+    $version = (Get-IesaSiteVersion $root) + 1
+    Write-IesaText (Join-Path $root 'site-version.json') ("{`"version`":$version}`n")
+    # The live season's hand-maintained Class 2A pages carry the tag too.
+    foreach ($page in Get-ChildItem -Path (Join-Path $root '*\7th\index.html'), (Join-Path $root '*\8th\index.html') -ErrorAction SilentlyContinue) {
+        $text = [System.IO.File]::ReadAllText($page.FullName)
+        if ($text -match 'name="iesa-site-version" content="\d+"') {
+            Write-IesaText $page.FullName ($text -replace 'name="iesa-site-version" content="\d+"', "name=`"iesa-site-version`" content=`"$version`"")
+        }
+    }
+    return $version
 }
 
 function Read-IesaPageData([string]$dataScript) {
@@ -71,6 +93,7 @@ function Write-IesaClassPages([string]$root, [int]$year, [string]$className) {
     $depth = @($relative -split '\\').Count
     $landingRoot = '../' * $depth
     $pageRoot = '../' * ($depth + 1)
+    $siteVersion = Get-IesaSiteVersion $root
     $grades = @('combined', '7th', '8th' | Where-Object {
         Test-Path -LiteralPath (Join-Path (Join-Path $folder $_) 'data.js') })
     if (!$grades.Count) { throw "No archived grades in $folder" }
@@ -81,11 +104,11 @@ function Write-IesaClassPages([string]$root, [int]$year, [string]$className) {
         if ($data.PSObject.Properties['rounds']) {
             $template = Get-Content -Raw -LiteralPath (Join-Path $script:IesaSiteRoot 'archive-state-template.html')
             $page = $template.Replace('{{YEAR}}', "$year").Replace('{{LABEL}}', [string]$data.label).
-                Replace('{{GRADE}}', $grade).Replace('{{ROOT}}', $pageRoot)
+                Replace('{{GRADE}}', $grade).Replace('{{ROOT}}', $pageRoot).Replace('{{SITE_VERSION}}', "$siteVersion")
         } else {
             $template = Get-Content -Raw -LiteralPath (Join-Path $script:IesaSiteRoot 'archive-grade-template.html')
             $page = $template.Replace('{{YEAR}}', "$year").Replace('{{CLASS}}', $className).
-                Replace('{{GRADE}}', $grade).Replace('{{ROOT}}', $pageRoot).
+                Replace('{{GRADE}}', $grade).Replace('{{ROOT}}', $pageRoot).Replace('{{SITE_VERSION}}', "$siteVersion").
                 Replace('{{SEVENTH_ACTIVE}}', $(if ($grade -eq '7th') { 'class="active"' } else { '' })).
                 Replace('{{EIGHTH_ACTIVE}}', $(if ($grade -eq '8th') { 'class="active"' } else { '' }))
             if ($year -le 2005) { $page = $page.Replace("<script src=`"../regional-seeds-$grade.js`"></script>", '') }
@@ -115,10 +138,11 @@ function Write-IesaLiveClassPages([string]$root, [int]$year, [string]$className)
     $relative = Get-IesaClassFolder $root $year $className
     $folder = Join-Path $root $relative
     $depth = @($relative -split '\\').Count
+    $siteVersion = Get-IesaSiteVersion $root
     $template = Get-Content -Raw -LiteralPath (Join-Path $script:IesaSiteRoot 'live-grade-template.html')
     foreach ($grade in '7th', '8th') {
         $page = $template.Replace('{{YEAR}}', "$year").Replace('{{CLASS}}', $className).
-            Replace('{{GRADE}}', $grade).Replace('{{ROOT}}', '../' * ($depth + 1)).
+            Replace('{{GRADE}}', $grade).Replace('{{ROOT}}', '../' * ($depth + 1)).Replace('{{SITE_VERSION}}', "$siteVersion").
             Replace('{{SEVENTH_ACTIVE}}', $(if ($grade -eq '7th') { 'class="active"' } else { '' })).
             Replace('{{EIGHTH_ACTIVE}}', $(if ($grade -eq '8th') { 'class="active"' } else { '' }))
         Write-IesaText (Join-Path (Join-Path $folder $grade) 'index.html') $page

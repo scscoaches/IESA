@@ -1,4 +1,4 @@
-﻿window.tournamentData = {
+window.tournamentData = {
     "year":  2004,
     "grade":  "8th",
     "className":  "A",
@@ -82,11 +82,11 @@
                       {
                           "id":  7,
                           "sectional":  4,
-                          "host":  "Odell  (Coop)",
+                          "host":  "Odell (Coop)",
                           "teams":  [
                                         "Flanagan (Coop)",
                                         "Lexington",
-                                        "Odell  (Coop)",
+                                        "Odell (Coop)",
                                         "Pontiac St. Mary\u0027s",
                                         "Roanoke-Benson"
                                     ]
@@ -192,11 +192,11 @@
                       {
                           "id":  16,
                           "sectional":  8,
-                          "host":  "Royal Prairieview  (Coop)",
+                          "host":  "Royal Prairieview (Coop)",
                           "teams":  [
                                         "Homer Heritage",
                                         "Philo St. Thomas",
-                                        "Royal Prairieview  (Coop)",
+                                        "Royal Prairieview (Coop)",
                                         "Sidell Jamaica",
                                         "Urbana University"
                                     ]

@@ -54,6 +54,9 @@
         link.classList.toggle("active", link.classList.contains(
             data.grade === "7th" ? "grade-seventh" : "grade-eighth"));
     });
+    // The joined 7th | 8th switch has nothing to offer for the combined years.
+    var gradeSwitch = document.querySelector(".grade-switch");
+    if (gradeSwitch) { gradeSwitch.hidden = data.grade === "combined"; }
 
     function addElement(parent, tag, className, text) {
         var element = document.createElement(tag);

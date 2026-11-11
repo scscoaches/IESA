@@ -77,7 +77,7 @@ foreach ($season in Read-IesaCatalogue $SiteRoot) {
         $folder = Join-Path $SiteRoot $(if ($className) { Get-IesaClassFolder $SiteRoot $year $className } else { "$year" })
         foreach ($grade in 'combined', '7th', '8th') {
             $gradeFolder = Join-Path $folder $grade
-            if ($year -ge 2026) {
+            if (!$season.archived) {
                 # The live season: each class's score cache, or its roster before the first refresh.
                 $cache = Join-Path $folder "scores-$grade.json"
                 $names = @()

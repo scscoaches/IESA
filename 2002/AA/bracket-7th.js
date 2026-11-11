@@ -1,4 +1,4 @@
-﻿window.iesaBracketCache = {
+window.iesaBracketCache = {
     "updatedAt":  "2026-11-11 11:28",
     "year":  2002,
     "grade":  "7th",
@@ -124,7 +124,7 @@
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
                              },
                       "28":  {
-                                 "winner":  "Ste. Marie East  (Coop)",
+                                 "winner":  "Ste. Marie East (Coop)",
                                  "loser":  "Sumner Red Hill",
                                  "score":  "37-24",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
@@ -293,7 +293,7 @@
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
                                            },
                                     "28":  {
-                                               "team":  "Ste. Marie East  (Coop)",
+                                               "team":  "Ste. Marie East (Coop)",
                                                "record":  "16-2",
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
                                            },
@@ -411,7 +411,7 @@
                              },
                        "14":  {
                                   "winner":  "Paris Mayo",
-                                  "loser":  "Ste. Marie East  (Coop)",
+                                  "loser":  "Ste. Marie East (Coop)",
                                   "score":  "38-37",
                                   "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
                               },

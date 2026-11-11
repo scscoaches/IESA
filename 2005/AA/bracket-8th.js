@@ -1,4 +1,4 @@
-﻿window.iesaBracketCache = {
+window.iesaBracketCache = {
     "updatedAt":  "2026-11-11 10:46",
     "year":  2005,
     "grade":  "8th",
@@ -126,7 +126,7 @@
                              },
                       "28":  {
                                  "winner":  "Pleasant Plains",
-                                 "loser":  "Petersburg PORTA JHS  (Coop)",
+                                 "loser":  "Petersburg PORTA JHS (Coop)",
                                  "score":  "31-27",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
                              },

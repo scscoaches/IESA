@@ -1,4 +1,4 @@
-﻿window.iesaBracketCache = {
+window.iesaBracketCache = {
     "updatedAt":  "2026-09-30 14:28",
     "year":  2005,
     "grade":  "7th",
@@ -16,7 +16,7 @@
                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
                             },
                       "20":  {
-                                 "winner":  "Table Grove VIT  (Coop)",
+                                 "winner":  "Table Grove VIT (Coop)",
                                  "loser":  "Glasford Illini Bluffs",
                                  "score":  "25-23",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
@@ -28,7 +28,7 @@
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
                              },
                       "10":  {
-                                 "winner":  "Royal Prairieview  (Coop)",
+                                 "winner":  "Royal Prairieview (Coop)",
                                  "loser":  "Rossville-Alvin",
                                  "score":  "43-19",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
@@ -130,7 +130,7 @@
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
                              },
                       "25":  {
-                                 "winner":  "Nokomis JHS  (Coop)",
+                                 "winner":  "Nokomis JHS (Coop)",
                                  "loser":  "Beecher City",
                                  "score":  "39-6",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
@@ -142,7 +142,7 @@
                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
                             },
                       "15":  {
-                                 "winner":  "Lincoln Carroll Catholic  (Coop)",
+                                 "winner":  "Lincoln Carroll Catholic (Coop)",
                                  "loser":  "Lincoln West Lincoln-Broadwell",
                                  "score":  "22-14",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
@@ -208,7 +208,7 @@
                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
                                           },
                                     "20":  {
-                                               "team":  "Table Grove VIT  (Coop)",
+                                               "team":  "Table Grove VIT (Coop)",
                                                "record":  "16-0",
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
                                            },
@@ -218,7 +218,7 @@
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
                                            },
                                     "10":  {
-                                               "team":  "Royal Prairieview  (Coop)",
+                                               "team":  "Royal Prairieview (Coop)",
                                                "record":  "15-4",
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
                                            },
@@ -298,7 +298,7 @@
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
                                            },
                                     "25":  {
-                                               "team":  "Nokomis JHS  (Coop)",
+                                               "team":  "Nokomis JHS (Coop)",
                                                "record":  "18-3",
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
                                            },
@@ -308,7 +308,7 @@
                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
                                           },
                                     "15":  {
-                                               "team":  "Lincoln Carroll Catholic  (Coop)",
+                                               "team":  "Lincoln Carroll Catholic (Coop)",
                                                "record":  "11-4",
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=7A"
                                            },
@@ -368,7 +368,7 @@
                              },
                        "5":  {
                                  "winner":  "Fisher",
-                                 "loser":  "Royal Prairieview  (Coop)",
+                                 "loser":  "Royal Prairieview (Coop)",
                                  "score":  "17-13",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=7A"
                              },
@@ -379,7 +379,7 @@
                                   "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=7A"
                               },
                        "10":  {
-                                  "winner":  "Table Grove VIT  (Coop)",
+                                  "winner":  "Table Grove VIT (Coop)",
                                   "loser":  "Tremont",
                                   "score":  "32-9",
                                   "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=7A"
@@ -392,7 +392,7 @@
                              },
                        "8":  {
                                  "winner":  "Pana Sacred Heart",
-                                 "loser":  "Lincoln Carroll Catholic  (Coop)",
+                                 "loser":  "Lincoln Carroll Catholic (Coop)",
                                  "score":  "24-16",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=7A"
                              },
@@ -445,7 +445,7 @@
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=7A"
                              },
                        "13":  {
-                                  "winner":  "Nokomis JHS  (Coop)",
+                                  "winner":  "Nokomis JHS (Coop)",
                                   "loser":  "Brownstown (Coop)",
                                   "score":  "36-12",
                                   "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=7A"
@@ -553,14 +553,14 @@
                          },
                   "2":  {
                             "teams":  [
-                                          "Table Grove VIT  (Coop)",
+                                          "Table Grove VIT (Coop)",
                                           "Ottawa Wallace"
                                       ],
                             "scores":  [
                                            38,
                                            21
                                        ],
-                            "winner":  "Table Grove VIT  (Coop)",
+                            "winner":  "Table Grove VIT (Coop)",
                             "loser":  "Ottawa Wallace",
                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=7A"
                         },
@@ -619,14 +619,14 @@
                   "9":  {
                             "teams":  [
                                           "Effingham St. Anthony",
-                                          "Table Grove VIT  (Coop)"
+                                          "Table Grove VIT (Coop)"
                                       ],
                             "scores":  [
                                            31,
                                            21
                                        ],
                             "winner":  "Effingham St. Anthony",
-                            "loser":  "Table Grove VIT  (Coop)",
+                            "loser":  "Table Grove VIT (Coop)",
                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=7A"
                         },
                   "14":  {
@@ -657,7 +657,7 @@
                          },
                   "6":  {
                             "teams":  [
-                                          "Nokomis JHS  (Coop)",
+                                          "Nokomis JHS (Coop)",
                                           "Jacksonville Our Saviour"
                                       ],
                             "scores":  [
@@ -665,7 +665,7 @@
                                            28
                                        ],
                             "winner":  "Jacksonville Our Saviour",
-                            "loser":  "Nokomis JHS  (Coop)",
+                            "loser":  "Nokomis JHS (Coop)",
                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=7A"
                         },
                   "4":  {

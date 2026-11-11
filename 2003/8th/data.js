@@ -1,4 +1,4 @@
-﻿window.tournamentData = {
+window.tournamentData = {
     "year":  2003,
     "grade":  "8th",
     "className":  "A",
@@ -32,9 +32,9 @@
                       {
                           "id":  3,
                           "sectional":  2,
-                          "host":  "Odell  (Coop)",
+                          "host":  "Odell (Coop)",
                           "teams":  [
-                                        "Odell  (Coop)",
+                                        "Odell (Coop)",
                                         "Pontiac St. Mary\u0027s",
                                         "Ransom",
                                         "Streator St. Anthony",
@@ -69,12 +69,12 @@
                       {
                           "id":  6,
                           "sectional":  3,
-                          "host":  "Potomac  (Coop)",
+                          "host":  "Potomac (Coop)",
                           "teams":  [
                                         "Buckley St. John\u0027s",
                                         "Gifford",
                                         "Ludlow",
-                                        "Potomac  (Coop)",
+                                        "Potomac (Coop)",
                                         "Rossville-Alvin"
                                     ]
                       },
@@ -179,14 +179,14 @@
                       {
                           "id":  15,
                           "sectional":  8,
-                          "host":  "Ogden  (Coop)",
+                          "host":  "Ogden (Coop)",
                           "teams":  [
                                         "Bismarck-Henning",
                                         "Catlin",
                                         "Danville Oakwood",
                                         "Danville St. Paul",
                                         "Homer Heritage",
-                                        "Ogden  (Coop)"
+                                        "Ogden (Coop)"
                                     ]
                       },
                       {
@@ -275,11 +275,11 @@
                       {
                           "id":  23,
                           "sectional":  12,
-                          "host":  "Nokomis JHS  (Coop)",
+                          "host":  "Nokomis JHS (Coop)",
                           "teams":  [
                                         "Cowden-Herrick",
                                         "Findlay Okaw Valley",
-                                        "Nokomis JHS  (Coop)",
+                                        "Nokomis JHS (Coop)",
                                         "Pana Sacred Heart",
                                         "Ramsey"
                                     ]
@@ -361,9 +361,9 @@
                       {
                           "id":  30,
                           "sectional":  15,
-                          "host":  "Barry  (Coop)",
+                          "host":  "Barry (Coop)",
                           "teams":  [
-                                        "Barry  (Coop)",
+                                        "Barry (Coop)",
                                         "Griggsville-Perry",
                                         "Mt. Sterling Brown County",
                                         "Pleasant Hill"

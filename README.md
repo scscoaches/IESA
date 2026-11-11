@@ -154,6 +154,30 @@ team's top-four state finishes with links to those brackets; closing it reloads
 the page so the brackets and menus re-highlight. The chosen team is highlighted
 in every bracket and the mobile view opens beside it (`2026\my-team.js`).
 
+**Team links.** Adding `?team=<school>` to any page address (for example
+`2026/1A/8th/index.html?team=Annawan`) chooses that school for the visitor, the
+same as picking it in Settings (the parameter stays in the address). A
+coach can share one link so every recipient sees their own school's
+highlights, trophies and class. The choice replaces the recipient's saved team.
+Settings' share icon (beside *Clear*; Apple's box-and-arrow on iPhone, iPad and
+Mac, Android's three connected dots elsewhere) copies the current page's link
+with the chosen team (Clipboard API, falling back to a hidden text area); the
+icon turns into a check mark and a small "Link copied" bubble appears below it
+for a couple of seconds. It never opens a window, share sheet or prompt.
+
+**Stale pages.** Each page carries `<meta name="iesa-site-version">` and loads
+its data scripts with `?v=<version>`. `my-team.js` compares the meta tag with
+`site-version.json` (fetched without the cache) and, when the page is older,
+reloads it once with `?v=<version>` so a browser-cached shell picks up new
+menus and data. `.\Update-IesaPageShells.ps1` bumps `site-version.json` and
+re-stamps every page, including the version tag on the hand-maintained
+`2026\7th\` and `2026\8th\` pages.
+
+**Grade switch.** The 7th and 8th grade buttons are one joined "7th | 8th"
+box; tapping anywhere on it opens the other grade (combined 1979–1985 pages
+hide it). On phones every header control is 40px tall and the switch takes
+54px.
+
 School names are matched ignoring case, a trailing `(Co-op)` or printed W–L
 record, possessive `'s`, periods and hyphens (`Get-TeamKey` in
 `Build-IesaTeamIndex.ps1` and `key()` in `my-team.js` must agree). Names that
@@ -211,6 +235,52 @@ assignments (archives treat the published bracket as authoritative; the live
 season stays strict). A canceled regional is shown as "Canceled by IESA" and
 its sectional slot as "Regional N canceled".
 
+`.\Repair-IesaArchiveSpacing.ps1` collapses doubled spaces (including
+non-breaking spaces) left in archived school names, such as "Gardner  (Co-op)"
+after a "(Host)" marker is removed, in the 1979–2025 page data, bracket caches
+and seed caches. It writes only files that change (`-WhatIf` to preview) and is
+safe to re-run.
+
+## Start the next season
+
+`live-season.json` names the live season and drives the refresh scripts and
+the GitHub Actions workflow: `year`, `followedClass` (refreshed every run; the
+other classes once a day), `seedsFrom`, `bracketFrom` and `endDate`
+(`yyyy-MM-dd`, Central). Once IESA publishes the new season's regional
+assignments and state scoreboard (usually early November), run for example
+
+```powershell
+.\Start-IesaSeason.ps1 -Year 2027 -SeedsFrom 2027-11-11 -BracketFrom 2027-11-20 -EndDate 2027-12-17
+```
+
+It archives the finished season from IESA's final results (skip with
+`-SkipArchive`), builds every class of the new season with
+`Build-IesaSeason.ps1 -Live` (followed class first, so it keeps
+`<year>\<grade>\`), writes `live-season.json`, re-renders every page and
+rebuilds `teams.json`. Each class costs about 13 IESA requests. Check the dates
+against IESA's calendar, then commit and push. The shared scripts and assets
+stay in `2026\`. This script has not yet been run end to end; review its
+output the first time.
+
+## Tests
+
+`.\tests\Run-Tests.ps1` runs two suites and exits 1 on any failure; it makes
+no IESA requests and takes about 15 seconds.
+
+- `tests\Test-SiteIntegrity.ps1` checks the published files: one catalogue
+  entry per year, `live-season.json` dates, pages and data for every listed
+  class, no unreplaced template placeholders, one site version and one
+  version of each shared asset across pages, unique team names and aliases,
+  and complete state history.
+- `tests\Test-Refresh.ps1` runs `2026\Update-IesaScores.ps1` against a fake
+  IESA site in a temporary folder: the first daily run reads all classes, later
+  runs read only the followed class, eliminated schools are reused, a class's
+  first capture is a silent baseline, `-Classes` limits the run, and seed,
+  bracket and end dates come from `live-season.json`.
+
+`.github\workflows\tests.yml` runs them on every push and pull request
+(the score-refresh commits do not trigger it).
+
 ## End the scheduled refresh
 
 IESA's [girls-basketball calendar](https://www.iesa.org/activities/calendar.asp?activitycode=GBK)
@@ -220,8 +290,9 @@ finals end December 10). The GitHub Actions workflow
 on weekdays** and **9 PM Central on Saturdays** (cron in UTC: weekdays 11:00,
 17:00 and 23:00; Sunday 03:00). GitHub can start scheduled runs hours late.
 Cron has no end date, so the workflow's first step skips scheduled runs after
-**December 18, 2026** (Central); manual runs still work, and
-`2026\Update-IesaScores.ps1` itself refuses to fetch after December 18. The
+the `endDate` in `live-season.json` (**December 18, 2026**, Central); manual
+runs still work, and `2026\Update-IesaScores.ps1` itself refuses to fetch after
+that date. The
 workflow commits the score, stream-link, strength, seed, bracket, placement and
 team-index files. The local Windows task `IESA 2026 Score Refresh` (and
 `.\2026\Set-IesaScoreSchedule.ps1`, which set its triggers) is disabled and no

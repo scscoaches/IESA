@@ -74,6 +74,14 @@
 #my-team-button img{display:block;width:20px;height:20px}
 #my-team-dialog .my-team-current{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin:14px 0 4px;font-size:14px}
 .my-team-clear{margin-left:auto;padding:5px 10px;border:1px solid #b9c1d0;border-radius:4px;background:#fff;color:var(--ink);font:inherit;font-size:12px;cursor:pointer}
+.my-team-share-wrap{position:relative;display:inline-flex;margin-left:auto}
+.my-team-share-wrap .my-team-share{margin-left:0}
+.my-team-share-status{position:absolute;top:calc(100% + 6px);right:0;z-index:2;padding:4px 8px;border-radius:4px;background:#1f2a44;color:#fff;font-size:12px;white-space:nowrap;pointer-events:none}
+.my-team-share-status:empty{display:none}
+.dark-theme .my-team-share-status{background:#e8ebf5;color:#141a2c}
+.my-team-share-wrap+.my-team-clear{margin-left:0}
+.my-team-share{display:inline-flex;align-items:center;justify-content:center;width:30px;height:28px;padding:0}
+.my-team-share svg{position:static;inset:auto;width:16px;height:16px;pointer-events:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .my-team-results{max-height:min(240px,35vh);overflow:auto;margin-top:6px}
 .my-team-option{display:block;width:100%;padding:9px 8px;border:0;border-bottom:1px solid #edf0f5;background:transparent;color:inherit;text-align:left;font:inherit;font-size:13px;cursor:pointer}
 .my-team-option:hover,.my-team-option:focus{background:#eef0ff}
@@ -93,3 +101,12 @@
 @media(max-width:340px){.app.live.has-class-select .switcher{gap:2px}.app.live.has-class-select .switcher select{width:52px}.app.live.has-class-select .switcher select#class-select{width:38px}.app.live.has-class-select .tools button#updates-button{max-width:40px}}
 @media(max-width:680px){.tools button#fit{display:none!important}}
 @media(max-width:760px){.tools button#minus,.tools button#plus{display:none!important}}
+@media(max-width:680px){.switcher select{height:40px}}
+.grade-switch{display:inline-flex;flex:none;height:40px;border:1px solid #9ea8d4;border-radius:4px;overflow:hidden}
+.grade-switch[hidden]{display:none}
+.switcher .grade-switch a{height:38px;min-width:36px;padding:0 10px;border:0;border-radius:0}
+.switcher .grade-switch a+a{border-left:1px solid #9ea8d4}
+@media(max-width:680px){.switcher .grade-switch a{min-width:30px;padding:0 7px}}
+@media(max-width:380px){.switcher .grade-switch a{min-width:27px;padding:0 5px}}
+.grade-switch{cursor:pointer}
+@media(max-width:680px){.switcher .grade-switch a{min-width:0;padding:0 5px}}

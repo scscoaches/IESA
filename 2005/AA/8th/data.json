@@ -1,4 +1,4 @@
-﻿{
+{
     "year":  2005,
     "grade":  "8th",
     "className":  "AA",
@@ -338,12 +338,12 @@
                       {
                           "id":  28,
                           "sectional":  14,
-                          "host":  "Petersburg PORTA JHS  (Coop)",
+                          "host":  "Petersburg PORTA JHS (Coop)",
                           "teams":  [
                                         "Beardstown MS",
                                         "Franklin (Coop)",
                                         "Jacksonville Turner",
-                                        "Petersburg PORTA JHS  (Coop)",
+                                        "Petersburg PORTA JHS (Coop)",
                                         "Pleasant Plains",
                                         "Roodhouse North Greene"
                                     ]

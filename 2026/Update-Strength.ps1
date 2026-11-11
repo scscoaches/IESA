@@ -1,7 +1,10 @@
 param(
     [string]$SitePath = "C:\inetpub\personalroot\IESA\2026",
+    # The live season (default: live-season.json at the site root).
+    [int]$Year,
     [switch]$Force
 )
+if (!$Year) { $Year = [int](Get-Content -Raw -LiteralPath (Join-Path (Split-Path -Parent $PSScriptRoot) "live-season.json") | ConvertFrom-Json).year }
 
 # Weekly, unofficial strength of schedule for each bracket team. Runs on Saturday
 # (Central time, because GitHub runners use UTC) or when the last run is over
@@ -111,7 +114,7 @@ $classOf = @{}
 foreach ($grade in $grades) {
     $map = @{}
     foreach ($class in $classes) {
-        $url = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=2026&Class=$($grade.Substring(0, 1))-$class"
+        $url = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=$Year&Class=$($grade.Substring(0, 1))-$class"
         $html = (Invoke-IesaPage $url).Content
         foreach ($cell in [regex]::Matches($html, "(?is)<td\s+class=['""]ListData['""][^>]*>(.*?)</td>")) {
             foreach ($line in [regex]::Split($cell.Groups[1].Value, '(?i)<br\s*/?>')) {
@@ -144,7 +147,7 @@ foreach ($grade in $grades) {
         Get-OpponentKeys $key $bracket[$key].Value.games | Where-Object { $_.decided -and !$bracket.ContainsKey($_.key) } |
             ForEach-Object { $played[$_.key] = $true }
     }
-    # Opponents in another 2026 class already have their games in that class's
+    # Opponents in another class of this season already have their games in that class's
     # score cache, so only schools outside every cache cost an IESA request.
     $known = @{}
     foreach ($folder in @($PSScriptRoot) + @("1A", "2A", "3A", "4A" | ForEach-Object { Join-Path $PSScriptRoot $_ })) {

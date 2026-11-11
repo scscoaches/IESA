@@ -1,4 +1,4 @@
-﻿{
+{
     "updatedAt":  "2026-09-30 14:28",
     "year":  2005,
     "grade":  "8th",
@@ -130,7 +130,7 @@
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8A"
                              },
                       "25":  {
-                                 "winner":  "Nokomis JHS  (Coop)",
+                                 "winner":  "Nokomis JHS (Coop)",
                                  "loser":  "Beecher City",
                                  "score":  "30-23",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8A"
@@ -142,7 +142,7 @@
                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8A"
                             },
                       "15":  {
-                                 "winner":  "Mt. Pulaski  (Coop)",
+                                 "winner":  "Mt. Pulaski (Coop)",
                                  "loser":  "Argenta-Oreana",
                                  "score":  "52-47",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8A"
@@ -154,7 +154,7 @@
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8A"
                              },
                       "24":  {
-                                 "winner":  "Palestine  (Coop)",
+                                 "winner":  "Palestine (Coop)",
                                  "loser":  "Effingham St. Anthony",
                                  "score":  "29-22",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8A"
@@ -303,7 +303,7 @@
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8A"
                                            },
                                     "25":  {
-                                               "team":  "Nokomis JHS  (Coop)",
+                                               "team":  "Nokomis JHS (Coop)",
                                                "record":  "13-8",
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8A"
                                            },
@@ -313,7 +313,7 @@
                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8A"
                                           },
                                     "15":  {
-                                               "team":  "Mt. Pulaski  (Coop)",
+                                               "team":  "Mt. Pulaski (Coop)",
                                                "record":  "17-4",
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8A"
                                            },
@@ -323,7 +323,7 @@
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8A"
                                            },
                                     "24":  {
-                                               "team":  "Palestine  (Coop)",
+                                               "team":  "Palestine (Coop)",
                                                "record":  "10-2",
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8A"
                                            },
@@ -379,7 +379,7 @@
                              },
                        "12":  {
                                   "winner":  "Sigel St. Michael\u0027s",
-                                  "loser":  "Palestine  (Coop)",
+                                  "loser":  "Palestine (Coop)",
                                   "score":  "37-32",
                                   "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8A"
                               },
@@ -396,7 +396,7 @@
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8A"
                              },
                        "8":  {
-                                 "winner":  "Mt. Pulaski  (Coop)",
+                                 "winner":  "Mt. Pulaski (Coop)",
                                  "loser":  "Decatur Our Lady of Lourdes",
                                  "score":  "33-30",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8A"
@@ -450,7 +450,7 @@
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8A"
                              },
                        "13":  {
-                                  "winner":  "Nokomis JHS  (Coop)",
+                                  "winner":  "Nokomis JHS (Coop)",
                                   "loser":  "Brownstown (Coop)",
                                   "score":  "34-30",
                                   "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8A"
@@ -559,14 +559,14 @@
                   "2":  {
                             "teams":  [
                                           "Normal Epiphany",
-                                          "Nokomis JHS  (Coop)"
+                                          "Nokomis JHS (Coop)"
                                       ],
                             "scores":  [
                                            46,
                                            38
                                        ],
                             "winner":  "Normal Epiphany",
-                            "loser":  "Nokomis JHS  (Coop)",
+                            "loser":  "Nokomis JHS (Coop)",
                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8A"
                         },
                   "3":  {
@@ -662,7 +662,7 @@
                          },
                   "6":  {
                             "teams":  [
-                                          "Mt. Pulaski  (Coop)",
+                                          "Mt. Pulaski (Coop)",
                                           "Jacksonville Our Saviour"
                                       ],
                             "scores":  [
@@ -670,7 +670,7 @@
                                            44
                                        ],
                             "winner":  "Jacksonville Our Saviour",
-                            "loser":  "Mt. Pulaski  (Coop)",
+                            "loser":  "Mt. Pulaski (Coop)",
                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8A"
                         },
                   "4":  {

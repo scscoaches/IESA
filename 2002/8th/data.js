@@ -1,4 +1,4 @@
-﻿window.tournamentData = {
+window.tournamentData = {
     "year":  2002,
     "grade":  "8th",
     "className":  "A",
@@ -91,11 +91,11 @@
                       {
                           "id":  8,
                           "sectional":  4,
-                          "host":  "Ogden  (Coop)",
+                          "host":  "Ogden (Coop)",
                           "teams":  [
                                         "Armstrong-Ellis",
                                         "Gifford",
-                                        "Ogden  (Coop)",
+                                        "Ogden (Coop)",
                                         "Potomac",
                                         "Rantoul St. Malachy"
                                     ]
@@ -103,10 +103,10 @@
                       {
                           "id":  9,
                           "sectional":  5,
-                          "host":  "Odell  (Coop)",
+                          "host":  "Odell (Coop)",
                           "teams":  [
                                         "Gardner",
-                                        "Odell  (Coop)",
+                                        "Odell (Coop)",
                                         "Piper City Tri-Point",
                                         "Pontiac St. Mary\u0027s",
                                         "South Wilmington"
@@ -273,10 +273,10 @@
                       {
                           "id":  23,
                           "sectional":  12,
-                          "host":  "Arthur  (Coop)",
+                          "host":  "Arthur (Coop)",
                           "teams":  [
                                         "Arcola",
-                                        "Arthur  (Coop)",
+                                        "Arthur (Coop)",
                                         "Atwood-Hammond",
                                         "Neoga",
                                         "Sigel St. Michael"

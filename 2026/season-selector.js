@@ -121,4 +121,17 @@
         }
         go(season, classSelect.value, data.grade);
     });
+
+    // The 7th | 8th switch is a toggle: a tap anywhere on it opens the other grade,
+    // so visitors need not hit the inactive label exactly.
+    var gradeSwitch = document.querySelector(".grade-switch");
+    if (gradeSwitch) {
+        gradeSwitch.title = "Switch grade";
+        gradeSwitch.addEventListener("click", function (event) {
+            var other = gradeSwitch.querySelector("a:not(.active)");
+            if (!other) { return; }
+            event.preventDefault();
+            window.location.assign(other.href);
+        });
+    }
 }());

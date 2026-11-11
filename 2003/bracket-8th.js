@@ -1,4 +1,4 @@
-﻿window.iesaBracketCache = {
+window.iesaBracketCache = {
     "updatedAt":  "2026-09-30 14:28",
     "year":  2003,
     "grade":  "8th",
@@ -11,7 +11,7 @@
                              },
                       "3":  {
                                 "winner":  "Pontiac St. Mary\u0027s",
-                                "loser":  "Odell  (Coop)",
+                                "loser":  "Odell (Coop)",
                                 "score":  "35-30",
                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
                             },
@@ -53,7 +53,7 @@
                              },
                       "30":  {
                                  "winner":  "Pleasant Hill",
-                                 "loser":  "Barry  (Coop)",
+                                 "loser":  "Barry (Coop)",
                                  "score":  "42-26",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
                              },
@@ -70,7 +70,7 @@
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
                              },
                       "23":  {
-                                 "winner":  "Nokomis JHS  (Coop)",
+                                 "winner":  "Nokomis JHS (Coop)",
                                  "loser":  "Pana Sacred Heart",
                                  "score":  "28-22",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
@@ -142,7 +142,7 @@
                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
                             },
                       "15":  {
-                                 "winner":  "Ogden  (Coop)",
+                                 "winner":  "Ogden (Coop)",
                                  "loser":  "Bismarck-Henning",
                                  "score":  "33-22",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
@@ -184,7 +184,7 @@
                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
                             },
                       "6":  {
-                                "winner":  "Potomac  (Coop)",
+                                "winner":  "Potomac (Coop)",
                                 "loser":  "Gifford",
                                 "score":  "39-38",
                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
@@ -243,7 +243,7 @@
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
                                            },
                                     "23":  {
-                                               "team":  "Nokomis JHS  (Coop)",
+                                               "team":  "Nokomis JHS (Coop)",
                                                "record":  "6-8",
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
                                            },
@@ -303,7 +303,7 @@
                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
                                           },
                                     "15":  {
-                                               "team":  "Ogden  (Coop)",
+                                               "team":  "Ogden (Coop)",
                                                "record":  "18-2",
                                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
                                            },
@@ -338,7 +338,7 @@
                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
                                           },
                                     "6":  {
-                                              "team":  "Potomac  (Coop)",
+                                              "team":  "Potomac (Coop)",
                                               "record":  "16-4",
                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8A"
                                           },
@@ -356,7 +356,7 @@
                                   "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8A"
                               },
                        "3":  {
-                                 "winner":  "Potomac  (Coop)",
+                                 "winner":  "Potomac (Coop)",
                                  "loser":  "Piper City Tri-Point",
                                  "score":  "40-34",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8A"
@@ -369,7 +369,7 @@
                              },
                        "12":  {
                                   "winner":  "Effingham Sacred Heart",
-                                  "loser":  "Nokomis JHS  (Coop)",
+                                  "loser":  "Nokomis JHS (Coop)",
                                   "score":  "41-22",
                                   "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8A"
                               },
@@ -387,7 +387,7 @@
                              },
                        "8":  {
                                  "winner":  "Paris Crestwood",
-                                 "loser":  "Ogden  (Coop)",
+                                 "loser":  "Ogden (Coop)",
                                  "score":  "52-26",
                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8A"
                              },
@@ -549,14 +549,14 @@
                   "2":  {
                             "teams":  [
                                           "Bartonville Oak Grove West",
-                                          "Potomac  (Coop)"
+                                          "Potomac (Coop)"
                                       ],
                             "scores":  [
                                            45,
                                            15
                                        ],
                             "winner":  "Bartonville Oak Grove West",
-                            "loser":  "Potomac  (Coop)",
+                            "loser":  "Potomac (Coop)",
                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8A"
                         },
                   "3":  {

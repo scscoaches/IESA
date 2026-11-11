@@ -1,4 +1,4 @@
-﻿window.tournamentData = {
+window.tournamentData = {
     "year":  2002,
     "grade":  "8th",
     "className":  "AA",
@@ -361,11 +361,11 @@
                       {
                           "id":  30,
                           "sectional":  15,
-                          "host":  "Pana JHS  (Coop)",
+                          "host":  "Pana JHS (Coop)",
                           "teams":  [
                                         "Mattoon",
                                         "Mt. Zion",
-                                        "Pana JHS  (Coop)",
+                                        "Pana JHS (Coop)",
                                         "Shelbyville Moulton (Coop)",
                                         "Sullivan"
                                     ]
