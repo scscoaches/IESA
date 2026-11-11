@@ -9,10 +9,15 @@ on:
     - cron: "0 11,17,23 * * 1-5"
     # Saturdays 9:00 PM Central (Sunday 03:00 UTC).
     - cron: "0 3 * * 0"
+    # Weekdays 9:00 PM Central (Tuesday-Saturday 03:00 UTC), postseason only
+    # (bracketFrom-endDate): picks up evening tournament games the same night.
+    - cron: "0 3 * * 2-6"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+  # Lets the workflow switch its own schedule off when the season is over.
+  actions: write
 
 # Never let two refreshes push at the same time.
 concurrency:
@@ -28,24 +33,35 @@ jobs:
 
       # Cron has no end date, so scheduled runs stop themselves after the live
       # season's last day (endDate in live-season.json, Central). Manual runs
-      # still work.
+      # still work. The 9 PM weekday run only runs during the postseason.
       - name: Check season window
         id: season
         shell: pwsh
         run: |
           $season = Get-Content -Raw live-season.json | ConvertFrom-Json
-          $end = [datetime]::ParseExact($season.endDate, "yyyy-MM-dd", [Globalization.CultureInfo]::InvariantCulture)
+          $date = { param($value) [datetime]::ParseExact($value, "yyyy-MM-dd", [Globalization.CultureInfo]::InvariantCulture) }
+          $end = & $date $season.endDate
+          $bracketFrom = & $date $season.bracketFrom
           $central = [TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, "Central Standard Time")
-          $active = "${{ github.event_name }}" -ne "schedule" -or $central.Date -le $end
-          Write-Host "Season $($season.year); Central time $($central.ToString('yyyy-MM-dd HH:mm')); refresh active: $active"
+          $scheduled = "${{ github.event_name }}" -eq "schedule"
+          $evening = $scheduled -and "${{ github.event.schedule }}" -eq "0 3 * * 2-6"
+          $ended = $scheduled -and $central.Date -gt $end
+          $active = !$scheduled -or (!$ended -and (!$evening -or $central.Date -ge $bracketFrom))
+          Write-Host "Season $($season.year); Central time $($central.ToString('yyyy-MM-dd HH:mm')); evening run: $evening; refresh active: $active; season ended: $ended"
           "active=$($active.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
+          "evening=$($evening.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
+          "ended=$($ended.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
           "year=$($season.year)" >> $env:GITHUB_OUTPUT
 
       - name: Run score refresh script
+        id: refresh
         if: steps.season.outputs.active == 'true'
         shell: pwsh
-        # The refresh scripts live in the 2026 folder for every season.
-        run: ./2026/Update-IesaScores.ps1 -SitePath "${{ github.workspace }}/${{ steps.season.outputs.year }}"
+        # The refresh scripts live in the 2026 folder for every season. The script
+        # writes complete=true to the step output once every state final is played.
+        run: |
+          $evening = "${{ steps.season.outputs.evening }}" -eq "true"
+          ./2026/Update-IesaScores.ps1 -SitePath "${{ github.workspace }}/${{ steps.season.outputs.year }}" -Evening:$evening
 
       - name: Commit and push refreshed data
         if: steps.season.outputs.active == 'true'
@@ -78,3 +94,15 @@ jobs:
             git pull --rebase --autostash
             git push
           }
+
+      # Every state final played (complete) or the season's end date passed:
+      # switch the schedule off so no further runs start. Re-enable it for the
+      # next season in the Actions tab (or: gh workflow enable update-scores.yml).
+      - name: Stop the schedule when the season is over
+        if: steps.refresh.outputs.complete == 'true' || steps.season.outputs.ended == 'true'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          Write-Host "The season is over; disabling this workflow's schedule."
+          gh workflow disable "${{ github.workflow }}" --repo "${{ github.repository }}"

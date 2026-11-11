@@ -5,7 +5,11 @@ param(
     [double]$MinimumHoursBetweenRuns = 2,
     [switch]$Force,
     # Refresh only these classes (for example -Classes 1A). Scheduled runs omit it.
-    [ValidateSet("1A", "2A", "3A", "4A")][string[]]$Classes
+    [ValidateSet("1A", "2A", "3A", "4A")][string[]]$Classes,
+    # The postseason 9 PM weekday run: re-read only schools still playing, in
+    # every class, then the seeds and brackets. No strength of schedule, watch
+    # links or roster check.
+    [switch]$Evening
 )
 
 $ErrorActionPreference = "Stop"
@@ -63,15 +67,21 @@ if (!$paused -and !$Force -and $includes2A -and $lastRun -and ((Get-Date) - $las
 }
 if ($paused) {
     Write-Warning $paused
-    if ($includes2A) { Update-StreamLinks }
+    if ($includes2A -and !$Evening) { Update-StreamLinks }
     return
 }
 
-$directoryPage = Invoke-IesaPage "https://www.iesa.org/activities/members.asp"
-$directory = @{}
-foreach ($match in [regex]::Matches($directoryPage.Content, "(?is)<a href='memberdetail\.asp\?SchoolID=(\d+)'[^>]*>(.*?)</a>")) {
-    $schoolName = ([regex]::Replace($match.Groups[2].Value, "<[^>]+>", "") -replace "\s+", " ").Trim().ToLowerInvariant()
-    $directory[$schoolName] = $match.Groups[1].Value
+# The member directory maps school names to IESA ids. It is read only when a
+# school page is actually needed (not at all once every tournament is over).
+$directory = $null
+function Get-SchoolDirectory {
+    $page = Invoke-IesaPage "https://www.iesa.org/activities/members.asp"
+    $map = @{}
+    foreach ($match in [regex]::Matches($page.Content, "(?is)<a href='memberdetail\.asp\?SchoolID=(\d+)'[^>]*>(.*?)</a>")) {
+        $schoolName = ([regex]::Replace($match.Groups[2].Value, "<[^>]+>", "") -replace "\s+", " ").Trim().ToLowerInvariant()
+        $map[$schoolName] = $match.Groups[1].Value
+    }
+    return $map
 }
 
 function Get-Regionals([string]$grade) {
@@ -104,9 +114,10 @@ function Get-TeamKey([string]$name) {
     (($name -replace "(?i)\s+\(Co-?op\)$", "") -replace "\s+", " ").Trim().ToLowerInvariant()
 }
 
-# Schools that lost a regional or sectional game have finished their season;
-# their IESA page only changes if a late regular-season score is posted, which
-# the next morning's full check picks up. State qualifiers stay on the list.
+# A school's season is over once it loses a regional, sectional or state
+# quarterfinal game, or has played the state third-place or championship game
+# (state games 1-4 are quarterfinals, 5-6 semifinals, 7 third place, 8 the
+# final). Its IESA page is then never requested again; the last capture is kept.
 function Get-EliminatedTeams([string]$grade) {
     $out = @{}
     $seedsPath = Join-Path $ClassPath "regional-seeds-$grade.json"
@@ -131,8 +142,49 @@ function Get-EliminatedTeams([string]$grade) {
                 if ($result.Value.loser) { $out[(Get-TeamKey $result.Value.loser)] = $true }
             }
         }
+        if ($capture.PSObject.Properties["games"] -and $capture.games) {
+            foreach ($state in $capture.games.PSObject.Properties) {
+                $game = $state.Value
+                if (!$game.winner) { continue }
+                $number = [int]$state.Name
+                if ($number -le 4 -and $game.loser) { $out[(Get-TeamKey $game.loser)] = $true }
+                if ($number -ge 7) {
+                    foreach ($name in @($game.teams)) { if ($name) { $out[(Get-TeamKey $name)] = $true } }
+                }
+            }
+        }
     }
     return $out
+}
+
+# A grade's tournament is over when the state third-place and championship games
+# (7 and 8) both have winners; nothing in that grade is requested again.
+function Test-GradeComplete([string]$path, [string]$grade) {
+    $bracketPath = Join-Path $path "bracket-$grade.json"
+    if (!(Test-Path -LiteralPath $bracketPath)) { return $false }
+    $games = (Get-Content -Raw -LiteralPath $bracketPath | ConvertFrom-Json).games
+    if (!$games) { return $false }
+    foreach ($number in "7", "8") {
+        $game = $games.PSObject.Properties[$number]
+        if (!$game -or !$game.Value.winner) { return $false }
+    }
+    return $true
+}
+
+# Seeds pages only change until every regional final is played (or canceled).
+function Test-RegionalsComplete([string]$path, [string]$grade) {
+    $seedsPath = Join-Path $path "regional-seeds-$grade.json"
+    if (!(Test-Path -LiteralPath $seedsPath)) { return $false }
+    $brackets = @((Get-Content -Raw -LiteralPath $seedsPath | ConvertFrom-Json).regionalBrackets.PSObject.Properties)
+    if (!$brackets.Count) { return $false }
+    foreach ($bracket in $brackets) {
+        if ($bracket.Value.canceled) { continue }
+        $rounds = @($bracket.Value.rounds)
+        if (!$rounds.Count) { return $false }
+        $final = @($rounds[$rounds.Count - 1]) | Select-Object -Last 1
+        if (!$final -or !$final.winner) { return $false }
+    }
+    return $true
 }
 
 # Rosters are fixed in data.js when the season is built, but IESA edits the
@@ -239,6 +291,20 @@ $liveClasses = @(foreach ($name in $seasonClasses) {
     }
 }) | Sort-Object { !$_.EveryRun }
 if ($Classes) { $liveClasses = @($liveClasses | Where-Object { $_.Name -in $Classes }) }
+foreach ($liveClass in $liveClasses) {
+    $open = @("7th", "8th" | Where-Object { !(Test-GradeComplete $liveClass.Path $_) })
+    $liveClass | Add-Member -NotePropertyName OpenGrades -NotePropertyValue $open
+}
+# Once every state final has been played there is nothing left to check: make no
+# IESA request at all, and tell the workflow so it can switch its schedule off.
+function Write-TournamentsComplete {
+    Write-Output "Every $SeasonYear state tournament is complete; no further IESA requests are needed."
+    if ($env:GITHUB_OUTPUT) { Add-Content -LiteralPath $env:GITHUB_OUTPUT -Value "complete=true" }
+}
+if (!@($liveClasses | Where-Object { $_.OpenGrades.Count }).Count) {
+    Write-TournamentsComplete
+    return
+}
 $refreshedClasses = @()
 # Seeds and postseason results are checked for every class on every run (about
 # 8 IESA pages per class), so 1A/3A/4A brackets do not lag until the next morning.
@@ -246,12 +312,14 @@ $postseasonClasses = @()
 foreach ($liveClass in $liveClasses) {
 $ClassName = $liveClass.Name
 $ClassPath = $liveClass.Path
-if (!$liveClass.EveryRun -and !$Force) {
-    $doneToday = @("7th", "8th" | Where-Object {
+if (!$liveClass.OpenGrades.Count) { continue }
+# The evening run reads every class's remaining schools, however often it ran today.
+if (!$liveClass.EveryRun -and !$Force -and !$Evening) {
+    $doneToday = @($liveClass.OpenGrades | Where-Object {
         $cachePath = Join-Path $ClassPath "scores-$_.json"
         (Test-Path -LiteralPath $cachePath) -and
             (Get-Content -Raw -LiteralPath $cachePath | ConvertFrom-Json).fullSweepDate -eq $today.ToString("yyyy-MM-dd")
-    }).Count -eq 2
+    }).Count -eq $liveClass.OpenGrades.Count
     if ($doneToday) { $postseasonClasses += $liveClass; continue }
 }
 if (Get-IesaPause) { break }
@@ -259,7 +327,7 @@ if (Get-IesaPause) { break }
 $global:IesaGuard.Count = 0
 $refreshedClasses += $liveClass
 $postseasonClasses += $liveClass
-foreach ($grade in "7th", "8th") {
+foreach ($grade in $liveClass.OpenGrades) {
     $gradeLevel = $grade.Substring(0, 1)
     $teams = @{}
     $updatedGames = @()
@@ -280,22 +348,24 @@ foreach ($grade in "7th", "8th") {
         if ($previousCache.PSObject.Properties["fullSweepDate"]) { $previousSweep = $previousCache.fullSweepDate }
     }
 
-    # Go easy on IESA: the first run of each Central day reads every school. Later
-    # runs that day skip only schools knocked out of the postseason and reuse
-    # this morning's page for them. Schools may enter a game with its final score
-    # without ever listing it as PENDING, so every other school is re-read.
+    # Go easy on IESA: the first run of each Central day reads every school still
+    # playing; later runs that day re-read the followed class (the evening run,
+    # every class). A school knocked out of the postseason is never requested
+    # again - its last capture is reused. Schools may enter a game with its final
+    # score without ever listing it as PENDING, so every other school is re-read.
     $todayKey = $today.ToString("yyyy-MM-dd")
     $fullSweep = $Force -or !$previousSweep -or $previousSweep -ne $todayKey -or !$previousTeams.Count
-    $eliminated = if ($fullSweep) { @{} } else { Get-EliminatedTeams $grade }
+    $eliminated = Get-EliminatedTeams $grade
     $fetched = 0
     $reused = 0
 
     $rosterChanges = @()
-    if (!$fullSweep -and $previousCache.PSObject.Properties["rosterChanges"]) {
+    if ($previousCache -and $previousCache.PSObject.Properties["rosterChanges"]) {
         $rosterChanges = @($previousCache.rosterChanges)
     }
     try {
-        if ($fullSweep) { $rosterChanges = @(Get-RosterChanges $grade) }
+        # Rosters are settled once the brackets begin.
+        if ($fullSweep -and !$Evening -and $today -lt $bracketFrom) { $rosterChanges = @(Get-RosterChanges $grade) }
         foreach ($change in $rosterChanges) {
             $message = "$grade Regional $($change.regional) roster differs from IESA assignments." +
                 $(if ($change.removed.Count) { " No longer listed: $($change.removed -join ', ')." } else { "" }) +
@@ -311,11 +381,12 @@ foreach ($grade in "7th", "8th") {
 
     foreach ($team in Get-Teams $grade) {
         if (Get-IesaPause) { break }
-        if (!$fullSweep -and $previousTeams.ContainsKey($team) -and $eliminated.ContainsKey((Get-TeamKey $team))) {
+        if ($previousTeams.ContainsKey($team) -and $eliminated.ContainsKey((Get-TeamKey $team))) {
             $teams[$team] = $previousTeams[$team]
             $reused++
             continue
         }
+        if ($null -eq $directory) { $directory = Get-SchoolDirectory }
         $lookup = ($team -replace "\s+\(Co-op\)", "").Trim().ToLowerInvariant()
         if (!$directory.ContainsKey($lookup)) {
             Write-Warning "No IESA member match found for $team."
@@ -380,7 +451,7 @@ foreach ($grade in "7th", "8th") {
     }
     $cutoff = (Get-Date).AddDays(-$RetentionDays)
     $rollingChanges = @(Merge-ChangeWindow $previousChanges $updatedGames $cutoff $previousCaptureAt)
-    Write-Output ("{0} {1}: {2} - read {3} school pages, reused {4} unchanged since today's full check." -f
+    Write-Output ("{0} {1}: {2} - read {3} school pages, reused {4} for schools already eliminated." -f
         $ClassName, $grade, $(if ($fullSweep) { "full daily check" } else { "partial check" }), $fetched, $reused)
     $cache = [pscustomobject]@{
         updatedAt = $runTimestamp
@@ -398,7 +469,7 @@ foreach ($grade in "7th", "8th") {
 }
 }
 
-if ($includes2A) { Update-StreamLinks }
+if ($includes2A -and !$Evening) { Update-StreamLinks }
 $pausedNow = Get-IesaPause
 if ($pausedNow) {
     Write-Warning "Skipping strength of schedule, seeds and bracket. $pausedNow"
@@ -406,7 +477,9 @@ if ($pausedNow) {
 }
 # Strength of schedule rebuilds itself per class on Saturdays (or when missing or
 # stale), and is unofficial. Records already cached for other classes are reused.
+# It reads every opponent's page, so it stops once the brackets begin.
 foreach ($liveClass in $refreshedClasses) {
+    if ($Evening -or $today -ge $bracketFrom) { break }
     try {
         & (Join-Path $PSScriptRoot "Update-Strength.ps1") -SitePath $liveClass.Path -Year $SeasonYear
     } catch {
@@ -417,8 +490,11 @@ foreach ($liveClass in $refreshedClasses) {
 $seedRefreshError = $null
 if ($today -ge $seedsFrom) {
     foreach ($liveClass in $postseasonClasses) {
+        # A grade's seed page stops changing once its regional finals are played.
+        $grades = @($liveClass.OpenGrades | Where-Object { !(Test-RegionalsComplete $liveClass.Path $_) })
+        if (!$grades.Count) { continue }
         try {
-            & (Join-Path $PSScriptRoot "Update-IesaSeeds.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name -Year $SeasonYear
+            & (Join-Path $PSScriptRoot "Update-IesaSeeds.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name -Year $SeasonYear -Grades $grades
         } catch {
             if ($liveClass.EveryRun) { $seedRefreshError = $_ }
             Write-Warning "Class $($liveClass.Name) regional seed refresh failed: $($_.Exception.Message)"
@@ -428,7 +504,7 @@ if ($today -ge $seedsFrom) {
 if ($today -ge $bracketFrom) {
     foreach ($liveClass in $postseasonClasses) {
         try {
-            & (Join-Path $PSScriptRoot "Update-IesaBracket.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name -Year $SeasonYear
+            & (Join-Path $PSScriptRoot "Update-IesaBracket.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name -Year $SeasonYear -Grades $liveClass.OpenGrades
         } catch {
             # Class 2A's bracket failure still fails the run, as before.
             if ($liveClass.EveryRun) { throw }
@@ -436,14 +512,20 @@ if ($today -ge $bracketFrom) {
         }
     }
 
-    # State results decide top-four placement, so refresh the year menu's
-    # trophies from IESA's state tournament history once the finals are being
-    # played, then the team index that maps schools to classes. This is
-    # presentation only, and must never fail a score refresh.
+    # State results decide top-four placement, so once a state final has been
+    # played refresh the year menu's trophies from IESA's state tournament
+    # history (15 pages), at most once a day, then the team index that maps
+    # schools to classes. Presentation only; it must never fail a score refresh.
     try {
         $siteRoot = Split-Path -Parent $PSScriptRoot
+        $placementsPath = Join-Path $siteRoot "placements.json"
+        $placementsDay = $null
+        if (Test-Path -LiteralPath $placementsPath) {
+            $placementsDay = [string](Get-Content -Raw -LiteralPath $placementsPath | ConvertFrom-Json).generatedAt
+        }
+        $finalsPlayed = @($liveClasses | Where-Object { (Test-GradeComplete $_.Path "7th") -or (Test-GradeComplete $_.Path "8th") }).Count
         $placementsScript = Join-Path $siteRoot "Build-IesaPlacements.ps1"
-        if (Test-Path $placementsScript) {
+        if ($finalsPlayed -and !($placementsDay -and $placementsDay.StartsWith($today.ToString("yyyy-MM-dd"))) -and (Test-Path $placementsScript)) {
             & $placementsScript -SiteRoot $siteRoot | Out-Null
         }
         $teamIndexScript = Join-Path $siteRoot "Build-IesaTeamIndex.ps1"
@@ -453,5 +535,8 @@ if ($today -ge $bracketFrom) {
     } catch {
         Write-Warning "Placement refresh failed: $($_.Exception.Message)"
     }
+}
+if (!@($liveClasses | Where-Object { (!(Test-GradeComplete $_.Path "7th")) -or (!(Test-GradeComplete $_.Path "8th")) }).Count) {
+    Write-TournamentsComplete
 }
 if ($seedRefreshError) { throw $seedRefreshError }

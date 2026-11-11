@@ -259,7 +259,9 @@ It archives the finished season from IESA's final results (skip with
 `Build-IesaSeason.ps1 -Live` (followed class first, so it keeps
 `<year>\<grade>\`), writes `live-season.json`, re-renders every page and
 rebuilds `teams.json`. Each class costs about 13 IESA requests. Check the dates
-against IESA's calendar, then commit and push. The shared scripts and assets
+against IESA's calendar, then commit and push. The previous season's last run
+disabled the *Update IESA scores* workflow, so re-enable it in the Actions tab
+(or `gh workflow enable update-scores.yml`). The shared scripts and assets
 stay in `2026\`. This script has not yet been run end to end; review its
 output the first time.
 
@@ -276,7 +278,10 @@ no IESA requests and takes about 15 seconds.
 - `tests\Test-Refresh.ps1` runs `2026\Update-IesaScores.ps1` against a fake
   IESA site in a temporary folder: the first daily run reads all classes, later
   runs read only the followed class (while seeds and brackets are still checked
-  for every class), eliminated schools are reused, a class's
+  for every class), the postseason `-Evening` run reads every class, eliminated
+  schools (including state quarterfinal losers) are never re-read, a finished
+  grade is skipped, and once every final is decided nothing is requested and
+  `complete=true` is reported; a class's
   first capture is a silent baseline, `-Classes` limits the run, and seed,
   bracket and end dates come from `live-season.json`.
 
@@ -290,11 +295,28 @@ lists December 17 as the last 2026 eighth-grade state date (the seventh-grade
 finals end December 10). The GitHub Actions workflow
 (`.github\workflows\update-scores.yml`) runs at **5 AM, 11 AM and 5 PM Central
 on weekdays** and **9 PM Central on Saturdays** (cron in UTC: weekdays 11:00,
-17:00 and 23:00; Sunday 03:00). GitHub can start scheduled runs hours late.
-Cron has no end date, so the workflow's first step skips scheduled runs after
-the `endDate` in `live-season.json` (**December 18, 2026**, Central); manual
-runs still work, and `2026\Update-IesaScores.ps1` itself refuses to fetch after
-that date. The
+17:00 and 23:00; Sunday 03:00). During the postseason (from `bracketFrom` in
+`live-season.json`) it also runs at **9 PM Central on weekdays** (Tuesday–Saturday
+03:00 UTC), so evening tournament games appear the same night; that run
+re-reads only the schools still playing, in every class, plus the seeds and
+brackets, with no strength of schedule, watch links or roster check
+(`Update-IesaScores.ps1 -Evening`). GitHub can start scheduled runs hours late.
+
+**Everything stops at the end of the tournaments.** A grade whose state
+third-place and championship games are both decided is never requested again
+(no school pages, seeds or bracket). Once every class's 7th- and 8th-grade
+finals are decided, the refresh makes no IESA request at all and reports
+`complete=true`; the workflow commits the final results and then **disables
+its own schedule** (`gh workflow disable`, which is why it has `actions: write`).
+Cron has no end date, so scheduled runs after the `endDate` in
+`live-season.json` (**December 18, 2026**, Central) are skipped and also
+disable the schedule; `2026\Update-IesaScores.ps1` itself refuses to fetch after
+that date. Re-enable the workflow for the next season in the repository's
+Actions tab (*Update IESA scores* → *Enable workflow*) or with
+`gh workflow enable update-scores.yml`. IESA's state-winners history (the year
+menu's trophies) is read at most once a day, and only after a state final has
+been played; if IESA posts the 2026 winners after the schedule has stopped, run
+`.\Build-IesaPlacements.ps1` and `.\Build-IesaTeamIndex.ps1` once by hand. The
 workflow commits the score, stream-link, strength, seed, bracket, placement and
 team-index files. The local Windows task `IESA 2026 Score Refresh` (and
 `.\2026\Set-IesaScoreSchedule.ps1`, which set its triggers) is disabled and no
@@ -308,14 +330,16 @@ roughly 43 minutes). The 11 AM and 5 PM refreshes re-read **only Class 2A**
 700-request budget. A regular-season weekday therefore makes about 1,270 IESA
 requests (850 + 210 + 210), and Saturday about 850 plus the weekly Class 2A
 strength-of-schedule rebuild (about 600): roughly 7,800 a week. Once the
-regionals are played, later runs skip eliminated schools.
+brackets begin, eliminated schools are never re-read, the roster check and
+strength of schedule stop, and the load falls quickly as teams are knocked out.
 
 From the seed and bracket start dates in `live-season.json`, every run also
 checks **every class's** regional seeds and postseason results (8 IESA pages per
 class: one seed page and three qualifier/scoreboard pages per grade), so 1A, 3A
 and 4A brackets update at 11 AM and 5 PM too instead of waiting for the next
 morning. That adds about 24 requests to each later run; their school scores
-and strength of schedule are still read once a day.
+are still read once a day (and at the postseason 9 PM run). A grade's seed page
+is no longer read once all its regional finals are decided.
 
 A class's first capture is a silent baseline: games already played are not
 listed under "Score updates" (otherwise a new class would report every result
@@ -323,7 +347,8 @@ as newly posted). On 2026 pages, the "Score updates" button appears only for the
 class the visitor's chosen team plays in that grade (all classes when no team
 is chosen), so other classes' changes do not bury the team's own.
 Strength of schedule is rebuilt per class (`Update-Strength.ps1 -SitePath
-2026\<class>`), on Saturdays or when missing or stale; opponents already in
+2026\<class>`), on Saturdays or when missing or stale, until the brackets begin
+(`bracketFrom`); opponents already in
 another 2026 class's score cache are reused instead of re-read from IESA (the
 first 1A build reused 96 records per grade and read about 134 pages per grade).
 "Bigger" opponents are the classes above the team's own (1A: 2A-4A).
@@ -367,21 +392,23 @@ schools; `-Force` overrides this.
 
 Each refresh reads only the schools that can still change. IESA's school pages
 list no game dates, so the first run of each Central day is a **full check**
-(the member directory, two assignment pages for roster drift, and every 2A
-school: about 212 requests). Later runs that day skip only schools that have
-lost a regional or sectional game and reuse the morning's page for them
-(`fullSweepDate` in `scores-<grade>.json` records the day). Every other school
-is re-read, because schools may enter a game with its final score without ever
-listing it as `PENDING`. During the regular season every run therefore reads
-every school; once the regionals are played most schools are eliminated, and
-later runs read only the remaining qualifiers (roughly 30 requests or fewer). A
-late regular-season score from an eliminated school appears the next morning.
-`-Force` always does a full check.
+(the member directory, two assignment pages for roster drift before the
+brackets begin, and every school still playing). Later runs that day re-read
+the followed class (`fullSweepDate` in `scores-<grade>.json` records the day).
+Every school still playing is re-read, because schools may enter a game with
+its final score without ever listing it as `PENDING`. A school is **never
+requested again once its season is over**: it lost a regional, sectional or
+state quarterfinal game, or played the state third-place or championship game
+(from `regional-seeds-<grade>.json` and `bracket-<grade>.json`; state games 1–4
+are quarterfinals, 5–6 semifinals, 7 third place, 8 the final). Its last capture
+is kept. Once the regionals are played most schools are eliminated, so runs read
+only the remaining qualifiers. `-Force` always does a full check (still
+skipping eliminated schools).
 
 The scheduled refresh runs only on GitHub Actions
 (`.github\workflows\update-scores.yml`): weekdays 5:00 AM, 11:00 AM and 5:00 PM
-and Saturdays 9:00 PM Central, through December 18, 2026 (a first step skips
-scheduled runs after that date). The local Windows task "IESA 2026 Score
+and Saturdays 9:00 PM Central, plus weekdays 9:00 PM during the postseason,
+through the `endDate` in `live-season.json`. The local Windows task "IESA 2026 Score
 Refresh" is disabled; re-enabling it would double the IESA traffic. Season
 dates in `Update-IesaScores.ps1` are Central dates even on the UTC runner.
 

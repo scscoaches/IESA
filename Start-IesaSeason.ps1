@@ -84,3 +84,4 @@ Write-IesaText $configPath (($config | ConvertTo-Json) + "`n")
 & (Join-Path $PSScriptRoot 'Update-IesaPageShells.ps1') -SiteRoot $SiteRoot
 & (Join-Path $PSScriptRoot 'Build-IesaTeamIndex.ps1') -SiteRoot $SiteRoot
 Write-Host "Live season is now $Year (Class $FollowedClass every run; others daily). Commit and push to publish."
+Write-Host "Last season's final run disabled the 'Update IESA scores' workflow: re-enable it in the Actions tab (or: gh workflow enable update-scores.yml)."

@@ -12,6 +12,29 @@ function Clear-FullSweep([string]$root) {
 
 function Get-SchoolPageCount($run) { @($run.Requests | Where-Object { $_ -match 'memberStats' }).Count }
 function Get-Lines($run, [string]$pattern) { @($run.Output -split "`n" | Where-Object { $_ -match $pattern }) }
+function Get-Calls($run, [string]$stub) { @($run.Calls | Where-Object { $_ -match "^$stub\|" }) }
+
+# Writes a bracket cache for every class: state games 1-8 decided when $complete,
+# otherwise only the given quarterfinal losers.
+function Set-StateResults([string]$root, [string]$grade, [switch]$complete, [string[]]$quarterfinalLosers = @()) {
+    foreach ($folder in (Join-Path $root '2026'), (Join-Path $root '2026\1A'), (Join-Path $root '2026\3A'), (Join-Path $root '2026\4A')) {
+        $games = [ordered]@{}
+        if ($complete) {
+            foreach ($n in 1..8) { $games["$n"] = [pscustomobject]@{ teams = @('A', 'B'); scores = @(30, 20); winner = 'A'; loser = 'B' } }
+        }
+        $i = 1
+        foreach ($loser in $quarterfinalLosers) {
+            $games["$i"] = [pscustomobject]@{ teams = @('Winner', $loser); scores = @(30, 20); winner = 'Winner'; loser = $loser }
+            $i++
+        }
+        [pscustomobject]@{ regionals = [pscustomobject]@{}; sectionals = [pscustomobject]@{}; games = [pscustomobject]$games } |
+            ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 (Join-Path $folder "bracket-$grade.json")
+    }
+}
+
+function Remove-StateResults([string]$root) {
+    Get-ChildItem -Recurse -Filter 'bracket-*.json' -Path (Join-Path $root '2026') | Remove-Item
+}
 
 $root = New-MockSite
 try {
@@ -23,9 +46,10 @@ try {
     }
     Assert-True ((Get-SchoolPageCount $run) -gt 800) "all four classes read (about 830 school pages; read $(Get-SchoolPageCount $run))"
     Assert-Equal 1 @($run.Requests | Where-Object { $_ -match 'members\.asp' }).Count 'member directory read once'
-    Assert-Equal 8 @($run.Requests | Where-Object { $_ -match 'assignments_Regional.*Year=2026' }).Count 'roster check: two assignment pages per class, current year'
-    foreach ($stub in 'Update-Strength', 'Update-IesaSeeds', 'Update-IesaBracket') {
-        Assert-Equal 4 @($run.Calls | Where-Object { $_ -match "^$stub\|.*\|2026$" }).Count "$stub called for each class with the season year"
+    Assert-Equal 0 @($run.Requests | Where-Object { $_ -match 'assignments_Regional' }).Count 'no roster check once the brackets begin'
+    Assert-Equal 0 (Get-Calls $run 'Update-Strength').Count 'no strength of schedule rebuild once the brackets begin'
+    foreach ($stub in 'Update-IesaSeeds', 'Update-IesaBracket') {
+        Assert-Equal 4 @($run.Calls | Where-Object { $_ -match "^$stub\|.*\|2026\|7th,8th$" }).Count "$stub called for each class, both grades, with the season year"
     }
 
     Write-Host 'Later runs that day read only the followed class'
@@ -35,9 +59,15 @@ try {
     Assert-True ((Get-SchoolPageCount $run) -lt 230) "only 2A schools read (read $(Get-SchoolPageCount $run))"
     Assert-Equal 0 @($run.Requests | Where-Object { $_ -match 'assignments_Regional' }).Count 'no roster check after the daily full check'
     foreach ($stub in 'Update-IesaSeeds', 'Update-IesaBracket') {
-        Assert-Equal 4 @($run.Calls | Where-Object { $_ -match "^$stub\|" }).Count "$stub still checks every class"
+        Assert-Equal 4 (Get-Calls $run $stub).Count "$stub still checks every class"
     }
-    Assert-Equal 1 @($run.Calls | Where-Object { $_ -match '^Update-Strength\|' }).Count 'strength of schedule only for the re-read class'
+    Assert-Equal 0 (Get-Calls $run 'Update-Strength').Count 'no strength of schedule rebuild'
+
+    Write-Host 'The 9 PM postseason run reads every class''s remaining schools'
+    $run = Invoke-MockRefresh $root '-Evening'
+    Assert-Equal 8 (Get-Lines $run '^(1A|2A|3A|4A) (7th|8th): partial check').Count 'all four classes re-read, both grades'
+    Assert-Equal 0 @($run.Calls | Where-Object { $_ -match '^Update-(Nfhs|Hudl)Events|^Update-Strength' }).Count 'no watch links or strength of schedule'
+    Assert-Equal 4 (Get-Calls $run 'Update-IesaBracket').Count 'brackets checked for every class'
 
     Write-Host 'Eliminated schools are not re-read later in the day'
     $names = @((Get-Content -Raw (Join-Path $root '2026\scores-7th.json') | ConvertFrom-Json).teams.PSObject.Properties.Name | Select-Object -First 40)
@@ -48,7 +78,38 @@ try {
     $run = Invoke-MockRefresh $root
     $line = @(Get-Lines $run '^2A 7th: partial check')
     Assert-True ($line.Count -eq 1 -and $line[0] -match 'reused 40\b') "40 eliminated 7th graders reused ($line)"
+    Clear-FullSweep $root
+    $run = Invoke-MockRefresh $root
+    $line = @(Get-Lines $run '^2A 7th: full daily check')
+    Assert-True ($line.Count -eq 1 -and $line[0] -match 'reused 40\b') "eliminated schools not re-read by the next morning's full check either ($line)"
     Remove-Item (Join-Path $root '2026\bracket-7th.json')
+
+    Write-Host 'State quarterfinal losers are not re-read'
+    $names = @((Get-Content -Raw (Join-Path $root '2026\scores-8th.json') | ConvertFrom-Json).teams.PSObject.Properties.Name | Select-Object -First 4)
+    Set-StateResults $root '8th' -quarterfinalLosers $names
+    $run = Invoke-MockRefresh $root
+    $line = @(Get-Lines $run '^2A 8th: partial check')
+    Assert-True ($line.Count -eq 1 -and $line[0] -match 'reused 4\b') "4 quarterfinal losers reused ($line)"
+    Remove-StateResults $root
+
+    Write-Host 'A finished grade is no longer requested'
+    Set-StateResults $root '7th' -complete
+    $run = Invoke-MockRefresh $root '-Evening'
+    Assert-Equal 0 (Get-Lines $run '^(1A|2A|3A|4A) 7th:').Count 'no 7th-grade school pages read'
+    Assert-Equal 4 (Get-Lines $run '^(1A|2A|3A|4A) 8th:').Count '8th grade still read in every class'
+    Assert-Equal 4 @($run.Calls | Where-Object { $_ -match '^Update-IesaBracket\|.*\|8th$' }).Count 'brackets fetched for 8th grade only'
+    Assert-True ($run.Output -notmatch 'state tournament is complete') 'season not reported complete while 8th grade plays'
+
+    Write-Host 'After every state final, nothing is requested and the workflow is told to stop'
+    Set-StateResults $root '8th' -complete
+    $outputFile = Join-Path $root 'github-output.txt'
+    $env:GITHUB_OUTPUT = $outputFile
+    try { $run = Invoke-MockRefresh $root '-Force' } finally { Remove-Item Env:\GITHUB_OUTPUT }
+    Assert-True ($run.Output -match 'state tournament is complete') 'reports every tournament complete'
+    Assert-Equal 0 $run.Requests.Count 'no IESA requests at all'
+    Assert-Equal 0 $run.Calls.Count 'no seed, bracket or strength scripts run'
+    Assert-True ((Test-Path $outputFile) -and (Get-Content -Raw $outputFile) -match 'complete=true') 'complete=true written for the workflow'
+    Remove-StateResults $root
 
     Write-Host 'A class''s first capture is a silent baseline'
     '{"updatedAt":null,"previousCaptureAt":null,"teams":{},"updatedGames":[],"rosterChanges":[]}' |
@@ -71,6 +132,8 @@ try {
         Set-Content -Encoding UTF8 (Join-Path $root 'live-season.json')
     $run = Invoke-MockRefresh $root '-Force'
     Assert-Equal 0 @($run.Calls | Where-Object { $_ -match '^Update-Iesa(Seeds|Bracket)' }).Count 'no seed or bracket refresh before their dates'
+    Assert-Equal 8 @($run.Requests | Where-Object { $_ -match 'assignments_Regional.*Year=2026' }).Count 'roster check before the brackets: two assignment pages per class, current year'
+    Assert-Equal 4 @($run.Calls | Where-Object { $_ -match '^Update-Strength\|.*\|2026\|' }).Count 'strength of schedule per class with the season year before the brackets'
     '{"year":2026,"followedClass":"2A","seedsFrom":"2026-01-01","bracketFrom":"2026-01-01","endDate":"2026-01-02"}' |
         Set-Content -Encoding UTF8 (Join-Path $root 'live-season.json')
     $run = Invoke-MockRefresh $root '-Force'

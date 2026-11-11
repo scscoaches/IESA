@@ -43,7 +43,7 @@ function New-MockSite {
     }
     # Child scripts record how they were called instead of doing anything.
     foreach ($stub in 'Update-NfhsEvents', 'Update-HudlEvents', 'Update-Strength', 'Update-IesaSeeds', 'Update-IesaBracket') {
-        "param(`$SitePath, `$ClassName, `$Year, `$SeasonStart)`nAdd-Content -LiteralPath (Join-Path (Split-Path -Parent `$PSScriptRoot) 'calls.log') ('$stub|' + `$SitePath + '|' + `$ClassName + '|' + `$Year)" |
+        "param(`$SitePath, `$ClassName, `$Year, `$SeasonStart, `$Grades)`nAdd-Content -LiteralPath (Join-Path (Split-Path -Parent `$PSScriptRoot) 'calls.log') ('$stub|' + `$SitePath + '|' + `$ClassName + '|' + `$Year + '|' + (`$Grades -join ','))" |
             Set-Content -Encoding UTF8 (Join-Path $season "$stub.ps1")
     }
     # Every school page reports one decided game; the member directory lists every
