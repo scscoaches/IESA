@@ -32,8 +32,10 @@ jobs:
         uses: actions/checkout@v4
 
       # Cron has no end date, so scheduled runs stop themselves after the live
-      # season's last day (endDate in live-season.json, Central). Manual runs
-      # still work. The 9 PM weekday run only runs during the postseason.
+      # season's last day (endDate in live-season.json: the day before IESA's
+      # "Season must end" date, Central) and start on its "Games may begin"
+      # date (gamesFrom). Manual runs still work. The 9 PM weekday run only
+      # runs during the postseason.
       - name: Check season window
         id: season
         shell: pwsh
@@ -42,11 +44,13 @@ jobs:
           $date = { param($value) [datetime]::ParseExact($value, "yyyy-MM-dd", [Globalization.CultureInfo]::InvariantCulture) }
           $end = & $date $season.endDate
           $bracketFrom = & $date $season.bracketFrom
+          # Nothing is played before IESA's "Games may begin" date.
+          $gamesFrom = if ($season.gamesFrom) { & $date $season.gamesFrom } else { [datetime]::MinValue }
           $central = [TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, "Central Standard Time")
           $scheduled = "${{ github.event_name }}" -eq "schedule"
           $evening = $scheduled -and "${{ github.event.schedule }}" -eq "0 3 * * 2-6"
           $ended = $scheduled -and $central.Date -gt $end
-          $active = !$scheduled -or (!$ended -and (!$evening -or $central.Date -ge $bracketFrom))
+          $active = !$scheduled -or (!$ended -and $central.Date -ge $gamesFrom -and (!$evening -or $central.Date -ge $bracketFrom))
           Write-Host "Season $($season.year); Central time $($central.ToString('yyyy-MM-dd HH:mm')); evening run: $evening; refresh active: $active; season ended: $ended"
           "active=$($active.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
           "evening=$($evening.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT

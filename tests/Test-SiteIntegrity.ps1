@@ -54,6 +54,12 @@ foreach ($asset in 'styles\.css', 'app\.js', 'season-selector\.js', 'my-team\.js
     $versions = @($pages | ForEach-Object { [regex]::Match((Get-Content -Raw $_.FullName), "$asset\?v=\d+").Value } | Where-Object { $_ } | Select-Object -Unique)
     Assert-True ($versions.Count -le 1) "one $($asset -replace '\\', '') version across pages ($($versions -join ', '))"
 }
+# The home page loads the shared header assets directly, outside the templates.
+$homePage = Get-Content -Raw (Join-Path $root 'index.html')
+foreach ($asset in 'styles\.css', 'theme\.css', 'my-team\.js') {
+    $pageVersion = [regex]::Match((Get-Content -Raw $pages[0].FullName), "$asset\?v=\d+").Value
+    Assert-Equal $pageVersion ([regex]::Match($homePage, "$asset\?v=\d+").Value) "home page loads the bracket pages' $($asset -replace '\\', '')"
+}
 
 Write-Host 'Data the browser reads'
 $teams = Get-Content -Raw (Join-Path $root 'teams.json') | ConvertFrom-Json

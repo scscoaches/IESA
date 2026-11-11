@@ -128,6 +128,15 @@ try {
     Assert-Equal 0 @($run.Calls | Where-Object { $_ -match '^Update-(Nfhs|Hudl)Events' }).Count 'stream links (followed class) not refreshed'
 
     Write-Host 'Season dates come from live-season.json'
+    '{"year":2026,"followedClass":"2A","gamesFrom":"2100-01-01","seedsFrom":"2026-01-01","bracketFrom":"2026-01-01","endDate":"2100-12-31"}' |
+        Set-Content -Encoding UTF8 (Join-Path $root 'live-season.json')
+    $run = Invoke-MockRefresh $root '-Force'
+    Assert-True ($run.Output -match 'nothing to check yet' -and $run.Requests.Count -eq 0 -and $run.Calls.Count -eq 0) 'nothing requested before "Games may begin"'
+    '{"year":2026,"followedClass":"2A","gamesFrom":"2026-01-01","seedsFrom":"2026-01-01","bracketFrom":"2026-01-01","endDate":"2100-12-31","grades":{"7th":{"seedsFrom":"2026-01-01","bracketFrom":"2026-01-01"},"8th":{"seedsFrom":"2100-01-01","bracketFrom":"2100-01-01"}}}' |
+        Set-Content -Encoding UTF8 (Join-Path $root 'live-season.json')
+    $run = Invoke-MockRefresh $root '-Force'
+    Assert-Equal 4 @($run.Calls | Where-Object { $_ -match '^Update-IesaSeeds\|.*\|7th$' }).Count 'seeds for the grade past its ranking date only'
+    Assert-Equal 4 @($run.Calls | Where-Object { $_ -match '^Update-IesaBracket\|.*\|7th$' }).Count 'results for the grade past its first regional only'
     '{"year":2026,"followedClass":"2A","seedsFrom":"2100-01-01","bracketFrom":"2100-01-01","endDate":"2100-12-31"}' |
         Set-Content -Encoding UTF8 (Join-Path $root 'live-season.json')
     $run = Invoke-MockRefresh $root '-Force'

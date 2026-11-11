@@ -24,6 +24,13 @@ function Get-SeasonDate([string]$value) { [datetime]::ParseExact($value, "yyyy-M
 $seedsFrom = Get-SeasonDate $liveSeason.seedsFrom
 $bracketFrom = Get-SeasonDate $liveSeason.bracketFrom
 $endDate = Get-SeasonDate $liveSeason.endDate
+# Grades have their own ranking (official seeds) and regional dates on IESA's
+# calendar; seasons configured before that use the shared dates above.
+function Get-GradeDate([string]$grade, [string]$name, [datetime]$fallback) {
+    $grades = $liveSeason.PSObject.Properties["grades"]
+    if ($grades -and $grades.Value.$grade -and $grades.Value.$grade.$name) { return Get-SeasonDate $grades.Value.$grade.$name }
+    return $fallback
+}
 if (!$SitePath) { $SitePath = Join-Path $siteRoot "$SeasonYear" }
 $includes2A = !$Classes -or $Classes -contains $FollowedClass
 
@@ -31,6 +38,11 @@ $includes2A = !$Classes -or $Classes -contains $FollowedClass
 $today = [TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, "Central Standard Time").Date
 if ($today -gt $endDate) {
     throw "The $SeasonYear season is complete; the scheduled score refresh ended after $($endDate.ToString('MMMM d'))."
+}
+# Nothing is played before IESA's "Games may begin" date, so nothing is requested.
+if ($liveSeason.PSObject.Properties["gamesFrom"] -and $liveSeason.gamesFrom -and $today -lt (Get-SeasonDate $liveSeason.gamesFrom)) {
+    Write-Output "The $SeasonYear season's games may begin $((Get-SeasonDate $liveSeason.gamesFrom).ToString('MMMM d')); nothing to check yet."
+    return
 }
 
 # NFHS and Hudl watch links are a convenience beside the scores and must never fail a refresh.
@@ -490,8 +502,10 @@ foreach ($liveClass in $refreshedClasses) {
 $seedRefreshError = $null
 if ($today -ge $seedsFrom) {
     foreach ($liveClass in $postseasonClasses) {
-        # A grade's seed page stops changing once its regional finals are played.
-        $grades = @($liveClass.OpenGrades | Where-Object { !(Test-RegionalsComplete $liveClass.Path $_) })
+        # A grade's seeds are official after its "Online Ranking" date, and its
+        # seed page stops changing once its regional finals are played.
+        $grades = @($liveClass.OpenGrades | Where-Object {
+            $today -ge (Get-GradeDate $_ "seedsFrom" $seedsFrom) -and !(Test-RegionalsComplete $liveClass.Path $_) })
         if (!$grades.Count) { continue }
         try {
             & (Join-Path $PSScriptRoot "Update-IesaSeeds.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name -Year $SeasonYear -Grades $grades
@@ -503,8 +517,11 @@ if ($today -ge $seedsFrom) {
 }
 if ($today -ge $bracketFrom) {
     foreach ($liveClass in $postseasonClasses) {
+        # Each grade's results are read from its own first regional date.
+        $grades = @($liveClass.OpenGrades | Where-Object { $today -ge (Get-GradeDate $_ "bracketFrom" $bracketFrom) })
+        if (!$grades.Count) { continue }
         try {
-            & (Join-Path $PSScriptRoot "Update-IesaBracket.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name -Year $SeasonYear -Grades $liveClass.OpenGrades
+            & (Join-Path $PSScriptRoot "Update-IesaBracket.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name -Year $SeasonYear -Grades $grades
         } catch {
             # Class 2A's bracket failure still fails the run, as before.
             if ($liveClass.EveryRun) { throw }

@@ -20,24 +20,37 @@
     the second week of November, regionals the third.
 
 .EXAMPLE
-    .\Start-IesaSeason.ps1 -Year 2027 -SeedsFrom 2027-11-11 -BracketFrom 2027-11-20 -EndDate 2027-12-17
+    .\Start-IesaSeason.ps1 -Year 2027
+    Reads every date from IESA's girls basketball calendar. Sync-IesaSeason.ps1
+    runs this automatically after the season's Final Entry Deadline.
 #>
 param(
     [Parameter(Mandatory)][ValidateRange(2027, 2100)][int]$Year,
-    [Parameter(Mandatory)][string]$SeedsFrom,
-    [Parameter(Mandatory)][string]$BracketFrom,
-    [Parameter(Mandatory)][string]$EndDate,
+    # Override the calendar's dates (yyyy-MM-dd) if needed.
+    [string]$SeedsFrom,
+    [string]$BracketFrom,
+    [string]$EndDate,
     # The class refreshed three times a day; the others are read once a day.
     [ValidateSet('1A', '2A', '3A', '4A')][string]$FollowedClass,
     [ValidateSet('1A', '2A', '3A', '4A')][string[]]$Classes = @('1A', '2A', '3A', '4A'),
     [switch]$SkipArchive,
-    [string]$SiteRoot = $PSScriptRoot
+    [string]$SiteRoot = $PSScriptRoot,
+    # Dates already read from the calendar (Get-IesaSeasonDates), to avoid a second request.
+    [System.Collections.IDictionary]$SeasonDates
 )
 
 $ErrorActionPreference = 'Stop'
 . (Join-Path $PSScriptRoot 'IesaSitePages.ps1')
+. (Join-Path $PSScriptRoot 'IesaCalendar.ps1')
 
-foreach ($date in $SeedsFrom, $BracketFrom, $EndDate) {
+if (!$SeasonDates) {
+    . (Join-Path $PSScriptRoot '2026\IesaRequest.ps1')
+    $SeasonDates = Get-IesaSeasonDates (Get-IesaCalendar ([string](Invoke-IesaPage $IesaCalendarUrl).Content)) $Year
+}
+if ($SeedsFrom) { $SeasonDates.seedsFrom = $SeedsFrom }
+if ($BracketFrom) { $SeasonDates.bracketFrom = $BracketFrom }
+if ($EndDate) { $SeasonDates.endDate = $EndDate }
+foreach ($date in $SeasonDates.seedsFrom, $SeasonDates.bracketFrom, $SeasonDates.endDate) {
     $null = [datetime]::ParseExact($date, 'yyyy-MM-dd', [Globalization.CultureInfo]::InvariantCulture)
 }
 $configPath = Join-Path $SiteRoot 'live-season.json'
@@ -71,14 +84,9 @@ foreach ($className in @($FollowedClass) + @($Classes | Where-Object { $_ -ne $F
 }
 
 # 3. Point the refresh scripts and the workflow at the new season.
-$config = [ordered]@{
-    year = $Year
-    followedClass = $FollowedClass
-    seedsFrom = $SeedsFrom
-    bracketFrom = $BracketFrom
-    endDate = $EndDate
-}
-Write-IesaText $configPath (($config | ConvertTo-Json) + "`n")
+$config = [ordered]@{ year = $Year; followedClass = $FollowedClass }
+foreach ($key in $SeasonDates.Keys) { $config[$key] = $SeasonDates[$key] }
+Write-IesaText $configPath (($config | ConvertTo-Json -Depth 5) + "`n")
 
 # 4. Stamp every page and index the new season's schools.
 & (Join-Path $PSScriptRoot 'Update-IesaPageShells.ps1') -SiteRoot $SiteRoot

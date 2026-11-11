@@ -12,7 +12,7 @@
 $ErrorActionPreference = 'Stop'
 $passes = 0
 $failures = @()
-foreach ($test in 'Test-SiteIntegrity.ps1', 'Test-Refresh.ps1') {
+foreach ($test in 'Test-SiteIntegrity.ps1', 'Test-Season.ps1', 'Test-Refresh.ps1') {
     Write-Host "`n== $test" -ForegroundColor Cyan
     # A child's stderr must not stop the run; anything unexpected shows up as missing results.
     $ErrorActionPreference = 'Continue'

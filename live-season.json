@@ -1,7 +1,22 @@
 {
-    "year": 2026,
-    "followedClass": "2A",
-    "seedsFrom": "2026-11-12",
-    "bracketFrom": "2026-11-21",
-    "endDate": "2026-12-18"
+    "year":  2026,
+    "followedClass":  "2A",
+    "createFrom":  "2026-08-01",
+    "gamesFrom":  "2026-09-26",
+    "seedsFrom":  "2026-11-12",
+    "bracketFrom":  "2026-11-21",
+    "endDate":  "2026-12-20",
+    "seasonMustEnd":  "2026-12-21",
+    "grades":  {
+                   "7th":  {
+                               "seedsFrom":  "2026-11-12",
+                               "bracketFrom":  "2026-11-21",
+                               "stateLast":  "2026-12-10"
+                           },
+                   "8th":  {
+                               "seedsFrom":  "2026-11-19",
+                               "bracketFrom":  "2026-11-30",
+                               "stateLast":  "2026-12-17"
+                           }
+               }
 }

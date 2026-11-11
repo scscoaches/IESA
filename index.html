@@ -3,73 +3,108 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#101d4d">
     <title>IESA Girls Basketball Brackets</title>
     <link rel="icon" type="image/png" sizes="32x32" href="2026/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="2026/apple-touch-icon.png">
+    <link rel="manifest" href="2026/manifest.json">
+    <script src="2026/theme.js?v=2"></script>
+    <script src="2026/my-team.js?v=5"></script>
+    <link rel="stylesheet" href="2026/styles.css?v=57">
+    <link rel="stylesheet" href="2026/theme.css?v=26">
     <style>
-        body{margin:0;min-height:100vh;padding:28px;box-sizing:border-box;background:#101d4d;color:#fff;font:16px Arial,Helvetica,sans-serif}
-        main{max-width:850px;margin:35px auto}
-        h1{font-size:clamp(30px,5vw,48px)}
-        .season{padding:18px;margin:14px 0;background:#24325c;border-radius:8px}
-        .season h2{margin:0 0 12px}
-        .season a{display:inline-block;margin:4px 10px 4px 0;padding:10px 16px;border-radius:5px;background:#fff;color:#2533ba;text-decoration:none;font-weight:bold}
-        .season .class-row{display:flex;flex-wrap:wrap;align-items:center;gap:0 6px;margin:2px 0}
-        .season .class-name{min-width:78px;color:#cbd1ff;font-weight:bold}
-        .season small{color:#cbd1ff}
-        @media(max-width:480px){body{padding:14px}.season a{padding:9px 12px;margin-right:6px}.season .class-name{min-width:100%}}
+        .home{max-width:760px;margin:0 auto;padding:22px 16px 40px}
+        .home h1{margin:0 0 16px;font-size:clamp(24px,5vw,34px);text-align:center}
+        .home .lead{margin:0 0 18px;color:#5b6479;text-align:center}
+        .card{margin:0 0 14px;padding:16px;border:1px solid #d6dbe7;border-radius:8px;background:#fff}
+        .card h2{margin:0 0 10px;font-size:17px}
+        #classes{width:fit-content;max-width:100%;margin:0 auto;box-sizing:border-box}
+        .class-row{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;padding:8px 0;border-top:1px solid #edf0f5}
+        .class-row:first-of-type{border-top:0}
+        .class-name{min-width:84px;font-weight:bold}
+        .grade-link{display:inline-block;min-width:96px;padding:9px 14px;border:1px solid #b9c1d0;border-radius:4px;background:#fff;color:#2533ba;font-weight:bold;text-align:center}
+        .grade-link:hover,.grade-link:focus{background:#eef0ff}
+        .mine-label{padding:3px 9px;border-radius:10px;background:#f2c14e;color:#141a2c;font-size:12px;font-weight:bold}
+        .topbar .title{font-size:16px;max-width:none}
+        .dark-theme .home .lead{color:#aab2cc}
+        .dark-theme .card{border-color:#2c3550;background:#18213d}
+        .dark-theme .class-row{border-top-color:#2c3550}
+        .dark-theme .grade-link{border-color:#56607e;background:transparent;color:#cbd1ff}
+        .dark-theme .grade-link:hover,.dark-theme .grade-link:focus{background:#26304d}
+        @media(max-width:480px){#classes{width:auto}.class-name{min-width:100%}.grade-link{flex:1 1 0;min-width:0}}
     </style>
 </head>
-<body>
-    <main>
-        <h1>IESA Girls Basketball Brackets</h1>
-        <p>Explore IESA girls basketball tournament brackets by season and class, including the combined-grade early tournaments.</p>
-        <div id="seasons" aria-live="polite">Loading seasons...</div>
-        <noscript><p><a href="2026/index.html" style="color:white">2026 Class 2A tournament</a></p></noscript>
+<body class="home-page">
+    <header class="topbar">
+        <div><div class="title">IESA Girls Basketball</div><div class="detail" id="season-detail"></div></div>
+        <div class="tools" style="margin-left:auto">
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><img src="2026/theme-moon.svg" alt="" aria-hidden="true"></button>
+        </div>
+    </header>
+    <main class="home">
+        <h1 id="season-title">Tournament brackets</h1>
+        <p class="lead" id="season-lead" hidden></p>
+       <section class="card" id="classes" aria-label="Brackets by class" hidden></section>
+        <noscript><p>Turn on JavaScript to see this season's brackets.</p></noscript>
     </main>
     <script>
-        fetch("seasons.json", { cache: "no-store" }).then(function(response) {
-            if (!response.ok) { throw new Error("Season list could not be loaded (HTTP " + response.status + ")."); }
+    (function () {
+        "use strict";
+        function element(tag, className, text) {
+            var node = document.createElement(tag);
+            if (className) { node.className = className; }
+            if (text !== undefined) { node.textContent = text; }
+            return node;
+        }
+        // The first class built for a year keeps <year>/<grade>; others live in <year>/<class>/<grade>.
+        function folderFor(season, className) {
+            return !className || className === season.className ? String(season.year) : season.year + "/" + className;
+        }
+        function gradeLink(season, className, grade) {
+            var link = element("a", "grade-link", grade === "combined" ? "Combined" : grade + " Grade");
+            link.href = folderFor(season, className) + "/" + grade + "/index.html";
+            return link;
+        }
+        function fail(message) { var lead = document.getElementById("season-lead"); lead.textContent = message; lead.hidden = false; }
+
+        fetch("seasons.json", { cache: "no-store" }).then(function (response) {
+            if (!response.ok) { throw new Error("The season list could not be loaded (HTTP " + response.status + ")."); }
             return response.json();
-        }).then(function(seasons) {
+        }).then(function (seasons) {
             if (!Array.isArray(seasons) || !seasons.length) { throw new Error("No seasons are listed."); }
-            var list = document.getElementById("seasons");
-            list.replaceChildren();
-            seasons.forEach(function(season) {
-                var section = document.createElement("section");
-                section.className = "season";
-                var title = document.createElement("h2");
-                var classes = Array.isArray(season.classes) && season.classes.length ? season.classes :
-                    season.className ? [season.className] : [null];
-                title.textContent = season.year + (classes.length > 1 ? "" : season.className ? " Class " + season.className :
-                    season.gradeMode === "combined" ? " Combined 7th/8th" : " 7th and 8th Grade");
-                section.appendChild(title);
-                classes.forEach(function(className) {
-                    var row = document.createElement("div");
-                    row.className = "class-row";
-                    if (classes.length > 1) {
-                        var name = document.createElement("span");
-                        name.className = "class-name";
-                        name.textContent = "Class " + className;
-                        row.appendChild(name);
-                    }
-                    // The first class archived for a year keeps <year>/<grade>; others live in <year>/<class>/<grade>.
-                    var folder = !className || className === season.className ? String(season.year) :
-                        season.year + "/" + className;
-                    (season.gradeMode === "combined" ? ["combined"] : ["7th", "8th"]).forEach(function(grade) {
-                        var link = document.createElement("a");
-                        link.href = folder + "/" + grade + "/index.html";
-                        link.textContent = grade === "combined" ? "Combined 7th/8th Tournament" : grade + " Grade";
-                        row.appendChild(link);
-                    });
-                    section.appendChild(row);
-                });
-                var note = document.createElement("small");
-                note.textContent = season.archived ? "Completed season" : "Current season";
-                section.appendChild(note);
-                list.appendChild(section);
+            // Always the newest season listed, so each new season appears here without edits.
+            var season = seasons.slice().sort(function (a, b) { return b.year - a.year; })[0];
+            var classes = Array.isArray(season.classes) && season.classes.length ? season.classes : [season.className || null];
+            var grades = season.gradeMode === "combined" ? ["combined"] : ["7th", "8th"];
+            document.title = "IESA Girls Basketball " + season.year;
+            document.getElementById("season-title").textContent = season.year + " Tournament Brackets";
+            document.getElementById("season-detail").textContent = season.archived ? season.year + " season (completed)" : season.year + " season";
+
+            var list = document.getElementById("classes");
+            var rows = {};
+            classes.forEach(function (className) {
+                var row = element("div", "class-row");
+                if (className) { row.appendChild(element("span", "class-name", "Class " + className)); }
+                grades.forEach(function (grade) { row.appendChild(gradeLink(season, className, grade)); });
+                rows[className] = row;
+                list.appendChild(row);
             });
-        }).catch(function(error) {
-            document.getElementById("seasons").textContent = error.message;
-        });
+            list.hidden = false;
+
+            var myTeam = window.iesaMyTeam;
+            if (!myTeam || !myTeam.name) { return; }
+            // Mark the class (or classes) the chosen team plays in this season.
+            Promise.all(grades.map(function (grade) { return myTeam.classFor(season.year, grade).catch(function () { return null; }); }))
+                .then(function (found) {
+                    var classNames = found.filter(function (value, i, all) { return value && all.indexOf(value) === i; });
+                    classNames.forEach(function (className) {
+                        if (!rows[className]) { return; }
+                        rows[className].classList.add("mine");
+                        rows[className].appendChild(element("span", "mine-label", "My team"));
+                    });
+                });
+        }).catch(function (error) { fail(error.message); });
+    })();
     </script>
 </body>
 </html>

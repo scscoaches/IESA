@@ -1,6 +1,14 @@
 # IESA girls basketball brackets
 
-The repository root is the all-season landing page. The 1979–1985 tournaments
+The repository root (`index.html`) is the home page for the **newest season**
+in `seasons.json` (so each new season appears there with no edits): its title
+and a row of 7th/8th grade links for every class, with the chosen team's class
+marked by a gold *My team* badge (both themes). It shares the bracket pages' header, gear *Settings* dialog
+(`2026\my-team.js`, including `?team=` links) and light/dark themes; earlier
+seasons are reached through the year menu on any bracket page. It loads
+`2026\styles.css`, `theme.css`, `theme.js` and `my-team.js` directly, so bump
+their `?v=` there too when bumping them in the templates (the site-integrity
+test checks this). The 1979–1985 tournaments
 combined seventh and eighth grades into **one** bracket per year under
 `<year>/combined/`. The 1986–1989 seasons have separate seventh- and
 eighth-grade state tournaments but no class divisions. The 1990–2001 Class A
@@ -242,32 +250,34 @@ after a "(Host)" marker is removed, in the 1979–2025 page data, bracket caches
 and seed caches. It writes only files that change (`-WhatIf` to preview) and is
 safe to re-run.
 
-## Start the next season
+## Start the next season (automatic)
 
-`live-season.json` names the live season and drives the refresh scripts and
-the GitHub Actions workflow: `year`, `followedClass` (refreshed every run; the
-other classes once a day), `seedsFrom`, `bracketFrom` and `endDate`
-(`yyyy-MM-dd`, Central). Once IESA publishes the new season's regional
-assignments and state scoreboard (usually early November), run for example
+Each season follows IESA's
+[girls basketball calendar](https://www.iesa.org/activities/calendar.asp?activitycode=GBK),
+read by `IesaCalendar.ps1` (it lists four seasons; "2027-2028" is the 2027
+season). No prompts or hand edits are needed:
 
-```powershell
-.\Start-IesaSeason.ps1 -Year 2027 -SeedsFrom 2027-11-11 -BracketFrom 2027-11-20 -EndDate 2027-12-17
-```
+| Calendar date (2027 example) | What happens |
+|---|---|
+| Final Entry Deadline (Aug 1) | From this day `.github\workflows\season-setup.yml` (7 AM Central daily, August–October) runs `Sync-IesaSeason.ps1`. It checks whether IESA has published the followed class's regional assignments (both grades) and state scoreboard; until then it waits and checks again the next day (4 requests). Once published it runs `Start-IesaSeason.ps1 -Year 2027`: the finished season is archived from IESA's final results, every class of the new season is built with its regionals, sectionals and state pairings, `live-season.json` gets the calendar's dates, every page is re-rendered and `teams.json` rebuilt. The workflow commits, pushes and re-enables *Update IESA scores*. |
+| Games may begin (Sept 25) | `gamesFrom`: scheduled score refreshes start; before it they request nothing. |
+| Online Ranking (Thu; 7th Nov 11, 8th Nov 18) | `grades.<grade>.seedsFrom`: that grade's official seeds are checked. |
+| First regional date (7th Nov 20, 8th Nov 29) | `grades.<grade>.bracketFrom`: that grade's postseason results are checked; the earliest (`bracketFrom`) starts the 9 PM weekday runs and stops the roster check and strength of schedule. |
+| Every state final decided | The refresh makes no further request and *Update IESA scores* disables its own schedule. |
+| Season must end (Dec 20) | `seasonMustEnd`; refreshes stop on this date at the latest (`endDate` is the day before) and the schedule is disabled. |
 
-It archives the finished season from IESA's final results (skip with
-`-SkipArchive`), builds every class of the new season with
-`Build-IesaSeason.ps1 -Live` (followed class first, so it keeps
-`<year>\<grade>\`), writes `live-season.json`, re-renders every page and
-rebuilds `teams.json`. Each class costs about 13 IESA requests. Check the dates
-against IESA's calendar, then commit and push. The previous season's last run
-disabled the *Update IESA scores* workflow, so re-enable it in the Actions tab
-(or `gh workflow enable update-scores.yml`). The shared scripts and assets
-stay in `2026\`. This script has not yet been run end to end; review its
-output the first time.
-
+Once a season exists, the setup workflow's daily runs make no IESA request.
+It can also be started by hand from the Actions tab. To set up a season
+yourself (for example a different followed class), run
+`.\Start-IesaSeason.ps1 -Year 2027 [-FollowedClass 3A]`; dates come from the
+calendar unless `-SeedsFrom`, `-BracketFrom` or `-EndDate` are given. Each
+class costs about 13 IESA requests. The shared scripts and assets stay in
+`2026\`. Neither script has yet run end to end against a real new season (2027
+assignments are not published yet); check the first automatic run's log in
+August 2027.
 ## Tests
 
-`.\tests\Run-Tests.ps1` runs two suites and exits 1 on any failure; it makes
+`.\tests\Run-Tests.ps1` runs three suites and exits 1 on any failure; it makes
 no IESA requests and takes about 15 seconds.
 
 - `tests\Test-SiteIntegrity.ps1` checks the published files: one catalogue
@@ -275,6 +285,11 @@ no IESA requests and takes about 15 seconds.
   class, no unreplaced template placeholders, one site version and one
   version of each shared asset across pages, unique team names and aliases,
   and complete state history.
+- `tests\Test-Season.ps1` reads a saved copy of IESA's calendar
+  (`tests\fixtures\gbk-calendar.html`) and runs `Sync-IesaSeason.ps1` against a
+  fake IESA: nothing before the Final Entry Deadline or once the season exists,
+  waiting while IESA has not published the season, and creating it with the
+  calendar's dates once it has.
 - `tests\Test-Refresh.ps1` runs `2026\Update-IesaScores.ps1` against a fake
   IESA site in a temporary folder: the first daily run reads all classes, later
   runs read only the followed class (while seeds and brackets are still checked
@@ -282,8 +297,9 @@ no IESA requests and takes about 15 seconds.
   schools (including state quarterfinal losers) are never re-read, a finished
   grade is skipped, and once every final is decided nothing is requested and
   `complete=true` is reported; a class's
-  first capture is a silent baseline, `-Classes` limits the run, and seed,
-  bracket and end dates come from `live-season.json`.
+  first capture is a silent baseline, `-Classes` limits the run, nothing is
+  requested before `gamesFrom`, and seed, bracket (per grade) and end dates
+  come from `live-season.json`.
 
 `.github\workflows\tests.yml` runs them on every push and pull request
 (the score-refresh commits do not trigger it).
@@ -309,7 +325,8 @@ finals are decided, the refresh makes no IESA request at all and reports
 `complete=true`; the workflow commits the final results and then **disables
 its own schedule** (`gh workflow disable`, which is why it has `actions: write`).
 Cron has no end date, so scheduled runs after the `endDate` in
-`live-season.json` (**December 18, 2026**, Central) are skipped and also
+`live-season.json` (**December 20, 2026**, the day before IESA's "Season must
+end" date of December 21, Central) are skipped and also
 disable the schedule; `2026\Update-IesaScores.ps1` itself refuses to fetch after
 that date. Re-enable the workflow for the next season in the repository's
 Actions tab (*Update IESA scores* → *Enable workflow*) or with

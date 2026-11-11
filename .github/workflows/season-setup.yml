@@ -1,0 +1,55 @@
+name: Set up IESA season
+
+# After IESA's Final Entry Deadline (August 1), create the next season as soon
+# as IESA publishes its regional assignments and state scoreboard: archive the
+# finished season, build every class of the new one, take its dates from IESA's
+# calendar (live-season.json), and switch the score refresh back on. Runs make
+# no IESA request once the season exists.
+on:
+  schedule:
+    # Every day of August-October at 7:00 AM Central (12:00 UTC; CDT = UTC-5).
+    - cron: "0 12 * 8-10 *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  # Re-enables the score refresh, which disables itself when a season ends.
+  actions: write
+
+# Never push at the same time as a score refresh.
+concurrency:
+  group: update-scores
+  cancel-in-progress: false
+
+jobs:
+  set-up-season:
+    runs-on: windows-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Create the next season when IESA has opened it
+        id: sync
+        # Windows PowerShell 5.1, which the site builders are written and tested for.
+        shell: powershell
+        run: ./Sync-IesaSeason.ps1
+
+      - name: Commit and push the new season
+        if: steps.sync.outputs.created == 'true'
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          $year = (Get-Content -Raw live-season.json | ConvertFrom-Json).year
+          git commit -m "Set up the IESA $year season"
+          git pull --rebase --autostash
+          git push
+
+      - name: Switch the score refresh back on
+        if: steps.sync.outputs.created == 'true'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow enable update-scores.yml --repo "${{ github.repository }}"
