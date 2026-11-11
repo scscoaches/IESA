@@ -240,6 +240,9 @@ $liveClasses = @(foreach ($name in $seasonClasses) {
 }) | Sort-Object { !$_.EveryRun }
 if ($Classes) { $liveClasses = @($liveClasses | Where-Object { $_.Name -in $Classes }) }
 $refreshedClasses = @()
+# Seeds and postseason results are checked for every class on every run (about
+# 8 IESA pages per class), so 1A/3A/4A brackets do not lag until the next morning.
+$postseasonClasses = @()
 foreach ($liveClass in $liveClasses) {
 $ClassName = $liveClass.Name
 $ClassPath = $liveClass.Path
@@ -249,12 +252,13 @@ if (!$liveClass.EveryRun -and !$Force) {
         (Test-Path -LiteralPath $cachePath) -and
             (Get-Content -Raw -LiteralPath $cachePath | ConvertFrom-Json).fullSweepDate -eq $today.ToString("yyyy-MM-dd")
     }).Count -eq 2
-    if ($doneToday) { continue }
+    if ($doneToday) { $postseasonClasses += $liveClass; continue }
 }
 if (Get-IesaPause) { break }
 # Each class is its own job for the per-run request cap (about 190-220 schools).
 $global:IesaGuard.Count = 0
 $refreshedClasses += $liveClass
+$postseasonClasses += $liveClass
 foreach ($grade in "7th", "8th") {
     $gradeLevel = $grade.Substring(0, 1)
     $teams = @{}
@@ -412,7 +416,7 @@ foreach ($liveClass in $refreshedClasses) {
 
 $seedRefreshError = $null
 if ($today -ge $seedsFrom) {
-    foreach ($liveClass in $refreshedClasses) {
+    foreach ($liveClass in $postseasonClasses) {
         try {
             & (Join-Path $PSScriptRoot "Update-IesaSeeds.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name -Year $SeasonYear
         } catch {
@@ -422,7 +426,7 @@ if ($today -ge $seedsFrom) {
     }
 }
 if ($today -ge $bracketFrom) {
-    foreach ($liveClass in $refreshedClasses) {
+    foreach ($liveClass in $postseasonClasses) {
         try {
             & (Join-Path $PSScriptRoot "Update-IesaBracket.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name -Year $SeasonYear
         } catch {

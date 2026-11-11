@@ -184,7 +184,8 @@ record, possessive `'s`, periods and hyphens (`Get-TeamKey` in
 differ only by a school-type suffix (JHS, IJHS, MS, GS, ES, UGC) are merged
 unless both appear in one 2002+ roster, and town-prefix variants are merged
 only through the curated `$aliasOf` list (for example West Lincoln-Broadwell /
-Lincoln West Lincoln-Broadwell). Pleasant Hill and Peoria Pleasant Hill, and the
+Lincoln West Lincoln-Broadwell, and the 1986 bracket's "Mahomet" /
+Mahomet-Seymour, which already appears under that name in 1984). Pleasant Hill and Peoria Pleasant Hill, and the
 four St. Joseph schools, are deliberately kept apart. `teams.json` publishes the
 merges as `aliases`, and the most recent spelling is displayed.
 
@@ -274,7 +275,8 @@ no IESA requests and takes about 15 seconds.
   and complete state history.
 - `tests\Test-Refresh.ps1` runs `2026\Update-IesaScores.ps1` against a fake
   IESA site in a temporary folder: the first daily run reads all classes, later
-  runs read only the followed class, eliminated schools are reused, a class's
+  runs read only the followed class (while seeds and brackets are still checked
+  for every class), eliminated schools are reused, a class's
   first capture is a silent baseline, `-Classes` limits the run, and seed,
   bracket and end dates come from `live-season.json`.
 
@@ -307,6 +309,13 @@ roughly 43 minutes). The 11 AM and 5 PM refreshes re-read **only Class 2A**
 requests (850 + 210 + 210), and Saturday about 850 plus the weekly Class 2A
 strength-of-schedule rebuild (about 600): roughly 7,800 a week. Once the
 regionals are played, later runs skip eliminated schools.
+
+From the seed and bracket start dates in `live-season.json`, every run also
+checks **every class's** regional seeds and postseason results (8 IESA pages per
+class: one seed page and three qualifier/scoreboard pages per grade), so 1A, 3A
+and 4A brackets update at 11 AM and 5 PM too instead of waiting for the next
+morning. That adds about 24 requests to each later run; their school scores
+and strength of schedule are still read once a day.
 
 A class's first capture is a silent baseline: games already played are not
 listed under "Score updates" (otherwise a new class would report every result

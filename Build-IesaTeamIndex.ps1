@@ -35,6 +35,9 @@ $aliasOf = @{
     'west lincoln broadwell' = 'lincoln west lincoln broadwell'
     'chester east lincoln' = 'lincoln chester east lincoln'
     'metamora germantown hills' = 'germantown hills'
+    # Only the 1986 8th-grade state bracket says "Mahomet"; 1984 and 1989 already
+    # say Mahomet-Seymour.
+    'mahomet' = 'mahomet seymour'
 }
 
 $display = @{}

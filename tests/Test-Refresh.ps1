@@ -34,6 +34,10 @@ try {
     Assert-Equal 0 (Get-Lines $run '^(1A|3A|4A) ').Count 'Classes 1A, 3A and 4A skipped'
     Assert-True ((Get-SchoolPageCount $run) -lt 230) "only 2A schools read (read $(Get-SchoolPageCount $run))"
     Assert-Equal 0 @($run.Requests | Where-Object { $_ -match 'assignments_Regional' }).Count 'no roster check after the daily full check'
+    foreach ($stub in 'Update-IesaSeeds', 'Update-IesaBracket') {
+        Assert-Equal 4 @($run.Calls | Where-Object { $_ -match "^$stub\|" }).Count "$stub still checks every class"
+    }
+    Assert-Equal 1 @($run.Calls | Where-Object { $_ -match '^Update-Strength\|' }).Count 'strength of schedule only for the re-read class'
 
     Write-Host 'Eliminated schools are not re-read later in the day'
     $names = @((Get-Content -Raw (Join-Path $root '2026\scores-7th.json') | ConvertFrom-Json).teams.PSObject.Properties.Name | Select-Object -First 40)
