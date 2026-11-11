@@ -1,0 +1,401 @@
+﻿window.tournamentData = {
+    "year":  2017,
+    "grade":  "8th",
+    "className":  "3A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Wenona Fieldcrest",
+                          "teams":  [
+                                        "El Paso-Gridley",
+                                        "Wenona Fieldcrest",
+                                        "Peru Parkside",
+                                        "Flanagan",
+                                        "Spring Valley Kennedy"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Washington MS",
+                          "teams":  [
+                                        "Germantown Hills",
+                                        "Eureka",
+                                        "Washington MS",
+                                        "Metamora GS",
+                                        "Stanford Olympia",
+                                        "Mackinaw Dee-Mack",
+                                        "Washington Beverly Manor"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Calumet City Schrum",
+                          "teams":  [
+                                        "South Holland McKinley",
+                                        "Dolton Roosevelt",
+                                        "Glenwood Brookwood",
+                                        "Lansing Heritage",
+                                        "Dolton Lincoln",
+                                        "Calumet City Schrum"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Morris Saratoga",
+                          "teams":  [
+                                        "Sandwich",
+                                        "Morris Saratoga",
+                                        "Calumet Park",
+                                        "Morris Shabbona",
+                                        "Dixmoor Rosa Parks",
+                                        "Crest Hill Richland"
+                                    ],
+                          "assignedTeams":  [
+                                                "Calumet Park Calumet",
+                                                "Crest Hill Richland",
+                                                "Dixmoor Rosa Parks",
+                                                "Morris Saratoga",
+                                                "Morris Shabbona",
+                                                "Sandwich"
+                                            ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Peotone",
+                          "teams":  [
+                                        "Peotone",
+                                        "Beecher",
+                                        "Wilmington",
+                                        "Herscher Limestone",
+                                        "Momence JHS",
+                                        "Braidwood Reed-Custer"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Watseka Glenn Raymond",
+                          "teams":  [
+                                        "Watseka Glenn Raymond",
+                                        "Pontiac JHS",
+                                        "Forrest Prairie Central",
+                                        "Onarga Iroquois West",
+                                        "Clifton Nash"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Havana",
+                          "teams":  [
+                                        "Havana",
+                                        "Farmington Central",
+                                        "Green Valley Midwest Central",
+                                        "Peoria Quest",
+                                        "Chillicothe",
+                                        "Tremont",
+                                        "Dunlap Valley MS"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Joy Mercer County",
+                          "teams":  [
+                                        "Sherrard JHS",
+                                        "Taylor Ridge Rockridge",
+                                        "Avon Abingdon Avon",
+                                        "Knoxville JHS",
+                                        "Joy Mercer County",
+                                        "Monmouth-Roseville JHS"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "St. Joseph",
+                          "teams":  [
+                                        "Tolono Unity",
+                                        "Westville JHS",
+                                        "St. Joseph",
+                                        "Danville Oakwood",
+                                        "Hoopeston Area",
+                                        "Paxton-Buckley-Loda"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Downs Tri-Valley",
+                          "teams":  [
+                                        "Warrensburg-Latham",
+                                        "Monticello",
+                                        "Downs Tri-Valley",
+                                        "Maroa-Forsyth",
+                                        "Lincoln JHS",
+                                        "Argenta-Oreana"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Pawnee",
+                          "teams":  [
+                                        "Riverton",
+                                        "Auburn JHS at Divernon",
+                                        "Springfield Lincoln",
+                                        "Petersburg PORTA JHS",
+                                        "Williamsville",
+                                        "Athens",
+                                        "Pawnee"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "New Berlin JHS",
+                          "teams":  [
+                                        "New Berlin JHS",
+                                        "Quincy St. Peter",
+                                        "Pittsfield Pikeland",
+                                        "Pleasant Plains",
+                                        "Rushville Schuyler Industry",
+                                        "Beardstown MS"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Paris Mayo",
+                          "teams":  [
+                                        "Paris Mayo",
+                                        "Tuscola East Prairie",
+                                        "Toledo Cumberland",
+                                        "Arthur",
+                                        "Sullivan",
+                                        "Shelbyville Moulton"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Teutopolis",
+                          "teams":  [
+                                        "Teutopolis",
+                                        "Marshall JHS",
+                                        "Albion",
+                                        "Bridgeport Red Hill",
+                                        "Newton Jasper County",
+                                        "Robinson Nuttall",
+                                        "Lawrenceville Parkview"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Pana JHS",
+                          "teams":  [
+                                        "Pana JHS",
+                                        "Greenville",
+                                        "Litchfield",
+                                        "Hillsboro",
+                                        "Vandalia",
+                                        "Girard North Mac"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Piasa Southwestern",
+                          "teams":  [
+                                        "Piasa Southwestern",
+                                        "Carlinville",
+                                        "Staunton",
+                                        "Gillespie",
+                                        "East Alton MS",
+                                        "Roxana",
+                                        "Wood River Lewis \u0026 Clark"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Washington MS",
+                           "date":  "Wednesday, December 6, 2017",
+                           "records":  {
+                                           "1":  "17-4",
+                                           "2":  "20-2"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Calumet City Schrum",
+                           "date":  "Wednesday, December 6, 2017",
+                           "records":  {
+                                           "3":  "10-5",
+                                           "4":  "14-3"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Onarga Iroquois West",
+                           "date":  "Wednesday, December 6, 2017",
+                           "records":  {
+                                           "5":  "18-6",
+                                           "6":  "20-2"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Joy Mercer County",
+                           "date":  "Wednesday, December 6, 2017",
+                           "records":  {
+                                           "7":  "22-3",
+                                           "8":  "21-0"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Monticello",
+                           "date":  "Wednesday, December 6, 2017",
+                           "records":  {
+                                           "9":  "14-7",
+                                           "10":  "16-4"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Auburn JHS at Divernon",
+                           "date":  "Wednesday, December 6, 2017",
+                           "records":  {
+                                           "11":  "19-5",
+                                           "12":  "15-9"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Marshall JHS",
+                           "date":  "Wednesday, December 6, 2017",
+                           "records":  {
+                                           "13":  "20-4",
+                                           "14":  "20-2"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Vandalia",
+                           "date":  "Wednesday, December 6, 2017",
+                           "records":  {
+                                           "15":  "16-7",
+                                           "16":  "22-1"
+                                       }
+                       }
+                   ],
+    "venue":  "Germantown Hills MS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              2,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              5,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              3,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              4,
+                                              1
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

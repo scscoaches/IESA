@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:15",
+    "year":  2023,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Staunton",
+                                 "loser":  "Greenville",
+                                 "score":  "16-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                             },
+                      "3":  {
+                                "winner":  "Morris Saratoga",
+                                "loser":  "Lisle",
+                                "score":  "39-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                            },
+                      "5":  {
+                                "winner":  "Peotone",
+                                "loser":  "Manteno",
+                                "score":  "26-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Tuscola East Prairie",
+                                 "loser":  "Sullivan",
+                                 "score":  "26-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Sherrard JHS",
+                                 "loser":  "Orion",
+                                 "score":  "30-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                             },
+                      "2":  {
+                                "winner":  "Lockport Kelvin Grove",
+                                "loser":  "South Holland McKinley",
+                                "score":  "40-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                            },
+                      "8":  {
+                                "winner":  "Stanford Olympia",
+                                "loser":  "Downs Tri-Valley",
+                                "score":  "25-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Paris Mayo",
+                                 "score":  "40-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                             },
+                      "1":  {
+                                "winner":  "Burr Ridge Gower",
+                                "loser":  "Robbins Kellar",
+                                "score":  "27-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                            },
+                      "9":  {
+                                "winner":  "Chillicothe",
+                                "loser":  "Green Valley Midwest Central",
+                                "score":  "23-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Quincy St. Peter",
+                                 "score":  "35-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                             },
+                      "7":  {
+                                "winner":  "Washington MS",
+                                "loser":  "Metamora GS",
+                                "score":  "23-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Piasa Southwestern",
+                                 "loser":  "Carlinville",
+                                 "score":  "26-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                             },
+                      "6":  {
+                                "winner":  "Monticello",
+                                "loser":  "St. Joseph",
+                                "score":  "26-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                            },
+                      "4":  {
+                                "winner":  "Rockford Marshall",
+                                "loser":  "Rockford Kennedy",
+                                "score":  "32-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Williamsville",
+                                 "loser":  "Riverton",
+                                 "score":  "35-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Staunton",
+                                               "record":  "15-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Morris Saratoga",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Peotone",
+                                              "record":  "24-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Tuscola East Prairie",
+                                               "record":  "12-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Sherrard JHS",
+                                               "record":  "17-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Lockport Kelvin Grove",
+                                              "record":  "20-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Stanford Olympia",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "Burr Ridge Gower",
+                                              "record":  "5-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Chillicothe",
+                                              "record":  "21-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Pleasant Plains",
+                                               "record":  "19-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Washington MS",
+                                              "record":  "16-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Piasa Southwestern",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Monticello",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Rockford Marshall",
+                                              "record":  "12-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Williamsville",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Williamsville",
+                                 "loser":  "Pleasant Plains",
+                                 "score":  "43-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Monticello",
+                                 "loser":  "Peotone",
+                                 "score":  "20-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Morris Saratoga",
+                                 "loser":  "Rockford Marshall",
+                                 "score":  "39-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Lockport Kelvin Grove",
+                                 "loser":  "Burr Ridge Gower",
+                                 "score":  "47-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Stanford Olympia",
+                                 "loser":  "Washington MS",
+                                 "score":  "32-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Tuscola East Prairie",
+                                 "score":  "35-03",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Chillicothe",
+                                 "loser":  "Sherrard JHS",
+                                 "score":  "29-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Piasa Southwestern",
+                                 "loser":  "Staunton",
+                                 "score":  "24-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           6
+                                       ],
+                                 "4":  [
+                                           8,
+                                           4
+                                       ],
+                                 "1":  [
+                                           2,
+                                           5
+                                       ],
+                                 "3":  [
+                                           1,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Chillicothe",
+                                          "Piasa Southwestern"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           25
+                                       ],
+                            "winner":  "Piasa Southwestern",
+                            "loser":  "Chillicothe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Lockport Kelvin Grove",
+                                          "Williamsville"
+                                      ],
+                            "scores":  [
+                                           12,
+                                           42
+                                       ],
+                            "winner":  "Williamsville",
+                            "loser":  "Lockport Kelvin Grove",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Monticello",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           44
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Monticello",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Morris Saratoga",
+                                          "Chillicothe"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           25
+                                       ],
+                            "winner":  "Chillicothe",
+                            "loser":  "Morris Saratoga",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Piasa Southwestern",
+                                          "Stanford Olympia"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           28
+                                       ],
+                            "winner":  "Piasa Southwestern",
+                            "loser":  "Stanford Olympia",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Williamsville",
+                                          "Piasa Southwestern"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           24
+                                       ],
+                            "winner":  "Williamsville",
+                            "loser":  "Piasa Southwestern",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Chillicothe",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           8,
+                                           33
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Chillicothe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Williamsville"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           25
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Williamsville",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-3A"
+                        }
+              }
+};

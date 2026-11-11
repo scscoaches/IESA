@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:02",
+    "year":  2015,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Brownstown",
+                                 "loser":  "Altamont",
+                                 "score":  "45-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Colfax Ridgeview",
+                                "loser":  "Bloomington Corpus Christi",
+                                "score":  "31-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Mason City Illini Central",
+                                "loser":  "Green Valley Midwest Central",
+                                "score":  "30-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Illiopolis Sangamon Valley",
+                                 "loser":  "Assumption Central A \u0026 M",
+                                 "score":  "32-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Bismarck-Henning",
+                                 "loser":  "Arcola",
+                                 "score":  "36-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Gardner",
+                                "loser":  "Marseilles ES",
+                                "score":  "35-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Liberty",
+                                "loser":  "Mendon Unity",
+                                "score":  "41-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Decatur Hope",
+                                 "loser":  "Decatur Johns Hill",
+                                 "score":  "30-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Bourbonnais St. George",
+                                "loser":  "St. Anne",
+                                "score":  "40-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Fisher",
+                                "score":  "40-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "White Hall North Greene",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "28-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "La Harpe",
+                                "loser":  "Table Grove VIT",
+                                "score":  "37-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Louisville North Clay",
+                                 "score":  "22-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Lewistown Central",
+                                "loser":  "Glasford Illini Bluffs",
+                                "score":  "49-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Princeville",
+                                "loser":  "Sparland Midland",
+                                "score":  "33-3",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Springfield Christian",
+                                 "score":  "19-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Brownstown",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Colfax Ridgeview",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Mason City Illini Central",
+                                              "record":  "14-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Illiopolis Sangamon Valley",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Bismarck-Henning",
+                                               "record":  "19-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Gardner",
+                                              "record":  "18-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Liberty",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Decatur Hope",
+                                               "record":  "19-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Bourbonnais St. George",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "14-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "White Hall North Greene",
+                                               "record":  "13-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "La Harpe",
+                                              "record":  "22-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "8-14",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Lewistown Central",
+                                              "record":  "24-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Princeville",
+                                              "record":  "18-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Springfield Christ the King",
+                                               "record":  "8-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "White Hall North Greene",
+                                 "loser":  "Springfield Christ the King",
+                                 "score":  "39-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Lewistown Central",
+                                 "loser":  "Mason City Illini Central",
+                                 "score":  "63-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Colfax Ridgeview",
+                                 "loser":  "Princeville",
+                                 "score":  "27-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Bourbonnais St. George",
+                                 "loser":  "Gardner",
+                                 "score":  "41-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Liberty",
+                                 "loser":  "La Harpe",
+                                 "score":  "35-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Illiopolis Sangamon Valley",
+                                 "loser":  "Decatur Hope",
+                                 "score":  "51-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Bismarck-Henning",
+                                 "loser":  "Champaign St. Matthew",
+                                 "score":  "33-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Brownstown",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "33-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2015\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           1
+                                       ],
+                                 "4":  [
+                                           2,
+                                           4
+                                       ],
+                                 "1":  [
+                                           7,
+                                           3
+                                       ],
+                                 "3":  [
+                                           8,
+                                           5
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Illiopolis Sangamon Valley",
+                                          "Bismarck-Henning"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           35
+                                       ],
+                            "winner":  "Bismarck-Henning",
+                            "loser":  "Illiopolis Sangamon Valley",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Brownstown",
+                                          "Bismarck-Henning"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           42
+                                       ],
+                            "winner":  "Bismarck-Henning",
+                            "loser":  "Brownstown",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Illiopolis Sangamon Valley",
+                                          "Bourbonnais St. George"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           30
+                                       ],
+                            "winner":  "Illiopolis Sangamon Valley",
+                            "loser":  "Bourbonnais St. George",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "White Hall North Greene",
+                                          "Lewistown Central"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           48
+                                       ],
+                            "winner":  "Lewistown Central",
+                            "loser":  "White Hall North Greene",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Colfax Ridgeview",
+                                          "Liberty"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           35
+                                       ],
+                            "winner":  "Colfax Ridgeview",
+                            "loser":  "Liberty",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Bismarck-Henning",
+                                          "Colfax Ridgeview"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           29
+                                       ],
+                            "winner":  "Colfax Ridgeview",
+                            "loser":  "Bismarck-Henning",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Lewistown Central",
+                                          "Illiopolis Sangamon Valley"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           31
+                                       ],
+                            "winner":  "Lewistown Central",
+                            "loser":  "Illiopolis Sangamon Valley",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Lewistown Central",
+                                          "Colfax Ridgeview"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           28
+                                       ],
+                            "winner":  "Lewistown Central",
+                            "loser":  "Colfax Ridgeview",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2015\u0026Class=8-2A"
+                        }
+              }
+};

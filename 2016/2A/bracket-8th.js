@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:04",
+    "year":  2016,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Liberty",
+                                 "score":  "37-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "McNabb Putnam County",
+                                "loser":  "Oglesby Washington",
+                                "score":  "43-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Brimfield",
+                                "loser":  "Elmwood",
+                                "score":  "38-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Hamilton",
+                                 "loser":  "Mendon Unity",
+                                 "score":  "31-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Mason City Illini Central",
+                                 "loser":  "Springfield Christ the King",
+                                 "score":  "50-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Kankakee Bishop McNamara",
+                                "loser":  "Gardner",
+                                "score":  "40-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Arcola",
+                                "loser":  "Villa Grove",
+                                "score":  "31-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Lewistown Central",
+                                 "loser":  "Stronghurst West Central",
+                                 "score":  "46-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Joliet Laraway",
+                                "loser":  "Lockport Taft",
+                                "score":  "31-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur Hope",
+                                "loser":  "Cerro Gordo",
+                                "score":  "46-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Stewardson-Strasburg",
+                                 "loser":  "Beecher City",
+                                 "score":  "33-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Fisher",
+                                "score":  "21-7",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Greenfield",
+                                 "score":  "34-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Glasford Illini Bluffs",
+                                "loser":  "Bartonville Oak Grove West",
+                                "score":  "33-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Bloomington Corpus Christi",
+                                "loser":  "Roanoke-Benson",
+                                "score":  "35-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Altamont",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "27-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Mt. Sterling Brown County",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "McNabb Putnam County",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Brimfield",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Hamilton",
+                                               "record":  "18-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Mason City Illini Central",
+                                               "record":  "15-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Kankakee Bishop McNamara",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Arcola",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Lewistown Central",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Joliet Laraway",
+                                              "record":  "20-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Decatur Hope",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Stewardson-Strasburg",
+                                               "record":  "18-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "8-15",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Winchester",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Glasford Illini Bluffs",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Bloomington Corpus Christi",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Altamont",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Altamont",
+                                 "loser":  "Stewardson-Strasburg",
+                                 "score":  "24-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Glasford Illini Bluffs",
+                                 "loser":  "Brimfield",
+                                 "score":  "36-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Bloomington Corpus Christi",
+                                 "loser":  "McNabb Putnam County",
+                                 "score":  "27-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Kankakee Bishop McNamara",
+                                 "loser":  "Joliet Laraway",
+                                 "score":  "35-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Arcola",
+                                 "loser":  "Champaign St. Matthew",
+                                 "score":  "36-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Lewistown Central",
+                                 "loser":  "Hamilton",
+                                 "score":  "36-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Decatur Hope",
+                                 "loser":  "Mason City Illini Central",
+                                 "score":  "52-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Mt. Sterling Brown County",
+                                 "score":  "31-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           4,
+                                           7
+                                       ],
+                                 "4":  [
+                                           2,
+                                           1
+                                       ],
+                                 "1":  [
+                                           8,
+                                           6
+                                       ],
+                                 "3":  [
+                                           5,
+                                           3
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Altamont",
+                                          "Bloomington Corpus Christi"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           22
+                                       ],
+                            "winner":  "Altamont",
+                            "loser":  "Bloomington Corpus Christi",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Decatur Hope",
+                                          "Glasford Illini Bluffs"
+                                      ],
+                            "scores":  [
+                                           58,
+                                           48
+                                       ],
+                            "winner":  "Decatur Hope",
+                            "loser":  "Glasford Illini Bluffs",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Arcola",
+                                          "Altamont"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           37
+                                       ],
+                            "winner":  "Altamont",
+                            "loser":  "Arcola",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Winchester",
+                                          "Lewistown Central"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           36
+                                       ],
+                            "winner":  "Winchester",
+                            "loser":  "Lewistown Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Bloomington Corpus Christi",
+                                          "Kankakee Bishop McNamara"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           25
+                                       ],
+                            "winner":  "Bloomington Corpus Christi",
+                            "loser":  "Kankakee Bishop McNamara",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Decatur Hope",
+                                          "Bloomington Corpus Christi"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           29
+                                       ],
+                            "winner":  "Decatur Hope",
+                            "loser":  "Bloomington Corpus Christi",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Winchester",
+                                          "Altamont"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           31
+                                       ],
+                            "winner":  "Winchester",
+                            "loser":  "Altamont",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Winchester",
+                                          "Decatur Hope"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           23
+                                       ],
+                            "winner":  "Winchester",
+                            "loser":  "Decatur Hope",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=8-2A"
+                        }
+              }
+};

@@ -1,16 +1,17 @@
 param(
     [Parameter(Mandatory)][ValidateRange(2002, 2100)][int]$Year,
-    [Parameter(Mandatory)][ValidateSet('A', '1A', '2A', '3A', '4A')][string]$ClassName,
+    [Parameter(Mandatory)][ValidateSet('A', 'AA', '1A', '2A', '3A', '4A')][string]$ClassName,
     [string]$OutputRoot = $PSScriptRoot
 )
 
 $ErrorActionPreference = 'Stop'
 . (Join-Path $PSScriptRoot '2026\IesaRequest.ps1')
+. (Join-Path $PSScriptRoot 'IesaSitePages.ps1')
 if (!(Test-Path -LiteralPath $OutputRoot -PathType Container)) {
     throw "Output root does not exist: $OutputRoot"
 }
-if (($Year -le 2005) -ne ($ClassName -eq 'A')) {
-    throw 'Years 2002–2005 use Class A; 2006 and later use numbered classes.'
+if (($Year -le 2005) -ne ($ClassName -in @('A', 'AA'))) {
+    throw 'Years 2002–2005 use Class A or AA; 2006 and later use numbered classes.'
 }
 
 function Get-Text([string]$html) {
@@ -90,6 +91,17 @@ function Get-Assignments([string]$html, [string]$grade) {
             $list = [regex]::Match($regionalBlock,
                 "(?is)<td\s+class=['""]ListData['""][^>]*>(.*?)</td>")
             if (!$list.Success) { throw "$grade $Year Regional $number has no team list" }
+            $listText = Get-Text $list.Groups[1].Value
+            # A canceled regional sends its sectional partner through unopposed;
+            # an empty list (2011-2012 7-3A Regional 1) is filled from the
+            # published bracket below.
+            if ($listText -match '(?i)^Regional\s+\d+\s+has\s+been\s+cancell?ed\.?$' -or
+                (!$listText -and $Year -ge 2006)) {
+                $regional = [pscustomobject]@{ id = $number; sectional = $id; host = 'TBD'; teams = @() }
+                if ($listText) { $regional | Add-Member -NotePropertyName canceled -NotePropertyValue $true }
+                if ($early) { $regionals[$number - 1] = $regional } else { $regionals += $regional }
+                continue
+            }
             $teams = @()
             $listedTeams = @()
             $nonCompetitors = @()
@@ -179,7 +191,7 @@ try {
     $calendarHtml = Get-OfficialPage 'https://www.iesa.org/activities/calendar.asp?activitycode=GBK' 'GIRLS BASKETBALL'
     foreach ($grade in @('7th', '8th')) {
         $gradeNumber = $grade.Substring(0, 1)
-        $classCode = if ($ClassName -eq 'A') { "${gradeNumber}A" } else { "$gradeNumber-$ClassName" }
+        $classCode = if ($Year -le 2005) { "$gradeNumber$ClassName" } else { "$gradeNumber-$ClassName" }
         $assignmentUrl = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=$Year&Class=$classCode"
         $html = Get-OfficialPage $assignmentUrl "$Year Class $classCode Regional Assignments"
         $assignments = Get-Assignments $html $grade
@@ -213,9 +225,11 @@ try {
 
     if ($Year -ge 2006) {
         & (Join-Path $PSScriptRoot '2026\Update-IesaSeeds.ps1') -Year $Year -ClassName $ClassName `
-            -SitePath $staging -OutputPath $staging -AllowBracketParticipants:($Year -le 2019)
+            -SitePath $staging -OutputPath $staging -AllowBracketParticipants
     }
-    if ($Year -ge 2006 -and $Year -le 2019) {
+    # Archived seasons take participants from the published bracket and keep the
+    # assignment list as assignedTeams; only the live season matches rosters strictly.
+    if ($Year -ge 2006) {
         foreach ($grade in @('7th', '8th')) {
             $dataPath = Join-Path (Join-Path $staging $grade) 'data.json'
             $data = Get-Content -Raw -LiteralPath $dataPath | ConvertFrom-Json
@@ -235,8 +249,13 @@ try {
                 $blank.PSObject.Properties.Remove('missingSeed')
             }
             foreach ($regional in $data.regionals) {
+                if ($regional.PSObject.Properties['canceled']) { continue }
                 $publishedBracket = $seedData.regionalBrackets.("$($regional.id)")
                 $published = @($publishedBracket.seeds)
+                if (!$published.Count -and !@($regional.teams).Count) {
+                    $regional | Add-Member -NotePropertyName canceled -NotePropertyValue $true
+                    continue
+                }
                 if ($published.Count -lt 2 -or $published.Count -gt 8) {
                     throw "$Year $grade Regional $($regional.id) has an invalid published bracket roster"
                 }
@@ -286,10 +305,6 @@ try {
             Set-Content -Encoding UTF8 -LiteralPath (Join-Path $staging 'bracket-8th.js')
     }
 
-    $template = Get-Content -Raw -LiteralPath (Join-Path $PSScriptRoot 'archive-grade-template.html')
-    $seasonPage = (Get-Content -Raw -LiteralPath (Join-Path $PSScriptRoot 'archive-season-template.html')).
-        Replace('{{YEAR}}', "$Year").Replace('{{CLASS}}', $ClassName)
-    $seasonPage | Set-Content -Encoding UTF8 -LiteralPath (Join-Path $staging 'index.html')
     foreach ($grade in @('7th', '8th')) {
         $gradeNumber = $grade.Substring(0, 1)
         $directory = Join-Path $staging $grade
@@ -297,13 +312,15 @@ try {
         $data = Get-Content -Raw -LiteralPath $dataPath | ConvertFrom-Json
         $bracket = Get-Content -Raw -LiteralPath (Join-Path $staging "bracket-$grade.json") | ConvertFrom-Json
         $legacy = $Year -le 2005
+        # A canceled regional has no result; its partner advanced unopposed.
+        $canceledRegionals = @($bracket.sectionals.PSObject.Properties | Where-Object { $_.Value.note -match 'canceled' }).Count
         if ($legacy -and ($data.regionals.Count -ne 32 -or $data.sectionals.Count -ne 16 -or
-            @($bracket.regionals.PSObject.Properties).Count -ne 32 -or
+            @($bracket.regionals.PSObject.Properties).Count -ne 32 - $canceledRegionals -or
             @($bracket.sectionals.PSObject.Properties).Count -ne 16 -or
             @($bracket.games.PSObject.Properties).Count -ne 16)) {
             throw "$grade $Year has incomplete Class A regional, sectional or state results"
         }
-        if ($Year -eq 2004 -and $grade -eq '7th') {
+        if ($Year -eq 2004 -and $grade -eq '7th' -and $ClassName -eq 'A') {
             $qualifierUrl = 'https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2004&Class=7A'
             $qualifierHtml = Get-OfficialPage $qualifierUrl '2004 Class 7A Regional Champions/Sectional Matchups'
             $hosts = @([regex]::Matches($qualifierHtml,
@@ -328,9 +345,10 @@ try {
             Get-Content -Raw -LiteralPath (Join-Path $staging "regional-seeds-$grade.json") | ConvertFrom-Json
         }
         $openingGames = if ($legacy) { 8 } else { 4 }
+        $canceled = @($data.regionals | Where-Object { $_.PSObject.Properties['canceled'] }).Count
         if (@($bracket.quarterfinalMatchups.PSObject.Properties).Count -ne $openingGames -or
             (!$legacy -and
-                @($seeds.regionalBrackets.PSObject.Properties | Where-Object { $_.Value.seeds.Count -gt 0 }).Count -ne 16)) {
+                @($seeds.regionalBrackets.PSObject.Properties | Where-Object { $_.Value.seeds.Count -gt 0 }).Count -ne 16 - $canceled)) {
             throw "$grade $Year has incomplete IESA opening-round pairings or regional seeds"
         }
         if ($Year -eq 2021 -and $ClassName -eq '1A' -and $grade -eq '8th' -and
@@ -365,12 +383,12 @@ try {
         }
         foreach ($regional in $data.regionals) {
             $bracketHost = if (!$legacy) { $seeds.regionalBrackets.("$($regional.id)").host } else { '' }
-            if (!$bracketHost -and $Year -gt 2019) {
+            if (!$bracketHost -and $Year -gt 2019 -and !$regional.PSObject.Properties['canceled']) {
                 throw "$grade $Year Regional $($regional.id) has no published bracket host"
             }
             if ($regional.host -eq 'TBD' -and $bracketHost) { $regional.host = $bracketHost }
         }
-        $classCode = if ($legacy) { "${gradeNumber}A" } else { "$gradeNumber-$ClassName" }
+        $classCode = if ($legacy) { "$gradeNumber$ClassName" } else { "$gradeNumber-$ClassName" }
         $stateUrl = "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=$Year&Class=$classCode"
         $stateMarker = if ($legacy) { "Class $classCode  State Tournament" } else {
             "$($gradeNumber)th Grade Class $ClassName  State Tournament"
@@ -434,24 +452,19 @@ try {
         $json | Set-Content -Encoding UTF8 -LiteralPath $dataPath
         ("window.tournamentData = " + $json + ";") |
             Set-Content -Encoding UTF8 -LiteralPath (Join-Path $directory 'data.js')
-        $page = $template.Replace('{{YEAR}}', "$Year").Replace('{{CLASS}}', $ClassName).
-            Replace('{{GRADE}}', $grade).
-            Replace('{{SEVENTH_ACTIVE}}', $(if ($grade -eq '7th') { 'class="active"' } else { '' })).
-            Replace('{{EIGHTH_ACTIVE}}', $(if ($grade -eq '8th') { 'class="active"' } else { '' }))
-        if ($legacy) { $page = $page.Replace("<script src=`"../regional-seeds-$grade.js`"></script>", '') }
-        $page | Set-Content -Encoding UTF8 -LiteralPath (Join-Path $directory 'index.html')
     }
 
-    $destination = Join-Path $OutputRoot "$Year"
+    # The first class archived for a year keeps the original <year>/<grade>
+    # address; every other class of that year lives under <year>/<class>.
+    $relative = Get-IesaClassFolder $OutputRoot $Year $ClassName
+    $destination = Join-Path $OutputRoot $relative
     if (!(Test-Path -LiteralPath $destination)) {
         New-Item -ItemType Directory -Path $destination | Out-Null
     }
-    Copy-Item -LiteralPath (Join-Path $staging 'index.html') `
-        -Destination (Join-Path $destination 'index.html') -Force
     foreach ($grade in @('7th', '8th')) {
         $target = Join-Path $destination $grade
         if (!(Test-Path -LiteralPath $target)) { New-Item -ItemType Directory -Path $target | Out-Null }
-        foreach ($file in @('data.json', 'data.js', 'index.html')) {
+        foreach ($file in @('data.json', 'data.js')) {
             Copy-Item -LiteralPath (Join-Path (Join-Path $staging $grade) $file) `
                 -Destination (Join-Path $target $file) -Force
         }
@@ -465,15 +478,9 @@ try {
     }
     [pscustomobject]@{ year = $Year; className = $ClassName } | ConvertTo-Json |
         Set-Content -Encoding UTF8 -LiteralPath (Join-Path $destination 'season.json')
-    $manifestPath = Join-Path $OutputRoot 'seasons.json'
-    $seasons = if (Test-Path -LiteralPath $manifestPath) {
-        @(Get-Content -Raw -LiteralPath $manifestPath | ConvertFrom-Json)
-    } else { @() }
-    $seasons = @($seasons | Where-Object { $_.year -ne $Year })
-    $seasons += [pscustomobject]@{ year = $Year; className = $ClassName; archived = $true }
-    ConvertTo-Json -InputObject @($seasons | Sort-Object year -Descending) -Depth 4 |
-        Set-Content -Encoding UTF8 -LiteralPath $manifestPath
-    Write-Output "Published $Year Class $ClassName 7th/8th regional-to-state brackets."
+    Add-IesaCatalogueClass $OutputRoot $Year $ClassName
+    Write-IesaClassPages $OutputRoot $Year $ClassName
+    Write-Output "Published $Year Class $ClassName 7th/8th regional-to-state brackets to $relative."
 } finally {
     Remove-Item -LiteralPath $staging -Recurse -Force
 }

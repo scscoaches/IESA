@@ -1,0 +1,393 @@
+﻿window.tournamentData = {
+    "year":  2014,
+    "grade":  "8th",
+    "className":  "2A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Bourbonnais St. George",
+                          "teams":  [
+                                        "Bourbonnais St. George",
+                                        "Elmwood Park St. Celestine",
+                                        "Ford Heights Cottage Grove UGC",
+                                        "Elwood GS",
+                                        "Riverdale Washington",
+                                        "Grant Park"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Seneca",
+                          "teams":  [
+                                        "Seneca",
+                                        "Mazon-Verona-Kinsman",
+                                        "McNabb Putnam County",
+                                        "Oglesby Washington",
+                                        "Gardner",
+                                        "Marseilles ES",
+                                        "Dwight"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Bismarck-Henning",
+                          "teams":  [
+                                        "Champaign St. Matthew",
+                                        "Bismarck-Henning",
+                                        "Fisher",
+                                        "Milford",
+                                        "Onarga Iroquois West",
+                                        "Urbana University"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Homer Heritage",
+                          "teams":  [
+                                        "Paris Crestwood",
+                                        "Oakland Lake Crest",
+                                        "Arcola",
+                                        "Villa Grove",
+                                        "Homer Heritage"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Bloomington Holy Trinity",
+                          "teams":  [
+                                        "Bloomington Holy Trinity",
+                                        "Colfax Ridgeview",
+                                        "LeRoy",
+                                        "Heyworth",
+                                        "Mansfield Blue Ridge IJHS"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Bartonville Oak Grove West",
+                          "teams":  [
+                                        "Bartonville Oak Grove West",
+                                        "Normal Metcalf",
+                                        "Mason City Illini Central",
+                                        "Roanoke-Benson",
+                                        "Tremont"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Peoria St. Vincent de Paul",
+                          "teams":  [
+                                        "Princeville",
+                                        "Peoria St. Vincent de Paul",
+                                        "Mossville",
+                                        "Sparland Midland",
+                                        "Peoria Heights GS",
+                                        "Peoria Heights St. Thomas"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Brimfield",
+                          "teams":  [
+                                        "Brimfield",
+                                        "Elmwood",
+                                        "Peoria Pleasant Valley",
+                                        "Peoria Norwood"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Avon Abingdon Avon",
+                          "teams":  [
+                                        "Lewistown Central",
+                                        "Bushnell-Prairie City",
+                                        "Table Grove VIT",
+                                        "Avon Abingdon Avon",
+                                        "Colchester West Prairie"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Mendon Unity",
+                          "teams":  [
+                                        "Carthage",
+                                        "Mendon Unity",
+                                        "La Harpe",
+                                        "Nauvoo-Colusa",
+                                        "Hamilton",
+                                        "Stronghurst West Central"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Decatur Robertson",
+                          "teams":  [
+                                        "Assumption Central A \u0026 M",
+                                        "Decatur Robertson",
+                                        "Decatur Garfield Montessori",
+                                        "Decatur Johns Hill",
+                                        "Decatur Hope",
+                                        "Cerro Gordo"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Illiopolis Sangamon Valley",
+                          "teams":  [
+                                        "Springfield St. Agnes",
+                                        "Illiopolis Sangamon Valley",
+                                        "Springfield Christ the King",
+                                        "Springfield Blessed Sacrament",
+                                        "Pawnee",
+                                        "Warrensburg-Latham"
+                                    ],
+                          "assignedTeams":  [
+                                                "Illiopolis Sangamon Valley",
+                                                "Pawnee",
+                                                "Springfield Christ the King",
+                                                "Springfield St. Agnes (Coop)",
+                                                "Warrensburg-Latham"
+                                            ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Oblong",
+                          "teams":  [
+                                        "Effingham St. Anthony",
+                                        "Oblong",
+                                        "Albion",
+                                        "Louisville North Clay",
+                                        "Palestine",
+                                        "Neoga"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Stewardson-Strasburg",
+                          "teams":  [
+                                        "Altamont",
+                                        "Stewardson-Strasburg",
+                                        "Brownstown",
+                                        "Beecher City",
+                                        "Kinmundy South Central",
+                                        "Nokomis JHS",
+                                        "Findlay Okaw Valley"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Jerseyville St. Francis HG",
+                          "teams":  [
+                                        "Jerseyville St. Francis HG",
+                                        "Carrollton GS",
+                                        "White Hall North Greene",
+                                        "East Alton MS",
+                                        "Madison",
+                                        "Bunker Hill Wolf Ridge"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Kinderhook Western",
+                          "teams":  [
+                                        "Winchester",
+                                        "Liberty",
+                                        "Mt. Sterling Brown County",
+                                        "Camp Point Central",
+                                        "Kinderhook Western",
+                                        "Meredosia-Chambersburg"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Seneca",
+                           "date":  "Wednesday, December 10, 2014",
+                           "records":  {
+                                           "1":  "22-1",
+                                           "2":  "17-3"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Champaign St. Matthew",
+                           "date":  "Wednesday, December 10, 2014",
+                           "records":  {
+                                           "3":  "15-7",
+                                           "4":  "14-5"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Bloomington Holy Trinity",
+                           "date":  "Wednesday, December 10, 2014",
+                           "records":  {
+                                           "5":  "21-3",
+                                           "6":  "12-6"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Brimfield",
+                           "date":  "Wednesday, December 10, 2014",
+                           "records":  {
+                                           "7":  "12-8",
+                                           "8":  "23-1"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Mendon Unity",
+                           "date":  "Wednesday, December 10, 2014",
+                           "records":  {
+                                           "9":  "20-4",
+                                           "10":  "19-3"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Pawnee",
+                           "date":  "Wednesday, December 10, 2014",
+                           "records":  {
+                                           "11":  "19-2",
+                                           "12":  "15-8"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Effingham St. Anthony",
+                           "date":  "Wednesday, December 10, 2014",
+                           "records":  {
+                                           "13":  "19-3",
+                                           "14":  "21-3"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Liberty",
+                           "date":  "Wednesday, December 10, 2014",
+                           "records":  {
+                                           "15":  "17-6",
+                                           "16":  "23-0"
+                                       }
+                       }
+                   ],
+    "venue":  "Riverton HS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              3,
+                                              1
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              8,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              4,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              6,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

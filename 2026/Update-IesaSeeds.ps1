@@ -1,4 +1,4 @@
-﻿param(
+param(
     [int]$Year = 2026,
     [ValidateSet('1A', '2A', '3A', '4A')][string]$ClassName = '2A',
     [string]$SitePath = (Get-Location).Path,
@@ -32,7 +32,7 @@ function Get-Roster([string]$grade) {
             throw "Invalid $grade regional assignment data at $dataPath"
         }
         $roster = @($data.regionals | ForEach-Object {
-            if (@($_.teams).Count -lt 2) { throw "Empty $grade regional roster" }
+            if (@($_.teams).Count -lt 2 -and !$_.PSObject.Properties['canceled']) { throw "Empty $grade regional roster" }
             ,@($_.teams)
         })
         return ,$roster
@@ -73,12 +73,20 @@ function Get-StageEntry([object]$entry, [hashtable]$names) {
         if ($null -ne $entry.score) { throw "placeholder $($entry.name) has a score" }
         return [pscustomobject]@{ name = $null; score = $null }
     }
+    if ($entry.name -match '^\d+$') { throw "malformed bracket entry $($entry.name)" }
     $key = Get-Key $entry.name
     if (!$names.ContainsKey($key)) { throw "unknown published bracket school $($entry.name)" }
     return [pscustomobject]@{ name = $names[$key]; score = $entry.score }
 }
 
 function Get-Rounds([object[]]$rows, [hashtable]$names) {
+    # Some brackets omit trailing BYE rows (a 7-row page is an 8-slot bracket
+    # whose last first-round slot is a bye). Later-round entries are read from
+    # fixed rows, so a missing one still fails below.
+    $size = if ($rows.Count -in @(3, 4)) { 4 } elseif ($rows.Count -in 5..8) { 8 } else { 0 }
+    while ($size -and $rows.Count -lt $size) {
+        $rows += ,@([pscustomobject]@{ name = 'BYE'; score = $null })
+    }
     if ($rows.Count -notin @(4, 8)) { throw "unexpected $($rows.Count)-slot bracket" }
     $first = @()
     foreach ($row in $rows) {
@@ -177,6 +185,12 @@ foreach ($grade in $Grades) {
                 $hostMatch = [regex]::Match($section, '(?is)(?:Regional Host|Host):\s*([^<]+)</td>')
             }
             $regionalHost = if ($hostMatch.Success) { Get-Text $hostMatch.Groups[1].Value } else { $null }
+            if ((Get-Text $section) -match "(?i)\bRegional\s+$number\s+has\s+been\s+cancell?ed\b") {
+                $brackets["$number"] = [pscustomobject]@{
+                    seeds = @(); rounds = @(); sourceUrl = "$url&Regional=$number"; host = $null; canceled = $true
+                }
+                continue
+            }
             $rows = @()
             $gameInfo = @()
             foreach ($row in [regex]::Matches($section, '(?is)<tr\b[^>]*>(.*?)</tr>')) {
@@ -187,11 +201,19 @@ foreach ($grade in $Grades) {
                 foreach ($cell in [regex]::Matches($row.Groups[1].Value, '(?is)<td\b[^>]*class=[''"](?:Bracket-School|ListData)[''"][^>]*>(.*?)</td>\s*(?:<td\b[^>]*class=[''"]Bracket-Score[''"][^>]*>(.*?)</td>)?')) {
                     $name = Get-Text $cell.Groups[1].Value
                     $scoreText = Get-Text $cell.Groups[2].Value
+                    if ($scoreText -match '^\.\d+$') { $scoreText = $scoreText.Substring(1) }
                     if ($scoreText -and $scoreText -notmatch '^\d+$') { throw "regional ${number}: malformed score $scoreText" }
                     $score = if ($scoreText) { [int]$scoreText } else { $null }
                     $schools += [pscustomobject]@{ name = $name; score = $score }
                 }
                 if ($schools.Count) { $rows += ,$schools }
+            }
+            if (!$rows.Count -and $AllowBracketParticipants) {
+                # Archived seasons occasionally have a regional with no schools at all.
+                $brackets["$number"] = [pscustomobject]@{
+                    seeds = @(); rounds = @(); sourceUrl = "$url&Regional=$number"; host = $regionalHost; canceled = $true
+                }
+                continue
             }
             if (!$rows.Count) { throw "regional ${number}: missing bracket schools" }
             $seeds = @()
@@ -214,6 +236,8 @@ foreach ($grade in $Grades) {
                 }
                 continue
             }
+            $padding = if ($rows.Count -eq 3) { 1 } elseif ($rows.Count -in 5..7) { 8 - $rows.Count } else { 0 }
+            for ($p = 0; $p -lt $padding; $p++) { $rows += ,@([pscustomobject]@{ name = 'BYE'; score = $null }) }
             if ($rows.Count -notin @(4, 8)) {
                 throw "regional ${number}: unexpected $($rows.Count)-slot bracket"
             }

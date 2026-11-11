@@ -1,0 +1,347 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 10:47",
+    "year":  2006,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Granite City Grigsby",
+                                 "loser":  "Edwardsville Liberty",
+                                 "score":  "32-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Bolingbrook Humphrey",
+                                "loser":  "Bolingbrook Jane Addams",
+                                "score":  "61-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Mokena",
+                                "loser":  "Homer Glen Homer",
+                                "score":  "15-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Mattoon",
+                                 "loser":  "Urbana MS",
+                                 "score":  "50-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "East Peoria Central",
+                                 "loser":  "Dunlap MS",
+                                 "score":  "35-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Harvey Brooks",
+                                "loser":  "Dolton Lincoln",
+                                "score":  "42-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "Forrest Prairie Central",
+                                "loser":  "Pontiac JHS",
+                                "score":  "32-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Danville South View",
+                                 "loser":  "Champaign Franklin",
+                                 "score":  "33-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Country Club Hills Southwood",
+                                "loser":  "Markham Prairie-Hills",
+                                "score":  "27-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Parkside",
+                                "loser":  "Normal Chiddix",
+                                "score":  "38-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Springfield Franklin",
+                                 "loser":  "Jacksonville Turner",
+                                 "score":  "51-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "Minooka",
+                                "loser":  "Channahon",
+                                "score":  "31-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Edwardsville Lincoln",
+                                 "loser":  "Hillsboro",
+                                 "score":  "30-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "Bradley Central",
+                                "loser":  "Peotone",
+                                "score":  "22-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Shorewood Troy",
+                                "loser":  "New Lenox Liberty",
+                                "score":  "32-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Clinton",
+                                 "score":  "32-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "12":  {
+                                               "team":  "Mattoon",
+                                               "record":  "19-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Bolingbrook Humphrey",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Danville South View",
+                                               "record":  "15-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                                           },
+                                    "16":  {
+                                               "team":  "Granite City Grigsby",
+                                               "record":  "16-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Harvey Brooks",
+                                              "record":  "12-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                                          },
+                                    "1":  {
+                                              "team":  "Country Club Hills Southwood",
+                                              "record":  "15-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Springfield Franklin",
+                                               "record":  "18-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                                           },
+                                    "4":  {
+                                              "team":  "Shorewood Troy",
+                                              "record":  "20-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Rochester",
+                                               "record":  "16-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Bradley Central",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                                          },
+                                    "10":  {
+                                               "team":  "East Peoria Central",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                                           },
+                                    "8":  {
+                                              "team":  "Forrest Prairie Central",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=8-4A"
+                                          }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Springfield Franklin",
+                                 "loser":  "Rochester",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A",
+                                 "qualifierOnly":  true
+                             },
+                       "3":  {
+                                 "winner":  "Mokena",
+                                 "loser":  "Bradley Central",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A",
+                                 "qualifierOnly":  true
+                             },
+                       "2":  {
+                                 "winner":  "Bolingbrook Humphrey",
+                                 "loser":  "Shorewood Troy",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A",
+                                 "qualifierOnly":  true
+                             },
+                       "1":  {
+                                 "winner":  "Country Club Hills Southwood",
+                                 "loser":  "Harvey Brooks",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A",
+                                 "qualifierOnly":  true
+                             },
+                       "4":  {
+                                 "winner":  "Forrest Prairie Central",
+                                 "loser":  "Minooka",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A",
+                                 "qualifierOnly":  true
+                             },
+                       "6":  {
+                                 "winner":  "Mattoon",
+                                 "loser":  "Danville South View",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A",
+                                 "qualifierOnly":  true
+                             },
+                       "5":  {
+                                 "winner":  "East Peoria Central",
+                                 "loser":  "Normal Parkside",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A",
+                                 "qualifierOnly":  true
+                             },
+                       "8":  {
+                                 "winner":  "Granite City Grigsby",
+                                 "loser":  "Edwardsville Lincoln",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A",
+                                 "qualifierOnly":  true
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           1
+                                       ],
+                                 "4":  [
+                                           5,
+                                           6
+                                       ],
+                                 "1":  [
+                                           3,
+                                           7
+                                       ],
+                                 "3":  [
+                                           2,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Country Club Hills Southwood",
+                                          "Mattoon"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           28
+                                       ],
+                            "winner":  "Mattoon",
+                            "loser":  "Country Club Hills Southwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Bolingbrook Humphrey",
+                                          "Forrest Prairie Central"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           33
+                                       ],
+                            "winner":  "Bolingbrook Humphrey",
+                            "loser":  "Forrest Prairie Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Granite City Grigsby",
+                                          "Country Club Hills Southwood"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           27
+                                       ],
+                            "winner":  "Country Club Hills Southwood",
+                            "loser":  "Granite City Grigsby",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Mokena",
+                                          "Springfield Franklin"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           19
+                                       ],
+                            "winner":  "Mokena",
+                            "loser":  "Springfield Franklin",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "East Peoria Central",
+                                          "Mattoon"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           52
+                                       ],
+                            "winner":  "Mattoon",
+                            "loser":  "East Peoria Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Bolingbrook Humphrey",
+                                          "Mattoon"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           24
+                                       ],
+                            "winner":  "Bolingbrook Humphrey",
+                            "loser":  "Mattoon",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Mokena",
+                                          "Country Club Hills Southwood"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           8
+                                       ],
+                            "winner":  "Mokena",
+                            "loser":  "Country Club Hills Southwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Mokena",
+                                          "Bolingbrook Humphrey"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           27
+                                       ],
+                            "winner":  "Bolingbrook Humphrey",
+                            "loser":  "Mokena",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=8-4A"
+                        }
+              }
+};

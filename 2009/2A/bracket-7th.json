@@ -1,0 +1,319 @@
+﻿{
+    "updatedAt":  "2026-11-11 10:52",
+    "year":  2009,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Roodhouse North Greene",
+                                 "loser":  "Winchester",
+                                 "score":  "28-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "Oglesby Washington",
+                                "loser":  "Seneca",
+                                "score":  "26-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Peoria Heights St. Thomas",
+                                "loser":  "Peoria Norwood",
+                                "score":  "25-09",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Mason City Illini Central",
+                                 "score":  "20-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Tuscola East Prairie",
+                                 "loser":  "Arthur",
+                                 "score":  "21-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Onarga Iroquois West",
+                                "loser":  "Herscher JHS",
+                                "score":  "33-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Kinderhook Western",
+                                "loser":  "Mt. Sterling Brown County",
+                                "score":  "32-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Normal Metcalf",
+                                 "loser":  "Bloomington Holy Trinity",
+                                 "score":  "16-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Elwood GS",
+                                "loser":  "Bourbonnais St. George",
+                                "score":  "25-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Champaign Holy Cross",
+                                "score":  "50-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Beecher City",
+                                 "loser":  "Stewardson-Strasburg",
+                                 "score":  "23-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Lewistown Central",
+                                "loser":  "Table Grove VIT",
+                                "score":  "23-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Assumption Central A \u0026 M",
+                                 "score":  "39-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Brimfield",
+                                "loser":  "Elmwood",
+                                "score":  "24-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "Roanoke-Benson",
+                                "loser":  "Flanagan",
+                                "score":  "31-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Palestine",
+                                 "loser":  "Oblong",
+                                 "score":  "42-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "3":  {
+                                              "team":  "Oglesby Washington",
+                                              "record":  "11-13",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                                          },
+                                    "2":  {
+                                              "team":  "Onarga Iroquois West",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                                          },
+                                    "1":  {
+                                              "team":  "Elwood GS",
+                                              "record":  "12-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Beecher City",
+                                               "record":  "12-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                                           },
+                                    "4":  {
+                                              "team":  "Roanoke-Benson",
+                                              "record":  "15-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                                          },
+                                    "6":  {
+                                              "team":  "Brimfield",
+                                              "record":  "11-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Peoria Heights St. Thomas",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Palestine",
+                                               "record":  "15-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Beecher City",
+                                 "loser":  "Palestine",
+                                 "score":  "25-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Brimfield",
+                                 "loser":  "Peoria Heights St. Thomas",
+                                 "score":  "21-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Roanoke-Benson",
+                                 "loser":  "Oglesby Washington",
+                                 "score":  "24-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Onarga Iroquois West",
+                                 "loser":  "Elwood GS",
+                                 "score":  "39-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Lewistown Central",
+                                 "loser":  "Kinderhook Western",
+                                 "score":  "25-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Normal Metcalf",
+                                 "loser":  "Mt. Pulaski",
+                                 "score":  "34-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "Tuscola East Prairie",
+                                 "score":  "32-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Roodhouse North Greene",
+                                 "score":  "33-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           4
+                                       ],
+                                 "4":  [
+                                           2,
+                                           3
+                                       ],
+                                 "1":  [
+                                           6,
+                                           8
+                                       ],
+                                 "3":  [
+                                           1,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Champaign St. Matthew",
+                                          "Roanoke-Benson"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           16
+                                       ],
+                            "winner":  "Champaign St. Matthew",
+                            "loser":  "Roanoke-Benson",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Onarga Iroquois West",
+                                          "Beecher City"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           28
+                                       ],
+                            "winner":  "Beecher City",
+                            "loser":  "Onarga Iroquois West",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Champaign St. Matthew",
+                                          "Lewistown Central"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           19
+                                       ],
+                            "winner":  "Champaign St. Matthew",
+                            "loser":  "Lewistown Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Normal Metcalf",
+                                          "Springfield Christ the King"
+                                      ],
+                            "scores":  [
+                                           11,
+                                           49
+                                       ],
+                            "winner":  "Springfield Christ the King",
+                            "loser":  "Normal Metcalf",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Roanoke-Benson",
+                                          "Brimfield"
+                                      ],
+                            "scores":  [
+                                           18,
+                                           14
+                                       ],
+                            "winner":  "Roanoke-Benson",
+                            "loser":  "Brimfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Beecher City",
+                                          "Roanoke-Benson"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           21
+                                       ],
+                            "winner":  "Beecher City",
+                            "loser":  "Roanoke-Benson",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Springfield Christ the King",
+                                          "Champaign St. Matthew"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           28
+                                       ],
+                            "winner":  "Springfield Christ the King",
+                            "loser":  "Champaign St. Matthew",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Springfield Christ the King",
+                                          "Beecher City"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           19
+                                       ],
+                            "winner":  "Springfield Christ the King",
+                            "loser":  "Beecher City",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-2A"
+                        }
+              }
+}

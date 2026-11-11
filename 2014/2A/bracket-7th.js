@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:00",
+    "year":  2014,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Liberty",
+                                 "loser":  "Meredosia-Chambersburg",
+                                 "score":  "39-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "Bismarck-Henning",
+                                "loser":  "Champaign St. Matthew",
+                                "score":  "45-36",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Colfax Ridgeview",
+                                "loser":  "LeRoy",
+                                "score":  "44-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Illiopolis Sangamon Valley",
+                                 "loser":  "Springfield Blessed Sacrament",
+                                 "score":  "31-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "La Harpe",
+                                 "loser":  "Mendon Unity",
+                                 "score":  "36-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Gardner",
+                                "loser":  "Seneca",
+                                "score":  "18-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Brimfield",
+                                "loser":  "Peoria St. Philomena",
+                                "score":  "32-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Assumption Central A \u0026 M",
+                                 "loser":  "Decatur Garfield Montessori",
+                                 "score":  "42-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Bourbonnais St. George",
+                                "loser":  "Grant Park",
+                                "score":  "27-4",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Lewistown Central",
+                                "loser":  "Table Grove VIT",
+                                "score":  "42-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Altamont",
+                                 "loser":  "Brownstown",
+                                 "score":  "31-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Princeville",
+                                "loser":  "Mossville",
+                                "score":  "38-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Jerseyville St. Francis HG",
+                                 "loser":  "White Hall North Greene",
+                                 "score":  "18-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Mason City Illini Central",
+                                "loser":  "Normal Metcalf",
+                                "score":  "37-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "Villa Grove",
+                                "loser":  "Arcola",
+                                "score":  "26-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Neoga",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "21-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Liberty",
+                                               "record":  "16-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Bismarck-Henning",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Colfax Ridgeview",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Illiopolis Sangamon Valley",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "La Harpe",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Gardner",
+                                              "record":  "19-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Brimfield",
+                                              "record":  "15-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Assumption Central A \u0026 M",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Bourbonnais St. George",
+                                              "record":  "13-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Lewistown Central",
+                                              "record":  "23-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Altamont",
+                                               "record":  "15-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Princeville",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Jerseyville St. Francis HG",
+                                               "record":  "14-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Mason City Illini Central",
+                                              "record":  "11-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Villa Grove",
+                                              "record":  "18-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Neoga",
+                                               "record":  "12-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Neoga",
+                                 "loser":  "Altamont",
+                                 "score":  "22-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Colfax Ridgeview",
+                                 "loser":  "Mason City Illini Central",
+                                 "score":  "42-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Villa Grove",
+                                 "loser":  "Bismarck-Henning",
+                                 "score":  "37-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Bourbonnais St. George",
+                                 "loser":  "Gardner",
+                                 "score":  "26-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Princeville",
+                                 "loser":  "Brimfield",
+                                 "score":  "24-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Assumption Central A \u0026 M",
+                                 "loser":  "Illiopolis Sangamon Valley",
+                                 "score":  "31-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Lewistown Central",
+                                 "loser":  "La Harpe",
+                                 "score":  "36-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Liberty",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "44-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           4,
+                                           7
+                                       ],
+                                 "4":  [
+                                           5,
+                                           2
+                                       ],
+                                 "1":  [
+                                           3,
+                                           8
+                                       ],
+                                 "3":  [
+                                           6,
+                                           1
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Princeville",
+                                          "Assumption Central A \u0026 M"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           33
+                                       ],
+                            "winner":  "Assumption Central A \u0026 M",
+                            "loser":  "Princeville",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Assumption Central A \u0026 M",
+                                          "Bourbonnais St. George"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           26
+                                       ],
+                            "winner":  "Assumption Central A \u0026 M",
+                            "loser":  "Bourbonnais St. George",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Princeville",
+                                          "Neoga"
+                                      ],
+                            "scores":  [
+                                           49,
+                                           14
+                                       ],
+                            "winner":  "Princeville",
+                            "loser":  "Neoga",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Colfax Ridgeview",
+                                          "Liberty"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           35
+                                       ],
+                            "winner":  "Colfax Ridgeview",
+                            "loser":  "Liberty",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Lewistown Central",
+                                          "Villa Grove"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           17
+                                       ],
+                            "winner":  "Lewistown Central",
+                            "loser":  "Villa Grove",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Assumption Central A \u0026 M",
+                                          "Lewistown Central"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           35
+                                       ],
+                            "winner":  "Lewistown Central",
+                            "loser":  "Assumption Central A \u0026 M",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Colfax Ridgeview",
+                                          "Princeville"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           27
+                                       ],
+                            "winner":  "Colfax Ridgeview",
+                            "loser":  "Princeville",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Colfax Ridgeview",
+                                          "Lewistown Central"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           33
+                                       ],
+                            "winner":  "Colfax Ridgeview",
+                            "loser":  "Lewistown Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        }
+              }
+};

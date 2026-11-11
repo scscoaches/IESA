@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-11 11:06",
+    "year":  2017,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Greenfield",
+                                 "loser":  "White Hall North Greene",
+                                 "score":  "38-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Roanoke-Benson",
+                                "loser":  "Oglesby Washington",
+                                "score":  "26-7",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Mansfield Blue Ridge IJHS",
+                                "score":  "40-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Palestine",
+                                 "score":  "49-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Mendon Unity",
+                                 "loser":  "Mt. Sterling Brown County",
+                                 "score":  "34-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Bourbonnais St. George",
+                                "loser":  "Seneca",
+                                "score":  "39-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Lewistown JHS",
+                                "loser":  "Glasford Illini Bluffs",
+                                "score":  "35-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Arcola",
+                                 "score":  "23-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Lockport Kelvin Grove",
+                                "loser":  "Ford Heights Cottage Grove UGC",
+                                "score":  "32-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Carthage",
+                                "loser":  "Bushnell-Prairie City",
+                                "score":  "45-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Altamont",
+                                 "loser":  "Brownstown",
+                                 "score":  "35-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Peoria Heights GS",
+                                "loser":  "Peoria St. Vincent de Paul",
+                                "score":  "32-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Springfield Christ the King",
+                                 "score":  "37-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "LeRoy",
+                                "loser":  "Heyworth",
+                                "score":  "23-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Princeville",
+                                "loser":  "Brimfield",
+                                "score":  "35-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Decatur Hope",
+                                 "loser":  "Decatur Robertson",
+                                 "score":  "35-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Greenfield",
+                                               "record":  "15-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Roanoke-Benson",
+                                              "record":  "12-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "18-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "20-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Mendon Unity",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Bourbonnais St. George",
+                                              "record":  "15-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Lewistown JHS",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Paris Crestwood",
+                                               "record":  "16-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lockport Kelvin Grove",
+                                              "record":  "7-13",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Carthage",
+                                              "record":  "24-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Altamont",
+                                               "record":  "17-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Peoria Heights GS",
+                                              "record":  "16-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Winchester",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "LeRoy",
+                                              "record":  "9-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Princeville",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Decatur Hope",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Decatur Hope",
+                                 "loser":  "Altamont",
+                                 "score":  "37-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "LeRoy",
+                                 "score":  "29-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Princeville",
+                                 "loser":  "Roanoke-Benson",
+                                 "score":  "52-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Bourbonnais St. George",
+                                 "loser":  "Lockport Kelvin Grove",
+                                 "score":  "50-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Lewistown JHS",
+                                 "loser":  "Peoria Heights GS",
+                                 "score":  "43-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Paris Crestwood",
+                                 "score":  "27-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Mendon Unity",
+                                 "score":  "32-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Greenfield",
+                                 "score":  "41-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           4,
+                                           6
+                                       ],
+                                 "4":  [
+                                           5,
+                                           2
+                                       ],
+                                 "1":  [
+                                           1,
+                                           8
+                                       ],
+                                 "3":  [
+                                           3,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Winchester",
+                                          "Decatur Hope"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           45
+                                       ],
+                            "winner":  "Decatur Hope",
+                            "loser":  "Winchester",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Champaign St. Matthew",
+                                          "Decatur Hope"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           54
+                                       ],
+                            "winner":  "Decatur Hope",
+                            "loser":  "Champaign St. Matthew",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Lewistown JHS",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           17
+                                       ],
+                            "winner":  "Lewistown JHS",
+                            "loser":  "Effingham St. Anthony",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Bourbonnais St. George",
+                                          "Winchester"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           34
+                                       ],
+                            "winner":  "Winchester",
+                            "loser":  "Bourbonnais St. George",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Carthage",
+                                          "Princeville"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           9
+                                       ],
+                            "winner":  "Carthage",
+                            "loser":  "Princeville",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Decatur Hope",
+                                          "Carthage"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           32
+                                       ],
+                            "winner":  "Carthage",
+                            "loser":  "Decatur Hope",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Winchester",
+                                          "Lewistown JHS"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           43
+                                       ],
+                            "winner":  "Lewistown JHS",
+                            "loser":  "Winchester",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Lewistown JHS",
+                                          "Carthage"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           47
+                                       ],
+                            "winner":  "Carthage",
+                            "loser":  "Lewistown JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-2A"
+                        }
+              }
+}

@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-11 11:04",
+    "year":  2016,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East Alton MS",
+                                 "loser":  "Staunton",
+                                 "score":  "30-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                             },
+                      "3":  {
+                                "winner":  "Watseka Glenn Raymond",
+                                "loser":  "Herscher Limestone",
+                                "score":  "22-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                            },
+                      "5":  {
+                                "winner":  "El Paso-Gridley",
+                                "loser":  "Pontiac JHS",
+                                "score":  "24-12",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                            },
+                      "12":  {
+                                 "winner":  "New Berlin JHS",
+                                 "loser":  "Pleasant Plains",
+                                 "score":  "26-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Farmington Central",
+                                 "loser":  "Washington MS",
+                                 "score":  "36-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                             },
+                      "2":  {
+                                "winner":  "Lockport Kelvin Grove",
+                                "loser":  "Crest Hill Richland",
+                                "score":  "30-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                            },
+                      "8":  {
+                                "winner":  "Downs Tri-Valley",
+                                "loser":  "Tolono Unity",
+                                "score":  "28-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Riverton",
+                                 "loser":  "Springfield Lincoln",
+                                 "score":  "25-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                             },
+                      "1":  {
+                                "winner":  "Steger Columbia",
+                                "loser":  "Beecher",
+                                "score":  "20-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                            },
+                      "9":  {
+                                "winner":  "Havana",
+                                "loser":  "Green Valley Midwest Central",
+                                "score":  "34-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Marshall JHS",
+                                 "score":  "27-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                             },
+                      "7":  {
+                                "winner":  "St. Joseph",
+                                "loser":  "Paxton-Buckley-Loda",
+                                "score":  "27-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Piasa Southwestern",
+                                 "loser":  "Auburn JHS at Divernon",
+                                 "score":  "25-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                             },
+                      "6":  {
+                                "winner":  "Germantown Hills",
+                                "loser":  "Eureka",
+                                "score":  "44-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                            },
+                      "4":  {
+                                "winner":  "Channahon",
+                                "loser":  "Morris Saratoga",
+                                "score":  "35-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Paris Mayo",
+                                 "loser":  "Tuscola East Prairie",
+                                 "score":  "28-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "East Alton MS",
+                                               "record":  "18-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Watseka Glenn Raymond",
+                                              "record":  "20-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "El Paso-Gridley",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "New Berlin JHS",
+                                               "record":  "11-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Farmington Central",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Lockport Kelvin Grove",
+                                              "record":  "11-13",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Downs Tri-Valley",
+                                              "record":  "14-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Riverton",
+                                               "record":  "8-13",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "Steger Columbia",
+                                              "record":  "7-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Havana",
+                                              "record":  "17-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "St. Joseph",
+                                              "record":  "16-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Piasa Southwestern",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Germantown Hills",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Channahon",
+                                              "record":  "12-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Paris Mayo",
+                                               "record":  "17-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Paris Mayo",
+                                 "score":  "30-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Germantown Hills",
+                                 "loser":  "El Paso-Gridley",
+                                 "score":  "34-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Watseka Glenn Raymond",
+                                 "loser":  "Channahon",
+                                 "score":  "30-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Steger Columbia",
+                                 "loser":  "Lockport Kelvin Grove",
+                                 "score":  "19-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-3A"
+                             },
+                       "4":  {
+                                 "winner":  "St. Joseph",
+                                 "loser":  "Downs Tri-Valley",
+                                 "score":  "25-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Riverton",
+                                 "loser":  "New Berlin JHS",
+                                 "score":  "30-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Farmington Central",
+                                 "loser":  "Havana",
+                                 "score":  "34-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Piasa Southwestern",
+                                 "loser":  "East Alton MS",
+                                 "score":  "40-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2016\u0026Class=7-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           1
+                                       ],
+                                 "4":  [
+                                           6,
+                                           4
+                                       ],
+                                 "1":  [
+                                           5,
+                                           2
+                                       ],
+                                 "3":  [
+                                           7,
+                                           3
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Piasa Southwestern",
+                                          "Riverton"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           12
+                                       ],
+                            "winner":  "Piasa Southwestern",
+                            "loser":  "Riverton",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Germantown Hills"
+                                      ],
+                            "scores":  [
+                                           10,
+                                           31
+                                       ],
+                            "winner":  "Germantown Hills",
+                            "loser":  "Teutopolis",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Piasa Southwestern",
+                                          "Steger Columbia"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           9
+                                       ],
+                            "winner":  "Piasa Southwestern",
+                            "loser":  "Steger Columbia",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Farmington Central",
+                                          "Watseka Glenn Raymond"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           15
+                                       ],
+                            "winner":  "Farmington Central",
+                            "loser":  "Watseka Glenn Raymond",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Riverton",
+                                          "St. Joseph"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           17
+                                       ],
+                            "winner":  "Riverton",
+                            "loser":  "St. Joseph",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Germantown Hills",
+                                          "Riverton"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           19
+                                       ],
+                            "winner":  "Germantown Hills",
+                            "loser":  "Riverton",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Farmington Central",
+                                          "Piasa Southwestern"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           21
+                                       ],
+                            "winner":  "Farmington Central",
+                            "loser":  "Piasa Southwestern",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Farmington Central",
+                                          "Germantown Hills"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           44
+                                       ],
+                            "winner":  "Germantown Hills",
+                            "loser":  "Farmington Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2016\u0026Class=7-3A"
+                        }
+              }
+}

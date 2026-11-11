@@ -1,0 +1,394 @@
+﻿{
+    "year":  2008,
+    "grade":  "7th",
+    "className":  "3A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Riverdale Washington",
+                          "teams":  [
+                                        "Calumet City Schrum",
+                                        "Lansing Heritage",
+                                        "South Holland McKinley",
+                                        "Riverdale Washington"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Morris Saratoga",
+                          "teams":  [
+                                        "Lockport Kelvin Grove",
+                                        "Morris Saratoga",
+                                        "Manhattan",
+                                        "Wilmington Stevens",
+                                        "Crest Hill Richland",
+                                        "Morris Shabbona"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Beecher",
+                          "teams":  [
+                                        "Watseka Glenn Raymond",
+                                        "Momence JHS",
+                                        "Herscher Limestone",
+                                        "Clifton Nash",
+                                        "Beecher",
+                                        "Dwight"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Gibson City GCMS",
+                          "teams":  [
+                                        "Gibson City GCMS",
+                                        "Bismarck-Henning",
+                                        "Paxton-Buckley-Loda",
+                                        "Hoopeston Area",
+                                        "Danville Oakwood"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Wenona Fieldcrest",
+                          "teams":  [
+                                        "El Paso-Gridley",
+                                        "McNabb Putnam County",
+                                        "Wenona Fieldcrest",
+                                        "Peru Washington",
+                                        "Pontiac JHS"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Eureka",
+                          "teams":  [
+                                        "Eureka",
+                                        "Washington Central",
+                                        "Washington MS",
+                                        "Metamora GS",
+                                        "Germantown Hills",
+                                        "Mackinaw Dee-Mack",
+                                        "Washington Beverly Manor"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Chillicothe",
+                          "teams":  [
+                                        "Chillicothe",
+                                        "Green Valley Midwest Central",
+                                        "Tremont",
+                                        "Dunlap MS",
+                                        "Mossville",
+                                        "Creve Coeur Parkview",
+                                        "Dunlap Valley MS"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Glasford Illini Bluffs",
+                          "teams":  [
+                                        "Havana",
+                                        "Glasford Illini Bluffs",
+                                        "Farmington Central",
+                                        "Bushnell-Prairie City",
+                                        "Stronghurst West Central"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Monticello",
+                          "teams":  [
+                                        "Tolono Unity",
+                                        "St. Joseph",
+                                        "Georgetown Mary Miller",
+                                        "Monticello",
+                                        "Westville JHS"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Downs Tri-Valley",
+                          "teams":  [
+                                        "Blue Mound Meridian",
+                                        "Warrensburg-Latham",
+                                        "Downs Tri-Valley",
+                                        "Maroa-Forsyth",
+                                        "Lincoln JHS",
+                                        "Argenta-Oreana"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Paris Mayo",
+                          "teams":  [
+                                        "Marshall JHS",
+                                        "Paris Mayo",
+                                        "Robinson Nuttall",
+                                        "Newton Jasper County",
+                                        "Casey-Westfield",
+                                        "Lawrenceville Parkview"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Pana JHS",
+                          "teams":  [
+                                        "Teutopolis",
+                                        "Assumption Central A \u0026 M",
+                                        "Shelbyville Moulton",
+                                        "Sullivan",
+                                        "Pana JHS"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "",
+                          "teams":  [
+                                        "Hillsboro",
+                                        "Greenville",
+                                        "Vandalia",
+                                        "Staunton",
+                                        "East Alton MS"
+                                    ],
+                          "assignedTeams":  [
+
+                                            ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "",
+                          "teams":  [
+                                        "Auburn JHS at Divernon",
+                                        "Carlinville",
+                                        "Litchfield",
+                                        "Gillespie",
+                                        "Piasa Southwestern"
+                                    ],
+                          "assignedTeams":  [
+
+                                            ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "",
+                          "teams":  [
+                                        "Williamsville",
+                                        "Petersburg PORTA JHS",
+                                        "Athens",
+                                        "Pleasant Plains",
+                                        "Riverton",
+                                        "Springfield Lincoln",
+                                        "New Berlin JHS"
+                                    ],
+                          "assignedTeams":  [
+
+                                            ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "",
+                          "teams":  [
+                                        "Roodhouse North Greene",
+                                        "Pittsfield Pikeland",
+                                        "Beardstown MS",
+                                        "Rushville Schuyler Industry",
+                                        "Liberty"
+                                    ],
+                          "assignedTeams":  [
+
+                                            ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Lockport Kelvin Grove",
+                           "date":  "",
+                           "records":  {
+                                           "2":  "16-1"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Watseka Glenn Raymond",
+                           "date":  "",
+                           "records":  {
+                                           "3":  "13-5",
+                                           "4":  "16-7"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Washington Central",
+                           "date":  "",
+                           "records":  {
+                                           "5":  "17-3",
+                                           "6":  "18-3"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Farmington Central JH",
+                           "date":  "",
+                           "records":  {
+                                           "7":  "18-5",
+                                           "8":  "18-5"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Lincoln Junior High School",
+                           "date":  "",
+                           "records":  {
+                                           "9":  "19-5",
+                                           "10":  "11-7"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Teutopolis Jr. High School",
+                           "date":  "",
+                           "records":  {
+                                           "11":  "22-1",
+                                           "12":  "22-1"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "",
+                           "date":  "",
+                           "records":  {
+                                           "13":  "18-3",
+                                           "14":  "16-7"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "",
+                           "date":  "",
+                           "records":  {
+                                           "15":  "21-2",
+                                           "16":  "11-7"
+                                       }
+                       }
+                   ],
+    "venue":  "Assumption Central A \u0026 M MS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              4,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              3,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              7,
+                                              1
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              8,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

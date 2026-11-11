@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:13",
+    "year":  2022,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Staunton",
+                                 "loser":  "Vandalia",
+                                 "score":  "35-7",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                             },
+                      "3":  {
+                                "winner":  "Sauk Village Rickover",
+                                "loser":  "Calumet Park Calumet",
+                                "score":  "49-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                            },
+                      "5":  {
+                                "winner":  "Pontiac JHS",
+                                "loser":  "Forrest Prairie Central",
+                                "score":  "23-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Monticello",
+                                 "loser":  "Pana JHS",
+                                 "score":  "21-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Newton Jasper County",
+                                 "loser":  "Teutopolis",
+                                 "score":  "33-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                             },
+                      "2":  {
+                                "winner":  "Lockport Kelvin Grove",
+                                "loser":  "Channahon",
+                                "score":  "27-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                            },
+                      "8":  {
+                                "winner":  "Chillicothe",
+                                "loser":  "Monmouth United",
+                                "score":  "27-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Downs Tri-Valley",
+                                 "loser":  "Warrensburg-Latham",
+                                 "score":  "41-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                             },
+                      "1":  {
+                                "winner":  "Lisle",
+                                "loser":  "Rockford Marshall",
+                                "score":  "16-7",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                            },
+                      "9":  {
+                                "winner":  "Paris Mayo",
+                                "loser":  "Arthur",
+                                "score":  "37-5",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Pittsfield Pikeland",
+                                 "loser":  "Petersburg PORTA JHS",
+                                 "score":  "46-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                             },
+                      "7":  {
+                                "winner":  "Aledo Mercer County",
+                                "loser":  "Sherrard JHS",
+                                "score":  "37-36",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Litchfield",
+                                 "loser":  "Auburn JHS at Divernon",
+                                 "score":  "19-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                             },
+                      "6":  {
+                                "winner":  "Washington MS",
+                                "loser":  "Metamora GS",
+                                "score":  "36-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                            },
+                      "4":  {
+                                "winner":  "Beecher",
+                                "loser":  "Manteno",
+                                "score":  "20-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Springfield Lincoln",
+                                 "loser":  "Springfield Little Flower",
+                                 "score":  "39-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Staunton",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Sauk Village Rickover",
+                                              "record":  "13-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Pontiac JHS",
+                                              "record":  "13-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Monticello",
+                                               "record":  "23-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Newton Jasper County",
+                                               "record":  "21-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Lockport Kelvin Grove",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Chillicothe",
+                                              "record":  "16-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Downs Tri-Valley",
+                                               "record":  "18-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lisle",
+                                              "record":  "9-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Paris Mayo",
+                                              "record":  "22-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Pittsfield Pikeland",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Aledo Mercer County",
+                                              "record":  "24-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Litchfield",
+                                               "record":  "20-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Washington MS",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Beecher",
+                                              "record":  "17-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Springfield Lincoln",
+                                               "record":  "12-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Pittsfield Pikeland",
+                                 "loser":  "Springfield Lincoln",
+                                 "score":  "47-2",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Washington MS",
+                                 "loser":  "Pontiac JHS",
+                                 "score":  "43-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Beecher",
+                                 "loser":  "Sauk Village Rickover",
+                                 "score":  "37-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Lockport Kelvin Grove",
+                                 "loser":  "Lisle",
+                                 "score":  "25-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Aledo Mercer County",
+                                 "loser":  "Chillicothe",
+                                 "score":  "37-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Downs Tri-Valley",
+                                 "loser":  "Monticello",
+                                 "score":  "29-6",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Paris Mayo",
+                                 "loser":  "Newton Jasper County",
+                                 "score":  "30-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Staunton",
+                                 "loser":  "Litchfield",
+                                 "score":  "19-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           2,
+                                           3
+                                       ],
+                                 "4":  [
+                                           1,
+                                           6
+                                       ],
+                                 "1":  [
+                                           8,
+                                           7
+                                       ],
+                                 "3":  [
+                                           5,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Washington MS",
+                                          "Downs Tri-Valley"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           19
+                                       ],
+                            "winner":  "Washington MS",
+                            "loser":  "Downs Tri-Valley",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Paris Mayo",
+                                          "Aledo Mercer County"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           22
+                                       ],
+                            "winner":  "Paris Mayo",
+                            "loser":  "Aledo Mercer County",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Beecher",
+                                          "Washington MS"
+                                      ],
+                            "scores":  [
+                                           13,
+                                           36
+                                       ],
+                            "winner":  "Washington MS",
+                            "loser":  "Beecher",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Staunton",
+                                          "Pittsfield Pikeland"
+                                      ],
+                            "scores":  [
+                                           9,
+                                           30
+                                       ],
+                            "winner":  "Pittsfield Pikeland",
+                            "loser":  "Staunton",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Lockport Kelvin Grove",
+                                          "Downs Tri-Valley"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           24
+                                       ],
+                            "winner":  "Downs Tri-Valley",
+                            "loser":  "Lockport Kelvin Grove",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Paris Mayo",
+                                          "Downs Tri-Valley"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           15
+                                       ],
+                            "winner":  "Paris Mayo",
+                            "loser":  "Downs Tri-Valley",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Pittsfield Pikeland",
+                                          "Washington MS"
+                                      ],
+                            "scores":  [
+                                           58,
+                                           28
+                                       ],
+                            "winner":  "Pittsfield Pikeland",
+                            "loser":  "Washington MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Pittsfield Pikeland",
+                                          "Paris Mayo"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           11
+                                       ],
+                            "winner":  "Pittsfield Pikeland",
+                            "loser":  "Paris Mayo",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-3A"
+                        }
+              }
+};

@@ -180,17 +180,17 @@
 
     function initialView() {
         if (isMobile()) {
-            var highlighted = bracket.querySelector(".springfield-christian");
+            var highlighted = bracket.querySelector(".my-team");
             var card = highlighted && highlighted.closest(".match");
             if (card) {
-                var scsOnRight = card.offsetLeft > bracket.offsetWidth / 2;
+                var teamOnRight = card.offsetLeft > bracket.offsetWidth / 2;
                 var groupIds = Array.prototype.filter.call(bracket.querySelectorAll(".regional"), function (regional) {
-                    return (regional.offsetLeft > bracket.offsetWidth / 2) === scsOnRight;
+                    return (regional.offsetLeft > bracket.offsetWidth / 2) === teamOnRight;
                 }).map(function (regional) {
                     return regional.id;
                 });
                 Array.prototype.forEach.call(bracket.querySelectorAll(".match:not(.regional)"), function (sectional) {
-                    if ((sectional.offsetLeft > bracket.offsetWidth / 2) === scsOnRight && sectional.id.charAt(0) === "s") {
+                    if ((sectional.offsetLeft > bracket.offsetWidth / 2) === teamOnRight && sectional.id.charAt(0) === "s") {
                         groupIds.push(sectional.id);
                     }
                 });

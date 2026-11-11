@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:32",
+    "year":  2014,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Piasa Southwestern",
+                                 "loser":  "Carlinville",
+                                 "score":  "22-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                             },
+                      "3":  {
+                                "winner":  "Lockport Kelvin Grove",
+                                "loser":  "Crest Hill Richland",
+                                "score":  "38-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                            },
+                      "5":  {
+                                "winner":  "Eureka",
+                                "loser":  "Washington Central",
+                                "score":  "33-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Beardstown MS",
+                                 "loser":  "Havana",
+                                 "score":  "30-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Mackinaw Dee-Mack",
+                                 "loser":  "Green Valley Midwest Central",
+                                 "score":  "42-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                             },
+                      "2":  {
+                                "winner":  "Watseka Glenn Raymond",
+                                "loser":  "Beecher",
+                                "score":  "23-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                            },
+                      "8":  {
+                                "winner":  "Gibson City GCMS",
+                                "loser":  "Tuscola East Prairie",
+                                "score":  "43-40",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Auburn JHS at Divernon",
+                                 "score":  "31-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                             },
+                      "1":  {
+                                "winner":  "South Holland McKinley",
+                                "loser":  "Dolton Roosevelt",
+                                "score":  "52-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                            },
+                      "9":  {
+                                "winner":  "Williamsville",
+                                "loser":  "Maroa-Forsyth",
+                                "score":  "27-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Toledo Cumberland",
+                                 "score":  "28-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                             },
+                      "7":  {
+                                "winner":  "Danville Oakwood",
+                                "loser":  "Westville JHS",
+                                "score":  "28-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Hillsboro",
+                                 "loser":  "Pana JHS",
+                                 "score":  "39-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                             },
+                      "6":  {
+                                "winner":  "Dunlap Valley MS",
+                                "loser":  "Glasford Illini Bluffs",
+                                "score":  "28-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                            },
+                      "4":  {
+                                "winner":  "Wenona Fieldcrest",
+                                "loser":  "Flanagan",
+                                "score":  "40-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Casey-Westfield",
+                                 "loser":  "Bridgeport Red Hill",
+                                 "score":  "21-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Piasa Southwestern",
+                                               "record":  "18-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Lockport Kelvin Grove",
+                                              "record":  "14-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Eureka",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Beardstown MS",
+                                               "record":  "10-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Mackinaw Dee-Mack",
+                                               "record":  "16-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Watseka Glenn Raymond",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Gibson City GCMS",
+                                              "record":  "22-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Pleasant Plains",
+                                               "record":  "15-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "South Holland McKinley",
+                                              "record":  "13-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Williamsville",
+                                              "record":  "13-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "17-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Danville Oakwood",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Hillsboro",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Dunlap Valley MS",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Wenona Fieldcrest",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Casey-Westfield",
+                                               "record":  "10-14",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Casey-Westfield",
+                                 "score":  "27-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=8-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Eureka",
+                                 "loser":  "Dunlap Valley MS",
+                                 "score":  "34-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=8-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Wenona Fieldcrest",
+                                 "loser":  "Lockport Kelvin Grove",
+                                 "score":  "45-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=8-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Watseka Glenn Raymond",
+                                 "loser":  "South Holland McKinley",
+                                 "score":  "35-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=8-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Gibson City GCMS",
+                                 "loser":  "Danville Oakwood",
+                                 "score":  "36-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=8-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Beardstown MS",
+                                 "score":  "37-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=8-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Williamsville",
+                                 "loser":  "Mackinaw Dee-Mack",
+                                 "score":  "20-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=8-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Hillsboro",
+                                 "loser":  "Piasa Southwestern",
+                                 "score":  "37-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=8-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           4,
+                                           1
+                                       ],
+                                 "4":  [
+                                           5,
+                                           6
+                                       ],
+                                 "1":  [
+                                           3,
+                                           7
+                                       ],
+                                 "3":  [
+                                           2,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Gibson City GCMS",
+                                          "Pleasant Plains"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           31
+                                       ],
+                            "winner":  "Gibson City GCMS",
+                            "loser":  "Pleasant Plains",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=8-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Wenona Fieldcrest",
+                                          "Hillsboro"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           37
+                                       ],
+                            "winner":  "Hillsboro",
+                            "loser":  "Wenona Fieldcrest",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=8-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Gibson City GCMS",
+                                          "Watseka Glenn Raymond"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           35
+                                       ],
+                            "winner":  "Gibson City GCMS",
+                            "loser":  "Watseka Glenn Raymond",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=8-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Eureka",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           26
+                                       ],
+                            "winner":  "Eureka",
+                            "loser":  "Teutopolis",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=8-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Williamsville",
+                                          "Pleasant Plains"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           38
+                                       ],
+                            "winner":  "Pleasant Plains",
+                            "loser":  "Williamsville",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=8-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Hillsboro",
+                                          "Pleasant Plains"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           30
+                                       ],
+                            "winner":  "Hillsboro",
+                            "loser":  "Pleasant Plains",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=8-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Eureka",
+                                          "Gibson City GCMS"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           26
+                                       ],
+                            "winner":  "Eureka",
+                            "loser":  "Gibson City GCMS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=8-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Eureka",
+                                          "Hillsboro"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           46
+                                       ],
+                            "winner":  "Hillsboro",
+                            "loser":  "Eureka",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=8-3A"
+                        }
+              }
+};

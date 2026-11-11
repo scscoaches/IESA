@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-11 11:14",
+    "year":  2023,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Greenfield",
+                                 "loser":  "White Hall North Greene",
+                                 "score":  "27-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "McNabb Putnam County",
+                                "loser":  "Wenona Fieldcrest",
+                                "score":  "13-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Brimfield",
+                                "loser":  "London Mills Valley",
+                                "score":  "33-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Decatur Dennis",
+                                 "score":  "37-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Villa Grove",
+                                 "loser":  "Sidell Salt Fork",
+                                 "score":  "30-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Waterman Indian Creek",
+                                "loser":  "Dwight",
+                                "score":  "37-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Liberty",
+                                "loser":  "Bluffs",
+                                "score":  "32-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Normal Metcalf",
+                                 "loser":  "Heyworth",
+                                 "score":  "21-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Morton Grove MCC",
+                                "loser":  "Bourbonnais St. George",
+                                "score":  "33-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Bismarck-Henning",
+                                "loser":  "Watseka JHS",
+                                "score":  "46-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Kinmundy South Central",
+                                 "loser":  "Bridgeport Red Hill",
+                                 "score":  "18-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Nauvoo-Colusa",
+                                "loser":  "Carthage",
+                                "score":  "43-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Springfield Calvary",
+                                 "loser":  "Assumption Central A \u0026 M",
+                                 "score":  "35-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Lewistown JHS",
+                                "loser":  "Havana",
+                                "score":  "17-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "Peoria St. Vincent de Paul",
+                                "loser":  "Peoria St. Philomena",
+                                "score":  "29-6",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Casey-Westfield",
+                                 "score":  "28-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Greenfield",
+                                               "record":  "10-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "McNabb Putnam County",
+                                              "record":  "16-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Brimfield",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Mt. Pulaski",
+                                               "record":  "19-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Villa Grove",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Waterman Indian Creek",
+                                              "record":  "11-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Liberty",
+                                              "record":  "22-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Normal Metcalf",
+                                               "record":  "13-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Morton Grove MCC",
+                                              "record":  "10-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Bismarck-Henning",
+                                              "record":  "17-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Kinmundy South Central",
+                                               "record":  "9-12",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Nauvoo-Colusa",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Springfield Calvary",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Lewistown JHS",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Peoria St. Vincent de Paul",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Paris Crestwood",
+                                               "record":  "15-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Kinmundy South Central",
+                                 "score":  "21-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Lewistown JHS",
+                                 "loser":  "Brimfield",
+                                 "score":  "25-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "McNabb Putnam County",
+                                 "loser":  "Peoria St. Vincent de Paul",
+                                 "score":  "30-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Waterman Indian Creek",
+                                 "loser":  "Morton Grove MCC",
+                                 "score":  "27-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Nauvoo-Colusa",
+                                 "loser":  "Liberty",
+                                 "score":  "48-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Normal Metcalf",
+                                 "score":  "29-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Villa Grove",
+                                 "loser":  "Bismarck-Henning",
+                                 "score":  "28-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Springfield Calvary",
+                                 "loser":  "Greenfield",
+                                 "score":  "34-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           7
+                                       ],
+                                 "4":  [
+                                           8,
+                                           5
+                                       ],
+                                 "1":  [
+                                           3,
+                                           4
+                                       ],
+                                 "3":  [
+                                           2,
+                                           1
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Mt. Pulaski",
+                                          "McNabb Putnam County"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           14
+                                       ],
+                            "winner":  "Mt. Pulaski",
+                            "loser":  "McNabb Putnam County",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "McNabb Putnam County",
+                                          "Waterman Indian Creek"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           17
+                                       ],
+                            "winner":  "McNabb Putnam County",
+                            "loser":  "Waterman Indian Creek",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Mt. Pulaski",
+                                          "Paris Crestwood"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           15
+                                       ],
+                            "winner":  "Mt. Pulaski",
+                            "loser":  "Paris Crestwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Lewistown JHS",
+                                          "Nauvoo-Colusa"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           51
+                                       ],
+                            "winner":  "Nauvoo-Colusa",
+                            "loser":  "Lewistown JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Springfield Calvary",
+                                          "Villa Grove"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           30
+                                       ],
+                            "winner":  "Springfield Calvary",
+                            "loser":  "Villa Grove",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "McNabb Putnam County",
+                                          "Springfield Calvary"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           28
+                                       ],
+                            "winner":  "Springfield Calvary",
+                            "loser":  "McNabb Putnam County",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Nauvoo-Colusa",
+                                          "Mt. Pulaski"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           29
+                                       ],
+                            "winner":  "Nauvoo-Colusa",
+                            "loser":  "Mt. Pulaski",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Nauvoo-Colusa",
+                                          "Springfield Calvary"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           14
+                                       ],
+                            "winner":  "Nauvoo-Colusa",
+                            "loser":  "Springfield Calvary",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=7-2A"
+                        }
+              }
+}

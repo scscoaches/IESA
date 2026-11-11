@@ -7,189 +7,367 @@
     {
         "year":  2025,
         "className":  "2A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2024,
         "className":  "2A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2023,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2022,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2021,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2019,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2018,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2017,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2016,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2015,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2014,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2013,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2012,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2011,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2010,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2009,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2008,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2007,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2006,
         "className":  "1A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "1A",
+                        "2A",
+                        "3A",
+                        "4A"
+                    ]
     },
     {
         "year":  2005,
         "className":  "A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  2004,
         "className":  "A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  2003,
         "className":  "A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  2002,
         "className":  "A",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  2001,
         "className":  "A",
         "gradeMode":  "separate",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  2000,
         "className":  "A",
         "gradeMode":  "separate",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  1999,
         "className":  "A",
         "gradeMode":  "separate",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  1998,
         "className":  "A",
         "gradeMode":  "separate",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  1997,
         "className":  "A",
         "gradeMode":  "separate",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  1996,
         "className":  "A",
         "gradeMode":  "separate",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  1995,
         "className":  "A",
         "gradeMode":  "separate",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  1994,
         "className":  "A",
         "gradeMode":  "separate",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  1993,
         "className":  "A",
         "gradeMode":  "separate",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  1992,
         "className":  "A",
         "gradeMode":  "separate",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  1991,
         "className":  "A",
         "gradeMode":  "separate",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  1990,
         "className":  "A",
         "gradeMode":  "separate",
-        "archived":  true
+        "archived":  true,
+        "classes":  [
+                        "A",
+                        "AA"
+                    ]
     },
     {
         "year":  1989,

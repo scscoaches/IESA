@@ -1,0 +1,339 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 10:51",
+    "year":  2008,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East St. Louis Lincoln",
+                                 "loser":  "Cahokia Wirth",
+                                 "score":  "23-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Country Club Hills Southwood",
+                                "loser":  "Dixmoor Rosa Parks",
+                                "score":  "34-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "Frankfort Summit Hill",
+                                "loser":  "Mokena",
+                                "score":  "26-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Champaign Franklin",
+                                 "loser":  "Champaign Jefferson",
+                                 "score":  "44-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "East Peoria Central",
+                                 "loser":  "Morton JHS",
+                                 "score":  "27-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Lockport Oak Prairie",
+                                "loser":  "Joliet Gompers",
+                                "score":  "36-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Coal City",
+                                "loser":  "Ottawa Shepherd",
+                                "score":  "32-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Effingham JHS",
+                                 "loser":  "Mattoon",
+                                 "score":  "28-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Bellwood Roosevelt",
+                                "loser":  "Bolingbrook Jane Addams",
+                                "score":  "42-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Kingsley",
+                                "loser":  "Normal Chiddix",
+                                "score":  "30-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Springfield Franklin",
+                                 "loser":  "Jacksonville Turner",
+                                 "score":  "43-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "Minooka",
+                                "loser":  "Channahon",
+                                "score":  "27-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Bethalto Trimpe",
+                                 "loser":  "Edwardsville Liberty",
+                                 "score":  "16-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "University Park Crete Monee",
+                                "loser":  "Bradley Central",
+                                "score":  "20-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "Matteson Colin Powell",
+                                "loser":  "Glenwood Brookwood",
+                                "score":  "51-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Chatham Glenwood",
+                                 "score":  "25-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "7":  {
+                                              "team":  "Minooka",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Kingsley",
+                                              "record":  "14-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                                          },
+                                    "10":  {
+                                               "team":  "East Peoria Central",
+                                               "record":  "14-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                                           },
+                                    "16":  {
+                                               "team":  "East St. Louis Lincoln",
+                                               "record":  "12-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Lockport Oak Prairie",
+                                              "record":  "17-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                                          },
+                                    "1":  {
+                                              "team":  "Bellwood Roosevelt",
+                                              "record":  "9-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Springfield Franklin",
+                                               "record":  "13-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                                           },
+                                    "4":  {
+                                              "team":  "Matteson Colin Powell",
+                                              "record":  "12-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Rochester",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "University Park Crete Monee",
+                                              "record":  "16-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Frankfort Summit Hill",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Coal City",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-4A"
+                                          }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Springfield Franklin",
+                                 "score":  "24-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Frankfort Summit Hill",
+                                 "loser":  "University Park Crete Monee",
+                                 "score":  "50-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Matteson Colin Powell",
+                                 "loser":  "Country Club Hills Southwood",
+                                 "score":  "41-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Lockport Oak Prairie",
+                                 "loser":  "Bellwood Roosevelt",
+                                 "score":  "41-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Minooka",
+                                 "loser":  "Coal City",
+                                 "score":  "35-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Effingham JHS",
+                                 "loser":  "Champaign Franklin",
+                                 "score":  "31-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Normal Kingsley",
+                                 "loser":  "East Peoria Central",
+                                 "score":  "37-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Bethalto Trimpe",
+                                 "loser":  "East St. Louis Lincoln",
+                                 "score":  "41-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           2
+                                       ],
+                                 "4":  [
+                                           5,
+                                           6
+                                       ],
+                                 "1":  [
+                                           4,
+                                           7
+                                       ],
+                                 "3":  [
+                                           3,
+                                           1
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Bethalto Trimpe",
+                                          "Frankfort Summit Hill"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           21
+                                       ],
+                            "winner":  "Frankfort Summit Hill",
+                            "loser":  "Bethalto Trimpe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Frankfort Summit Hill",
+                                          "Lockport Oak Prairie"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           12
+                                       ],
+                            "winner":  "Frankfort Summit Hill",
+                            "loser":  "Lockport Oak Prairie",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Bethalto Trimpe",
+                                          "Matteson Colin Powell"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           26
+                                       ],
+                            "winner":  "Bethalto Trimpe",
+                            "loser":  "Matteson Colin Powell",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Minooka",
+                                          "Rochester"
+                                      ],
+                            "scores":  [
+                                           8,
+                                           45
+                                       ],
+                            "winner":  "Rochester",
+                            "loser":  "Minooka",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Normal Kingsley",
+                                          "Effingham JHS"
+                                      ],
+                            "scores":  [
+                                           49,
+                                           17
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "Effingham JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Frankfort Summit Hill",
+                                          "Normal Kingsley"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           36
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "Frankfort Summit Hill",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Rochester",
+                                          "Bethalto Trimpe"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           5
+                                       ],
+                            "winner":  "Rochester",
+                            "loser":  "Bethalto Trimpe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Rochester",
+                                          "Normal Kingsley"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           20
+                                       ],
+                            "winner":  "Rochester",
+                            "loser":  "Normal Kingsley",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-4A"
+                        }
+              }
+};

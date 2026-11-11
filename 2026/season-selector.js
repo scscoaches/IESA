@@ -3,86 +3,122 @@
     var select = document.getElementById("season-select");
     var data = window.tournamentData || window.earlyTournamentData;
     var year = data && (data.year || 2026);
-    if (!select || !data || !Number.isInteger(year) ||
+    var team = window.iesaMyTeam;
+    if (!select || !data || !Number.isInteger(year) || !team ||
         !["7th", "8th", "combined"].includes(data.grade)) {
         throw new Error("Tournament year selector requires valid season data.");
     }
+    var labelClass = /Class (A{1,2})$/.exec(data.label || "");
+    var pageClass = data.className || (labelClass && labelClass[1]) || null;
+    var TROPHY = " \uD83C\uDFC6";
+
+    var classSelect = document.createElement("select");
+    classSelect.id = "class-select";
+    classSelect.setAttribute("aria-label", "Tournament class");
+    classSelect.hidden = true;
+    select.insertAdjacentElement("afterend", classSelect);
 
     // Picking a year keeps you in the grade you are reading, except where that
-    // grade did not exist. The dot below must describe the page you would land
-    // on, so both use this.
+    // grade did not exist. Trophies must describe the page you would land on,
+    // so both use this.
     function gradeFor(selectedYear) {
         return selectedYear <= 1985 ? "combined" :
             data.grade === "combined" ? "7th" : data.grade;
     }
 
-    var PLACES = { 1: "state champion", 2: "state runner-up", 3: "third place", 4: "fourth place" };
+    function classesOf(season) {
+        return Array.isArray(season.classes) && season.classes.length ? season.classes :
+            season.className ? [season.className] : [];
+    }
 
-    // Nearly fifty seasons makes the few worth revisiting impossible to spot.
-    // Marking is best-effort: a missing or unreadable file leaves plain years.
-    function markPlacements() {
-        return fetch("../../placements.json", { cache: "no-store" }).then(function (response) {
-            if (!response.ok) { throw new Error("Placements returned HTTP " + response.status); }
-            return response.json();
-        }).then(function (placements) {
-            var seasons = placements && placements.seasons;
-            if (!seasons) { return; }
+    function validSeason(season) {
+        if (!Number.isInteger(season.year) || season.year < 1979 || season.year > 2100) { return false; }
+        var allowed = season.year <= 1989 ? [] : season.year <= 2005 ? ["A", "AA"] : ["1A", "2A", "3A", "4A"];
+        if (season.year <= 1989) {
+            return season.className === null &&
+                season.gradeMode === (season.year <= 1985 ? "combined" : "separate") && !season.classes;
+        }
+        return allowed.includes(season.className) &&
+            classesOf(season).every(function (className) { return allowed.includes(className); }) &&
+            classesOf(season).includes(season.className);
+    }
+
+    function markTrophies(seasons) {
+        return team.finishes().then(function (finishes) {
             Array.prototype.forEach.call(select.options, function (option) {
-                var season = seasons[option.value];
-                var place = season && season[gradeFor(Number(option.value))];
-                if (!PLACES[place]) { return; }
-                // A native option cannot carry a styled element, so the marker
-                // is part of its text. A trophy reads as a finish at a glance
-                // where a dot only reads as "something here".
-                option.textContent = option.value + " \uD83C\uDFC6";
-                option.dataset.place = String(place);
-                option.title = placements.team + " finished " + PLACES[place];
+                var optionYear = Number(option.value);
+                var placed = finishes.filter(function (finish) {
+                    return finish.year === optionYear && finish.grade === gradeFor(optionYear);
+                });
+                if (!placed.length) { return; }
+                option.textContent = option.value + TROPHY;
+                option.title = team.name + ": " + placed.map(team.describe).join(", ");
             });
         }).catch(function (error) {
             console.warn("Unable to mark tournament placements:", error);
         });
     }
 
-    fetch("../../seasons.json", { cache: "no-store" }).then(function (response) {
-        if (!response.ok) { throw new Error("Season list returned HTTP " + response.status); }
-        return response.json();
-    }).then(function (seasons) {
-        if (!Array.isArray(seasons) || !seasons.length ||
-            seasons.some(function (season) {
-                return !Number.isInteger(season.year) || season.year < 1979 || season.year > 2100 ||
-                    (season.year <= 1989 ?
-                        season.className !== null ||
-                        season.gradeMode !== (season.year <= 1985 ? "combined" : "separate") :
-                        season.year <= 2005 ? season.className !== "A" :
-                        !/^[1-4]A$/.test(season.className));
-            }) || new Set(seasons.map(function (season) { return season.year; })).size !== seasons.length ||
+    var seasonList = [];
+    function seasonOf(selectedYear) {
+        return seasonList.filter(function (season) { return season.year === selectedYear; })[0];
+    }
+
+    team.load("seasons.json").then(function (seasons) {
+        if (!Array.isArray(seasons) || !seasons.length || !seasons.every(validSeason) ||
+            new Set(seasons.map(function (season) { return season.year; })).size !== seasons.length ||
             !seasons.some(function (season) { return season.year === year; })) {
             throw new Error("Season list does not include valid years for this page.");
         }
+        seasonList = seasons;
         select.replaceChildren();
         seasons.forEach(function (season) {
-            var option = document.createElement("option");
-            option.value = String(season.year);
-            option.textContent = String(season.year);
-            select.appendChild(option);
+            select.appendChild(new Option(String(season.year), String(season.year)));
         });
         select.value = String(year);
         select.disabled = false;
-        return markPlacements();
+
+        var current = seasonOf(year);
+        pageClass = pageClass || current.className;
+        var classes = classesOf(current);
+        classes.forEach(function (className) {
+            classSelect.appendChild(new Option(className, className));
+        });
+        classSelect.value = pageClass || "";
+        classSelect.hidden = classes.length < 2;
+        document.body.classList.toggle("has-class-select", classes.length >= 2);
+        return markTrophies(seasons);
     }).catch(function (error) {
         console.error("Unable to load tournament seasons:", error);
         select.replaceChildren(new Option("Years unavailable", ""));
         select.disabled = true;
     });
 
+    function go(season, className, grade) {
+        window.location.assign(team.pageUrl(season, className, grade));
+    }
+
     select.addEventListener("change", function () {
-        if (!Array.prototype.some.call(select.options, function (option) {
-            return option.value === select.value && option.value !== "";
-        })) {
-            throw new Error("Selected tournament year is not in the season list.");
-        }
         var selectedYear = Number(select.value);
-        window.location.assign(new URL("../../" + selectedYear + "/" + gradeFor(selectedYear) +
-            "/index.html", window.location.href).href);
+        var season = seasonOf(selectedYear);
+        if (!season) { throw new Error("Selected tournament year is not in the season list."); }
+        var grade = gradeFor(selectedYear);
+        var classes = classesOf(season);
+        select.disabled = true;
+        // Prefer the class your team played in that year, then the class you are
+        // reading, then the year's first archived class.
+        team.classFor(selectedYear, grade).catch(function () { return null; }).then(function (teamClass) {
+            var className = classes.includes(teamClass) ? teamClass :
+                classes.includes(pageClass) ? pageClass : season.className;
+            go(season, className, grade);
+        });
+    });
+
+    classSelect.addEventListener("change", function () {
+        var season = seasonOf(year);
+        if (!season || !classesOf(season).includes(classSelect.value)) {
+            throw new Error("Selected class is not available for this year.");
+        }
+        go(season, classSelect.value, data.grade);
     });
 }());

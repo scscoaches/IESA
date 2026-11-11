@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:34",
+    "year":  2013,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Cahokia Wirth",
+                                 "loser":  "East St. Louis Clark",
+                                 "score":  "30-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Frankfort Summit Hill",
+                                "loser":  "Matteson Colin Powell",
+                                "score":  "41-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "Bolingbrook Jane Addams",
+                                "loser":  "Bolingbrook Brooks",
+                                "score":  "34-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Effingham JHS",
+                                 "loser":  "Charleston",
+                                 "score":  "37-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Dunlap MS",
+                                 "score":  "39-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Chicago Heights Washington",
+                                "loser":  "Steger Columbia",
+                                "score":  "20-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Minooka",
+                                "loser":  "Ottawa Shepherd",
+                                "score":  "45-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Danville South View",
+                                 "loser":  "Mahomet-Seymour",
+                                 "score":  "34-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Harvey Brooks",
+                                "loser":  "Homewood Hart",
+                                "score":  "26-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Parkside",
+                                "loser":  "Normal Kingsley",
+                                "score":  "30-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Springfield Franklin",
+                                 "loser":  "Chatham Glenwood",
+                                 "score":  "38-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "Herscher Limestone",
+                                "loser":  "Bourbonnais UGC",
+                                "score":  "17-7",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Bethalto Trimpe",
+                                 "loser":  "Roxana",
+                                 "score":  "26-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "Lockport Oak Prairie",
+                                "loser":  "Shorewood Troy",
+                                "score":  "33-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "Joliet Washington",
+                                "loser":  "New Lenox Martino",
+                                "score":  "27-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Taylorville JHS",
+                                 "loser":  "Rochester",
+                                 "score":  "40-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Cahokia Wirth",
+                                               "record":  "16-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Frankfort Summit Hill",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Bolingbrook Jane Addams",
+                                              "record":  "19-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Effingham JHS",
+                                               "record":  "17-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Canton Ingersoll",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Chicago Heights Washington",
+                                              "record":  "14-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Minooka",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Danville South View",
+                                               "record":  "15-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Harvey Brooks",
+                                              "record":  "13-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Parkside",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Springfield Franklin",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Herscher Limestone",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Bethalto Trimpe",
+                                               "record":  "13-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Lockport Oak Prairie",
+                                              "record":  "13-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Joliet Washington",
+                                              "record":  "21-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Taylorville JHS",
+                                               "record":  "18-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Taylorville JHS",
+                                 "loser":  "Springfield Franklin",
+                                 "score":  "50-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Lockport Oak Prairie",
+                                 "loser":  "Bolingbrook Jane Addams",
+                                 "score":  "35-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Frankfort Summit Hill",
+                                 "loser":  "Joliet Washington",
+                                 "score":  "48-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Chicago Heights Washington",
+                                 "loser":  "Harvey Brooks",
+                                 "score":  "25-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Minooka",
+                                 "loser":  "Herscher Limestone",
+                                 "score":  "41-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Effingham JHS",
+                                 "loser":  "Danville South View",
+                                 "score":  "36-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Normal Parkside",
+                                 "score":  "27-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Bethalto Trimpe",
+                                 "loser":  "Cahokia Wirth",
+                                 "score":  "28-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           4,
+                                           5
+                                       ],
+                                 "4":  [
+                                           3,
+                                           2
+                                       ],
+                                 "1":  [
+                                           7,
+                                           1
+                                       ],
+                                 "3":  [
+                                           6,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Taylorville JHS",
+                                          "Effingham JHS"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           30
+                                       ],
+                            "winner":  "Effingham JHS",
+                            "loser":  "Taylorville JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Effingham JHS",
+                                          "Bethalto Trimpe"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           12
+                                       ],
+                            "winner":  "Effingham JHS",
+                            "loser":  "Bethalto Trimpe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Minooka",
+                                          "Canton Ingersoll"
+                                      ],
+                            "scores":  [
+                                           11,
+                                           36
+                                       ],
+                            "winner":  "Canton Ingersoll",
+                            "loser":  "Minooka",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Taylorville JHS",
+                                          "Chicago Heights Washington"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           14
+                                       ],
+                            "winner":  "Taylorville JHS",
+                            "loser":  "Chicago Heights Washington",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Lockport Oak Prairie",
+                                          "Frankfort Summit Hill"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           40
+                                       ],
+                            "winner":  "Frankfort Summit Hill",
+                            "loser":  "Lockport Oak Prairie",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Effingham JHS",
+                                          "Frankfort Summit Hill"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           27
+                                       ],
+                            "winner":  "Frankfort Summit Hill",
+                            "loser":  "Effingham JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Taylorville JHS",
+                                          "Canton Ingersoll"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           35
+                                       ],
+                            "winner":  "Canton Ingersoll",
+                            "loser":  "Taylorville JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Canton Ingersoll",
+                                          "Frankfort Summit Hill"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           18
+                                       ],
+                            "winner":  "Canton Ingersoll",
+                            "loser":  "Frankfort Summit Hill",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        }
+              }
+};

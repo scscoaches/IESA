@@ -7,7 +7,8 @@ param(
 
 $ErrorActionPreference = "Stop"
 . (Join-Path $PSScriptRoot "IesaRequest.ps1")
-$today = (Get-Date).Date
+# Season dates are Illinois dates; the GitHub Actions runner clock is UTC.
+$today = [TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, "Central Standard Time").Date
 if ($today -gt [datetime]::new(2026, 12, 18)) {
     throw "The 2026 season is complete; the scheduled score refresh ended after December 18."
 }
@@ -296,13 +297,19 @@ if ($today -ge [datetime]::new(2026, 11, 12)) {
 if ($today -ge [datetime]::new(2026, 11, 21)) {
     & (Join-Path $PSScriptRoot "Update-IesaBracket.ps1") -SitePath $SitePath
 
-    # State results decide top-four placement, so refresh the year menu's dots
-    # from the bracket that was just rewritten. This is presentation only, and
-    # must never fail a score refresh.
+    # State results decide top-four placement, so refresh the year menu's
+    # trophies from IESA's state tournament history once the finals are being
+    # played, then the team index that maps schools to classes. This is
+    # presentation only, and must never fail a score refresh.
     try {
-        $placementsScript = Join-Path (Split-Path -Parent $PSScriptRoot) "Build-IesaPlacements.ps1"
+        $siteRoot = Split-Path -Parent $PSScriptRoot
+        $placementsScript = Join-Path $siteRoot "Build-IesaPlacements.ps1"
         if (Test-Path $placementsScript) {
-            & $placementsScript -SiteRoot (Split-Path -Parent $PSScriptRoot) | Out-Null
+            & $placementsScript -SiteRoot $siteRoot | Out-Null
+        }
+        $teamIndexScript = Join-Path $siteRoot "Build-IesaTeamIndex.ps1"
+        if (Test-Path $teamIndexScript) {
+            & $teamIndexScript -SiteRoot $siteRoot | Out-Null
         }
     } catch {
         Write-Warning "Placement refresh failed: $($_.Exception.Message)"

@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-11 11:10",
+    "year":  2019,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Cahokia Wirth",
+                                 "loser":  "East St. Louis Clark",
+                                 "score":  "33-6",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Harvey Brooks",
+                                "loser":  "Willowbrook Westview Hills",
+                                "score":  "32-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Mokena",
+                                "loser":  "Frankfort Hickory Creek",
+                                "score":  "38-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Mattoon",
+                                 "loser":  "Charleston",
+                                 "score":  "27-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Dunlap Valley MS",
+                                 "score":  "39-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Rockford Eisenhower",
+                                "loser":  "Rockford West",
+                                "score":  "30-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "Minooka",
+                                "loser":  "Joliet Dirksen",
+                                "score":  "38-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Urbana MS",
+                                 "loser":  "Champaign Jefferson",
+                                 "score":  "43-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Arlington Heights Thomas",
+                                "loser":  "Barrington Station",
+                                "score":  "45-36",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "East Peoria Central",
+                                "loser":  "Morton JHS",
+                                "score":  "35-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Chatham Glenwood",
+                                 "score":  "20-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "Shorewood Troy",
+                                "loser":  "Bolingbrook Humphrey",
+                                "score":  "42-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Alton",
+                                 "loser":  "Bethalto Trimpe",
+                                 "score":  "48-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "Kankakee JHS",
+                                "loser":  "Bourbonnais UGC",
+                                "score":  "26-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Homewood Hart",
+                                "loser":  "Calumet City Dolton 149",
+                                "score":  "34-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Taylorville JHS",
+                                 "loser":  "Rochester",
+                                 "score":  "29-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Cahokia Wirth",
+                                               "record":  "12-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Harvey Brooks",
+                                              "record":  "15-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Mokena",
+                                              "record":  "24-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Mattoon",
+                                               "record":  "15-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Canton Ingersoll",
+                                               "record":  "20-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Rockford Eisenhower",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Minooka",
+                                              "record":  "22-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Urbana MS",
+                                               "record":  "17-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Arlington Heights Thomas",
+                                              "record":  "9-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "East Peoria Central",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Quincy",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Shorewood Troy",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Alton",
+                                               "record":  "21-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Kankakee JHS",
+                                              "record":  "17-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Homewood Hart",
+                                              "record":  "25-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Taylorville JHS",
+                                               "record":  "19-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Taylorville JHS",
+                                 "score":  "33-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=8-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Mokena",
+                                 "loser":  "Kankakee JHS",
+                                 "score":  "40-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=8-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Harvey Brooks",
+                                 "loser":  "Homewood Hart",
+                                 "score":  "39-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=8-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Arlington Heights Thomas",
+                                 "loser":  "Rockford Eisenhower",
+                                 "score":  "27-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=8-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Shorewood Troy",
+                                 "loser":  "Minooka",
+                                 "score":  "44-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=8-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Urbana MS",
+                                 "loser":  "Mattoon",
+                                 "score":  "29-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=8-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "East Peoria Central",
+                                 "score":  "45-44",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=8-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Alton",
+                                 "loser":  "Cahokia Wirth",
+                                 "score":  "33-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=8-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           3
+                                       ],
+                                 "4":  [
+                                           1,
+                                           4
+                                       ],
+                                 "1":  [
+                                           8,
+                                           2
+                                       ],
+                                 "3":  [
+                                           5,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Mokena",
+                                          "Canton Ingersoll"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           26
+                                       ],
+                            "winner":  "Mokena",
+                            "loser":  "Canton Ingersoll",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Canton Ingersoll",
+                                          "Quincy"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           20
+                                       ],
+                            "winner":  "Canton Ingersoll",
+                            "loser":  "Quincy",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Urbana MS",
+                                          "Mokena"
+                                      ],
+                            "scores":  [
+                                           15,
+                                           37
+                                       ],
+                            "winner":  "Mokena",
+                            "loser":  "Urbana MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Alton",
+                                          "Harvey Brooks"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           15
+                                       ],
+                            "winner":  "Alton",
+                            "loser":  "Harvey Brooks",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Arlington Heights Thomas",
+                                          "Shorewood Troy"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           39
+                                       ],
+                            "winner":  "Shorewood Troy",
+                            "loser":  "Arlington Heights Thomas",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Canton Ingersoll",
+                                          "Shorewood Troy"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           49
+                                       ],
+                            "winner":  "Shorewood Troy",
+                            "loser":  "Canton Ingersoll",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Alton",
+                                          "Mokena"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           20
+                                       ],
+                            "winner":  "Alton",
+                            "loser":  "Mokena",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Alton",
+                                          "Shorewood Troy"
+                                      ],
+                            "scores":  [
+                                           57,
+                                           24
+                                       ],
+                            "winner":  "Alton",
+                            "loser":  "Shorewood Troy",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=8-4A"
+                        }
+              }
+}

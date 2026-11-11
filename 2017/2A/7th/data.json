@@ -1,0 +1,397 @@
+﻿{
+    "year":  2017,
+    "grade":  "7th",
+    "className":  "2A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Ford Heights Cottage Grove UGC",
+                          "teams":  [
+                                        "Ford Heights Cottage Grove UGC",
+                                        "Markham Obama",
+                                        "Lockport Kelvin Grove",
+                                        "Joliet Laraway",
+                                        "Hazel Crest Jesse White"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Gardner",
+                          "teams":  [
+                                        "Seneca",
+                                        "Bourbonnais St. George",
+                                        "Kankakee Bishop McNamara",
+                                        "Gardner",
+                                        "Elwood GS",
+                                        "Dwight"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "McNabb Putnam County",
+                          "teams":  [
+                                        "Roanoke-Benson",
+                                        "Oglesby Washington",
+                                        "McNabb Putnam County",
+                                        "Marseilles ES",
+                                        "Sparland Midland"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Brimfield",
+                          "teams":  [
+                                        "Princeville",
+                                        "Toulon Stark County",
+                                        "Kewanee Wethersfield",
+                                        "Brimfield",
+                                        "Oneida ROWVA",
+                                        "Mossville"
+                                    ],
+                          "assignedTeams":  [
+                                                "Brimfield",
+                                                "Kewanee Wethersfield",
+                                                "Oneida ROWVA",
+                                                "Princeville",
+                                                "Toulon Stark County"
+                                            ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Champaign St. Matthew",
+                          "teams":  [
+                                        "Champaign St. Matthew",
+                                        "Mansfield Blue Ridge IJHS",
+                                        "Fisher",
+                                        "Bismarck-Henning",
+                                        "Champaign Judah Christian",
+                                        "Milford"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "LeRoy",
+                          "teams":  [
+                                        "Heyworth",
+                                        "Normal Metcalf",
+                                        "Colfax Ridgeview",
+                                        "Bloomington Corpus Christi",
+                                        "Gibson City GCMS",
+                                        "LeRoy"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Peoria St. Vincent de Paul",
+                          "teams":  [
+                                        "Elmwood",
+                                        "Peoria St. Vincent de Paul",
+                                        "Peoria Christian",
+                                        "Peoria Heights GS",
+                                        "Peoria Heights St. Thomas",
+                                        "Peoria St. Philomena"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Lewistown JHS",
+                          "teams":  [
+                                        "Glasford Illini Bluffs",
+                                        "Peoria Norwood",
+                                        "Lewistown JHS",
+                                        "Creve Coeur Parkview",
+                                        "Table Grove VIT",
+                                        "Peoria Pleasant Valley",
+                                        "Mason City Illini Central"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Monmouth United",
+                          "teams":  [
+                                        "Carthage",
+                                        "Hamilton",
+                                        "Bushnell-Prairie City",
+                                        "Stronghurst West Central",
+                                        "Monmouth United",
+                                        "Colchester West Prairie",
+                                        "Nauvoo-Colusa"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Mendon Unity",
+                          "teams":  [
+                                        "Mendon Unity",
+                                        "Mt. Sterling Brown County",
+                                        "Augusta Southeastern",
+                                        "Liberty",
+                                        "Meredosia-Chambersburg",
+                                        "Camp Point Central"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Sidell Salt Fork",
+                          "teams":  [
+                                        "Paris Crestwood",
+                                        "Arcola",
+                                        "Sidell Salt Fork",
+                                        "Georgetown Mary Miller",
+                                        "Villa Grove"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Effingham St. Anthony",
+                          "teams":  [
+                                        "Louisville North Clay",
+                                        "Casey-Westfield",
+                                        "Effingham St. Anthony",
+                                        "Palestine",
+                                        "Neoga",
+                                        "Oblong"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Assumption Central A \u0026 M",
+                          "teams":  [
+                                        "Decatur Hope",
+                                        "Cerro Gordo",
+                                        "Decatur Johns Hill",
+                                        "Decatur Robertson",
+                                        "Assumption Central A \u0026 M",
+                                        "Macon Meridian",
+                                        "Decatur Dennis"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Kinmundy South Central",
+                          "teams":  [
+                                        "Nokomis JHS",
+                                        "Brownstown",
+                                        "Beecher City",
+                                        "Altamont",
+                                        "Kinmundy South Central",
+                                        "Stewardson-Strasburg"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Springfield Calvary",
+                          "teams":  [
+                                        "Winchester",
+                                        "Springfield Calvary",
+                                        "Springfield Blessed Sacrament",
+                                        "Kincaid South Fork",
+                                        "Illiopolis Sangamon Valley",
+                                        "Springfield Christ the King"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Carrollton GS",
+                          "teams":  [
+                                        "Jerseyville St. Francis HG",
+                                        "Greenfield",
+                                        "Bunker Hill Wolf Ridge",
+                                        "Carrollton GS",
+                                        "Madison",
+                                        "White Hall North Greene"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Seneca",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "1":  "11-8",
+                                           "2":  "10-4"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "McNabb Putnam County",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "3":  "15-3",
+                                           "4":  "12-8"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Champaign St. Matthew",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "5":  "18-6",
+                                           "6":  "11-8"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Peoria Christian",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "7":  "20-3",
+                                           "8":  "17-8"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Liberty",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "9":  "20-4",
+                                           "10":  "19-2"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Neoga",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "11":  "20-0",
+                                           "12":  "14-8"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Assumption Central A \u0026 M",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "13":  "20-2",
+                                           "14":  "21-4"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Greenfield",
+                           "date":  "Wednesday, November 29, 2017",
+                           "records":  {
+                                           "15":  "19-0",
+                                           "16":  "16-7"
+                                       }
+                       }
+                   ],
+    "venue":  "Paris High School",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              5,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              3,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              1,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              2,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

@@ -1,0 +1,344 @@
+﻿{
+    "updatedAt":  "2026-11-11 11:29",
+    "year":  2011,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Camp Point Central",
+                                 "loser":  "Roodhouse North Greene",
+                                 "score":  "23-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                             },
+                      "3":  {
+                                "winner":  "Dwight",
+                                "loser":  "Morris Shabbona",
+                                "score":  "20-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                            },
+                      "5":  {
+                                "winner":  "Germantown Hills",
+                                "loser":  "Mossville",
+                                "score":  "22-7",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Sullivan",
+                                 "score":  "26-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Washington Central",
+                                 "loser":  "Washington MS",
+                                 "score":  "22-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                             },
+                      "2":  {
+                                "winner":  "Crest Hill Richland",
+                                "loser":  "Beecher",
+                                "score":  "41-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                            },
+                      "8":  {
+                                "winner":  "St. Joseph",
+                                "loser":  "Tuscola East Prairie",
+                                "score":  "19-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Lawrenceville Parkview",
+                                 "loser":  "Marshall JHS",
+                                 "score":  "29-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                             },
+                      "9":  {
+                                "winner":  "Lincoln JHS",
+                                "loser":  "Blue Mound Meridian",
+                                "score":  "38-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Carlinville",
+                                 "loser":  "Litchfield",
+                                 "score":  "24-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                             },
+                      "7":  {
+                                "winner":  "Clifton Nash",
+                                "loser":  "Onarga Iroquois West",
+                                "score":  "27-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Athens",
+                                 "loser":  "Auburn JHS at Divernon",
+                                 "score":  "30-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                             },
+                      "6":  {
+                                "winner":  "Havana",
+                                "loser":  "Farmington Central",
+                                "score":  "28-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                            },
+                      "4":  {
+                                "winner":  "Wenona Fieldcrest",
+                                "loser":  "El Paso-Gridley",
+                                "score":  "25-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Assumption Central A \u0026 M",
+                                 "loser":  "Pana JHS",
+                                 "score":  "38-7",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Camp Point Central",
+                                               "record":  "17-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Dwight",
+                                              "record":  "11-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Germantown Hills",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Washington Central",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                           },
+                                    "8":  {
+                                              "team":  "St. Joseph",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Lawrenceville Parkview",
+                                               "record":  "21-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                           },
+                                    "9":  {
+                                              "team":  "Lincoln JHS",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Carlinville",
+                                               "record":  "13-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Clifton Nash",
+                                              "record":  "15-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Athens",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Havana",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Wenona Fieldcrest",
+                                              "record":  "21-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Assumption Central A \u0026 M",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Assumption Central A \u0026 M",
+                                 "loser":  "Carlinville",
+                                 "score":  "32-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Havana",
+                                 "loser":  "Germantown Hills",
+                                 "score":  "27-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Wenona Fieldcrest",
+                                 "loser":  "Dwight",
+                                 "score":  "25-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Crest Hill Richland",
+                                 "loser":  null,
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-3A",
+                                 "qualifierOnly":  true
+                             },
+                       "4":  {
+                                 "winner":  "St. Joseph",
+                                 "loser":  "Clifton Nash",
+                                 "score":  "20-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Lawrenceville Parkview",
+                                 "loser":  "Teutopolis",
+                                 "score":  "38-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Washington Central",
+                                 "loser":  "Lincoln JHS",
+                                 "score":  "28-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Athens",
+                                 "loser":  "Camp Point Central",
+                                 "score":  "37-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=7-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           1
+                                       ],
+                                 "4":  [
+                                           2,
+                                           4
+                                       ],
+                                 "1":  [
+                                           6,
+                                           3
+                                       ],
+                                 "3":  [
+                                           7,
+                                           5
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Athens",
+                                          "Wenona Fieldcrest"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           24
+                                       ],
+                            "winner":  "Athens",
+                            "loser":  "Wenona Fieldcrest",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Assumption Central A \u0026 M",
+                                          "Washington Central"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           31
+                                       ],
+                            "winner":  "Washington Central",
+                            "loser":  "Assumption Central A \u0026 M",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Athens",
+                                          "Crest Hill Richland"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           24
+                                       ],
+                            "winner":  "Athens",
+                            "loser":  "Crest Hill Richland",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Lawrenceville Parkview",
+                                          "Havana"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           25
+                                       ],
+                            "winner":  "Havana",
+                            "loser":  "Lawrenceville Parkview",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Wenona Fieldcrest",
+                                          "St. Joseph"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           22
+                                       ],
+                            "winner":  "Wenona Fieldcrest",
+                            "loser":  "St. Joseph",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Washington Central",
+                                          "Wenona Fieldcrest"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           16
+                                       ],
+                            "winner":  "Washington Central",
+                            "loser":  "Wenona Fieldcrest",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Havana",
+                                          "Athens"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           28
+                                       ],
+                            "winner":  "Havana",
+                            "loser":  "Athens",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Havana",
+                                          "Washington Central"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           27
+                                       ],
+                            "winner":  "Havana",
+                            "loser":  "Washington Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=7-3A"
+                        }
+              }
+}

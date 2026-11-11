@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-11 11:16",
+    "year":  2024,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Carrollton St. John",
+                                 "loser":  "Bunker Hill Wolf Ridge",
+                                 "score":  "40-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "Marseilles Milton Pope",
+                                "loser":  "Grand Ridge",
+                                "score":  "24-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Normal Epiphany",
+                                "loser":  "Odell",
+                                "score":  "32-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "Rantoul St. Malachy",
+                                 "score":  "28-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Nauvoo-Colusa",
+                                 "loser":  "La Harpe",
+                                 "score":  "47-2",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Lockport Taft",
+                                "loser":  "Grant Park",
+                                "score":  "28-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Peoria St. Jude",
+                                "loser":  "Peoria Hollis",
+                                "score":  "32-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Martinsville",
+                                 "score":  "41-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Cissna Park",
+                                "loser":  "Milford",
+                                "score":  "43-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Cambridge JHS",
+                                "loser":  "Kewanee Visitation",
+                                "score":  "25-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Liberty",
+                                 "loser":  "Kinderhook Western",
+                                 "score":  "37-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Peoria Limestone Walters",
+                                "loser":  "Morton Blessed Sacrament",
+                                "score":  "33-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "31-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "Washington St. Patrick",
+                                "loser":  "Flanagan",
+                                "score":  "37-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "LaSalle Trinity Catholic",
+                                "loser":  "Ottawa Wallace",
+                                "score":  "28-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Mt. Pulaski",
+                                 "score":  "24-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Carrollton St. John",
+                                               "record":  "18-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Marseilles Milton Pope",
+                                              "record":  "13-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Normal Epiphany",
+                                              "record":  "15-14",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Champaign St. Matthew",
+                                               "record":  "18-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Nauvoo-Colusa",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Lockport Taft",
+                                              "record":  "16-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Peoria St. Jude",
+                                              "record":  "21-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Paris Crestwood",
+                                               "record":  "18-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Cissna Park",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Cambridge JHS",
+                                              "record":  "15-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Liberty",
+                                               "record":  "24-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Peoria Limestone Walters",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "19-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Washington St. Patrick",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "LaSalle Trinity Catholic",
+                                              "record":  "15-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Lincoln West Lincoln-Broadwell",
+                                               "record":  "27-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Liberty",
+                                 "score":  "19-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Washington St. Patrick",
+                                 "loser":  "Normal Epiphany",
+                                 "score":  "33-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "LaSalle Trinity Catholic",
+                                 "loser":  "Marseilles Milton Pope",
+                                 "score":  "11-6",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Cissna Park",
+                                 "loser":  "Lockport Taft",
+                                 "score":  "32-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Peoria Limestone Walters",
+                                 "loser":  "Peoria St. Jude",
+                                 "score":  "33-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "Paris Crestwood",
+                                 "score":  "44-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Nauvoo-Colusa",
+                                 "loser":  "Cambridge JHS",
+                                 "score":  "43-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Carrollton St. John",
+                                 "loser":  "Sigel St. Michael\u0027s",
+                                 "score":  "39-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           1
+                                       ],
+                                 "4":  [
+                                           3,
+                                           5
+                                       ],
+                                 "1":  [
+                                           4,
+                                           2
+                                       ],
+                                 "3":  [
+                                           7,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Peoria Limestone Walters",
+                                          "Nauvoo-Colusa"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           44
+                                       ],
+                            "winner":  "Nauvoo-Colusa",
+                            "loser":  "Peoria Limestone Walters",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Lincoln West Lincoln-Broadwell",
+                                          "Champaign St. Matthew"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           19
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Champaign St. Matthew",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Carrollton St. John",
+                                          "Cissna Park"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           13
+                                       ],
+                            "winner":  "Carrollton St. John",
+                            "loser":  "Cissna Park",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Peoria Limestone Walters",
+                                          "LaSalle Trinity Catholic"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           21
+                                       ],
+                            "winner":  "Peoria Limestone Walters",
+                            "loser":  "LaSalle Trinity Catholic",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Washington St. Patrick",
+                                          "Nauvoo-Colusa"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           26
+                                       ],
+                            "winner":  "Nauvoo-Colusa",
+                            "loser":  "Washington St. Patrick",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Lincoln West Lincoln-Broadwell",
+                                          "Nauvoo-Colusa"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           25
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Nauvoo-Colusa",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Peoria Limestone Walters",
+                                          "Carrollton St. John"
+                                      ],
+                            "scores":  [
+                                           11,
+                                           35
+                                       ],
+                            "winner":  "Carrollton St. John",
+                            "loser":  "Peoria Limestone Walters",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Carrollton St. John",
+                                          "Lincoln West Lincoln-Broadwell"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           35
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Carrollton St. John",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        }
+              }
+}

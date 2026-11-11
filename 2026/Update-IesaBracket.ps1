@@ -2,13 +2,13 @@ param(
     [string]$SitePath = (Get-Location).Path,
     [string]$OutputPath = $SitePath,
     [int]$Year = 2026,
-    [ValidateSet('A', '1A', '2A', '3A', '4A')][string]$ClassName = '2A',
+    [ValidateSet('A', 'AA', '1A', '2A', '3A', '4A')][string]$ClassName = '2A',
     [string[]]$Grades = @('7th', '8th')
 )
 
 $ErrorActionPreference = 'Stop'
 . (Join-Path $PSScriptRoot 'IesaRequest.ps1')
-if ($Year -lt 2002 -or $Year -gt 2100 -or (($Year -le 2005) -ne ($ClassName -eq 'A'))) {
+if ($Year -lt 2002 -or $Year -gt 2100 -or (($Year -le 2005) -ne ($ClassName -in @('A', 'AA')))) {
     throw "Invalid IESA year/class: $Year $ClassName"
 }
 if (!(Test-Path -LiteralPath $SitePath -PathType Container)) {
@@ -53,6 +53,22 @@ function Get-CanonicalName([string]$name, [object[]]$candidates, [string]$contex
     return [string]$matches[0]
 }
 
+# IESA occasionally prefixes a school with its town on one page only
+# ("Metamora Germantown Hills" / "Germantown Hills"). Used only as a fallback
+# when no exact match exists, and only a single candidate is accepted.
+function Similar-Name([string]$first, [string]$second) {
+    if (Same-Name $first $second) { return $true }
+    if (!$first -or !$second) { return $false }
+    $a = (($first -replace '(?i)\s+\(Co-?op\)$', '') -replace '\s+', ' ').Trim()
+    $b = (($second -replace '(?i)\s+\(Co-?op\)$', '') -replace '\s+', ' ').Trim()
+    # "Mansfield Blue Ridge JHS" / "Mansfield Blue Ridge IJHS"
+    $suffix = '(?i)\s+(?:IJHS|JHS|IJH|JH|MS|GS|ES|UGC)$'
+    if (($a -replace $suffix, '') -ieq ($b -replace $suffix, '')) { return $true }
+    $short, $long = if ($a.Length -le $b.Length) { $a, $b } else { $b, $a }
+    return @($short -split ' ').Count -ge 2 -and
+        $long.EndsWith(" $short", [StringComparison]::OrdinalIgnoreCase)
+}
+
 function Get-RegionalRosters([string]$grade) {
     $dataPath = Join-Path (Join-Path $SitePath $grade) 'data.json'
     if (Test-Path -LiteralPath $dataPath) {
@@ -64,7 +80,9 @@ function Get-RegionalRosters([string]$grade) {
         $rosters = @{}
         for ($i = 0; $i -lt $expected; $i++) {
             $names = @($data.regionals[$i].teams)
-            if ($names.Count -lt 2) { throw "Empty regional roster $($i + 1) at $dataPath" }
+            if ($names.Count -lt 2 -and !$data.regionals[$i].PSObject.Properties['canceled']) {
+                throw "Empty regional roster $($i + 1) at $dataPath"
+            }
             $rosters["$($i + 1)"] = $names
         }
         return $rosters
@@ -156,6 +174,19 @@ function Get-SectionBlocks([string]$html, [string]$pending, [string]$url) {
     return ,$blocks
 }
 
+# The regional final as drawn on IESA's published regional bracket, if captured.
+function Get-PublishedRegionalFinal([string]$grade, [int]$number) {
+    $path = Join-Path $SitePath "regional-seeds-$grade.json"
+    if (!(Test-Path -LiteralPath $path)) { return $null }
+    $bracket = (Get-Content -Raw -LiteralPath $path | ConvertFrom-Json).regionalBrackets."$number"
+    $rounds = @($bracket.rounds)
+    if ($rounds.Count -ne 3) { return $null }
+    $final = @($rounds[2])[0]
+    if (!$final -or !$final.winner -or @($final.teams).Count -ne 2 -or @($final.scores).Count -ne 2 -or
+        $null -eq $final.scores[0] -or $null -eq $final.scores[1]) { return $null }
+    return $final
+}
+
 function Read-Regionals([string]$html, [string]$url, [hashtable]$rosters) {
     $results = @{}
     $records = @{}
@@ -175,8 +206,27 @@ function Read-Regionals([string]$html, [string]$url, [hashtable]$rosters) {
                 (Get-Text $row.Groups['result'].Value) -match '^def\.\s+Atwood-Hammond\s*,\s*28-20$') {
                 continue
             }
-            try { $result = Get-Result $row.Groups['result'].Value $url }
-            catch { throw "Regional $number at $url`: $($_.Exception.Message) [$((Get-Text $row.Groups['result'].Value))]" }
+            $resultText = Get-Text $row.Groups['result'].Value
+            $blank = [regex]::Match($resultText, '^def\.\s+(?<loser>.+?)\s*,\s*(?<win>\d+)\s*-\s*(?<lose>\d+)$')
+            if ($blank.Success) {
+                # IESA occasionally prints a regional final without its winner. The
+                # published regional bracket names it; use that only when the
+                # bracket's final has the same loser and score.
+                $final = Get-PublishedRegionalFinal $grade $number
+                $winnerIndex = if ($final) { [array]::IndexOf(@($final.teams), $final.winner) } else { -1 }
+                if ($winnerIndex -lt 0 -or !(Same-Name $final.teams[1 - $winnerIndex] $blank.Groups['loser'].Value) -or
+                    [int]$final.scores[$winnerIndex] -ne [int]$blank.Groups['win'].Value -or
+                    [int]$final.scores[1 - $winnerIndex] -ne [int]$blank.Groups['lose'].Value) {
+                    continue
+                }
+                $result = [pscustomobject]@{
+                    winner = $final.winner; loser = $final.teams[1 - $winnerIndex]
+                    score = "$($blank.Groups['win'].Value)-$($blank.Groups['lose'].Value)"; sourceUrl = $url
+                }
+            } else {
+                try { $result = Get-Result $row.Groups['result'].Value $url }
+                catch { throw "Regional $number at $url`: $($_.Exception.Message) [$resultText]" }
+            }
             if ($null -ne $result) {
                 if ($null -ne $rosters) {
                     $result.winner = Get-CanonicalName $result.winner $rosters["$number"] "Regional $number"
@@ -237,9 +287,28 @@ function Read-Sectionals([string]$html, [string]$url, [hashtable]$regionals) {
     $blocks = Get-SectionBlocks $html 'State Qualifiers are pending.' $url
     for ($s = 0; $s -lt $blocks.Count; $s++) {
         $cells = [regex]::Matches($blocks[$s], "(?is)<td\s+class=['""](?:ListData|Champion)['""][^>]*>(.*?)</td>")
+        # "Regional 2/Sectional 1 Canceled": the state scoreboard places the survivor.
+        if ($cells.Count -eq 0 -and (Get-Text $blocks[$s]) -match '(?i)\bcancell?ed\b') { continue }
         if ($cells.Count -ne 1) { throw "Expected one result cell in sectional $($s + 1) at $url" }
         $result = Get-Result $cells[0].Groups[1].Value $url
-        if ($null -eq $result) { continue }
+        if ($null -eq $result) {
+            # A canceled regional sends the other regional's winner through
+            # unopposed: "Southwood (Regional 4 Canceled. Southwood advances.)".
+            $walkover = [regex]::Match((Get-Text $cells[0].Groups[1].Value),
+                '(?i)^(?<team>.+?)\s*\(\s*Regional\s+(?<regional>\d+)\s+Cancell?ed\b[^)]*\)\s*$')
+            if ($walkover.Success) {
+                $present = @(@($regionals["$(2 * $s + 1)"], $regionals["$(2 * $s + 2)"]) | Where-Object { $_ })
+                $team = Get-Name $walkover.Groups['team'].Value
+                $results["$($s + 1)"] = [pscustomobject]@{
+                    winner = Get-CanonicalName $team @($present | ForEach-Object { $_.winner }) "Sectional $($s + 1)"
+                    loser = $null
+                    score = $null
+                    sourceUrl = $url
+                    note = "Regional $($walkover.Groups['regional'].Value) canceled"
+                }
+            }
+            continue
+        }
         $a = $regionals["$(2 * $s + 1)"]
         $b = $regionals["$(2 * $s + 2)"]
         if ($null -eq $a -or $null -eq $b -or
@@ -257,13 +326,16 @@ function Read-Sectionals([string]$html, [string]$url, [hashtable]$regionals) {
 function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url,
     [hashtable]$sectionals, [hashtable]$regionals) {
     $legacy = $Year -le 2005
-    $heading = if ($legacy) { "Class $($gradeNumber)A  State Tournament" } else {
+    # State names matched to a differently named sectional winner by town.
+    $stateAliases = @{}
+    $heading = if ($legacy) { "Class $($gradeNumber)$ClassName  State Tournament" } else {
         "$gradeNumber" + "th Grade Class $ClassName  State Tournament"
     }
     $start = $html.IndexOf($heading, [StringComparison]::OrdinalIgnoreCase)
     if ($start -lt 0) { throw "Missing $heading at $url" }
+    # 2002-2005 scoreboards print Class A and then Class AA on one page.
     $next = [regex]::Match($html.Substring($start + $heading.Length),
-        $(if ($legacy) { "(?i)Class $($gradeNumber)AA\s+State Tournament" } else {
+        $(if ($legacy -and $ClassName -eq 'A') { "(?i)Class $($gradeNumber)AA\s+State Tournament" } else {
             "(?is)<td\s+class=['""]Score-Meet['""][^>]*>"
         }))
     $end = if ($next.Success) { $start + $heading.Length + $next.Index } else { $html.Length }
@@ -315,21 +387,43 @@ function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url,
                     $found = @(1..$(if ($legacy) { 16 } else { 8 }) | Where-Object {
                         $sectionals.ContainsKey("$_") -and (Same-Name $teams[$i] $sectionals["$_"].winner)
                     })
-                    if (!$found.Count -and $Year -eq 2006 -and $gradeNumber -eq 8) {
-                        $regional = @(1..16 | Where-Object {
+                    if (!$found.Count) {
+                        $found = @(1..$(if ($legacy) { 16 } else { 8 }) | Where-Object {
+                            $sectionals.ContainsKey("$_") -and (Similar-Name $teams[$i] $sectionals["$_"].winner)
+                        })
+                        if ($found.Count -gt 1) { $found = @() }
+                    }
+                    # Last resort: the scoreboard may name a district where the
+                    # sectional page names its school ("Calumet City Dolton 149" /
+                    # "Calumet City Dirksen"); accept only a unique same-town winner.
+                    if (!$found.Count -and @($teams[$i] -split '\s+').Count -ge 3) {
+                        $town = (@($teams[$i] -split '\s+')[0..1]) -join ' '
+                        $found = @(1..$(if ($legacy) { 16 } else { 8 }) | Where-Object {
+                            $sectionals.ContainsKey("$_") -and
+                                $sectionals["$_"].winner -like "$town *"
+                        })
+                        if ($found.Count -gt 1) { $found = @() }
+                        if ($found.Count -eq 1) { $stateAliases[$teams[$i]] = $sectionals["$($found[0])"].winner }
+                    }
+                    # A state qualifier whose sectional final IESA never published can
+                    # still be placed: it won exactly one regional, and that regional's
+                    # sectional has no result.
+                    if (!$found.Count) {
+                        $regional = @(1..$(if ($legacy) { 32 } else { 16 }) | Where-Object {
                             $regionals.ContainsKey("$_") -and
                                 (Same-Name $teams[$i] $regionals["$_"].winner)
                         })
                         if ($regional.Count -eq 1) {
                             $sectionalId = [int][math]::Ceiling($regional[0] / 2)
                             $otherId = if ($regional[0] % 2) { $regional[0] + 1 } else { $regional[0] - 1 }
-                            if ($sectionals.ContainsKey("$sectionalId") -or
-                                !$regionals.ContainsKey("$otherId")) {
+                            # The partner regional may be empty or canceled (2011-2018
+                            # 7-3A Regional 1), leaving no opponent to record.
+                            if ($sectionals.ContainsKey("$sectionalId")) {
                                 throw "Conflicting state qualification for Sectional $sectionalId at $url"
                             }
                             $sectionals["$sectionalId"] = [pscustomobject]@{
                                 winner = $regionals["$($regional[0])"].winner
-                                loser = $regionals["$otherId"].winner
+                                loser = if ($regionals.ContainsKey("$otherId")) { $regionals["$otherId"].winner } else { $null }
                                 score = $null
                                 sourceUrl = $url
                                 qualifierOnly = $true
@@ -407,14 +501,15 @@ function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url,
         if ($p -eq 2 -and $prior.Count -eq 2) {
             foreach ($i in 0..1) {
                 if ($prior[$i].loser -and $game.teams[$i] -and
-                    !(Same-Name $game.teams[$i] $prior[$i].loser)) {
+                    !(Similar-Name $game.teams[$i] $prior[$i].loser)) {
                     throw "Third-place participant disagrees with semifinal at $url"
                 }
             }
         } elseif ($prior.Count -eq 2) {
             foreach ($i in 0..1) {
                 if ($prior[$i].winner -and $game.teams[$i] -and
-                    !(Same-Name $game.teams[$i] $prior[$i].winner)) {
+                    !(Similar-Name $game.teams[$i] $prior[$i].winner) -and
+                    $stateAliases[$game.teams[$i]] -ne $prior[$i].winner) {
                     throw "State participant disagrees with prior round at $url"
                 }
             }
@@ -446,7 +541,7 @@ function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url,
 $captures = @{}
 foreach ($grade in $Grades) {
     $number = [int]$grade.Substring(0, 1)
-    $class = if ($Year -le 2005) { "${number}A" } else { "$number-$ClassName" }
+    $class = if ($Year -le 2005) { "$number$ClassName" } else { "$number-$ClassName" }
     $base = 'https://www.iesa.org/activities/gbk/'
     $regionalUrl = "${base}qualifiers_Sectional.asp?Year=$Year&Class=$class"
     $sectionalUrl = "${base}qualifiers_State.asp?Year=$Year&Class=$class"

@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-11 11:25",
+    "year":  2021,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Brownstown",
+                                 "loser":  "Altamont",
+                                 "score":  "23-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Wenona Fieldcrest",
+                                "loser":  "Seneca",
+                                "score":  "36-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Peoria St. Vincent de Paul",
+                                "loser":  "Sparland Midland",
+                                "score":  "28-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Nokomis JHS",
+                                 "loser":  "Morrisonville JHS",
+                                 "score":  "45-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Sidell Salt Fork",
+                                 "score":  "37-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Gardner",
+                                "loser":  "Onarga Iroquois West",
+                                "score":  "35-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Nauvoo-Colusa",
+                                "loser":  "Carthage",
+                                "score":  "47-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Decatur Robertson",
+                                 "score":  "54-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Lockport Kelvin Grove",
+                                "loser":  "Bourbonnais St. George",
+                                "score":  "42-8",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "LeRoy",
+                                "score":  "20-4",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Mendon Unity",
+                                 "loser":  "Bluffs",
+                                 "score":  "33-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Mason City Illini Central",
+                                "loser":  "London Mills Valley",
+                                "score":  "34-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Albion",
+                                 "score":  "31-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria St. Philomena",
+                                "loser":  "Glasford Illini Bluffs",
+                                "score":  "43-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Bloomington Corpus Christi",
+                                "loser":  "Lexington",
+                                "score":  "21-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Hardin Calhoun",
+                                 "loser":  "Petersburg PORTA JHS",
+                                 "score":  "37-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Brownstown",
+                                               "record":  "20-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Wenona Fieldcrest",
+                                              "record":  "13-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Peoria St. Vincent de Paul",
+                                              "record":  "18-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Nokomis JHS",
+                                               "record":  "18-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Paris Crestwood",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Gardner",
+                                              "record":  "12-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Nauvoo-Colusa",
+                                              "record":  "13-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Mt. Pulaski",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lockport Kelvin Grove",
+                                              "record":  "15-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "17-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Mendon Unity",
+                                               "record":  "24-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Mason City Illini Central",
+                                              "record":  "13-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "26-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Peoria St. Philomena",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Bloomington Corpus Christi",
+                                              "record":  "13-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Hardin Calhoun",
+                                               "record":  "18-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Mendon Unity",
+                                 "loser":  "Hardin Calhoun",
+                                 "score":  "33-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria St. Philomena",
+                                 "loser":  "Peoria St. Vincent de Paul",
+                                 "score":  "18-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Wenona Fieldcrest",
+                                 "loser":  "Bloomington Corpus Christi",
+                                 "score":  "21-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Lockport Kelvin Grove",
+                                 "loser":  "Gardner",
+                                 "score":  "40-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Nauvoo-Colusa",
+                                 "loser":  "Mason City Illini Central",
+                                 "score":  "41-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Nokomis JHS",
+                                 "score":  "32-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Champaign St. Matthew",
+                                 "score":  "47-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Brownstown",
+                                 "score":  "36-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           8
+                                       ],
+                                 "4":  [
+                                           1,
+                                           4
+                                       ],
+                                 "1":  [
+                                           7,
+                                           5
+                                       ],
+                                 "3":  [
+                                           3,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Mendon Unity",
+                                          "Wenona Fieldcrest"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           11
+                                       ],
+                            "winner":  "Mendon Unity",
+                            "loser":  "Wenona Fieldcrest",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Peoria St. Philomena",
+                                          "Wenona Fieldcrest"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           32
+                                       ],
+                            "winner":  "Wenona Fieldcrest",
+                            "loser":  "Peoria St. Philomena",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Mt. Pulaski",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           31
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Mt. Pulaski",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Mendon Unity",
+                                          "Paris Crestwood"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           17
+                                       ],
+                            "winner":  "Mendon Unity",
+                            "loser":  "Paris Crestwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Lockport Kelvin Grove",
+                                          "Nauvoo-Colusa"
+                                      ],
+                            "scores":  [
+                                           14,
+                                           48
+                                       ],
+                            "winner":  "Nauvoo-Colusa",
+                            "loser":  "Lockport Kelvin Grove",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Wenona Fieldcrest",
+                                          "Nauvoo-Colusa"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           32
+                                       ],
+                            "winner":  "Nauvoo-Colusa",
+                            "loser":  "Wenona Fieldcrest",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Mendon Unity",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           27
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Mendon Unity",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Nauvoo-Colusa"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           24
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Nauvoo-Colusa",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-2A"
+                        }
+              }
+}

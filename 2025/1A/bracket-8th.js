@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:18",
+    "year":  2025,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Carrollton St. John",
+                                 "loser":  "Carrollton GS",
+                                 "score":  "24-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "LaSalle St. Acutis",
+                                "loser":  "Utica Waltham",
+                                "score":  "24-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Ford Heights Cottage Grove UGC",
+                                "loser":  "Milford",
+                                "score":  "33-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Royal Prairieview Ogden",
+                                 "loser":  "Champaign Next Generation",
+                                 "score":  "24-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Peoria Limestone Walters",
+                                 "loser":  "Bartonville Monroe",
+                                 "score":  "18-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ottawa Wallace",
+                                "loser":  "Marseilles Milton Pope",
+                                "score":  "38-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Normal Epiphany",
+                                "loser":  "Morton Blessed Sacrament",
+                                "score":  "38-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Oakland Lake Crest",
+                                 "loser":  "Hume Shiloh",
+                                 "score":  "51-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Lockport Taft",
+                                "loser":  "Lockport Fairmont",
+                                "score":  "28-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Peoria Christian",
+                                "loser":  "Peoria Christ Lutheran",
+                                "score":  "42-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Hamilton ES",
+                                 "loser":  "Griggsville-Perry",
+                                 "score":  "35-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Flanagan",
+                                "loser":  "Ransom",
+                                "score":  "26-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Neoga",
+                                 "score":  "31-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "Rantoul St. Malachy",
+                                "loser":  "Rossville-Alvin",
+                                "score":  "26-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "La Harpe",
+                                "loser":  "Galva",
+                                "score":  "38-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Ashland A-C Central",
+                                 "score":  "32-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Carrollton St. John",
+                                               "record":  "14-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "LaSalle St. Acutis",
+                                              "record":  "11-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Ford Heights Cottage Grove UGC",
+                                              "record":  "15-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Royal Prairieview Ogden",
+                                               "record":  "10-14",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Peoria Limestone Walters",
+                                               "record":  "19-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ottawa Wallace",
+                                              "record":  "24-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Normal Epiphany",
+                                              "record":  "24-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Oakland Lake Crest",
+                                               "record":  "18-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lockport Taft",
+                                              "record":  "15-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Peoria Christian",
+                                              "record":  "16-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Hamilton ES",
+                                               "record":  "6-13",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Flanagan",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "16-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Rantoul St. Malachy",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "La Harpe",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Springfield Christ the King",
+                                               "record":  "19-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Hamilton ES",
+                                 "score":  "28-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Rantoul St. Malachy",
+                                 "loser":  "Ford Heights Cottage Grove UGC",
+                                 "score":  "33-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "La Harpe",
+                                 "loser":  "LaSalle St. Acutis",
+                                 "score":  "43-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Ottawa Wallace",
+                                 "loser":  "Lockport Taft",
+                                 "score":  "37-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Normal Epiphany",
+                                 "loser":  "Flanagan",
+                                 "score":  "43-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Oakland Lake Crest",
+                                 "loser":  "Royal Prairieview Ogden",
+                                 "score":  "40-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Peoria Christian",
+                                 "loser":  "Peoria Limestone Walters",
+                                 "score":  "34-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Carrollton St. John",
+                                 "loser":  "Sigel St. Michael\u0027s",
+                                 "score":  "32-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2025\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           3
+                                       ],
+                                 "4":  [
+                                           2,
+                                           1
+                                       ],
+                                 "1":  [
+                                           7,
+                                           6
+                                       ],
+                                 "3":  [
+                                           4,
+                                           5
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Rantoul St. Malachy",
+                                          "Normal Epiphany"
+                                      ],
+                            "scores":  [
+                                           18,
+                                           35
+                                       ],
+                            "winner":  "Normal Epiphany",
+                            "loser":  "Rantoul St. Malachy",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Normal Epiphany",
+                                          "Peoria Christian"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           24
+                                       ],
+                            "winner":  "Normal Epiphany",
+                            "loser":  "Peoria Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Carrollton St. John",
+                                          "Rantoul St. Malachy"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           35
+                                       ],
+                            "winner":  "Rantoul St. Malachy",
+                            "loser":  "Carrollton St. John",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Springfield Christ the King",
+                                          "Oakland Lake Crest"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           45
+                                       ],
+                            "winner":  "Oakland Lake Crest",
+                            "loser":  "Springfield Christ the King",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "La Harpe",
+                                          "Ottawa Wallace"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           27
+                                       ],
+                            "winner":  "La Harpe",
+                            "loser":  "Ottawa Wallace",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Normal Epiphany",
+                                          "La Harpe"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           29
+                                       ],
+                            "winner":  "La Harpe",
+                            "loser":  "Normal Epiphany",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Oakland Lake Crest",
+                                          "Rantoul St. Malachy"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           20
+                                       ],
+                            "winner":  "Oakland Lake Crest",
+                            "loser":  "Rantoul St. Malachy",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Oakland Lake Crest",
+                                          "La Harpe"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           35
+                                       ],
+                            "winner":  "La Harpe",
+                            "loser":  "Oakland Lake Crest",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2025\u0026Class=8-1A"
+                        }
+              }
+};

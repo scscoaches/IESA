@@ -1,0 +1,380 @@
+﻿{
+    "year":  2006,
+    "grade":  "8th",
+    "className":  "3A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Calumet City Schrum",
+                                        "Momence JHS",
+                                        "South Holland McKinley",
+                                        "Beecher",
+                                        "Lansing Heritage",
+                                        "Markham Robert Frost"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Morris Shabbona",
+                                        "Dwight",
+                                        "Manhattan",
+                                        "Wilmington Stevens",
+                                        "Lockport Kelvin Grove",
+                                        "Crest Hill Richland"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Gibson City GCMS",
+                                        "Herscher Limestone",
+                                        "Paxton-Buckley-Loda",
+                                        "Watseka Glenn Raymond",
+                                        "Clifton Nash"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "St. Joseph",
+                                        "Hoopeston Area",
+                                        "Westville JHS",
+                                        "Danville Oakwood",
+                                        "Georgetown Mary Miller"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "El Paso-Gridley",
+                                        "Peru Washington",
+                                        "Wenona Fieldcrest",
+                                        "Germantown Hills",
+                                        "Mendota Northbrook",
+                                        "Metamora St. Mary\u0027s"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Washington MS",
+                                        "Chillicothe",
+                                        "Mossville",
+                                        "Eureka",
+                                        "Washington Central"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Warrensburg-Latham",
+                                        "Monticello",
+                                        "Downs Tri-Valley",
+                                        "Tolono Unity",
+                                        "Maroa-Forsyth",
+                                        "Tuscola East Prairie"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Assumption Central A \u0026 M",
+                                        "Illiopolis Sangamon Valley",
+                                        "Blue Mound Meridian",
+                                        "Pana JHS",
+                                        "Sullivan"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Tremont",
+                                        "Green Valley Midwest Central",
+                                        "Creve Coeur Parkview",
+                                        "Mackinaw Dee-Mack",
+                                        "Stanford Olympia",
+                                        "Washington Beverly Manor"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Petersburg PORTA JHS",
+                                        "Williamsville",
+                                        "Riverton",
+                                        "Athens",
+                                        "Lincoln JHS"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Bushnell-Prairie City",
+                                        "Farmington Central",
+                                        "Macomb",
+                                        "Glasford Illini Bluffs",
+                                        "Stronghurst West Central"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Liberty",
+                                        "Camp Point Central",
+                                        "Beardstown MS",
+                                        "Rushville Schuyler Industry",
+                                        "Pittsfield Pikeland"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Paris Mayo",
+                                        "Casey-Westfield",
+                                        "Lawrenceville Parkview",
+                                        "Sumner Red Hill",
+                                        "Marshall JHS",
+                                        "Robinson Nuttall"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Teutopolis",
+                                        "Toledo Cumberland",
+                                        "Vandalia",
+                                        "Altamont",
+                                        "Newton Jasper County",
+                                        "Albion"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Franklin",
+                                        "Pleasant Plains",
+                                        "Roodhouse North Greene",
+                                        "Auburn",
+                                        "Springfield Lincoln"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Carlinville",
+                                        "Litchfield",
+                                        "Staunton",
+                                        "Piasa Southwestern",
+                                        "Greenville",
+                                        "Gillespie"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Morris Shabbona",
+                           "date":  "",
+                           "records":  {
+                                           "1":  "19-2",
+                                           "2":  "13-1"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Paxton-Buckley-Loda",
+                           "date":  "",
+                           "records":  {
+                                           "3":  "19-4"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "El Paso-Gridley",
+                           "date":  "",
+                           "records":  {
+                                           "5":  "20-4",
+                                           "6":  "18-3"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Blue Mound Meridian",
+                           "date":  "",
+                           "records":  {
+                                           "7":  "21-0",
+                                           "8":  "11-8"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Athens",
+                           "date":  "",
+                           "records":  {
+                                           "9":  "15-5",
+                                           "10":  "20-1"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Pittsfield Pikeland",
+                           "date":  "",
+                           "records":  {
+                                           "11":  "20-2"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Casey-Westfield",
+                           "date":  "",
+                           "records":  {
+                                           "13":  "23-1",
+                                           "14":  "18-2"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Pleasant Plains",
+                           "date":  "",
+                           "records":  {
+                                           "15":  "14-7",
+                                           "16":  "20-2"
+                                       }
+                       }
+                   ],
+    "venue":  "Clinton JHS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              2,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              8,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              3,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              7,
+                                              1
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

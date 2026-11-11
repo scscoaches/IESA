@@ -1,0 +1,349 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 10:56",
+    "year":  2011,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Hardin Calhoun",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "59-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Roanoke-Benson",
+                                "loser":  "McNabb Putnam County",
+                                "score":  "38-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Brimfield",
+                                "loser":  "Abingdon",
+                                "score":  "37-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Springfield St. Agnes",
+                                 "loser":  "Springfield Christ the King",
+                                 "score":  "36-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Catlin",
+                                 "loser":  "Arcola",
+                                 "score":  "30-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Odell",
+                                "loser":  "Seneca",
+                                "score":  "44-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Liberty",
+                                "loser":  "Winchester",
+                                "score":  "22-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Decatur Holy Family",
+                                 "loser":  "Decatur Lutheran",
+                                 "score":  "36-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Grant Park",
+                                "loser":  "Bourbonnais St. George",
+                                "score":  "26-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Bismarck-Henning",
+                                "score":  "34-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Stewardson-Strasburg",
+                                 "loser":  "Brownstown",
+                                 "score":  "32-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Carthage",
+                                "loser":  "Table Grove VIT",
+                                "score":  "29-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Nokomis JHS",
+                                 "loser":  "Mt. Olive",
+                                 "score":  "30-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Lewistown Central",
+                                "loser":  "Peoria St. Philomena",
+                                "score":  "40-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Bloomington Holy Trinity",
+                                "loser":  "LeRoy",
+                                "score":  "42-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Cisne",
+                                 "loser":  "Kinmundy South Central",
+                                 "score":  "21-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "3":  {
+                                              "team":  "Roanoke-Benson",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Brimfield",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Springfield St. Agnes",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Catlin",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Odell",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Liberty",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Nokomis JHS",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Grant Park",
+                                              "record":  "10-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Stewardson-Strasburg",
+                                               "record":  "16-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Carthage",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                          },
+                                    "6":  {
+                                              "team":  "Lewistown Central",
+                                              "record":  "19-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Bloomington Holy Trinity",
+                                              "record":  "20-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Cisne",
+                                               "record":  "12-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Stewardson-Strasburg",
+                                 "loser":  "Cisne",
+                                 "score":  "32-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Brimfield",
+                                 "loser":  "Lewistown Central",
+                                 "score":  "28-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Roanoke-Benson",
+                                 "loser":  "Bloomington Holy Trinity",
+                                 "score":  "23-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Odell",
+                                 "loser":  "Grant Park",
+                                 "score":  "38-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Liberty",
+                                 "score":  "31-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Springfield St. Agnes",
+                                 "loser":  "Decatur Holy Family",
+                                 "score":  "37-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "Catlin",
+                                 "score":  "30-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Hardin Calhoun",
+                                 "loser":  "Nokomis JHS",
+                                 "score":  "41-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2011\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           2
+                                       ],
+                                 "4":  [
+                                           6,
+                                           7
+                                       ],
+                                 "1":  [
+                                           1,
+                                           8
+                                       ],
+                                 "3":  [
+                                           3,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Roanoke-Benson",
+                                          "Springfield St. Agnes"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           27
+                                       ],
+                            "winner":  "Springfield St. Agnes",
+                            "loser":  "Roanoke-Benson",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Brimfield",
+                                          "Carthage"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           27
+                                       ],
+                            "winner":  "Brimfield",
+                            "loser":  "Carthage",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Champaign St. Matthew",
+                                          "Roanoke-Benson"
+                                      ],
+                            "scores":  [
+                                           9,
+                                           20
+                                       ],
+                            "winner":  "Roanoke-Benson",
+                            "loser":  "Champaign St. Matthew",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Odell",
+                                          "Hardin Calhoun"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           44
+                                       ],
+                            "winner":  "Hardin Calhoun",
+                            "loser":  "Odell",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Springfield St. Agnes",
+                                          "Stewardson-Strasburg"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           21
+                                       ],
+                            "winner":  "Springfield St. Agnes",
+                            "loser":  "Stewardson-Strasburg",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Brimfield",
+                                          "Springfield St. Agnes"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           12
+                                       ],
+                            "winner":  "Brimfield",
+                            "loser":  "Springfield St. Agnes",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Hardin Calhoun",
+                                          "Roanoke-Benson"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           20
+                                       ],
+                            "winner":  "Hardin Calhoun",
+                            "loser":  "Roanoke-Benson",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Hardin Calhoun",
+                                          "Brimfield"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           44
+                                       ],
+                            "winner":  "Brimfield",
+                            "loser":  "Hardin Calhoun",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2011\u0026Class=8-2A"
+                        }
+              }
+};

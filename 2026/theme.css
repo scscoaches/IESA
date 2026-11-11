@@ -89,8 +89,8 @@
     background: #364563;
 }
 
-.dark-theme .entry.springfield-christian,
-.dark-theme .projection-team.springfield-christian {
+.dark-theme .entry.my-team,
+.dark-theme .projection-team.my-team {
     background: #62421a;
     color: #ffe3a0;
 }
@@ -239,3 +239,7 @@
         width: 36px;
     }
 }
+.dark-theme .my-team-clear{background:transparent;border-color:#56607e;color:inherit}
+.dark-theme .my-team-option,.dark-theme .my-team-history li{border-bottom-color:#2c3550}
+.dark-theme .my-team-option:hover,.dark-theme .my-team-option:focus{background:#26304d}
+.dark-theme .my-team-empty{color:#aab2cc}

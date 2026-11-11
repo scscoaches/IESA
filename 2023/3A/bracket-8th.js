@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:15",
+    "year":  2023,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Litchfield",
+                                 "loser":  "Staunton",
+                                 "score":  "17-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             },
+                      "3":  {
+                                "winner":  "Channahon",
+                                "loser":  "Lisle",
+                                "score":  "39-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "5":  {
+                                "winner":  "Forrest Prairie Central",
+                                "loser":  "Manteno",
+                                "score":  "20-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Arthur",
+                                 "loser":  "Sullivan",
+                                 "score":  "42-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Sherrard JHS",
+                                 "loser":  "Aledo Mercer County",
+                                 "score":  "35-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             },
+                      "2":  {
+                                "winner":  "Beecher",
+                                "loser":  "Lockport Kelvin Grove",
+                                "score":  "29-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "8":  {
+                                "winner":  "Downs Tri-Valley",
+                                "loser":  "Warrensburg-Latham",
+                                "score":  "32-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Paris Mayo",
+                                 "score":  "18-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             },
+                      "1":  {
+                                "winner":  "Calumet City Schrum",
+                                "loser":  "Burr Ridge Gower",
+                                "score":  "22-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "9":  {
+                                "winner":  "Germantown Hills",
+                                "loser":  "Green Valley Midwest Central",
+                                "score":  "45-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Pittsfield Pikeland",
+                                 "loser":  "Pleasant Plains",
+                                 "score":  "41-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             },
+                      "7":  {
+                                "winner":  "Washington MS",
+                                "loser":  "Eureka",
+                                "score":  "22-6",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Auburn JHS at Divernon",
+                                 "loser":  "New Berlin JHS",
+                                 "score":  "21-7",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             },
+                      "6":  {
+                                "winner":  "Monticello",
+                                "loser":  "St. Joseph",
+                                "score":  "35-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "4":  {
+                                "winner":  "Rockford Marshall",
+                                "loser":  "Peru Parkside",
+                                "score":  "16-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Petersburg PORTA JHS",
+                                 "loser":  "Springfield Lincoln",
+                                 "score":  "38-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Litchfield",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Channahon",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Forrest Prairie Central",
+                                              "record":  "16-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Arthur",
+                                               "record":  "14-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Sherrard JHS",
+                                               "record":  "15-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Beecher",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Downs Tri-Valley",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "17-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "Calumet City Schrum",
+                                              "record":  "10-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Germantown Hills",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Pittsfield Pikeland",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Washington MS",
+                                              "record":  "18-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Auburn JHS at Divernon",
+                                               "record":  "17-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Monticello",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Rockford Marshall",
+                                              "record":  "13-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Petersburg PORTA JHS",
+                                               "record":  "18-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Pittsfield Pikeland",
+                                 "loser":  "Petersburg PORTA JHS",
+                                 "score":  "52-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Monticello",
+                                 "loser":  "Forrest Prairie Central",
+                                 "score":  "27-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Channahon",
+                                 "loser":  "Rockford Marshall",
+                                 "score":  "38-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Beecher",
+                                 "loser":  "Calumet City Schrum",
+                                 "score":  "44-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Washington MS",
+                                 "loser":  "Downs Tri-Valley",
+                                 "score":  "35-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Arthur",
+                                 "score":  "26-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Germantown Hills",
+                                 "loser":  "Sherrard JHS",
+                                 "score":  "33-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Litchfield",
+                                 "loser":  "Auburn JHS at Divernon",
+                                 "score":  "26-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           3
+                                       ],
+                                 "4":  [
+                                           6,
+                                           7
+                                       ],
+                                 "1":  [
+                                           5,
+                                           4
+                                       ],
+                                 "3":  [
+                                           2,
+                                           1
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Litchfield",
+                                          "Channahon"
+                                      ],
+                            "scores":  [
+                                           9,
+                                           18
+                                       ],
+                            "winner":  "Channahon",
+                            "loser":  "Litchfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Channahon",
+                                          "Beecher"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           18
+                                       ],
+                            "winner":  "Channahon",
+                            "loser":  "Beecher",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Litchfield",
+                                          "Monticello"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           8
+                                       ],
+                            "winner":  "Litchfield",
+                            "loser":  "Monticello",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Germantown Hills",
+                                          "Washington MS"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           28
+                                       ],
+                            "winner":  "Germantown Hills",
+                            "loser":  "Washington MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Pittsfield Pikeland"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           42
+                                       ],
+                            "winner":  "Pittsfield Pikeland",
+                            "loser":  "Teutopolis",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Channahon",
+                                          "Pittsfield Pikeland"
+                                      ],
+                            "scores":  [
+                                           13,
+                                           40
+                                       ],
+                            "winner":  "Pittsfield Pikeland",
+                            "loser":  "Channahon",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Germantown Hills",
+                                          "Litchfield"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           18
+                                       ],
+                            "winner":  "Germantown Hills",
+                            "loser":  "Litchfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Germantown Hills",
+                                          "Pittsfield Pikeland"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           39
+                                       ],
+                            "winner":  "Pittsfield Pikeland",
+                            "loser":  "Germantown Hills",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        }
+              }
+};

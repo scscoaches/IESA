@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 10:55",
+    "year":  2010,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Edwardsville Lincoln",
+                                 "loser":  "East St. Louis Lincoln",
+                                 "score":  "36-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Frankfort Summit Hill",
+                                "loser":  "Matteson Huth",
+                                "score":  "35-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "Romeoville Martinez",
+                                "loser":  "Bolingbrook Jane Addams",
+                                "score":  "36-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Champaign Jefferson",
+                                 "loser":  "Charleston",
+                                 "score":  "43-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Morton JHS",
+                                 "score":  "35-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Harvey Brooks",
+                                "loser":  "Robbins Kellar",
+                                "score":  "33-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Minooka",
+                                "loser":  "Channahon",
+                                "score":  "30-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Monticello",
+                                 "loser":  "Mahomet-Seymour",
+                                 "score":  "34-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Lansing Memorial",
+                                "loser":  "Steger Columbia",
+                                "score":  "56-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Kingsley",
+                                "loser":  "Forrest Prairie Central",
+                                "score":  "37-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Springfield Grant",
+                                 "loser":  "Quincy",
+                                 "score":  "34-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "Peotone",
+                                "loser":  "Kankakee JHS",
+                                "score":  "42-12",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Piasa Southwestern",
+                                 "loser":  "Jerseyville Illini",
+                                 "score":  "41-6",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "Joliet Dirksen",
+                                "loser":  "Lockport Oak Prairie",
+                                "score":  "30-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "Homer Glen Homer",
+                                "loser":  "Mokena",
+                                "score":  "35-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Taylorville JHS",
+                                 "score":  "34-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Edwardsville Lincoln",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Frankfort Summit Hill",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Romeoville Martinez",
+                                              "record":  "15-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Champaign Jefferson",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Canton Ingersoll",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Harvey Brooks",
+                                              "record":  "13-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Minooka",
+                                              "record":  "19-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Monticello",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lansing Memorial",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Kingsley",
+                                              "record":  "22-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Springfield Grant",
+                                               "record":  "16-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Peotone",
+                                              "record":  "18-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Piasa Southwestern",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Joliet Dirksen",
+                                              "record":  "17-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Homer Glen Homer",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Rochester",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Springfield Grant",
+                                 "score":  "32-5",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Joliet Dirksen",
+                                 "loser":  "Romeoville Martinez",
+                                 "score":  "38-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Homer Glen Homer",
+                                 "loser":  "Frankfort Summit Hill",
+                                 "score":  "34-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Lansing Memorial",
+                                 "loser":  "Harvey Brooks",
+                                 "score":  "47-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Peotone",
+                                 "loser":  "Minooka",
+                                 "score":  "17-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Monticello",
+                                 "loser":  "Champaign Jefferson",
+                                 "score":  "34-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Normal Kingsley",
+                                 "loser":  "Canton Ingersoll",
+                                 "score":  "36-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Edwardsville Lincoln",
+                                 "loser":  "Piasa Southwestern",
+                                 "score":  "26-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           1
+                                       ],
+                                 "4":  [
+                                           5,
+                                           2
+                                       ],
+                                 "1":  [
+                                           3,
+                                           4
+                                       ],
+                                 "3":  [
+                                           7,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Peotone",
+                                          "Rochester"
+                                      ],
+                            "scores":  [
+                                           8,
+                                           44
+                                       ],
+                            "winner":  "Rochester",
+                            "loser":  "Peotone",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Rochester",
+                                          "Monticello"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           10
+                                       ],
+                            "winner":  "Rochester",
+                            "loser":  "Monticello",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Edwardsville Lincoln",
+                                          "Lansing Memorial"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           19
+                                       ],
+                            "winner":  "Edwardsville Lincoln",
+                            "loser":  "Lansing Memorial",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Joliet Dirksen",
+                                          "Peotone"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           21
+                                       ],
+                            "winner":  "Peotone",
+                            "loser":  "Joliet Dirksen",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Normal Kingsley",
+                                          "Homer Glen Homer"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           17
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "Homer Glen Homer",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Rochester",
+                                          "Normal Kingsley"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           22
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "Rochester",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Peotone",
+                                          "Edwardsville Lincoln"
+                                      ],
+                            "scores":  [
+                                           14,
+                                           18
+                                       ],
+                            "winner":  "Edwardsville Lincoln",
+                            "loser":  "Peotone",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Edwardsville Lincoln",
+                                          "Normal Kingsley"
+                                      ],
+                            "scores":  [
+                                           12,
+                                           27
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "Edwardsville Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-4A"
+                        }
+              }
+};

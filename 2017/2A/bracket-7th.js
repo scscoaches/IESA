@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:06",
+    "year":  2017,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Jerseyville St. Francis HG",
+                                 "loser":  "Greenfield",
+                                 "score":  "16-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "Roanoke-Benson",
+                                "loser":  "Oglesby Washington",
+                                "score":  "30-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Fisher",
+                                "score":  "25-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Louisville North Clay",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "26-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Mendon Unity",
+                                 "loser":  "Augusta Southeastern",
+                                 "score":  "42-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Bourbonnais St. George",
+                                "loser":  "Seneca",
+                                "score":  "28-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Lewistown JHS",
+                                "loser":  "Glasford Illini Bluffs",
+                                "score":  "27-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Arcola",
+                                 "score":  "40-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Lockport Kelvin Grove",
+                                "loser":  "Ford Heights Cottage Grove UGC",
+                                "score":  "32-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Carthage",
+                                "loser":  "Bushnell-Prairie City",
+                                "score":  "39-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Beecher City",
+                                 "loser":  "Nokomis JHS",
+                                 "score":  "39-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Elmwood",
+                                "loser":  "Peoria St. Vincent de Paul",
+                                "score":  "23-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Springfield Calvary",
+                                 "score":  "21-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Bloomington Corpus Christi",
+                                "loser":  "Colfax Ridgeview",
+                                "score":  "34-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "Princeville",
+                                "loser":  "Kewanee Wethersfield",
+                                "score":  "26-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Decatur Hope",
+                                 "loser":  "Cerro Gordo",
+                                 "score":  "40-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Jerseyville St. Francis HG",
+                                               "record":  "16-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Roanoke-Benson",
+                                              "record":  "15-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "18-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Louisville North Clay",
+                                               "record":  "14-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Mendon Unity",
+                                               "record":  "19-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Bourbonnais St. George",
+                                              "record":  "10-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Lewistown JHS",
+                                              "record":  "17-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Paris Crestwood",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lockport Kelvin Grove",
+                                              "record":  "11-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Carthage",
+                                              "record":  "20-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Beecher City",
+                                               "record":  "21-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Elmwood",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Winchester",
+                                               "record":  "19-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Bloomington Corpus Christi",
+                                              "record":  "11-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Princeville",
+                                              "record":  "12-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Decatur Hope",
+                                               "record":  "20-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Beecher City",
+                                 "loser":  "Decatur Hope",
+                                 "score":  "49-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Bloomington Corpus Christi",
+                                 "loser":  "Champaign St. Matthew",
+                                 "score":  "37-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Roanoke-Benson",
+                                 "loser":  "Princeville",
+                                 "score":  "24-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Lockport Kelvin Grove",
+                                 "loser":  "Bourbonnais St. George",
+                                 "score":  "25-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Elmwood",
+                                 "loser":  "Lewistown JHS",
+                                 "score":  "35-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Louisville North Clay",
+                                 "score":  "37-6",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Mendon Unity",
+                                 "score":  "21-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "41-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           8
+                                       ],
+                                 "4":  [
+                                           2,
+                                           7
+                                       ],
+                                 "1":  [
+                                           5,
+                                           6
+                                       ],
+                                 "3":  [
+                                           1,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Winchester",
+                                          "Beecher City"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           27
+                                       ],
+                            "winner":  "Beecher City",
+                            "loser":  "Winchester",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Lockport Kelvin Grove",
+                                          "Elmwood"
+                                      ],
+                            "scores":  [
+                                           12,
+                                           39
+                                       ],
+                            "winner":  "Elmwood",
+                            "loser":  "Lockport Kelvin Grove",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Bloomington Corpus Christi",
+                                          "Winchester"
+                                      ],
+                            "scores":  [
+                                           11,
+                                           34
+                                       ],
+                            "winner":  "Winchester",
+                            "loser":  "Bloomington Corpus Christi",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Carthage",
+                                          "Paris Crestwood"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           26
+                                       ],
+                            "winner":  "Paris Crestwood",
+                            "loser":  "Carthage",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Roanoke-Benson",
+                                          "Beecher City"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           40
+                                       ],
+                            "winner":  "Beecher City",
+                            "loser":  "Roanoke-Benson",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Elmwood",
+                                          "Beecher City"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           24
+                                       ],
+                            "winner":  "Elmwood",
+                            "loser":  "Beecher City",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Paris Crestwood",
+                                          "Winchester"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           16
+                                       ],
+                            "winner":  "Paris Crestwood",
+                            "loser":  "Winchester",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Paris Crestwood",
+                                          "Elmwood"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           18
+                                       ],
+                            "winner":  "Paris Crestwood",
+                            "loser":  "Elmwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=7-2A"
+                        }
+              }
+};

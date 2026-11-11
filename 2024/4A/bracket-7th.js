@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:17",
+    "year":  2024,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Bethalto Trimpe",
+                                 "loser":  "Alton",
+                                 "score":  "33-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Homewood Hart",
+                                "loser":  "Markham Prairie-Hills",
+                                "score":  "28-12",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "Mokena",
+                                "loser":  "Matteson Colin Powell",
+                                "score":  "43-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Dunlap Valley MS",
+                                 "loser":  "Canton Ingersoll",
+                                 "score":  "32-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Bolingbrook Jane Addams",
+                                 "loser":  "Bolingbrook Brooks",
+                                 "score":  "35-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Rockford Eisenhower",
+                                "loser":  "Barrington Station",
+                                "score":  "28-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Frankfort Summit Hill",
+                                "loser":  "Frankfort Hickory Creek",
+                                "score":  "30-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Normal Kingsley",
+                                 "loser":  "Morton JHS",
+                                 "score":  "14-7",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Arlington Heights South",
+                                "loser":  "Arlington Heights Thomas",
+                                "score":  "37-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Minooka",
+                                "loser":  "Coal City",
+                                "score":  "42-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Springfield Grant",
+                                 "score":  "24-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "Champaign Edison",
+                                "loser":  "Urbana MS",
+                                "score":  "30-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "St. Jacob Triad",
+                                 "loser":  "O\u0027Fallon Carriel",
+                                 "score":  "49-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "Homer Glen Homer",
+                                "loser":  "Lockport Oak Prairie",
+                                "score":  "37-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "Downers Grove Herrick",
+                                "loser":  "Maywood Irving",
+                                "score":  "30-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Mt. Zion",
+                                 "loser":  "Taylorville JHS",
+                                 "score":  "23-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Bethalto Trimpe",
+                                               "record":  "21-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Homewood Hart",
+                                              "record":  "15-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Mokena",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Dunlap Valley MS",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Bolingbrook Jane Addams",
+                                               "record":  "14-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Rockford Eisenhower",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Frankfort Summit Hill",
+                                              "record":  "19-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Normal Kingsley",
+                                               "record":  "26-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Arlington Heights South",
+                                              "record":  "12-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Minooka",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Chatham Glenwood",
+                                               "record":  "14-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Champaign Edison",
+                                              "record":  "16-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "St. Jacob Triad",
+                                               "record":  "21-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Homer Glen Homer",
+                                              "record":  "10-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Downers Grove Herrick",
+                                              "record":  "10-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Mt. Zion",
+                                               "record":  "24-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Mt. Zion",
+                                 "loser":  "Chatham Glenwood",
+                                 "score":  "23-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Mokena",
+                                 "loser":  "Homer Glen Homer",
+                                 "score":  "36-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Homewood Hart",
+                                 "loser":  "Downers Grove Herrick",
+                                 "score":  "36-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Arlington Heights South",
+                                 "loser":  "Rockford Eisenhower",
+                                 "score":  "58-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Frankfort Summit Hill",
+                                 "loser":  "Champaign Edison",
+                                 "score":  "41-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Normal Kingsley",
+                                 "loser":  "Dunlap Valley MS",
+                                 "score":  "35-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Minooka",
+                                 "loser":  "Bolingbrook Jane Addams",
+                                 "score":  "46-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "St. Jacob Triad",
+                                 "loser":  "Bethalto Trimpe",
+                                 "score":  "32-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           6
+                                       ],
+                                 "4":  [
+                                           5,
+                                           3
+                                       ],
+                                 "1":  [
+                                           1,
+                                           2
+                                       ],
+                                 "3":  [
+                                           8,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Arlington Heights South",
+                                          "Mokena"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           28
+                                       ],
+                            "winner":  "Arlington Heights South",
+                            "loser":  "Mokena",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "St. Jacob Triad",
+                                          "Frankfort Summit Hill"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           22
+                                       ],
+                            "winner":  "St. Jacob Triad",
+                            "loser":  "Frankfort Summit Hill",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Mt. Zion",
+                                          "Normal Kingsley"
+                                      ],
+                            "scores":  [
+                                           13,
+                                           28
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "Mt. Zion",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Arlington Heights South",
+                                          "Homewood Hart"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           18
+                                       ],
+                            "winner":  "Arlington Heights South",
+                            "loser":  "Homewood Hart",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Minooka",
+                                          "Mokena"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           48
+                                       ],
+                            "winner":  "Mokena",
+                            "loser":  "Minooka",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "St. Jacob Triad",
+                                          "Mokena"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           29
+                                       ],
+                            "winner":  "St. Jacob Triad",
+                            "loser":  "Mokena",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Arlington Heights South",
+                                          "Normal Kingsley"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           45
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "Arlington Heights South",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Normal Kingsley",
+                                          "St. Jacob Triad"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           21
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "St. Jacob Triad",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-4A"
+                        }
+              }
+};

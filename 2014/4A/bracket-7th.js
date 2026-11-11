@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:01",
+    "year":  2014,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Edwardsville Liberty",
+                                 "loser":  "Cahokia Wirth",
+                                 "score":  "34-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Bolingbrook Brooks",
+                                "loser":  "Romeoville Lukancic",
+                                "score":  "34-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "Mokena",
+                                "loser":  "Frankfort Summit Hill",
+                                "score":  "28-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Taylorville JHS",
+                                 "score":  "34-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Bloomington JHS",
+                                 "loser":  "Normal Kingsley",
+                                 "score":  "26-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Flossmoor Parker",
+                                "loser":  "Chicago Heights Washington",
+                                "score":  "30-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Minooka",
+                                "loser":  "Channahon",
+                                "score":  "25-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Mt. Zion",
+                                 "loser":  "Charleston",
+                                 "score":  "36-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Bellwood Roosevelt",
+                                "loser":  "Calumet City Dolton 149",
+                                "score":  "35-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Champaign Edison",
+                                "loser":  "Urbana MS",
+                                "score":  "31-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Springfield Washington",
+                                 "score":  "32-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "New Lenox Martino",
+                                "loser":  "Joliet Washington",
+                                "score":  "50-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Bethalto Trimpe",
+                                 "loser":  "Alton",
+                                 "score":  "27-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "Bourbonnais UGC",
+                                "loser":  "Herscher Limestone",
+                                "score":  "29-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "Rockford Flinn",
+                                "loser":  "Rockford West",
+                                "score":  "45-39",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Morton JHS",
+                                 "loser":  "Canton Ingersoll",
+                                 "score":  "36-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Edwardsville Liberty",
+                                               "record":  "19-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Bolingbrook Brooks",
+                                              "record":  "10-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Mokena",
+                                              "record":  "24-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Rochester",
+                                               "record":  "20-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Bloomington JHS",
+                                               "record":  "15-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Flossmoor Parker",
+                                              "record":  "15-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Minooka",
+                                              "record":  "15-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Mt. Zion",
+                                               "record":  "18-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Bellwood Roosevelt",
+                                              "record":  "7-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Champaign Edison",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Quincy",
+                                               "record":  "17-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "New Lenox Martino",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Bethalto Trimpe",
+                                               "record":  "16-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Bourbonnais UGC",
+                                              "record":  "17-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Rockford Flinn",
+                                              "record":  "19-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Morton JHS",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Morton JHS",
+                                 "loser":  "Quincy",
+                                 "score":  "56-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Mokena",
+                                 "loser":  "Bourbonnais UGC",
+                                 "score":  "43-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Rockford Flinn",
+                                 "loser":  "Bolingbrook Brooks",
+                                 "score":  "40-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Bellwood Roosevelt",
+                                 "loser":  "Flossmoor Parker",
+                                 "score":  "43-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "New Lenox Martino",
+                                 "loser":  "Minooka",
+                                 "score":  "25-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Mt. Zion",
+                                 "score":  "37-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Bloomington JHS",
+                                 "loser":  "Champaign Edison",
+                                 "score":  "27-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Edwardsville Liberty",
+                                 "loser":  "Bethalto Trimpe",
+                                 "score":  "26-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2014\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           1,
+                                           7
+                                       ],
+                                 "4":  [
+                                           4,
+                                           3
+                                       ],
+                                 "1":  [
+                                           5,
+                                           8
+                                       ],
+                                 "3":  [
+                                           2,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Edwardsville Liberty",
+                                          "Rockford Flinn"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           43
+                                       ],
+                            "winner":  "Rockford Flinn",
+                            "loser":  "Edwardsville Liberty",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Rockford Flinn",
+                                          "Rochester"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           20
+                                       ],
+                            "winner":  "Rockford Flinn",
+                            "loser":  "Rochester",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Bellwood Roosevelt",
+                                          "Morton JHS"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           60
+                                       ],
+                            "winner":  "Morton JHS",
+                            "loser":  "Bellwood Roosevelt",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Bloomington JHS",
+                                          "Edwardsville Liberty"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           33
+                                       ],
+                            "winner":  "Edwardsville Liberty",
+                            "loser":  "Bloomington JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "New Lenox Martino",
+                                          "Mokena"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           24
+                                       ],
+                            "winner":  "Mokena",
+                            "loser":  "New Lenox Martino",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Rockford Flinn",
+                                          "Mokena"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           40
+                                       ],
+                            "winner":  "Mokena",
+                            "loser":  "Rockford Flinn",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Edwardsville Liberty",
+                                          "Morton JHS"
+                                      ],
+                            "scores":  [
+                                           13,
+                                           36
+                                       ],
+                            "winner":  "Morton JHS",
+                            "loser":  "Edwardsville Liberty",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Morton JHS",
+                                          "Mokena"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           23
+                                       ],
+                            "winner":  "Morton JHS",
+                            "loser":  "Mokena",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2014\u0026Class=7-4A"
+                        }
+              }
+};

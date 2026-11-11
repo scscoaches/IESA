@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-11 11:12",
+    "year":  2022,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Hardin Calhoun",
+                                 "loser":  "Greenfield",
+                                 "score":  "31-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Wenona Fieldcrest",
+                                "loser":  "Sparland Midland",
+                                "score":  "50-43",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Elmwood",
+                                "loser":  "London Mills Valley",
+                                "score":  "32-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Carthage",
+                                 "score":  "43-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Havana",
+                                 "score":  "22-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Bourbonnais St. George",
+                                "loser":  "Momence JHS",
+                                "score":  "30-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Gibson City GCMS",
+                                "loser":  "LeRoy",
+                                "score":  "24-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Avon Abingdon Avon",
+                                 "loser":  "Table Grove VIT",
+                                 "score":  "27-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Seneca",
+                                "loser":  "Riverdale Washington",
+                                "score":  "2-0",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur Our Lady of Lourdes",
+                                "loser":  "Decatur Dennis",
+                                "score":  "40-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Brownstown",
+                                 "loser":  "Stewardson-Strasburg",
+                                 "score":  "35-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Paris Crestwood",
+                                "loser":  "Armstrong-Ellis",
+                                "score":  "40-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Nokomis JHS",
+                                 "loser":  "Springfield Blessed Sacrament",
+                                 "score":  "51-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria Christian",
+                                "loser":  "Glasford Illini Bluffs",
+                                "score":  "28-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Colfax Ridgeview",
+                                "loser":  "Heyworth",
+                                "score":  "27-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Dieterich",
+                                 "loser":  "Albion",
+                                 "score":  "40-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Hardin Calhoun",
+                                               "record":  "15-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Wenona Fieldcrest",
+                                              "record":  "13-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Elmwood",
+                                              "record":  "21-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Mt. Sterling Brown County",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Mt. Pulaski",
+                                               "record":  "21-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Bourbonnais St. George",
+                                              "record":  "13-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Gibson City GCMS",
+                                              "record":  "22-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Avon Abingdon Avon",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Seneca",
+                                              "record":  "13-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Decatur Our Lady of Lourdes",
+                                              "record":  "16-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Brownstown",
+                                               "record":  "24-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Paris Crestwood",
+                                              "record":  "22-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Nokomis JHS",
+                                               "record":  "22-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Peoria Christian",
+                                              "record":  "14-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Colfax Ridgeview",
+                                              "record":  "18-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Dieterich",
+                                               "record":  "11-13",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Brownstown",
+                                 "loser":  "Dieterich",
+                                 "score":  "31-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria Christian",
+                                 "loser":  "Elmwood",
+                                 "score":  "30-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Colfax Ridgeview",
+                                 "loser":  "Wenona Fieldcrest",
+                                 "score":  "32-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Bourbonnais St. George",
+                                 "loser":  "Seneca",
+                                 "score":  "35-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Gibson City GCMS",
+                                 "score":  "40-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Avon Abingdon Avon",
+                                 "score":  "41-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Decatur Our Lady of Lourdes",
+                                 "score":  "48-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Nokomis JHS",
+                                 "loser":  "Hardin Calhoun",
+                                 "score":  "44-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           2,
+                                           8
+                                       ],
+                                 "4":  [
+                                           4,
+                                           1
+                                       ],
+                                 "1":  [
+                                           5,
+                                           6
+                                       ],
+                                 "3":  [
+                                           3,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Nokomis JHS",
+                                          "Brownstown"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           28
+                                       ],
+                            "winner":  "Nokomis JHS",
+                            "loser":  "Brownstown",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Peoria Christian",
+                                          "Brownstown"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           26
+                                       ],
+                            "winner":  "Brownstown",
+                            "loser":  "Peoria Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Colfax Ridgeview",
+                                          "Nokomis JHS"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           38
+                                       ],
+                            "winner":  "Nokomis JHS",
+                            "loser":  "Colfax Ridgeview",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Mt. Pulaski",
+                                          "Mt. Sterling Brown County"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           29
+                                       ],
+                            "winner":  "Mt. Sterling Brown County",
+                            "loser":  "Mt. Pulaski",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Paris Crestwood",
+                                          "Bourbonnais St. George"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           7
+                                       ],
+                            "winner":  "Paris Crestwood",
+                            "loser":  "Bourbonnais St. George",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Brownstown",
+                                          "Paris Crestwood"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           31
+                                       ],
+                            "winner":  "Paris Crestwood",
+                            "loser":  "Brownstown",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Mt. Sterling Brown County",
+                                          "Nokomis JHS"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           28
+                                       ],
+                            "winner":  "Mt. Sterling Brown County",
+                            "loser":  "Nokomis JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Mt. Sterling Brown County",
+                                          "Paris Crestwood"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           33
+                                       ],
+                            "winner":  "Paris Crestwood",
+                            "loser":  "Mt. Sterling Brown County",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=8-2A"
+                        }
+              }
+}

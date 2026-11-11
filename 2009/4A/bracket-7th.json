@@ -1,0 +1,334 @@
+﻿{
+    "updatedAt":  "2026-11-11 10:53",
+    "year":  2009,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Cahokia Wirth",
+                                 "loser":  "East St. Louis Lincoln",
+                                 "score":  "32-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Mokena",
+                                "loser":  "Frankfort Summit Hill",
+                                "score":  "40-39",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "Bolingbrook Jane Addams",
+                                "loser":  "Bolingbrook Brooks",
+                                "score":  "35-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Mattoon",
+                                 "loser":  "Effingham JHS",
+                                 "score":  "37-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Morton JHS",
+                                 "loser":  "Macomb",
+                                 "score":  "17-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Chicago Heights Washington",
+                                "loser":  "Lansing Memorial",
+                                "score":  "32-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Minooka",
+                                "loser":  "Channahon",
+                                "score":  "25-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Clinton",
+                                 "loser":  "Rantoul Eater",
+                                 "score":  "32-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Harvey Brooks",
+                                "loser":  "Markham Prairie-Hills",
+                                "score":  "33-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Parkside",
+                                "loser":  "Normal Kingsley",
+                                "score":  "31-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Springfield Franklin",
+                                 "score":  "32-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "Joliet Hufford",
+                                "loser":  "Joliet Washington",
+                                "score":  "37-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Alton",
+                                 "loser":  "Roxana",
+                                 "score":  "25-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "New Lenox Liberty",
+                                "loser":  "Lockport Oak Prairie",
+                                "score":  "40-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "Peotone",
+                                "loser":  "Bourbonnais UGC",
+                                "score":  "43-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Taylorville JHS",
+                                 "score":  "29-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "7":  {
+                                              "team":  "Joliet Hufford",
+                                              "record":  "11-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Parkside",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "3":  {
+                                              "team":  "Mokena",
+                                              "record":  "20-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Clinton",
+                                               "record":  "19-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                           },
+                                    "16":  {
+                                               "team":  "Cahokia Wirth",
+                                               "record":  "19-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Morton JHS",
+                                               "record":  "13-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Harvey Brooks",
+                                              "record":  "11-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Peotone",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "6":  {
+                                              "team":  "New Lenox Liberty",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Bolingbrook Jane Addams",
+                                              "record":  "20-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Minooka",
+                                              "record":  "16-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Rochester",
+                                 "score":  "18-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "New Lenox Liberty",
+                                 "loser":  "Bolingbrook Jane Addams",
+                                 "score":  "36-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Mokena",
+                                 "loser":  "Peotone",
+                                 "score":  "27-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Chicago Heights Washington",
+                                 "loser":  "Harvey Brooks",
+                                 "score":  "52-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Minooka",
+                                 "loser":  "Joliet Hufford",
+                                 "score":  "27-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Mattoon",
+                                 "loser":  "Clinton",
+                                 "score":  "21-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Normal Parkside",
+                                 "loser":  "Morton JHS",
+                                 "score":  "27-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Cahokia Wirth",
+                                 "loser":  "Alton",
+                                 "score":  "24-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           1
+                                       ],
+                                 "4":  [
+                                           8,
+                                           5
+                                       ],
+                                 "1":  [
+                                           3,
+                                           4
+                                       ],
+                                 "3":  [
+                                           6,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "New Lenox Liberty",
+                                          "Mokena"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           12
+                                       ],
+                            "winner":  "New Lenox Liberty",
+                            "loser":  "Mokena",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Mattoon",
+                                          "Mokena"
+                                      ],
+                            "scores":  [
+                                           18,
+                                           29
+                                       ],
+                            "winner":  "Mokena",
+                            "loser":  "Mattoon",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Chatham Glenwood",
+                                          "Chicago Heights Washington"
+                                      ],
+                            "scores":  [
+                                           50,
+                                           9
+                                       ],
+                            "winner":  "Chatham Glenwood",
+                            "loser":  "Chicago Heights Washington",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "New Lenox Liberty",
+                                          "Minooka"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           10
+                                       ],
+                            "winner":  "New Lenox Liberty",
+                            "loser":  "Minooka",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Cahokia Wirth",
+                                          "Normal Parkside"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           40
+                                       ],
+                            "winner":  "Normal Parkside",
+                            "loser":  "Cahokia Wirth",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Mokena",
+                                          "Normal Parkside"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           27
+                                       ],
+                            "winner":  "Normal Parkside",
+                            "loser":  "Mokena",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "New Lenox Liberty",
+                                          "Chatham Glenwood"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           29
+                                       ],
+                            "winner":  "Chatham Glenwood",
+                            "loser":  "New Lenox Liberty",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Chatham Glenwood",
+                                          "Normal Parkside"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           18
+                                       ],
+                            "winner":  "Chatham Glenwood",
+                            "loser":  "Normal Parkside",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        }
+              }
+}

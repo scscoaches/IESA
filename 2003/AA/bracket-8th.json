@@ -1,0 +1,674 @@
+﻿{
+    "updatedAt":  "2026-11-11 10:45",
+    "year":  2003,
+    "grade":  "8th",
+    "regionals":  {
+                      "11":  {
+                                 "winner":  "Forrest Prairie Central",
+                                 "loser":  "Watseka Glenn Raymond",
+                                 "score":  "25-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "3":  {
+                                "winner":  "Chicago John Hope",
+                                "loser":  "Lansing Heritage",
+                                "score":  "51-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                            },
+                      "20":  {
+                                 "winner":  "Decatur Stephen Decatur",
+                                 "loser":  "Monticello",
+                                 "score":  "42-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "12":  {
+                                 "winner":  "Paxton-Buckley-Loda",
+                                 "loser":  "Mahomet-Seymour",
+                                 "score":  "46-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "10":  {
+                                 "winner":  "Seneca",
+                                 "loser":  "Ottawa Shepherd",
+                                 "score":  "26-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "17":  {
+                                 "winner":  "Georgetown Mary Miller",
+                                 "loser":  "Danville North Ridge",
+                                 "score":  "31-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "13":  {
+                                 "winner":  "Washington MS",
+                                 "loser":  "Metamora Germantown Hills",
+                                 "score":  "32-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "27":  {
+                                 "winner":  "Altamont (Coop)",
+                                 "loser":  "Effingham JHS",
+                                 "score":  "30-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "30":  {
+                                 "winner":  "Litchfield",
+                                 "loser":  "Carlinville",
+                                 "score":  "23-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "18":  {
+                                 "winner":  "Urbana MS",
+                                 "loser":  "Tuscola East Prairie",
+                                 "score":  "24-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "29":  {
+                                 "winner":  "Springfield Franklin",
+                                 "loser":  "Chatham Glenwood",
+                                 "score":  "26-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "23":  {
+                                 "winner":  "Macomb",
+                                 "loser":  "Rushville Schuyler County",
+                                 "score":  "33-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "19":  {
+                                 "winner":  "Normal Parkside",
+                                 "loser":  "Downs Tri-Valley",
+                                 "score":  "40-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "1":  {
+                                "winner":  "Mt. Prospect Holmes",
+                                "loser":  "Bellwood Roosevelt",
+                                "score":  "31-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                            },
+                      "5":  {
+                                "winner":  "New Lenox Martino",
+                                "loser":  "New Lenox Liberty",
+                                "score":  "36-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                            },
+                      "4":  {
+                                "winner":  "Harvey Brooks",
+                                "loser":  "Phoenix Coolidge",
+                                "score":  "23-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                            },
+                      "8":  {
+                                "winner":  "Herscher Limestone",
+                                "loser":  "Herscher JHS",
+                                "score":  "33-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                            },
+                      "26":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Newton Jasper County  (Coop)",
+                                 "score":  "34-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "14":  {
+                                 "winner":  "Bloomington JHS",
+                                 "loser":  "Stanford Olympia",
+                                 "score":  "50-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "22":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Springfield Grant",
+                                 "score":  "36-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "28":  {
+                                 "winner":  "Pana JHS",
+                                 "loser":  "Taylorville JHS",
+                                 "score":  "37-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "25":  {
+                                 "winner":  "Marshall JHS",
+                                 "loser":  "Casey-Westfield",
+                                 "score":  "27-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "9":  {
+                                "winner":  "Coal City",
+                                "loser":  "Channahon",
+                                "score":  "33-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                            },
+                      "15":  {
+                                 "winner":  "Dunlap MS",
+                                 "loser":  "Chillicothe",
+                                 "score":  "39-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "21":  {
+                                 "winner":  "Havana",
+                                 "loser":  "Williamsville",
+                                 "score":  "30-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "24":  {
+                                 "winner":  "Camp Point Central",
+                                 "loser":  null,
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA",
+                                 "qualifierOnly":  true
+                             },
+                      "16":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Green Valley Midwest Central",
+                                 "score":  "39-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "32":  {
+                                 "winner":  "Cahokia Wirth",
+                                 "loser":  "East St. Louis Clark",
+                                 "score":  "55-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             },
+                      "7":  {
+                                "winner":  "Momence JHS",
+                                "loser":  "Peotone",
+                                "score":  "33-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                            },
+                      "2":  {
+                                "winner":  "Bolingbrook Jane Addams",
+                                "loser":  "Romeoville Martinez",
+                                "score":  "33-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                            },
+                      "6":  {
+                                "winner":  "Joliet Washington",
+                                "loser":  "Shorewood Troy",
+                                "score":  "39-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                            },
+                      "31":  {
+                                 "winner":  "Piasa Southwestern",
+                                 "loser":  "Hillsboro",
+                                 "score":  "23-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Canton Ingersoll",
+                                               "record":  "17-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "7":  {
+                                              "team":  "Momence JHS",
+                                              "record":  "12-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                          },
+                                    "5":  {
+                                              "team":  "New Lenox Martino",
+                                              "record":  "12-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                          },
+                                    "21":  {
+                                               "team":  "Havana",
+                                               "record":  "17-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "18":  {
+                                               "team":  "Urbana MS",
+                                               "record":  "19-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "12":  {
+                                               "team":  "Paxton-Buckley-Loda",
+                                               "record":  "18-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "10":  {
+                                               "team":  "Seneca",
+                                               "record":  "13-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "2":  {
+                                              "team":  "Bolingbrook Jane Addams",
+                                              "record":  "15-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                          },
+                                    "32":  {
+                                               "team":  "Cahokia Wirth",
+                                               "record":  "16-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "22":  {
+                                               "team":  "Rochester",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "8":  {
+                                              "team":  "Herscher Limestone",
+                                              "record":  "16-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                          },
+                                    "17":  {
+                                               "team":  "Georgetown Mary Miller",
+                                               "record":  "13-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "11":  {
+                                               "team":  "Forrest Prairie Central",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "31":  {
+                                               "team":  "Piasa Southwestern",
+                                               "record":  "12-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "29":  {
+                                               "team":  "Springfield Franklin",
+                                               "record":  "14-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "9":  {
+                                              "team":  "Coal City",
+                                              "record":  "16-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                          },
+                                    "30":  {
+                                               "team":  "Litchfield",
+                                               "record":  "14-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "14":  {
+                                               "team":  "Bloomington JHS",
+                                               "record":  "19-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "20":  {
+                                               "team":  "Decatur Stephen Decatur",
+                                               "record":  "18-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "15":  {
+                                               "team":  "Dunlap MS",
+                                               "record":  "18-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "25":  {
+                                               "team":  "Marshall JHS",
+                                               "record":  "12-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "23":  {
+                                               "team":  "Macomb",
+                                               "record":  "15-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "6":  {
+                                              "team":  "Joliet Washington",
+                                              "record":  "19-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                          },
+                                    "4":  {
+                                              "team":  "Harvey Brooks",
+                                              "record":  "11-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                          },
+                                    "13":  {
+                                               "team":  "Washington MS",
+                                               "record":  "15-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           },
+                                    "26":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "18-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2003\u0026Class=8AA"
+                                           }
+                                },
+    "sectionals":  {
+                       "16":  {
+                                  "winner":  "Cahokia Wirth",
+                                  "loser":  "Piasa Southwestern",
+                                  "score":  "48-26",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                              },
+                       "3":  {
+                                 "winner":  "New Lenox Martino",
+                                 "loser":  "Joliet Washington",
+                                 "score":  "54-50",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                             },
+                       "5":  {
+                                 "winner":  "Seneca",
+                                 "loser":  "Coal City",
+                                 "score":  "36-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                             },
+                       "12":  {
+                                  "winner":  "Camp Point Central",
+                                  "loser":  "Macomb",
+                                  "score":  "34-23",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                              },
+                       "10":  {
+                                  "winner":  "Decatur Stephen Decatur",
+                                  "loser":  "Normal Parkside",
+                                  "score":  "42-39",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                              },
+                       "2":  {
+                                 "winner":  "Chicago John Hope",
+                                 "loser":  "Harvey Brooks",
+                                 "score":  "46-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                             },
+                       "8":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Dunlap MS",
+                                 "score":  "34-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                             },
+                       "11":  {
+                                  "winner":  "Rochester",
+                                  "loser":  "Havana",
+                                  "score":  "32-12",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                              },
+                       "1":  {
+                                 "winner":  "Bolingbrook Jane Addams",
+                                 "loser":  "Mt. Prospect Holmes",
+                                 "score":  "47-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                             },
+                       "9":  {
+                                 "winner":  "Urbana MS",
+                                 "loser":  "Georgetown Mary Miller",
+                                 "score":  "49-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                             },
+                       "14":  {
+                                  "winner":  "Pana JHS",
+                                  "loser":  "Altamont (Coop)",
+                                  "score":  "33-28",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                              },
+                       "7":  {
+                                 "winner":  "Bloomington JHS",
+                                 "loser":  "Washington MS",
+                                 "score":  "47-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                             },
+                       "15":  {
+                                  "winner":  "Springfield Franklin",
+                                  "loser":  "Litchfield",
+                                  "score":  "37-33",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                              },
+                       "6":  {
+                                 "winner":  "Forrest Prairie Central",
+                                 "loser":  "Paxton-Buckley-Loda",
+                                 "score":  "37-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                             },
+                       "4":  {
+                                 "winner":  "Momence JHS",
+                                 "loser":  "Herscher Limestone",
+                                 "score":  "49-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                             },
+                       "13":  {
+                                  "winner":  "Teutopolis",
+                                  "loser":  "Marshall JHS",
+                                  "score":  "27-7",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2003\u0026Class=8AA"
+                              }
+                   },
+    "quarterfinalMatchups":  {
+                                 "7":  [
+                                           2,
+                                           9
+                                       ],
+                                 "3":  [
+                                           7,
+                                           15
+                                       ],
+                                 "2":  [
+                                           3,
+                                           10
+                                       ],
+                                 "1":  [
+                                           4,
+                                           12
+                                       ],
+                                 "4":  [
+                                           13,
+                                           14
+                                       ],
+                                 "6":  [
+                                           5,
+                                           8
+                                       ],
+                                 "5":  [
+                                           16,
+                                           6
+                                       ],
+                                 "8":  [
+                                           1,
+                                           11
+                                       ]
+                             },
+    "games":  {
+                  "12":  {
+                             "teams":  [
+                                           "Chicago John Hope",
+                                           "Rochester"
+                                       ],
+                             "scores":  [
+                                            38,
+                                            36
+                                        ],
+                             "winner":  "Chicago John Hope",
+                             "loser":  "Rochester",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                         },
+                  "7":  {
+                            "teams":  [
+                                          "Chicago John Hope",
+                                          "Urbana MS"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           23
+                                       ],
+                            "winner":  "Chicago John Hope",
+                            "loser":  "Urbana MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Cahokia Wirth",
+                                          "Forrest Prairie Central"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           47
+                                       ],
+                            "winner":  "Forrest Prairie Central",
+                            "loser":  "Cahokia Wirth",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                        },
+                  "16":  {
+                             "teams":  [
+                                           "Bloomington JHS",
+                                           "Chicago John Hope"
+                                       ],
+                             "scores":  [
+                                            45,
+                                            34
+                                        ],
+                             "winner":  "Bloomington JHS",
+                             "loser":  "Chicago John Hope",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                         },
+                  "10":  {
+                             "teams":  [
+                                           "Bloomington JHS",
+                                           "Teutopolis"
+                                       ],
+                             "scores":  [
+                                            48,
+                                            30
+                                        ],
+                             "winner":  "Bloomington JHS",
+                             "loser":  "Teutopolis",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                         },
+                  "2":  {
+                            "teams":  [
+                                          "New Lenox Martino",
+                                          "Decatur Stephen Decatur"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           44
+                                       ],
+                            "winner":  "Decatur Stephen Decatur",
+                            "loser":  "New Lenox Martino",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Bloomington JHS",
+                                          "Springfield Franklin"
+                                      ],
+                            "scores":  [
+                                           54,
+                                           33
+                                       ],
+                            "winner":  "Bloomington JHS",
+                            "loser":  "Springfield Franklin",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Bolingbrook Jane Addams",
+                                          "Rochester"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           43
+                                       ],
+                            "winner":  "Rochester",
+                            "loser":  "Bolingbrook Jane Addams",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                        },
+                  "15":  {
+                             "teams":  [
+                                           "Decatur Stephen Decatur",
+                                           "Forrest Prairie Central"
+                                       ],
+                             "scores":  [
+                                            37,
+                                            29
+                                        ],
+                             "winner":  "Decatur Stephen Decatur",
+                             "loser":  "Forrest Prairie Central",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                         },
+                  "1":  {
+                            "teams":  [
+                                          "Momence JHS",
+                                          "Camp Point Central"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           26
+                                       ],
+                            "winner":  "Camp Point Central",
+                            "loser":  "Momence JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                        },
+                  "9":  {
+                            "teams":  [
+                                          "Camp Point Central",
+                                          "Decatur Stephen Decatur"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           47
+                                       ],
+                            "winner":  "Decatur Stephen Decatur",
+                            "loser":  "Camp Point Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                        },
+                  "14":  {
+                             "teams":  [
+                                           "Forrest Prairie Central",
+                                           "Chicago John Hope"
+                                       ],
+                             "scores":  [
+                                            35,
+                                            40
+                                        ],
+                             "winner":  "Chicago John Hope",
+                             "loser":  "Forrest Prairie Central",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                         },
+                  "11":  {
+                             "teams":  [
+                                           "Forrest Prairie Central",
+                                           "Canton Ingersoll"
+                                       ],
+                             "scores":  [
+                                            26,
+                                            23
+                                        ],
+                             "winner":  "Forrest Prairie Central",
+                             "loser":  "Canton Ingersoll",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                         },
+                  "6":  {
+                            "teams":  [
+                                          "Seneca",
+                                          "Canton Ingersoll"
+                                      ],
+                            "scores":  [
+                                           15,
+                                           36
+                                       ],
+                            "winner":  "Canton Ingersoll",
+                            "loser":  "Seneca",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Pana JHS"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           11
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Pana JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                        },
+                  "13":  {
+                             "teams":  [
+                                           "Decatur Stephen Decatur",
+                                           "Bloomington JHS"
+                                       ],
+                             "scores":  [
+                                            34,
+                                            35
+                                        ],
+                             "winner":  "Bloomington JHS",
+                             "loser":  "Decatur Stephen Decatur",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2003\u0026Class=8AA"
+                         }
+              }
+}

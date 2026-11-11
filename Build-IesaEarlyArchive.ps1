@@ -1,11 +1,16 @@
 param(
     [ValidateRange(1979, 2001)][int[]]$Years = (1979..2001),
     [string]$OutputRoot = $PSScriptRoot,
+    [ValidateSet('A', 'AA')][string]$ClassName = 'A',
     [switch]$CatalogueOnly
 )
 
 $ErrorActionPreference = 'Stop'
 . (Join-Path $PSScriptRoot '2026\IesaRequest.ps1')
+. (Join-Path $PSScriptRoot 'IesaSitePages.ps1')
+if ($ClassName -eq 'AA' -and @($Years | Where-Object { $_ -lt 1990 }).Count) {
+    throw 'Class AA began in 1990.'
+}
 if (!(Test-Path -LiteralPath $OutputRoot -PathType Container)) {
     throw "Output root does not exist: $OutputRoot"
 }
@@ -86,32 +91,34 @@ function Get-SectionalPairings([string]$html, [int]$year, [string]$code) {
     $pairings = @()
     foreach ($cell in $cells) {
         $line = Get-Text $cell.Groups[1].Value
-        if ($line -notmatch '(?i)^(.+?)\s+vs\.\s+(.+)$') {
+        if ($line -notmatch '(?i)^(.+?)\s*vs\.\s+(.+)$') {
             throw "$year $code unexpected sectional pairing: $line"
         }
-        $pairings += [ordered]@{ teams = @($Matches[1].Trim(), $Matches[2].Trim()) }
+        # IESA occasionally appends a game result after a school's record
+        # ("Joliet Washington (15-0) Minooka def. Wilmington Stevens 40-39").
+        $teams = @($Matches[1].Trim(), $Matches[2].Trim()) | ForEach-Object { $_ -replace '^(.+?\(\d+-\d+\))\s+\S.*$', '$1' }
+        $pairings += [ordered]@{ teams = @($teams) }
     }
     return $pairings
 }
 
-$template = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'archive-state-template.html') -Raw
 if (!$CatalogueOnly) {
 foreach ($year in $Years) {
     $grades = if ($year -le 1985) { @('combined') } else { @('7th', '8th') }
     foreach ($grade in $grades) {
         $code = if ($grade -eq 'combined') { '' } elseif ($year -le 1989) {
             if ($grade -eq '7th') { '7' } else { '8' }
-        } elseif ($grade -eq '7th') { '7A' } else { '8A' }
+        } elseif ($grade -eq '7th') { "7$ClassName" } else { "8$ClassName" }
         $url = "https://www.iesa.org/activities/gbk/index.asp?Year=$year"
         if ($code) { $url += "&Class=$code" }
         $html = Get-Page $url 'ScoreData-BracketSchool'
         $state = Get-StateGames $html $year $code
         $label = if ($grade -eq 'combined') { 'Combined 7th/8th' } elseif ($year -le 1989) {
             "$grade Grade"
-        } else { "$grade Grade Class A" }
+        } else { "$grade Grade Class $ClassName" }
         $expectedMeet = if ($grade -eq 'combined') { 'State Tournament' } elseif ($year -le 1989) {
             "Class $(if ($grade -eq '7th') { '7' } else { '8' }) State Tournament"
-        } else { "Class $(if ($grade -eq '7th') { '7' } else { '8' })A State Tournament" }
+        } else { "Class $(if ($grade -eq '7th') { '7' } else { '8' })$ClassName State Tournament" }
         if ((Get-Text ([regex]::Match($html, "(?is)<td\s+class=['""]Score-Meet['""][^>]*>(.*?)</td>").Groups[1].Value)) -notmatch
             "^$([regex]::Escape($expectedMeet))\b") {
             throw "$year $grade returned the wrong state tournament"
@@ -126,6 +133,7 @@ foreach ($year in $Years) {
             year = $year
             grade = $grade
             label = $label
+            className = if ($year -ge 1990) { $ClassName } else { $null }
             source = $url
             venue = $state.venue
             champion = $state.champion
@@ -133,30 +141,20 @@ foreach ($year in $Years) {
             sectionals = $pairings
             sectionalSource = $pairingUrl
         }
-        $folder = Join-Path (Join-Path $OutputRoot $year) $grade
+        $folder = Join-Path (Join-Path $OutputRoot (Get-IesaClassFolder $OutputRoot $year $ClassName)) $grade
         New-Item -ItemType Directory -Force -Path $folder | Out-Null
         $json = ConvertTo-Json -InputObject $data -Depth 15 -Compress
         [System.IO.File]::WriteAllText((Join-Path $folder 'data.js'), "window.earlyTournamentData = $json;`n",
             [System.Text.UTF8Encoding]::new($false))
-        $markup = $template.Replace('{{YEAR}}', [string]$year).Replace('{{LABEL}}', $label).
-            Replace('{{GRADE}}', $grade)
-        [System.IO.File]::WriteAllText((Join-Path $folder 'index.html'), $markup, [System.Text.UTF8Encoding]::new($false))
         Write-Output "$year $grade : $($state.champion)"
     }
-    $landing = if ($year -le 1985) {
-        "<a href='combined/index.html'>Combined 7th/8th tournament</a>"
-    } else { "<a href='7th/index.html'>7th Grade</a> &nbsp; <a href='8th/index.html'>8th Grade</a>" }
-    $heading = if ($year -le 1985) { "$year Combined 7th/8th State Tournament" } elseif ($year -le 1989) {
-        "$year Girls Basketball State Tournaments"
-    } else { "$year Class A Girls Basketball State Tournaments" }
-    $index = "<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>$heading</title></head><body><main><h1>$heading</h1><p>$landing</p><p><a href='../index.html'>All seasons</a></p></main></body></html>`n"
-    [System.IO.File]::WriteAllText((Join-Path (Join-Path $OutputRoot $year) 'index.html'),
-        $index, [System.Text.UTF8Encoding]::new($false))
+    if ($ClassName -eq 'AA') { Add-IesaCatalogueClass $OutputRoot $year 'AA' }
+    Write-IesaClassPages $OutputRoot $year $(if ($year -ge 1990) { $ClassName } else { '' })
 }
 }
 
 $cataloguePath = Join-Path $OutputRoot 'seasons.json'
-if (Test-Path -LiteralPath $cataloguePath) {
+if ($ClassName -eq 'A' -and (Test-Path -LiteralPath $cataloguePath)) {
     foreach ($year in $Years) {
         $grades = if ($year -le 1985) { @('combined') } else { @('7th', '8th') }
         foreach ($grade in $grades) {
@@ -169,13 +167,16 @@ if (Test-Path -LiteralPath $cataloguePath) {
     foreach ($entry in (Get-Content -LiteralPath $cataloguePath -Raw | ConvertFrom-Json)) {
         if ($entry.year -notin $Years) { $catalogue += $entry }
     }
+    $previous = @(Get-Content -LiteralPath $cataloguePath -Raw | ConvertFrom-Json | ForEach-Object { $_ })
     foreach ($year in $Years) {
+        $old = $previous | Where-Object { $_.year -eq $year -and $_.PSObject.Properties['classes'] } | Select-Object -First 1
         $catalogue += [pscustomobject]@{
             year = $year
             className = if ($year -le 1989) { $null } else { 'A' }
             gradeMode = if ($year -le 1985) { 'combined' } else { 'separate' }
             archived = $true
         }
+        if ($old) { $catalogue[-1] | Add-Member -NotePropertyName classes -NotePropertyValue @($old.classes) }
     }
     $catalogue = @($catalogue | Sort-Object year -Descending)
     [System.IO.File]::WriteAllText($cataloguePath, (ConvertTo-Json -InputObject $catalogue -Depth 5) + "`n",

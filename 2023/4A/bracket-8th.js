@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:16",
+    "year":  2023,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "O\u0027Fallon Carriel",
+                                 "loser":  "Highland MS",
+                                 "score":  "33-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Willowbrook Westview Hills",
+                                "loser":  "Lemont Old Quarry",
+                                "score":  "27-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Homewood Hart",
+                                "loser":  "Chicago Heights MS",
+                                "score":  "39-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Dunlap MS",
+                                 "loser":  "Galesburg JHS",
+                                 "score":  "53-46",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Mahomet-Seymour",
+                                 "loser":  "Urbana MS",
+                                 "score":  "36-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Lake Zurich North",
+                                "loser":  "Arlington Heights Thomas",
+                                "score":  "37-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "Minooka",
+                                "loser":  "Ottawa Shepherd",
+                                "score":  "26-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Normal Parkside",
+                                 "loser":  "Bloomington Evans",
+                                 "score":  "31-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Rockford Eisenhower",
+                                "loser":  "Rockford West",
+                                "score":  "41-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "University Park Crete Monee",
+                                "loser":  "Steger Columbia",
+                                "score":  "31-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Springfield Franklin",
+                                 "score":  "24-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "New Lenox Liberty",
+                                "loser":  "Mokena",
+                                "score":  "42-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Granite City Coolidge",
+                                 "loser":  "Edwardsville Liberty",
+                                 "score":  "50-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "Matteson Colin Powell",
+                                "loser":  "Frankfort Summit Hill",
+                                "score":  "28-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Bolingbrook Jane Addams",
+                                "loser":  "Bolingbrook Humphrey",
+                                "score":  "54-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Mt. Zion",
+                                 "loser":  "Taylorville JHS",
+                                 "score":  "43-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "O\u0027Fallon Carriel",
+                                               "record":  "23-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Willowbrook Westview Hills",
+                                              "record":  "14-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Homewood Hart",
+                                              "record":  "11-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Dunlap MS",
+                                               "record":  "21-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Mahomet-Seymour",
+                                               "record":  "18-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Lake Zurich North",
+                                              "record":  "24-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Minooka",
+                                              "record":  "13-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Normal Parkside",
+                                               "record":  "20-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Rockford Eisenhower",
+                                              "record":  "16-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "University Park Crete Monee",
+                                              "record":  "17-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Chatham Glenwood",
+                                               "record":  "16-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "New Lenox Liberty",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Granite City Coolidge",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Matteson Colin Powell",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Bolingbrook Jane Addams",
+                                              "record":  "21-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Mt. Zion",
+                                               "record":  "23-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Mt. Zion",
+                                 "loser":  "Chatham Glenwood",
+                                 "score":  "37-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Matteson Colin Powell",
+                                 "loser":  "Homewood Hart",
+                                 "score":  "33-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Bolingbrook Jane Addams",
+                                 "loser":  "Willowbrook Westview Hills",
+                                 "score":  "35-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Lake Zurich North",
+                                 "loser":  "Rockford Eisenhower",
+                                 "score":  "25-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-4A"
+                             },
+                       "4":  {
+                                 "winner":  "New Lenox Liberty",
+                                 "loser":  "Minooka",
+                                 "score":  "31-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Dunlap MS",
+                                 "loser":  "Normal Parkside",
+                                 "score":  "34-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Mahomet-Seymour",
+                                 "loser":  "University Park Crete Monee",
+                                 "score":  "30-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Granite City Coolidge",
+                                 "loser":  "O\u0027Fallon Carriel",
+                                 "score":  "31-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2023\u0026Class=8-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           1
+                                       ],
+                                 "4":  [
+                                           7,
+                                           8
+                                       ],
+                                 "1":  [
+                                           4,
+                                           2
+                                       ],
+                                 "3":  [
+                                           5,
+                                           3
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Bolingbrook Jane Addams",
+                                          "Mahomet-Seymour"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           22
+                                       ],
+                            "winner":  "Bolingbrook Jane Addams",
+                            "loser":  "Mahomet-Seymour",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Mahomet-Seymour",
+                                          "Matteson Colin Powell"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           10
+                                       ],
+                            "winner":  "Mahomet-Seymour",
+                            "loser":  "Matteson Colin Powell",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Dunlap MS",
+                                          "Lake Zurich North"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           29
+                                       ],
+                            "winner":  "Dunlap MS",
+                            "loser":  "Lake Zurich North",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "New Lenox Liberty",
+                                          "Bolingbrook Jane Addams"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           24
+                                       ],
+                            "winner":  "Bolingbrook Jane Addams",
+                            "loser":  "New Lenox Liberty",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Mt. Zion",
+                                          "Granite City Coolidge"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           29
+                                       ],
+                            "winner":  "Mt. Zion",
+                            "loser":  "Granite City Coolidge",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Mahomet-Seymour",
+                                          "Mt. Zion"
+                                      ],
+                            "scores":  [
+                                           14,
+                                           36
+                                       ],
+                            "winner":  "Mt. Zion",
+                            "loser":  "Mahomet-Seymour",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Bolingbrook Jane Addams",
+                                          "Dunlap MS"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           37
+                                       ],
+                            "winner":  "Dunlap MS",
+                            "loser":  "Bolingbrook Jane Addams",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Dunlap MS",
+                                          "Mt. Zion"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           34
+                                       ],
+                            "winner":  "Dunlap MS",
+                            "loser":  "Mt. Zion",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2023\u0026Class=8-4A"
+                        }
+              }
+};

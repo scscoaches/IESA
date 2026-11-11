@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-11 11:07",
+    "year":  2017,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Edwardsville Liberty",
+                                 "loser":  "East St. Louis Lincoln",
+                                 "score":  "57-44",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Mokena",
+                                "loser":  "Homer Glen Homer",
+                                "score":  "29-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Flossmoor Parker",
+                                "loser":  "University Park Crete Monee",
+                                "score":  "58-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Champaign Jefferson",
+                                 "loser":  "Mahomet-Seymour",
+                                 "score":  "29-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Dunlap MS",
+                                 "loser":  "Pekin Broadmoor",
+                                 "score":  "36-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Arlington Heights South",
+                                "loser":  "Barrington Station",
+                                "score":  "46-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "Shorewood Troy",
+                                "loser":  "Ottawa Shepherd",
+                                "score":  "39-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Effingham JHS",
+                                 "loser":  "Danville North Ridge",
+                                 "score":  "30-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Rockford Kennedy",
+                                "loser":  "Rockford Eisenhower",
+                                "score":  "50-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Parkside",
+                                "loser":  "Bloomington JHS",
+                                "score":  "46-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Rochester",
+                                 "score":  "34-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "New Lenox Liberty",
+                                "loser":  "New Lenox Martino",
+                                "score":  "29-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Bethalto Trimpe",
+                                 "loser":  "Alton",
+                                 "score":  "32-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "Frankfort Summit Hill",
+                                "loser":  "Kankakee JHS",
+                                "score":  "32-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Lansing Memorial",
+                                "loser":  "Markham Prairie-Hills",
+                                "score":  "30-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Clinton",
+                                 "loser":  "Taylorville JHS",
+                                 "score":  "21-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Edwardsville Liberty",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Mokena",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Flossmoor Parker",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Champaign Jefferson",
+                                               "record":  "13-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Dunlap MS",
+                                               "record":  "19-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Arlington Heights South",
+                                              "record":  "15-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Shorewood Troy",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Effingham JHS",
+                                               "record":  "14-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Rockford Kennedy",
+                                              "record":  "20-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Parkside",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Chatham Glenwood",
+                                               "record":  "18-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "New Lenox Liberty",
+                                              "record":  "15-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Bethalto Trimpe",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Frankfort Summit Hill",
+                                              "record":  "17-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Lansing Memorial",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Clinton",
+                                               "record":  "19-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Clinton",
+                                 "score":  "47-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Flossmoor Parker",
+                                 "loser":  "Frankfort Summit Hill",
+                                 "score":  "39-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Mokena",
+                                 "loser":  "Lansing Memorial",
+                                 "score":  "39-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Arlington Heights South",
+                                 "loser":  "Rockford Kennedy",
+                                 "score":  "37-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Shorewood Troy",
+                                 "loser":  "New Lenox Liberty",
+                                 "score":  "42-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Effingham JHS",
+                                 "loser":  "Champaign Jefferson",
+                                 "score":  "28-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Normal Parkside",
+                                 "loser":  "Dunlap MS",
+                                 "score":  "42-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Edwardsville Liberty",
+                                 "loser":  "Bethalto Trimpe",
+                                 "score":  "27-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2017\u0026Class=8-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           7
+                                       ],
+                                 "4":  [
+                                           8,
+                                           3
+                                       ],
+                                 "1":  [
+                                           6,
+                                           4
+                                       ],
+                                 "3":  [
+                                           2,
+                                           1
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Normal Parkside",
+                                          "Arlington Heights South"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           38
+                                       ],
+                            "winner":  "Arlington Heights South",
+                            "loser":  "Normal Parkside",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Mokena",
+                                          "Arlington Heights South"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           49
+                                       ],
+                            "winner":  "Arlington Heights South",
+                            "loser":  "Mokena",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Normal Parkside",
+                                          "Chatham Glenwood"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           27
+                                       ],
+                            "winner":  "Normal Parkside",
+                            "loser":  "Chatham Glenwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Effingham JHS",
+                                          "Shorewood Troy"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           48
+                                       ],
+                            "winner":  "Shorewood Troy",
+                            "loser":  "Effingham JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Edwardsville Liberty",
+                                          "Flossmoor Parker"
+                                      ],
+                            "scores":  [
+                                           54,
+                                           39
+                                       ],
+                            "winner":  "Edwardsville Liberty",
+                            "loser":  "Flossmoor Parker",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Arlington Heights South",
+                                          "Edwardsville Liberty"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           59
+                                       ],
+                            "winner":  "Edwardsville Liberty",
+                            "loser":  "Arlington Heights South",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Shorewood Troy",
+                                          "Normal Parkside"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           43
+                                       ],
+                            "winner":  "Shorewood Troy",
+                            "loser":  "Normal Parkside",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Shorewood Troy",
+                                          "Edwardsville Liberty"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           34
+                                       ],
+                            "winner":  "Edwardsville Liberty",
+                            "loser":  "Shorewood Troy",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2017\u0026Class=8-4A"
+                        }
+              }
+}

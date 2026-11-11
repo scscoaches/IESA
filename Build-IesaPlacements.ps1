@@ -1,120 +1,126 @@
 #requires -Version 5.1
 <#
 .SYNOPSIS
-    Records every season in which the followed school finished in the top four.
+    Records the top four finishers of every IESA girls basketball state tournament.
 
 .DESCRIPTION
     The season drop-down lists close to fifty years, which makes the handful of
-    seasons worth revisiting impossible to spot. This scans the archived
-    brackets and writes placements.json, which season-selector.js uses to mark
-    those years with a dot.
+    seasons worth revisiting impossible to spot. This reads IESA's official
+    State Tournament Winners history and writes placements.json, which
+    season-selector.js and my-team.js use to mark the years in which the
+    visitor's chosen team finished in the top four with a trophy.
 
-    Placement is derived from the two final games rather than stored anywhere by
-    IESA: the championship winner and loser are first and second, and the third
-    place game's winner and loser are third and fourth. Seasons use one of two
-    layouts - an eight team bracket numbers the third place game 7 and the title
-    game 8, and a sixteen team bracket numbers them 15 and 16 - matching the
-    numbering app.js uses to draw them. The shape is read from the bracket's own
-    game numbers so that a live season, whose data.js is executable JavaScript
-    rather than JSON, is still covered. Seasons before 1998 have no bracket file
-    and keep their results inline on the page instead.
+    The history page (activities/gbk/winners.asp) lists the champion, runner-up,
+    third and fourth place school for every class and year since 1979. Every
+    class is stored, so any school's finishes can be found in the browser.
 
-    Re-run this after a season finishes.
+    Nothing is written unless every class page is read and validated, so an
+    outage or layout change can never replace good placements with fewer.
+
+    IESA updates the history after the state finals, so a current-season finish
+    appears once IESA publishes it.
 #>
 param(
-    [string]$SiteRoot = "C:\inetpub\personalroot\IESA",
-    [string]$Team = "Springfield Christian"
+    [string]$SiteRoot = "C:\inetpub\personalroot\IESA"
 )
 
 $ErrorActionPreference = "Stop"
+. (Join-Path $PSScriptRoot "2026\IesaRequest.ps1")
 
-function Read-JsonFile([string]$path) {
-    Get-Content -Raw -Encoding UTF8 $path | ConvertFrom-Json
+$historyUrl = "https://www.iesa.org/activities/gbk/winners.asp"
+
+# Each class IESA has used, the years it covers, the grade page on this site it
+# belongs to and the class name the site uses. Before 1986 one tournament
+# combined both grades, and 1986-1989 had one class per grade.
+$classes = @(
+    @{ Code = "Single"; Grade = "combined"; ClassName = $null; First = 1979; Last = 1985 }
+    @{ Code = "7";      Grade = "7th";      ClassName = $null; First = 1986; Last = 1989 }
+    @{ Code = "8";      Grade = "8th";      ClassName = $null; First = 1986; Last = 1989 }
+    @{ Code = "7A";     Grade = "7th";      ClassName = "A";   First = 1990; Last = 2005 }
+    @{ Code = "7AA";    Grade = "7th";      ClassName = "AA";  First = 1990; Last = 2005 }
+    @{ Code = "8A";     Grade = "8th";      ClassName = "A";   First = 1990; Last = 2005 }
+    @{ Code = "8AA";    Grade = "8th";      ClassName = "AA";  First = 1990; Last = 2005 }
+    @{ Code = "7-1A";   Grade = "7th";      ClassName = "1A";  First = 2006; Last = $null }
+    @{ Code = "7-2A";   Grade = "7th";      ClassName = "2A";  First = 2006; Last = $null }
+    @{ Code = "7-3A";   Grade = "7th";      ClassName = "3A";  First = 2006; Last = $null }
+    @{ Code = "7-4A";   Grade = "7th";      ClassName = "4A";  First = 2006; Last = $null }
+    @{ Code = "8-1A";   Grade = "8th";      ClassName = "1A";  First = 2006; Last = $null }
+    @{ Code = "8-2A";   Grade = "8th";      ClassName = "2A";  First = 2006; Last = $null }
+    @{ Code = "8-3A";   Grade = "8th";      ClassName = "3A";  First = 2006; Last = $null }
+    @{ Code = "8-4A";   Grade = "8th";      ClassName = "4A";  First = 2006; Last = $null }
+)
+
+function Get-CellText([string]$html) {
+    [System.Net.WebUtility]::HtmlDecode(($html -replace '<[^>]+>', '')).Trim() -replace '\s+', ' '
 }
 
-# Archive pages ship data as a JavaScript assignment; the value itself is JSON.
-function Read-DataScript([string]$path) {
-    $text = Get-Content -Raw -Encoding UTF8 $path
-    $start = $text.IndexOf("{")
-    $end = $text.LastIndexOf("}")
-    if ($start -lt 0 -or $end -le $start) { return $null }
-    try { $text.Substring($start, $end - $start + 1) | ConvertFrom-Json } catch { $null }
-}
+function Get-ClassHistory($class) {
+    $url = "${historyUrl}?Class=$([uri]::EscapeDataString($class.Code))"
+    $page = Invoke-IesaPage $url
+    $html = [string]$page.Content
+    if ($page.StatusCode -ne 200 -or $html -notmatch 'State Tournament Winners') {
+        throw "Unexpected IESA page at $url"
+    }
+    # The page silently falls back to its default class for an unknown code.
+    $subtitle = [regex]::Match($html, "(?is)<td\s+class=['""]TableSubtitle['""][^>]*>(.*?)</td>")
+    $label = Get-CellText $subtitle.Groups[1].Value
+    $expected = switch ($class.Code) {
+        "Single" { "1979-1985" }
+        "7" { "7th Grade: 1986-1989" }
+        "8" { "8th Grade: 1986-1989" }
+        default { "Class $($class.Code): $($class.First)-" }
+    }
+    if (!$subtitle.Success -or !$label.StartsWith($expected)) {
+        throw "IESA returned '$label' instead of class $($class.Code) at $url"
+    }
+    if ($html -notmatch '(?is)<th>\s*Champion\s*</th>.*?<th>\s*Runner Up\s*</th>.*?<th>\s*Third Place\s*</th>.*?<th>\s*Fourth Place\s*</th>') {
+        throw "Class $($class.Code) history no longer has champion through fourth place columns at $url"
+    }
 
-function Get-Opponent($game) {
-    if (!$game) { return $null }
-    $game.teams | Where-Object { $_ -ne $game.winner } | Select-Object -First 1
-}
-
-$seasons = [ordered]@{}
-
-foreach ($yearDir in Get-ChildItem -Directory $SiteRoot |
-    Where-Object { $_.Name -match '^\d{4}$' } | Sort-Object Name) {
-    $year = $yearDir.Name
-
-    foreach ($grade in @("7th", "8th", "combined")) {
-        $folder = Join-Path $yearDir.FullName $grade
-        if (!(Test-Path $folder)) { continue }
-
-        $places = @{}
-        $bracketPath = Join-Path $yearDir.FullName "bracket-$grade.json"
-
-        if (Test-Path $bracketPath) {
-            # 1998 onward: results live in a sibling bracket file. The bracket's
-            # own game numbers reveal its shape, so the page data is not needed -
-            # which matters because a live season's data.js is executable
-            # JavaScript rather than JSON.
-            $games = (Read-JsonFile $bracketPath).games
-            if (!$games) { continue }
-            $numbers = $games.PSObject.Properties.Name
-            $hasFirstRound = $numbers -contains "16"
-            $titleNumber = if ($hasFirstRound) { "16" } else { "8" }
-            $thirdNumber = if ($hasFirstRound) { "15" } else { "7" }
-            $title = $games.$titleNumber
-            $third = $games.$thirdNumber
-            if ($title) { $places[1] = $title.winner; $places[2] = $title.loser }
-            if ($third) { $places[3] = $third.winner; $places[4] = $third.loser }
-        } else {
-            # 1979-1997: the whole state bracket is inline on the page.
-            $dataJson = Join-Path $folder "data.json"
-            $dataScript = Join-Path $folder "data.js"
-            $data = if (Test-Path $dataJson) { Read-JsonFile $dataJson }
-                    elseif (Test-Path $dataScript) { Read-DataScript $dataScript }
-                    else { $null }
-            if (!$data -or !($data.PSObject.Properties.Name -contains "rounds") -or !$data.rounds) {
-                continue
-            }
-            $title = @($data.rounds."State Championship")[0]
-            $third = @($data.rounds."Third Place")[0]
-            if ($title) { $places[1] = $title.winner; $places[2] = Get-Opponent $title }
-            if ($third) { $places[3] = $third.winner; $places[4] = Get-Opponent $third }
+    $rows = @(foreach ($row in [regex]::Matches($html, "(?is)<tr>\s*(<td\s+class=['""]Label['""].*?)</tr>")) {
+        $cells = @([regex]::Matches($row.Groups[1].Value, "(?is)<td[^>]*>(.*?)</td>") |
+            ForEach-Object { Get-CellText $_.Groups[1].Value })
+        if ($cells.Count -ne 7 -or $cells[0] -notmatch '^\d{4}$') {
+            throw "Unreadable class $($class.Code) history row: $($cells -join ' | ')"
         }
-
-        foreach ($place in 1..4) {
-            if ($places[$place] -eq $Team) {
-                if (!$seasons.Contains($year)) { $seasons[$year] = [ordered]@{} }
-                $seasons[$year][$grade] = $place
-                break
-            }
+        $year = [int]$cells[0]
+        if ($year -lt $class.First -or ($class.Last -and $year -gt $class.Last)) {
+            throw "Class $($class.Code) history lists $year, outside $($class.First)-$($class.Last)"
         }
+        [pscustomobject]@{ Year = $year; Places = @($cells[1], $cells[4], $cells[5], $cells[6]) }
+    })
+    if (!$rows.Count) { throw "Class $($class.Code) history at $url has no seasons." }
+    if (@($rows.Year | Sort-Object -Unique).Count -ne $rows.Count) {
+        throw "Class $($class.Code) history lists a season more than once."
+    }
+    [pscustomobject]@{ Url = $url; Rows = $rows }
+}
+
+$results = New-Object System.Collections.Generic.List[object]
+foreach ($class in $classes) {
+    $history = Get-ClassHistory $class
+    foreach ($row in $history.Rows) {
+        $results.Add([pscustomobject][ordered]@{
+            year = $row.Year
+            grade = $class.Grade
+            className = $class.ClassName
+            code = $class.Code
+            places = @($row.Places | ForEach-Object { if ($_) { $_ } else { $null } })
+            source = $history.Url
+        })
     }
 }
 
 $output = [ordered]@{
-    team = $Team
+    source = $historyUrl
     generatedAt = (Get-Date).ToString("yyyy-MM-dd HH:mm")
-    seasons = $seasons
+    results = @($results | Sort-Object @{ Expression = 'year'; Descending = $true }, grade, code)
 }
 
 $destination = Join-Path $SiteRoot "placements.json"
 $temporary = "$destination.tmp"
-$output | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 $temporary
+[System.IO.File]::WriteAllText($temporary, ($output | ConvertTo-Json -Depth 5 -Compress),
+    [System.Text.UTF8Encoding]::new($false))
 Move-Item -Force $temporary $destination
 
-$total = ($seasons.Keys | ForEach-Object { $seasons[$_].Keys.Count } | Measure-Object -Sum).Sum
-Write-Host "Recorded $total top-four finish(es) for $Team across $($seasons.Keys.Count) season(s)."
-foreach ($year in $seasons.Keys) {
-    foreach ($grade in $seasons[$year].Keys) {
-        Write-Host ("  {0} {1}: place {2}" -f $year, $grade, $seasons[$year][$grade])
-    }
-}
+Write-Host "Recorded $($results.Count) state tournaments from IESA's history ($($classes.Count) classes)."

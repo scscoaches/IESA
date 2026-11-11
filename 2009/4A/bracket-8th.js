@@ -1,0 +1,349 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 10:53",
+    "year":  2009,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Edwardsville Liberty",
+                                 "loser":  "Edwardsville Lincoln",
+                                 "score":  "33-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Frankfort Summit Hill",
+                                "loser":  "Matteson Colin Powell",
+                                "score":  "43-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Bolingbrook Humphrey",
+                                "loser":  "Bellwood Roosevelt",
+                                "score":  "44-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Effingham JHS",
+                                 "loser":  "Champaign Franklin",
+                                 "score":  "37-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Morton JHS",
+                                 "loser":  "Canton Ingersoll",
+                                 "score":  "31-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Glenwood Brookwood",
+                                "loser":  "University Park Crete Monee",
+                                "score":  "38-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "Coal City",
+                                "loser":  "Ottawa Shepherd",
+                                "score":  "28-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Mahomet-Seymour",
+                                 "loser":  "Monticello",
+                                 "score":  "31-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Country Club Hills Southwood",
+                                "loser":  "Markham Prairie-Hills",
+                                "score":  "49-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Kingsley",
+                                "loser":  "Normal Chiddix",
+                                "score":  "20-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Springfield Franklin",
+                                 "score":  "32-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "Joliet Dirksen",
+                                "loser":  "Shorewood Troy",
+                                "score":  "34-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Bethalto Trimpe",
+                                 "loser":  "Hillsboro",
+                                 "score":  "28-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "New Lenox Liberty",
+                                "loser":  "New Lenox Martino",
+                                "score":  "26-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Bradley Central",
+                                "loser":  "Peotone",
+                                "score":  "38-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Taylorville JHS",
+                                 "score":  "40-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "3":  {
+                                              "team":  "Frankfort Summit Hill",
+                                              "record":  "23-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Bolingbrook Humphrey",
+                                              "record":  "13-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Effingham JHS",
+                                               "record":  "15-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Morton JHS",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Glenwood Brookwood",
+                                              "record":  "6-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Coal City",
+                                              "record":  "16-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Mahomet-Seymour",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Country Club Hills Southwood",
+                                              "record":  "16-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Kingsley",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                          },
+                                    "16":  {
+                                               "team":  "Edwardsville Liberty",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Joliet Dirksen",
+                                              "record":  "12-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Bethalto Trimpe",
+                                               "record":  "16-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                           },
+                                    "4":  {
+                                              "team":  "Bradley Central",
+                                              "record":  "16-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Rochester",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Chatham Glenwood",
+                                 "score":  "37-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Bolingbrook Humphrey",
+                                 "loser":  "New Lenox Liberty",
+                                 "score":  "38-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Frankfort Summit Hill",
+                                 "loser":  "Bradley Central",
+                                 "score":  "48-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Country Club Hills Southwood",
+                                 "loser":  "Glenwood Brookwood",
+                                 "score":  "25-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Coal City",
+                                 "loser":  "Joliet Dirksen",
+                                 "score":  "40-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Mahomet-Seymour",
+                                 "loser":  "Effingham JHS",
+                                 "score":  "29-6",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Normal Kingsley",
+                                 "loser":  "Morton JHS",
+                                 "score":  "32-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Bethalto Trimpe",
+                                 "loser":  "Edwardsville Liberty",
+                                 "score":  "26-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2009\u0026Class=8-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           3
+                                       ],
+                                 "4":  [
+                                           1,
+                                           5
+                                       ],
+                                 "1":  [
+                                           2,
+                                           4
+                                       ],
+                                 "3":  [
+                                           7,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Frankfort Summit Hill",
+                                          "Normal Kingsley"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           29
+                                       ],
+                            "winner":  "Frankfort Summit Hill",
+                            "loser":  "Normal Kingsley",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Rochester",
+                                          "Mahomet-Seymour"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           10
+                                       ],
+                            "winner":  "Rochester",
+                            "loser":  "Mahomet-Seymour",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Bethalto Trimpe",
+                                          "Bolingbrook Humphrey"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           22
+                                       ],
+                            "winner":  "Bethalto Trimpe",
+                            "loser":  "Bolingbrook Humphrey",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Frankfort Summit Hill",
+                                          "Coal City"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           10
+                                       ],
+                            "winner":  "Frankfort Summit Hill",
+                            "loser":  "Coal City",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Country Club Hills Southwood",
+                                          "Normal Kingsley"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           37
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "Country Club Hills Southwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Rochester",
+                                          "Normal Kingsley"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           28
+                                       ],
+                            "winner":  "Rochester",
+                            "loser":  "Normal Kingsley",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Frankfort Summit Hill",
+                                          "Bethalto Trimpe"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           28
+                                       ],
+                            "winner":  "Bethalto Trimpe",
+                            "loser":  "Frankfort Summit Hill",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Bethalto Trimpe",
+                                          "Rochester"
+                                      ],
+                            "scores":  [
+                                           4,
+                                           26
+                                       ],
+                            "winner":  "Rochester",
+                            "loser":  "Bethalto Trimpe",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2009\u0026Class=8-4A"
+                        }
+              }
+};

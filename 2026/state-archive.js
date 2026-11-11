@@ -147,7 +147,7 @@
             if (game.note) { addElement(head, "small", "", game.note); }
             game.teams.forEach(function (team, side) {
                 var entry = addElement(card, "button", "entry" + (team === game.winner ? " advanced" : "") +
-                    (team === "Springfield Christian" ? " springfield-christian" : ""));
+                    (window.iesaMyTeam && window.iesaMyTeam.matches(team) ? " my-team" : ""));
                 entry.type = "button";
                 addElement(entry, "span", "", team);
                 addElement(entry, "span", "score", String(game.scores[side]));
@@ -172,7 +172,7 @@
     if (third.note) { addElement(thirdHead, "small", "", third.note); }
     third.teams.forEach(function (team, side) {
         var entry = addElement(thirdCard, "button", "entry" + (team === third.winner ? " advanced" : "") +
-            (team === "Springfield Christian" ? " springfield-christian" : ""));
+            (window.iesaMyTeam && window.iesaMyTeam.matches(team) ? " my-team" : ""));
         entry.type = "button";
         addElement(entry, "span", "", team);
         addElement(entry, "span", "score", String(third.scores[side]));

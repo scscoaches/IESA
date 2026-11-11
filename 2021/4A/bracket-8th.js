@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:12",
+    "year":  2021,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Alton",
+                                 "loser":  "Bethalto Trimpe",
+                                 "score":  "24-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Willowbrook Westview Hills",
+                                "loser":  "Maywood Irving",
+                                "score":  "42-6",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Flossmoor Parker",
+                                "loser":  "Homewood Hart",
+                                "score":  "26-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Dunlap Valley MS",
+                                 "loser":  "Macomb",
+                                 "score":  "52-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Frankfort Hickory Creek",
+                                 "loser":  "Frankfort Summit Hill",
+                                 "score":  "30-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Rockford Eisenhower",
+                                "loser":  "Rockford West",
+                                "score":  "28-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "Ottawa Shepherd",
+                                "loser":  "Joliet Dirksen",
+                                "score":  "40-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Bloomington Evans",
+                                 "loser":  "Washington Central",
+                                 "score":  "27-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Lake Zurich North",
+                                "loser":  "Vernon Hills Hawthorn North",
+                                "score":  "26-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "Kankakee JHS",
+                                "loser":  "University Park Crete Monee",
+                                "score":  "39-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Effingham JHS",
+                                 "loser":  "Mt. Zion",
+                                 "score":  "22-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "Lockport Oak Prairie",
+                                "loser":  "Joliet Washington",
+                                "score":  "27-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Rochester",
+                                 "score":  "48-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "Markham Prairie-Hills",
+                                "loser":  "New Lenox Martino",
+                                "score":  "45-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Bolingbrook Brooks",
+                                "loser":  "Woodridge Jefferson",
+                                "score":  "36-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Mahomet-Seymour",
+                                 "loser":  "Urbana MS",
+                                 "score":  "34-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Alton",
+                                               "record":  "18-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Willowbrook Westview Hills",
+                                              "record":  "11-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Flossmoor Parker",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Dunlap Valley MS",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Frankfort Hickory Creek",
+                                               "record":  "11-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Rockford Eisenhower",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Ottawa Shepherd",
+                                              "record":  "20-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Bloomington Evans",
+                                               "record":  "22-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lake Zurich North",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Kankakee JHS",
+                                              "record":  "11-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Effingham JHS",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Lockport Oak Prairie",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Quincy",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Markham Prairie-Hills",
+                                              "record":  "13-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Bolingbrook Brooks",
+                                              "record":  "15-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Mahomet-Seymour",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=8-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Mahomet-Seymour",
+                                 "loser":  "Effingham JHS",
+                                 "score":  "34-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Markham Prairie-Hills",
+                                 "loser":  "Flossmoor Parker",
+                                 "score":  "44-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Willowbrook Westview Hills",
+                                 "loser":  "Bolingbrook Brooks",
+                                 "score":  "38-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Lake Zurich North",
+                                 "loser":  "Rockford Eisenhower",
+                                 "score":  "43-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Lockport Oak Prairie",
+                                 "loser":  "Ottawa Shepherd",
+                                 "score":  "43-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Dunlap Valley MS",
+                                 "loser":  "Bloomington Evans",
+                                 "score":  "49-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Frankfort Hickory Creek",
+                                 "loser":  "Kankakee JHS",
+                                 "score":  "31-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Alton",
+                                 "score":  "24-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=8-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           3
+                                       ],
+                                 "4":  [
+                                           7,
+                                           1
+                                       ],
+                                 "1":  [
+                                           2,
+                                           6
+                                       ],
+                                 "3":  [
+                                           4,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Markham Prairie-Hills",
+                                          "Lake Zurich North"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           34
+                                       ],
+                            "winner":  "Markham Prairie-Hills",
+                            "loser":  "Lake Zurich North",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Lockport Oak Prairie",
+                                          "Quincy"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           35
+                                       ],
+                            "winner":  "Quincy",
+                            "loser":  "Lockport Oak Prairie",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Frankfort Hickory Creek",
+                                          "Markham Prairie-Hills"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           42
+                                       ],
+                            "winner":  "Markham Prairie-Hills",
+                            "loser":  "Frankfort Hickory Creek",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Willowbrook Westview Hills",
+                                          "Dunlap Valley MS"
+                                      ],
+                            "scores":  [
+                                           14,
+                                           56
+                                       ],
+                            "winner":  "Dunlap Valley MS",
+                            "loser":  "Willowbrook Westview Hills",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Mahomet-Seymour",
+                                          "Lake Zurich North"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           33
+                                       ],
+                            "winner":  "Lake Zurich North",
+                            "loser":  "Mahomet-Seymour",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Quincy",
+                                          "Lake Zurich North"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           26
+                                       ],
+                            "winner":  "Quincy",
+                            "loser":  "Lake Zurich North",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Dunlap Valley MS",
+                                          "Markham Prairie-Hills"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           14
+                                       ],
+                            "winner":  "Dunlap Valley MS",
+                            "loser":  "Markham Prairie-Hills",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Dunlap Valley MS",
+                                          "Quincy"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           30
+                                       ],
+                            "winner":  "Dunlap Valley MS",
+                            "loser":  "Quincy",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=8-4A"
+                        }
+              }
+};

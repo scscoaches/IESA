@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:12",
+    "year":  2022,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "White Hall North Greene",
+                                 "loser":  "Bunker Hill Wolf Ridge",
+                                 "score":  "25-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "McNabb Putnam County",
+                                "loser":  "Spring Valley Kennedy",
+                                "score":  "30-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Toulon Stark County",
+                                "loser":  "Williamsfield",
+                                "score":  "18-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Liberty",
+                                 "loser":  "Carthage",
+                                 "score":  "36-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Havana",
+                                 "loser":  "Mt. Pulaski",
+                                 "score":  "34-6",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Onarga Iroquois West",
+                                "loser":  "Dwight",
+                                "score":  "27-3",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Gibson City GCMS",
+                                "loser":  "Bement",
+                                "score":  "25-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Lewistown JHS",
+                                 "loser":  "Colchester West Prairie",
+                                 "score":  "37-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Riverdale Washington",
+                                "loser":  "Seneca",
+                                "score":  "42-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur Montessori Academy for Peace",
+                                "loser":  "Decatur Our Lady of Lourdes",
+                                "score":  "34-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Altamont",
+                                 "loser":  "Stewardson-Strasburg",
+                                 "score":  "32-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Paris Crestwood",
+                                "loser":  "Armstrong-Ellis",
+                                "score":  "51-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Nokomis JHS",
+                                 "loser":  "Assumption Central A \u0026 M",
+                                 "score":  "28-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Glasford Illini Bluffs",
+                                "loser":  "Peoria Christian",
+                                "score":  "31-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "Heyworth",
+                                "loser":  "Lexington",
+                                "score":  "27-7",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Albion",
+                                 "loser":  "Oblong",
+                                 "score":  "42-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "White Hall North Greene",
+                                               "record":  "14-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "McNabb Putnam County",
+                                              "record":  "10-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Toulon Stark County",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Liberty",
+                                               "record":  "24-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Havana",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Onarga Iroquois West",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Gibson City GCMS",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Lewistown JHS",
+                                               "record":  "20-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Riverdale Washington",
+                                              "record":  "13-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Decatur Montessori Academy for Peace",
+                                              "record":  "12-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Altamont",
+                                               "record":  "19-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Paris Crestwood",
+                                              "record":  "21-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Nokomis JHS",
+                                               "record":  "22-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Glasford Illini Bluffs",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Heyworth",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Albion",
+                                               "record":  "11-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Altamont",
+                                 "loser":  "Albion",
+                                 "score":  "32-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Glasford Illini Bluffs",
+                                 "loser":  "Toulon Stark County",
+                                 "score":  "28-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Heyworth",
+                                 "loser":  "McNabb Putnam County",
+                                 "score":  "25-7",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Riverdale Washington",
+                                 "loser":  "Onarga Iroquois West",
+                                 "score":  "26-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Gibson City GCMS",
+                                 "score":  "41-4",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Liberty",
+                                 "loser":  "Lewistown JHS",
+                                 "score":  "24-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Havana",
+                                 "loser":  "Decatur Montessori Academy for Peace",
+                                 "score":  "49-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Nokomis JHS",
+                                 "loser":  "White Hall North Greene",
+                                 "score":  "43-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2022\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           1,
+                                           8
+                                       ],
+                                 "4":  [
+                                           4,
+                                           5
+                                       ],
+                                 "1":  [
+                                           6,
+                                           7
+                                       ],
+                                 "3":  [
+                                           3,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Nokomis JHS",
+                                          "Heyworth"
+                                      ],
+                            "scores":  [
+                                           13,
+                                           21
+                                       ],
+                            "winner":  "Heyworth",
+                            "loser":  "Nokomis JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Glasford Illini Bluffs",
+                                          "Heyworth"
+                                      ],
+                            "scores":  [
+                                           14,
+                                           26
+                                       ],
+                            "winner":  "Heyworth",
+                            "loser":  "Glasford Illini Bluffs",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Riverdale Washington",
+                                          "Nokomis JHS"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           35
+                                       ],
+                            "winner":  "Nokomis JHS",
+                            "loser":  "Riverdale Washington",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Liberty",
+                                          "Altamont"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           19
+                                       ],
+                            "winner":  "Liberty",
+                            "loser":  "Altamont",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Paris Crestwood",
+                                          "Havana"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           22
+                                       ],
+                            "winner":  "Havana",
+                            "loser":  "Paris Crestwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Heyworth",
+                                          "Havana"
+                                      ],
+                            "scores":  [
+                                           8,
+                                           26
+                                       ],
+                            "winner":  "Havana",
+                            "loser":  "Heyworth",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Liberty",
+                                          "Nokomis JHS"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           19
+                                       ],
+                            "winner":  "Liberty",
+                            "loser":  "Nokomis JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Liberty",
+                                          "Havana"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           41
+                                       ],
+                            "winner":  "Havana",
+                            "loser":  "Liberty",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2022\u0026Class=7-2A"
+                        }
+              }
+};

@@ -1,0 +1,385 @@
+﻿window.tournamentData = {
+    "year":  2012,
+    "grade":  "7th",
+    "className":  "4A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Flossmoor Parker",
+                          "teams":  [
+                                        "Phoenix Coolidge",
+                                        "Harvey Brooks",
+                                        "Flossmoor Parker",
+                                        "Calumet City Dirksen",
+                                        "Robbins Kellar",
+                                        "Markham Prairie-Hills"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Park Forest Forest Trail",
+                          "teams":  [
+                                        "Chicago Heights Washington",
+                                        "Country Club Hills Southwood",
+                                        "Lansing Memorial",
+                                        "Park Forest Forest Trail",
+                                        "Homewood Hart"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Bolingbrook Brooks",
+                          "teams":  [
+                                        "Bolingbrook Brooks",
+                                        "Romeoville Martinez",
+                                        "Bolingbrook Jane Addams",
+                                        "Bellwood Roosevelt",
+                                        "Summit Heritage",
+                                        "Bolingbrook Humphrey",
+                                        "Romeoville Lukancic"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Matteson Colin Powell",
+                          "teams":  [
+                                        "Frankfort Summit Hill",
+                                        "Mokena",
+                                        "Matteson Huth",
+                                        "Matteson Colin Powell",
+                                        "Frankfort Hickory Creek",
+                                        "Homer Glen Homer"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Joliet Washington",
+                          "teams":  [
+                                        "Joliet Washington",
+                                        "Lockport Oak Prairie",
+                                        "New Lenox Liberty",
+                                        "New Lenox Martino",
+                                        "Joliet Gompers"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Minooka",
+                          "teams":  [
+                                        "Channahon",
+                                        "Minooka",
+                                        "Joliet Hufford",
+                                        "Shorewood Troy",
+                                        "Joliet Dirksen"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Peotone",
+                          "teams":  [
+                                        "Peotone",
+                                        "Bourbonnais UGC",
+                                        "Manteno",
+                                        "Kankakee JHS",
+                                        "Bradley Central"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Ottawa Shepherd",
+                          "teams":  [
+                                        "Forrest Prairie Central",
+                                        "Braidwood Reed-Custer",
+                                        "Ottawa Shepherd",
+                                        "Coal City",
+                                        "Streator Northlawn",
+                                        "Pontiac JHS"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Normal Chiddix",
+                          "teams":  [
+                                        "Normal Chiddix",
+                                        "Bloomington JHS",
+                                        "Normal Kingsley",
+                                        "Bloomington Evans",
+                                        "Clinton",
+                                        "Normal Parkside",
+                                        "Stanford Olympia"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Morton JHS",
+                          "teams":  [
+                                        "Morton JHS",
+                                        "Canton Ingersoll",
+                                        "Pekin Edison",
+                                        "Dunlap MS",
+                                        "Macomb",
+                                        "East Peoria Central",
+                                        "Pekin Broadmoor"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Urbana MS",
+                          "teams":  [
+                                        "Mahomet-Seymour",
+                                        "Urbana MS",
+                                        "Rantoul Eater",
+                                        "Danville North Ridge",
+                                        "Danville South View"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Charleston",
+                          "teams":  [
+                                        "Champaign Jefferson",
+                                        "Effingham JHS",
+                                        "Mattoon",
+                                        "Charleston",
+                                        "Champaign Franklin",
+                                        "Champaign Edison"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Taylorville JHS",
+                          "teams":  [
+                                        "Taylorville JHS",
+                                        "Rochester",
+                                        "Chatham Glenwood",
+                                        "Mt. Zion",
+                                        "Decatur Stephen Decatur",
+                                        "Decatur Jefferson"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Springfield Grant",
+                          "teams":  [
+                                        "Springfield Lincoln",
+                                        "Springfield Grant",
+                                        "Springfield Franklin",
+                                        "Quincy",
+                                        "Springfield Washington",
+                                        "Springfield Jefferson"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Bethalto Trimpe",
+                          "teams":  [
+                                        "Bethalto Trimpe",
+                                        "Jacksonville Turner",
+                                        "Jerseyville Illini",
+                                        "Alton"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Edwardsville Liberty",
+                          "teams":  [
+                                        "Edwardsville Liberty",
+                                        "Cahokia Wirth",
+                                        "Edwardsville Lincoln",
+                                        "East St. Louis Lincoln",
+                                        "East St. Louis Clark"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Park Forest Forest Trail",
+                           "date":  "Wednesday, November 28, 2012",
+                           "records":  {
+                                           "1":  "14-0",
+                                           "2":  "11-3"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Homer Glen Homer",
+                           "date":  "Wednesday, November 28, 2012",
+                           "records":  {
+                                           "3":  "13-5",
+                                           "4":  "19-3"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Joliet Washington",
+                           "date":  "Wednesday, November 28, 2012",
+                           "records":  {
+                                           "5":  "14-9",
+                                           "6":  "20-1"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Ottawa Shepherd",
+                           "date":  "Wednesday, November 28, 2012",
+                           "records":  {
+                                           "7":  "19-1",
+                                           "8":  "18-6"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Morton JHS",
+                           "date":  "Wednesday, November 28, 2012",
+                           "records":  {
+                                           "9":  "19-4",
+                                           "10":  "23-0"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Mahomet-Seymour",
+                           "date":  "Wednesday, November 28, 2012",
+                           "records":  {
+                                           "11":  "16-7",
+                                           "12":  "19-2"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Taylorville JHS",
+                           "date":  "Wednesday, November 28, 2012",
+                           "records":  {
+                                           "13":  "19-4",
+                                           "14":  "14-2"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Edwardsville Liberty",
+                           "date":  "Wednesday, November 28, 2012",
+                           "records":  {
+                                           "15":  "15-2",
+                                           "16":  "24-0"
+                                       }
+                       }
+                   ],
+    "venue":  "Normal Parkside JHS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              2,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              3,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              5,
+                                              1
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              6,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

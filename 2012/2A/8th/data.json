@@ -1,0 +1,395 @@
+﻿{
+    "year":  2012,
+    "grade":  "8th",
+    "className":  "2A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "St. Anne",
+                          "teams":  [
+                                        "Bourbonnais St. George",
+                                        "Bridgeview Universal",
+                                        "St. Anne",
+                                        "Grant Park",
+                                        "Riverdale Patton",
+                                        "Elmwood Park St. Celestine",
+                                        "Lynwood Sandridge",
+                                        "Ford Heights Cottage Grove UGC"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Seneca",
+                          "teams":  [
+                                        "Seneca",
+                                        "Dwight",
+                                        "Herscher JHS",
+                                        "Marseilles ES",
+                                        "Elwood GS"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Grand Ridge",
+                          "teams":  [
+                                        "Oglesby Washington",
+                                        "McNabb Putnam County",
+                                        "Ottawa Wallace",
+                                        "Grand Ridge",
+                                        "Roanoke-Benson",
+                                        "Sparland Midland"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Bloomington Holy Trinity",
+                          "teams":  [
+                                        "Bloomington Holy Trinity",
+                                        "Normal Epiphany",
+                                        "Normal Metcalf",
+                                        "LeRoy",
+                                        "Tremont",
+                                        "Lexington",
+                                        "Colfax Ridgeview"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Peoria St. Vincent de Paul",
+                          "teams":  [
+                                        "Brimfield",
+                                        "Peoria Christian",
+                                        "Elmwood",
+                                        "Princeville",
+                                        "Peoria St. Vincent de Paul",
+                                        "Peoria Heights St. Thomas",
+                                        "Peoria Heights GS"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Lewistown Central",
+                          "teams":  [
+                                        "Peoria St. Philomena",
+                                        "Lewistown Central",
+                                        "Glasford Illini Bluffs",
+                                        "Bartonville Oak Grove West",
+                                        "Peoria Norwood",
+                                        "Creve Coeur Parkview"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Table Grove VIT",
+                          "teams":  [
+                                        "Table Grove VIT",
+                                        "Carthage",
+                                        "Abingdon",
+                                        "La Harpe",
+                                        "Colchester West Prairie",
+                                        "Nauvoo-Colusa"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Liberty",
+                          "teams":  [
+                                        "Mendon Unity",
+                                        "Augusta Southeastern",
+                                        "Kinderhook Western",
+                                        "Liberty",
+                                        "Mt. Sterling Brown County"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Milford",
+                          "teams":  [
+                                        "Milford",
+                                        "Bismarck-Henning",
+                                        "Catlin",
+                                        "Homer Heritage",
+                                        "Urbana University"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Champaign St. Matthew",
+                          "teams":  [
+                                        "Champaign St. Matthew",
+                                        "Mansfield Blue Ridge JHS",
+                                        "Champaign Judah Christian",
+                                        "Fisher",
+                                        "Cerro Gordo"
+                                    ],
+                          "assignedTeams":  [
+                                                "Cerro Gordo",
+                                                "Champaign Judah Christian",
+                                                "Champaign St. Matthew",
+                                                "Fisher",
+                                                "Mansfield Blue Ridge IJHS"
+                                            ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Assumption Central A \u0026 M",
+                          "teams":  [
+                                        "Assumption Central A \u0026 M",
+                                        "Decatur Lutheran",
+                                        "Nokomis JHS",
+                                        "Illiopolis Sangamon Valley",
+                                        "Decatur Robertson",
+                                        "Decatur Johns Hill"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Mason City Illini Central",
+                          "teams":  [
+                                        "Springfield St. Agnes",
+                                        "Mason City Illini Central",
+                                        "Springfield Christ the King",
+                                        "Springfield Blessed Sacrament",
+                                        "Buffalo Tri-City",
+                                        "Pawnee"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Paris Crestwood",
+                          "teams":  [
+                                        "Paris Crestwood",
+                                        "Arcola",
+                                        "Arthur",
+                                        "Palestine",
+                                        "Villa Grove",
+                                        "Oblong"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Kinmundy South Central",
+                          "teams":  [
+                                        "Altamont",
+                                        "Kinmundy South Central",
+                                        "Neoga",
+                                        "Stewardson-Strasburg",
+                                        "Beecher City",
+                                        "Cisne"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Mt. Olive",
+                          "teams":  [
+                                        "Mt. Olive",
+                                        "Madison",
+                                        "Bunker Hill Wolf Ridge",
+                                        "Wood River Lewis \u0026 Clark",
+                                        "East Alton MS"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Jerseyville St. Francis HG",
+                          "teams":  [
+                                        "Winchester",
+                                        "Hardin Calhoun",
+                                        "Jerseyville St. Francis HG",
+                                        "Carrollton GS",
+                                        "Roodhouse North Greene"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Bourbonnais St. George",
+                           "date":  "Wednesday, December 05, 2012",
+                           "records":  {
+                                           "1":  "19-6",
+                                           "2":  "17-5"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "McNabb Putnam County",
+                           "date":  "Wednesday, December 05, 2012",
+                           "records":  {
+                                           "3":  "10-9",
+                                           "4":  "23-1"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Peoria Christian",
+                           "date":  "Wednesday, December 05, 2012",
+                           "records":  {
+                                           "5":  "17-7",
+                                           "6":  "20-1"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Mendon Unity",
+                           "date":  "Wednesday, December 05, 2012",
+                           "records":  {
+                                           "7":  "21-3",
+                                           "8":  "23-1"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Champaign St. Matthew",
+                           "date":  "Wednesday, December 05, 2012",
+                           "records":  {
+                                           "9":  "14-5",
+                                           "10":  "15-7"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Pawnee",
+                           "date":  "Wednesday, December 05, 2012",
+                           "records":  {
+                                           "11":  "18-6",
+                                           "12":  "18-5"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Paris Crestwood",
+                           "date":  "Wednesday, December 05, 2012",
+                           "records":  {
+                                           "13":  "19-0",
+                                           "14":  "18-4"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Mt. Olive",
+                           "date":  "Wednesday, December 05, 2012",
+                           "records":  {
+                                           "15":  "23-1",
+                                           "16":  "17-1"
+                                       }
+                       }
+                   ],
+    "venue":  "Auburn HS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              3,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              8,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              4,
+                                              1
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              7,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 10:47",
+    "year":  2006,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Litchfield",
+                                 "loser":  "Carlinville",
+                                 "score":  "43-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                             },
+                      "3":  {
+                                "winner":  "Gibson City GCMS",
+                                "loser":  "Herscher Limestone",
+                                "score":  "23-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                            },
+                      "5":  {
+                                "winner":  "Wenona Fieldcrest",
+                                "loser":  "Peru Washington",
+                                "score":  "30-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Beardstown MS",
+                                 "loser":  "Liberty",
+                                 "score":  "32-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Williamsville",
+                                 "loser":  "Lincoln JHS",
+                                 "score":  "26-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                             },
+                      "2":  {
+                                "winner":  "Lockport Kelvin Grove",
+                                "loser":  "Dwight",
+                                "score":  "44-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                            },
+                      "8":  {
+                                "winner":  "Sullivan",
+                                "loser":  "Assumption Central A \u0026 M",
+                                "score":  "18-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Glasford Illini Bluffs",
+                                 "loser":  "Bushnell-Prairie City",
+                                 "score":  "37-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                             },
+                      "1":  {
+                                "winner":  "South Holland McKinley",
+                                "loser":  "Beecher",
+                                "score":  "22-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                            },
+                      "9":  {
+                                "winner":  "Stanford Olympia",
+                                "loser":  "Green Valley Midwest Central",
+                                "score":  "37-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Altamont",
+                                 "score":  "42-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                             },
+                      "7":  {
+                                "winner":  "Downs Tri-Valley",
+                                "loser":  "Tolono Unity",
+                                "score":  "37-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Franklin",
+                                 "loser":  "Auburn",
+                                 "score":  "22-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                             },
+                      "6":  {
+                                "winner":  "Mossville",
+                                "loser":  "Washington Central",
+                                "score":  "38-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                            },
+                      "4":  {
+                                "winner":  "St. Joseph",
+                                "loser":  "Westville JHS",
+                                "score":  "34-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Paris Mayo",
+                                 "loser":  "Marshall JHS",
+                                 "score":  "40-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Litchfield",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Gibson City GCMS",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Wenona Fieldcrest",
+                                              "record":  "21-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Beardstown MS",
+                                               "record":  "18-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Williamsville",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Lockport Kelvin Grove",
+                                              "record":  "8-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Sullivan",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Glasford Illini Bluffs",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "South Holland McKinley",
+                                              "record":  "12-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Stanford Olympia",
+                                              "record":  "15-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "17-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Downs Tri-Valley",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Franklin",
+                                               "record":  "15-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Mossville",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "St. Joseph",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Paris Mayo",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2006\u0026Class=7-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Paris Mayo",
+                                 "loser":  "Teutopolis",
+                                 "score":  "28-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Wenona Fieldcrest",
+                                 "loser":  "Mossville",
+                                 "score":  "26-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-3A"
+                             },
+                       "2":  {
+                                 "winner":  "St. Joseph",
+                                 "loser":  "Gibson City GCMS",
+                                 "score":  "19-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Lockport Kelvin Grove",
+                                 "loser":  "South Holland McKinley",
+                                 "score":  "27-09",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Downs Tri-Valley",
+                                 "loser":  "Sullivan",
+                                 "score":  "28-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Glasford Illini Bluffs",
+                                 "loser":  "Beardstown MS",
+                                 "score":  "47-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Williamsville",
+                                 "loser":  "Stanford Olympia",
+                                 "score":  "28-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Litchfield",
+                                 "loser":  "Franklin",
+                                 "score":  "45-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2006\u0026Class=7-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           2,
+                                           5
+                                       ],
+                                 "4":  [
+                                           7,
+                                           3
+                                       ],
+                                 "1":  [
+                                           6,
+                                           4
+                                       ],
+                                 "3":  [
+                                           1,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Glasford Illini Bluffs",
+                                          "Lockport Kelvin Grove"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           35
+                                       ],
+                            "winner":  "Glasford Illini Bluffs",
+                            "loser":  "Lockport Kelvin Grove",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Lockport Kelvin Grove",
+                                          "Litchfield"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           35
+                                       ],
+                            "winner":  "Lockport Kelvin Grove",
+                            "loser":  "Litchfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "St. Joseph",
+                                          "Williamsville"
+                                      ],
+                            "scores":  [
+                                           7,
+                                           31
+                                       ],
+                            "winner":  "Williamsville",
+                            "loser":  "St. Joseph",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Glasford Illini Bluffs",
+                                          "Downs Tri-Valley"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           23
+                                       ],
+                            "winner":  "Glasford Illini Bluffs",
+                            "loser":  "Downs Tri-Valley",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Paris Mayo",
+                                          "Wenona Fieldcrest"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           13
+                                       ],
+                            "winner":  "Paris Mayo",
+                            "loser":  "Wenona Fieldcrest",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Lockport Kelvin Grove",
+                                          "Paris Mayo"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           27
+                                       ],
+                            "winner":  "Paris Mayo",
+                            "loser":  "Lockport Kelvin Grove",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Glasford Illini Bluffs",
+                                          "Williamsville"
+                                      ],
+                            "scores":  [
+                                           18,
+                                           21
+                                       ],
+                            "winner":  "Williamsville",
+                            "loser":  "Glasford Illini Bluffs",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Williamsville",
+                                          "Paris Mayo"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           25
+                                       ],
+                            "winner":  "Paris Mayo",
+                            "loser":  "Williamsville",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2006\u0026Class=7-3A"
+                        }
+              }
+};

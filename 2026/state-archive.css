@@ -7,9 +7,9 @@
 .archive-match .entry{min-height:32px;display:flex;gap:8px;align-items:center;justify-content:space-between}
 .archive-match button.entry{width:100%;border:0;border-bottom:1px solid #edf0f5;background:#fff;color:inherit;text-align:left;cursor:pointer}
 .archive-match button.entry:hover{background:#eef0ff}
-.archive-match button.entry.springfield-christian{background:#fff0bd;color:#522000}
+.archive-match button.entry.my-team{background:#fff0bd;color:#522000}
 .dark-theme .archive-match button.entry{background:#202b3e;color:#f0f3fa}
-.dark-theme .archive-match button.entry.springfield-christian{background:#62421a;color:#ffe3a0}
+.dark-theme .archive-match button.entry.my-team{background:#62421a;color:#ffe3a0}
 .archive-match .advanced{font-weight:bold}
 .archive-match .score{font-weight:bold;color:#283dab}
 .archive-match .head small{float:right;font-weight:normal}

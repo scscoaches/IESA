@@ -90,18 +90,18 @@
     background: #364563;
 }
 
-.regional > .entry.springfield-christian,
-.regional > .entry.springfield-christian:hover,
-.regional > .entry.springfield-christian.team-found,
-.dark-theme .regional > .entry.springfield-christian,
-.dark-theme .regional > .entry.springfield-christian:hover,
-.dark-theme .regional > .entry.springfield-christian.team-found {
+.regional > .entry.my-team,
+.regional > .entry.my-team:hover,
+.regional > .entry.my-team.team-found,
+.dark-theme .regional > .entry.my-team,
+.dark-theme .regional > .entry.my-team:hover,
+.dark-theme .regional > .entry.my-team.team-found {
     background: #ffe45c;
     color: #000;
 }
 
-.regional > .entry.springfield-christian .record-badge,
-.dark-theme .regional > .entry.springfield-christian .record-badge {
+.regional > .entry.my-team .record-badge,
+.dark-theme .regional > .entry.my-team .record-badge {
     background: #fff6c2;
     color: #000;
 }

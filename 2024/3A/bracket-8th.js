@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:17",
+    "year":  2024,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Carlinville",
+                                 "loser":  "New Berlin JHS",
+                                 "score":  "20-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             },
+                      "3":  {
+                                "winner":  "Morris Saratoga",
+                                "loser":  "Morris GS",
+                                "score":  "45-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "5":  {
+                                "winner":  "St. Joseph",
+                                "loser":  "Watseka JHS",
+                                "score":  "27-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Sullivan",
+                                 "score":  "43-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Sherrard JHS",
+                                 "loser":  "Farmington Central",
+                                 "score":  "29-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             },
+                      "2":  {
+                                "winner":  "South Holland McKinley",
+                                "loser":  "Robbins Kellar",
+                                "score":  "44-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "8":  {
+                                "winner":  "Eureka",
+                                "loser":  "El Paso-Gridley",
+                                "score":  "40-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Paris Mayo",
+                                 "loser":  "Lawrenceville Parkview",
+                                 "score":  "32-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             },
+                      "1":  {
+                                "winner":  "La Grange Highlands",
+                                "loser":  "Sauk Village Rickover",
+                                "score":  "35-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "9":  {
+                                "winner":  "Washington Central",
+                                "loser":  "Metamora GS",
+                                "score":  "32-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Pittsfield Pikeland",
+                                 "score":  "25-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             },
+                      "7":  {
+                                "winner":  "Maroa-Forsyth",
+                                "loser":  "Downs Tri-Valley",
+                                "score":  "34-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Staunton",
+                                 "loser":  "Piasa Southwestern",
+                                 "score":  "27-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             },
+                      "6":  {
+                                "winner":  "Peotone",
+                                "loser":  "Manteno",
+                                "score":  "25-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "4":  {
+                                "winner":  "Willowbrook Westview Hills",
+                                "loser":  "Rockford Marshall",
+                                "score":  "33-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Williamsville",
+                                 "loser":  "Springfield Lincoln",
+                                 "score":  "36-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Carlinville",
+                                               "record":  "18-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Morris Saratoga",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "St. Joseph",
+                                              "record":  "12-12",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Sherrard JHS",
+                                               "record":  "12-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "South Holland McKinley",
+                                              "record":  "13-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Eureka",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Paris Mayo",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "La Grange Highlands",
+                                              "record":  "10-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Washington Central",
+                                              "record":  "15-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Pleasant Plains",
+                                               "record":  "17-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Maroa-Forsyth",
+                                              "record":  "17-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Staunton",
+                                               "record":  "15-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Peotone",
+                                              "record":  "25-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Willowbrook Westview Hills",
+                                              "record":  "15-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Williamsville",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Williamsville",
+                                 "loser":  "Pleasant Plains",
+                                 "score":  "35-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Peotone",
+                                 "loser":  "St. Joseph",
+                                 "score":  "34-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Willowbrook Westview Hills",
+                                 "loser":  "Morris Saratoga",
+                                 "score":  "37-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "1":  {
+                                 "winner":  "La Grange Highlands",
+                                 "loser":  "South Holland McKinley",
+                                 "score":  "47-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Eureka",
+                                 "loser":  "Maroa-Forsyth",
+                                 "score":  "35-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Paris Mayo",
+                                 "loser":  "Teutopolis",
+                                 "score":  "29-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Washington Central",
+                                 "loser":  "Sherrard JHS",
+                                 "score":  "26-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Staunton",
+                                 "loser":  "Carlinville",
+                                 "score":  "34-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           8
+                                       ],
+                                 "4":  [
+                                           6,
+                                           1
+                                       ],
+                                 "1":  [
+                                           2,
+                                           4
+                                       ],
+                                 "3":  [
+                                           3,
+                                           5
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Staunton",
+                                          "Washington Central"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           27
+                                       ],
+                            "winner":  "Staunton",
+                            "loser":  "Washington Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Peotone",
+                                          "Washington Central"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           41
+                                       ],
+                            "winner":  "Washington Central",
+                            "loser":  "Peotone",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Williamsville",
+                                          "Staunton"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           46
+                                       ],
+                            "winner":  "Staunton",
+                            "loser":  "Williamsville",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Willowbrook Westview Hills",
+                                          "Eureka"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           38
+                                       ],
+                            "winner":  "Eureka",
+                            "loser":  "Willowbrook Westview Hills",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Paris Mayo",
+                                          "La Grange Highlands"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           8
+                                       ],
+                            "winner":  "Paris Mayo",
+                            "loser":  "La Grange Highlands",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Washington Central",
+                                          "Paris Mayo"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           39
+                                       ],
+                            "winner":  "Paris Mayo",
+                            "loser":  "Washington Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Eureka",
+                                          "Staunton"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           27
+                                       ],
+                            "winner":  "Eureka",
+                            "loser":  "Staunton",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Eureka",
+                                          "Paris Mayo"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           33
+                                       ],
+                            "winner":  "Paris Mayo",
+                            "loser":  "Eureka",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        }
+              }
+};

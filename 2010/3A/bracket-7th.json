@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-11 10:54",
+    "year":  2010,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Liberty",
+                                 "loser":  "Roodhouse North Greene",
+                                 "score":  "39-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                             },
+                      "3":  {
+                                "winner":  "Herscher Limestone",
+                                "loser":  "Morris Saratoga",
+                                "score":  "25-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                            },
+                      "5":  {
+                                "winner":  "Paxton-Buckley-Loda",
+                                "loser":  "Gibson City GCMS",
+                                "score":  "32-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Altamont",
+                                 "score":  "42-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Dunlap MS",
+                                 "loser":  "Chillicothe",
+                                 "score":  "35-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                             },
+                      "2":  {
+                                "winner":  "Lockport Kelvin Grove",
+                                "loser":  "Crest Hill Richland",
+                                "score":  "38-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                            },
+                      "8":  {
+                                "winner":  "Havana",
+                                "loser":  "Tremont",
+                                "score":  "30-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Casey-Westfield",
+                                 "loser":  "Marshall JHS",
+                                 "score":  "28-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                             },
+                      "1":  {
+                                "winner":  "South Holland McKinley",
+                                "loser":  "Beecher",
+                                "score":  "33-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                            },
+                      "9":  {
+                                "winner":  "Washington Central",
+                                "loser":  "Washington MS",
+                                "score":  "37-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Carlinville",
+                                 "loser":  "East St. Louis Younge",
+                                 "score":  "41-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                             },
+                      "7":  {
+                                "winner":  "Warrensburg-Latham",
+                                "loser":  "Downs Tri-Valley",
+                                "score":  "25-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Athens",
+                                 "score":  "36-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                             },
+                      "6":  {
+                                "winner":  "St. Joseph",
+                                "loser":  "Tuscola East Prairie",
+                                "score":  "23-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                            },
+                      "4":  {
+                                "winner":  "Wenona Fieldcrest",
+                                "loser":  "Peru Parkside",
+                                "score":  "31-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Assumption Central A \u0026 M",
+                                 "loser":  "Vandalia",
+                                 "score":  "37-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Liberty",
+                                               "record":  "20-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Herscher Limestone",
+                                              "record":  "14-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Paxton-Buckley-Loda",
+                                              "record":  "18-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Dunlap MS",
+                                               "record":  "15-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Lockport Kelvin Grove",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Havana",
+                                              "record":  "13-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Casey-Westfield",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "South Holland McKinley",
+                                              "record":  "13-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Washington Central",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Carlinville",
+                                               "record":  "17-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Warrensburg-Latham",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Pleasant Plains",
+                                               "record":  "20-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "St. Joseph",
+                                              "record":  "19-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Wenona Fieldcrest",
+                                              "record":  "20-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Assumption Central A \u0026 M",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Assumption Central A \u0026 M",
+                                 "loser":  "Carlinville",
+                                 "score":  "37-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-3A"
+                             },
+                       "3":  {
+                                 "winner":  "St. Joseph",
+                                 "loser":  "Paxton-Buckley-Loda",
+                                 "score":  "33-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Wenona Fieldcrest",
+                                 "loser":  "Herscher Limestone",
+                                 "score":  "37-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Lockport Kelvin Grove",
+                                 "loser":  "South Holland McKinley",
+                                 "score":  "40-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Warrensburg-Latham",
+                                 "loser":  "Havana",
+                                 "score":  "29-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Casey-Westfield",
+                                 "loser":  "Teutopolis",
+                                 "score":  "28-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Washington Central",
+                                 "loser":  "Dunlap MS",
+                                 "score":  "39-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Liberty",
+                                 "score":  "25-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=7-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           1
+                                       ],
+                                 "4":  [
+                                           8,
+                                           4
+                                       ],
+                                 "1":  [
+                                           5,
+                                           6
+                                       ],
+                                 "3":  [
+                                           2,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "St. Joseph",
+                                          "Pleasant Plains"
+                                      ],
+                            "scores":  [
+                                           12,
+                                           22
+                                       ],
+                            "winner":  "Pleasant Plains",
+                            "loser":  "St. Joseph",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Wenona Fieldcrest",
+                                          "Assumption Central A \u0026 M"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           37
+                                       ],
+                            "winner":  "Assumption Central A \u0026 M",
+                            "loser":  "Wenona Fieldcrest",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "St. Joseph",
+                                          "Lockport Kelvin Grove"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           24
+                                       ],
+                            "winner":  "St. Joseph",
+                            "loser":  "Lockport Kelvin Grove",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Washington Central",
+                                          "Casey-Westfield"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           30
+                                       ],
+                            "winner":  "Casey-Westfield",
+                            "loser":  "Washington Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Pleasant Plains",
+                                          "Warrensburg-Latham"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           5
+                                       ],
+                            "winner":  "Pleasant Plains",
+                            "loser":  "Warrensburg-Latham",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Assumption Central A \u0026 M",
+                                          "Pleasant Plains"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           22
+                                       ],
+                            "winner":  "Assumption Central A \u0026 M",
+                            "loser":  "Pleasant Plains",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Casey-Westfield",
+                                          "St. Joseph"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           32
+                                       ],
+                            "winner":  "Casey-Westfield",
+                            "loser":  "St. Joseph",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Casey-Westfield",
+                                          "Assumption Central A \u0026 M"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           38
+                                       ],
+                            "winner":  "Assumption Central A \u0026 M",
+                            "loser":  "Casey-Westfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=7-3A"
+                        }
+              }
+}

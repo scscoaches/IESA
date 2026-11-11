@@ -12,13 +12,16 @@
         .season{padding:18px;margin:14px 0;background:#24325c;border-radius:8px}
         .season h2{margin:0 0 12px}
         .season a{display:inline-block;margin:4px 10px 4px 0;padding:10px 16px;border-radius:5px;background:#fff;color:#2533ba;text-decoration:none;font-weight:bold}
+        .season .class-row{display:flex;flex-wrap:wrap;align-items:center;gap:0 6px;margin:2px 0}
+        .season .class-name{min-width:78px;color:#cbd1ff;font-weight:bold}
         .season small{color:#cbd1ff}
+        @media(max-width:480px){body{padding:14px}.season a{padding:9px 12px;margin-right:6px}.season .class-name{min-width:100%}}
     </style>
 </head>
 <body>
     <main>
         <h1>IESA Girls Basketball Brackets</h1>
-        <p>Explore IESA girls basketball tournament brackets by season, including the combined-grade early tournaments.</p>
+        <p>Explore IESA girls basketball tournament brackets by season and class, including the combined-grade early tournaments.</p>
         <div id="seasons" aria-live="polite">Loading seasons...</div>
         <noscript><p><a href="2026/index.html" style="color:white">2026 Class 2A tournament</a></p></noscript>
     </main>
@@ -34,14 +37,30 @@
                 var section = document.createElement("section");
                 section.className = "season";
                 var title = document.createElement("h2");
-                title.textContent = season.year + (season.className ? " Class " + season.className :
+                var classes = Array.isArray(season.classes) && season.classes.length ? season.classes :
+                    season.className ? [season.className] : [null];
+                title.textContent = season.year + (classes.length > 1 ? "" : season.className ? " Class " + season.className :
                     season.gradeMode === "combined" ? " Combined 7th/8th" : " 7th and 8th Grade");
                 section.appendChild(title);
-                (season.gradeMode === "combined" ? ["combined"] : ["7th", "8th"]).forEach(function(grade) {
-                    var link = document.createElement("a");
-                    link.href = season.year + "/" + grade + "/index.html";
-                    link.textContent = grade === "combined" ? "Combined 7th/8th Tournament" : grade + " Grade";
-                    section.appendChild(link);
+                classes.forEach(function(className) {
+                    var row = document.createElement("div");
+                    row.className = "class-row";
+                    if (classes.length > 1) {
+                        var name = document.createElement("span");
+                        name.className = "class-name";
+                        name.textContent = "Class " + className;
+                        row.appendChild(name);
+                    }
+                    // The first class archived for a year keeps <year>/<grade>; others live in <year>/<class>/<grade>.
+                    var folder = !className || className === season.className ? String(season.year) :
+                        season.year + "/" + className;
+                    (season.gradeMode === "combined" ? ["combined"] : ["7th", "8th"]).forEach(function(grade) {
+                        var link = document.createElement("a");
+                        link.href = folder + "/" + grade + "/index.html";
+                        link.textContent = grade === "combined" ? "Combined 7th/8th Tournament" : grade + " Grade";
+                        row.appendChild(link);
+                    });
+                    section.appendChild(row);
                 });
                 var note = document.createElement("small");
                 note.textContent = season.archived ? "Completed season" : "Current season";

@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:10",
+    "year":  2019,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East St. Louis Clark",
+                                 "loser":  "Cahokia Wirth",
+                                 "score":  "30-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Markham Prairie-Hills",
+                                "loser":  "Willowbrook Westview Hills",
+                                "score":  "32-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "New Lenox Martino",
+                                "loser":  "Frankfort Summit Hill",
+                                "score":  "22-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Effingham JHS",
+                                 "loser":  "Mattoon",
+                                 "score":  "29-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Macomb",
+                                 "score":  "39-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Rockford Eisenhower",
+                                "loser":  "Rockford West",
+                                "score":  "31-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Ottawa Shepherd",
+                                "loser":  "Channahon",
+                                "score":  "27-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Mahomet-Seymour",
+                                 "loser":  "Champaign Jefferson",
+                                 "score":  "32-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Vernon Hills Hawthorn North",
+                                "loser":  "Barrington Prairie",
+                                "score":  "29-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Morton JHS",
+                                "loser":  "Normal Kingsley",
+                                "score":  "39-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Springfield Franklin",
+                                 "score":  "42-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "Lockport Oak Prairie",
+                                "loser":  "Bolingbrook Jane Addams",
+                                "score":  "30-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Alton",
+                                 "loser":  "Edwardsville Liberty",
+                                 "score":  "27-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "Matteson Colin Powell",
+                                "loser":  "Kankakee JHS",
+                                "score":  "23-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "Calumet City Dolton 149",
+                                "loser":  "Flossmoor Parker",
+                                "score":  "34-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Taylorville JHS",
+                                 "loser":  "Rochester",
+                                 "score":  "36-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "East St. Louis Clark",
+                                               "record":  "9-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Markham Prairie-Hills",
+                                              "record":  "14-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "New Lenox Martino",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Effingham JHS",
+                                               "record":  "16-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Canton Ingersoll",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Rockford Eisenhower",
+                                              "record":  "15-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Ottawa Shepherd",
+                                              "record":  "25-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Mahomet-Seymour",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Vernon Hills Hawthorn North",
+                                              "record":  "10-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Morton JHS",
+                                              "record":  "21-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Chatham Glenwood",
+                                               "record":  "16-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Lockport Oak Prairie",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Alton",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Matteson Colin Powell",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Calumet City Dolton 149",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Taylorville JHS",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Taylorville JHS",
+                                 "loser":  "Chatham Glenwood",
+                                 "score":  "40-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "New Lenox Martino",
+                                 "loser":  "Matteson Colin Powell",
+                                 "score":  "33-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Markham Prairie-Hills",
+                                 "loser":  "Calumet City Dolton 149",
+                                 "score":  "23-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Rockford Eisenhower",
+                                 "loser":  "Vernon Hills Hawthorn North",
+                                 "score":  "31-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Lockport Oak Prairie",
+                                 "loser":  "Ottawa Shepherd",
+                                 "score":  "38-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Effingham JHS",
+                                 "loser":  "Mahomet-Seymour",
+                                 "score":  "23-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Morton JHS",
+                                 "score":  "31-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Alton",
+                                 "loser":  "East St. Louis Clark",
+                                 "score":  "49-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2019\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           6
+                                       ],
+                                 "4":  [
+                                           7,
+                                           2
+                                       ],
+                                 "1":  [
+                                           3,
+                                           1
+                                       ],
+                                 "3":  [
+                                           4,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "New Lenox Martino",
+                                          "Taylorville JHS"
+                                      ],
+                            "scores":  [
+                                           11,
+                                           34
+                                       ],
+                            "winner":  "Taylorville JHS",
+                            "loser":  "New Lenox Martino",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Lockport Oak Prairie",
+                                          "Alton"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           44
+                                       ],
+                            "winner":  "Alton",
+                            "loser":  "Lockport Oak Prairie",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Canton Ingersoll",
+                                          "Effingham JHS"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           20
+                                       ],
+                            "winner":  "Canton Ingersoll",
+                            "loser":  "Effingham JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "New Lenox Martino",
+                                          "Rockford Eisenhower"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           12
+                                       ],
+                            "winner":  "New Lenox Martino",
+                            "loser":  "Rockford Eisenhower",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Taylorville JHS",
+                                          "Markham Prairie-Hills"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           11
+                                       ],
+                            "winner":  "Taylorville JHS",
+                            "loser":  "Markham Prairie-Hills",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Alton",
+                                          "Taylorville JHS"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           28
+                                       ],
+                            "winner":  "Alton",
+                            "loser":  "Taylorville JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "New Lenox Martino",
+                                          "Canton Ingersoll"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           31
+                                       ],
+                            "winner":  "Canton Ingersoll",
+                            "loser":  "New Lenox Martino",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Canton Ingersoll",
+                                          "Alton"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           39
+                                       ],
+                            "winner":  "Alton",
+                            "loser":  "Canton Ingersoll",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2019\u0026Class=7-4A"
+                        }
+              }
+};

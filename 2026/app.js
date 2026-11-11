@@ -246,8 +246,8 @@
             var entry = typeof e === "string" ? { text: e } : e;
             var row = el("div", "entry " + (o.path ? "path" : "") +
                 (entry.winner ? " advanced" : ""), o.kind === "sectional" ? "" : entry.text);
-            if ((entry.team || entry.text) === "Springfield Christian") {
-                row.classList.add("springfield-christian");
+            if (window.iesaMyTeam && window.iesaMyTeam.matches(entry.team || entry.text)) {
+                row.classList.add("my-team");
             }
             if (o.kind === "sectional") {
                 row.appendChild(el("span", "sectional-team", entry.text));
@@ -319,7 +319,7 @@
             var regional = d.regionals[r - 1];
             var seeding = seededRegionals[r];
             var regionalResult = result("regionals", regional.id);
-            var listedTeams = seeding ? seeding.seeds.map(function(seed) {
+            var listedTeams = regional.canceled ? [] : seeding ? seeding.seeds.map(function(seed) {
                 return { name: matchTeam(seed.team, regional.teams), seed: seed.seed };
             }) : regional.teams.map(function(team) { return { name: team }; });
             card({
@@ -328,8 +328,8 @@
                 x: 35 + column * 245,
                 y: top,
                 title: "Regional " + regional.id,
-                location: regional.host,
-                entries: listedTeams.map(function(listed) {
+                location: regional.canceled ? "" : regional.host,
+                entries: regional.canceled ? [{ text: "Canceled by IESA" }] : listedTeams.map(function(listed) {
                     return { text: listed.name, seed: listed.seed,
                         winner: regionalWinner(regional.id) === listed.name,
                         label: "Regional champion confirmed by IESA" +
@@ -354,7 +354,8 @@
                 var champion = sectionalWinner(q.id);
                 var outcome = champion && result("sectionals", q.id);
                 var score = outcome && /^\d+-\d+$/.test(outcome.score) ? outcome.score.split("-") : null;
-                return { text: winner || "Winner Regional " + r, team: winner,
+                var canceled = d.regionals[r - 1] && d.regionals[r - 1].canceled;
+                return { text: winner || (canceled ? "Regional " + r + " canceled" : "Winner Regional " + r), team: winner,
                     winner: winner && champion === winner,
                     record: winner && q.records && q.records[r],
                     score: winner && score ? score[winner === champion ? 0 : 1] : null,
@@ -508,7 +509,7 @@
                 if (typeof team === "string") {
                     row.textContent = team;
                 } else {
-                    if (team.team === "Springfield Christian") { row.classList.add("springfield-christian"); }
+                    if (window.iesaMyTeam && window.iesaMyTeam.matches(team.team)) { row.classList.add("my-team"); }
                     row.appendChild(el("span", "projection-team-name", team.name));
                     if (team.standing !== null) {
                         row.appendChild(el("span", "projection-standing", team.standing));

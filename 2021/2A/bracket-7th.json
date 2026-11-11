@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-11 11:25",
+    "year":  2021,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Brownstown",
+                                 "loser":  "Stewardson-Strasburg",
+                                 "score":  "43-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "Seneca",
+                                "loser":  "Oglesby Washington",
+                                "score":  "29-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Peoria St. Vincent de Paul",
+                                "loser":  "Brimfield",
+                                "score":  "27-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Nokomis JHS",
+                                 "loser":  "Buffalo Tri-City",
+                                 "score":  "34-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Sidell Salt Fork",
+                                 "score":  "38-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Clifton Nash",
+                                "loser":  "Onarga Iroquois West",
+                                "score":  "13-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Carthage",
+                                "loser":  "Nauvoo-Colusa",
+                                "score":  "23-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Decatur Our Lady of Lourdes",
+                                 "score":  "33-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Bourbonnais St. George",
+                                "loser":  "Lockport Kelvin Grove",
+                                "score":  "28-12",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Bismarck-Henning",
+                                "loser":  "LeRoy",
+                                "score":  "12-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Liberty",
+                                 "score":  "31-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Havana",
+                                "loser":  "London Mills Valley",
+                                "score":  "13-12",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Albion",
+                                 "score":  "38-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria Christian",
+                                "loser":  "Bartonville GS",
+                                "score":  "26-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "Colfax Ridgeview",
+                                "loser":  "Bloomington Corpus Christi",
+                                "score":  "26-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Greenfield",
+                                 "loser":  "Hardin Calhoun",
+                                 "score":  "21-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Brownstown",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Seneca",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Peoria St. Vincent de Paul",
+                                              "record":  "21-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Nokomis JHS",
+                                               "record":  "19-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Paris Crestwood",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Clifton Nash",
+                                              "record":  "8-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Carthage",
+                                              "record":  "17-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Mt. Pulaski",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Bourbonnais St. George",
+                                              "record":  "11-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Bismarck-Henning",
+                                              "record":  "12-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Mt. Sterling Brown County",
+                                               "record":  "21-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Havana",
+                                              "record":  "20-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "22-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Peoria Christian",
+                                              "record":  "11-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Colfax Ridgeview",
+                                              "record":  "21-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Greenfield",
+                                               "record":  "14-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2021\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Greenfield",
+                                 "score":  "29-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria St. Vincent de Paul",
+                                 "loser":  "Peoria Christian",
+                                 "score":  "42-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Colfax Ridgeview",
+                                 "loser":  "Seneca",
+                                 "score":  "18-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Bourbonnais St. George",
+                                 "loser":  "Clifton Nash",
+                                 "score":  "37-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Havana",
+                                 "loser":  "Carthage",
+                                 "score":  "17-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Nokomis JHS",
+                                 "score":  "29-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Bismarck-Henning",
+                                 "score":  "45-6",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Brownstown",
+                                 "score":  "20-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2021\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           7
+                                       ],
+                                 "4":  [
+                                           6,
+                                           3
+                                       ],
+                                 "1":  [
+                                           2,
+                                           8
+                                       ],
+                                 "3":  [
+                                           1,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Havana"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           6
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Havana",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Bourbonnais St. George",
+                                          "Havana"
+                                      ],
+                            "scores":  [
+                                           14,
+                                           20
+                                       ],
+                            "winner":  "Havana",
+                            "loser":  "Bourbonnais St. George",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Paris Crestwood",
+                                          "Mt. Sterling Brown County"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           17
+                                       ],
+                            "winner":  "Paris Crestwood",
+                            "loser":  "Mt. Sterling Brown County",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Colfax Ridgeview",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           10,
+                                           25
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Colfax Ridgeview",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Mt. Pulaski",
+                                          "Peoria St. Vincent de Paul"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           15
+                                       ],
+                            "winner":  "Mt. Pulaski",
+                            "loser":  "Peoria St. Vincent de Paul",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Havana",
+                                          "Mt. Pulaski"
+                                      ],
+                            "scores":  [
+                                           10,
+                                           27
+                                       ],
+                            "winner":  "Mt. Pulaski",
+                            "loser":  "Havana",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Paris Crestwood"
+                                      ],
+                            "scores":  [
+                                           12,
+                                           37
+                                       ],
+                            "winner":  "Paris Crestwood",
+                            "loser":  "Teutopolis",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Paris Crestwood",
+                                          "Mt. Pulaski"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           11
+                                       ],
+                            "winner":  "Paris Crestwood",
+                            "loser":  "Mt. Pulaski",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2021\u0026Class=7-2A"
+                        }
+              }
+}

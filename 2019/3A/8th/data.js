@@ -1,0 +1,394 @@
+﻿window.tournamentData = {
+    "year":  2019,
+    "grade":  "8th",
+    "className":  "3A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Crest Hill Richland",
+                          "teams":  [
+                                        "Lockport Kelvin Grove",
+                                        "Crest Hill Richland",
+                                        "Downers Grove Lakeview",
+                                        "Burr Ridge Gower",
+                                        "Lisle"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Dolton Roosevelt",
+                          "teams":  [
+                                        "Lansing Heritage",
+                                        "Calumet City Schrum",
+                                        "Calumet City Wentworth",
+                                        "Calumet Park Calumet",
+                                        "Dolton Roosevelt",
+                                        "Glenwood Brookwood"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Wenona Fieldcrest",
+                          "teams":  [
+                                        "Wenona Fieldcrest",
+                                        "Rockford Marshall",
+                                        "Morris GS",
+                                        "Peru Parkside",
+                                        "Spring Valley Kennedy",
+                                        "Morris Saratoga"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "El Paso-Gridley",
+                          "teams":  [
+                                        "Germantown Hills",
+                                        "Washington MS",
+                                        "Washington Central",
+                                        "El Paso-Gridley",
+                                        "Metamora GS",
+                                        "Washington Beverly Manor",
+                                        "Eureka"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Taylor Ridge Rockridge",
+                          "teams":  [
+                                        "Sherrard JHS",
+                                        "Joy Mercer County",
+                                        "Monmouth-Roseville JHS",
+                                        "Orion",
+                                        "Taylor Ridge Rockridge"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Glasford Illini Bluffs",
+                          "teams":  [
+                                        "Havana",
+                                        "Glasford Illini Bluffs",
+                                        "Knoxville JHS",
+                                        "Farmington Central",
+                                        "Avon Abingdon Avon"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Peotone",
+                          "teams":  [
+                                        "Peotone",
+                                        "Braidwood Reed-Custer",
+                                        "Wilmington",
+                                        "Beecher",
+                                        "Bradley Central",
+                                        "Herscher Limestone",
+                                        "Momence JHS"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Hoopeston Area",
+                          "teams":  [
+                                        "Gibson City GCMS",
+                                        "Forrest Prairie Central",
+                                        "Paxton-Buckley-Loda",
+                                        "Pontiac JHS",
+                                        "Onarga Iroquois West",
+                                        "Hoopeston Area",
+                                        "Clifton Nash"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Paris Mayo",
+                          "teams":  [
+                                        "Paris Mayo",
+                                        "Tolono Unity",
+                                        "St. Joseph",
+                                        "Marshall JHS",
+                                        "Danville Oakwood",
+                                        "Westville JHS"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Robinson Nuttall",
+                          "teams":  [
+                                        "Robinson Nuttall",
+                                        "Altamont",
+                                        "Teutopolis",
+                                        "Newton Jasper County",
+                                        "Lawrenceville Parkview",
+                                        "Toledo Cumberland"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Lincoln JHS",
+                          "teams":  [
+                                        "Stanford Olympia",
+                                        "Downs Tri-Valley",
+                                        "Mackinaw Dee-Mack",
+                                        "Clinton",
+                                        "Tremont",
+                                        "Green Valley Midwest Central",
+                                        "Lincoln JHS"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Macon Meridian",
+                          "teams":  [
+                                        "Maroa-Forsyth",
+                                        "Shelbyville Moulton",
+                                        "Warrensburg-Latham",
+                                        "Macon Meridian",
+                                        "Sullivan",
+                                        "Arthur",
+                                        "Monticello"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Riverton",
+                          "teams":  [
+                                        "Pleasant Plains",
+                                        "Athens",
+                                        "Williamsville",
+                                        "Petersburg PORTA JHS",
+                                        "Riverton",
+                                        "New Berlin JHS",
+                                        "Auburn JHS at Divernon"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Rushville Schuyler Industry",
+                          "teams":  [
+                                        "Pittsfield Pikeland",
+                                        "Camp Point Central",
+                                        "Rushville Schuyler Industry",
+                                        "Quincy St. Peter",
+                                        "Beardstown MS"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Pana JHS",
+                          "teams":  [
+                                        "Hillsboro",
+                                        "Vandalia",
+                                        "Kincaid South Fork",
+                                        "Greenville",
+                                        "Girard North Mac",
+                                        "Litchfield",
+                                        "Pana JHS"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Roxana",
+                          "teams":  [
+                                        "Roxana",
+                                        "Piasa Southwestern",
+                                        "Gillespie",
+                                        "East Alton MS",
+                                        "Staunton",
+                                        "Wood River Lewis \u0026 Clark",
+                                        "Carlinville"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Dolton Roosevelt",
+                           "date":  "Wednesday, December 11, 2019",
+                           "records":  {
+                                           "1":  "16-5",
+                                           "2":  "6-11"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Washington MS",
+                           "date":  "Wednesday, December 11, 2019",
+                           "records":  {
+                                           "3":  "21-4",
+                                           "4":  "19-3"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Joy Mercer County",
+                           "date":  "Wednesday, December 11, 2019",
+                           "records":  {
+                                           "5":  "18-5",
+                                           "6":  "21-1"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Peotone",
+                           "date":  "Wednesday, December 11, 2019",
+                           "records":  {
+                                           "7":  "23-1",
+                                           "8":  "13-8"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Teutopolis",
+                           "date":  "Wednesday, December 11, 2019",
+                           "records":  {
+                                           "9":  "17-5",
+                                           "10":  "21-1"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Stanford Olympia",
+                           "date":  "Wednesday, December 11, 2019",
+                           "records":  {
+                                           "11":  "17-5",
+                                           "12":  "14-8"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Pleasant Plains",
+                           "date":  "Wednesday, December 11, 2019",
+                           "records":  {
+                                           "13":  "21-1",
+                                           "14":  "17-7"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Vandalia",
+                           "date":  "Wednesday, December 11, 2019",
+                           "records":  {
+                                           "15":  "16-2",
+                                           "16":  "20-3"
+                                       }
+                       }
+                   ],
+    "venue":  "Germantown Hills MS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              2,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              6,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              7,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              1,
+                                              3
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

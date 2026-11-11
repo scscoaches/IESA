@@ -1,0 +1,380 @@
+﻿{
+    "year":  2011,
+    "grade":  "7th",
+    "className":  "2A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Grant Park",
+                          "teams":  [
+                                        "Bourbonnais St. George",
+                                        "Grant Park",
+                                        "St. Anne",
+                                        "Ford Heights Cottage Grove UGC"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Seneca",
+                          "teams":  [
+                                        "Odell",
+                                        "Seneca",
+                                        "Herscher JHS",
+                                        "Elwood GS"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Oglesby Washington",
+                          "teams":  [
+                                        "Oglesby Washington",
+                                        "Grand Ridge",
+                                        "Roanoke-Benson",
+                                        "McNabb Putnam County",
+                                        "Sparland Midland"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Bloomington Holy Trinity",
+                          "teams":  [
+                                        "Bloomington Holy Trinity",
+                                        "Heyworth",
+                                        "Normal Metcalf",
+                                        "Mansfield Blue Ridge JHS",
+                                        "LeRoy",
+                                        "Colfax Ridgeview"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Peoria St. Vincent de Paul",
+                          "teams":  [
+                                        "Elmwood",
+                                        "Peoria St. Vincent de Paul",
+                                        "Princeville",
+                                        "Brimfield",
+                                        "Abingdon",
+                                        "Peoria Heights GS"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Lewistown Central",
+                          "teams":  [
+                                        "Peoria St. Philomena",
+                                        "Bartonville Oak Grove West",
+                                        "Lewistown Central",
+                                        "Peoria Norwood",
+                                        "Creve Coeur Parkview",
+                                        "Peoria Heights St. Thomas"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Table Grove VIT",
+                          "teams":  [
+                                        "Table Grove VIT",
+                                        "Bushnell-Prairie City",
+                                        "Carthage",
+                                        "La Harpe",
+                                        "Nauvoo-Colusa",
+                                        "Colchester West Prairie"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Mt. Sterling Brown County",
+                          "teams":  [
+                                        "Mendon Unity",
+                                        "Liberty",
+                                        "Winchester",
+                                        "Augusta Southeastern",
+                                        "Kinderhook Western",
+                                        "Bluffs",
+                                        "Mt. Sterling Brown County"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Champaign St. Matthew",
+                          "teams":  [
+                                        "Champaign St. Matthew",
+                                        "Milford",
+                                        "Fisher",
+                                        "Bismarck-Henning",
+                                        "Homer Heritage"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Paris Crestwood",
+                          "teams":  [
+                                        "Paris Crestwood",
+                                        "Arcola",
+                                        "Arthur",
+                                        "Catlin",
+                                        "Villa Grove",
+                                        "Oakland Lake Crest"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Decatur Lutheran",
+                          "teams":  [
+                                        "Decatur Lutheran",
+                                        "Cerro Gordo",
+                                        "Decatur Holy Family",
+                                        "Decatur Robertson",
+                                        "Decatur Hope",
+                                        "Decatur Johns Hill"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Buffalo Tri-City",
+                          "teams":  [
+                                        "Springfield Christ the King",
+                                        "Springfield Blessed Sacrament",
+                                        "Mason City Illini Central",
+                                        "Springfield St. Agnes",
+                                        "Buffalo Tri-City",
+                                        "Illiopolis Sangamon Valley",
+                                        "Mt. Pulaski"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Albion",
+                          "teams":  [
+                                        "Palestine",
+                                        "Albion",
+                                        "Oblong"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Beecher City",
+                          "teams":  [
+                                        "Brownstown",
+                                        "Neoga",
+                                        "Altamont",
+                                        "Beecher City",
+                                        "Stewardson-Strasburg"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Nokomis JHS",
+                          "teams":  [
+                                        "Mt. Olive",
+                                        "Nokomis JHS",
+                                        "Bunker Hill Wolf Ridge",
+                                        "Pawnee",
+                                        "Kincaid South Fork"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Jerseyville St. Francis HG",
+                          "teams":  [
+                                        "Hardin Calhoun",
+                                        "Carrollton GS",
+                                        "Jerseyville St. Francis HG",
+                                        "Madison",
+                                        "Greenfield"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Seneca",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "1":  "10-1",
+                                           "2":  "20-0"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Bloomington Holy Trinity",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "3":  "18-3",
+                                           "4":  "21-2"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Lewistown Central",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "5":  "21-3",
+                                           "6":  "17-3"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Mendon Unity",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "7":  "22-2",
+                                           "8":  "24-0"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Champaign St. Matthew",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "9":  "17-7",
+                                           "10":  "18-0"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Mason City Illini Central",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "11":  "21-2",
+                                           "12":  "18-3"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Albion",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "13":  "5-8",
+                                           "14":  "10-10"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Mt. Olive",
+                           "date":  "Wednesday, November 30, 2011",
+                           "records":  {
+                                           "15":  "23-0",
+                                           "16":  "11-1"
+                                       }
+                       }
+                   ],
+    "venue":  "LeRoy JHS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              4,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              8,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              5,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              3,
+                                              1
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

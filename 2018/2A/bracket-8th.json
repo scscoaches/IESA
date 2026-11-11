@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-11 11:33",
+    "year":  2018,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Altamont",
+                                 "loser":  "Beecher City",
+                                 "score":  "40-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Oglesby Washington",
+                                "loser":  "Seneca",
+                                "score":  "42-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Peoria Heights GS",
+                                "loser":  "Peoria St. Philomena",
+                                "score":  "21-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Nokomis JHS",
+                                 "loser":  "Assumption Central A \u0026 M",
+                                 "score":  "27-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Decatur Hope",
+                                 "loser":  "Arcola",
+                                 "score":  "36-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Bourbonnais St. George",
+                                "loser":  "Ford Heights Cottage Grove UGC",
+                                "score":  "44-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Carthage",
+                                "loser":  "Stronghurst West Central",
+                                "score":  "35-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Petersburg PORTA JHS",
+                                 "loser":  "Springfield Blessed Sacrament",
+                                 "score":  "25-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Markham Obama",
+                                "loser":  "Lockport Kelvin Grove",
+                                "score":  "44-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Paris Crestwood",
+                                "loser":  "Champaign St. Matthew",
+                                "score":  "43-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Greenfield",
+                                 "score":  "41-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Havana",
+                                "loser":  "Lewistown JHS",
+                                "score":  "39-36",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Louisville North Clay",
+                                 "loser":  "Palestine",
+                                 "score":  "37-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Elmwood",
+                                "loser":  "Toulon Stark County",
+                                "score":  "59-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Colfax Ridgeview",
+                                "loser":  "Mansfield Blue Ridge IJHS",
+                                "score":  "26-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Mendon Unity",
+                                 "loser":  "Mt. Sterling Brown County",
+                                 "score":  "37-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Altamont",
+                                               "record":  "19-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Oglesby Washington",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Peoria Heights GS",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Nokomis JHS",
+                                               "record":  "18-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Decatur Hope",
+                                               "record":  "19-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Bourbonnais St. George",
+                                              "record":  "14-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Carthage",
+                                              "record":  "19-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Petersburg PORTA JHS",
+                                               "record":  "18-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Markham Obama",
+                                              "record":  "11-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Paris Crestwood",
+                                              "record":  "20-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Winchester",
+                                               "record":  "20-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Havana",
+                                              "record":  "20-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Louisville North Clay",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Elmwood",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Colfax Ridgeview",
+                                              "record":  "16-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Mendon Unity",
+                                               "record":  "23-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Mendon Unity",
+                                 "loser":  "Winchester",
+                                 "score":  "27-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Elmwood",
+                                 "loser":  "Peoria Heights GS",
+                                 "score":  "27-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Colfax Ridgeview",
+                                 "loser":  "Oglesby Washington",
+                                 "score":  "28-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Bourbonnais St. George",
+                                 "loser":  "Markham Obama",
+                                 "score":  "46-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Havana",
+                                 "loser":  "Carthage",
+                                 "score":  "31-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Nokomis JHS",
+                                 "loser":  "Petersburg PORTA JHS",
+                                 "score":  "30-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Decatur Hope",
+                                 "score":  "47-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Louisville North Clay",
+                                 "loser":  "Altamont",
+                                 "score":  "34-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2018\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           3
+                                       ],
+                                 "4":  [
+                                           4,
+                                           1
+                                       ],
+                                 "1":  [
+                                           8,
+                                           6
+                                       ],
+                                 "3":  [
+                                           2,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Nokomis JHS",
+                                          "Havana"
+                                      ],
+                            "scores":  [
+                                           13,
+                                           36
+                                       ],
+                            "winner":  "Havana",
+                            "loser":  "Nokomis JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Colfax Ridgeview",
+                                          "Mendon Unity"
+                                      ],
+                            "scores":  [
+                                           18,
+                                           44
+                                       ],
+                            "winner":  "Mendon Unity",
+                            "loser":  "Colfax Ridgeview",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Paris Crestwood",
+                                          "Elmwood"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           28
+                                       ],
+                            "winner":  "Paris Crestwood",
+                            "loser":  "Elmwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Louisville North Clay",
+                                          "Nokomis JHS"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           38
+                                       ],
+                            "winner":  "Nokomis JHS",
+                            "loser":  "Louisville North Clay",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Havana",
+                                          "Bourbonnais St. George"
+                                      ],
+                            "scores":  [
+                                           48,
+                                           25
+                                       ],
+                            "winner":  "Havana",
+                            "loser":  "Bourbonnais St. George",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Mendon Unity",
+                                          "Havana"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           26
+                                       ],
+                            "winner":  "Mendon Unity",
+                            "loser":  "Havana",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Nokomis JHS",
+                                          "Paris Crestwood"
+                                      ],
+                            "scores":  [
+                                           13,
+                                           36
+                                       ],
+                            "winner":  "Paris Crestwood",
+                            "loser":  "Nokomis JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Paris Crestwood",
+                                          "Mendon Unity"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           31
+                                       ],
+                            "winner":  "Paris Crestwood",
+                            "loser":  "Mendon Unity",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2018\u0026Class=8-2A"
+                        }
+              }
+}

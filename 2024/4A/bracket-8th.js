@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:18",
+    "year":  2024,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Edwardsville Lincoln",
+                                 "loser":  "Bethalto Trimpe",
+                                 "score":  "30-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Homewood Hart",
+                                "loser":  "Markham Prairie-Hills",
+                                "score":  "34-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Flossmoor Parker",
+                                "loser":  "Mokena",
+                                "score":  "38-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Galesburg JHS",
+                                 "loser":  "Chillicothe",
+                                 "score":  "43-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Bolingbrook Jane Addams",
+                                 "loser":  "Shorewood Troy",
+                                 "score":  "39-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Barrington Prairie",
+                                "loser":  "Rockford West",
+                                "score":  "31-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "University Park Crete Monee",
+                                "loser":  "Bourbonnais UGC",
+                                "score":  "37-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Normal Parkside",
+                                 "loser":  "Normal Kingsley",
+                                 "score":  "27-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Arlington Heights Thomas",
+                                "loser":  "Arlington Heights South",
+                                "score":  "37-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "Ottawa Shepherd",
+                                "loser":  "Minooka",
+                                "score":  "38-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Springfield Washington",
+                                 "loser":  "Chatham Glenwood",
+                                 "score":  "34-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "Champaign Franklin",
+                                "loser":  "Mahomet-Seymour",
+                                "score":  "31-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "St. Jacob Triad",
+                                 "loser":  "Highland MS",
+                                 "score":  "39-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "New Lenox Liberty",
+                                "loser":  "Lemont Old Quarry",
+                                "score":  "35-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Downers Grove Herrick",
+                                "loser":  "Downers Grove O\u0027Neill",
+                                "score":  "30-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Mt. Zion",
+                                 "loser":  "Taylorville JHS",
+                                 "score":  "37-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Edwardsville Lincoln",
+                                               "record":  "23-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Homewood Hart",
+                                              "record":  "14-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Flossmoor Parker",
+                                              "record":  "18-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Galesburg JHS",
+                                               "record":  "17-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Bolingbrook Jane Addams",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Barrington Prairie",
+                                              "record":  "17-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "University Park Crete Monee",
+                                              "record":  "17-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Normal Parkside",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Arlington Heights Thomas",
+                                              "record":  "9-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Ottawa Shepherd",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Springfield Washington",
+                                               "record":  "13-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Champaign Franklin",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "St. Jacob Triad",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "New Lenox Liberty",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Downers Grove Herrick",
+                                              "record":  "10-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Mt. Zion",
+                                               "record":  "20-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Springfield Washington",
+                                 "loser":  "Mt. Zion",
+                                 "score":  "43-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-4A"
+                             },
+                       "3":  {
+                                 "winner":  "New Lenox Liberty",
+                                 "loser":  "Flossmoor Parker",
+                                 "score":  "36-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Homewood Hart",
+                                 "loser":  "Downers Grove Herrick",
+                                 "score":  "17-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Barrington Prairie",
+                                 "loser":  "Arlington Heights Thomas",
+                                 "score":  "33-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-4A"
+                             },
+                       "4":  {
+                                 "winner":  "University Park Crete Monee",
+                                 "loser":  "Champaign Franklin",
+                                 "score":  "41-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Normal Parkside",
+                                 "loser":  "Galesburg JHS",
+                                 "score":  "44-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Bolingbrook Jane Addams",
+                                 "loser":  "Ottawa Shepherd",
+                                 "score":  "48-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Edwardsville Lincoln",
+                                 "loser":  "St. Jacob Triad",
+                                 "score":  "40-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=8-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           4,
+                                           5
+                                       ],
+                                 "4":  [
+                                           3,
+                                           7
+                                       ],
+                                 "1":  [
+                                           6,
+                                           8
+                                       ],
+                                 "3":  [
+                                           2,
+                                           1
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "University Park Crete Monee",
+                                          "Homewood Hart"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           17
+                                       ],
+                            "winner":  "University Park Crete Monee",
+                            "loser":  "Homewood Hart",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Homewood Hart",
+                                          "Barrington Prairie"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           18
+                                       ],
+                            "winner":  "Homewood Hart",
+                            "loser":  "Barrington Prairie",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "University Park Crete Monee",
+                                          "Bolingbrook Jane Addams"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           28
+                                       ],
+                            "winner":  "University Park Crete Monee",
+                            "loser":  "Bolingbrook Jane Addams",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Normal Parkside",
+                                          "Edwardsville Lincoln"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           29
+                                       ],
+                            "winner":  "Edwardsville Lincoln",
+                            "loser":  "Normal Parkside",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "New Lenox Liberty",
+                                          "Springfield Washington"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           27
+                                       ],
+                            "winner":  "New Lenox Liberty",
+                            "loser":  "Springfield Washington",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Homewood Hart",
+                                          "New Lenox Liberty"
+                                      ],
+                            "scores":  [
+                                           14,
+                                           34
+                                       ],
+                            "winner":  "New Lenox Liberty",
+                            "loser":  "Homewood Hart",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Edwardsville Lincoln",
+                                          "University Park Crete Monee"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           14
+                                       ],
+                            "winner":  "Edwardsville Lincoln",
+                            "loser":  "University Park Crete Monee",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Edwardsville Lincoln",
+                                          "New Lenox Liberty"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           33
+                                       ],
+                            "winner":  "New Lenox Liberty",
+                            "loser":  "Edwardsville Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=8-4A"
+                        }
+              }
+};

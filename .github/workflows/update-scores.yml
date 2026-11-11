@@ -1,34 +1,71 @@
-name: Update IESA scores nightly
+name: Update IESA scores
 
 on:
   schedule:
-    # 3:15 AM UTC (~10:15 PM Central) every night during the season
-    - cron: "15 3 * * *"
+    # GitHub cron runs on UTC. Central Standard Time is UTC-6 for the rest of
+    # the season (no clock change before December 18). GitHub may start
+    # scheduled runs late when its queue is busy.
+    # Weekdays 5:00 AM, 11:00 AM and 5:00 PM Central.
+    - cron: "0 11,17,23 * * 1-5"
+    # Saturdays 9:00 PM Central (Sunday 03:00 UTC).
+    - cron: "0 3 * * 0"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
+# Never let two refreshes push at the same time.
+concurrency:
+  group: update-scores
+  cancel-in-progress: false
+
 jobs:
   update-scores:
     runs-on: windows-latest
     steps:
+      # Cron has no end date, so scheduled runs stop themselves after the
+      # season's last day (December 18, 2026, Central). Manual runs still work.
+      - name: Check season window
+        id: season
+        shell: pwsh
+        run: |
+          $central = [TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, "Central Standard Time")
+          $active = "${{ github.event_name }}" -ne "schedule" -or $central.Date -le [datetime]::new(2026, 12, 18)
+          Write-Host "Central time $($central.ToString('yyyy-MM-dd HH:mm')); refresh active: $active"
+          "active=$($active.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
+
       - name: Check out repository
+        if: steps.season.outputs.active == 'true'
         uses: actions/checkout@v4
 
       - name: Run score refresh script
+        if: steps.season.outputs.active == 'true'
         shell: pwsh
         run: ./2026/Update-IesaScores.ps1 -SitePath "${{ github.workspace }}/2026"
 
-      - name: Commit and push refreshed scores
+      - name: Commit and push refreshed data
+        if: steps.season.outputs.active == 'true'
         shell: pwsh
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add 2026/scores-7th.json 2026/scores-7th.js 2026/scores-8th.json 2026/scores-8th.js 2026/nfhs-events.json 2026/hudl-events.json 2026/strength-7th.json 2026/strength-8th.json
+          # Scores and watch links every run; regional seeds from November 12;
+          # the state bracket, trophy placements and team index from November 21.
+          $files = @(
+            "2026/scores-7th.json", "2026/scores-7th.js", "2026/scores-8th.json", "2026/scores-8th.js",
+            "2026/nfhs-events.json", "2026/hudl-events.json",
+            "2026/strength-7th.json", "2026/strength-8th.json",
+            "2026/regional-seeds-7th.json", "2026/regional-seeds-7th.js",
+            "2026/regional-seeds-8th.json", "2026/regional-seeds-8th.js",
+            "2026/bracket-7th.json", "2026/bracket-7th.js", "2026/bracket-8th.json", "2026/bracket-8th.js",
+            "placements.json", "teams.json"
+          ) | Where-Object { Test-Path $_ }
+          git add -- $files
           if (git diff --cached --quiet) {
-            Write-Host "No score changes to commit."
+            Write-Host "No data changes to commit."
           } else {
-            git commit -m "Nightly IESA score refresh"
+            git commit -m "IESA score refresh"
+            # Someone may have pushed while the refresh ran.
+            git pull --rebase --autostash
             git push
           }

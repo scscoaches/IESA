@@ -1,0 +1,354 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 10:54",
+    "year":  2010,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Carrollton GS",
+                                 "score":  "24-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Champaign Holy Cross",
+                                "score":  "39-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Normal Metcalf",
+                                "loser":  "Bloomington Holy Trinity",
+                                "score":  "26-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Springfield Blessed Sacrament",
+                                 "score":  "29-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "La Harpe",
+                                 "loser":  "Carthage",
+                                 "score":  "34-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Mazon-Verona-Kinsman",
+                                "loser":  "Riverdale Patton",
+                                "score":  "30-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Brimfield",
+                                "loser":  "Elmwood",
+                                "score":  "36-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Nokomis JHS",
+                                 "loser":  "Cerro Gordo",
+                                 "score":  "30-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Onarga Iroquois West",
+                                "loser":  "Herscher JHS",
+                                "score":  "50-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Table Grove VIT",
+                                "loser":  "Lewistown Central",
+                                "score":  "30-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Beecher City",
+                                 "loser":  "Findlay Okaw Valley",
+                                 "score":  "27-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Glasford Illini Bluffs",
+                                "loser":  "Creve Coeur Parkview",
+                                "score":  "44-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Mt. Olive",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "36-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Roanoke-Benson",
+                                "loser":  "Sparland Midland",
+                                "score":  "32-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Arcola",
+                                "loser":  "Paris Crestwood",
+                                "score":  "43-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Palestine",
+                                 "loser":  "Kinmundy South Central",
+                                 "score":  "34-3",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Winchester",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "24-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Normal Metcalf",
+                                              "record":  "17-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Springfield Christ the King",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "La Harpe",
+                                               "record":  "18-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Mazon-Verona-Kinsman",
+                                              "record":  "19-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Brimfield",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Nokomis JHS",
+                                               "record":  "17-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Onarga Iroquois West",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Table Grove VIT",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Beecher City",
+                                               "record":  "13-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Glasford Illini Bluffs",
+                                              "record":  "11-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Mt. Olive",
+                                               "record":  "9-12",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Roanoke-Benson",
+                                              "record":  "16-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Palestine",
+                                               "record":  "17-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2010\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Palestine",
+                                 "loser":  "Beecher City",
+                                 "score":  "22-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Normal Metcalf",
+                                 "loser":  "Roanoke-Benson",
+                                 "score":  "27-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "Arcola",
+                                 "score":  "48-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Onarga Iroquois West",
+                                 "loser":  "Mazon-Verona-Kinsman",
+                                 "score":  "33-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Brimfield",
+                                 "loser":  "Glasford Illini Bluffs",
+                                 "score":  "27-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Nokomis JHS",
+                                 "score":  "28-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Table Grove VIT",
+                                 "loser":  "La Harpe",
+                                 "score":  "31-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Mt. Olive",
+                                 "score":  "49-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2010\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           6
+                                       ],
+                                 "4":  [
+                                           4,
+                                           5
+                                       ],
+                                 "1":  [
+                                           1,
+                                           2
+                                       ],
+                                 "3":  [
+                                           8,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Champaign St. Matthew",
+                                          "Table Grove VIT"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           37
+                                       ],
+                            "winner":  "Table Grove VIT",
+                            "loser":  "Champaign St. Matthew",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Winchester",
+                                          "Palestine"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           7
+                                       ],
+                            "winner":  "Winchester",
+                            "loser":  "Palestine",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Normal Metcalf",
+                                          "Springfield Christ the King"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           34
+                                       ],
+                            "winner":  "Springfield Christ the King",
+                            "loser":  "Normal Metcalf",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Onarga Iroquois West",
+                                          "Champaign St. Matthew"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           37
+                                       ],
+                            "winner":  "Champaign St. Matthew",
+                            "loser":  "Onarga Iroquois West",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Brimfield",
+                                          "Table Grove VIT"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           32
+                                       ],
+                            "winner":  "Table Grove VIT",
+                            "loser":  "Brimfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Winchester",
+                                          "Table Grove VIT"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           43
+                                       ],
+                            "winner":  "Winchester",
+                            "loser":  "Table Grove VIT",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Champaign St. Matthew",
+                                          "Springfield Christ the King"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           26
+                                       ],
+                            "winner":  "Springfield Christ the King",
+                            "loser":  "Champaign St. Matthew",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Springfield Christ the King",
+                                          "Winchester"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           25
+                                       ],
+                            "winner":  "Springfield Christ the King",
+                            "loser":  "Winchester",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2010\u0026Class=8-2A"
+                        }
+              }
+};

@@ -1,0 +1,390 @@
+﻿{
+    "year":  2024,
+    "grade":  "7th",
+    "className":  "1A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Milford",
+                          "teams":  [
+                                        "Cissna Park",
+                                        "Milford",
+                                        "Rossville-Alvin",
+                                        "Donovan",
+                                        "St. Anne",
+                                        "Kankakee Grace Christian"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Lockport Taft",
+                          "teams":  [
+                                        "Lockport Taft",
+                                        "Ford Heights Cottage Grove UGC",
+                                        "Lockport Fairmont",
+                                        "Grant Park"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Mazon-Verona-Kinsman",
+                          "teams":  [
+                                        "Marseilles Milton Pope",
+                                        "Grand Ridge",
+                                        "Ransom",
+                                        "Mazon-Verona-Kinsman",
+                                        "Morris Nettle Creek",
+                                        "Elwood GS"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Utica Waltham",
+                          "teams":  [
+                                        "Ottawa Wallace",
+                                        "Utica Waltham",
+                                        "Peru Catholic",
+                                        "LaSalle Dimmick",
+                                        "LaSalle Trinity Catholic",
+                                        "Ottawa Marquette",
+                                        "Oglesby Holy Family",
+                                        "Mendota Holy Cross"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Pontiac St. Mary\u0027s",
+                          "teams":  [
+                                        "Normal Epiphany",
+                                        "Bloomington St. Mary\u0027s",
+                                        "Lexington",
+                                        "Piper City Tri-Point",
+                                        "Odell",
+                                        "Pontiac St. Mary\u0027s"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Washington St. Patrick",
+                          "teams":  [
+                                        "Washington St. Patrick",
+                                        "Flanagan",
+                                        "Roanoke-Benson",
+                                        "Lostant",
+                                        "Lowpoint-Washburn"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Morton Blessed Sacrament",
+                          "teams":  [
+                                        "Morton Blessed Sacrament",
+                                        "Peoria Limestone Walters",
+                                        "Bartonville Monroe",
+                                        "Pekin Rankin",
+                                        "South Pekin",
+                                        "Bartonville Oak Grove",
+                                        "Peoria Pleasant Hill"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Peoria St. Jude",
+                          "teams":  [
+                                        "Peoria Heights St. Thomas",
+                                        "Peoria St. Jude",
+                                        "Peoria Christ Lutheran",
+                                        "Peoria Hollis",
+                                        "Spring Bay Riverview"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Kewanee Visitation",
+                          "teams":  [
+                                        "Cambridge JHS",
+                                        "Galva",
+                                        "Kewanee Visitation",
+                                        "Annawan",
+                                        "Woodhull AlWood"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "La Harpe",
+                          "teams":  [
+                                        "Nauvoo-Colusa",
+                                        "La Harpe",
+                                        "Bushnell-Prairie City",
+                                        "Monmouth ICS"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Martinsville",
+                          "teams":  [
+                                        "Hume Shiloh",
+                                        "Oakland Lake Crest",
+                                        "Paris Crestwood",
+                                        "Chrisman Scottland",
+                                        "Homer Heritage",
+                                        "Danville Schlarman",
+                                        "Martinsville"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Rantoul St. Malachy",
+                          "teams":  [
+                                        "Rantoul St. Malachy",
+                                        "Champaign St. Matthew",
+                                        "Champaign Next Generation",
+                                        "Royal Prairieview Ogden",
+                                        "Philo St. Thomas",
+                                        "Champaign Holy Cross"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Decatur Unity",
+                          "teams":  [
+                                        "Springfield Christ the King",
+                                        "Decatur American Dreamer",
+                                        "Mt. Pulaski",
+                                        "Decatur Unity",
+                                        "Neoga",
+                                        "Lincoln West Lincoln-Broadwell",
+                                        "Findlay Okaw Valley",
+                                        "DeLand-Weldon"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Ashland A-C Central",
+                          "teams":  [
+                                        "Pleasant Hill",
+                                        "Griggsville-Perry",
+                                        "Ashland A-C Central",
+                                        "Liberty",
+                                        "Jacksonville ISD",
+                                        "Kinderhook Western"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Pana Sacred Heart",
+                          "teams":  [
+                                        "Sigel St. Michael\u0027s",
+                                        "Pana Sacred Heart",
+                                        "Mattoon St. John\u0027s",
+                                        "Oblong",
+                                        "Effingham Sacred Heart",
+                                        "Ramsey"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Mulberry Grove JHS",
+                          "teams":  [
+                                        "Bunker Hill Wolf Ridge",
+                                        "Carrollton St. John",
+                                        "Mt. Olive",
+                                        "Carrollton GS",
+                                        "Jerseyville St. Francis HG",
+                                        "Mulberry Grove JHS",
+                                        "Pocahontas"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Lockport Taft",
+                           "date":  "Wednesday, December 4, 2024",
+                           "records":  {
+                                           "1":  "20-1",
+                                           "2":  "17-2"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Mazon-Verona-Kinsman",
+                           "date":  "Wednesday, December 4, 2024",
+                           "records":  {
+                                           "3":  "14-4",
+                                           "4":  "22-2"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Flanagan",
+                           "date":  "Wednesday, December 4, 2024",
+                           "records":  {
+                                           "5":  "25-1",
+                                           "6":  "17-5"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Bartonville Oak Grove",
+                           "date":  "Wednesday, December 4, 2024",
+                           "records":  {
+                                           "7":  "21-2",
+                                           "8":  "15-10"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Nauvoo-Colusa",
+                           "date":  "Wednesday, December 4, 2024",
+                           "records":  {
+                                           "9":  "13-1",
+                                           "10":  "21-3"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Rantoul St. Malachy",
+                           "date":  "Wednesday, December 4, 2024",
+                           "records":  {
+                                           "11":  "14-4",
+                                           "12":  "19-2"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Decatur Unity",
+                           "date":  "Wednesday, December 4, 2024",
+                           "records":  {
+                                           "13":  "19-5",
+                                           "14":  "18-5"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Pana Sacred Heart",
+                           "date":  "Wednesday, December 4, 2024",
+                           "records":  {
+                                           "15":  "12-9",
+                                           "16":  "15-5"
+                                       }
+                       }
+                   ],
+    "venue":  "Assumption Central A \u0026 M MS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              3,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              1,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              7,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              8,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

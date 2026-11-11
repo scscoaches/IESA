@@ -1,0 +1,684 @@
+﻿{
+    "updatedAt":  "2026-11-11 10:46",
+    "year":  2005,
+    "grade":  "8th",
+    "regionals":  {
+                      "11":  {
+                                 "winner":  "Forrest Prairie Central",
+                                 "loser":  "Watseka Glenn Raymond",
+                                 "score":  "23-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "3":  {
+                                "winner":  "Homer Glen Homer",
+                                "loser":  "Lockport Oak Prairie",
+                                "score":  "26-7",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                            },
+                      "20":  {
+                                 "winner":  "Champaign Franklin",
+                                 "loser":  "Tolono Unity",
+                                 "score":  "38-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "12":  {
+                                 "winner":  "Rantoul Eater",
+                                 "loser":  "Mahomet-Seymour",
+                                 "score":  "35-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "10":  {
+                                 "winner":  "Coal City",
+                                 "loser":  "Pontiac JHS",
+                                 "score":  "34-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "17":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Macomb",
+                                 "score":  "44-4",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "13":  {
+                                 "winner":  "Downs Tri-Valley",
+                                 "loser":  "Normal Chiddix",
+                                 "score":  "25-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "27":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Pittsfield Pikeland",
+                                 "score":  "46-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "30":  {
+                                 "winner":  "Altamont (Coop)",
+                                 "loser":  "Lawrenceville Parkview",
+                                 "score":  "44-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "18":  {
+                                 "winner":  "Pekin Edison",
+                                 "loser":  "Pekin Broadmoor",
+                                 "score":  "36-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "29":  {
+                                 "winner":  "Toledo Cumberland",
+                                 "loser":  "Teutopolis",
+                                 "score":  "40-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "23":  {
+                                 "winner":  "Taylorville JHS",
+                                 "loser":  "Rochester",
+                                 "score":  "34-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "19":  {
+                                 "winner":  "Danville Oakwood",
+                                 "loser":  "Westville JHS",
+                                 "score":  "29-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "1":  {
+                                "winner":  "Lansing Memorial",
+                                "loser":  null,
+                                "score":  null,
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA",
+                                "qualifierOnly":  true
+                            },
+                      "5":  {
+                                "winner":  "Frankfort Hickory Creek",
+                                "loser":  "Beecher",
+                                "score":  "34-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                            },
+                      "4":  {
+                                "winner":  "Bellwood Roosevelt",
+                                "loser":  "Bolingbrook Jane Addams",
+                                "score":  "57-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                            },
+                      "8":  {
+                                "winner":  "Joliet Hufford",
+                                "loser":  "Minooka",
+                                "score":  "30-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                            },
+                      "26":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Springfield Grant",
+                                 "score":  "28-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "14":  {
+                                 "winner":  "Normal Kingsley",
+                                 "loser":  "Normal Parkside",
+                                 "score":  "42-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "22":  {
+                                 "winner":  "Mattoon",
+                                 "loser":  "Pana JHS",
+                                 "score":  "24-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "28":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Petersburg PORTA JHS  (Coop)",
+                                 "score":  "31-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "25":  {
+                                 "winner":  "Piasa Southwestern",
+                                 "loser":  "Carlinville",
+                                 "score":  "34-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "9":  {
+                                "winner":  "Ottawa Shepherd",
+                                "loser":  "Streator Northlawn",
+                                "score":  "28-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                            },
+                      "15":  {
+                                 "winner":  "Metamora Germantown Hills",
+                                 "loser":  "Metamora St. Mary\u0027s (Coop)",
+                                 "score":  "27-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "21":  {
+                                 "winner":  "Blue Mound Meridian",
+                                 "loser":  "Decatur Jefferson",
+                                 "score":  "29-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "24":  {
+                                 "winner":  "Warrensburg-Latham",
+                                 "loser":  "Maroa-Forsyth",
+                                 "score":  "40-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "16":  {
+                                 "winner":  "Dunlap MS",
+                                 "loser":  "East Peoria Central",
+                                 "score":  "37-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "32":  {
+                                 "winner":  "Cahokia Wirth",
+                                 "loser":  "Edwardsville Liberty",
+                                 "score":  "30-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             },
+                      "7":  {
+                                "winner":  "New Lenox Martino",
+                                "loser":  "Mokena",
+                                "score":  "17-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                            },
+                      "2":  {
+                                "winner":  "Markham Prairie-Hills",
+                                "loser":  "Country Club Hills Southwood",
+                                "score":  "48-8",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                            },
+                      "6":  {
+                                "winner":  "Bradley Central",
+                                "loser":  "Manteno",
+                                "score":  "32-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                            },
+                      "31":  {
+                                 "winner":  "Hillsboro",
+                                 "loser":  "Greenville",
+                                 "score":  "51-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "11":  {
+                                               "team":  "Forrest Prairie Central",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "3":  {
+                                              "team":  "Homer Glen Homer",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                          },
+                                    "20":  {
+                                               "team":  "Champaign Franklin",
+                                               "record":  "16-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "12":  {
+                                               "team":  "Rantoul Eater",
+                                               "record":  "13-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "10":  {
+                                               "team":  "Coal City",
+                                               "record":  "18-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "17":  {
+                                               "team":  "Canton Ingersoll",
+                                               "record":  "21-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "18":  {
+                                               "team":  "Pekin Edison",
+                                               "record":  "12-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "29":  {
+                                               "team":  "Toledo Cumberland",
+                                               "record":  "19-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "23":  {
+                                               "team":  "Taylorville JHS",
+                                               "record":  "16-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "19":  {
+                                               "team":  "Danville Oakwood",
+                                               "record":  "15-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "5":  {
+                                              "team":  "Frankfort Hickory Creek",
+                                              "record":  "16-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                          },
+                                    "4":  {
+                                              "team":  "Bellwood Roosevelt",
+                                              "record":  "14-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                          },
+                                    "8":  {
+                                              "team":  "Joliet Hufford",
+                                              "record":  "14-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                          },
+                                    "26":  {
+                                               "team":  "Chatham Glenwood",
+                                               "record":  "14-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "14":  {
+                                               "team":  "Normal Kingsley",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "22":  {
+                                               "team":  "Mattoon",
+                                               "record":  "14-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "28":  {
+                                               "team":  "Pleasant Plains",
+                                               "record":  "18-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "25":  {
+                                               "team":  "Piasa Southwestern",
+                                               "record":  "16-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "9":  {
+                                              "team":  "Ottawa Shepherd",
+                                              "record":  "20-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                          },
+                                    "15":  {
+                                               "team":  "Metamora Germantown Hills",
+                                               "record":  "15-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "21":  {
+                                               "team":  "Blue Mound Meridian",
+                                               "record":  "14-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "24":  {
+                                               "team":  "Warrensburg-Latham",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "16":  {
+                                               "team":  "Dunlap MS",
+                                               "record":  "17-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "32":  {
+                                               "team":  "Cahokia Wirth",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           },
+                                    "7":  {
+                                              "team":  "New Lenox Martino",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                          },
+                                    "2":  {
+                                              "team":  "Markham Prairie-Hills",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                          },
+                                    "6":  {
+                                              "team":  "Bradley Central",
+                                              "record":  "16-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                          },
+                                    "31":  {
+                                               "team":  "Hillsboro",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2005\u0026Class=8AA"
+                                           }
+                                },
+    "sectionals":  {
+                       "16":  {
+                                  "winner":  "Hillsboro",
+                                  "loser":  "Cahokia Wirth",
+                                  "score":  "43-31",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                              },
+                       "3":  {
+                                 "winner":  "Frankfort Hickory Creek",
+                                 "loser":  "Bradley Central",
+                                 "score":  "37-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                             },
+                       "5":  {
+                                 "winner":  "Coal City",
+                                 "loser":  "Ottawa Shepherd",
+                                 "score":  "30-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                             },
+                       "12":  {
+                                  "winner":  "Warrensburg-Latham",
+                                  "loser":  "Taylorville JHS",
+                                  "score":  "37-31",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                              },
+                       "10":  {
+                                  "winner":  "Champaign Franklin",
+                                  "loser":  "Danville Oakwood",
+                                  "score":  "35-20",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                              },
+                       "2":  {
+                                 "winner":  "Bellwood Roosevelt",
+                                 "loser":  "Homer Glen Homer",
+                                 "score":  "52-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                             },
+                       "8":  {
+                                 "winner":  "Dunlap MS",
+                                 "loser":  "Metamora Germantown Hills",
+                                 "score":  "24-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                             },
+                       "11":  {
+                                  "winner":  "Mattoon",
+                                  "loser":  "Blue Mound Meridian",
+                                  "score":  "35-28",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                              },
+                       "1":  {
+                                 "winner":  "Markham Prairie-Hills",
+                                 "loser":  "Lansing Memorial",
+                                 "score":  "33-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                             },
+                       "9":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Pekin Edison",
+                                 "score":  "37-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                             },
+                       "14":  {
+                                  "winner":  "Pleasant Plains",
+                                  "loser":  "Quincy",
+                                  "score":  "37-18",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                              },
+                       "7":  {
+                                 "winner":  "Normal Kingsley",
+                                 "loser":  "Downs Tri-Valley",
+                                 "score":  "36-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                             },
+                       "15":  {
+                                  "winner":  "Toledo Cumberland",
+                                  "loser":  "Altamont (Coop)",
+                                  "score":  "48-34",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                              },
+                       "6":  {
+                                 "winner":  "Forrest Prairie Central",
+                                 "loser":  "Rantoul Eater",
+                                 "score":  "48-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                             },
+                       "4":  {
+                                 "winner":  "Joliet Hufford",
+                                 "loser":  "New Lenox Martino",
+                                 "score":  "33-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                             },
+                       "13":  {
+                                  "winner":  "Chatham Glenwood",
+                                  "loser":  "Piasa Southwestern",
+                                  "score":  "31-26",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2005\u0026Class=8AA"
+                              }
+                   },
+    "quarterfinalMatchups":  {
+                                 "7":  [
+                                           5,
+                                           6
+                                       ],
+                                 "3":  [
+                                           3,
+                                           16
+                                       ],
+                                 "2":  [
+                                           4,
+                                           1
+                                       ],
+                                 "1":  [
+                                           14,
+                                           10
+                                       ],
+                                 "4":  [
+                                           2,
+                                           15
+                                       ],
+                                 "6":  [
+                                           13,
+                                           12
+                                       ],
+                                 "5":  [
+                                           11,
+                                           8
+                                       ],
+                                 "8":  [
+                                           9,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "12":  {
+                             "teams":  [
+                                           "Forrest Prairie Central",
+                                           "Canton Ingersoll"
+                                       ],
+                             "scores":  [
+                                            28,
+                                            45
+                                        ],
+                             "winner":  "Canton Ingersoll",
+                             "loser":  "Forrest Prairie Central",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                         },
+                  "7":  {
+                            "teams":  [
+                                          "Coal City",
+                                          "Forrest Prairie Central"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           40
+                                       ],
+                            "winner":  "Forrest Prairie Central",
+                            "loser":  "Coal City",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Mattoon",
+                                          "Dunlap MS"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           35
+                                       ],
+                            "winner":  "Dunlap MS",
+                            "loser":  "Mattoon",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                        },
+                  "16":  {
+                             "teams":  [
+                                           "Bellwood Roosevelt",
+                                           "Canton Ingersoll"
+                                       ],
+                             "scores":  [
+                                            37,
+                                            39
+                                        ],
+                             "winner":  "Canton Ingersoll",
+                             "loser":  "Bellwood Roosevelt",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                         },
+                  "10":  {
+                             "teams":  [
+                                           "Hillsboro",
+                                           "Bellwood Roosevelt"
+                                       ],
+                             "scores":  [
+                                            46,
+                                            67
+                                        ],
+                             "winner":  "Bellwood Roosevelt",
+                             "loser":  "Hillsboro",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                         },
+                  "2":  {
+                            "teams":  [
+                                          "Joliet Hufford",
+                                          "Markham Prairie-Hills"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           43
+                                       ],
+                            "winner":  "Joliet Hufford",
+                            "loser":  "Markham Prairie-Hills",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Frankfort Hickory Creek",
+                                          "Hillsboro"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           58
+                                       ],
+                            "winner":  "Hillsboro",
+                            "loser":  "Frankfort Hickory Creek",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Canton Ingersoll",
+                                          "Normal Kingsley"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           28
+                                       ],
+                            "winner":  "Canton Ingersoll",
+                            "loser":  "Normal Kingsley",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                        },
+                  "15":  {
+                             "teams":  [
+                                           "Champaign Franklin",
+                                           "Chatham Glenwood"
+                                       ],
+                             "scores":  [
+                                            32,
+                                            31
+                                        ],
+                             "winner":  "Champaign Franklin",
+                             "loser":  "Chatham Glenwood",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                         },
+                  "1":  {
+                            "teams":  [
+                                          "Pleasant Plains",
+                                          "Champaign Franklin"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           33
+                                       ],
+                            "winner":  "Champaign Franklin",
+                            "loser":  "Pleasant Plains",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                        },
+                  "9":  {
+                            "teams":  [
+                                          "Champaign Franklin",
+                                          "Joliet Hufford"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           24
+                                       ],
+                            "winner":  "Champaign Franklin",
+                            "loser":  "Joliet Hufford",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                        },
+                  "14":  {
+                             "teams":  [
+                                           "Chatham Glenwood",
+                                           "Canton Ingersoll"
+                                       ],
+                             "scores":  [
+                                            21,
+                                            24
+                                        ],
+                             "winner":  "Canton Ingersoll",
+                             "loser":  "Chatham Glenwood",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                         },
+                  "11":  {
+                             "teams":  [
+                                           "Dunlap MS",
+                                           "Chatham Glenwood"
+                                       ],
+                             "scores":  [
+                                            24,
+                                            28
+                                        ],
+                             "winner":  "Chatham Glenwood",
+                             "loser":  "Dunlap MS",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                         },
+                  "6":  {
+                            "teams":  [
+                                          "Chatham Glenwood",
+                                          "Warrensburg-Latham"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           23
+                                       ],
+                            "winner":  "Chatham Glenwood",
+                            "loser":  "Warrensburg-Latham",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Bellwood Roosevelt",
+                                          "Toledo Cumberland"
+                                      ],
+                            "scores":  [
+                                           54,
+                                           47
+                                       ],
+                            "winner":  "Bellwood Roosevelt",
+                            "loser":  "Toledo Cumberland",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                        },
+                  "13":  {
+                             "teams":  [
+                                           "Champaign Franklin",
+                                           "Bellwood Roosevelt"
+                                       ],
+                             "scores":  [
+                                            26,
+                                            49
+                                        ],
+                             "winner":  "Bellwood Roosevelt",
+                             "loser":  "Champaign Franklin",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2005\u0026Class=8AA"
+                         }
+              }
+}

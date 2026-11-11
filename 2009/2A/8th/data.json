@@ -1,0 +1,362 @@
+﻿{
+    "year":  2009,
+    "grade":  "8th",
+    "className":  "2A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Bourbonnais St. George",
+                          "teams":  [
+                                        "Bourbonnais St. George",
+                                        "Elwood GS",
+                                        "Grant Park",
+                                        "Ford Heights Cottage Grove UGC"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Milford",
+                          "teams":  [
+                                        "Onarga Iroquois West",
+                                        "Milford",
+                                        "Herscher JHS",
+                                        "St. Anne"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Seneca",
+                          "teams":  [
+                                        "Seneca",
+                                        "Spring Valley Kennedy",
+                                        "Oglesby Washington",
+                                        "Marseilles ES"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Sparland Midland",
+                          "teams":  [
+                                        "Sparland Midland",
+                                        "Flanagan",
+                                        "Roanoke-Benson",
+                                        "Henry-Senachwine"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Peoria Pleasant Valley",
+                          "teams":  [
+                                        "Peoria Heights St. Thomas",
+                                        "Peoria Hollis",
+                                        "Bartonville Oak Grove West",
+                                        "Peoria Pleasant Valley",
+                                        "Peoria Norwood",
+                                        "Peoria Heights GS"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Peoria St. Vincent de Paul",
+                          "teams":  [
+                                        "Peoria St. Vincent de Paul",
+                                        "Princeville",
+                                        "Brimfield",
+                                        "Peoria St. Philomena",
+                                        "Elmwood"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Nauvoo-Colusa",
+                          "teams":  [
+                                        "Carthage",
+                                        "Nauvoo-Colusa",
+                                        "La Harpe",
+                                        "Table Grove VIT",
+                                        "Lewistown Central",
+                                        "Abingdon",
+                                        "Colchester West Prairie"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Mt. Sterling Brown County",
+                          "teams":  [
+                                        "Mt. Sterling Brown County",
+                                        "Mendon Unity",
+                                        "Camp Point Central",
+                                        "Kinderhook Western",
+                                        "Hamilton"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Champaign St. Matthew",
+                          "teams":  [
+                                        "Bismarck-Henning",
+                                        "Catlin",
+                                        "Villa Grove",
+                                        "Champaign St. Matthew",
+                                        "Urbana University",
+                                        "Paris Crestwood"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Arcola",
+                          "teams":  [
+                                        "Arcola",
+                                        "Arthur",
+                                        "Tuscola East Prairie",
+                                        "Cerro Gordo",
+                                        "Findlay Okaw Valley"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Normal Epiphany",
+                          "teams":  [
+                                        "Bloomington Holy Trinity",
+                                        "Colfax Ridgeview",
+                                        "Normal Metcalf",
+                                        "Normal Epiphany",
+                                        "LeRoy",
+                                        "Fisher"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Decatur Holy Family",
+                          "teams":  [
+                                        "Decatur Holy Family",
+                                        "Illiopolis Sangamon Valley",
+                                        "Buffalo Tri-City",
+                                        "Decatur Johns Hill",
+                                        "Decatur Lutheran",
+                                        "Mt. Pulaski",
+                                        "Mason City Illini Central"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Palestine",
+                          "teams":  [
+                                        "Palestine",
+                                        "Oblong",
+                                        "Albion"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Altamont",
+                          "teams":  [
+                                        "Altamont",
+                                        "Stewardson-Strasburg",
+                                        "Beecher City",
+                                        "Neoga",
+                                        "Kinmundy South Central"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Nokomis JHS",
+                          "teams":  [
+                                        "Springfield Blessed Sacrament",
+                                        "Springfield St. Agnes",
+                                        "Nokomis JHS",
+                                        "Assumption Central A \u0026 M",
+                                        "Pawnee",
+                                        "Kincaid South Fork"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Jerseyville St. Francis HG",
+                          "teams":  [
+                                        "Winchester",
+                                        "Jerseyville St. Francis HG",
+                                        "Bunker Hill Wolf Ridge",
+                                        "Roodhouse North Greene",
+                                        "Girard",
+                                        "Ashland A-C Central"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Onarga Iroquois West",
+                           "date":  "Wednesday, December 09, 2009"
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Seneca",
+                           "date":  "Wednesday, December 09, 2009"
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Brimfield",
+                           "date":  "Wednesday, December 09, 2009",
+                           "records":  {
+                                           "6":  "24-0"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Mt. Sterling Brown County",
+                           "date":  "Wednesday, December 09, 2009",
+                           "records":  {
+                                           "7":  "22-1",
+                                           "8":  "17-2"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Champaign St. Matthew",
+                           "date":  "Wednesday, December 09, 2009"
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Bloomington Holy Trinity",
+                           "date":  "Thursday, December 10, 2009",
+                           "records":  {
+                                           "11":  "21-1",
+                                           "12":  "20-3"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Altamont",
+                           "date":  "Wednesday, December 09, 2009",
+                           "records":  {
+                                           "14":  "11-9"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Kincaid South Fork",
+                           "date":  "Wednesday, December 09, 2009",
+                           "records":  {
+                                           "16":  "22-2"
+                                       }
+                       }
+                   ],
+    "venue":  "Clinton JHS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              3,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              4,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              7,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              1,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

@@ -9,9 +9,13 @@ pairings, with W–L records only where IESA printed them. The 1998 state
 tournament includes a first round, while 1990–1997 begin at the quarterfinals.
 The pre-2002 archives do not infer regional seeds, sectionals, or missing
 earlier rounds from the state bracket. Later seasons have separate
-`<year>/7th/` and `<year>/8th/` static bracket pages. Class A archives cover
-2002–2005 (IESA's 7A/8A divisions, the predecessors of 1A); Class 1A
-archives cover 2006–2019 and 2021–2023; Class 2A archives cover 2024–2025. The live 2026
+`<year>/7th/` and `<year>/8th/` static bracket pages. Every class IESA played
+is archived through 2025: Class A and AA for 1990–2005 (IESA's 7A/7AA/8A/8AA
+divisions; 1990–2001 are state-only) and Classes 1A–4A for 2006–2019 and
+2021–2025. The first class archived for a year keeps `<year>/<grade>/` (1A for
+2006–2023, 2A for 2024–2025, A before 2006); every other class lives in
+`<year>/<class>/<grade>/`, and `seasons.json` lists a year's classes in
+`classes`. The live 2026
 Class 2A site retains its separate scheduled score and postseason refreshes.
 Historical pages show published seeds, bracket results and state pairings.
 Sectional cards show each qualifying school's pre-sectional W–L record when
@@ -28,7 +32,8 @@ From this directory in PowerShell:
 
 For a pre-2002 state archive, run
 `.\Build-IesaEarlyArchive.ps1 -Years 1999 -OutputRoot 'C:\inetpub\personalroot\IESA'`
-or omit `-Years` to rebuild 1979–2001. This importer reads the grade-specific
+or omit `-Years` to rebuild 1979–2001; add `-ClassName AA` for the 1990–2001
+Class AA tournaments. This importer reads the grade-specific
 IESA state bracket (the combined bracket before 1986) and, for 1999–2001,
 the published sectional pairings. It validates the round sizes, all winners
 and scores, and the printed champion before writing pages. Use
@@ -39,9 +44,12 @@ scores; they link to the original IESA sources. They do not offer a nightly
 score refresh or claim unavailable full-season school results.
 
 Set `-Year` to the tournament year and `-ClassName` to the published IESA class
-(`A` for 2002–2005, `1A` through `4A` thereafter). For a legacy archive, use
+(`A` or `AA` for 2002–2005, `1A` through `4A` thereafter). Run it once per
+class; a class that is not the year's first archived class is published to
+`<year>/<class>/` and added to that year's `classes` in `seasons.json`. For a
+legacy archive, use
 `.\Build-IesaSeason.ps1 -Year 2002 -ClassName A` to read the 7A and 8A
-sources. The old format has 32 regionals, 16 sectionals, and eight state
+sources (`-ClassName AA` reads 7AA and 8AA). The old format has 32 regionals, 16 sectionals, and eight state
 first-round games before the quarterfinals; it does not publish regional seed
 brackets. For later years, wait until both grades have official regional seeds
 and state quarterfinal pairings: the importer refuses incomplete seasons. It reads
@@ -125,20 +133,79 @@ with Ctrl/Cmd/Alt so browser zoom still works. The +/- buttons are shown on
 desktop (hidden at 680px and below); a click steps 1.2x and holding one
 zooms continuously after 300 ms.
 
-The year menu also marks seasons in which Springfield Christian finished in the
-top four with a dot, so the handful worth revisiting stand out among nearly
-fifty years. `Build-IesaPlacements.ps1` derives those placements from the two
-final games of each archived bracket - the championship winner and loser are
-first and second, the third place game's winner and loser are third and fourth -
-and writes `placements.json` at the site root. The dot is **grade aware**: it
-describes the page the menu would open, so the eighth-grade menu marks the years
-that team placed in eighth grade. A season where both grades placed is marked in
-both. Marking is best effort; if `placements.json` is missing or unreadable the
-menu still lists every year, just without dots. The bracket's own game numbers
-determine its shape, so a season in progress is covered even though its
-`data.js` is executable JavaScript rather than JSON. Once the state bracket is
-published the refresh runs this automatically, so a finish in the current season
-appears without manual action; run it by hand after adding an archived year.
+Archive pages are rendered from `archive-grade-template.html`,
+`archive-state-template.html` and `archive-season-template.html` by
+`IesaSitePages.ps1`, which also owns the class-folder rule and catalogue
+updates. After changing a template or bumping an asset version, run
+`.\Update-IesaPageShells.ps1` to re-render every archived page (no IESA
+requests). Then run `.\Build-IesaTeamIndex.ps1` after publishing any season or
+class so the team picker and class navigation know about it.
+
+**Settings and My team.** Every page has a gear button that opens *Settings*:
+the *My team* choice and the dark-mode switch (moved out of the crowded
+header; `theme.js` still finds it by id). A visitor can search every school on
+the site and pick one; the choice is saved in that browser (`localStorage`
+keys `iesa-my-team` and `iesa-my-team-keys`, the latter holding every spelling
+of the school) and defaults to Springfield Christian until a visitor picks
+another or clears it. Choosing a team keeps the dialog open and lists that
+team's top-four state finishes with links to those brackets; closing it reloads
+the page so the brackets and menus re-highlight. The chosen team is highlighted
+in every bracket and the mobile view opens beside it (`2026\my-team.js`).
+
+School names are matched ignoring case, a trailing `(Co-op)` or printed W–L
+record, possessive `'s`, periods and hyphens (`Get-TeamKey` in
+`Build-IesaTeamIndex.ps1` and `key()` in `my-team.js` must agree). Names that
+differ only by a school-type suffix (JHS, IJHS, MS, GS, ES, UGC) are merged
+unless both appear in one 2002+ roster, and town-prefix variants are merged
+only through the curated `$aliasOf` list (for example West Lincoln-Broadwell /
+Lincoln West Lincoln-Broadwell). Pleasant Hill and Peoria Pleasant Hill, and the
+four St. Joseph schools, are deliberately kept apart. `teams.json` publishes the
+merges as `aliases`, and the most recent spelling is displayed.
+
+The year menu marks seasons in which the chosen team finished in the top four
+with a trophy, so the handful worth revisiting stand out among nearly fifty
+years; the class menu itself carries no trophies. A year with more
+than one archived class shows a class menu beside the year menu; switching
+years opens the class the chosen team played in that year (from `teams.json`),
+otherwise the class being viewed, otherwise the year's first class.
+`Build-IesaPlacements.ps1` stores IESA's
+official [State Tournament Winners](https://www.iesa.org/activities/gbk/winners.asp)
+history, which lists the champion, runner-up, third and fourth place school for
+every class and year since 1979. All fifteen classes are stored for every
+school in `placements.json` at the site root, so the trophies work for any team. Nothing is written unless
+every class page is read and validated, so an IESA outage or layout change keeps
+the previous file. Requests go through `2026\IesaRequest.ps1`, so they are spaced
+3 seconds apart and honour `iesa-pause.json` and `IESA_OFFLINE`. The trophy is
+**grade aware**: it describes the page the menu would open, so the eighth-grade
+menu marks the years that team placed in eighth grade. A season where both
+grades placed is marked in both. Marking is best effort; if `placements.json` is
+missing or unreadable the menu still lists every year, just without trophies.
+Once the state finals begin the refresh runs this and the team index
+automatically, so a current-season finish appears as soon as IESA adds it to
+the history; run them by hand at any time to re-check the history.
+
+On phones the header keeps the year and class menus, grade buttons, settings,
+find and Fit controls on one line down to 320 px: the title is hidden when a
+class menu is shown (the menus already identify the page), and on the live
+season below 430 px.
+
+Archiving every class surfaced IESA data quirks the importers now handle
+generically: canceled regionals (`Regional 2 has been canceled`, with the
+partner regional's champion advancing unopposed), empty regional assignment
+lists filled from the published bracket, regional brackets that
+omit trailing BYE rows, a regional final printed without its winner (taken from
+the published bracket only when its loser and score agree), unpublished
+sectional finals inferred from a state qualifier's regional title, and a school
+named with and without its town prefix or school-type suffix on different pages
+(accepted only as a unique match), a district named on the scoreboard where the
+sectional page names its school ("Calumet City Dolton 149" / "Calumet City
+Dirksen", accepted only as the unique same-town winner), regionals with no
+schools at all (2011–2018 7-3A Regional 1), "Regional 2/Sectional 1 Canceled",
+scores printed as ".31", score text in a bracket name cell, a pairing line with
+a game result appended, and bracket participants missing from 2021+
+assignments (archives treat the published bracket as authoritative; the live
+season stays strict). A canceled regional is shown as "Canceled by IESA" and
+its sectional slot as "Regional N canceled".
 
 ## End the scheduled refresh
 

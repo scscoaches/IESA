@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:17",
+    "year":  2024,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Auburn JHS at Divernon",
+                                 "loser":  "Hillsboro",
+                                 "score":  "21-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                             },
+                      "3":  {
+                                "winner":  "Channahon",
+                                "loser":  "Crest Hill Richland",
+                                "score":  "25-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                            },
+                      "5":  {
+                                "winner":  "Westville JHS",
+                                "loser":  "St. Joseph",
+                                "score":  "33-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Sullivan",
+                                 "score":  "30-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Orion",
+                                 "loser":  "Monmouth-Roseville JHS",
+                                 "score":  "22-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                             },
+                      "2":  {
+                                "winner":  "South Holland McKinley",
+                                "loser":  "Robbins Kellar",
+                                "score":  "40-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                            },
+                      "8":  {
+                                "winner":  "El Paso-Gridley",
+                                "loser":  "Stanford Olympia",
+                                "score":  "21-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Lawrenceville Parkview",
+                                 "loser":  "Bridgeport Red Hill",
+                                 "score":  "52-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                             },
+                      "1":  {
+                                "winner":  "Sauk Village Rickover",
+                                "loser":  "Blue Island Veterans Memorial",
+                                "score":  "16-7",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                            },
+                      "9":  {
+                                "winner":  "Germantown Hills",
+                                "loser":  "Metamora GS",
+                                "score":  "39-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Quincy St. Peter",
+                                 "score":  "27-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                             },
+                      "7":  {
+                                "winner":  "Downs Tri-Valley",
+                                "loser":  "Maroa-Forsyth",
+                                "score":  "36-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Staunton",
+                                 "loser":  "Greenville",
+                                 "score":  "37-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                             },
+                      "6":  {
+                                "winner":  "Manteno",
+                                "loser":  "Clifton Nash",
+                                "score":  "41-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                            },
+                      "4":  {
+                                "winner":  "Lisle",
+                                "loser":  "Rockford Marshall",
+                                "score":  "24-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Springfield Lincoln",
+                                 "loser":  "Williamsville",
+                                 "score":  "39-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Auburn JHS at Divernon",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Channahon",
+                                              "record":  "13-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Westville JHS",
+                                              "record":  "19-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Orion",
+                                               "record":  "18-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "South Holland McKinley",
+                                              "record":  "10-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "El Paso-Gridley",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Lawrenceville Parkview",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "Sauk Village Rickover",
+                                              "record":  "7-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Germantown Hills",
+                                              "record":  "19-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Pleasant Plains",
+                                               "record":  "14-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Downs Tri-Valley",
+                                              "record":  "21-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Staunton",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Manteno",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Lisle",
+                                              "record":  "13-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Springfield Lincoln",
+                                               "record":  "17-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Springfield Lincoln",
+                                 "loser":  "Pleasant Plains",
+                                 "score":  "28-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Westville JHS",
+                                 "loser":  "Manteno",
+                                 "score":  "31-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Channahon",
+                                 "loser":  "Lisle",
+                                 "score":  "18-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-3A"
+                             },
+                       "1":  {
+                                 "winner":  "South Holland McKinley",
+                                 "loser":  "Sauk Village Rickover",
+                                 "score":  "26-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Downs Tri-Valley",
+                                 "loser":  "El Paso-Gridley",
+                                 "score":  "40-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Lawrenceville Parkview",
+                                 "score":  "33-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Germantown Hills",
+                                 "loser":  "Orion",
+                                 "score":  "31-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Staunton",
+                                 "loser":  "Auburn JHS at Divernon",
+                                 "score":  "39-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2024\u0026Class=7-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           1
+                                       ],
+                                 "4":  [
+                                           7,
+                                           6
+                                       ],
+                                 "1":  [
+                                           5,
+                                           2
+                                       ],
+                                 "3":  [
+                                           4,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Westville JHS",
+                                          "Springfield Lincoln"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           38
+                                       ],
+                            "winner":  "Springfield Lincoln",
+                            "loser":  "Westville JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Downs Tri-Valley",
+                                          "Staunton"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           30
+                                       ],
+                            "winner":  "Staunton",
+                            "loser":  "Downs Tri-Valley",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Westville JHS",
+                                          "South Holland McKinley"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           11
+                                       ],
+                            "winner":  "Westville JHS",
+                            "loser":  "South Holland McKinley",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Germantown Hills",
+                                          "Channahon"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           16
+                                       ],
+                            "winner":  "Germantown Hills",
+                            "loser":  "Channahon",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Springfield Lincoln",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           31
+                                       ],
+                            "winner":  "Springfield Lincoln",
+                            "loser":  "Teutopolis",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Staunton",
+                                          "Springfield Lincoln"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           36
+                                       ],
+                            "winner":  "Staunton",
+                            "loser":  "Springfield Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Germantown Hills",
+                                          "Westville JHS"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           24
+                                       ],
+                            "winner":  "Germantown Hills",
+                            "loser":  "Westville JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Germantown Hills",
+                                          "Staunton"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           43
+                                       ],
+                            "winner":  "Staunton",
+                            "loser":  "Germantown Hills",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2024\u0026Class=7-3A"
+                        }
+              }
+};

@@ -1,0 +1,693 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:28",
+    "year":  2002,
+    "grade":  "7th",
+    "regionals":  {
+                      "11":  {
+                                 "winner":  "Washington MS",
+                                 "loser":  "Dunlap MS",
+                                 "score":  "33-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "3":  {
+                                "winner":  "Dixmoor Rosa Parks",
+                                "loser":  "Country Club Hills Southwood",
+                                "score":  "37-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                            },
+                      "20":  {
+                                 "winner":  "Decatur Stephen Decatur",
+                                 "loser":  "Monticello Washington",
+                                 "score":  "46-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "12":  {
+                                 "winner":  "Metamora St. Mary\u0027s (Coop)",
+                                 "loser":  "Metamora Germantown Hills",
+                                 "score":  "38-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "10":  {
+                                 "winner":  "Ottawa Shepherd",
+                                 "loser":  "Streator Northlawn",
+                                 "score":  "19-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "17":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Havana",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "13":  {
+                                 "winner":  "Danville North Ridge",
+                                 "loser":  "Georgetown Mary Miller",
+                                 "score":  "49-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "27":  {
+                                 "winner":  "Paris Mayo",
+                                 "loser":  "Casey-Westfield",
+                                 "score":  "29-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "30":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Altamont (Coop)",
+                                 "score":  "28-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "18":  {
+                                 "winner":  "Morton JHS",
+                                 "loser":  "East Peoria Central",
+                                 "score":  "37-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "29":  {
+                                 "winner":  "Pana JHS (Coop)",
+                                 "loser":  "Mattoon",
+                                 "score":  "21-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "23":  {
+                                 "winner":  "Williamsville",
+                                 "loser":  "Springfield Grant",
+                                 "score":  "34-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "19":  {
+                                 "winner":  "Tuscola East Prairie",
+                                 "loser":  "Tolono Unity",
+                                 "score":  "33-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "1":  {
+                                "winner":  "Bolingbrook Jane Addams",
+                                "loser":  "Homer Glen Homer",
+                                "score":  "25-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                            },
+                      "5":  {
+                                "winner":  "Channahon",
+                                "loser":  "Shorewood Troy",
+                                "score":  "42-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                            },
+                      "4":  {
+                                "winner":  "Phoenix Coolidge",
+                                "loser":  "Lansing Heritage",
+                                "score":  "42-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                            },
+                      "8":  {
+                                "winner":  "Watseka Glenn Raymond",
+                                "loser":  "Herscher Limestone",
+                                "score":  "33-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                            },
+                      "26":  {
+                                 "winner":  "Jacksonville Turner",
+                                 "loser":  "Rushville Schuyler County",
+                                 "score":  "31-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "14":  {
+                                 "winner":  "Urbana MS",
+                                 "loser":  "Rantoul Eater",
+                                 "score":  "43-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "22":  {
+                                 "winner":  "Taylorville JHS",
+                                 "loser":  "Assumption Central A \u0026 M",
+                                 "score":  "34-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "28":  {
+                                 "winner":  "Ste. Marie East  (Coop)",
+                                 "loser":  "Sumner Red Hill",
+                                 "score":  "37-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "25":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Liberty (Coop)",
+                                 "score":  "29-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "9":  {
+                                "winner":  "Pontiac JHS",
+                                "loser":  "Coal City",
+                                "score":  "48-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                            },
+                      "15":  {
+                                 "winner":  "Forrest Prairie Central",
+                                 "loser":  "Mahomet-Seymour",
+                                 "score":  "20-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "21":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Springfield Jefferson",
+                                 "score":  "37-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "24":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Auburn",
+                                 "score":  "32-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "16":  {
+                                 "winner":  "Downs Tri-Valley",
+                                 "loser":  "Maroa-Forsyth",
+                                 "score":  "23-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "32":  {
+                                 "winner":  "Hillsboro",
+                                 "loser":  "Litchfield",
+                                 "score":  "31-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             },
+                      "7":  {
+                                "winner":  "Momence JHS",
+                                "loser":  "Peotone",
+                                "score":  "25-12",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                            },
+                      "2":  {
+                                "winner":  "Fox River Grove",
+                                "loser":  "Bellwood Roosevelt",
+                                "score":  "39-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                            },
+                      "6":  {
+                                "winner":  "Joliet Washington",
+                                "loser":  "New Lenox Liberty",
+                                "score":  "30-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                            },
+                      "31":  {
+                                 "winner":  "Cahokia Wirth",
+                                 "loser":  "East St. Louis Clark",
+                                 "score":  "55-52",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "11":  {
+                                               "team":  "Washington MS",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "7":  {
+                                              "team":  "Momence JHS",
+                                              "record":  "11-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                          },
+                                    "20":  {
+                                               "team":  "Decatur Stephen Decatur",
+                                               "record":  "19-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "12":  {
+                                               "team":  "Metamora St. Mary\u0027s (Coop)",
+                                               "record":  "17-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "10":  {
+                                               "team":  "Ottawa Shepherd",
+                                               "record":  "15-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "17":  {
+                                               "team":  "Canton Ingersoll",
+                                               "record":  "20-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "13":  {
+                                               "team":  "Danville North Ridge",
+                                               "record":  "9-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "27":  {
+                                               "team":  "Paris Mayo",
+                                               "record":  "19-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "30":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "17-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "18":  {
+                                               "team":  "Morton JHS",
+                                               "record":  "13-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "29":  {
+                                               "team":  "Pana JHS (Coop)",
+                                               "record":  "14-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "23":  {
+                                               "team":  "Williamsville",
+                                               "record":  "16-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "19":  {
+                                               "team":  "Tuscola East Prairie",
+                                               "record":  "15-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "1":  {
+                                              "team":  "Bolingbrook Jane Addams",
+                                              "record":  "14-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                          },
+                                    "5":  {
+                                              "team":  "Channahon",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                          },
+                                    "4":  {
+                                              "team":  "Phoenix Coolidge",
+                                              "record":  "13-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                          },
+                                    "32":  {
+                                               "team":  "Hillsboro",
+                                               "record":  "18-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "14":  {
+                                               "team":  "Urbana MS",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "22":  {
+                                               "team":  "Taylorville JHS",
+                                               "record":  "15-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "28":  {
+                                               "team":  "Ste. Marie East  (Coop)",
+                                               "record":  "16-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "25":  {
+                                               "team":  "Quincy",
+                                               "record":  "14-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "9":  {
+                                              "team":  "Pontiac JHS",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                          },
+                                    "15":  {
+                                               "team":  "Forrest Prairie Central",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "21":  {
+                                               "team":  "Rochester",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "24":  {
+                                               "team":  "Chatham Glenwood",
+                                               "record":  "11-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "16":  {
+                                               "team":  "Downs Tri-Valley",
+                                               "record":  "19-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           },
+                                    "8":  {
+                                              "team":  "Watseka Glenn Raymond",
+                                              "record":  "15-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                          },
+                                    "2":  {
+                                              "team":  "Fox River Grove",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                          },
+                                    "6":  {
+                                              "team":  "Joliet Washington",
+                                              "record":  "18-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                          },
+                                    "31":  {
+                                               "team":  "Cahokia Wirth",
+                                               "record":  "13-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2002\u0026Class=7AA"
+                                           }
+                                },
+    "sectionals":  {
+                       "16":  {
+                                  "winner":  "Cahokia Wirth",
+                                  "loser":  "Hillsboro",
+                                  "score":  "50-28",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                              },
+                       "3":  {
+                                 "winner":  "Channahon",
+                                 "loser":  "Joliet Washington",
+                                 "score":  "32-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                             },
+                       "5":  {
+                                 "winner":  "Pontiac JHS",
+                                 "loser":  "Ottawa Shepherd",
+                                 "score":  "36-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                             },
+                       "12":  {
+                                  "winner":  "Chatham Glenwood",
+                                  "loser":  "Williamsville",
+                                  "score":  "28-26",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                              },
+                       "10":  {
+                                  "winner":  "Decatur Stephen Decatur",
+                                  "loser":  "Tuscola East Prairie",
+                                  "score":  "38-18",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                              },
+                       "2":  {
+                                 "winner":  "Phoenix Coolidge",
+                                 "loser":  "Dixmoor Rosa Parks",
+                                 "score":  "31-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                             },
+                       "8":  {
+                                 "winner":  "Forrest Prairie Central",
+                                 "loser":  "Downs Tri-Valley",
+                                 "score":  "19-6",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                             },
+                       "11":  {
+                                  "winner":  "Rochester",
+                                  "loser":  "Taylorville JHS",
+                                  "score":  "38-10",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                              },
+                       "1":  {
+                                 "winner":  "Bolingbrook Jane Addams",
+                                 "loser":  "Fox River Grove",
+                                 "score":  "34-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                             },
+                       "9":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Morton JHS",
+                                 "score":  "39-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                             },
+                       "14":  {
+                                  "winner":  "Paris Mayo",
+                                  "loser":  "Ste. Marie East  (Coop)",
+                                  "score":  "38-37",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                              },
+                       "7":  {
+                                 "winner":  "Urbana MS",
+                                 "loser":  "Danville North Ridge",
+                                 "score":  "62-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                             },
+                       "15":  {
+                                  "winner":  "Teutopolis",
+                                  "loser":  "Pana JHS (Coop)",
+                                  "score":  "23-17",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                              },
+                       "6":  {
+                                 "winner":  "Washington MS",
+                                 "loser":  "Metamora St. Mary\u0027s (Coop)",
+                                 "score":  "39-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                             },
+                       "4":  {
+                                 "winner":  "Momence JHS",
+                                 "loser":  "Watseka Glenn Raymond",
+                                 "score":  "33-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                             },
+                       "13":  {
+                                  "winner":  "Quincy",
+                                  "loser":  "Jacksonville Turner",
+                                  "score":  "43-9",
+                                  "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2002\u0026Class=7AA"
+                              }
+                   },
+    "quarterfinalMatchups":  {
+                                 "7":  [
+                                           1,
+                                           13
+                                       ],
+                                 "3":  [
+                                           15,
+                                           16
+                                       ],
+                                 "2":  [
+                                           3,
+                                           14
+                                       ],
+                                 "1":  [
+                                           4,
+                                           7
+                                       ],
+                                 "4":  [
+                                           11,
+                                           5
+                                       ],
+                                 "6":  [
+                                           8,
+                                           9
+                                       ],
+                                 "5":  [
+                                           6,
+                                           10
+                                       ],
+                                 "8":  [
+                                           12,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "12":  {
+                             "teams":  [
+                                           "Quincy",
+                                           "Chatham Glenwood"
+                                       ],
+                             "scores":  [
+                                            34,
+                                            35
+                                        ],
+                             "winner":  "Chatham Glenwood",
+                             "loser":  "Quincy",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                         },
+                  "7":  {
+                            "teams":  [
+                                          "Bolingbrook Jane Addams",
+                                          "Quincy"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           46
+                                       ],
+                            "winner":  "Quincy",
+                            "loser":  "Bolingbrook Jane Addams",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Washington MS",
+                                          "Decatur Stephen Decatur"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           37
+                                       ],
+                            "winner":  "Decatur Stephen Decatur",
+                            "loser":  "Washington MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                        },
+                  "16":  {
+                             "teams":  [
+                                           "Rochester",
+                                           "Canton Ingersoll"
+                                       ],
+                             "scores":  [
+                                            29,
+                                            32
+                                        ],
+                             "winner":  "Canton Ingersoll",
+                             "loser":  "Rochester",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                         },
+                  "10":  {
+                             "teams":  [
+                                           "Cahokia Wirth",
+                                           "Rochester"
+                                       ],
+                             "scores":  [
+                                            29,
+                                            32
+                                        ],
+                             "winner":  "Rochester",
+                             "loser":  "Cahokia Wirth",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                         },
+                  "2":  {
+                            "teams":  [
+                                          "Channahon",
+                                          "Paris Mayo"
+                                      ],
+                            "scores":  [
+                                           17,
+                                           39
+                                       ],
+                            "winner":  "Paris Mayo",
+                            "loser":  "Channahon",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Cahokia Wirth"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           26
+                                       ],
+                            "winner":  "Cahokia Wirth",
+                            "loser":  "Teutopolis",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Chatham Glenwood",
+                                          "Phoenix Coolidge"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           27
+                                       ],
+                            "winner":  "Chatham Glenwood",
+                            "loser":  "Phoenix Coolidge",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                        },
+                  "15":  {
+                             "teams":  [
+                                           "Urbana MS",
+                                           "Chatham Glenwood"
+                                       ],
+                             "scores":  [
+                                            33,
+                                            27
+                                        ],
+                             "winner":  "Urbana MS",
+                             "loser":  "Chatham Glenwood",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                         },
+                  "1":  {
+                            "teams":  [
+                                          "Momence JHS",
+                                          "Urbana MS"
+                                      ],
+                            "scores":  [
+                                           15,
+                                           25
+                                       ],
+                            "winner":  "Urbana MS",
+                            "loser":  "Momence JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                        },
+                  "9":  {
+                            "teams":  [
+                                          "Urbana MS",
+                                          "Paris Mayo"
+                                      ],
+                            "scores":  [
+                                           53,
+                                           21
+                                       ],
+                            "winner":  "Urbana MS",
+                            "loser":  "Paris Mayo",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                        },
+                  "14":  {
+                             "teams":  [
+                                           "Canton Ingersoll",
+                                           "Chatham Glenwood"
+                                       ],
+                             "scores":  [
+                                            30,
+                                            24
+                                        ],
+                             "winner":  "Canton Ingersoll",
+                             "loser":  "Chatham Glenwood",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                         },
+                  "11":  {
+                             "teams":  [
+                                           "Decatur Stephen Decatur",
+                                           "Canton Ingersoll"
+                                       ],
+                             "scores":  [
+                                            37,
+                                            39
+                                        ],
+                             "winner":  "Canton Ingersoll",
+                             "loser":  "Decatur Stephen Decatur",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                         },
+                  "6":  {
+                            "teams":  [
+                                          "Forrest Prairie Central",
+                                          "Canton Ingersoll"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           34
+                                       ],
+                            "winner":  "Canton Ingersoll",
+                            "loser":  "Forrest Prairie Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Rochester",
+                                          "Pontiac JHS"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           15
+                                       ],
+                            "winner":  "Rochester",
+                            "loser":  "Pontiac JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                        },
+                  "13":  {
+                             "teams":  [
+                                           "Urbana MS",
+                                           "Rochester"
+                                       ],
+                             "scores":  [
+                                            24,
+                                            38
+                                        ],
+                             "winner":  "Rochester",
+                             "loser":  "Urbana MS",
+                             "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2002\u0026Class=7AA"
+                         }
+              }
+};

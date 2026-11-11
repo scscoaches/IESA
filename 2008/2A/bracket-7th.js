@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-11 11:22",
+    "year":  2008,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Jerseyville St. Francis HG",
+                                 "loser":  "Bunker Hill Meissner",
+                                 "score":  "16-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "Odell",
+                                "loser":  "Seneca",
+                                "score":  "36-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Peoria Hollis",
+                                "loser":  "Bartonville Oak Grove West",
+                                "score":  "23-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Camp Point Central",
+                                 "score":  "31-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Springfield Blessed Sacrament",
+                                 "loser":  "Winchester",
+                                 "score":  "52-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Onarga Iroquois West",
+                                "loser":  "Milford",
+                                "score":  "19-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Arthur",
+                                "loser":  "Cerro Gordo",
+                                "score":  "32-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "La Harpe",
+                                 "score":  "33-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Bourbonnais St. George",
+                                "loser":  "Herscher JHS",
+                                "score":  "30-6",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Pawnee",
+                                "loser":  "Illiopolis Sangamon Valley",
+                                "score":  "38-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Toledo Cumberland",
+                                 "score":  "37-5",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Homer Heritage",
+                                "loser":  "Arcola",
+                                "score":  "29-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Altamont",
+                                 "loser":  "Nokomis JHS",
+                                 "score":  "24-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Brimfield",
+                                "loser":  "Princeville",
+                                "score":  "41-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "Bloomington Holy Trinity",
+                                "loser":  "Heyworth",
+                                "score":  "25-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Sumner Red Hill",
+                                 "loser":  "Palestine",
+                                 "score":  "26-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Jerseyville St. Francis HG",
+                                               "record":  "15-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Odell",
+                                              "record":  "19-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Peoria Hollis",
+                                              "record":  "12-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Mt. Sterling Brown County",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Springfield Blessed Sacrament",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Onarga Iroquois West",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Arthur",
+                                              "record":  "18-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Carthage",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Bourbonnais St. George",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Pawnee",
+                                              "record":  "9-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "21-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Homer Heritage",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Altamont",
+                                               "record":  "16-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Brimfield",
+                                              "record":  "12-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Bloomington Holy Trinity",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Sumner Red Hill",
+                                               "record":  "14-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Sumner Red Hill",
+                                 "score":  "40-7",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Brimfield",
+                                 "loser":  "Peoria Hollis",
+                                 "score":  "43-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Bloomington Holy Trinity",
+                                 "loser":  "Odell",
+                                 "score":  "42-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Onarga Iroquois West",
+                                 "loser":  "Bourbonnais St. George",
+                                 "score":  "35-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Arthur",
+                                 "loser":  "Homer Heritage",
+                                 "score":  "27-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Mt. Sterling Brown County",
+                                 "score":  "35-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Springfield Blessed Sacrament",
+                                 "loser":  "Pawnee",
+                                 "score":  "43-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Altamont",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "37-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/gbk/qualifiers_State.asp?Year=2008\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           2
+                                       ],
+                                 "4":  [
+                                           1,
+                                           7
+                                       ],
+                                 "1":  [
+                                           4,
+                                           3
+                                       ],
+                                 "3":  [
+                                           5,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Brimfield",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           32
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Brimfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Springfield Blessed Sacrament",
+                                          "Altamont"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           23
+                                       ],
+                            "winner":  "Springfield Blessed Sacrament",
+                            "loser":  "Altamont",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Carthage",
+                                          "Bloomington Holy Trinity"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           54
+                                       ],
+                            "winner":  "Bloomington Holy Trinity",
+                            "loser":  "Carthage",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Arthur",
+                                          "Brimfield"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           38
+                                       ],
+                            "winner":  "Brimfield",
+                            "loser":  "Arthur",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Onarga Iroquois West",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           11,
+                                           15
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Onarga Iroquois West",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Springfield Blessed Sacrament",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           32
+                                       ],
+                            "winner":  "Springfield Blessed Sacrament",
+                            "loser":  "Effingham St. Anthony",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Brimfield",
+                                          "Bloomington Holy Trinity"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           41
+                                       ],
+                            "winner":  "Bloomington Holy Trinity",
+                            "loser":  "Brimfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Bloomington Holy Trinity",
+                                          "Springfield Blessed Sacrament"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           48
+                                       ],
+                            "winner":  "Springfield Blessed Sacrament",
+                            "loser":  "Bloomington Holy Trinity",
+                            "sourceUrl":  "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2008\u0026Class=7-2A"
+                        }
+              }
+};
