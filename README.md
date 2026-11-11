@@ -235,7 +235,21 @@ roughly 43 minutes). The 11 AM and 5 PM refreshes re-read **only Class 2A**
 700-request budget. A regular-season weekday therefore makes about 1,270 IESA
 requests (850 + 210 + 210), and Saturday about 850 plus the weekly Class 2A
 strength-of-schedule rebuild (about 600): roughly 7,800 a week. Once the
-regionals are played, later runs skip eliminated schools. Requests go through `2026\IesaRequest.ps1` (see below), which spaces
+regionals are played, later runs skip eliminated schools.
+
+A class's first capture is a silent baseline: games already played are not
+listed under "Score updates" (otherwise a new class would report every result
+as newly posted). On 2026 pages, the "Score updates" button appears only for the
+class the visitor's chosen team plays in that grade (all classes when no team
+is chosen), so other classes' changes do not bury the team's own.
+Strength of schedule is rebuilt per class (`Update-Strength.ps1 -SitePath
+2026\<class>`), on Saturdays or when missing or stale; opponents already in
+another 2026 class's score cache are reused instead of re-read from IESA (the
+first 1A build reused 96 records per grade and read about 134 pages per grade).
+"Bigger" opponents are the classes above the team's own (1A: 2A-4A).
+To refresh one class by hand, run
+`.\2026\Update-IesaScores.ps1 -Classes 1A` (the 2-hour check applies only
+when 2A is included). Requests go through `2026\IesaRequest.ps1` (see below), which spaces
 them at least three seconds apart to avoid a
 burst. Do not add additional runs without reconsidering the source load; use
 the single-school Update button for occasional immediate checks. The unofficial

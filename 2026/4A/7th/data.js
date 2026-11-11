@@ -1,4 +1,4 @@
-﻿window.tournamentData = {
+window.tournamentData = {
     "year":  2026,
     "grade":  "7th",
     "className":  "4A",

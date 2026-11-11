@@ -1,4 +1,4 @@
-﻿window.tournamentData = {
+window.tournamentData = {
     "year":  2026,
     "grade":  "8th",
     "className":  "3A",
@@ -160,7 +160,7 @@
                       {
                           "id":  12,
                           "sectional":  6,
-                          "host":  "Virginia  (Co-op)",
+                          "host":  "Virginia (Co-op)",
                           "teams":  [
                                         "Athens",
                                         "Beardstown MS",
@@ -168,7 +168,7 @@
                                         "Pittsfield Pikeland (Co-op)",
                                         "Pleasant Plains",
                                         "Quincy St. Peter (Co-op)",
-                                        "Virginia  (Co-op)"
+                                        "Virginia (Co-op)"
                                     ]
                       },
                       {

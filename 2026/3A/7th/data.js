@@ -1,4 +1,4 @@
-﻿window.tournamentData = {
+window.tournamentData = {
     "year":  2026,
     "grade":  "7th",
     "className":  "3A",
@@ -101,12 +101,12 @@
                       {
                           "id":  8,
                           "sectional":  4,
-                          "host":  "Metamora GS  (Co-op)",
+                          "host":  "Metamora GS (Co-op)",
                           "teams":  [
                                         "Eureka",
                                         "Germantown Hills",
                                         "Mackinaw Dee-Mack",
-                                        "Metamora GS  (Co-op)",
+                                        "Metamora GS (Co-op)",
                                         "Pekin Edison",
                                         "Tremont",
                                         "Washington MS"
@@ -157,7 +157,7 @@
                       {
                           "id":  12,
                           "sectional":  6,
-                          "host":  "Virginia  (Co-op)",
+                          "host":  "Virginia (Co-op)",
                           "teams":  [
                                         "Athens",
                                         "Beardstown MS",
@@ -165,7 +165,7 @@
                                         "Pittsfield Pikeland (Co-op)",
                                         "Pleasant Plains",
                                         "Quincy St. Peter (Co-op)",
-                                        "Virginia  (Co-op)"
+                                        "Virginia (Co-op)"
                                     ]
                       },
                       {

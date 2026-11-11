@@ -1,1 +1,13 @@
-window.iesaScoreCache = {"updatedAt":null,"previousCaptureAt":null,"teams":{},"updatedGames":[],"rosterChanges":[]};
+window.iesaScoreCache = {
+    "updatedAt":  null,
+    "previousCaptureAt":  null,
+    "teams":  {
+
+              },
+    "updatedGames":  [
+
+                     ],
+    "rosterChanges":  [
+
+                      ]
+};

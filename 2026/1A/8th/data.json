@@ -1,4 +1,4 @@
-﻿{
+{
     "year":  2026,
     "grade":  "8th",
     "className":  "1A",
@@ -47,7 +47,7 @@
                       {
                           "id":  4,
                           "sectional":  2,
-                          "host":  "Ransom  (Co-op)",
+                          "host":  "Ransom (Co-op)",
                           "teams":  [
                                         "Earlville",
                                         "Grand Ridge (Co-op)",
@@ -56,7 +56,7 @@
                                         "Millbrook",
                                         "Ottawa Marquette",
                                         "Paw Paw",
-                                        "Ransom  (Co-op)"
+                                        "Ransom (Co-op)"
                                     ]
                       },
                       {
@@ -90,14 +90,14 @@
                       {
                           "id":  7,
                           "sectional":  4,
-                          "host":  "Pontiac St. Mary\u0027s  (Co-op)",
+                          "host":  "Pontiac St. Mary\u0027s (Co-op)",
                           "teams":  [
                                         "Colfax Ridgeview",
                                         "Flanagan (Co-op)",
                                         "Lexington",
                                         "Normal Calvary",
                                         "Odell (Co-op)",
-                                        "Pontiac St. Mary\u0027s  (Co-op)",
+                                        "Pontiac St. Mary\u0027s (Co-op)",
                                         "Streator Woodland"
                                     ]
                       },
@@ -143,13 +143,13 @@
                       {
                           "id":  11,
                           "sectional":  6,
-                          "host":  "Oakland Lake Crest  (Co-op)",
+                          "host":  "Oakland Lake Crest (Co-op)",
                           "teams":  [
                                         "Chrisman Scottland",
                                         "Danville Schlarman",
                                         "Homer Heritage",
                                         "Hume Shiloh",
-                                        "Oakland Lake Crest  (Co-op)",
+                                        "Oakland Lake Crest (Co-op)",
                                         "Potomac (Co-op)",
                                         "Royal Prairieview Ogden"
                                     ]
@@ -185,28 +185,28 @@
                       {
                           "id":  14,
                           "sectional":  7,
-                          "host":  "La Harpe  (Co-op)",
+                          "host":  "La Harpe (Co-op)",
                           "teams":  [
                                         "Augusta Southeastern",
                                         "Griggsville-Perry",
                                         "Hamilton ES",
                                         "Jacksonville ISD (Co-op)",
                                         "Kinderhook Western",
-                                        "La Harpe  (Co-op)",
+                                        "La Harpe (Co-op)",
                                         "Payson Seymour"
                                     ]
                       },
                       {
                           "id":  15,
                           "sectional":  8,
-                          "host":  "Palestine  (Co-op)",
+                          "host":  "Palestine (Co-op)",
                           "teams":  [
                                         "Effingham Sacred Heart",
                                         "Findlay Okaw Valley",
                                         "Louisville North Clay",
                                         "Martinsville",
                                         "Neoga",
-                                        "Palestine  (Co-op)",
+                                        "Palestine (Co-op)",
                                         "Sigel St. Michael\u0027s"
                                     ]
                       },
