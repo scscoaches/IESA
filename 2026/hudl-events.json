@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12 04:20",
+  "updatedAt": "2026-11-12 19:36",
   "schools": {
     "Arcola": [
       {
@@ -125,6 +125,13 @@
         "label": "Liberty vs. Quincy Junior High",
         "title": "Liberty JH School vs Quincy Junior High Girls Basketball",
         "start": "2026-11-12T23:53:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDgxMjE3Nw==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDgxMjE3Nw%3D%3D",
+        "label": "Liberty vs. Nauvoo",
+        "title": "Liberty JH vs Nauvoo JH Girls Basketball",
+        "start": "2026-11-17T23:55:00Z"
       }
     ]
   }

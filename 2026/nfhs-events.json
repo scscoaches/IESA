@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12 04:19",
+  "updatedAt": "2026-11-12 19:36",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -637,6 +637,12 @@
         "start": "2026-11-09T23:20:00.000Z"
       },
       {
+        "key": "gam064bde920f",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gam064bde920f",
+        "label": "Clinton vs. LeRoy",
+        "start": "2026-11-12T23:25:00.000Z"
+      },
+      {
         "key": "gamc3ff6b35c0",
         "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gamc3ff6b35c0",
         "label": "LeRoy",
@@ -881,12 +887,6 @@
       }
     ],
     "north-greene-high-school-white-hall-il": [
-      {
-        "key": "gam5e7c064999",
-        "url": "https://www.nfhsnetwork.com/events/auburn-high-school-auburn-auburn-il/gam5e7c064999",
-        "label": "North Greene vs. Auburn",
-        "start": "2026-10-12T22:55:00.000Z"
-      },
       {
         "key": "gam4091ea2295",
         "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gam4091ea2295",
