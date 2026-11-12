@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11 11:08",
+  "updatedAt": "2026-11-12 04:20",
   "schools": {
     "Arcola": [
       {
@@ -59,15 +59,7 @@
         "start": "2026-11-16T23:55:00Z"
       }
     ],
-    "Effingham St. Anthony": [
-      {
-        "key": "RmFuQnJvYWRjYXN0NDc5MTE0MA==",
-        "url": "https://fan.hudl.com/usa/il/effingham/organization/131445/st-anthony-effingham-high-school/watch?b=RmFuQnJvYWRjYXN0NDc5MTE0MA%3D%3D",
-        "label": "Effingham St. Anthony vs. St Anthony Effingham",
-        "title": "Richland County High School vs St Anthony Effingham Womens Other Basketball",
-        "start": "2026-11-12T00:00:00Z"
-      }
-    ],
+    "Effingham St. Anthony": [],
     "Greenfield (Co-op)": [
       {
         "key": "RmFuQnJvYWRjYXN0NDE2MjkzNQ==",
@@ -119,6 +111,20 @@
         "label": "Liberty vs. Unity",
         "title": "Liberty JH vs Unity JH Girls Basketball",
         "start": "2026-11-10T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDgwNDIzMQ==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDgwNDIzMQ%3D%3D",
+        "label": "Liberty vs. Jacksonville Junior High School",
+        "title": "Liberty Junior High School vs Jacksonville Junior High School Girls Basketball",
+        "start": "2026-11-11T23:53:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDgwNDI0MQ==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDgwNDI0MQ%3D%3D",
+        "label": "Liberty vs. Quincy Junior High",
+        "title": "Liberty JH School vs Quincy Junior High Girls Basketball",
+        "start": "2026-11-12T23:53:00Z"
       }
     ]
   }

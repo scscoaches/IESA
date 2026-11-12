@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11 11:08",
+  "updatedAt": "2026-11-12 04:19",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -553,12 +553,6 @@
         "start": "2026-11-11T22:30:00.000Z"
       },
       {
-        "key": "gama65bc73b2e",
-        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gama65bc73b2e",
-        "label": "Teams TBD",
-        "start": "2026-11-12T22:30:00.000Z"
-      },
-      {
         "key": "gam24aa356e28",
         "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam24aa356e28",
         "label": "Teams TBD",
@@ -641,12 +635,6 @@
         "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gam72e39c5c36",
         "label": "Unity vs. LeRoy",
         "start": "2026-11-09T23:20:00.000Z"
-      },
-      {
-        "key": "gam375995954b",
-        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gam375995954b",
-        "label": "Clinton vs. LeRoy",
-        "start": "2026-11-12T23:20:00.000Z"
       },
       {
         "key": "gamc3ff6b35c0",
@@ -876,12 +864,6 @@
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam5d03915e13",
         "label": "Tri-Valley vs. Mt. Pulaski",
         "start": "2026-11-09T23:00:00.000Z"
-      },
-      {
-        "key": "gamf7aa855e6d",
-        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamf7aa855e6d",
-        "label": "W'burg-Latham vs. Mt. Pulaski",
-        "start": "2026-11-12T23:00:00.000Z"
       },
       {
         "key": "gam4188930c6f",
@@ -1123,12 +1105,6 @@
         "start": "2026-11-09T23:30:00.000Z"
       },
       {
-        "key": "gam1b2f60c1e9",
-        "url": "https://www.nfhsnetwork.com/events/vit-high-school-astoriatable-grove-coop-table-grove-il/gam1b2f60c1e9",
-        "label": "Macomb vs. VIT",
-        "start": "2026-11-12T23:30:00.000Z"
-      },
-      {
         "key": "gam32009ce900",
         "url": "https://www.nfhsnetwork.com/events/vit-high-school-astoriatable-grove-coop-table-grove-il/gam32009ce900",
         "label": "Illini Central vs. VIT",
@@ -1141,12 +1117,6 @@
         "url": "https://www.nfhsnetwork.com/events/clinton-high-school-clinton-il/gam9856a51ea0",
         "label": "W'burg-Latham vs. Clinton",
         "start": "2026-10-01T22:30:00.000Z"
-      },
-      {
-        "key": "gamf7aa855e6d",
-        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamf7aa855e6d",
-        "label": "W'burg-Latham vs. Mt. Pulaski",
-        "start": "2026-11-12T23:00:00.000Z"
       }
     ],
     "west-central-high-school-coop-w-winchester-biggsville-il": [
