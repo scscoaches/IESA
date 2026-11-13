@@ -10,7 +10,7 @@ window.tournamentData = {
             ["Dwight", "Joliet Laraway", "Kankakee Bishop McNamara",
                 "Marseilles ES", "Momence JHS", "Seneca"
             ],
-            ["Oglesby Washington", "Ottawa Wallace", "Rockford Barbour",
+            ["Oglesby Washington", "Ottawa Wallace",
                 "Rockford Montessori", "Serena", "Somonauk", "Waterman Indian Creek"
             ],
             ["Manlius Bureau Valley JHS", "McNabb Putnam County", "Princeville",
@@ -44,7 +44,7 @@ window.tournamentData = {
                 "Decatur Robertson", "Lincoln Chester-East Lincoln (Co-op)",
                 "Mt. Pulaski (Co-op)", "Warrensburg-Latham"
             ],
-            ["Assumption Central A & M", "Decatur Dansby", "Decatur Dennis",
+            ["Assumption Central A & M", "Decatur Dansby",
                 "Decatur Montessori Academy for Peace",
                 "Decatur Our Lady of Lourdes (Co-op)", "Macon Meridian",
                 "Nokomis JHS (Co-op)"

@@ -1,5 +1,5 @@
 ﻿window.iesaRegionalSeedCache = {
-    "updatedAt":  "2026-09-30 09:01",
+    "updatedAt":  "2026-11-13 09:38",
     "year":  2026,
     "grade":  "8th",
     "regionalBrackets":  {
@@ -10,7 +10,8 @@
                                        "rounds":  [
 
                                                   ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=1"
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=1",
+                                       "host":  ""
                                    },
                              "2":  {
                                        "seeds":  [
@@ -19,7 +20,8 @@
                                        "rounds":  [
 
                                                   ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=2"
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=2",
+                                       "host":  "Dwight"
                                    },
                              "3":  {
                                        "seeds":  [
@@ -28,7 +30,8 @@
                                        "rounds":  [
 
                                                   ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=3"
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=3",
+                                       "host":  "Rockford Montessori"
                                    },
                              "4":  {
                                        "seeds":  [
@@ -37,7 +40,8 @@
                                        "rounds":  [
 
                                                   ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=4"
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=4",
+                                       "host":  "Manlius Bureau Valley JHS"
                                    },
                              "5":  {
                                        "seeds":  [
@@ -46,7 +50,8 @@
                                        "rounds":  [
 
                                                   ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=5"
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=5",
+                                       "host":  "Oakwood GS"
                                    },
                              "6":  {
                                        "seeds":  [
@@ -55,7 +60,8 @@
                                        "rounds":  [
 
                                                   ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=6"
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=6",
+                                       "host":  "Gibson City GCMS"
                                    },
                              "7":  {
                                        "seeds":  [
@@ -64,7 +70,8 @@
                                        "rounds":  [
 
                                                   ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=7"
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=7",
+                                       "host":  "Green Valley Midwest Central"
                                    },
                              "8":  {
                                        "seeds":  [
@@ -73,7 +80,8 @@
                                        "rounds":  [
 
                                                   ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=8"
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=8",
+                                       "host":  "Knoxville JHS"
                                    },
                              "9":  {
                                        "seeds":  [
@@ -82,7 +90,8 @@
                                        "rounds":  [
 
                                                   ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=9"
+                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=9",
+                                       "host":  "Rushville Schuyler Industry"
                                    },
                              "10":  {
                                         "seeds":  [
@@ -91,7 +100,8 @@
                                         "rounds":  [
 
                                                    ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=10"
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=10",
+                                        "host":  "Mt. Sterling Brown County"
                                     },
                              "11":  {
                                         "seeds":  [
@@ -100,7 +110,8 @@
                                         "rounds":  [
 
                                                    ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=11"
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=11",
+                                        "host":  "Cerro Gordo"
                                     },
                              "12":  {
                                         "seeds":  [
@@ -109,7 +120,8 @@
                                         "rounds":  [
 
                                                    ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=12"
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=12",
+                                        "host":  "Nokomis JHS"
                                     },
                              "13":  {
                                         "seeds":  [
@@ -118,7 +130,8 @@
                                         "rounds":  [
 
                                                    ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=13"
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=13",
+                                        "host":  "Casey-Westfield"
                                     },
                              "14":  {
                                         "seeds":  [
@@ -127,7 +140,8 @@
                                         "rounds":  [
 
                                                    ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=14"
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=14",
+                                        "host":  "Beecher City"
                                     },
                              "15":  {
                                         "seeds":  [
@@ -136,7 +150,8 @@
                                         "rounds":  [
 
                                                    ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=15"
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=15",
+                                        "host":  "Morrisonville JHS"
                                     },
                              "16":  {
                                         "seeds":  [
@@ -145,7 +160,8 @@
                                         "rounds":  [
 
                                                    ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=16"
+                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026\u0026Class=8-2A\u0026Regional=16",
+                                        "host":  "Hardin Calhoun"
                                     }
                          }
 };

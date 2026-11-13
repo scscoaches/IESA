@@ -74,7 +74,8 @@ function Get-StageEntry([object]$entry, [hashtable]$names) {
         return [pscustomobject]@{ name = $null; score = $null }
     }
     if ($entry.name -match '^\d+$') { throw "malformed bracket entry $($entry.name)" }
-    $key = Get-Key $entry.name
+    # A bye winner is sometimes printed with its seed, as in the first round.
+    $key = Get-Key ($entry.name -replace '\s+\(\d+(?:st|nd|rd|th) Seed\)$', '')
     if (!$names.ContainsKey($key)) { throw "unknown published bracket school $($entry.name)" }
     return [pscustomobject]@{ name = $names[$key]; score = $entry.score }
 }
