@@ -533,7 +533,9 @@ opens a popup listing every team in a class and grade, with class (1A-4A) and
 grade buttons. It reads only files already published beside the pages -
 `scores-<grade>.json` and `strength-<grade>.json` in each class folder - so it
 adds no IESA requests. Columns: W-L, win %, points scored (PF) and allowed (PA)
-per game, average margin, strength-of-schedule rating and regional. Points come
+per game, average margin, close-game record (decided by 5 or fewer), big wins
+(by 15 or more), strength-of-schedule rating, opponents' win %, quality wins
+(over teams above .500) and regional. Points come
 from each decided game's "Winner def. Loser" text with the winner's score
 first; pending games are skipped. Every column header sorts (best first, click
 again to reverse), tied rows share a rank, and the visitor's team is

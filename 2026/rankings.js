@@ -24,7 +24,11 @@
         { id: "pf", label: "PF", title: "Points scored per game", sort: [["pf", true]] },
         { id: "pa", label: "PA", title: "Points allowed per game", sort: [["pa", false]] },
         { id: "diff", label: "Margin", title: "Average scoring margin per game", sort: [["diff", true], ["pct", true]] },
+        { id: "close", label: "Close", title: "Record in games decided by 5 points or fewer", sort: [["closeWins", true], ["closeLosses", false]] },
+        { id: "big", label: "Big W", title: "Wins by 15 or more points", sort: [["bigWins", true], ["pct", true]] },
         { id: "sos", label: "SoS", title: "Strength of schedule (unofficial, weekly)", sort: [["sos", true], ["pct", true]] },
+        { id: "opp", label: "Opp %", title: "Opponents' win %", sort: [["oppPct", true], ["pct", true]] },
+        { id: "quality", label: "QW", title: "Quality wins: wins over teams above .500", sort: [["qualityWins", true], ["pct", true]] },
         { id: "regional", label: "Reg.", title: "Regional", sort: [["regional", false], ["pct", true], ["wins", true]] }
     ];
     var state = { className: null, grade: data.grade, sort: "pct", reversed: false };
@@ -64,20 +68,30 @@
         });
     }
 
+    var CLOSE_MARGIN = 5, BIG_MARGIN = 15;
+
     // IESA lists each result as "Winner def. Loser" with the winner's score first.
     function points(name, games) {
         var own = team.key(name), scored = 0, allowed = 0, counted = 0;
+        var closeWins = 0, closeLosses = 0, bigWins = 0;
         (games || []).forEach(function (game) {
             var result = /^(.*) def\. (.*)$/.exec(game.opponent || "");
             var score = /^(\d+)-(\d+)$/.exec(game.score || "");
             if (!result || !score) { return; }
             var won = team.key(result[1]) === own;
             if (!won && team.key(result[2]) !== own) { return; }
+            var gap = Number(score[1]) - Number(score[2]);
             scored += Number(won ? score[1] : score[2]);
             allowed += Number(won ? score[2] : score[1]);
             counted++;
+            if (gap <= CLOSE_MARGIN) { if (won) { closeWins++; } else { closeLosses++; } }
+            if (won && gap >= BIG_MARGIN) { bigWins++; }
         });
-        return counted ? { pf: scored / counted, pa: allowed / counted } : { pf: null, pa: null };
+        return {
+            pf: counted ? scored / counted : null,
+            pa: counted ? allowed / counted : null,
+            closeWins: closeWins, closeLosses: closeLosses, bigWins: bigWins
+        };
     }
 
     function rows(scores, strength) {
@@ -96,7 +110,12 @@
                 pf: scoring.pf,
                 pa: scoring.pa,
                 diff: scoring.pf === null ? null : scoring.pf - scoring.pa,
+                closeWins: scoring.closeWins,
+                closeLosses: scoring.closeLosses,
+                bigWins: scoring.bigWins,
                 sos: rating && typeof rating.rating === "number" ? rating.rating : null,
+                oppPct: rating && typeof rating.opponentsWinPct === "number" ? rating.opponentsWinPct : null,
+                qualityWins: rating && typeof rating.qualityWins === "number" ? rating.qualityWins : null,
                 regional: rating && rating.regional ? rating.regional : null
             };
         });
@@ -132,7 +151,7 @@
     function average(value) { return value === null ? "\u2014" : value.toFixed(1); }
     function margin(value) { return value === null ? "\u2014" : (value > 0 ? "+" : "") + value.toFixed(1); }
 
-    var dialog, classPicker, gradePicker, body, headers = {};
+    var dialog, classPicker, gradePicker, table, scroll, body, headers = {};
 
     function picker(label) {
         var group = element("div", "updates-window");
@@ -184,7 +203,7 @@
     }
 
     var request = 0;
-    function render(scrollToMine) {
+    function render() {
         var current = ++request;
         renderPickers();
         renderHeaders();
@@ -205,12 +224,21 @@
                 var row = element("tr");
                 if (team.matches(entry.team)) { row.className = "my-team-row"; mine = mine || row; }
                 [String(rank), entry.team, entry.wins + "-" + entry.losses, decimal(entry.pct),
-                    average(entry.pf), average(entry.pa), margin(entry.diff), decimal(entry.sos),
+                    average(entry.pf), average(entry.pa), margin(entry.diff),
+                    entry.closeWins + "-" + entry.closeLosses, String(entry.bigWins),
+                    decimal(entry.sos), decimal(entry.oppPct),
+                    entry.qualityWins === null ? "\u2014" : String(entry.qualityWins),
                     entry.regional === null ? "\u2014" : String(entry.regional)]
                     .forEach(function (text) { row.appendChild(element("td", "", text)); });
                 body.appendChild(row);
             });
-            if (mine && scrollToMine) { mine.scrollIntoView({ block: "center" }); }
+            // The team's row is sticky: pinned to the bottom while it is below the
+            // visible rows and under the header once scrolled past.
+            if (mine) {
+                var headHeight = table.tHead.offsetHeight + "px";
+                Array.prototype.forEach.call(mine.cells, function (cell) { cell.style.top = headHeight; });
+            }
+            scroll.scrollTop = 0;
         }).catch(function (error) {
             if (current !== request) { return; }
             console.error("Unable to load rankings:", error);
@@ -235,8 +263,8 @@
         controls.appendChild(classPicker);
         controls.appendChild(gradePicker);
         dialog.appendChild(controls);
-        var scroll = element("div", "rankings-scroll");
-        var table = element("table");
+        scroll = element("div", "rankings-scroll");
+        table = element("table");
         table.id = "rankings-table";
         table.setAttribute("aria-label", "Team rankings");
         var headRow = element("tr");
@@ -252,7 +280,7 @@
                 sortButton.addEventListener("click", function () {
                     state.reversed = state.sort === entry.id ? !state.reversed : false;
                     state.sort = entry.id;
-                    render(false);
+                    render();
                 });
                 cell.appendChild(sortButton);
                 headers[entry.id] = cell;
@@ -273,7 +301,7 @@
         loadClasses().then(function () {
             if (!dialog) { buildDialog(); }
             dialog.showModal();
-            render(true);
+            render();
         }).catch(function (error) {
             console.error("Unable to open rankings:", error);
             window.alert("Team rankings are unavailable right now.");

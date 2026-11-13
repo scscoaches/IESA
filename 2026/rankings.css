@@ -15,7 +15,7 @@
 }
 
 #rankings-dialog {
-    width: min(620px, calc(100% - 24px));
+    width: min(860px, calc(100% - 24px));
     max-height: calc(100vh - 24px);
     max-height: calc(100dvh - 24px);
 }
@@ -79,6 +79,7 @@
 #rankings-table th:nth-child(2),
 #rankings-table td:nth-child(2) {
     width: 100%;
+    min-width: 150px;
     text-align: left;
     white-space: normal;
 }
@@ -86,7 +87,7 @@
 #rankings-table th {
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     color: #182035;
     background: #f2f4f8;
 }
@@ -111,9 +112,13 @@
 }
 
 #rankings-table tr.my-team-row td {
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
     background: #fff0bd;
     color: #522000;
     font-weight: bold;
+    box-shadow: 0 -1px 0 #e48a00, 0 1px 0 #e48a00;
 }
 
 #rankings-table td.rankings-empty {
@@ -138,6 +143,7 @@
 .dark-theme #rankings-table tr.my-team-row td {
     background: #8a6a0c;
     color: #fff;
+    box-shadow: 0 -1px 0 #ffe08a, 0 1px 0 #ffe08a;
 }
 
 @media (max-width: 680px) {
@@ -152,6 +158,11 @@
     #rankings-table th,
     #rankings-table td {
         padding: 5px 3px;
+    }
+
+    #rankings-table th:nth-child(2),
+    #rankings-table td:nth-child(2) {
+        min-width: 110px;
     }
 }
 
