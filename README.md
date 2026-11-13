@@ -532,14 +532,21 @@ Live pages have a rankings button (`2026\rankings.js`, `rankings.css`) that
 opens a popup listing every team in a class and grade, with class (1A-4A) and
 grade buttons. It reads only files already published beside the pages -
 `scores-<grade>.json` and `strength-<grade>.json` in each class folder - so it
-adds no IESA requests. Columns: W-L, win %, points scored (PF) and allowed (PA)
+adds no IESA requests. Columns: a power rating (the default sort), W-L, win %,
+points scored (PF) and allowed (PA)
 per game, average margin, close-game record (decided by 5 or fewer), big wins
 (by 15 or more), strength-of-schedule rating, opponents' win %, quality wins
 (over teams above .500) and regional. Points come
 from each decided game's "Winner def. Loser" text with the winner's score
-first; pending games are skipped. Every column header sorts (best first, click
+first; pending games are skipped. The power rating (0-100) is 40% win % with
+two phantom wins and two phantom losses, 30% average margin (shrunk by the same
+four phantom games, capped at +/-30) and 30% strength of schedule (.20-.80 mapped
+to 0-1; average when missing), so a short schedule cannot outrank a long
+unbeaten one. Every column header sorts (best first, click
 again to reverse), tied rows share a rank, and the visitor's team is
-highlighted and scrolled into view. Only the table scrolls.
+highlighted and kept in sight: its row is pinned to the bottom of the table
+while it is below the visible rows and under the header once scrolled past.
+Only the table scrolls.
 
 Regional rosters are fixed in each grade's `data.js` and are **not** updated
 automatically when a school withdraws. Every run of `Update-IesaScores.ps1`

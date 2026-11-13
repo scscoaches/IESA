@@ -19,6 +19,7 @@
     var COLUMNS = [
         { id: "rank", label: "#" },
         { id: "team", label: "Team", sort: [["team", false]] },
+        { id: "power", label: "Power", title: "Power rating (0-100): 40% win % (pulled toward .500 for few games), 30% scoring margin, 30% strength of schedule", sort: [["power", true], ["pct", true]] },
         { id: "record", label: "W-L", sort: [["wins", true], ["losses", false], ["pct", true]] },
         { id: "pct", label: "Win %", sort: [["pct", true], ["wins", true], ["diff", true]] },
         { id: "pf", label: "PF", title: "Points scored per game", sort: [["pf", true]] },
@@ -31,7 +32,7 @@
         { id: "quality", label: "QW", title: "Quality wins: wins over teams above .500", sort: [["qualityWins", true], ["pct", true]] },
         { id: "regional", label: "Reg.", title: "Regional", sort: [["regional", false], ["pct", true], ["wins", true]] }
     ];
-    var state = { className: null, grade: data.grade, sort: "pct", reversed: false };
+    var state = { className: null, grade: data.grade, sort: "power", reversed: false };
 
     function element(tag, className, text) {
         var node = document.createElement(tag);
@@ -94,6 +95,22 @@
         };
     }
 
+    function clamp(value) { return Math.max(0, Math.min(1, value)); }
+
+    // Power rating, 0-100. Win % gets two phantom wins and losses, and margin the
+    // same four phantom 0-point games, so a 6-1 start does not outrank a 17-0
+    // season; margin is capped at +/-30; the strength of schedule rating (about
+    // .23-.80 across classes) maps .20-.80 onto 0-1, and a team without one is
+    // treated as average.
+    function power(row, games) {
+        if (!games) { return null; }
+        var winScore = (row.wins + 2) / (games + 4);
+        var shrunkMargin = row.diff === null ? 0 : row.diff * games / (games + 4);
+        var marginScore = clamp((shrunkMargin + 30) / 60);
+        var scheduleScore = row.sos === null ? 0.5 : clamp((row.sos - 0.2) / 0.6);
+        return 100 * (0.4 * winScore + 0.3 * marginScore + 0.3 * scheduleScore);
+    }
+
     function rows(scores, strength) {
         var ratings = (strength && strength.teams) || {};
         return Object.keys(scores.teams || {}).map(function (name) {
@@ -102,7 +119,7 @@
             var completed = record.completed || 0;
             var rating = ratings[name];
             var scoring = points(name, entry.games);
-            return {
+            var row = {
                 team: name,
                 wins: record.wins || 0,
                 losses: record.losses || 0,
@@ -118,6 +135,8 @@
                 qualityWins: rating && typeof rating.qualityWins === "number" ? rating.qualityWins : null,
                 regional: rating && rating.regional ? rating.regional : null
             };
+            row.power = power(row, completed);
+            return row;
         });
     }
 
@@ -223,7 +242,7 @@
                 if (key !== previous) { rank = index + 1; previous = key; }
                 var row = element("tr");
                 if (team.matches(entry.team)) { row.className = "my-team-row"; mine = mine || row; }
-                [String(rank), entry.team, entry.wins + "-" + entry.losses, decimal(entry.pct),
+                [String(rank), entry.team, average(entry.power), entry.wins + "-" + entry.losses, decimal(entry.pct),
                     average(entry.pf), average(entry.pa), margin(entry.diff),
                     entry.closeWins + "-" + entry.closeLosses, String(entry.bigWins),
                     decimal(entry.sos), decimal(entry.oppPct),
