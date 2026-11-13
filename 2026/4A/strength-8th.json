@@ -1,0 +1,10120 @@
+{
+  "updatedAt": "2026-11-11 22:21",
+  "teamList": [
+    "Alton",
+    "Arlington Heights South",
+    "Arlington Heights Thomas",
+    "Barrington Prairie",
+    "Barrington Station",
+    "Bellwood Roosevelt",
+    "Bethalto Trimpe",
+    "Bloomington Evans",
+    "Bloomington JHS",
+    "Bolingbrook Brooks",
+    "Bolingbrook Humphrey",
+    "Bolingbrook Jane Addams",
+    "Bourbonnais UGC",
+    "Cahokia Wirth",
+    "Calumet City Dolton 149",
+    "Canton Ingersoll",
+    "Champaign Edison",
+    "Champaign Franklin (Co-op)",
+    "Champaign Jefferson",
+    "Charleston",
+    "Chatham Glenwood",
+    "Chicago Heights MS",
+    "Cicero Unity",
+    "Coal City",
+    "Collinsville",
+    "Danville North Ridge",
+    "Decatur Stephen Decatur",
+    "Downers Grove Herrick",
+    "Downers Grove O'Neill",
+    "Dunlap MS",
+    "Dunlap Valley MS",
+    "East Peoria Central",
+    "East St. Louis Clark (Co-op)",
+    "Edwardsville Liberty",
+    "Edwardsville Lincoln",
+    "Effingham JHS",
+    "Evanston Chute",
+    "Evanston Haven",
+    "Evanston Nichols",
+    "Flossmoor Parker",
+    "Frankfort Hickory Creek",
+    "Frankfort Summit Hill",
+    "Galesburg JHS",
+    "Granite City Coolidge",
+    "Harvey Brooks",
+    "Highland MS",
+    "Homer Glen Homer",
+    "Homewood Hart",
+    "Jacksonville MS",
+    "Jerseyville Community",
+    "Joliet Dirksen",
+    "Joliet Gompers",
+    "Joliet Hufford",
+    "Joliet Washington",
+    "Kankakee JHS",
+    "Lake Zurich North",
+    "Lake Zurich South",
+    "Lansing Memorial",
+    "Lemont Old Quarry",
+    "Lockport Oak Prairie",
+    "Macomb",
+    "Mahomet-Seymour",
+    "Manhattan",
+    "Markham Prairie-Hills",
+    "Mascoutah",
+    "Matteson Colin Powell",
+    "Matteson Huth (Co-op)",
+    "Mattoon",
+    "Maywood Irving",
+    "Melrose Park Stevenson",
+    "Minooka",
+    "Mokena",
+    "Morton JHS",
+    "Mt. Zion",
+    "New Lenox Liberty",
+    "New Lenox Martino",
+    "Normal Chiddix",
+    "Normal Kingsley",
+    "Normal Parkside",
+    "O'Fallon Carriel",
+    "O'Fallon Fulton",
+    "Ottawa Shepherd",
+    "Park Forest Michelle Obama STA",
+    "Pekin Broadmoor",
+    "Phoenix Coolidge",
+    "Plano",
+    "Quincy",
+    "Rantoul Eater",
+    "Rockford Eisenhower",
+    "Rockford Flinn",
+    "Rockford Lincoln",
+    "Rockford RESA",
+    "Rockford West",
+    "Romeoville Lukancic",
+    "Romeoville Martinez",
+    "Shorewood Troy",
+    "Springfield Franklin",
+    "Springfield Grant",
+    "Springfield Jefferson",
+    "Springfield Lincoln (Co-op)",
+    "Springfield Washington (Co-op)",
+    "St. Jacob Triad",
+    "Steger Columbia",
+    "Taylorville JHS",
+    "University Park Crete Monee",
+    "Urbana MS",
+    "Vernon Hills Hawthorn North",
+    "Vernon Hills Hawthorn South",
+    "Washington Central",
+    "Willowbrook Westview Hills",
+    "Woodridge Jefferson"
+  ],
+  "teams": {
+    "Barrington Prairie": {
+      "regional": 1,
+      "rank": 1,
+      "of": 8,
+      "rating": 0.751,
+      "opponentsWinPct": 0.628,
+      "ratedGames": 8,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 8,
+        "other": 1
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 4
+    },
+    "Lake Zurich North": {
+      "regional": 1,
+      "rank": 2,
+      "of": 8,
+      "rating": 0.7509,
+      "opponentsWinPct": 0.613,
+      "ratedGames": 12,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 12,
+        "other": 2
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Arlington Heights Thomas": {
+      "regional": 1,
+      "rank": 3,
+      "of": 8,
+      "rating": 0.7462,
+      "opponentsWinPct": 0.731,
+      "ratedGames": 2,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 6,
+        "other": 2
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Vernon Hills Hawthorn North": {
+      "regional": 1,
+      "rank": 4,
+      "of": 8,
+      "rating": 0.7399,
+      "opponentsWinPct": 0.591,
+      "ratedGames": 11,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 11,
+        "other": 4
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Barrington Station": {
+      "regional": 1,
+      "rank": 5,
+      "of": 8,
+      "rating": 0.7308,
+      "opponentsWinPct": 0.57,
+      "ratedGames": 11,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 12,
+        "other": 4
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Vernon Hills Hawthorn South": {
+      "regional": 1,
+      "rank": 6,
+      "of": 8,
+      "rating": 0.7205,
+      "opponentsWinPct": 0.548,
+      "ratedGames": 10,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 10,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Lake Zurich South": {
+      "regional": 1,
+      "rank": 7,
+      "of": 8,
+      "rating": 0.7152,
+      "opponentsWinPct": 0.533,
+      "ratedGames": 13,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 15,
+        "other": 4
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 5
+    },
+    "Arlington Heights South": {
+      "regional": 1,
+      "rank": 8,
+      "of": 8,
+      "rating": 0.6912,
+      "opponentsWinPct": 0.466,
+      "ratedGames": 3,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 5,
+        "other": 4
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Rockford Eisenhower": {
+      "regional": 2,
+      "rank": 1,
+      "of": 7,
+      "rating": 0.7039,
+      "opponentsWinPct": 0.642,
+      "ratedGames": 14,
+      "classAverage": 3.53,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 3,
+        "4A": 10,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 8
+    },
+    "Rockford West": {
+      "regional": 2,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.7,
+      "opponentsWinPct": 0.643,
+      "ratedGames": 9,
+      "classAverage": 3.56,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 2,
+        "4A": 6,
+        "other": 7
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Rockford Flinn": {
+      "regional": 2,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.6503,
+      "opponentsWinPct": 0.564,
+      "ratedGames": 11,
+      "classAverage": 3.42,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 3,
+        "4A": 7,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "Rockford Lincoln": {
+      "regional": 2,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.6349,
+      "opponentsWinPct": 0.546,
+      "ratedGames": 10,
+      "classAverage": 3.36,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 3,
+        "4A": 6,
+        "other": 1
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "Ottawa Shepherd": {
+      "regional": 2,
+      "rank": 5,
+      "of": 7,
+      "rating": 0.5643,
+      "opponentsWinPct": 0.551,
+      "ratedGames": 16,
+      "classAverage": 2.8,
+      "mix": {
+        "1A": 0,
+        "2A": 7,
+        "3A": 10,
+        "4A": 3,
+        "other": 1
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Rockford RESA": {
+      "regional": 2,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.5407,
+      "opponentsWinPct": 0.439,
+      "ratedGames": 10,
+      "classAverage": 3.0,
+      "mix": {
+        "1A": 0,
+        "2A": 4,
+        "3A": 3,
+        "4A": 4,
+        "other": 2
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Plano": {
+      "regional": 2,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.4685,
+      "opponentsWinPct": 0.501,
+      "ratedGames": 19,
+      "classAverage": 2.26,
+      "mix": {
+        "1A": 7,
+        "2A": 7,
+        "3A": 5,
+        "4A": 4,
+        "other": 1
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Cicero Unity": {
+      "regional": 3,
+      "rank": 1,
+      "of": 7,
+      "rating": 0.6608,
+      "opponentsWinPct": 0.48,
+      "ratedGames": 4,
+      "classAverage": 3.75,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 3,
+        "other": 8
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Maywood Irving": {
+      "regional": 3,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.6608,
+      "opponentsWinPct": 0.48,
+      "ratedGames": 4,
+      "classAverage": 3.75,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 3,
+        "other": 9
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Melrose Park Stevenson": {
+      "regional": 3,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.6471,
+      "opponentsWinPct": 0.435,
+      "ratedGames": 4,
+      "classAverage": 3.75,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 3,
+        "other": 9
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Bellwood Roosevelt": {
+      "regional": 3,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.6312,
+      "opponentsWinPct": 0.382,
+      "ratedGames": 4,
+      "classAverage": 3.75,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 3,
+        "other": 9
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Evanston Haven": {
+      "regional": 3,
+      "rank": 5,
+      "of": 7,
+      "rating": 0.619,
+      "opponentsWinPct": 0.257,
+      "ratedGames": 5,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 5,
+        "other": 2
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Evanston Nichols": {
+      "regional": 3,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.6133,
+      "opponentsWinPct": 0.24,
+      "ratedGames": 5,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 5,
+        "other": 2
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Evanston Chute": {
+      "regional": 3,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.61,
+      "opponentsWinPct": 0.25,
+      "ratedGames": 6,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 6,
+        "other": 4
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Homer Glen Homer": {
+      "regional": 4,
+      "rank": 1,
+      "of": 6,
+      "rating": 0.7664,
+      "opponentsWinPct": 0.649,
+      "ratedGames": 18,
+      "classAverage": 3.95,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 19,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "Downers Grove Herrick": {
+      "regional": 4,
+      "rank": 2,
+      "of": 6,
+      "rating": 0.7358,
+      "opponentsWinPct": 0.65,
+      "ratedGames": 9,
+      "classAverage": 3.8,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 2,
+        "4A": 8,
+        "other": 2
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 7
+    },
+    "Willowbrook Westview Hills": {
+      "regional": 4,
+      "rank": 3,
+      "of": 6,
+      "rating": 0.7287,
+      "opponentsWinPct": 0.609,
+      "ratedGames": 8,
+      "classAverage": 3.89,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 8,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Lemont Old Quarry": {
+      "regional": 4,
+      "rank": 4,
+      "of": 6,
+      "rating": 0.6937,
+      "opponentsWinPct": 0.581,
+      "ratedGames": 9,
+      "classAverage": 3.7,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 3,
+        "4A": 7,
+        "other": 2
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "Downers Grove O'Neill": {
+      "regional": 4,
+      "rank": 5,
+      "of": 6,
+      "rating": 0.6822,
+      "opponentsWinPct": 0.541,
+      "ratedGames": 7,
+      "classAverage": 3.75,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 2,
+        "4A": 6,
+        "other": 2
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Woodridge Jefferson": {
+      "regional": 4,
+      "rank": 6,
+      "of": 6,
+      "rating": 0.641,
+      "opponentsWinPct": 0.414,
+      "ratedGames": 10,
+      "classAverage": 3.83,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 2,
+        "4A": 10,
+        "other": 2
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Steger Columbia": {
+      "regional": 5,
+      "rank": 1,
+      "of": 7,
+      "rating": 0.7104,
+      "opponentsWinPct": 0.544,
+      "ratedGames": 12,
+      "classAverage": 3.93,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 13,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Homewood Hart": {
+      "regional": 5,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.7023,
+      "opponentsWinPct": 0.539,
+      "ratedGames": 8,
+      "classAverage": 3.9,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 9,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Markham Prairie-Hills": {
+      "regional": 5,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.6762,
+      "opponentsWinPct": 0.667,
+      "ratedGames": 3,
+      "classAverage": 3.5,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 2,
+        "4A": 2,
+        "other": 2
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Lansing Memorial": {
+      "regional": 5,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.6405,
+      "opponentsWinPct": 0.415,
+      "ratedGames": 11,
+      "classAverage": 3.83,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 2,
+        "4A": 10,
+        "other": 2
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Phoenix Coolidge": {
+      "regional": 5,
+      "rank": 5,
+      "of": 7,
+      "rating": 0.6332,
+      "opponentsWinPct": 0.587,
+      "ratedGames": 13,
+      "classAverage": 3.2,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 10,
+        "4A": 4,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 6
+    },
+    "Calumet City Dolton 149": {
+      "regional": 5,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.6005,
+      "opponentsWinPct": 0.706,
+      "ratedGames": 3,
+      "classAverage": 2.86,
+      "mix": {
+        "1A": 1,
+        "2A": 2,
+        "3A": 1,
+        "4A": 3,
+        "other": 4
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Harvey Brooks": {
+      "regional": 5,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.5767,
+      "opponentsWinPct": 0.385,
+      "ratedGames": 4,
+      "classAverage": 3.33,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 4,
+        "4A": 2,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Frankfort Hickory Creek": {
+      "regional": 6,
+      "rank": 1,
+      "of": 7,
+      "rating": 0.769,
+      "opponentsWinPct": 0.656,
+      "ratedGames": 17,
+      "classAverage": 3.95,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 18,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 5
+    },
+    "Mokena": {
+      "regional": 6,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.7427,
+      "opponentsWinPct": 0.59,
+      "ratedGames": 15,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 16,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 5
+    },
+    "Frankfort Summit Hill": {
+      "regional": 6,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.7387,
+      "opponentsWinPct": 0.608,
+      "ratedGames": 16,
+      "classAverage": 3.9,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 2,
+        "4A": 18,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Flossmoor Parker": {
+      "regional": 6,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.7165,
+      "opponentsWinPct": 0.553,
+      "ratedGames": 14,
+      "classAverage": 3.94,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 15,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 4
+    },
+    "Chicago Heights MS": {
+      "regional": 6,
+      "rank": 5,
+      "of": 7,
+      "rating": 0.6882,
+      "opponentsWinPct": 0.524,
+      "ratedGames": 10,
+      "classAverage": 3.83,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 2,
+        "4A": 10,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Matteson Huth (Co-op)": {
+      "regional": 6,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.6598,
+      "opponentsWinPct": 0.452,
+      "ratedGames": 14,
+      "classAverage": 3.87,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 2,
+        "4A": 13,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Matteson Colin Powell": {
+      "regional": 6,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.6431,
+      "opponentsWinPct": 0.437,
+      "ratedGames": 12,
+      "classAverage": 3.79,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 3,
+        "4A": 11,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 7
+    },
+    "Shorewood Troy": {
+      "regional": 7,
+      "rank": 1,
+      "of": 6,
+      "rating": 0.7357,
+      "opponentsWinPct": 0.591,
+      "ratedGames": 16,
+      "classAverage": 3.94,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 16,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Bolingbrook Jane Addams": {
+      "regional": 7,
+      "rank": 2,
+      "of": 6,
+      "rating": 0.6863,
+      "opponentsWinPct": 0.515,
+      "ratedGames": 11,
+      "classAverage": 3.85,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 0,
+        "4A": 12,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 5
+    },
+    "Bolingbrook Humphrey": {
+      "regional": 7,
+      "rank": 3,
+      "of": 6,
+      "rating": 0.6678,
+      "opponentsWinPct": 0.542,
+      "ratedGames": 12,
+      "classAverage": 3.62,
+      "mix": {
+        "1A": 1,
+        "2A": 1,
+        "3A": 0,
+        "4A": 11,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Bolingbrook Brooks": {
+      "regional": 7,
+      "rank": 4,
+      "of": 6,
+      "rating": 0.6597,
+      "opponentsWinPct": 0.459,
+      "ratedGames": 11,
+      "classAverage": 3.83,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 0,
+        "4A": 11,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Romeoville Martinez": {
+      "regional": 7,
+      "rank": 5,
+      "of": 6,
+      "rating": 0.6533,
+      "opponentsWinPct": 0.455,
+      "ratedGames": 12,
+      "classAverage": 3.8,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 1,
+        "4A": 13,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Romeoville Lukancic": {
+      "regional": 7,
+      "rank": 6,
+      "of": 6,
+      "rating": 0.6383,
+      "opponentsWinPct": 0.456,
+      "ratedGames": 13,
+      "classAverage": 3.69,
+      "mix": {
+        "1A": 1,
+        "2A": 1,
+        "3A": 0,
+        "4A": 14,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "New Lenox Liberty": {
+      "regional": 8,
+      "rank": 1,
+      "of": 7,
+      "rating": 0.7488,
+      "opponentsWinPct": 0.602,
+      "ratedGames": 16,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 18,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 9
+    },
+    "New Lenox Martino": {
+      "regional": 8,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.7332,
+      "opponentsWinPct": 0.574,
+      "ratedGames": 12,
+      "classAverage": 4.0,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 0,
+        "4A": 15,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 7
+    },
+    "Lockport Oak Prairie": {
+      "regional": 8,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.7144,
+      "opponentsWinPct": 0.639,
+      "ratedGames": 17,
+      "classAverage": 3.6,
+      "mix": {
+        "1A": 1,
+        "2A": 2,
+        "3A": 1,
+        "4A": 16,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 7
+    },
+    "Joliet Hufford": {
+      "regional": 8,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.607,
+      "opponentsWinPct": 0.453,
+      "ratedGames": 15,
+      "classAverage": 3.47,
+      "mix": {
+        "1A": 2,
+        "2A": 1,
+        "3A": 1,
+        "4A": 13,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "Joliet Washington": {
+      "regional": 8,
+      "rank": 5,
+      "of": 7,
+      "rating": 0.603,
+      "opponentsWinPct": 0.557,
+      "ratedGames": 8,
+      "classAverage": 3.1,
+      "mix": {
+        "1A": 2,
+        "2A": 1,
+        "3A": 1,
+        "4A": 6,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Joliet Gompers": {
+      "regional": 8,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.5705,
+      "opponentsWinPct": 0.484,
+      "ratedGames": 12,
+      "classAverage": 3.08,
+      "mix": {
+        "1A": 2,
+        "2A": 2,
+        "3A": 1,
+        "4A": 7,
+        "other": 1
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Joliet Dirksen": {
+      "regional": 8,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.5535,
+      "opponentsWinPct": 0.326,
+      "ratedGames": 9,
+      "classAverage": 3.44,
+      "mix": {
+        "1A": 1,
+        "2A": 1,
+        "3A": 0,
+        "4A": 7,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Manhattan": {
+      "regional": 9,
+      "rank": 1,
+      "of": 7,
+      "rating": 0.7106,
+      "opponentsWinPct": 0.558,
+      "ratedGames": 19,
+      "classAverage": 3.86,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 3,
+        "4A": 19,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 5
+    },
+    "Kankakee JHS": {
+      "regional": 9,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.7006,
+      "opponentsWinPct": 0.574,
+      "ratedGames": 16,
+      "classAverage": 3.74,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 3,
+        "4A": 15,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 11
+    },
+    "Minooka": {
+      "regional": 9,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.6926,
+      "opponentsWinPct": 0.516,
+      "ratedGames": 15,
+      "classAverage": 3.89,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 2,
+        "4A": 16,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "University Park Crete Monee": {
+      "regional": 9,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.6583,
+      "opponentsWinPct": 0.441,
+      "ratedGames": 5,
+      "classAverage": 3.83,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 5,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "Bourbonnais UGC": {
+      "regional": 9,
+      "rank": 5,
+      "of": 7,
+      "rating": 0.6531,
+      "opponentsWinPct": 0.589,
+      "ratedGames": 10,
+      "classAverage": 3.36,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 3,
+        "4A": 6,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "Park Forest Michelle Obama STA": {
+      "regional": 9,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.6421,
+      "opponentsWinPct": 0.425,
+      "ratedGames": 9,
+      "classAverage": 3.8,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 2,
+        "4A": 8,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Coal City": {
+      "regional": 9,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.589,
+      "opponentsWinPct": 0.505,
+      "ratedGames": 15,
+      "classAverage": 3.15,
+      "mix": {
+        "1A": 1,
+        "2A": 1,
+        "3A": 12,
+        "4A": 6,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Mahomet-Seymour": {
+      "regional": 10,
+      "rank": 1,
+      "of": 7,
+      "rating": 0.6931,
+      "opponentsWinPct": 0.572,
+      "ratedGames": 19,
+      "classAverage": 3.68,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 5,
+        "4A": 16,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 9
+    },
+    "Rantoul Eater": {
+      "regional": 10,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.6751,
+      "opponentsWinPct": 0.539,
+      "ratedGames": 10,
+      "classAverage": 3.69,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 1,
+        "4A": 13,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Danville North Ridge": {
+      "regional": 10,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.6682,
+      "opponentsWinPct": 0.556,
+      "ratedGames": 10,
+      "classAverage": 3.58,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 1,
+        "4A": 9,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Champaign Edison": {
+      "regional": 10,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.6652,
+      "opponentsWinPct": 0.511,
+      "ratedGames": 14,
+      "classAverage": 3.7,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 2,
+        "4A": 16,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Champaign Jefferson": {
+      "regional": 10,
+      "rank": 5,
+      "of": 7,
+      "rating": 0.6531,
+      "opponentsWinPct": 0.457,
+      "ratedGames": 14,
+      "classAverage": 3.8,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 1,
+        "4A": 13,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 4
+    },
+    "Urbana MS": {
+      "regional": 10,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.6404,
+      "opponentsWinPct": 0.495,
+      "ratedGames": 12,
+      "classAverage": 3.57,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 2,
+        "4A": 10,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 4
+    },
+    "Champaign Franklin (Co-op)": {
+      "regional": 10,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.6275,
+      "opponentsWinPct": 0.456,
+      "ratedGames": 18,
+      "classAverage": 3.62,
+      "mix": {
+        "1A": 1,
+        "2A": 2,
+        "3A": 1,
+        "4A": 17,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Normal Parkside": {
+      "regional": 11,
+      "rank": 1,
+      "of": 7,
+      "rating": 0.7204,
+      "opponentsWinPct": 0.605,
+      "ratedGames": 19,
+      "classAverage": 3.76,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 3,
+        "4A": 17,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Normal Kingsley": {
+      "regional": 11,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.7114,
+      "opponentsWinPct": 0.583,
+      "ratedGames": 17,
+      "classAverage": 3.78,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 3,
+        "4A": 19,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 7
+    },
+    "Bloomington JHS": {
+      "regional": 11,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.6856,
+      "opponentsWinPct": 0.525,
+      "ratedGames": 18,
+      "classAverage": 3.8,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 2,
+        "4A": 17,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 4
+    },
+    "Morton JHS": {
+      "regional": 11,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.6629,
+      "opponentsWinPct": 0.61,
+      "ratedGames": 18,
+      "classAverage": 3.32,
+      "mix": {
+        "1A": 3,
+        "2A": 0,
+        "3A": 6,
+        "4A": 13,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 5
+    },
+    "Normal Chiddix": {
+      "regional": 11,
+      "rank": 5,
+      "of": 7,
+      "rating": 0.6582,
+      "opponentsWinPct": 0.501,
+      "ratedGames": 19,
+      "classAverage": 3.68,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 5,
+        "4A": 16,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Bloomington Evans": {
+      "regional": 11,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.6349,
+      "opponentsWinPct": 0.497,
+      "ratedGames": 17,
+      "classAverage": 3.52,
+      "mix": {
+        "1A": 1,
+        "2A": 2,
+        "3A": 3,
+        "4A": 15,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Washington Central": {
+      "regional": 11,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.6217,
+      "opponentsWinPct": 0.6,
+      "ratedGames": 18,
+      "classAverage": 3.05,
+      "mix": {
+        "1A": 1,
+        "2A": 4,
+        "3A": 10,
+        "4A": 7,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 10
+    },
+    "Dunlap MS": {
+      "regional": 12,
+      "rank": 1,
+      "of": 7,
+      "rating": 0.6302,
+      "opponentsWinPct": 0.555,
+      "ratedGames": 19,
+      "classAverage": 3.27,
+      "mix": {
+        "1A": 0,
+        "2A": 5,
+        "3A": 6,
+        "4A": 11,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Dunlap Valley MS": {
+      "regional": 12,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.614,
+      "opponentsWinPct": 0.501,
+      "ratedGames": 16,
+      "classAverage": 3.35,
+      "mix": {
+        "1A": 0,
+        "2A": 3,
+        "3A": 7,
+        "4A": 10,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Pekin Broadmoor": {
+      "regional": 12,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.611,
+      "opponentsWinPct": 0.577,
+      "ratedGames": 13,
+      "classAverage": 3.07,
+      "mix": {
+        "1A": 1,
+        "2A": 3,
+        "3A": 5,
+        "4A": 6,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Galesburg JHS": {
+      "regional": 12,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.6033,
+      "opponentsWinPct": 0.478,
+      "ratedGames": 16,
+      "classAverage": 3.35,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 7,
+        "4A": 8,
+        "other": 1
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 7
+    },
+    "Canton Ingersoll": {
+      "regional": 12,
+      "rank": 5,
+      "of": 7,
+      "rating": 0.5901,
+      "opponentsWinPct": 0.519,
+      "ratedGames": 17,
+      "classAverage": 3.11,
+      "mix": {
+        "1A": 0,
+        "2A": 7,
+        "3A": 3,
+        "4A": 9,
+        "other": 1
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "East Peoria Central": {
+      "regional": 12,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.584,
+      "opponentsWinPct": 0.462,
+      "ratedGames": 14,
+      "classAverage": 3.26,
+      "mix": {
+        "1A": 0,
+        "2A": 3,
+        "3A": 8,
+        "4A": 8,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 5
+    },
+    "Macomb": {
+      "regional": 12,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.5638,
+      "opponentsWinPct": 0.582,
+      "ratedGames": 16,
+      "classAverage": 2.68,
+      "mix": {
+        "1A": 1,
+        "2A": 9,
+        "3A": 4,
+        "4A": 5,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Chatham Glenwood": {
+      "regional": 13,
+      "rank": 1,
+      "of": 7,
+      "rating": 0.6837,
+      "opponentsWinPct": 0.583,
+      "ratedGames": 14,
+      "classAverage": 3.59,
+      "mix": {
+        "1A": 1,
+        "2A": 0,
+        "3A": 4,
+        "4A": 12,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 7
+    },
+    "Taylorville JHS": {
+      "regional": 13,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.6799,
+      "opponentsWinPct": 0.602,
+      "ratedGames": 17,
+      "classAverage": 3.48,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 7,
+        "4A": 12,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "Mt. Zion": {
+      "regional": 13,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.6321,
+      "opponentsWinPct": 0.553,
+      "ratedGames": 21,
+      "classAverage": 3.29,
+      "mix": {
+        "1A": 0,
+        "2A": 5,
+        "3A": 7,
+        "4A": 12,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 14
+    },
+    "Mattoon": {
+      "regional": 13,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.6292,
+      "opponentsWinPct": 0.618,
+      "ratedGames": 13,
+      "classAverage": 3.06,
+      "mix": {
+        "1A": 1,
+        "2A": 4,
+        "3A": 4,
+        "4A": 7,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 4
+    },
+    "Effingham JHS": {
+      "regional": 13,
+      "rank": 5,
+      "of": 7,
+      "rating": 0.6198,
+      "opponentsWinPct": 0.633,
+      "ratedGames": 13,
+      "classAverage": 2.94,
+      "mix": {
+        "1A": 1,
+        "2A": 5,
+        "3A": 5,
+        "4A": 6,
+        "other": 3
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Decatur Stephen Decatur": {
+      "regional": 13,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.6047,
+      "opponentsWinPct": 0.531,
+      "ratedGames": 14,
+      "classAverage": 3.18,
+      "mix": {
+        "1A": 0,
+        "2A": 6,
+        "3A": 2,
+        "4A": 9,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Charleston": {
+      "regional": 13,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.6013,
+      "opponentsWinPct": 0.627,
+      "ratedGames": 13,
+      "classAverage": 2.82,
+      "mix": {
+        "1A": 1,
+        "2A": 5,
+        "3A": 7,
+        "4A": 4,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Springfield Lincoln (Co-op)": {
+      "regional": 14,
+      "rank": 1,
+      "of": 7,
+      "rating": 0.6978,
+      "opponentsWinPct": 0.751,
+      "ratedGames": 10,
+      "classAverage": 3.18,
+      "mix": {
+        "1A": 1,
+        "2A": 5,
+        "3A": 1,
+        "4A": 10,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 4
+    },
+    "Springfield Washington (Co-op)": {
+      "regional": 14,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.6939,
+      "opponentsWinPct": 0.668,
+      "ratedGames": 6,
+      "classAverage": 3.5,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 0,
+        "4A": 6,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Springfield Jefferson": {
+      "regional": 14,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.6337,
+      "opponentsWinPct": 0.472,
+      "ratedGames": 5,
+      "classAverage": 3.57,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 1,
+        "4A": 5,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Springfield Grant": {
+      "regional": 14,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.6024,
+      "opponentsWinPct": 0.4,
+      "ratedGames": 13,
+      "classAverage": 3.61,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 3,
+        "4A": 13,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "Springfield Franklin": {
+      "regional": 14,
+      "rank": 5,
+      "of": 7,
+      "rating": 0.5804,
+      "opponentsWinPct": 0.44,
+      "ratedGames": 14,
+      "classAverage": 3.31,
+      "mix": {
+        "1A": 0,
+        "2A": 4,
+        "3A": 3,
+        "4A": 9,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Quincy": {
+      "regional": 14,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.5635,
+      "opponentsWinPct": 0.552,
+      "ratedGames": 16,
+      "classAverage": 2.79,
+      "mix": {
+        "1A": 3,
+        "2A": 5,
+        "3A": 4,
+        "4A": 7,
+        "other": 1
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Jacksonville MS": {
+      "regional": 14,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.5386,
+      "opponentsWinPct": 0.503,
+      "ratedGames": 15,
+      "classAverage": 2.78,
+      "mix": {
+        "1A": 3,
+        "2A": 2,
+        "3A": 9,
+        "4A": 4,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Edwardsville Lincoln": {
+      "regional": 15,
+      "rank": 1,
+      "of": 7,
+      "rating": 0.7447,
+      "opponentsWinPct": 0.63,
+      "ratedGames": 18,
+      "classAverage": 3.86,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 3,
+        "4A": 18,
+        "other": 1
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 9
+    },
+    "Highland MS": {
+      "regional": 15,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.6892,
+      "opponentsWinPct": 0.612,
+      "ratedGames": 14,
+      "classAverage": 3.53,
+      "mix": {
+        "1A": 1,
+        "2A": 2,
+        "3A": 2,
+        "4A": 14,
+        "other": 3
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Edwardsville Liberty": {
+      "regional": 15,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.6805,
+      "opponentsWinPct": 0.521,
+      "ratedGames": 15,
+      "classAverage": 3.78,
+      "mix": {
+        "1A": 1,
+        "2A": 0,
+        "3A": 1,
+        "4A": 16,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "St. Jacob Triad": {
+      "regional": 15,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.6613,
+      "opponentsWinPct": 0.516,
+      "ratedGames": 18,
+      "classAverage": 3.65,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 3,
+        "4A": 15,
+        "other": 2
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "Alton": {
+      "regional": 15,
+      "rank": 5,
+      "of": 7,
+      "rating": 0.6472,
+      "opponentsWinPct": 0.556,
+      "ratedGames": 13,
+      "classAverage": 3.41,
+      "mix": {
+        "1A": 1,
+        "2A": 2,
+        "3A": 3,
+        "4A": 11,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 1
+    },
+    "Bethalto Trimpe": {
+      "regional": 15,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.6244,
+      "opponentsWinPct": 0.527,
+      "ratedGames": 20,
+      "classAverage": 3.33,
+      "mix": {
+        "1A": 0,
+        "2A": 6,
+        "3A": 4,
+        "4A": 14,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 9
+    },
+    "Jerseyville Community": {
+      "regional": 15,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.5548,
+      "opponentsWinPct": 0.544,
+      "ratedGames": 17,
+      "classAverage": 2.75,
+      "mix": {
+        "1A": 2,
+        "2A": 8,
+        "3A": 3,
+        "4A": 7,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Collinsville": {
+      "regional": 16,
+      "rank": 1,
+      "of": 7,
+      "rating": 0.7154,
+      "opponentsWinPct": 0.569,
+      "ratedGames": 9,
+      "classAverage": 3.9,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 9,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "O'Fallon Carriel": {
+      "regional": 16,
+      "rank": 2,
+      "of": 7,
+      "rating": 0.7129,
+      "opponentsWinPct": 0.568,
+      "ratedGames": 12,
+      "classAverage": 3.87,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 2,
+        "4A": 13,
+        "other": 6
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 4
+    },
+    "O'Fallon Fulton": {
+      "regional": 16,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.6828,
+      "opponentsWinPct": 0.487,
+      "ratedGames": 12,
+      "classAverage": 3.92,
+      "mix": {
+        "1A": 0,
+        "2A": 0,
+        "3A": 1,
+        "4A": 11,
+        "other": 6
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 3
+    },
+    "Mascoutah": {
+      "regional": 16,
+      "rank": 4,
+      "of": 7,
+      "rating": 0.6805,
+      "opponentsWinPct": 0.517,
+      "ratedGames": 9,
+      "classAverage": 3.8,
+      "mix": {
+        "1A": 0,
+        "2A": 1,
+        "3A": 0,
+        "4A": 9,
+        "other": 1
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "East St. Louis Clark (Co-op)": {
+      "regional": 16,
+      "rank": 5,
+      "of": 7,
+      "rating": 0.6665,
+      "opponentsWinPct": 0.536,
+      "ratedGames": 13,
+      "classAverage": 3.62,
+      "mix": {
+        "1A": 1,
+        "2A": 0,
+        "3A": 3,
+        "4A": 12,
+        "other": 4
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 2
+    },
+    "Granite City Coolidge": {
+      "regional": 16,
+      "rank": 6,
+      "of": 7,
+      "rating": 0.6348,
+      "opponentsWinPct": 0.484,
+      "ratedGames": 7,
+      "classAverage": 3.56,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 0,
+        "4A": 7,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Cahokia Wirth": {
+      "regional": 16,
+      "rank": 7,
+      "of": 7,
+      "rating": 0.6343,
+      "opponentsWinPct": 0.525,
+      "ratedGames": 10,
+      "classAverage": 3.43,
+      "mix": {
+        "1A": 2,
+        "2A": 0,
+        "3A": 2,
+        "4A": 10,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    }
+  },
+  "opponents": {
+    "altamont": {
+      "class": "2A",
+      "wins": 4,
+      "losses": 12,
+      "results": [
+        {
+          "o": "effingham jhs",
+          "w": 0
+        }
+      ]
+    },
+    "alton": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 8,
+      "results": [
+        {
+          "o": "st. jacob triad",
+          "w": 0
+        },
+        {
+          "o": "jerseyville community",
+          "w": 1
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "o'fallon carriel",
+          "w": 0
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "mascoutah",
+          "w": 1
+        },
+        {
+          "o": "o'fallon fulton",
+          "w": 0
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 0
+        },
+        {
+          "o": "east st. louis clark",
+          "w": 0
+        }
+      ]
+    },
+    "arlington heights south": {
+      "class": "4A",
+      "wins": 4,
+      "losses": 1,
+      "results": [
+        {
+          "o": "vernon hills hawthorn north",
+          "w": 1
+        },
+        {
+          "o": "arlington heights thomas",
+          "w": 0
+        },
+        {
+          "o": "vernon hills hawthorn south",
+          "w": 1
+        }
+      ]
+    },
+    "arlington heights thomas": {
+      "class": "4A",
+      "wins": 4,
+      "losses": 0,
+      "results": [
+        {
+          "o": "lake zurich north",
+          "w": 1
+        },
+        {
+          "o": "arlington heights south",
+          "w": 1
+        }
+      ]
+    },
+    "ashland a-c central": {
+      "class": "1A",
+      "wins": 2,
+      "losses": 14,
+      "results": [
+        {
+          "o": "jacksonville ms",
+          "w": 0
+        }
+      ]
+    },
+    "auburn jhs at divernon": {
+      "class": "3A",
+      "wins": 6,
+      "losses": 10,
+      "results": [
+        {
+          "o": "jacksonville ms",
+          "w": 1
+        },
+        {
+          "o": "springfield franklin",
+          "w": 0
+        }
+      ]
+    },
+    "aviston": {
+      "class": null
+    },
+    "avon abingdon avon": {
+      "class": "3A",
+      "wins": 12,
+      "losses": 5,
+      "results": [
+        {
+          "o": "galesburg jhs",
+          "w": 1
+        }
+      ]
+    },
+    "barbour (b)": {
+      "class": null
+    },
+    "barrington prairie": {
+      "class": "4A",
+      "wins": 9,
+      "losses": 0,
+      "results": [
+        {
+          "o": "lake zurich north",
+          "w": 1
+        },
+        {
+          "o": "lake zurich north",
+          "w": 1
+        },
+        {
+          "o": "vernon hills hawthorn north",
+          "w": 1
+        },
+        {
+          "o": "vernon hills hawthorn north",
+          "w": 1
+        },
+        {
+          "o": "barrington station",
+          "w": 1
+        },
+        {
+          "o": "barrington station",
+          "w": 1
+        },
+        {
+          "o": "lake zurich south",
+          "w": 1
+        },
+        {
+          "o": "lake zurich south",
+          "w": 1
+        }
+      ]
+    },
+    "barrington station": {
+      "class": "4A",
+      "wins": 10,
+      "losses": 5,
+      "results": [
+        {
+          "o": "lake zurich north",
+          "w": 0
+        },
+        {
+          "o": "lake zurich north",
+          "w": 1
+        },
+        {
+          "o": "vernon hills hawthorn north",
+          "w": 1
+        },
+        {
+          "o": "vernon hills hawthorn north",
+          "w": 1
+        },
+        {
+          "o": "vernon hills hawthorn south",
+          "w": 1
+        },
+        {
+          "o": "barrington prairie",
+          "w": 0
+        },
+        {
+          "o": "lake zurich south",
+          "w": 1
+        },
+        {
+          "o": "barrington prairie",
+          "w": 0
+        },
+        {
+          "o": "vernon hills hawthorn south",
+          "w": 1
+        },
+        {
+          "o": "lake zurich south",
+          "w": 0
+        },
+        {
+          "o": "lake zurich south",
+          "w": 0
+        }
+      ]
+    },
+    "beardstown ms": {
+      "class": "3A",
+      "wins": 3,
+      "losses": 13,
+      "results": [
+        {
+          "o": "macomb",
+          "w": 0
+        }
+      ]
+    },
+    "beecher": {
+      "class": "3A",
+      "wins": 14,
+      "losses": 3,
+      "results": [
+        {
+          "o": "coal city",
+          "w": 0
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 1
+        }
+      ]
+    },
+    "belle valley middle school": {
+      "class": null
+    },
+    "belleville central jh": {
+      "class": null
+    },
+    "belleville west": {
+      "class": null
+    },
+    "bellwood roosevelt": {
+      "class": "4A",
+      "wins": 9,
+      "losses": 4,
+      "results": [
+        {
+          "o": "cicero unity",
+          "w": 1
+        },
+        {
+          "o": "melrose park stevenson",
+          "w": 1
+        },
+        {
+          "o": "maywood irving",
+          "w": 1
+        }
+      ]
+    },
+    "bellwood-roosevelt": {
+      "class": null
+    },
+    "berkeley-macarthur": {
+      "class": null
+    },
+    "berwyn-freedom": {
+      "class": null
+    },
+    "berwyn-heritage": {
+      "class": null
+    },
+    "berwyn-lincoln": {
+      "class": null
+    },
+    "bethalto trimpe": {
+      "class": "4A",
+      "wins": 19,
+      "losses": 1,
+      "results": [
+        {
+          "o": "highland ms",
+          "w": 1
+        },
+        {
+          "o": "springfield lincoln",
+          "w": 1
+        },
+        {
+          "o": "jerseyville community",
+          "w": 1
+        },
+        {
+          "o": "jerseyville community",
+          "w": 1
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 1
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 1
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 1
+        },
+        {
+          "o": "effingham jhs",
+          "w": 1
+        },
+        {
+          "o": "alton",
+          "w": 1
+        },
+        {
+          "o": "east st. louis clark",
+          "w": 1
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "o'fallon carriel",
+          "w": 1
+        }
+      ]
+    },
+    "bloomington corpus christi": {
+      "class": "2A",
+      "wins": 15,
+      "losses": 5,
+      "results": [
+        {
+          "o": "normal kingsley",
+          "w": 0
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        }
+      ]
+    },
+    "bloomington evans": {
+      "class": "4A",
+      "wins": 9,
+      "losses": 8,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "champaign edison",
+          "w": 1
+        },
+        {
+          "o": "dunlap ms",
+          "w": 1
+        },
+        {
+          "o": "morton jhs",
+          "w": 0
+        },
+        {
+          "o": "decatur stephen decatur",
+          "w": 1
+        },
+        {
+          "o": "east peoria central",
+          "w": 0
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 1
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "normal chiddix",
+          "w": 0
+        },
+        {
+          "o": "normal kingsley",
+          "w": 0
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 1
+        },
+        {
+          "o": "normal chiddix",
+          "w": 1
+        }
+      ]
+    },
+    "bloomington jhs": {
+      "class": "4A",
+      "wins": 8,
+      "losses": 10,
+      "results": [
+        {
+          "o": "champaign edison",
+          "w": 0
+        },
+        {
+          "o": "morton jhs",
+          "w": 0
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        },
+        {
+          "o": "champaign franklin",
+          "w": 1
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 1
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 1
+        },
+        {
+          "o": "bloomington evans",
+          "w": 0
+        },
+        {
+          "o": "normal kingsley",
+          "w": 0
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "normal chiddix",
+          "w": 0
+        },
+        {
+          "o": "urbana ms",
+          "w": 0
+        },
+        {
+          "o": "normal chiddix",
+          "w": 1
+        },
+        {
+          "o": "bloomington evans",
+          "w": 0
+        }
+      ]
+    },
+    "blue island kerr": {
+      "class": "3A",
+      "wins": 0,
+      "losses": 9,
+      "results": [
+        {
+          "o": "phoenix coolidge",
+          "w": 0
+        },
+        {
+          "o": "harvey brooks",
+          "w": 0
+        },
+        {
+          "o": "harvey brooks",
+          "w": 0
+        }
+      ]
+    },
+    "blue island veterans memorial": {
+      "class": "3A",
+      "wins": 5,
+      "losses": 4,
+      "results": [
+        {
+          "o": "phoenix coolidge",
+          "w": 0
+        },
+        {
+          "o": "phoenix coolidge",
+          "w": 0
+        },
+        {
+          "o": "harvey brooks",
+          "w": 0
+        }
+      ]
+    },
+    "bolingbrook brooks": {
+      "class": "4A",
+      "wins": 6,
+      "losses": 5,
+      "results": [
+        {
+          "o": "bolingbrook humphrey",
+          "w": 0
+        },
+        {
+          "o": "romeoville lukancic",
+          "w": 1
+        },
+        {
+          "o": "romeoville lukancic",
+          "w": 1
+        },
+        {
+          "o": "woodridge jefferson",
+          "w": 1
+        },
+        {
+          "o": "romeoville martinez",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook jane addams",
+          "w": 0
+        },
+        {
+          "o": "minooka",
+          "w": 1
+        },
+        {
+          "o": "joliet hufford",
+          "w": 0
+        },
+        {
+          "o": "joliet dirksen",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook jane addams",
+          "w": 0
+        }
+      ]
+    },
+    "bolingbrook humphrey": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 7,
+      "results": [
+        {
+          "o": "romeoville martinez",
+          "w": 0
+        },
+        {
+          "o": "bolingbrook jane addams",
+          "w": 0
+        },
+        {
+          "o": "romeoville martinez",
+          "w": 1
+        },
+        {
+          "o": "romeoville lukancic",
+          "w": 1
+        },
+        {
+          "o": "minooka",
+          "w": 0
+        },
+        {
+          "o": "bolingbrook brooks",
+          "w": 1
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 0
+        },
+        {
+          "o": "bolingbrook jane addams",
+          "w": 0
+        },
+        {
+          "o": "romeoville lukancic",
+          "w": 1
+        },
+        {
+          "o": "joliet hufford",
+          "w": 0
+        }
+      ]
+    },
+    "bolingbrook jane addams": {
+      "class": "4A",
+      "wins": 10,
+      "losses": 1,
+      "results": [
+        {
+          "o": "bolingbrook humphrey",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook humphrey",
+          "w": 1
+        },
+        {
+          "o": "romeoville lukancic",
+          "w": 1
+        },
+        {
+          "o": "homer glen homer",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook brooks",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook brooks",
+          "w": 1
+        },
+        {
+          "o": "minooka",
+          "w": 1
+        },
+        {
+          "o": "romeoville martinez",
+          "w": 1
+        },
+        {
+          "o": "joliet hufford",
+          "w": 1
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 0
+        }
+      ]
+    },
+    "bourbonnais st. george": {
+      "class": "2A",
+      "wins": 1,
+      "losses": 7,
+      "results": [
+        {
+          "o": "bourbonnais ugc",
+          "w": 0
+        }
+      ]
+    },
+    "bourbonnais ugc": {
+      "class": "4A",
+      "wins": 4,
+      "losses": 6,
+      "results": [
+        {
+          "o": "manhattan",
+          "w": 0
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "minooka",
+          "w": 1
+        },
+        {
+          "o": "coal city",
+          "w": 1
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 0
+        }
+      ]
+    },
+    "bradley central": {
+      "class": "3A",
+      "wins": 0,
+      "losses": 11,
+      "results": [
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        }
+      ]
+    },
+    "braidwood reed-custer": {
+      "class": "3A",
+      "wins": 1,
+      "losses": 9,
+      "results": [
+        {
+          "o": "coal city",
+          "w": 0
+        }
+      ]
+    },
+    "brimfield": {
+      "class": "2A",
+      "wins": 5,
+      "losses": 13,
+      "results": [
+        {
+          "o": "dunlap ms",
+          "w": 0
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 0
+        }
+      ]
+    },
+    "brooks": {
+      "class": null
+    },
+    "brooks )ak park (b)": {
+      "class": null
+    },
+    "bryan middle school": {
+      "class": null
+    },
+    "bushnell-prairie city": {
+      "class": "2A",
+      "wins": 11,
+      "losses": 5,
+      "results": [
+        {
+          "o": "macomb",
+          "w": 1
+        }
+      ]
+    },
+    "cahokia wirth": {
+      "class": "4A",
+      "wins": 3,
+      "losses": 7,
+      "results": [
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "east st. louis clark",
+          "w": 0
+        },
+        {
+          "o": "springfield grant",
+          "w": 0
+        },
+        {
+          "o": "o'fallon fulton",
+          "w": 0
+        },
+        {
+          "o": "east st. louis clark",
+          "w": 0
+        },
+        {
+          "o": "o'fallon carriel",
+          "w": 0
+        },
+        {
+          "o": "east st. louis clark",
+          "w": 0
+        }
+      ]
+    },
+    "calumet city dolton 149": {
+      "class": "4A",
+      "wins": 1,
+      "losses": 2,
+      "results": [
+        {
+          "o": "markham prairie-hills",
+          "w": 0
+        },
+        {
+          "o": "phoenix coolidge",
+          "w": 0
+        }
+      ]
+    },
+    "calumet city schrum": {
+      "class": "3A",
+      "wins": 5,
+      "losses": 6,
+      "results": [
+        {
+          "o": "phoenix coolidge",
+          "w": 0
+        },
+        {
+          "o": "phoenix coolidge",
+          "w": 0
+        }
+      ]
+    },
+    "calumet park calumet": {
+      "class": "3A",
+      "wins": 6,
+      "losses": 4,
+      "results": [
+        {
+          "o": "markham prairie-hills",
+          "w": 0
+        },
+        {
+          "o": "matteson colin powell",
+          "w": 0
+        },
+        {
+          "o": "markham prairie-hills",
+          "w": 0
+        }
+      ]
+    },
+    "camp point central": {
+      "class": "2A",
+      "wins": 13,
+      "losses": 3,
+      "results": [
+        {
+          "o": "quincy",
+          "w": 0
+        }
+      ]
+    },
+    "canton ingersoll": {
+      "class": "4A",
+      "wins": 9,
+      "losses": 9,
+      "results": [
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        },
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        },
+        {
+          "o": "dunlap ms",
+          "w": 1
+        },
+        {
+          "o": "morton jhs",
+          "w": 0
+        },
+        {
+          "o": "macomb",
+          "w": 1
+        },
+        {
+          "o": "east peoria central",
+          "w": 0
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "pekin broadmoor",
+          "w": 0
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 1
+        }
+      ]
+    },
+    "carlyle": {
+      "class": null
+    },
+    "carrollton gs": {
+      "class": "1A",
+      "wins": 1,
+      "losses": 12,
+      "results": [
+        {
+          "o": "alton",
+          "w": 0
+        }
+      ]
+    },
+    "carrollton st. john": {
+      "class": "1A",
+      "wins": 12,
+      "losses": 2,
+      "results": [
+        {
+          "o": "morton jhs",
+          "w": 1
+        }
+      ]
+    },
+    "carterville": {
+      "class": null
+    },
+    "carthage": {
+      "class": "2A",
+      "wins": 16,
+      "losses": 4,
+      "results": [
+        {
+          "o": "macomb",
+          "w": 1
+        },
+        {
+          "o": "quincy",
+          "w": 1
+        }
+      ]
+    },
+    "casey-westfield": {
+      "class": "2A",
+      "wins": 7,
+      "losses": 9,
+      "results": [
+        {
+          "o": "charleston",
+          "w": 1
+        },
+        {
+          "o": "mattoon",
+          "w": 0
+        }
+      ]
+    },
+    "centralia": {
+      "class": null
+    },
+    "champaign edison": {
+      "class": "4A",
+      "wins": 6,
+      "losses": 8,
+      "results": [
+        {
+          "o": "danville north ridge",
+          "w": 1
+        },
+        {
+          "o": "champaign franklin",
+          "w": 0
+        },
+        {
+          "o": "bloomington evans",
+          "w": 0
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 1
+        },
+        {
+          "o": "mattoon",
+          "w": 0
+        },
+        {
+          "o": "rantoul eater",
+          "w": 1
+        },
+        {
+          "o": "normal chiddix",
+          "w": 0
+        },
+        {
+          "o": "champaign franklin",
+          "w": 0
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 1
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        }
+      ]
+    },
+    "champaign franklin": {
+      "class": "4A",
+      "wins": 10,
+      "losses": 8,
+      "results": [
+        {
+          "o": "champaign edison",
+          "w": 1
+        },
+        {
+          "o": "champaign edison",
+          "w": 1
+        },
+        {
+          "o": "mattoon",
+          "w": 0
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 0
+        },
+        {
+          "o": "decatur stephen decatur",
+          "w": 1
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        },
+        {
+          "o": "rantoul eater",
+          "w": 1
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "danville north ridge",
+          "w": 0
+        },
+        {
+          "o": "danville north ridge",
+          "w": 1
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 0
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 0
+        },
+        {
+          "o": "urbana ms",
+          "w": 1
+        },
+        {
+          "o": "urbana ms",
+          "w": 0
+        }
+      ]
+    },
+    "champaign international": {
+      "class": "2A",
+      "wins": 3,
+      "losses": 9,
+      "results": [
+        {
+          "o": "rantoul eater",
+          "w": 0
+        },
+        {
+          "o": "champaign franklin",
+          "w": 0
+        }
+      ]
+    },
+    "champaign jefferson": {
+      "class": "4A",
+      "wins": 10,
+      "losses": 4,
+      "results": [
+        {
+          "o": "champaign edison",
+          "w": 0
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 0
+        },
+        {
+          "o": "decatur stephen decatur",
+          "w": 1
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        },
+        {
+          "o": "rockford eisenhower",
+          "w": 0
+        },
+        {
+          "o": "rantoul eater",
+          "w": 1
+        },
+        {
+          "o": "rantoul eater",
+          "w": 1
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "danville north ridge",
+          "w": 1
+        },
+        {
+          "o": "champaign franklin",
+          "w": 1
+        },
+        {
+          "o": "champaign franklin",
+          "w": 1
+        },
+        {
+          "o": "east st. louis clark",
+          "w": 1
+        }
+      ]
+    },
+    "champaign st. matthew": {
+      "class": "2A",
+      "wins": 6,
+      "losses": 13,
+      "results": [
+        {
+          "o": "champaign edison",
+          "w": 0
+        },
+        {
+          "o": "rantoul eater",
+          "w": 1
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 0
+        }
+      ]
+    },
+    "chaney-monge": {
+      "class": null
+    },
+    "channahon": {
+      "class": "3A",
+      "wins": 11,
+      "losses": 4,
+      "results": [
+        {
+          "o": "manhattan",
+          "w": 0
+        },
+        {
+          "o": "homer glen homer",
+          "w": 0
+        },
+        {
+          "o": "ottawa shepherd",
+          "w": 1
+        },
+        {
+          "o": "minooka",
+          "w": 0
+        },
+        {
+          "o": "shorewood troy",
+          "w": 1
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 0
+        },
+        {
+          "o": "coal city",
+          "w": 1
+        },
+        {
+          "o": "coal city",
+          "w": 1
+        }
+      ]
+    },
+    "charleston": {
+      "class": "4A",
+      "wins": 2,
+      "losses": 11,
+      "results": [
+        {
+          "o": "mattoon",
+          "w": 0
+        }
+      ]
+    },
+    "chatham glenwood": {
+      "class": "4A",
+      "wins": 11,
+      "losses": 3,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "morton jhs",
+          "w": 0
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 1
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 1
+        },
+        {
+          "o": "springfield franklin",
+          "w": 1
+        },
+        {
+          "o": "quincy",
+          "w": 1
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "normal kingsley",
+          "w": 1
+        },
+        {
+          "o": "springfield lincoln",
+          "w": 1
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 1
+        },
+        {
+          "o": "jacksonville ms",
+          "w": 1
+        }
+      ]
+    },
+    "chicago heights ms": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 5,
+      "results": [
+        {
+          "o": "matteson huth",
+          "w": 1
+        },
+        {
+          "o": "flossmoor parker",
+          "w": 0
+        },
+        {
+          "o": "steger columbia",
+          "w": 1
+        },
+        {
+          "o": "lansing memorial",
+          "w": 0
+        },
+        {
+          "o": "park forest michelle obama sta",
+          "w": 1
+        },
+        {
+          "o": "matteson colin powell",
+          "w": 0
+        },
+        {
+          "o": "matteson colin powell",
+          "w": 0
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        }
+      ]
+    },
+    "chicago horizon southwest": {
+      "class": "3A",
+      "wins": 4,
+      "losses": 7,
+      "results": [
+        {
+          "o": "phoenix coolidge",
+          "w": 0
+        },
+        {
+          "o": "phoenix coolidge",
+          "w": 0
+        }
+      ]
+    },
+    "chillicothe": {
+      "class": "3A",
+      "wins": 4,
+      "losses": 12,
+      "results": [
+        {
+          "o": "dunlap ms",
+          "w": 0
+        },
+        {
+          "o": "east peoria central",
+          "w": 0
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 0
+        }
+      ]
+    },
+    "cicero unity": {
+      "class": "4A",
+      "wins": 1,
+      "losses": 11,
+      "results": [
+        {
+          "o": "bellwood roosevelt",
+          "w": 0
+        },
+        {
+          "o": "melrose park stevenson",
+          "w": 0
+        },
+        {
+          "o": "maywood irving",
+          "w": 0
+        }
+      ]
+    },
+    "clinton": {
+      "class": "3A",
+      "wins": 10,
+      "losses": 10,
+      "results": [
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        }
+      ]
+    },
+    "coal city": {
+      "class": "4A",
+      "wins": 9,
+      "losses": 7,
+      "results": [
+        {
+          "o": "manhattan",
+          "w": 0
+        },
+        {
+          "o": "ottawa shepherd",
+          "w": 1
+        },
+        {
+          "o": "minooka",
+          "w": 0
+        },
+        {
+          "o": "bourbonnais ugc",
+          "w": 0
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        }
+      ]
+    },
+    "collinsville": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 4,
+      "results": [
+        {
+          "o": "highland ms",
+          "w": 1
+        },
+        {
+          "o": "st. jacob triad",
+          "w": 1
+        },
+        {
+          "o": "o'fallon carriel",
+          "w": 0
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "mascoutah",
+          "w": 0
+        },
+        {
+          "o": "o'fallon fulton",
+          "w": 1
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 1
+        },
+        {
+          "o": "east st. louis clark",
+          "w": 0
+        }
+      ]
+    },
+    "columbia": {
+      "class": null
+    },
+    "conklin": {
+      "class": null
+    },
+    "conklin (b)": {
+      "class": null
+    },
+    "crest hill richland": {
+      "class": "3A",
+      "wins": 12,
+      "losses": 3,
+      "results": [
+        {
+          "o": "joliet gompers",
+          "w": 1
+        },
+        {
+          "o": "joliet washington",
+          "w": 1
+        },
+        {
+          "o": "romeoville martinez",
+          "w": 1
+        }
+      ]
+    },
+    "crestwood hale": {
+      "class": "3A",
+      "wins": 8,
+      "losses": 1,
+      "results": [
+        {
+          "o": "phoenix coolidge",
+          "w": 1
+        },
+        {
+          "o": "phoenix coolidge",
+          "w": 0
+        }
+      ]
+    },
+    "crete-monee": {
+      "class": null
+    },
+    "creve coeur parkview": {
+      "class": "2A",
+      "wins": 0,
+      "losses": 11,
+      "results": [
+        {
+          "o": "east peoria central",
+          "w": 0
+        },
+        {
+          "o": "pekin broadmoor",
+          "w": 0
+        }
+      ]
+    },
+    "cuba": {
+      "class": null,
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "danville north ridge": {
+      "class": "4A",
+      "wins": 3,
+      "losses": 7,
+      "results": [
+        {
+          "o": "champaign edison",
+          "w": 0
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        },
+        {
+          "o": "rantoul eater",
+          "w": 1
+        },
+        {
+          "o": "champaign franklin",
+          "w": 1
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 0
+        },
+        {
+          "o": "urbana ms",
+          "w": 0
+        },
+        {
+          "o": "champaign franklin",
+          "w": 0
+        }
+      ]
+    },
+    "darien eisenhower": {
+      "class": null,
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "de lasalle shootout": {
+      "class": null
+    },
+    "decatur dansby": {
+      "class": "2A",
+      "wins": 3,
+      "losses": 5,
+      "results": [
+        {
+          "o": "decatur stephen decatur",
+          "w": 1
+        },
+        {
+          "o": "champaign franklin",
+          "w": 0
+        }
+      ]
+    },
+    "decatur dennis": {
+      "class": "2A",
+      "wins": 1,
+      "losses": 9,
+      "results": [
+        {
+          "o": "champaign edison",
+          "w": 0
+        }
+      ]
+    },
+    "decatur hope": {
+      "class": "2A",
+      "wins": 4,
+      "losses": 4,
+      "results": [
+        {
+          "o": "decatur stephen decatur",
+          "w": 1
+        }
+      ]
+    },
+    "decatur johns hill": {
+      "class": "3A",
+      "wins": 8,
+      "losses": 6,
+      "results": [
+        {
+          "o": "decatur stephen decatur",
+          "w": 1
+        }
+      ]
+    },
+    "decatur montessori academy for peace": {
+      "class": "2A"
+    },
+    "decatur our lady of lourdes": {
+      "class": "2A",
+      "wins": 5,
+      "losses": 13,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "st. jacob triad",
+          "w": 0
+        },
+        {
+          "o": "springfield washington",
+          "w": 1
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 0
+        },
+        {
+          "o": "highland ms",
+          "w": 0
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        }
+      ]
+    },
+    "decatur robertson": {
+      "class": "2A",
+      "wins": 9,
+      "losses": 3,
+      "results": [
+        {
+          "o": "urbana ms",
+          "w": 0
+        },
+        {
+          "o": "springfield jefferson",
+          "w": 1
+        },
+        {
+          "o": "springfield lincoln",
+          "w": 0
+        },
+        {
+          "o": "decatur stephen decatur",
+          "w": 1
+        }
+      ]
+    },
+    "decatur stephen decatur": {
+      "class": "4A",
+      "wins": 1,
+      "losses": 13,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 0
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 0
+        },
+        {
+          "o": "bloomington evans",
+          "w": 0
+        },
+        {
+          "o": "springfield franklin",
+          "w": 0
+        },
+        {
+          "o": "urbana ms",
+          "w": 0
+        },
+        {
+          "o": "springfield jefferson",
+          "w": 1
+        },
+        {
+          "o": "champaign franklin",
+          "w": 0
+        }
+      ]
+    },
+    "dieterich": {
+      "class": "2A"
+    },
+    "dixmoor rosa parks": {
+      "class": "3A"
+    },
+    "downers grove herrick": {
+      "class": "4A",
+      "wins": 11,
+      "losses": 0,
+      "results": [
+        {
+          "o": "downers grove o'neill",
+          "w": 1
+        },
+        {
+          "o": "downers grove o'neill",
+          "w": 1
+        },
+        {
+          "o": "lemont old quarry",
+          "w": 1
+        },
+        {
+          "o": "lemont old quarry",
+          "w": 1
+        },
+        {
+          "o": "willowbrook westview hills",
+          "w": 1
+        },
+        {
+          "o": "woodridge jefferson",
+          "w": 1
+        },
+        {
+          "o": "willowbrook westview hills",
+          "w": 1
+        }
+      ]
+    },
+    "downers grove lakeview": {
+      "class": "3A",
+      "wins": 1,
+      "losses": 9,
+      "results": [
+        {
+          "o": "downers grove o'neill",
+          "w": 0
+        },
+        {
+          "o": "downers grove o'neill",
+          "w": 0
+        },
+        {
+          "o": "lemont old quarry",
+          "w": 0
+        },
+        {
+          "o": "lemont old quarry",
+          "w": 0
+        },
+        {
+          "o": "downers grove herrick",
+          "w": 0
+        },
+        {
+          "o": "woodridge jefferson",
+          "w": 1
+        },
+        {
+          "o": "woodridge jefferson",
+          "w": 0
+        },
+        {
+          "o": "willowbrook westview hills",
+          "w": 0
+        }
+      ]
+    },
+    "downers grove o'neill": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 4,
+      "results": [
+        {
+          "o": "lemont old quarry",
+          "w": 0
+        },
+        {
+          "o": "downers grove herrick",
+          "w": 0
+        },
+        {
+          "o": "willowbrook westview hills",
+          "w": 0
+        },
+        {
+          "o": "woodridge jefferson",
+          "w": 1
+        },
+        {
+          "o": "downers grove herrick",
+          "w": 0
+        }
+      ]
+    },
+    "downs tri-valley": {
+      "class": "3A",
+      "wins": 19,
+      "losses": 1,
+      "results": [
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "normal chiddix",
+          "w": 1
+        }
+      ]
+    },
+    "dunlap ms": {
+      "class": "4A",
+      "wins": 8,
+      "losses": 11,
+      "results": [
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 1
+        },
+        {
+          "o": "bloomington evans",
+          "w": 0
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 0
+        },
+        {
+          "o": "normal kingsley",
+          "w": 0
+        },
+        {
+          "o": "macomb",
+          "w": 1
+        },
+        {
+          "o": "morton jhs",
+          "w": 0
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        }
+      ]
+    },
+    "dunlap valley ms": {
+      "class": "4A",
+      "wins": 6,
+      "losses": 10,
+      "results": [
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        },
+        {
+          "o": "dunlap ms",
+          "w": 0
+        },
+        {
+          "o": "morton jhs",
+          "w": 0
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 0
+        },
+        {
+          "o": "east peoria central",
+          "w": 0
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 0
+        },
+        {
+          "o": "pekin broadmoor",
+          "w": 1
+        },
+        {
+          "o": "normal chiddix",
+          "w": 0
+        }
+      ]
+    },
+    "dwight": {
+      "class": "2A"
+    },
+    "earlville": {
+      "class": "1A",
+      "wins": 0,
+      "losses": 10,
+      "results": [
+        {
+          "o": "plano",
+          "w": 0
+        }
+      ]
+    },
+    "east alton ms": {
+      "class": "2A",
+      "wins": 5,
+      "losses": 9,
+      "results": [
+        {
+          "o": "jerseyville community",
+          "w": 0
+        },
+        {
+          "o": "jerseyville community",
+          "w": 1
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "granite city coolidge",
+          "w": 1
+        }
+      ]
+    },
+    "east peoria central": {
+      "class": "4A",
+      "wins": 12,
+      "losses": 2,
+      "results": [
+        {
+          "o": "morton jhs",
+          "w": 1
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 1
+        },
+        {
+          "o": "normal chiddix",
+          "w": 1
+        },
+        {
+          "o": "pekin broadmoor",
+          "w": 1
+        },
+        {
+          "o": "bloomington evans",
+          "w": 1
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 1
+        }
+      ]
+    },
+    "east st. louis clark": {
+      "class": "4A",
+      "wins": 12,
+      "losses": 5,
+      "results": [
+        {
+          "o": "st. jacob triad",
+          "w": 0
+        },
+        {
+          "o": "cahokia wirth",
+          "w": 1
+        },
+        {
+          "o": "cahokia wirth",
+          "w": 1
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "o'fallon fulton",
+          "w": 0
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 1
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 0
+        },
+        {
+          "o": "cahokia wirth",
+          "w": 1
+        },
+        {
+          "o": "alton",
+          "w": 1
+        },
+        {
+          "o": "collinsville",
+          "w": 1
+        }
+      ]
+    },
+    "east st. louis lincoln": {
+      "class": "3A",
+      "wins": 4,
+      "losses": 9,
+      "results": [
+        {
+          "o": "cahokia wirth",
+          "w": 0
+        },
+        {
+          "o": "o'fallon fulton",
+          "w": 0
+        },
+        {
+          "o": "east st. louis clark",
+          "w": 0
+        },
+        {
+          "o": "urbana ms",
+          "w": 0
+        },
+        {
+          "o": "collinsville",
+          "w": 0
+        },
+        {
+          "o": "alton",
+          "w": 0
+        },
+        {
+          "o": "champaign franklin",
+          "w": 0
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        }
+      ]
+    },
+    "edwardsville liberty": {
+      "class": "4A",
+      "wins": 9,
+      "losses": 6,
+      "results": [
+        {
+          "o": "highland ms",
+          "w": 1
+        },
+        {
+          "o": "st. jacob triad",
+          "w": 1
+        },
+        {
+          "o": "jerseyville community",
+          "w": 1
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "o'fallon carriel",
+          "w": 1
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "o'fallon fulton",
+          "w": 0
+        },
+        {
+          "o": "mascoutah",
+          "w": 1
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 0
+        },
+        {
+          "o": "east st. louis clark",
+          "w": 0
+        },
+        {
+          "o": "collinsville",
+          "w": 0
+        },
+        {
+          "o": "granite city coolidge",
+          "w": 1
+        },
+        {
+          "o": "alton",
+          "w": 1
+        },
+        {
+          "o": "quincy",
+          "w": 1
+        }
+      ]
+    },
+    "edwardsville lincoln": {
+      "class": "4A",
+      "wins": 16,
+      "losses": 3,
+      "results": [
+        {
+          "o": "highland ms",
+          "w": 1
+        },
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "st. jacob triad",
+          "w": 1
+        },
+        {
+          "o": "cahokia wirth",
+          "w": 1
+        },
+        {
+          "o": "jerseyville community",
+          "w": 1
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 1
+        },
+        {
+          "o": "o'fallon carriel",
+          "w": 1
+        },
+        {
+          "o": "mascoutah",
+          "w": 1
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 0
+        },
+        {
+          "o": "collinsville",
+          "w": 1
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 1
+        },
+        {
+          "o": "alton",
+          "w": 1
+        },
+        {
+          "o": "quincy",
+          "w": 1
+        },
+        {
+          "o": "east st. louis clark",
+          "w": 1
+        },
+        {
+          "o": "o'fallon fulton",
+          "w": 1
+        }
+      ]
+    },
+    "effingham jhs": {
+      "class": "4A",
+      "wins": 9,
+      "losses": 7,
+      "results": [
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 0
+        },
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        }
+      ]
+    },
+    "effingham st. anthony": {
+      "class": "2A",
+      "wins": 2,
+      "losses": 14,
+      "results": [
+        {
+          "o": "effingham jhs",
+          "w": 0
+        },
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "charleston",
+          "w": 0
+        },
+        {
+          "o": "mattoon",
+          "w": 0
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 0
+        }
+      ]
+    },
+    "eisenhower": {
+      "class": null
+    },
+    "elmwood": {
+      "class": "2A",
+      "wins": 2,
+      "losses": 15,
+      "results": [
+        {
+          "o": "dunlap ms",
+          "w": 0
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 0
+        }
+      ]
+    },
+    "emerson": {
+      "class": null
+    },
+    "eureka": {
+      "class": "3A",
+      "wins": 7,
+      "losses": 8,
+      "results": [
+        {
+          "o": "morton jhs",
+          "w": 0
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 1
+        }
+      ]
+    },
+    "evanston chute": {
+      "class": "4A",
+      "wins": 3,
+      "losses": 7,
+      "results": [
+        {
+          "o": "evanston nichols",
+          "w": 1
+        },
+        {
+          "o": "evanston haven",
+          "w": 0
+        },
+        {
+          "o": "evanston nichols",
+          "w": 1
+        },
+        {
+          "o": "evanston haven",
+          "w": 0
+        },
+        {
+          "o": "evanston nichols",
+          "w": 1
+        },
+        {
+          "o": "evanston haven",
+          "w": 0
+        }
+      ]
+    },
+    "evanston haven": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 2,
+      "results": [
+        {
+          "o": "evanston chute",
+          "w": 1
+        },
+        {
+          "o": "evanston chute",
+          "w": 1
+        },
+        {
+          "o": "evanston nichols",
+          "w": 1
+        },
+        {
+          "o": "evanston nichols",
+          "w": 1
+        },
+        {
+          "o": "evanston chute",
+          "w": 1
+        }
+      ]
+    },
+    "evanston king": {
+      "class": null,
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "evanston nichols": {
+      "class": "4A",
+      "wins": 0,
+      "losses": 7,
+      "results": [
+        {
+          "o": "evanston chute",
+          "w": 0
+        },
+        {
+          "o": "evanston chute",
+          "w": 0
+        },
+        {
+          "o": "evanston haven",
+          "w": 0
+        },
+        {
+          "o": "evanston haven",
+          "w": 0
+        },
+        {
+          "o": "evanston chute",
+          "w": 0
+        }
+      ]
+    },
+    "evanston st. athanasius": {
+      "class": null,
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "farmington central": {
+      "class": "3A",
+      "wins": 11,
+      "losses": 7,
+      "results": [
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        },
+        {
+          "o": "dunlap ms",
+          "w": 0
+        },
+        {
+          "o": "macomb",
+          "w": 1
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 0
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 1
+        }
+      ]
+    },
+    "flossmoor parker": {
+      "class": "4A",
+      "wins": 8,
+      "losses": 6,
+      "results": [
+        {
+          "o": "matteson huth",
+          "w": 0
+        },
+        {
+          "o": "matteson huth",
+          "w": 1
+        },
+        {
+          "o": "steger columbia",
+          "w": 1
+        },
+        {
+          "o": "university park crete monee",
+          "w": 0
+        },
+        {
+          "o": "lansing memorial",
+          "w": 0
+        },
+        {
+          "o": "homewood hart",
+          "w": 1
+        },
+        {
+          "o": "chicago heights ms",
+          "w": 1
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 1
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        },
+        {
+          "o": "matteson colin powell",
+          "w": 0
+        },
+        {
+          "o": "park forest michelle obama sta",
+          "w": 1
+        },
+        {
+          "o": "steger columbia",
+          "w": 1
+        },
+        {
+          "o": "university park crete monee",
+          "w": 0
+        }
+      ]
+    },
+    "forrest prairie central": {
+      "class": "3A",
+      "wins": 11,
+      "losses": 9,
+      "results": [
+        {
+          "o": "normal chiddix",
+          "w": 0
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 0
+        },
+        {
+          "o": "normal kingsley",
+          "w": 0
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        }
+      ]
+    },
+    "frankfort hickory creek": {
+      "class": "4A",
+      "wins": 9,
+      "losses": 8,
+      "results": [
+        {
+          "o": "new lenox martino",
+          "w": 0
+        },
+        {
+          "o": "new lenox martino",
+          "w": 0
+        },
+        {
+          "o": "manhattan",
+          "w": 1
+        },
+        {
+          "o": "matteson huth",
+          "w": 1
+        },
+        {
+          "o": "homer glen homer",
+          "w": 1
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "minooka",
+          "w": 1
+        },
+        {
+          "o": "mokena",
+          "w": 0
+        },
+        {
+          "o": "mokena",
+          "w": 0
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 0
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 1
+        },
+        {
+          "o": "shorewood troy",
+          "w": 1
+        },
+        {
+          "o": "shorewood troy",
+          "w": 1
+        },
+        {
+          "o": "manhattan",
+          "w": 1
+        }
+      ]
+    },
+    "frankfort summit hill": {
+      "class": "4A",
+      "wins": 4,
+      "losses": 12,
+      "results": [
+        {
+          "o": "new lenox martino",
+          "w": 0
+        },
+        {
+          "o": "new lenox martino",
+          "w": 0
+        },
+        {
+          "o": "manhattan",
+          "w": 0
+        },
+        {
+          "o": "manhattan",
+          "w": 0
+        },
+        {
+          "o": "homer glen homer",
+          "w": 0
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "minooka",
+          "w": 1
+        },
+        {
+          "o": "mokena",
+          "w": 0
+        },
+        {
+          "o": "mokena",
+          "w": 0
+        },
+        {
+          "o": "homer glen homer",
+          "w": 0
+        },
+        {
+          "o": "bourbonnais ugc",
+          "w": 1
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 0
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 1
+        },
+        {
+          "o": "shorewood troy",
+          "w": 0
+        },
+        {
+          "o": "shorewood troy",
+          "w": 1
+        }
+      ]
+    },
+    "franklin park, salem": {
+      "class": null
+    },
+    "freedom": {
+      "class": null
+    },
+    "freedom-berwyn (b)": {
+      "class": null
+    },
+    "galesburg costa": {
+      "class": null
+    },
+    "galesburg jhs": {
+      "class": "4A",
+      "wins": 15,
+      "losses": 1,
+      "results": [
+        {
+          "o": "normal kingsley",
+          "w": 1
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 1
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 1
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 1
+        },
+        {
+          "o": "quincy",
+          "w": 1
+        },
+        {
+          "o": "dunlap ms",
+          "w": 1
+        },
+        {
+          "o": "macomb",
+          "w": 1
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        }
+      ]
+    },
+    "gardner": {
+      "class": "1A",
+      "wins": 2,
+      "losses": 11,
+      "results": [
+        {
+          "o": "coal city",
+          "w": 0
+        }
+      ]
+    },
+    "georgetown mary miller": {
+      "class": "2A",
+      "wins": 2,
+      "losses": 12,
+      "results": [
+        {
+          "o": "danville north ridge",
+          "w": 0
+        }
+      ]
+    },
+    "germantown hills": {
+      "class": "3A",
+      "wins": 11,
+      "losses": 5,
+      "results": [
+        {
+          "o": "canton ingersoll",
+          "w": 1
+        },
+        {
+          "o": "dunlap ms",
+          "w": 1
+        },
+        {
+          "o": "east peoria central",
+          "w": 0
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 0
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        },
+        {
+          "o": "pekin broadmoor",
+          "w": 1
+        },
+        {
+          "o": "bloomington evans",
+          "w": 1
+        }
+      ]
+    },
+    "gillespie": {
+      "class": "3A",
+      "wins": 13,
+      "losses": 7,
+      "results": [
+        {
+          "o": "jerseyville community",
+          "w": 1
+        }
+      ]
+    },
+    "glasford illini bluffs": {
+      "class": "2A",
+      "wins": 9,
+      "losses": 3,
+      "results": [
+        {
+          "o": "dunlap ms",
+          "w": 1
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 1
+        }
+      ]
+    },
+    "glenview springman": {
+      "class": null
+    },
+    "glenwood brookwood": {
+      "class": "3A",
+      "wins": 2,
+      "losses": 12,
+      "results": [
+        {
+          "o": "matteson huth",
+          "w": 0
+        },
+        {
+          "o": "matteson huth",
+          "w": 0
+        },
+        {
+          "o": "flossmoor parker",
+          "w": 0
+        },
+        {
+          "o": "steger columbia",
+          "w": 0
+        },
+        {
+          "o": "matteson colin powell",
+          "w": 0
+        },
+        {
+          "o": "park forest michelle obama sta",
+          "w": 1
+        },
+        {
+          "o": "lansing memorial",
+          "w": 0
+        },
+        {
+          "o": "homewood hart",
+          "w": 0
+        },
+        {
+          "o": "park forest michelle obama sta",
+          "w": 0
+        },
+        {
+          "o": "university park crete monee",
+          "w": 1
+        },
+        {
+          "o": "matteson colin powell",
+          "w": 0
+        },
+        {
+          "o": "chicago heights ms",
+          "w": 0
+        },
+        {
+          "o": "lansing memorial",
+          "w": 0
+        },
+        {
+          "o": "chicago heights ms",
+          "w": 0
+        }
+      ]
+    },
+    "granite city coolidge": {
+      "class": "4A",
+      "wins": 1,
+      "losses": 6,
+      "results": [
+        {
+          "o": "st. jacob triad",
+          "w": 0
+        },
+        {
+          "o": "o'fallon carriel",
+          "w": 0
+        },
+        {
+          "o": "mascoutah",
+          "w": 0
+        },
+        {
+          "o": "o'fallon fulton",
+          "w": 0
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 0
+        }
+      ]
+    },
+    "green valley midwest central": {
+      "class": "2A",
+      "wins": 14,
+      "losses": 4,
+      "results": [
+        {
+          "o": "pekin broadmoor",
+          "w": 1
+        }
+      ]
+    },
+    "greenville": {
+      "class": "3A"
+    },
+    "hamilton es": {
+      "class": "1A"
+    },
+    "hardin calhoun": {
+      "class": "2A",
+      "wins": 13,
+      "losses": 2,
+      "results": [
+        {
+          "o": "jerseyville community",
+          "w": 1
+        }
+      ]
+    },
+    "harvey brooks": {
+      "class": "4A",
+      "wins": 3,
+      "losses": 1,
+      "results": [
+        {
+          "o": "phoenix coolidge",
+          "w": 0
+        }
+      ]
+    },
+    "harvey thornton tourney": {
+      "class": null
+    },
+    "havana": {
+      "class": "2A",
+      "wins": 7,
+      "losses": 11,
+      "results": [
+        {
+          "o": "macomb",
+          "w": 1
+        },
+        {
+          "o": "dunlap ms",
+          "w": 0
+        },
+        {
+          "o": "jacksonville ms",
+          "w": 1
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 0
+        }
+      ]
+    },
+    "hawthorn south": {
+      "class": null
+    },
+    "hazel crest jesse white": {
+      "class": "1A",
+      "wins": 2,
+      "losses": 9,
+      "results": [
+        {
+          "o": "calumet city dolton 149",
+          "w": 0
+        }
+      ]
+    },
+    "heritage berwyn": {
+      "class": null
+    },
+    "heritage berwyn (b)": {
+      "class": null
+    },
+    "herscher limestone": {
+      "class": "3A"
+    },
+    "heyworth": {
+      "class": "3A"
+    },
+    "highland ms": {
+      "class": "4A",
+      "wins": 3,
+      "losses": 11,
+      "results": [
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "o'fallon fulton",
+          "w": 0
+        },
+        {
+          "o": "st. jacob triad",
+          "w": 0
+        },
+        {
+          "o": "collinsville",
+          "w": 0
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 0
+        },
+        {
+          "o": "st. jacob triad",
+          "w": 1
+        },
+        {
+          "o": "o'fallon carriel",
+          "w": 0
+        },
+        {
+          "o": "mascoutah",
+          "w": 0
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 0
+        }
+      ]
+    },
+    "hillsboro": {
+      "class": "3A",
+      "wins": 16,
+      "losses": 3,
+      "results": [
+        {
+          "o": "highland ms",
+          "w": 1
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 1
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "o'fallon carriel",
+          "w": 0
+        },
+        {
+          "o": "alton",
+          "w": 1
+        }
+      ]
+    },
+    "homer glen homer": {
+      "class": "4A",
+      "wins": 6,
+      "losses": 12,
+      "results": [
+        {
+          "o": "new lenox martino",
+          "w": 0
+        },
+        {
+          "o": "new lenox martino",
+          "w": 0
+        },
+        {
+          "o": "manhattan",
+          "w": 0
+        },
+        {
+          "o": "manhattan",
+          "w": 0
+        },
+        {
+          "o": "lemont old quarry",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook jane addams",
+          "w": 0
+        },
+        {
+          "o": "shorewood troy",
+          "w": 1
+        },
+        {
+          "o": "joliet hufford",
+          "w": 1
+        },
+        {
+          "o": "mokena",
+          "w": 0
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 0
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 0
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 1
+        },
+        {
+          "o": "shorewood troy",
+          "w": 0
+        },
+        {
+          "o": "mokena",
+          "w": 0
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 1
+        }
+      ]
+    },
+    "homewood hart": {
+      "class": "4A",
+      "wins": 4,
+      "losses": 4,
+      "results": [
+        {
+          "o": "matteson huth",
+          "w": 0
+        },
+        {
+          "o": "matteson huth",
+          "w": 1
+        },
+        {
+          "o": "flossmoor parker",
+          "w": 0
+        },
+        {
+          "o": "steger columbia",
+          "w": 1
+        },
+        {
+          "o": "lansing memorial",
+          "w": 0
+        },
+        {
+          "o": "lansing memorial",
+          "w": 1
+        },
+        {
+          "o": "matteson colin powell",
+          "w": 0
+        }
+      ]
+    },
+    "hume shiloh": {
+      "class": "1A",
+      "wins": 7,
+      "losses": 9,
+      "results": [
+        {
+          "o": "mattoon",
+          "w": 0
+        }
+      ]
+    },
+    "island lake matthews": {
+      "class": null,
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "jacksonville isd": {
+      "class": "1A",
+      "wins": 1,
+      "losses": 9,
+      "results": [
+        {
+          "o": "jacksonville ms",
+          "w": 0
+        }
+      ]
+    },
+    "jacksonville ms": {
+      "class": "4A",
+      "wins": 2,
+      "losses": 13,
+      "results": [
+        {
+          "o": "springfield franklin",
+          "w": 0
+        },
+        {
+          "o": "quincy",
+          "w": 0
+        },
+        {
+          "o": "springfield grant",
+          "w": 0
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 0
+        }
+      ]
+    },
+    "jerseyville community": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 12,
+      "results": [
+        {
+          "o": "st. jacob triad",
+          "w": 0
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 0
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "alton",
+          "w": 0
+        }
+      ]
+    },
+    "jerseyville st. francis hg": {
+      "class": "1A",
+      "wins": 14,
+      "losses": 4,
+      "results": [
+        {
+          "o": "jerseyville community",
+          "w": 1
+        }
+      ]
+    },
+    "joliet dirksen": {
+      "class": "4A",
+      "wins": 3,
+      "losses": 6,
+      "results": [
+        {
+          "o": "romeoville lukancic",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook brooks",
+          "w": 0
+        },
+        {
+          "o": "minooka",
+          "w": 0
+        },
+        {
+          "o": "joliet washington",
+          "w": 1
+        },
+        {
+          "o": "joliet hufford",
+          "w": 0
+        },
+        {
+          "o": "joliet gompers",
+          "w": 0
+        },
+        {
+          "o": "romeoville martinez",
+          "w": 0
+        }
+      ]
+    },
+    "joliet gompers": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 8,
+      "results": [
+        {
+          "o": "romeoville lukancic",
+          "w": 1
+        },
+        {
+          "o": "manhattan",
+          "w": 0
+        },
+        {
+          "o": "joliet dirksen",
+          "w": 1
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 0
+        },
+        {
+          "o": "romeoville martinez",
+          "w": 0
+        },
+        {
+          "o": "joliet hufford",
+          "w": 0
+        },
+        {
+          "o": "joliet washington",
+          "w": 1
+        }
+      ]
+    },
+    "joliet hufford": {
+      "class": "4A",
+      "wins": 10,
+      "losses": 5,
+      "results": [
+        {
+          "o": "romeoville lukancic",
+          "w": 1
+        },
+        {
+          "o": "homer glen homer",
+          "w": 0
+        },
+        {
+          "o": "bolingbrook brooks",
+          "w": 1
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "woodridge jefferson",
+          "w": 1
+        },
+        {
+          "o": "joliet dirksen",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook jane addams",
+          "w": 0
+        },
+        {
+          "o": "joliet gompers",
+          "w": 1
+        },
+        {
+          "o": "joliet washington",
+          "w": 1
+        },
+        {
+          "o": "shorewood troy",
+          "w": 0
+        },
+        {
+          "o": "bolingbrook humphrey",
+          "w": 1
+        }
+      ]
+    },
+    "joliet laraway": {
+      "class": "2A",
+      "wins": 10,
+      "losses": 3,
+      "results": [
+        {
+          "o": "joliet gompers",
+          "w": 1
+        }
+      ]
+    },
+    "joliet washington": {
+      "class": "4A",
+      "wins": 0,
+      "losses": 8,
+      "results": [
+        {
+          "o": "joliet dirksen",
+          "w": 0
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 0
+        },
+        {
+          "o": "joliet gompers",
+          "w": 0
+        },
+        {
+          "o": "joliet hufford",
+          "w": 0
+        },
+        {
+          "o": "plano",
+          "w": 0
+        }
+      ]
+    },
+    "joseph arthur": {
+      "class": null
+    },
+    "julian": {
+      "class": null
+    },
+    "julian oak park (b)": {
+      "class": null
+    },
+    "kankakee bishop mcnamara": {
+      "class": "2A",
+      "wins": 14,
+      "losses": 6,
+      "results": [
+        {
+          "o": "bourbonnais ugc",
+          "w": 1
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        }
+      ]
+    },
+    "kankakee jhs": {
+      "class": "4A",
+      "wins": 14,
+      "losses": 2,
+      "results": [
+        {
+          "o": "flossmoor parker",
+          "w": 0
+        },
+        {
+          "o": "flossmoor parker",
+          "w": 1
+        },
+        {
+          "o": "coal city",
+          "w": 1
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 1
+        },
+        {
+          "o": "normal kingsley",
+          "w": 1
+        },
+        {
+          "o": "rantoul eater",
+          "w": 1
+        },
+        {
+          "o": "bourbonnais ugc",
+          "w": 1
+        },
+        {
+          "o": "chicago heights ms",
+          "w": 1
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 1
+        },
+        {
+          "o": "rockford eisenhower",
+          "w": 1
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 1
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 0
+        },
+        {
+          "o": "urbana ms",
+          "w": 1
+        }
+      ]
+    },
+    "kinderhook western": {
+      "class": "1A",
+      "wins": 2,
+      "losses": 9,
+      "results": [
+        {
+          "o": "quincy",
+          "w": 0
+        }
+      ]
+    },
+    "kinmundy south central": {
+      "class": "2A",
+      "wins": 12,
+      "losses": 4,
+      "results": [
+        {
+          "o": "effingham jhs",
+          "w": 0
+        }
+      ]
+    },
+    "kirksville, mo": {
+      "class": null
+    },
+    "knoxville jhs": {
+      "class": "2A",
+      "wins": 16,
+      "losses": 0,
+      "results": [
+        {
+          "o": "springfield lincoln",
+          "w": 1
+        },
+        {
+          "o": "macomb",
+          "w": 1
+        }
+      ]
+    },
+    "la harpe": {
+      "class": "1A"
+    },
+    "lake zurich north": {
+      "class": "4A",
+      "wins": 6,
+      "losses": 8,
+      "results": [
+        {
+          "o": "lake zurich south",
+          "w": 0
+        },
+        {
+          "o": "vernon hills hawthorn south",
+          "w": 1
+        },
+        {
+          "o": "barrington station",
+          "w": 1
+        },
+        {
+          "o": "barrington prairie",
+          "w": 0
+        },
+        {
+          "o": "vernon hills hawthorn north",
+          "w": 1
+        },
+        {
+          "o": "vernon hills hawthorn north",
+          "w": 1
+        },
+        {
+          "o": "lake zurich south",
+          "w": 0
+        },
+        {
+          "o": "barrington station",
+          "w": 0
+        },
+        {
+          "o": "vernon hills hawthorn south",
+          "w": 0
+        },
+        {
+          "o": "barrington prairie",
+          "w": 0
+        },
+        {
+          "o": "arlington heights thomas",
+          "w": 0
+        },
+        {
+          "o": "lake zurich south",
+          "w": 0
+        }
+      ]
+    },
+    "lake zurich south": {
+      "class": "4A",
+      "wins": 14,
+      "losses": 3,
+      "results": [
+        {
+          "o": "lake zurich north",
+          "w": 1
+        },
+        {
+          "o": "lake zurich north",
+          "w": 1
+        },
+        {
+          "o": "vernon hills hawthorn north",
+          "w": 1
+        },
+        {
+          "o": "vernon hills hawthorn north",
+          "w": 1
+        },
+        {
+          "o": "barrington station",
+          "w": 0
+        },
+        {
+          "o": "barrington station",
+          "w": 1
+        },
+        {
+          "o": "barrington prairie",
+          "w": 0
+        },
+        {
+          "o": "vernon hills hawthorn south",
+          "w": 1
+        },
+        {
+          "o": "vernon hills hawthorn south",
+          "w": 1
+        },
+        {
+          "o": "barrington prairie",
+          "w": 0
+        },
+        {
+          "o": "vernon hills hawthorn south",
+          "w": 1
+        },
+        {
+          "o": "barrington station",
+          "w": 1
+        },
+        {
+          "o": "lake zurich north",
+          "w": 1
+        }
+      ]
+    },
+    "lansing memorial": {
+      "class": "4A",
+      "wins": 8,
+      "losses": 5,
+      "results": [
+        {
+          "o": "matteson huth",
+          "w": 0
+        },
+        {
+          "o": "flossmoor parker",
+          "w": 1
+        },
+        {
+          "o": "steger columbia",
+          "w": 1
+        },
+        {
+          "o": "steger columbia",
+          "w": 1
+        },
+        {
+          "o": "homewood hart",
+          "w": 1
+        },
+        {
+          "o": "park forest michelle obama sta",
+          "w": 1
+        },
+        {
+          "o": "chicago heights ms",
+          "w": 1
+        },
+        {
+          "o": "homewood hart",
+          "w": 0
+        },
+        {
+          "o": "matteson colin powell",
+          "w": 0
+        }
+      ]
+    },
+    "lasalle lincoln": {
+      "class": null,
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "leland": {
+      "class": null,
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "lemont old quarry": {
+      "class": "4A",
+      "wins": 7,
+      "losses": 4,
+      "results": [
+        {
+          "o": "downers grove o'neill",
+          "w": 1
+        },
+        {
+          "o": "homer glen homer",
+          "w": 0
+        },
+        {
+          "o": "downers grove herrick",
+          "w": 0
+        },
+        {
+          "o": "willowbrook westview hills",
+          "w": 0
+        },
+        {
+          "o": "downers grove herrick",
+          "w": 0
+        },
+        {
+          "o": "willowbrook westview hills",
+          "w": 1
+        }
+      ]
+    },
+    "lewistown jhs": {
+      "class": "2A",
+      "wins": 9,
+      "losses": 5,
+      "results": [
+        {
+          "o": "canton ingersoll",
+          "w": 1
+        },
+        {
+          "o": "macomb",
+          "w": 1
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 1
+        }
+      ]
+    },
+    "liberty": {
+      "class": "2A",
+      "wins": 8,
+      "losses": 9,
+      "results": [
+        {
+          "o": "jacksonville ms",
+          "w": 1
+        }
+      ]
+    },
+    "lincoln": {
+      "class": null
+    },
+    "lincoln berwyn (b)": {
+      "class": null
+    },
+    "lincoln chester-east lincoln": {
+      "class": "2A",
+      "wins": 11,
+      "losses": 4,
+      "results": [
+        {
+          "o": "urbana ms",
+          "w": 1
+        }
+      ]
+    },
+    "lincoln jhs": {
+      "class": "3A",
+      "wins": 0,
+      "losses": 17,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 0
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 0
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 0
+        },
+        {
+          "o": "normal chiddix",
+          "w": 0
+        }
+      ]
+    },
+    "lincoln park ridge": {
+      "class": null
+    },
+    "lincoln west lincoln-broadwell": {
+      "class": "1A",
+      "wins": 18,
+      "losses": 0,
+      "results": [
+        {
+          "o": "morton jhs",
+          "w": 1
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 1
+        },
+        {
+          "o": "bloomington evans",
+          "w": 1
+        }
+      ]
+    },
+    "lisle": {
+      "class": "3A",
+      "wins": 8,
+      "losses": 4,
+      "results": [
+        {
+          "o": "lemont old quarry",
+          "w": 0
+        },
+        {
+          "o": "plano",
+          "w": 1
+        },
+        {
+          "o": "joliet hufford",
+          "w": 0
+        },
+        {
+          "o": "downers grove herrick",
+          "w": 0
+        }
+      ]
+    },
+    "lockport kelvin grove": {
+      "class": "2A",
+      "wins": 10,
+      "losses": 9,
+      "results": [
+        {
+          "o": "romeoville lukancic",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook jane addams",
+          "w": 0
+        },
+        {
+          "o": "joliet dirksen",
+          "w": 1
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 0
+        },
+        {
+          "o": "joliet gompers",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook brooks",
+          "w": 1
+        },
+        {
+          "o": "romeoville martinez",
+          "w": 1
+        },
+        {
+          "o": "joliet washington",
+          "w": 1
+        },
+        {
+          "o": "joliet hufford",
+          "w": 0
+        },
+        {
+          "o": "bolingbrook humphrey",
+          "w": 0
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 0
+        }
+      ]
+    },
+    "lockport oak prairie": {
+      "class": "4A",
+      "wins": 12,
+      "losses": 5,
+      "results": [
+        {
+          "o": "bolingbrook humphrey",
+          "w": 1
+        },
+        {
+          "o": "new lenox martino",
+          "w": 0
+        },
+        {
+          "o": "manhattan",
+          "w": 0
+        },
+        {
+          "o": "homer glen homer",
+          "w": 1
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "minooka",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook jane addams",
+          "w": 1
+        },
+        {
+          "o": "mokena",
+          "w": 0
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 1
+        },
+        {
+          "o": "romeoville martinez",
+          "w": 1
+        },
+        {
+          "o": "joliet gompers",
+          "w": 1
+        },
+        {
+          "o": "joliet washington",
+          "w": 1
+        }
+      ]
+    },
+    "lockport taft": {
+      "class": "1A",
+      "wins": 18,
+      "losses": 1,
+      "results": [
+        {
+          "o": "bolingbrook humphrey",
+          "w": 1
+        },
+        {
+          "o": "romeoville lukancic",
+          "w": 1
+        },
+        {
+          "o": "joliet hufford",
+          "w": 1
+        },
+        {
+          "o": "joliet gompers",
+          "w": 1
+        },
+        {
+          "o": "joliet washington",
+          "w": 1
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 0
+        }
+      ]
+    },
+    "london mills valley": {
+      "class": "2A",
+      "wins": 5,
+      "losses": 11,
+      "results": [
+        {
+          "o": "canton ingersoll",
+          "w": 0
+        }
+      ]
+    },
+    "lynwood sandridge": {
+      "class": "2A"
+    },
+    "mac arthur": {
+      "class": null
+    },
+    "macarthur-berkeley (b)": {
+      "class": null
+    },
+    "mackinaw dee-mack": {
+      "class": "3A",
+      "wins": 4,
+      "losses": 12,
+      "results": [
+        {
+          "o": "washington central",
+          "w": 0
+        },
+        {
+          "o": "east peoria central",
+          "w": 0
+        }
+      ]
+    },
+    "macomb": {
+      "class": "4A",
+      "wins": 3,
+      "losses": 13,
+      "results": [
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        },
+        {
+          "o": "dunlap ms",
+          "w": 0
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 0
+        },
+        {
+          "o": "normal kingsley",
+          "w": 0
+        },
+        {
+          "o": "quincy",
+          "w": 0
+        }
+      ]
+    },
+    "macon meridian": {
+      "class": "2A",
+      "wins": 13,
+      "losses": 5,
+      "results": [
+        {
+          "o": "decatur stephen decatur",
+          "w": 1
+        }
+      ]
+    },
+    "madison": {
+      "class": "1A",
+      "wins": 0,
+      "losses": 7,
+      "results": [
+        {
+          "o": "cahokia wirth",
+          "w": 0
+        },
+        {
+          "o": "cahokia wirth",
+          "w": 0
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 0
+        },
+        {
+          "o": "east st. louis clark",
+          "w": 0
+        }
+      ]
+    },
+    "mahomet-seymour": {
+      "class": "4A",
+      "wins": 15,
+      "losses": 4,
+      "results": [
+        {
+          "o": "effingham jhs",
+          "w": 1
+        },
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "champaign edison",
+          "w": 1
+        },
+        {
+          "o": "morton jhs",
+          "w": 0
+        },
+        {
+          "o": "mattoon",
+          "w": 1
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 1
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 0
+        },
+        {
+          "o": "champaign franklin",
+          "w": 1
+        },
+        {
+          "o": "normal chiddix",
+          "w": 1
+        },
+        {
+          "o": "rantoul eater",
+          "w": 1
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "danville north ridge",
+          "w": 1
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        }
+      ]
+    },
+    "manhattan": {
+      "class": "4A",
+      "wins": 13,
+      "losses": 6,
+      "results": [
+        {
+          "o": "new lenox martino",
+          "w": 0
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 0
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 1
+        },
+        {
+          "o": "homer glen homer",
+          "w": 1
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 1
+        },
+        {
+          "o": "shorewood troy",
+          "w": 1
+        },
+        {
+          "o": "bourbonnais ugc",
+          "w": 1
+        },
+        {
+          "o": "mokena",
+          "w": 0
+        },
+        {
+          "o": "coal city",
+          "w": 1
+        },
+        {
+          "o": "joliet gompers",
+          "w": 1
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 1
+        },
+        {
+          "o": "homer glen homer",
+          "w": 1
+        },
+        {
+          "o": "shorewood troy",
+          "w": 1
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 0
+        }
+      ]
+    },
+    "manlius bureau valley jhs": {
+      "class": "2A",
+      "wins": 13,
+      "losses": 1,
+      "results": [
+        {
+          "o": "ottawa shepherd",
+          "w": 1
+        }
+      ]
+    },
+    "manteno": {
+      "class": "3A",
+      "wins": 9,
+      "losses": 7,
+      "results": [
+        {
+          "o": "manhattan",
+          "w": 0
+        },
+        {
+          "o": "bourbonnais ugc",
+          "w": 0
+        },
+        {
+          "o": "minooka",
+          "w": 0
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 0
+        }
+      ]
+    },
+    "marion": {
+      "class": null
+    },
+    "markham obama": {
+      "class": "2A"
+    },
+    "markham prairie-hills": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 0,
+      "results": [
+        {
+          "o": "calumet city dolton 149",
+          "w": 1
+        }
+      ]
+    },
+    "marseilles es": {
+      "class": "2A",
+      "wins": 3,
+      "losses": 11,
+      "results": [
+        {
+          "o": "plano",
+          "w": 0
+        }
+      ]
+    },
+    "marseilles milton pope": {
+      "class": "1A",
+      "wins": 9,
+      "losses": 5,
+      "results": [
+        {
+          "o": "plano",
+          "w": 1
+        }
+      ]
+    },
+    "marshall (b)": {
+      "class": null
+    },
+    "marshall jhs": {
+      "class": "3A",
+      "wins": 5,
+      "losses": 9,
+      "results": [
+        {
+          "o": "charleston",
+          "w": 0
+        }
+      ]
+    },
+    "maryville christian": {
+      "class": "2A",
+      "wins": 7,
+      "losses": 10,
+      "results": [
+        {
+          "o": "highland ms",
+          "w": 0
+        },
+        {
+          "o": "jerseyville community",
+          "w": 0
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "st. jacob triad",
+          "w": 0
+        },
+        {
+          "o": "jerseyville community",
+          "w": 1
+        }
+      ]
+    },
+    "mascoutah": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 5,
+      "results": [
+        {
+          "o": "highland ms",
+          "w": 1
+        },
+        {
+          "o": "st. jacob triad",
+          "w": 0
+        },
+        {
+          "o": "o'fallon carriel",
+          "w": 0
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "alton",
+          "w": 0
+        },
+        {
+          "o": "o'fallon fulton",
+          "w": 1
+        },
+        {
+          "o": "collinsville",
+          "w": 1
+        },
+        {
+          "o": "granite city coolidge",
+          "w": 1
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 0
+        }
+      ]
+    },
+    "matteson colin powell": {
+      "class": "4A",
+      "wins": 12,
+      "losses": 0,
+      "results": [
+        {
+          "o": "matteson huth",
+          "w": 1
+        },
+        {
+          "o": "flossmoor parker",
+          "w": 1
+        },
+        {
+          "o": "steger columbia",
+          "w": 1
+        },
+        {
+          "o": "steger columbia",
+          "w": 1
+        },
+        {
+          "o": "chicago heights ms",
+          "w": 1
+        },
+        {
+          "o": "park forest michelle obama sta",
+          "w": 1
+        },
+        {
+          "o": "lansing memorial",
+          "w": 1
+        },
+        {
+          "o": "homewood hart",
+          "w": 1
+        },
+        {
+          "o": "chicago heights ms",
+          "w": 1
+        }
+      ]
+    },
+    "matteson huth": {
+      "class": "4A",
+      "wins": 8,
+      "losses": 6,
+      "results": [
+        {
+          "o": "park forest michelle obama sta",
+          "w": 1
+        },
+        {
+          "o": "flossmoor parker",
+          "w": 1
+        },
+        {
+          "o": "homewood hart",
+          "w": 1
+        },
+        {
+          "o": "matteson colin powell",
+          "w": 0
+        },
+        {
+          "o": "homewood hart",
+          "w": 0
+        },
+        {
+          "o": "university park crete monee",
+          "w": 0
+        },
+        {
+          "o": "chicago heights ms",
+          "w": 0
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 0
+        },
+        {
+          "o": "lansing memorial",
+          "w": 1
+        },
+        {
+          "o": "steger columbia",
+          "w": 1
+        },
+        {
+          "o": "park forest michelle obama sta",
+          "w": 1
+        },
+        {
+          "o": "flossmoor parker",
+          "w": 0
+        }
+      ]
+    },
+    "matthews": {
+      "class": null
+    },
+    "mattoon": {
+      "class": "4A",
+      "wins": 9,
+      "losses": 4,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "champaign edison",
+          "w": 1
+        },
+        {
+          "o": "charleston",
+          "w": 1
+        },
+        {
+          "o": "champaign franklin",
+          "w": 1
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        }
+      ]
+    },
+    "mattoon st. john's": {
+      "class": "2A",
+      "wins": 15,
+      "losses": 3,
+      "results": [
+        {
+          "o": "charleston",
+          "w": 1
+        },
+        {
+          "o": "mattoon",
+          "w": 0
+        }
+      ]
+    },
+    "maywood irving": {
+      "class": "4A",
+      "wins": 2,
+      "losses": 10,
+      "results": [
+        {
+          "o": "cicero unity",
+          "w": 1
+        },
+        {
+          "o": "melrose park stevenson",
+          "w": 0
+        },
+        {
+          "o": "bellwood roosevelt",
+          "w": 0
+        }
+      ]
+    },
+    "melrose park stevenson": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 7,
+      "results": [
+        {
+          "o": "cicero unity",
+          "w": 1
+        },
+        {
+          "o": "maywood irving",
+          "w": 1
+        },
+        {
+          "o": "bellwood roosevelt",
+          "w": 0
+        }
+      ]
+    },
+    "mendon unity": {
+      "class": "2A"
+    },
+    "mendota northbrook": {
+      "class": "3A",
+      "wins": 4,
+      "losses": 8,
+      "results": [
+        {
+          "o": "ottawa shepherd",
+          "w": 0
+        },
+        {
+          "o": "plano",
+          "w": 1
+        },
+        {
+          "o": "ottawa shepherd",
+          "w": 0
+        }
+      ]
+    },
+    "metamora gs": {
+      "class": "3A",
+      "wins": 12,
+      "losses": 4,
+      "results": [
+        {
+          "o": "dunlap ms",
+          "w": 1
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        },
+        {
+          "o": "pekin broadmoor",
+          "w": 1
+        }
+      ]
+    },
+    "millbrook": {
+      "class": "1A",
+      "wins": 11,
+      "losses": 2,
+      "results": [
+        {
+          "o": "plano",
+          "w": 1
+        }
+      ]
+    },
+    "minooka": {
+      "class": "4A",
+      "wins": 8,
+      "losses": 7,
+      "results": [
+        {
+          "o": "bolingbrook humphrey",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook brooks",
+          "w": 0
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 0
+        },
+        {
+          "o": "mokena",
+          "w": 0
+        },
+        {
+          "o": "joliet dirksen",
+          "w": 1
+        },
+        {
+          "o": "coal city",
+          "w": 1
+        },
+        {
+          "o": "bourbonnais ugc",
+          "w": 0
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 0
+        },
+        {
+          "o": "bolingbrook jane addams",
+          "w": 0
+        },
+        {
+          "o": "woodridge jefferson",
+          "w": 1
+        },
+        {
+          "o": "shorewood troy",
+          "w": 1
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 0
+        },
+        {
+          "o": "romeoville martinez",
+          "w": 1
+        }
+      ]
+    },
+    "mokena": {
+      "class": "4A",
+      "wins": 11,
+      "losses": 4,
+      "results": [
+        {
+          "o": "new lenox martino",
+          "w": 0
+        },
+        {
+          "o": "new lenox martino",
+          "w": 0
+        },
+        {
+          "o": "manhattan",
+          "w": 1
+        },
+        {
+          "o": "homer glen homer",
+          "w": 1
+        },
+        {
+          "o": "homer glen homer",
+          "w": 1
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "minooka",
+          "w": 1
+        },
+        {
+          "o": "shorewood troy",
+          "w": 1
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 1
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 1
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 1
+        },
+        {
+          "o": "shorewood troy",
+          "w": 1
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 1
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 1
+        }
+      ]
+    },
+    "monmouth-roseville jhs": {
+      "class": "3A",
+      "wins": 4,
+      "losses": 11,
+      "results": [
+        {
+          "o": "macomb",
+          "w": 0
+        }
+      ]
+    },
+    "monticello": {
+      "class": "3A",
+      "wins": 16,
+      "losses": 3,
+      "results": [
+        {
+          "o": "champaign edison",
+          "w": 1
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        }
+      ]
+    },
+    "morris gs": {
+      "class": "3A",
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "morris saratoga": {
+      "class": "3A",
+      "wins": 0,
+      "losses": 12,
+      "results": [
+        {
+          "o": "ottawa shepherd",
+          "w": 0
+        },
+        {
+          "o": "coal city",
+          "w": 0
+        },
+        {
+          "o": "plano",
+          "w": 0
+        }
+      ]
+    },
+    "morton jhs": {
+      "class": "4A",
+      "wins": 12,
+      "losses": 6,
+      "results": [
+        {
+          "o": "dunlap ms",
+          "w": 1
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 1
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 1
+        },
+        {
+          "o": "bloomington evans",
+          "w": 1
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 1
+        },
+        {
+          "o": "normal kingsley",
+          "w": 0
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "normal chiddix",
+          "w": 1
+        },
+        {
+          "o": "east peoria central",
+          "w": 0
+        },
+        {
+          "o": "pekin broadmoor",
+          "w": 1
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 1
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 1
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        }
+      ]
+    },
+    "mount prospect lincoln": {
+      "class": null
+    },
+    "mt. pulaski": {
+      "class": "2A",
+      "wins": 4,
+      "losses": 14,
+      "results": [
+        {
+          "o": "bloomington evans",
+          "w": 1
+        }
+      ]
+    },
+    "mt. sterling brown county": {
+      "class": "2A",
+      "wins": 15,
+      "losses": 1,
+      "results": [
+        {
+          "o": "quincy",
+          "w": 1
+        },
+        {
+          "o": "macomb",
+          "w": 1
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        }
+      ]
+    },
+    "mt. zion": {
+      "class": "4A",
+      "wins": 21,
+      "losses": 0,
+      "results": [
+        {
+          "o": "effingham jhs",
+          "w": 1
+        },
+        {
+          "o": "mattoon",
+          "w": 1
+        },
+        {
+          "o": "springfield washington",
+          "w": 1
+        },
+        {
+          "o": "springfield grant",
+          "w": 1
+        },
+        {
+          "o": "bloomington evans",
+          "w": 1
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 1
+        },
+        {
+          "o": "springfield franklin",
+          "w": 1
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 1
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 1
+        },
+        {
+          "o": "decatur stephen decatur",
+          "w": 1
+        },
+        {
+          "o": "normal kingsley",
+          "w": 1
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 1
+        }
+      ]
+    },
+    "nauvoo-colusa": {
+      "class": "2A",
+      "wins": 6,
+      "losses": 10,
+      "results": [
+        {
+          "o": "macomb",
+          "w": 0
+        }
+      ]
+    },
+    "new berlin jhs": {
+      "class": "3A",
+      "wins": 7,
+      "losses": 9,
+      "results": [
+        {
+          "o": "jacksonville ms",
+          "w": 1
+        }
+      ]
+    },
+    "new lenox liberty": {
+      "class": "4A",
+      "wins": 14,
+      "losses": 2,
+      "results": [
+        {
+          "o": "lockport oak prairie",
+          "w": 1
+        },
+        {
+          "o": "joliet hufford",
+          "w": 1
+        },
+        {
+          "o": "homer glen homer",
+          "w": 1
+        },
+        {
+          "o": "bourbonnais ugc",
+          "w": 1
+        },
+        {
+          "o": "manhattan",
+          "w": 1
+        },
+        {
+          "o": "mokena",
+          "w": 1
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 1
+        },
+        {
+          "o": "shorewood troy",
+          "w": 1
+        },
+        {
+          "o": "new lenox martino",
+          "w": 0
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 1
+        },
+        {
+          "o": "manhattan",
+          "w": 1
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 1
+        },
+        {
+          "o": "mokena",
+          "w": 1
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 1
+        },
+        {
+          "o": "shorewood troy",
+          "w": 0
+        },
+        {
+          "o": "homer glen homer",
+          "w": 1
+        }
+      ]
+    },
+    "new lenox martino": {
+      "class": "4A",
+      "wins": 12,
+      "losses": 0,
+      "results": [
+        {
+          "o": "lockport oak prairie",
+          "w": 1
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 1
+        },
+        {
+          "o": "homer glen homer",
+          "w": 1
+        },
+        {
+          "o": "mokena",
+          "w": 1
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 1
+        },
+        {
+          "o": "shorewood troy",
+          "w": 1
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 1
+        },
+        {
+          "o": "homer glen homer",
+          "w": 1
+        },
+        {
+          "o": "manhattan",
+          "w": 1
+        },
+        {
+          "o": "mokena",
+          "w": 1
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 1
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 1
+        }
+      ]
+    },
+    "newark lisbon": {
+      "class": "1A",
+      "wins": 10,
+      "losses": 1,
+      "results": [
+        {
+          "o": "plano",
+          "w": 1
+        }
+      ]
+    },
+    "newton jasper county": {
+      "class": "3A",
+      "wins": 12,
+      "losses": 2,
+      "results": [
+        {
+          "o": "charleston",
+          "w": 1
+        }
+      ]
+    },
+    "normal chiddix": {
+      "class": "4A",
+      "wins": 10,
+      "losses": 9,
+      "results": [
+        {
+          "o": "champaign edison",
+          "w": 1
+        },
+        {
+          "o": "morton jhs",
+          "w": 0
+        },
+        {
+          "o": "east peoria central",
+          "w": 0
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "normal kingsley",
+          "w": 0
+        },
+        {
+          "o": "urbana ms",
+          "w": 0
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 1
+        },
+        {
+          "o": "bloomington evans",
+          "w": 1
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 1
+        },
+        {
+          "o": "normal kingsley",
+          "w": 0
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 0
+        },
+        {
+          "o": "bloomington evans",
+          "w": 0
+        }
+      ]
+    },
+    "normal epiphany": {
+      "class": "2A",
+      "wins": 16,
+      "losses": 3,
+      "results": [
+        {
+          "o": "washington central",
+          "w": 0
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 1
+        }
+      ]
+    },
+    "normal kingsley": {
+      "class": "4A",
+      "wins": 13,
+      "losses": 4,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        },
+        {
+          "o": "dunlap ms",
+          "w": 1
+        },
+        {
+          "o": "morton jhs",
+          "w": 1
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        },
+        {
+          "o": "macomb",
+          "w": 1
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 1
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "normal parkside",
+          "w": 1
+        },
+        {
+          "o": "springfield grant",
+          "w": 1
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 0
+        },
+        {
+          "o": "normal chiddix",
+          "w": 1
+        },
+        {
+          "o": "normal chiddix",
+          "w": 1
+        },
+        {
+          "o": "bloomington evans",
+          "w": 1
+        }
+      ]
+    },
+    "normal parkside": {
+      "class": "4A",
+      "wins": 0,
+      "losses": 19,
+      "results": [
+        {
+          "o": "morton jhs",
+          "w": 0
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 0
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 0
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        },
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        },
+        {
+          "o": "bloomington evans",
+          "w": 0
+        },
+        {
+          "o": "normal chiddix",
+          "w": 0
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 0
+        },
+        {
+          "o": "normal kingsley",
+          "w": 0
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 0
+        },
+        {
+          "o": "champaign franklin",
+          "w": 0
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 0
+        },
+        {
+          "o": "bloomington evans",
+          "w": 0
+        },
+        {
+          "o": "normal kingsley",
+          "w": 0
+        },
+        {
+          "o": "normal chiddix",
+          "w": 0
+        }
+      ]
+    },
+    "northlake": {
+      "class": null
+    },
+    "northlake (b)": {
+      "class": null
+    },
+    "o'fallon carriel": {
+      "class": "4A",
+      "wins": 11,
+      "losses": 6,
+      "results": [
+        {
+          "o": "highland ms",
+          "w": 1
+        },
+        {
+          "o": "st. jacob triad",
+          "w": 1
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "alton",
+          "w": 1
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 0
+        },
+        {
+          "o": "mascoutah",
+          "w": 1
+        },
+        {
+          "o": "cahokia wirth",
+          "w": 1
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "o'fallon fulton",
+          "w": 0
+        },
+        {
+          "o": "collinsville",
+          "w": 1
+        },
+        {
+          "o": "granite city coolidge",
+          "w": 1
+        }
+      ]
+    },
+    "o'fallon fulton": {
+      "class": "4A",
+      "wins": 10,
+      "losses": 4,
+      "results": [
+        {
+          "o": "highland ms",
+          "w": 1
+        },
+        {
+          "o": "st. jacob triad",
+          "w": 0
+        },
+        {
+          "o": "cahokia wirth",
+          "w": 1
+        },
+        {
+          "o": "o'fallon carriel",
+          "w": 1
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 1
+        },
+        {
+          "o": "east st. louis clark",
+          "w": 1
+        },
+        {
+          "o": "mascoutah",
+          "w": 0
+        },
+        {
+          "o": "alton",
+          "w": 1
+        },
+        {
+          "o": "granite city coolidge",
+          "w": 1
+        },
+        {
+          "o": "collinsville",
+          "w": 0
+        }
+      ]
+    },
+    "oak park brooks (b)": {
+      "class": null
+    },
+    "oak park julian": {
+      "class": null,
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "oak park-julian": {
+      "class": null
+    },
+    "oakland lake crest": {
+      "class": "1A",
+      "wins": 13,
+      "losses": 6,
+      "results": [
+        {
+          "o": "charleston",
+          "w": 1
+        }
+      ]
+    },
+    "orion": {
+      "class": "3A",
+      "wins": 8,
+      "losses": 9,
+      "results": [
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        }
+      ]
+    },
+    "ottawa marquette": {
+      "class": "1A",
+      "wins": 12,
+      "losses": 4,
+      "results": [
+        {
+          "o": "plano",
+          "w": 1
+        }
+      ]
+    },
+    "ottawa shepherd": {
+      "class": "4A",
+      "wins": 8,
+      "losses": 9,
+      "results": [
+        {
+          "o": "coal city",
+          "w": 0
+        }
+      ]
+    },
+    "ottawa wallace": {
+      "class": "2A",
+      "wins": 17,
+      "losses": 0,
+      "results": [
+        {
+          "o": "ottawa shepherd",
+          "w": 1
+        },
+        {
+          "o": "plano",
+          "w": 1
+        }
+      ]
+    },
+    "pana jhs": {
+      "class": "3A",
+      "wins": 8,
+      "losses": 9,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 0
+        }
+      ]
+    },
+    "pana sacred heart": {
+      "class": "1A"
+    },
+    "paris crestwood": {
+      "class": "2A",
+      "wins": 11,
+      "losses": 2,
+      "results": [
+        {
+          "o": "effingham jhs",
+          "w": 1
+        },
+        {
+          "o": "charleston",
+          "w": 1
+        },
+        {
+          "o": "danville north ridge",
+          "w": 1
+        },
+        {
+          "o": "mattoon",
+          "w": 0
+        }
+      ]
+    },
+    "paris mayo": {
+      "class": "3A",
+      "wins": 14,
+      "losses": 3,
+      "results": [
+        {
+          "o": "mattoon",
+          "w": 1
+        },
+        {
+          "o": "effingham jhs",
+          "w": 1
+        },
+        {
+          "o": "charleston",
+          "w": 1
+        }
+      ]
+    },
+    "park forest michelle obama sta": {
+      "class": "4A",
+      "wins": 1,
+      "losses": 8,
+      "results": [
+        {
+          "o": "matteson huth",
+          "w": 0
+        },
+        {
+          "o": "matteson huth",
+          "w": 0
+        },
+        {
+          "o": "flossmoor parker",
+          "w": 0
+        },
+        {
+          "o": "steger columbia",
+          "w": 0
+        },
+        {
+          "o": "lansing memorial",
+          "w": 0
+        },
+        {
+          "o": "chicago heights ms",
+          "w": 0
+        },
+        {
+          "o": "matteson colin powell",
+          "w": 0
+        }
+      ]
+    },
+    "park ridge lincoln": {
+      "class": null
+    },
+    "paw paw": {
+      "class": "1A",
+      "wins": 5,
+      "losses": 8,
+      "results": [
+        {
+          "o": "plano",
+          "w": 0
+        },
+        {
+          "o": "plano",
+          "w": 1
+        }
+      ]
+    },
+    "payson seymour": {
+      "class": "1A",
+      "wins": 1,
+      "losses": 8,
+      "results": [
+        {
+          "o": "quincy",
+          "w": 0
+        }
+      ]
+    },
+    "pekin broadmoor": {
+      "class": "4A",
+      "wins": 4,
+      "losses": 9,
+      "results": [
+        {
+          "o": "morton jhs",
+          "w": 0
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 1
+        },
+        {
+          "o": "east peoria central",
+          "w": 0
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 0
+        }
+      ]
+    },
+    "pekin edison": {
+      "class": "3A",
+      "wins": 3,
+      "losses": 11,
+      "results": [
+        {
+          "o": "dunlap ms",
+          "w": 0
+        },
+        {
+          "o": "morton jhs",
+          "w": 0
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        },
+        {
+          "o": "pekin broadmoor",
+          "w": 0
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 0
+        },
+        {
+          "o": "normal chiddix",
+          "w": 0
+        },
+        {
+          "o": "canton ingersoll",
+          "w": 0
+        }
+      ]
+    },
+    "pekin rankin": {
+      "class": "1A"
+    },
+    "peoria christian": {
+      "class": "1A"
+    },
+    "peoria st. philomena": {
+      "class": "2A",
+      "wins": 11,
+      "losses": 4,
+      "results": [
+        {
+          "o": "dunlap ms",
+          "w": 1
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        },
+        {
+          "o": "pekin broadmoor",
+          "w": 1
+        }
+      ]
+    },
+    "peotone": {
+      "class": "3A",
+      "wins": 12,
+      "losses": 5,
+      "results": [
+        {
+          "o": "manhattan",
+          "w": 0
+        },
+        {
+          "o": "bourbonnais ugc",
+          "w": 1
+        }
+      ]
+    },
+    "peru parkside": {
+      "class": "3A",
+      "wins": 8,
+      "losses": 6,
+      "results": [
+        {
+          "o": "ottawa shepherd",
+          "w": 0
+        },
+        {
+          "o": "ottawa shepherd",
+          "w": 1
+        }
+      ]
+    },
+    "philo st. thomas": {
+      "class": "1A",
+      "wins": 10,
+      "losses": 4,
+      "results": [
+        {
+          "o": "champaign franklin",
+          "w": 1
+        }
+      ]
+    },
+    "phoenix coolidge": {
+      "class": "4A",
+      "wins": 12,
+      "losses": 1,
+      "results": [
+        {
+          "o": "harvey brooks",
+          "w": 1
+        },
+        {
+          "o": "calumet city dolton 149",
+          "w": 1
+        }
+      ]
+    },
+    "piasa southwestern": {
+      "class": "3A"
+    },
+    "pittsfield pikeland": {
+      "class": "3A",
+      "wins": 9,
+      "losses": 7,
+      "results": [
+        {
+          "o": "macomb",
+          "w": 1
+        },
+        {
+          "o": "jacksonville ms",
+          "w": 1
+        },
+        {
+          "o": "quincy",
+          "w": 1
+        }
+      ]
+    },
+    "plano": {
+      "class": "4A",
+      "wins": 7,
+      "losses": 13,
+      "results": [
+        {
+          "o": "joliet washington",
+          "w": 1
+        }
+      ]
+    },
+    "pleasant plains": {
+      "class": "3A",
+      "wins": 14,
+      "losses": 4,
+      "results": [
+        {
+          "o": "taylorville jhs",
+          "w": 1
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 0
+        },
+        {
+          "o": "jacksonville ms",
+          "w": 1
+        }
+      ]
+    },
+    "pontiac jhs": {
+      "class": "3A",
+      "wins": 8,
+      "losses": 9,
+      "results": [
+        {
+          "o": "ottawa shepherd",
+          "w": 1
+        },
+        {
+          "o": "normal kingsley",
+          "w": 0
+        },
+        {
+          "o": "normal chiddix",
+          "w": 0
+        }
+      ]
+    },
+    "princeton logan": {
+      "class": "3A",
+      "wins": 11,
+      "losses": 5,
+      "results": [
+        {
+          "o": "ottawa shepherd",
+          "w": 1
+        },
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        },
+        {
+          "o": "ottawa shepherd",
+          "w": 1
+        }
+      ]
+    },
+    "quincy": {
+      "class": "4A",
+      "wins": 7,
+      "losses": 9,
+      "results": [
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "jacksonville ms",
+          "w": 1
+        },
+        {
+          "o": "springfield franklin",
+          "w": 1
+        },
+        {
+          "o": "macomb",
+          "w": 1
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 0
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 0
+        }
+      ]
+    },
+    "quincy st. peter": {
+      "class": "3A",
+      "wins": 8,
+      "losses": 6,
+      "results": [
+        {
+          "o": "quincy",
+          "w": 1
+        },
+        {
+          "o": "jacksonville ms",
+          "w": 1
+        },
+        {
+          "o": "quincy",
+          "w": 1
+        },
+        {
+          "o": "jacksonville ms",
+          "w": 1
+        }
+      ]
+    },
+    "rantoul eater": {
+      "class": "4A",
+      "wins": 1,
+      "losses": 9,
+      "results": [
+        {
+          "o": "champaign edison",
+          "w": 0
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 0
+        },
+        {
+          "o": "champaign franklin",
+          "w": 0
+        },
+        {
+          "o": "danville north ridge",
+          "w": 0
+        },
+        {
+          "o": "urbana ms",
+          "w": 0
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 0
+        }
+      ]
+    },
+    "resa": {
+      "class": null
+    },
+    "rich south tourney": {
+      "class": null
+    },
+    "richland county": {
+      "class": null
+    },
+    "river forest roosevelt": {
+      "class": null,
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "river forest roosevelt (b)": {
+      "class": null
+    },
+    "riverdale washington": {
+      "class": "2A",
+      "wins": 1,
+      "losses": 5,
+      "results": [
+        {
+          "o": "phoenix coolidge",
+          "w": 0
+        }
+      ]
+    },
+    "robbins kellar": {
+      "class": "3A",
+      "wins": 2,
+      "losses": 3,
+      "results": [
+        {
+          "o": "phoenix coolidge",
+          "w": 0
+        }
+      ]
+    },
+    "robinson nuttall": {
+      "class": "3A"
+    },
+    "rochester": {
+      "class": "3A",
+      "wins": 6,
+      "losses": 14,
+      "results": [
+        {
+          "o": "effingham jhs",
+          "w": 0
+        },
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "springfield franklin",
+          "w": 0
+        },
+        {
+          "o": "springfield grant",
+          "w": 0
+        },
+        {
+          "o": "quincy",
+          "w": 0
+        },
+        {
+          "o": "bloomington evans",
+          "w": 0
+        },
+        {
+          "o": "decatur stephen decatur",
+          "w": 1
+        },
+        {
+          "o": "springfield jefferson",
+          "w": 1
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        }
+      ]
+    },
+    "rockdale": {
+      "class": "1A",
+      "wins": 1,
+      "losses": 11,
+      "results": [
+        {
+          "o": "joliet gompers",
+          "w": 0
+        },
+        {
+          "o": "joliet dirksen",
+          "w": 0
+        },
+        {
+          "o": "joliet hufford",
+          "w": 0
+        }
+      ]
+    },
+    "rockford barbour": {
+      "class": "2A",
+      "wins": 0,
+      "losses": 9,
+      "results": [
+        {
+          "o": "rockford flinn",
+          "w": 0
+        },
+        {
+          "o": "rockford lincoln",
+          "w": 0
+        },
+        {
+          "o": "rockford resa",
+          "w": 0
+        },
+        {
+          "o": "rockford resa",
+          "w": 0
+        },
+        {
+          "o": "rockford eisenhower",
+          "w": 0
+        }
+      ]
+    },
+    "rockford conklin": {
+      "class": null,
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "rockford eisenhower": {
+      "class": "4A",
+      "wins": 13,
+      "losses": 1,
+      "results": [
+        {
+          "o": "rockford flinn",
+          "w": 1
+        },
+        {
+          "o": "rockford flinn",
+          "w": 1
+        },
+        {
+          "o": "rockford lincoln",
+          "w": 1
+        },
+        {
+          "o": "rockford lincoln",
+          "w": 1
+        },
+        {
+          "o": "rockford west",
+          "w": 1
+        },
+        {
+          "o": "rockford resa",
+          "w": 1
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 1
+        },
+        {
+          "o": "rockford west",
+          "w": 1
+        }
+      ]
+    },
+    "rockford flinn": {
+      "class": "4A",
+      "wins": 8,
+      "losses": 3,
+      "results": [
+        {
+          "o": "rockford eisenhower",
+          "w": 0
+        },
+        {
+          "o": "rockford lincoln",
+          "w": 0
+        },
+        {
+          "o": "rockford resa",
+          "w": 1
+        },
+        {
+          "o": "rockford eisenhower",
+          "w": 0
+        },
+        {
+          "o": "rockford west",
+          "w": 1
+        },
+        {
+          "o": "rockford west",
+          "w": 1
+        }
+      ]
+    },
+    "rockford kennedy": {
+      "class": "3A",
+      "wins": 4,
+      "losses": 8,
+      "results": [
+        {
+          "o": "rockford flinn",
+          "w": 0
+        },
+        {
+          "o": "rockford resa",
+          "w": 0
+        },
+        {
+          "o": "rockford lincoln",
+          "w": 0
+        },
+        {
+          "o": "rockford eisenhower",
+          "w": 0
+        },
+        {
+          "o": "rockford west",
+          "w": 0
+        },
+        {
+          "o": "rockford resa",
+          "w": 1
+        }
+      ]
+    },
+    "rockford lincoln": {
+      "class": "4A",
+      "wins": 9,
+      "losses": 2,
+      "results": [
+        {
+          "o": "rockford flinn",
+          "w": 1
+        },
+        {
+          "o": "rockford eisenhower",
+          "w": 0
+        },
+        {
+          "o": "rockford west",
+          "w": 1
+        },
+        {
+          "o": "rockford resa",
+          "w": 1
+        },
+        {
+          "o": "rockford eisenhower",
+          "w": 0
+        }
+      ]
+    },
+    "rockford marshall": {
+      "class": "3A",
+      "wins": 3,
+      "losses": 8,
+      "results": [
+        {
+          "o": "rockford flinn",
+          "w": 0
+        },
+        {
+          "o": "rockford flinn",
+          "w": 0
+        },
+        {
+          "o": "rockford lincoln",
+          "w": 0
+        },
+        {
+          "o": "rockford lincoln",
+          "w": 0
+        },
+        {
+          "o": "rockford eisenhower",
+          "w": 0
+        },
+        {
+          "o": "rockford resa",
+          "w": 1
+        },
+        {
+          "o": "rockford eisenhower",
+          "w": 0
+        },
+        {
+          "o": "rockford west",
+          "w": 0
+        }
+      ]
+    },
+    "rockford montessori": {
+      "class": "2A",
+      "wins": 7,
+      "losses": 4,
+      "results": [
+        {
+          "o": "rockford flinn",
+          "w": 0
+        },
+        {
+          "o": "rockford lincoln",
+          "w": 0
+        },
+        {
+          "o": "rockford resa",
+          "w": 1
+        },
+        {
+          "o": "rockford west",
+          "w": 0
+        },
+        {
+          "o": "rockford eisenhower",
+          "w": 0
+        }
+      ]
+    },
+    "rockford resa": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 7,
+      "results": [
+        {
+          "o": "rockford flinn",
+          "w": 0
+        },
+        {
+          "o": "rockford lincoln",
+          "w": 0
+        },
+        {
+          "o": "rockford west",
+          "w": 0
+        },
+        {
+          "o": "rockford eisenhower",
+          "w": 0
+        }
+      ]
+    },
+    "rockford west": {
+      "class": "4A",
+      "wins": 9,
+      "losses": 6,
+      "results": [
+        {
+          "o": "rockford flinn",
+          "w": 0
+        },
+        {
+          "o": "rockford flinn",
+          "w": 0
+        },
+        {
+          "o": "rockford lincoln",
+          "w": 0
+        },
+        {
+          "o": "rockford eisenhower",
+          "w": 0
+        },
+        {
+          "o": "rockford resa",
+          "w": 1
+        },
+        {
+          "o": "rockford eisenhower",
+          "w": 0
+        }
+      ]
+    },
+    "rolling meadows plum grove": {
+      "class": null,
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "romeoville lukancic": {
+      "class": "4A",
+      "wins": 0,
+      "losses": 13,
+      "results": [
+        {
+          "o": "bolingbrook humphrey",
+          "w": 0
+        },
+        {
+          "o": "bolingbrook humphrey",
+          "w": 0
+        },
+        {
+          "o": "romeoville martinez",
+          "w": 0
+        },
+        {
+          "o": "woodridge jefferson",
+          "w": 0
+        },
+        {
+          "o": "bolingbrook jane addams",
+          "w": 0
+        },
+        {
+          "o": "bolingbrook brooks",
+          "w": 0
+        },
+        {
+          "o": "romeoville martinez",
+          "w": 0
+        },
+        {
+          "o": "joliet dirksen",
+          "w": 0
+        },
+        {
+          "o": "joliet gompers",
+          "w": 0
+        },
+        {
+          "o": "joliet hufford",
+          "w": 0
+        },
+        {
+          "o": "bolingbrook brooks",
+          "w": 0
+        }
+      ]
+    },
+    "romeoville martinez": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 7,
+      "results": [
+        {
+          "o": "bolingbrook humphrey",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook humphrey",
+          "w": 0
+        },
+        {
+          "o": "romeoville lukancic",
+          "w": 1
+        },
+        {
+          "o": "romeoville lukancic",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook brooks",
+          "w": 0
+        },
+        {
+          "o": "minooka",
+          "w": 0
+        },
+        {
+          "o": "joliet dirksen",
+          "w": 1
+        },
+        {
+          "o": "bolingbrook jane addams",
+          "w": 0
+        },
+        {
+          "o": "lockport oak prairie",
+          "w": 0
+        },
+        {
+          "o": "joliet gompers",
+          "w": 1
+        }
+      ]
+    },
+    "roosevelt river forest (b)": {
+      "class": null
+    },
+    "roxana": {
+      "class": "3A",
+      "wins": 7,
+      "losses": 5,
+      "results": [
+        {
+          "o": "jerseyville community",
+          "w": 1
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        }
+      ]
+    },
+    "rushville schuyler industry": {
+      "class": "2A"
+    },
+    "sandwich": {
+      "class": "3A",
+      "wins": 9,
+      "losses": 5,
+      "results": [
+        {
+          "o": "ottawa shepherd",
+          "w": 0
+        },
+        {
+          "o": "coal city",
+          "w": 0
+        },
+        {
+          "o": "plano",
+          "w": 1
+        },
+        {
+          "o": "plano",
+          "w": 0
+        }
+      ]
+    },
+    "sauk village rickover": {
+      "class": null,
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "seneca": {
+      "class": "2A",
+      "wins": 15,
+      "losses": 1,
+      "results": [
+        {
+          "o": "coal city",
+          "w": 1
+        },
+        {
+          "o": "plano",
+          "w": 1
+        }
+      ]
+    },
+    "sherrard jhs": {
+      "class": "3A",
+      "wins": 7,
+      "losses": 8,
+      "results": [
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        },
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        }
+      ]
+    },
+    "shiloh middle school": {
+      "class": null
+    },
+    "shorewood troy": {
+      "class": "4A",
+      "wins": 4,
+      "losses": 12,
+      "results": [
+        {
+          "o": "new lenox martino",
+          "w": 0
+        },
+        {
+          "o": "manhattan",
+          "w": 0
+        },
+        {
+          "o": "manhattan",
+          "w": 0
+        },
+        {
+          "o": "homer glen homer",
+          "w": 0
+        },
+        {
+          "o": "homer glen homer",
+          "w": 1
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 0
+        },
+        {
+          "o": "new lenox liberty",
+          "w": 1
+        },
+        {
+          "o": "minooka",
+          "w": 0
+        },
+        {
+          "o": "mokena",
+          "w": 0
+        },
+        {
+          "o": "mokena",
+          "w": 0
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 1
+        },
+        {
+          "o": "joliet hufford",
+          "w": 1
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 0
+        },
+        {
+          "o": "frankfort summit hill",
+          "w": 0
+        },
+        {
+          "o": "frankfort hickory creek",
+          "w": 0
+        }
+      ]
+    },
+    "sigel st. michael's": {
+      "class": "1A",
+      "wins": 9,
+      "losses": 8,
+      "results": [
+        {
+          "o": "effingham jhs",
+          "w": 0
+        }
+      ]
+    },
+    "smithton": {
+      "class": null
+    },
+    "somonauk": {
+      "class": "2A",
+      "wins": 9,
+      "losses": 3,
+      "results": [
+        {
+          "o": "plano",
+          "w": 1
+        }
+      ]
+    },
+    "spring valley kennedy": {
+      "class": "2A",
+      "wins": 3,
+      "losses": 8,
+      "results": [
+        {
+          "o": "ottawa shepherd",
+          "w": 0
+        }
+      ]
+    },
+    "springfield blessed sacrament": {
+      "class": "2A",
+      "wins": 7,
+      "losses": 8,
+      "results": [
+        {
+          "o": "springfield franklin",
+          "w": 0
+        }
+      ]
+    },
+    "springfield calvary": {
+      "class": "3A",
+      "wins": 7,
+      "losses": 9,
+      "results": [
+        {
+          "o": "springfield grant",
+          "w": 0
+        }
+      ]
+    },
+    "springfield christ the king": {
+      "class": "2A",
+      "wins": 5,
+      "losses": 10,
+      "results": [
+        {
+          "o": "springfield lincoln",
+          "w": 0
+        },
+        {
+          "o": "springfield franklin",
+          "w": 0
+        },
+        {
+          "o": "springfield grant",
+          "w": 0
+        }
+      ]
+    },
+    "springfield christian": {
+      "class": "2A",
+      "wins": 10,
+      "losses": 6,
+      "results": [
+        {
+          "o": "springfield lincoln",
+          "w": 0
+        },
+        {
+          "o": "springfield grant",
+          "w": 0
+        },
+        {
+          "o": "springfield washington",
+          "w": 1
+        }
+      ]
+    },
+    "springfield franklin": {
+      "class": "4A",
+      "wins": 8,
+      "losses": 6,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "springfield lincoln",
+          "w": 0
+        },
+        {
+          "o": "decatur stephen decatur",
+          "w": 1
+        },
+        {
+          "o": "jacksonville ms",
+          "w": 1
+        },
+        {
+          "o": "springfield jefferson",
+          "w": 1
+        },
+        {
+          "o": "springfield grant",
+          "w": 0
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 0
+        },
+        {
+          "o": "quincy",
+          "w": 0
+        },
+        {
+          "o": "springfield washington",
+          "w": 1
+        }
+      ]
+    },
+    "springfield grant": {
+      "class": "4A",
+      "wins": 11,
+      "losses": 2,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "cahokia wirth",
+          "w": 1
+        },
+        {
+          "o": "springfield lincoln",
+          "w": 1
+        },
+        {
+          "o": "springfield franklin",
+          "w": 1
+        },
+        {
+          "o": "springfield washington",
+          "w": 1
+        },
+        {
+          "o": "springfield jefferson",
+          "w": 1
+        },
+        {
+          "o": "jacksonville ms",
+          "w": 1
+        },
+        {
+          "o": "normal kingsley",
+          "w": 0
+        },
+        {
+          "o": "springfield washington",
+          "w": 1
+        }
+      ]
+    },
+    "springfield jefferson": {
+      "class": "4A",
+      "wins": 0,
+      "losses": 5,
+      "results": [
+        {
+          "o": "decatur stephen decatur",
+          "w": 0
+        },
+        {
+          "o": "springfield franklin",
+          "w": 0
+        },
+        {
+          "o": "springfield grant",
+          "w": 0
+        }
+      ]
+    },
+    "springfield lincoln": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 5,
+      "results": [
+        {
+          "o": "st. jacob triad",
+          "w": 1
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "springfield grant",
+          "w": 0
+        },
+        {
+          "o": "springfield franklin",
+          "w": 1
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 0
+        }
+      ]
+    },
+    "springfield washington": {
+      "class": "4A",
+      "wins": 0,
+      "losses": 6,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "springfield franklin",
+          "w": 0
+        },
+        {
+          "o": "springfield grant",
+          "w": 0
+        },
+        {
+          "o": "springfield grant",
+          "w": 0
+        }
+      ]
+    },
+    "sr. thea bowman": {
+      "class": null
+    },
+    "st clare": {
+      "class": null
+    },
+    "st. boniface": {
+      "class": null
+    },
+    "st. jacob triad": {
+      "class": "4A",
+      "wins": 10,
+      "losses": 9,
+      "results": [
+        {
+          "o": "highland ms",
+          "w": 1
+        },
+        {
+          "o": "highland ms",
+          "w": 0
+        },
+        {
+          "o": "springfield lincoln",
+          "w": 0
+        },
+        {
+          "o": "east st. louis clark",
+          "w": 1
+        },
+        {
+          "o": "granite city coolidge",
+          "w": 1
+        },
+        {
+          "o": "edwardsville liberty",
+          "w": 0
+        },
+        {
+          "o": "edwardsville lincoln",
+          "w": 0
+        },
+        {
+          "o": "mascoutah",
+          "w": 1
+        },
+        {
+          "o": "o'fallon carriel",
+          "w": 0
+        },
+        {
+          "o": "o'fallon fulton",
+          "w": 1
+        },
+        {
+          "o": "alton",
+          "w": 1
+        },
+        {
+          "o": "collinsville",
+          "w": 0
+        },
+        {
+          "o": "jerseyville community",
+          "w": 1
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 0
+        }
+      ]
+    },
+    "st. joseph": {
+      "class": "3A",
+      "wins": 13,
+      "losses": 4,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "champaign edison",
+          "w": 1
+        },
+        {
+          "o": "champaign jefferson",
+          "w": 0
+        },
+        {
+          "o": "danville north ridge",
+          "w": 1
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        }
+      ]
+    },
+    "stanford olympia": {
+      "class": "3A",
+      "wins": 10,
+      "losses": 7,
+      "results": [
+        {
+          "o": "washington central",
+          "w": 0
+        }
+      ]
+    },
+    "staunton": {
+      "class": "3A",
+      "wins": 19,
+      "losses": 1,
+      "results": [
+        {
+          "o": "st. jacob triad",
+          "w": 1
+        },
+        {
+          "o": "springfield lincoln",
+          "w": 1
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 1
+        }
+      ]
+    },
+    "steger columbia": {
+      "class": "4A",
+      "wins": 2,
+      "losses": 10,
+      "results": [
+        {
+          "o": "matteson huth",
+          "w": 0
+        },
+        {
+          "o": "flossmoor parker",
+          "w": 0
+        },
+        {
+          "o": "flossmoor parker",
+          "w": 0
+        },
+        {
+          "o": "matteson colin powell",
+          "w": 0
+        },
+        {
+          "o": "lansing memorial",
+          "w": 0
+        },
+        {
+          "o": "homewood hart",
+          "w": 0
+        },
+        {
+          "o": "chicago heights ms",
+          "w": 0
+        },
+        {
+          "o": "park forest michelle obama sta",
+          "w": 1
+        },
+        {
+          "o": "university park crete monee",
+          "w": 0
+        },
+        {
+          "o": "matteson colin powell",
+          "w": 0
+        },
+        {
+          "o": "lansing memorial",
+          "w": 0
+        }
+      ]
+    },
+    "stronghurst west central": {
+      "class": "2A",
+      "wins": 3,
+      "losses": 10,
+      "results": [
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        }
+      ]
+    },
+    "sullivan": {
+      "class": "3A",
+      "wins": 11,
+      "losses": 4,
+      "results": [
+        {
+          "o": "charleston",
+          "w": 1
+        }
+      ]
+    },
+    "summit heritage": {
+      "class": "3A",
+      "wins": 9,
+      "losses": 2,
+      "results": [
+        {
+          "o": "cicero unity",
+          "w": 1
+        },
+        {
+          "o": "maywood irving",
+          "w": 1
+        },
+        {
+          "o": "bellwood roosevelt",
+          "w": 1
+        },
+        {
+          "o": "melrose park stevenson",
+          "w": 1
+        }
+      ]
+    },
+    "summit-heritage": {
+      "class": null
+    },
+    "table grove vit": {
+      "class": "2A"
+    },
+    "taylorville jhs": {
+      "class": "4A",
+      "wins": 9,
+      "losses": 8,
+      "results": [
+        {
+          "o": "effingham jhs",
+          "w": 1
+        },
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "st. jacob triad",
+          "w": 1
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "highland ms",
+          "w": 1
+        },
+        {
+          "o": "decatur stephen decatur",
+          "w": 1
+        },
+        {
+          "o": "chatham glenwood",
+          "w": 0
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 1
+        }
+      ]
+    },
+    "teutopolis": {
+      "class": "3A",
+      "wins": 16,
+      "losses": 3,
+      "results": [
+        {
+          "o": "effingham jhs",
+          "w": 1
+        },
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "st. jacob triad",
+          "w": 1
+        },
+        {
+          "o": "charleston",
+          "w": 1
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "highland ms",
+          "w": 1
+        },
+        {
+          "o": "mattoon",
+          "w": 1
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 1
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        }
+      ]
+    },
+    "tolono unity": {
+      "class": "3A",
+      "wins": 9,
+      "losses": 9,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        },
+        {
+          "o": "mahomet-seymour",
+          "w": 0
+        },
+        {
+          "o": "charleston",
+          "w": 1
+        },
+        {
+          "o": "urbana ms",
+          "w": 0
+        },
+        {
+          "o": "mattoon",
+          "w": 0
+        }
+      ]
+    },
+    "toulon stark county": {
+      "class": "2A",
+      "wins": 4,
+      "losses": 10,
+      "results": [
+        {
+          "o": "galesburg jhs",
+          "w": 0
+        }
+      ]
+    },
+    "tremont": {
+      "class": "3A",
+      "wins": 3,
+      "losses": 12,
+      "results": [
+        {
+          "o": "east peoria central",
+          "w": 0
+        },
+        {
+          "o": "pekin broadmoor",
+          "w": 0
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        }
+      ]
+    },
+    "tuscola east prairie": {
+      "class": "3A",
+      "wins": 10,
+      "losses": 7,
+      "results": [
+        {
+          "o": "charleston",
+          "w": 1
+        }
+      ]
+    },
+    "university park crete monee": {
+      "class": "4A",
+      "wins": 4,
+      "losses": 1,
+      "results": [
+        {
+          "o": "matteson huth",
+          "w": 1
+        },
+        {
+          "o": "flossmoor parker",
+          "w": 1
+        },
+        {
+          "o": "flossmoor parker",
+          "w": 1
+        },
+        {
+          "o": "steger columbia",
+          "w": 1
+        }
+      ]
+    },
+    "urana middle school": {
+      "class": null
+    },
+    "urbana ms": {
+      "class": "4A",
+      "wins": 9,
+      "losses": 3,
+      "results": [
+        {
+          "o": "decatur stephen decatur",
+          "w": 1
+        },
+        {
+          "o": "kankakee jhs",
+          "w": 0
+        },
+        {
+          "o": "rantoul eater",
+          "w": 1
+        },
+        {
+          "o": "danville north ridge",
+          "w": 1
+        },
+        {
+          "o": "normal chiddix",
+          "w": 1
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 1
+        },
+        {
+          "o": "champaign franklin",
+          "w": 0
+        },
+        {
+          "o": "champaign franklin",
+          "w": 1
+        }
+      ]
+    },
+    "vandalia": {
+      "class": "3A",
+      "wins": 8,
+      "losses": 11,
+      "results": [
+        {
+          "o": "effingham jhs",
+          "w": 0
+        }
+      ]
+    },
+    "vernon hills hawthorn north": {
+      "class": "4A",
+      "wins": 4,
+      "losses": 11,
+      "results": [
+        {
+          "o": "lake zurich north",
+          "w": 0
+        },
+        {
+          "o": "lake zurich north",
+          "w": 0
+        },
+        {
+          "o": "barrington prairie",
+          "w": 0
+        },
+        {
+          "o": "vernon hills hawthorn south",
+          "w": 1
+        },
+        {
+          "o": "lake zurich south",
+          "w": 0
+        },
+        {
+          "o": "barrington station",
+          "w": 0
+        },
+        {
+          "o": "vernon hills hawthorn south",
+          "w": 1
+        },
+        {
+          "o": "barrington prairie",
+          "w": 0
+        },
+        {
+          "o": "barrington station",
+          "w": 0
+        },
+        {
+          "o": "lake zurich south",
+          "w": 0
+        },
+        {
+          "o": "arlington heights south",
+          "w": 0
+        }
+      ]
+    },
+    "vernon hills hawthorn south": {
+      "class": "4A",
+      "wins": 1,
+      "losses": 9,
+      "results": [
+        {
+          "o": "lake zurich north",
+          "w": 0
+        },
+        {
+          "o": "lake zurich north",
+          "w": 1
+        },
+        {
+          "o": "vernon hills hawthorn north",
+          "w": 0
+        },
+        {
+          "o": "vernon hills hawthorn north",
+          "w": 0
+        },
+        {
+          "o": "arlington heights south",
+          "w": 0
+        },
+        {
+          "o": "barrington station",
+          "w": 0
+        },
+        {
+          "o": "barrington station",
+          "w": 0
+        },
+        {
+          "o": "lake zurich south",
+          "w": 0
+        },
+        {
+          "o": "lake zurich south",
+          "w": 0
+        },
+        {
+          "o": "lake zurich south",
+          "w": 0
+        }
+      ]
+    },
+    "virginia": {
+      "class": "3A",
+      "wins": 17,
+      "losses": 1,
+      "results": [
+        {
+          "o": "jacksonville ms",
+          "w": 1
+        }
+      ]
+    },
+    "warrensburg-latham": {
+      "class": "2A",
+      "wins": 12,
+      "losses": 7,
+      "results": [
+        {
+          "o": "mt. zion",
+          "w": 0
+        }
+      ]
+    },
+    "washington beverly manor": {
+      "class": "2A",
+      "wins": 1,
+      "losses": 13,
+      "results": [
+        {
+          "o": "washington central",
+          "w": 0
+        },
+        {
+          "o": "east peoria central",
+          "w": 0
+        }
+      ]
+    },
+    "washington central": {
+      "class": "4A",
+      "wins": 18,
+      "losses": 0,
+      "results": [
+        {
+          "o": "dunlap ms",
+          "w": 1
+        },
+        {
+          "o": "morton jhs",
+          "w": 1
+        },
+        {
+          "o": "east peoria central",
+          "w": 1
+        },
+        {
+          "o": "bloomington jhs",
+          "w": 1
+        },
+        {
+          "o": "pekin broadmoor",
+          "w": 1
+        }
+      ]
+    },
+    "washington ms": {
+      "class": "3A",
+      "wins": 15,
+      "losses": 3,
+      "results": [
+        {
+          "o": "pekin broadmoor",
+          "w": 1
+        },
+        {
+          "o": "washington central",
+          "w": 0
+        },
+        {
+          "o": "east peoria central",
+          "w": 1
+        },
+        {
+          "o": "dunlap valley ms",
+          "w": 1
+        },
+        {
+          "o": "morton jhs",
+          "w": 1
+        },
+        {
+          "o": "dunlap ms",
+          "w": 1
+        }
+      ]
+    },
+    "washington st. patrick": {
+      "class": "1A"
+    },
+    "waterman indian creek": {
+      "class": "2A",
+      "wins": 5,
+      "losses": 11,
+      "results": [
+        {
+          "o": "plano",
+          "w": 1
+        },
+        {
+          "o": "plano",
+          "w": 0
+        },
+        {
+          "o": "ottawa shepherd",
+          "w": 0
+        }
+      ]
+    },
+    "wauconda": {
+      "class": null,
+      "wins": 0,
+      "losses": 0,
+      "results": []
+    },
+    "wenona fieldcrest": {
+      "class": "2A",
+      "wins": 6,
+      "losses": 3,
+      "results": [
+        {
+          "o": "ottawa shepherd",
+          "w": 1
+        }
+      ]
+    },
+    "wesclin": {
+      "class": null
+    },
+    "wesclin shootout vs freeburg": {
+      "class": null
+    },
+    "white hall north greene": {
+      "class": "2A",
+      "wins": 5,
+      "losses": 12,
+      "results": [
+        {
+          "o": "jerseyville community",
+          "w": 0
+        }
+      ]
+    },
+    "whiteside": {
+      "class": null
+    },
+    "williamsville": {
+      "class": "3A",
+      "wins": 13,
+      "losses": 1,
+      "results": [
+        {
+          "o": "springfield franklin",
+          "w": 1
+        },
+        {
+          "o": "taylorville jhs",
+          "w": 1
+        }
+      ]
+    },
+    "willowbrook westview hills": {
+      "class": "4A",
+      "wins": 5,
+      "losses": 3,
+      "results": [
+        {
+          "o": "downers grove o'neill",
+          "w": 1
+        },
+        {
+          "o": "lemont old quarry",
+          "w": 1
+        },
+        {
+          "o": "lemont old quarry",
+          "w": 0
+        },
+        {
+          "o": "downers grove herrick",
+          "w": 0
+        },
+        {
+          "o": "downers grove herrick",
+          "w": 0
+        },
+        {
+          "o": "woodridge jefferson",
+          "w": 1
+        },
+        {
+          "o": "woodridge jefferson",
+          "w": 1
+        }
+      ]
+    },
+    "wilmington": {
+      "class": "3A",
+      "wins": 3,
+      "losses": 10,
+      "results": [
+        {
+          "o": "coal city",
+          "w": 0
+        },
+        {
+          "o": "coal city",
+          "w": 0
+        }
+      ]
+    },
+    "wolf branch": {
+      "class": null
+    },
+    "wood river lewis & clark": {
+      "class": "2A",
+      "wins": 3,
+      "losses": 10,
+      "results": [
+        {
+          "o": "jerseyville community",
+          "w": 0
+        },
+        {
+          "o": "jerseyville community",
+          "w": 0
+        },
+        {
+          "o": "bethalto trimpe",
+          "w": 0
+        },
+        {
+          "o": "alton",
+          "w": 0
+        },
+        {
+          "o": "granite city coolidge",
+          "w": 0
+        }
+      ]
+    },
+    "woodridge jefferson": {
+      "class": "4A",
+      "wins": 4,
+      "losses": 8,
+      "results": [
+        {
+          "o": "romeoville lukancic",
+          "w": 1
+        },
+        {
+          "o": "downers grove o'neill",
+          "w": 0
+        },
+        {
+          "o": "bolingbrook brooks",
+          "w": 0
+        },
+        {
+          "o": "minooka",
+          "w": 0
+        },
+        {
+          "o": "downers grove herrick",
+          "w": 0
+        },
+        {
+          "o": "joliet hufford",
+          "w": 0
+        },
+        {
+          "o": "willowbrook westview hills",
+          "w": 0
+        },
+        {
+          "o": "willowbrook westview hills",
+          "w": 0
+        }
+      ]
+    }
+  }
+}

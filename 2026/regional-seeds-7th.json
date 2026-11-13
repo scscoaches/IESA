@@ -1,151 +1,103 @@
-﻿{
-    "updatedAt":  "2026-09-30 09:01",
-    "year":  2026,
-    "grade":  "7th",
-    "regionalBrackets":  {
-                             "1":  {
-                                       "seeds":  [
-
-                                                 ],
-                                       "rounds":  [
-
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=1"
-                                   },
-                             "2":  {
-                                       "seeds":  [
-
-                                                 ],
-                                       "rounds":  [
-
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=2"
-                                   },
-                             "3":  {
-                                       "seeds":  [
-
-                                                 ],
-                                       "rounds":  [
-
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=3"
-                                   },
-                             "4":  {
-                                       "seeds":  [
-
-                                                 ],
-                                       "rounds":  [
-
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=4"
-                                   },
-                             "5":  {
-                                       "seeds":  [
-
-                                                 ],
-                                       "rounds":  [
-
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=5"
-                                   },
-                             "6":  {
-                                       "seeds":  [
-
-                                                 ],
-                                       "rounds":  [
-
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=6"
-                                   },
-                             "7":  {
-                                       "seeds":  [
-
-                                                 ],
-                                       "rounds":  [
-
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=7"
-                                   },
-                             "8":  {
-                                       "seeds":  [
-
-                                                 ],
-                                       "rounds":  [
-
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=8"
-                                   },
-                             "9":  {
-                                       "seeds":  [
-
-                                                 ],
-                                       "rounds":  [
-
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=9"
-                                   },
-                             "10":  {
-                                        "seeds":  [
-
-                                                  ],
-                                        "rounds":  [
-
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=10"
-                                    },
-                             "11":  {
-                                        "seeds":  [
-
-                                                  ],
-                                        "rounds":  [
-
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=11"
-                                    },
-                             "12":  {
-                                        "seeds":  [
-
-                                                  ],
-                                        "rounds":  [
-
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=12"
-                                    },
-                             "13":  {
-                                        "seeds":  [
-
-                                                  ],
-                                        "rounds":  [
-
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=13"
-                                    },
-                             "14":  {
-                                        "seeds":  [
-
-                                                  ],
-                                        "rounds":  [
-
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=14"
-                                    },
-                             "15":  {
-                                        "seeds":  [
-
-                                                  ],
-                                        "rounds":  [
-
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=15"
-                                    },
-                             "16":  {
-                                        "seeds":  [
-
-                                                  ],
-                                        "rounds":  [
-
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=16"
-                                    }
-                         }
+{
+  "updatedAt": "2026-11-13 03:22",
+  "year": 2026,
+  "grade": "7th",
+  "regionalBrackets": {
+    "1": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=1",
+      "host": "Lockport Kelvin Grove"
+    },
+    "2": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=2",
+      "host": "Joliet Laraway"
+    },
+    "3": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=3",
+      "host": "Rockford Montessori"
+    },
+    "4": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=4",
+      "host": "Wenona Fieldcrest"
+    },
+    "5": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=5",
+      "host": "Oakwood GS"
+    },
+    "6": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=6",
+      "host": "Normal Epiphany"
+    },
+    "7": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=7",
+      "host": "Peoria St. Philomena"
+    },
+    "8": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=8",
+      "host": "Glasford Illini Bluffs"
+    },
+    "9": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=9",
+      "host": "Lewistown JHS"
+    },
+    "10": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=10",
+      "host": "Liberty"
+    },
+    "11": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=11",
+      "host": "Cerro Gordo"
+    },
+    "12": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=12",
+      "host": "Nokomis JHS"
+    },
+    "13": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=13",
+      "host": "Albion"
+    },
+    "14": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=14",
+      "host": "Stewardson-Strasburg"
+    },
+    "15": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=15",
+      "host": "Springfield Blessed Sacrament"
+    },
+    "16": {
+      "seeds": [],
+      "rounds": [],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=16",
+      "host": "Greenfield"
+    }
+  }
 }
