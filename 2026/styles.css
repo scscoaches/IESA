@@ -57,7 +57,7 @@
 .switcher select:disabled{cursor:default;opacity:.75}
 @media(max-width:680px){.switcher select{height:34px;width:72px;padding:0 3px;font-size:11px}}
 @media(max-width:380px){.switcher select{width:65px}}
-@media(max-width:370px){.app.live .topbar>div:first-child{display:none}}
+@media(max-width:370px){.app.live .topbar>div:first-of-type{display:none}}
 .sectional .sectional-team{flex:1;min-width:0}
 .sectional .record-badge{flex:none;margin-left:auto}
 .sectional .postseason-score{margin-left:0}
@@ -89,9 +89,9 @@
 .my-team-history ul{max-height:min(220px,30vh);overflow:auto;margin:6px 0 0;padding:0;list-style:none}
 .my-team-history li{padding:5px 0;border-bottom:1px solid #edf0f5}
 .my-team-empty{color:#68718a;font-size:12px}
-@media(max-width:680px){.tools button#my-team-button{display:inline-flex}.switcher select#class-select{width:48px;padding:0 2px}.app.has-class-select .topbar>div:first-child{display:none}}
+@media(max-width:680px){.tools button#my-team-button{display:inline-flex}.switcher select#class-select{width:48px;padding:0 2px}.app.has-class-select .topbar>div:first-of-type{display:none}}
 @media(max-width:380px){.switcher select#class-select{width:44px}.tools button#my-team-button{width:36px;min-width:36px}}
-@media(max-width:430px){.app.live .topbar>div:first-child{display:none}.app.live .tools button#updates-button{max-width:58px}}
+@media(max-width:430px){.app.live .topbar>div:first-of-type{display:none}.app.live .tools button#updates-button{max-width:58px}}
 @media(max-width:340px){.topbar{gap:3px}.switcher select{width:56px}.switcher select#class-select{width:40px}.tools button{min-width:28px;padding-right:4px;padding-left:4px}.tools button#updates-button{max-width:48px}.tools button#my-team-button,.tools button#find-button{width:30px;min-width:30px}}
 #my-team-dialog .my-team-heading{margin:0;font-size:14px}#my-team-dialog .my-team-heading::after{content:":"}
 #my-team-dialog .settings-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:14px;padding-top:12px;border-top:1px solid #e0e4ed;font-size:14px;font-weight:bold}
@@ -110,3 +110,6 @@
 @media(max-width:380px){.switcher .grade-switch a{min-width:27px;padding:0 5px}}
 .grade-switch{cursor:pointer}
 @media(max-width:680px){.switcher .grade-switch a{min-width:0;padding:0 5px}}
+.iesa-logo{display:flex;flex:none}.iesa-logo img{display:block;width:auto;height:46px}
+@media(max-width:680px){.iesa-logo img{height:30px}}
+@media(max-width:400px){.iesa-logo{display:none}}
