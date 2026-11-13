@@ -580,7 +580,8 @@
         var official = seededRegionals[regionalId];
         var cache = window.iesaScoreCache;
         var entries = Array.prototype.slice.call(card.querySelectorAll(":scope > .entry"));
-        projectionTitle.textContent = official ? "OFFICIAL Regional Bracket" : "UNOFFICIAL Projected Bracket";
+        projectionTitle.textContent = official ? "OFFICIAL Regional " + regionalId + " Bracket" :
+            "UNOFFICIAL Projected Regional " + regionalId + " Bracket";
         projectionDialog.setAttribute("aria-label", "Regional " + regionalId +
             (official ? " official bracket" : " unofficial projected bracket"));
         projectionRefresh.hidden = Boolean(official) || typeof window.iesaFetchLiveTeam !== "function";
