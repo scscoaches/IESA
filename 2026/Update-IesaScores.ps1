@@ -9,7 +9,11 @@ param(
     # The postseason 9 PM weekday run: re-read only schools still playing, in
     # every class, then the seeds and brackets. No strength of schedule, watch
     # links or roster check.
-    [switch]$Evening
+    [switch]$Evening,
+    # Only the official seeds and bracket results: no school pages, watch links or
+    # strength of schedule. Seeds are read even before a grade's seedsFrom date,
+    # for when IESA publishes early; results still wait for bracketFrom.
+    [switch]$BracketsOnly
 )
 
 $ErrorActionPreference = "Stop"
@@ -74,12 +78,12 @@ foreach ($grade in "7th", "8th") {
     } catch { $lastRun = $null; break }
 }
 $paused = Get-IesaPause
-if (!$paused -and !$Force -and $includes2A -and $lastRun -and ((Get-Date) - $lastRun).TotalHours -lt $MinimumHoursBetweenRuns) {
+if (!$paused -and !$Force -and !$BracketsOnly -and $includes2A -and $lastRun -and ((Get-Date) - $lastRun).TotalHours -lt $MinimumHoursBetweenRuns) {
     $paused = "Scores were refreshed at $($lastRun.ToString('yyyy-MM-dd HH:mm')); skipping IESA until $MinimumHoursBetweenRuns hours have passed (use -Force to override)."
 }
 if ($paused) {
     Write-Warning $paused
-    if ($includes2A -and !$Evening) { Update-StreamLinks }
+    if ($includes2A -and !$Evening -and !$BracketsOnly) { Update-StreamLinks }
     return
 }
 
@@ -325,6 +329,7 @@ foreach ($liveClass in $liveClasses) {
 $ClassName = $liveClass.Name
 $ClassPath = $liveClass.Path
 if (!$liveClass.OpenGrades.Count) { continue }
+if ($BracketsOnly) { $postseasonClasses += $liveClass; continue }
 # The evening run reads every class's remaining schools, however often it ran today.
 if (!$liveClass.EveryRun -and !$Force -and !$Evening) {
     $doneToday = @($liveClass.OpenGrades | Where-Object {
@@ -481,7 +486,7 @@ foreach ($grade in $liveClass.OpenGrades) {
 }
 }
 
-if ($includes2A -and !$Evening) { Update-StreamLinks }
+if ($includes2A -and !$Evening -and !$BracketsOnly) { Update-StreamLinks }
 $pausedNow = Get-IesaPause
 if ($pausedNow) {
     Write-Warning "Skipping strength of schedule, seeds and bracket. $pausedNow"
@@ -500,12 +505,12 @@ foreach ($liveClass in $refreshedClasses) {
 }
 
 $seedRefreshError = $null
-if ($today -ge $seedsFrom) {
+if ($BracketsOnly -or $today -ge $seedsFrom) {
     foreach ($liveClass in $postseasonClasses) {
         # A grade's seeds are official after its "Online Ranking" date, and its
         # seed page stops changing once its regional finals are played.
         $grades = @($liveClass.OpenGrades | Where-Object {
-            $today -ge (Get-GradeDate $_ "seedsFrom" $seedsFrom) -and !(Test-RegionalsComplete $liveClass.Path $_) })
+            ($BracketsOnly -or $today -ge (Get-GradeDate $_ "seedsFrom" $seedsFrom)) -and !(Test-RegionalsComplete $liveClass.Path $_) })
         if (!$grades.Count) { continue }
         try {
             & (Join-Path $PSScriptRoot "Update-IesaSeeds.ps1") -SitePath $liveClass.Path -ClassName $liveClass.Name -Year $SeasonYear -Grades $grades

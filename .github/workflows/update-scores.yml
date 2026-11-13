@@ -12,7 +12,12 @@ on:
     # Weekdays 9:00 PM Central (Tuesday-Saturday 03:00 UTC), postseason only
     # (bracketFrom-endDate): picks up evening tournament games the same night.
     - cron: "0 3 * * 2-6"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      brackets_only:
+        description: "Only the official seeds and bracket results (no school scores)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -65,7 +70,8 @@ jobs:
         # writes complete=true to the step output once every state final is played.
         run: |
           $evening = "${{ steps.season.outputs.evening }}" -eq "true"
-          ./2026/Update-IesaScores.ps1 -SitePath "${{ github.workspace }}/${{ steps.season.outputs.year }}" -Evening:$evening
+          $bracketsOnly = "${{ inputs.brackets_only }}" -eq "true"
+          ./2026/Update-IesaScores.ps1 -SitePath "${{ github.workspace }}/${{ steps.season.outputs.year }}" -Evening:$evening -BracketsOnly:$bracketsOnly
 
       - name: Commit and push refreshed data
         if: steps.season.outputs.active == 'true'

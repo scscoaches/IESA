@@ -325,6 +325,15 @@ re-reads only the schools still playing, in every class, plus the seeds and
 brackets, with no strength of schedule, watch links or roster check
 (`Update-IesaScores.ps1 -Evening`). GitHub can start scheduled runs hours late.
 
+**Official brackets only.** When IESA releases seeds or brackets and the school
+scores are not needed, start *Update IESA scores* by hand with *Only the
+official seeds and bracket results* ticked (`gh workflow run update-scores.yml
+-f brackets_only=true`), or run `.\2026\Update-IesaScores.ps1 -BracketsOnly`
+locally. It reads only the seed pages (even before a grade's `seedsFrom`) and,
+from `bracketFrom`, the bracket results for every class: about 8 IESA pages per
+class, with no school pages, watch links or strength of schedule. Use
+`-Classes 3A` to limit it.
+
 **Everything stops at the end of the tournaments.** A grade whose state
 third-place and championship games are both decided is never requested again
 (no school pages, seeds or bracket). Once every class's 7th- and 8th-grade

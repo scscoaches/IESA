@@ -143,6 +143,12 @@ try {
     Assert-Equal 0 @($run.Calls | Where-Object { $_ -match '^Update-Iesa(Seeds|Bracket)' }).Count 'no seed or bracket refresh before their dates'
     Assert-Equal 8 @($run.Requests | Where-Object { $_ -match 'assignments_Regional.*Year=2026' }).Count 'roster check before the brackets: two assignment pages per class, current year'
     Assert-Equal 4 @($run.Calls | Where-Object { $_ -match '^Update-Strength\|.*\|2026\|' }).Count 'strength of schedule per class with the season year before the brackets'
+    Write-Host 'Brackets only: early seeds, no school pages'
+    $run = Invoke-MockRefresh $root '-BracketsOnly'
+    Assert-Equal 0 (Get-SchoolPageCount $run) 'no school pages read'
+    Assert-Equal 0 @($run.Calls | Where-Object { $_ -match '^Update-(Nfhs|Hudl)Events|^Update-Strength' }).Count 'no watch links or strength of schedule'
+    Assert-Equal 4 @($run.Calls | Where-Object { $_ -match '^Update-IesaSeeds\|.*\|7th,8th$' }).Count 'seeds for every class before their ranking date'
+    Assert-Equal 0 (Get-Calls $run 'Update-IesaBracket').Count 'no results before the first regional'
     '{"year":2026,"followedClass":"2A","seedsFrom":"2026-01-01","bracketFrom":"2026-01-01","endDate":"2026-01-02"}' |
         Set-Content -Encoding UTF8 (Join-Path $root 'live-season.json')
     $run = Invoke-MockRefresh $root '-Force'
