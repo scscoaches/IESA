@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12 19:36",
+  "updatedAt": "2026-11-13 03:22",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -493,12 +493,6 @@
     ],
     "indian-creek-high-school-shabbona-il": [
       {
-        "key": "gamd76aefc25f",
-        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gamd76aefc25f",
-        "label": "HBRMS vs. Indian Creek",
-        "start": "2026-10-01T21:30:00.000Z"
-      },
-      {
         "key": "gam48ccc946a1",
         "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam48ccc946a1",
         "label": "Plano vs. Indian Creek",
@@ -551,6 +545,12 @@
         "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/game4c627284b",
         "label": "Teams TBD",
         "start": "2026-11-11T22:30:00.000Z"
+      },
+      {
+        "key": "gama65bc73b2e",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gama65bc73b2e",
+        "label": "Teams TBD",
+        "start": "2026-11-12T22:30:00.000Z"
       },
       {
         "key": "gam24aa356e28",
@@ -812,12 +812,6 @@
     "morton-grove-academy-morton-grove-il": [],
     "mt-pulaski-high-school-mt-pulaski-il": [
       {
-        "key": "gam5a852058da",
-        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam5a852058da",
-        "label": "Illini Central vs. Mt. Pulaski",
-        "start": "2026-10-13T22:50:00.000Z"
-      },
-      {
         "key": "gam79cc5d85f4",
         "url": "https://www.nfhsnetwork.com/events/williamsville-high-school-williamsville-il/gam79cc5d85f4",
         "label": "6th Grade Girls Basketball — Mt. Pulaski Elementary vs. Williamsville Junior High",
@@ -870,6 +864,12 @@
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam5d03915e13",
         "label": "Tri-Valley vs. Mt. Pulaski",
         "start": "2026-11-09T23:00:00.000Z"
+      },
+      {
+        "key": "gam7da9728af4",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam7da9728af4",
+        "label": "Mt. Pulaski",
+        "start": "2026-11-12T22:55:00.000Z"
       },
       {
         "key": "gam4188930c6f",
@@ -984,14 +984,7 @@
         "start": "2026-10-30T21:30:00.000Z"
       }
     ],
-    "south-central-high-school-farina-il": [
-      {
-        "key": "gam10a2e4b253",
-        "url": "https://www.nfhsnetwork.com/events/neoga-high-school-neoga-il/gam10a2e4b253",
-        "label": "South Central vs. Neoga",
-        "start": "2026-11-16T23:55:00.000Z"
-      }
-    ],
+    "south-central-high-school-farina-il": [],
     "sparland-midland-middle-school-sparland-il": [],
     "spoon-river-valley-high-school-coop-w-cuba-london-mills-il": [
       {
@@ -1103,6 +1096,12 @@
         "url": "https://www.nfhsnetwork.com/events/vit-high-school-astoriatable-grove-coop-table-grove-il/gam33d952068d",
         "label": "MCMS vs. VIT",
         "start": "2026-11-09T23:30:00.000Z"
+      },
+      {
+        "key": "gam1b2f60c1e9",
+        "url": "https://www.nfhsnetwork.com/events/vit-high-school-astoriatable-grove-coop-table-grove-il/gam1b2f60c1e9",
+        "label": "Macomb vs. VIT",
+        "start": "2026-11-12T23:30:00.000Z"
       },
       {
         "key": "gam32009ce900",
