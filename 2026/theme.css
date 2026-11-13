@@ -91,13 +91,23 @@
 
 .dark-theme .entry.my-team,
 .dark-theme .projection-team.my-team {
-    background: #62421a;
-    color: #ffe3a0;
+    background: #8a6a0c;
+    color: #fff;
+    box-shadow: inset 0 0 0 2px #ffe08a, inset 6px 0 #ffe08a;
+}
+
+.dark-theme .entry.my-team .postseason-score {
+    color: #fff;
 }
 
 .dark-theme .record-badge {
     background: #394760;
     color: #f0f3fa;
+}
+
+.dark-theme .entry.my-team .record-badge {
+    background: #5e4807;
+    color: #fff;
 }
 
 .dark-theme .hint {
