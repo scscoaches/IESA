@@ -1,7 +1,7 @@
 {
-  "name": "IESA 2026 Girls Basketball Class 2A",
+  "name": "IESA 2026 Girls Basketball",
   "short_name": "IESA Bracket",
-  "description": "2026 Class 2A girls basketball tournament brackets for 7th and 8th grade.",
+  "description": "2026 girls basketball tournament brackets for every class, 7th and 8th grade.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

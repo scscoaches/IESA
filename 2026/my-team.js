@@ -120,6 +120,32 @@
         return new URL(folder + "/" + grade + "/index.html", root).href;
     }
 
+    // The season, class and grade of the bracket page being viewed, read from its
+    // address (<year>/<grade>/ or <year>/<class>/<grade>/), or null elsewhere.
+    // The address is used because this script runs before the page's data.js.
+    function currentPage() {
+        var path = window.location.pathname;
+        if (path.indexOf(root.pathname) !== 0) { return null; }
+        var match = /^(\d{4})\/(?:([^\/]+)\/)?(7th|8th|combined)\/(?:index\.html)?$/.exec(path.slice(root.pathname.length));
+        return match ? { year: Number(match[1]), className: match[2] ? decodeURIComponent(match[2]) : null, grade: match[3] } : null;
+    }
+
+    // The page of the class the chosen team played in for the season and grade
+    // being viewed, or null when that is this page or the class is unknown.
+    function teamClassPage() {
+        var page = currentPage();
+        if (!page || !myKey) { return Promise.resolve(null); }
+        return Promise.all([classFor(page.year, page.grade), load("seasons.json")]).then(function (loaded) {
+            var teamClass = loaded[0];
+            var season = (loaded[1] || []).filter(function (entry) { return entry.year === page.year; })[0];
+            if (!season || !teamClass) { return null; }
+            var classes = season.classes || [season.className];
+            var pageClass = page.className || season.className;
+            return classes.indexOf(teamClass) >= 0 && teamClass !== pageClass ?
+                pageUrl(season, teamClass, page.grade) : null;
+        });
+    }
+
     function describe(finish) {
         return PLACES[finish.place - 1] + (finish.className ? " (Class " + finish.className + ")" : "");
     }
@@ -242,17 +268,9 @@
                 // the year and grade being viewed, not the class the sharer is reading.
                 // Resolved now so the copy stays inside the click's user gesture.
                 var shareHref = window.location.href;
-                var data = window.tournamentData;
-                if (data && data.year && data.grade) {
-                    Promise.all([classFor(data.year, data.grade), load("seasons.json")]).then(function (loaded) {
-                        var teamClass = loaded[0];
-                        var season = (loaded[1] || []).filter(function (entry) { return entry.year === data.year; })[0];
-                        var classes = season ? (season.classes || [season.className]) : [];
-                        if (token === rendering && teamClass && classes.indexOf(teamClass) >= 0) {
-                            shareHref = pageUrl(season, teamClass, data.grade);
-                        }
-                    }).catch(function () { /* keep the current page */ });
-                }
+                teamClassPage().then(function (href) {
+                    if (href && token === rendering) { shareHref = href; }
+                }).catch(function () { /* keep the current page */ });
                 share.addEventListener("click", function () {
                     var url = new URL(shareHref);
                     url.searchParams.delete("v");
@@ -401,6 +419,18 @@
             url.searchParams.set("v", site.version);
             window.location.replace(url.href);
         }).catch(function () { /* keep the page as it is */ });
+    }
+
+    // A shared ?team= link opened on another class's bracket moves on to the
+    // team's own class for that season and grade, keeping the team parameter.
+    if (linkedTeam !== null && linkedTeam.trim()) {
+        teamClassPage().then(function (href) {
+            if (!href) { return; }
+            var target = new URL(href);
+            target.searchParams.set("team", name);
+            target.hash = window.location.hash;
+            window.location.replace(target.href);
+        }).catch(function () { /* stay on this page */ });
     }
 
     if (myKey) {

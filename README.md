@@ -164,7 +164,10 @@ in every bracket and the mobile view opens beside it (`2026\my-team.js`).
 
 **Team links.** Adding `?team=<school>` to any page address (for example
 `2026/1A/8th/index.html?team=Annawan`) chooses that school for the visitor, the
-same as picking it in Settings (the parameter stays in the address). A
+same as picking it in Settings (the parameter stays in the address). Opened on
+a bracket page of another class, the link moves on to the class that school
+played in for that season and grade (read from the page address and
+`teams.json`), so `2026/7th/index.html?team=Pleasant+Plains` opens Class 3A. A
 coach can share one link so every recipient sees their own school's
 highlights, trophies and class. The choice replaces the recipient's saved team.
 Settings' share icon (beside *Clear*; Apple's box-and-arrow on iPhone, iPad and
