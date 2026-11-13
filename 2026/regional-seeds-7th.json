@@ -1,1995 +1,1995 @@
-﻿{
-    "updatedAt":  "2026-11-13 09:38",
-    "year":  2026,
-    "grade":  "7th",
-    "regionalBrackets":  {
-                             "1":  {
-                                       "seeds":  [
-                                                     {
-                                                         "seed":  1,
-                                                         "team":  "Lockport Kelvin Grove"
-                                                     },
-                                                     {
-                                                         "seed":  2,
-                                                         "team":  "Riverdale Washington"
-                                                     },
-                                                     {
-                                                         "seed":  3,
-                                                         "team":  "Burr Ridge MS"
-                                                     },
-                                                     {
-                                                         "seed":  4,
-                                                         "team":  "Markham Obama"
-                                                     }
-                                                 ],
-                                       "rounds":  [
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Lockport Kelvin Grove",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Lockport Kelvin Grove",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Markham Obama",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Markham Obama",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Riverdale Washington",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Riverdale Washington",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Burr Ridge MS",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Burr Ridge MS",
-                                                              "bye":  true
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Lockport Kelvin Grove",
-                                                                            "Markham Obama"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Riverdale Washington",
-                                                                            "Burr Ridge MS"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            null,
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ]
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=1",
-                                       "host":  "Lockport Kelvin Grove",
-                                       "missingSeed":  null
-                                   },
-                             "2":  {
-                                       "seeds":  [
-                                                     {
-                                                         "seed":  1,
-                                                         "team":  "Joliet Laraway"
-                                                     },
-                                                     {
-                                                         "seed":  2,
-                                                         "team":  "Seneca"
-                                                     },
-                                                     {
-                                                         "seed":  3,
-                                                         "team":  "Dwight"
-                                                     },
-                                                     {
-                                                         "seed":  4,
-                                                         "team":  "Kankakee Bishop McNamara"
-                                                     },
-                                                     {
-                                                         "seed":  5,
-                                                         "team":  "Momence JHS"
-                                                     },
-                                                     {
-                                                         "seed":  6,
-                                                         "team":  "Marseilles ES"
-                                                     }
-                                                 ],
-                                       "rounds":  [
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Joliet Laraway",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Joliet Laraway",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Kankakee Bishop McNamara",
-                                                                            "Momence JHS"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Seneca",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Seneca",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Dwight",
-                                                                            "Marseilles ES"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Joliet Laraway",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Seneca",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            null,
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ]
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=2",
-                                       "host":  "Joliet Laraway",
-                                       "missingSeed":  null
-                                   },
-                             "3":  {
-                                       "seeds":  [
-                                                     {
-                                                         "seed":  1,
-                                                         "team":  "Ottawa Wallace"
-                                                     },
-                                                     {
-                                                         "seed":  2,
-                                                         "team":  "Serena"
-                                                     },
-                                                     {
-                                                         "seed":  3,
-                                                         "team":  "Oglesby Washington"
-                                                     },
-                                                     {
-                                                         "seed":  4,
-                                                         "team":  "Somonauk"
-                                                     },
-                                                     {
-                                                         "seed":  5,
-                                                         "team":  "Waterman Indian Creek"
-                                                     },
-                                                     {
-                                                         "seed":  6,
-                                                         "team":  "Rockford Montessori"
-                                                     }
-                                                 ],
-                                       "rounds":  [
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Ottawa Wallace",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Ottawa Wallace",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Somonauk",
-                                                                            "Waterman Indian Creek"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Serena",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Serena",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Oglesby Washington",
-                                                                            "Rockford Montessori"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Ottawa Wallace",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Serena",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            null,
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ]
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=3",
-                                       "host":  "Rockford Montessori",
-                                       "missingSeed":  null
-                                   },
-                             "4":  {
-                                       "seeds":  [
-                                                     {
-                                                         "seed":  1,
-                                                         "team":  "Manlius Bureau Valley JHS"
-                                                     },
-                                                     {
-                                                         "seed":  2,
-                                                         "team":  "Sparland Midland"
-                                                     },
-                                                     {
-                                                         "seed":  3,
-                                                         "team":  "Princeville"
-                                                     },
-                                                     {
-                                                         "seed":  4,
-                                                         "team":  "Wenona Fieldcrest"
-                                                     },
-                                                     {
-                                                         "seed":  5,
-                                                         "team":  "Spring Valley Kennedy"
-                                                     },
-                                                     {
-                                                         "seed":  6,
-                                                         "team":  "McNabb Putnam County"
-                                                     },
-                                                     {
-                                                         "seed":  7,
-                                                         "team":  "Toulon Stark County"
-                                                     }
-                                                 ],
-                                       "rounds":  [
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Manlius Bureau Valley JHS",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Manlius Bureau Valley JHS",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Wenona Fieldcrest",
-                                                                            "Spring Valley Kennedy"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Sparland Midland",
-                                                                            "Toulon Stark County"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Princeville",
-                                                                            "McNabb Putnam County"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Manlius Bureau Valley JHS",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            null,
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            null,
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ]
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=4",
-                                       "host":  "Wenona Fieldcrest",
-                                       "missingSeed":  null
-                                   },
-                             "5":  {
-                                       "seeds":  [
-                                                     {
-                                                         "seed":  1,
-                                                         "team":  "Champaign St. Matthew"
-                                                     },
-                                                     {
-                                                         "seed":  2,
-                                                         "team":  "Oakwood GS"
-                                                     },
-                                                     {
-                                                         "seed":  3,
-                                                         "team":  "Champaign International"
-                                                     },
-                                                     {
-                                                         "seed":  4,
-                                                         "team":  "Fisher"
-                                                     },
-                                                     {
-                                                         "seed":  5,
-                                                         "team":  "Bismarck-Henning"
-                                                     },
-                                                     {
-                                                         "seed":  6,
-                                                         "team":  "Georgetown Mary Miller"
-                                                     }
-                                                 ],
-                                       "rounds":  [
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Champaign St. Matthew",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Champaign St. Matthew",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Fisher",
-                                                                            "Bismarck-Henning"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Oakwood GS",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Oakwood GS",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Champaign International",
-                                                                            "Georgetown Mary Miller"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Champaign St. Matthew",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Oakwood GS",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            null,
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ]
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=5",
-                                       "host":  "Oakwood GS",
-                                       "missingSeed":  null
-                                   },
-                             "6":  {
-                                       "seeds":  [
-                                                     {
-                                                         "seed":  1,
-                                                         "team":  "Bloomington Corpus Christi"
-                                                     },
-                                                     {
-                                                         "seed":  2,
-                                                         "team":  "Normal Epiphany"
-                                                     },
-                                                     {
-                                                         "seed":  3,
-                                                         "team":  "LeRoy"
-                                                     },
-                                                     {
-                                                         "seed":  4,
-                                                         "team":  "Normal Metcalf"
-                                                     },
-                                                     {
-                                                         "seed":  5,
-                                                         "team":  "Gibson City GCMS"
-                                                     },
-                                                     {
-                                                         "seed":  6,
-                                                         "team":  "Mansfield Blue Ridge IJHS (Co-op)"
-                                                     },
-                                                     {
-                                                         "seed":  7,
-                                                         "team":  "Bloomington Cornerstone"
-                                                     }
-                                                 ],
-                                       "rounds":  [
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Bloomington Corpus Christi",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Bloomington Corpus Christi",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Normal Metcalf",
-                                                                            "Gibson City GCMS"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Normal Epiphany",
-                                                                            "Bloomington Cornerstone"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "LeRoy",
-                                                                            "Mansfield Blue Ridge IJHS (Co-op)"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Bloomington Corpus Christi",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            null,
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            null,
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ]
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=6",
-                                       "host":  "Normal Epiphany",
-                                       "missingSeed":  null
-                                   },
-                             "7":  {
-                                       "seeds":  [
-                                                     {
-                                                         "seed":  1,
-                                                         "team":  "Peoria St. Philomena"
-                                                     },
-                                                     {
-                                                         "seed":  2,
-                                                         "team":  "Marquette Heights Georgetowne"
-                                                     },
-                                                     {
-                                                         "seed":  3,
-                                                         "team":  "Peoria Heights GS"
-                                                     },
-                                                     {
-                                                         "seed":  4,
-                                                         "team":  "Peoria St. Vincent de Paul (Co-op)"
-                                                     },
-                                                     {
-                                                         "seed":  5,
-                                                         "team":  "Green Valley Midwest Central"
-                                                     },
-                                                     {
-                                                         "seed":  6,
-                                                         "team":  "Creve Coeur Parkview"
-                                                     },
-                                                     {
-                                                         "seed":  7,
-                                                         "team":  "Washington Beverly Manor"
-                                                     }
-                                                 ],
-                                       "rounds":  [
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Peoria St. Philomena",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Peoria St. Philomena",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Peoria St. Vincent de Paul (Co-op)",
-                                                                            "Green Valley Midwest Central"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Marquette Heights Georgetowne",
-                                                                            "Washington Beverly Manor"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Peoria Heights GS",
-                                                                            "Creve Coeur Parkview"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Peoria St. Philomena",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            null,
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            null,
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ]
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=7",
-                                       "host":  "Peoria St. Philomena",
-                                       "missingSeed":  null
-                                   },
-                             "8":  {
-                                       "seeds":  [
-                                                     {
-                                                         "seed":  1,
-                                                         "team":  "Glasford Illini Bluffs"
-                                                     },
-                                                     {
-                                                         "seed":  2,
-                                                         "team":  "Elmwood"
-                                                     },
-                                                     {
-                                                         "seed":  3,
-                                                         "team":  "London Mills Valley (Co-op)"
-                                                     },
-                                                     {
-                                                         "seed":  4,
-                                                         "team":  "Brimfield"
-                                                     },
-                                                     {
-                                                         "seed":  5,
-                                                         "team":  "Knoxville JHS"
-                                                     },
-                                                     {
-                                                         "seed":  6,
-                                                         "team":  "Williamsfield (Co-op)"
-                                                     },
-                                                     {
-                                                         "seed":  7,
-                                                         "team":  "Bartonville GS (Co-op)"
-                                                     }
-                                                 ],
-                                       "rounds":  [
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Glasford Illini Bluffs",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Glasford Illini Bluffs",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Brimfield",
-                                                                            "Knoxville JHS"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Elmwood",
-                                                                            "Bartonville GS (Co-op)"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "London Mills Valley (Co-op)",
-                                                                            "Williamsfield (Co-op)"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Glasford Illini Bluffs",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            null,
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            null,
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ]
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=8",
-                                       "host":  "Glasford Illini Bluffs",
-                                       "missingSeed":  null
-                                   },
-                             "9":  {
-                                       "seeds":  [
-                                                     {
-                                                         "seed":  1,
-                                                         "team":  "Lewistown JHS"
-                                                     },
-                                                     {
-                                                         "seed":  2,
-                                                         "team":  "Stronghurst West Central"
-                                                     },
-                                                     {
-                                                         "seed":  3,
-                                                         "team":  "Rushville Schuyler Industry"
-                                                     },
-                                                     {
-                                                         "seed":  4,
-                                                         "team":  "Havana"
-                                                     },
-                                                     {
-                                                         "seed":  5,
-                                                         "team":  "Bushnell-Prairie City"
-                                                     },
-                                                     {
-                                                         "seed":  6,
-                                                         "team":  "Colchester West Prairie"
-                                                     }
-                                                 ],
-                                       "rounds":  [
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Lewistown JHS",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Lewistown JHS",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Havana",
-                                                                            "Bushnell-Prairie City"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Stronghurst West Central",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  "Stronghurst West Central",
-                                                              "bye":  true
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Rushville Schuyler Industry",
-                                                                            "Colchester West Prairie"
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            "Lewistown JHS",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          },
-                                                          {
-                                                              "teams":  [
-                                                                            "Stronghurst West Central",
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ],
-                                                      [
-                                                          {
-                                                              "teams":  [
-                                                                            null,
-                                                                            null
-                                                                        ],
-                                                              "scores":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                              "winner":  null,
-                                                              "bye":  false
-                                                          }
-                                                      ]
-                                                  ],
-                                       "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=9",
-                                       "host":  "Lewistown JHS",
-                                       "missingSeed":  null
-                                   },
-                             "10":  {
-                                        "seeds":  [
-                                                      {
-                                                          "seed":  1,
-                                                          "team":  "Mt. Sterling Brown County (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  2,
-                                                          "team":  "Carthage"
-                                                      },
-                                                      {
-                                                          "seed":  3,
-                                                          "team":  "Nauvoo-Colusa"
-                                                      },
-                                                      {
-                                                          "seed":  4,
-                                                          "team":  "Mendon Unity"
-                                                      },
-                                                      {
-                                                          "seed":  5,
-                                                          "team":  "Liberty"
-                                                      },
-                                                      {
-                                                          "seed":  6,
-                                                          "team":  "Camp Point Central"
-                                                      }
-                                                  ],
-                                        "rounds":  [
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Mt. Sterling Brown County (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  "Mt. Sterling Brown County (Co-op)",
-                                                               "bye":  true
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Mendon Unity",
-                                                                             "Liberty"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Carthage",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  "Carthage",
-                                                               "bye":  true
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Nauvoo-Colusa",
-                                                                             "Camp Point Central"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Mt. Sterling Brown County (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Carthage",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ]
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=10",
-                                        "host":  "Liberty",
-                                        "missingSeed":  null
-                                    },
-                             "11":  {
-                                        "seeds":  [
-                                                      {
-                                                          "seed":  1,
-                                                          "team":  "Lincoln Chester-East Lincoln (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  2,
-                                                          "team":  "Decatur Robertson"
-                                                      },
-                                                      {
-                                                          "seed":  3,
-                                                          "team":  "Cerro Gordo (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  4,
-                                                          "team":  "Mt. Pulaski (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  5,
-                                                          "team":  "Warrensburg-Latham"
-                                                      },
-                                                      {
-                                                          "seed":  6,
-                                                          "team":  "Decatur Hope"
-                                                      },
-                                                      {
-                                                          "seed":  7,
-                                                          "team":  "Argenta-Oreana"
-                                                      }
-                                                  ],
-                                        "rounds":  [
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Lincoln Chester-East Lincoln (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  "Lincoln Chester-East Lincoln (Co-op)",
-                                                               "bye":  true
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Mt. Pulaski (Co-op)",
-                                                                             "Warrensburg-Latham"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Decatur Robertson",
-                                                                             "Argenta-Oreana"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Cerro Gordo (Co-op)",
-                                                                             "Decatur Hope"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Lincoln Chester-East Lincoln (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ]
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=11",
-                                        "host":  "Cerro Gordo",
-                                        "missingSeed":  null
-                                    },
-                             "12":  {
-                                        "seeds":  [
-                                                      {
-                                                          "seed":  1,
-                                                          "team":  "Macon Meridian"
-                                                      },
-                                                      {
-                                                          "seed":  2,
-                                                          "team":  "Assumption Central A \u0026 M"
-                                                      },
-                                                      {
-                                                          "seed":  3,
-                                                          "team":  "Decatur Montessori Academy for Peace"
-                                                      },
-                                                      {
-                                                          "seed":  4,
-                                                          "team":  "Decatur Our Lady of Lourdes (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  5,
-                                                          "team":  "Nokomis JHS (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  6,
-                                                          "team":  "Decatur Dansby"
-                                                      }
-                                                  ],
-                                        "rounds":  [
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Macon Meridian",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  "Macon Meridian",
-                                                               "bye":  true
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Decatur Our Lady of Lourdes (Co-op)",
-                                                                             "Nokomis JHS (Co-op)"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Assumption Central A \u0026 M",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  "Assumption Central A \u0026 M",
-                                                               "bye":  true
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Decatur Montessori Academy for Peace",
-                                                                             "Decatur Dansby"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Macon Meridian",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Assumption Central A \u0026 M",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ]
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=12",
-                                        "host":  "Nokomis JHS",
-                                        "missingSeed":  null
-                                    },
-                             "13":  {
-                                        "seeds":  [
-                                                      {
-                                                          "seed":  1,
-                                                          "team":  "Albion (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  2,
-                                                          "team":  "Paris Crestwood"
-                                                      },
-                                                      {
-                                                          "seed":  3,
-                                                          "team":  "Arcola"
-                                                      },
-                                                      {
-                                                          "seed":  4,
-                                                          "team":  "Mattoon St. John\u0027s"
-                                                      },
-                                                      {
-                                                          "seed":  5,
-                                                          "team":  "Dieterich"
-                                                      },
-                                                      {
-                                                          "seed":  6,
-                                                          "team":  "Casey-Westfield"
-                                                      },
-                                                      {
-                                                          "seed":  7,
-                                                          "team":  "Oblong"
-                                                      }
-                                                  ],
-                                        "rounds":  [
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Albion (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  "Albion (Co-op)",
-                                                               "bye":  true
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Mattoon St. John\u0027s",
-                                                                             "Dieterich"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Paris Crestwood",
-                                                                             "Oblong"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Arcola",
-                                                                             "Casey-Westfield"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Albion (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ]
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=13",
-                                        "host":  "Albion",
-                                        "missingSeed":  null
-                                    },
-                             "14":  {
-                                        "seeds":  [
-                                                      {
-                                                          "seed":  1,
-                                                          "team":  "Brownstown (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  2,
-                                                          "team":  "Stewardson-Strasburg (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  3,
-                                                          "team":  "Altamont (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  4,
-                                                          "team":  "Beecher City (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  5,
-                                                          "team":  "Effingham St. Anthony"
-                                                      },
-                                                      {
-                                                          "seed":  6,
-                                                          "team":  "Kinmundy South Central (Co-op)"
-                                                      }
-                                                  ],
-                                        "rounds":  [
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Brownstown (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  "Brownstown (Co-op)",
-                                                               "bye":  true
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Beecher City (Co-op)",
-                                                                             "Effingham St. Anthony"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Stewardson-Strasburg (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  "Stewardson-Strasburg (Co-op)",
-                                                               "bye":  true
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Altamont (Co-op)",
-                                                                             "Kinmundy South Central (Co-op)"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Brownstown (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Stewardson-Strasburg (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ]
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=14",
-                                        "host":  "Stewardson-Strasburg",
-                                        "missingSeed":  null
-                                    },
-                             "15":  {
-                                        "seeds":  [
-                                                      {
-                                                          "seed":  1,
-                                                          "team":  "Morrisonville JHS (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  2,
-                                                          "team":  "Bluffs (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  3,
-                                                          "team":  "Springfield Blessed Sacrament"
-                                                      },
-                                                      {
-                                                          "seed":  4,
-                                                          "team":  "Springfield Christ the King"
-                                                      },
-                                                      {
-                                                          "seed":  5,
-                                                          "team":  "Springfield Christian"
-                                                      },
-                                                      {
-                                                          "seed":  6,
-                                                          "team":  "Petersburg PORTA JHS"
-                                                      }
-                                                  ],
-                                        "rounds":  [
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Morrisonville JHS (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  "Morrisonville JHS (Co-op)",
-                                                               "bye":  true
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Springfield Christ the King",
-                                                                             "Springfield Christian"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Bluffs (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  "Bluffs (Co-op)",
-                                                               "bye":  true
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Springfield Blessed Sacrament",
-                                                                             "Petersburg PORTA JHS"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Morrisonville JHS (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Bluffs (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ]
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=15",
-                                        "host":  "Springfield Blessed Sacrament",
-                                        "missingSeed":  null
-                                    },
-                             "16":  {
-                                        "seeds":  [
-                                                      {
-                                                          "seed":  1,
-                                                          "team":  "Hardin Calhoun (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  2,
-                                                          "team":  "Maryville Christian"
-                                                      },
-                                                      {
-                                                          "seed":  3,
-                                                          "team":  "Greenfield (Co-op)"
-                                                      },
-                                                      {
-                                                          "seed":  4,
-                                                          "team":  "White Hall North Greene"
-                                                      },
-                                                      {
-                                                          "seed":  5,
-                                                          "team":  "Wood River Lewis \u0026 Clark"
-                                                      },
-                                                      {
-                                                          "seed":  6,
-                                                          "team":  "Bunker Hill Wolf Ridge"
-                                                      },
-                                                      {
-                                                          "seed":  7,
-                                                          "team":  "East Alton MS"
-                                                      }
-                                                  ],
-                                        "rounds":  [
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Hardin Calhoun (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  "Hardin Calhoun (Co-op)",
-                                                               "bye":  true
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "White Hall North Greene",
-                                                                             "Wood River Lewis \u0026 Clark"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Maryville Christian",
-                                                                             "East Alton MS"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             "Greenfield (Co-op)",
-                                                                             "Bunker Hill Wolf Ridge"
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             "Hardin Calhoun (Co-op)",
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           },
-                                                           {
-                                                               "teams":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ],
-                                                       [
-                                                           {
-                                                               "teams":  [
-                                                                             null,
-                                                                             null
-                                                                         ],
-                                                               "scores":  [
-                                                                              null,
-                                                                              null
-                                                                          ],
-                                                               "winner":  null,
-                                                               "bye":  false
-                                                           }
-                                                       ]
-                                                   ],
-                                        "sourceUrl":  "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026\u0026Class=7-2A\u0026Regional=16",
-                                        "host":  "Greenfield",
-                                        "missingSeed":  null
-                                    }
-                         }
+{
+  "updatedAt": "2026-11-13 19:19",
+  "year": 2026,
+  "grade": "7th",
+  "regionalBrackets": {
+    "1": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Lockport Kelvin Grove"
+        },
+        {
+          "seed": 2,
+          "team": "Riverdale Washington"
+        },
+        {
+          "seed": 3,
+          "team": "Burr Ridge MS"
+        },
+        {
+          "seed": 4,
+          "team": "Markham Obama"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Lockport Kelvin Grove",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Lockport Kelvin Grove",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Markham Obama",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Markham Obama",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Riverdale Washington",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Riverdale Washington",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Burr Ridge MS",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Burr Ridge MS",
+            "bye": true
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Lockport Kelvin Grove",
+              "Markham Obama"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Riverdale Washington",
+              "Burr Ridge MS"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=1",
+      "host": "Lockport Kelvin Grove",
+      "missingSeed": null
+    },
+    "2": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Joliet Laraway"
+        },
+        {
+          "seed": 2,
+          "team": "Seneca"
+        },
+        {
+          "seed": 3,
+          "team": "Dwight"
+        },
+        {
+          "seed": 4,
+          "team": "Kankakee Bishop McNamara"
+        },
+        {
+          "seed": 5,
+          "team": "Momence JHS"
+        },
+        {
+          "seed": 6,
+          "team": "Marseilles ES"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Joliet Laraway",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Joliet Laraway",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Kankakee Bishop McNamara",
+              "Momence JHS"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Seneca",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Seneca",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Dwight",
+              "Marseilles ES"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Joliet Laraway",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Seneca",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=2",
+      "host": "Joliet Laraway",
+      "missingSeed": null
+    },
+    "3": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Ottawa Wallace"
+        },
+        {
+          "seed": 2,
+          "team": "Serena"
+        },
+        {
+          "seed": 3,
+          "team": "Oglesby Washington"
+        },
+        {
+          "seed": 4,
+          "team": "Somonauk"
+        },
+        {
+          "seed": 5,
+          "team": "Waterman Indian Creek"
+        },
+        {
+          "seed": 6,
+          "team": "Rockford Montessori"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Ottawa Wallace",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Ottawa Wallace",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Somonauk",
+              "Waterman Indian Creek"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Serena",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Serena",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Oglesby Washington",
+              "Rockford Montessori"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Ottawa Wallace",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Serena",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=3",
+      "host": "Rockford Montessori",
+      "missingSeed": null
+    },
+    "4": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Manlius Bureau Valley JHS"
+        },
+        {
+          "seed": 2,
+          "team": "Sparland Midland"
+        },
+        {
+          "seed": 3,
+          "team": "Princeville"
+        },
+        {
+          "seed": 4,
+          "team": "Wenona Fieldcrest"
+        },
+        {
+          "seed": 5,
+          "team": "Spring Valley Kennedy"
+        },
+        {
+          "seed": 6,
+          "team": "McNabb Putnam County"
+        },
+        {
+          "seed": 7,
+          "team": "Toulon Stark County"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Manlius Bureau Valley JHS",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Manlius Bureau Valley JHS",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Wenona Fieldcrest",
+              "Spring Valley Kennedy"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Sparland Midland",
+              "Toulon Stark County"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Princeville",
+              "McNabb Putnam County"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Manlius Bureau Valley JHS",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=4",
+      "host": "Wenona Fieldcrest",
+      "missingSeed": null
+    },
+    "5": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Champaign St. Matthew"
+        },
+        {
+          "seed": 2,
+          "team": "Oakwood GS"
+        },
+        {
+          "seed": 3,
+          "team": "Champaign International"
+        },
+        {
+          "seed": 4,
+          "team": "Fisher"
+        },
+        {
+          "seed": 5,
+          "team": "Bismarck-Henning"
+        },
+        {
+          "seed": 6,
+          "team": "Georgetown Mary Miller"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Champaign St. Matthew",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Champaign St. Matthew",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Fisher",
+              "Bismarck-Henning"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Oakwood GS",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Oakwood GS",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Champaign International",
+              "Georgetown Mary Miller"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Champaign St. Matthew",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Oakwood GS",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=5",
+      "host": "Oakwood GS",
+      "missingSeed": null
+    },
+    "6": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Bloomington Corpus Christi"
+        },
+        {
+          "seed": 2,
+          "team": "Normal Epiphany"
+        },
+        {
+          "seed": 3,
+          "team": "LeRoy"
+        },
+        {
+          "seed": 4,
+          "team": "Normal Metcalf"
+        },
+        {
+          "seed": 5,
+          "team": "Gibson City GCMS"
+        },
+        {
+          "seed": 6,
+          "team": "Mansfield Blue Ridge IJHS (Co-op)"
+        },
+        {
+          "seed": 7,
+          "team": "Bloomington Cornerstone"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Bloomington Corpus Christi",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Bloomington Corpus Christi",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Normal Metcalf",
+              "Gibson City GCMS"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Normal Epiphany",
+              "Bloomington Cornerstone"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "LeRoy",
+              "Mansfield Blue Ridge IJHS (Co-op)"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Bloomington Corpus Christi",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=6",
+      "host": "Normal Epiphany",
+      "missingSeed": null
+    },
+    "7": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Peoria St. Philomena"
+        },
+        {
+          "seed": 2,
+          "team": "Marquette Heights Georgetowne"
+        },
+        {
+          "seed": 3,
+          "team": "Peoria Heights GS"
+        },
+        {
+          "seed": 4,
+          "team": "Peoria St. Vincent de Paul (Co-op)"
+        },
+        {
+          "seed": 5,
+          "team": "Green Valley Midwest Central"
+        },
+        {
+          "seed": 6,
+          "team": "Creve Coeur Parkview"
+        },
+        {
+          "seed": 7,
+          "team": "Washington Beverly Manor"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Peoria St. Philomena",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Peoria St. Philomena",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Peoria St. Vincent de Paul (Co-op)",
+              "Green Valley Midwest Central"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Marquette Heights Georgetowne",
+              "Washington Beverly Manor"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Peoria Heights GS",
+              "Creve Coeur Parkview"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Peoria St. Philomena",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=7",
+      "host": "Peoria St. Philomena",
+      "missingSeed": null
+    },
+    "8": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Glasford Illini Bluffs"
+        },
+        {
+          "seed": 2,
+          "team": "Elmwood"
+        },
+        {
+          "seed": 3,
+          "team": "London Mills Valley (Co-op)"
+        },
+        {
+          "seed": 4,
+          "team": "Brimfield"
+        },
+        {
+          "seed": 5,
+          "team": "Knoxville JHS"
+        },
+        {
+          "seed": 6,
+          "team": "Williamsfield (Co-op)"
+        },
+        {
+          "seed": 7,
+          "team": "Bartonville GS (Co-op)"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Glasford Illini Bluffs",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Glasford Illini Bluffs",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Brimfield",
+              "Knoxville JHS"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Elmwood",
+              "Bartonville GS (Co-op)"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "London Mills Valley (Co-op)",
+              "Williamsfield (Co-op)"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Glasford Illini Bluffs",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=8",
+      "host": "Glasford Illini Bluffs",
+      "missingSeed": null
+    },
+    "9": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Lewistown JHS"
+        },
+        {
+          "seed": 2,
+          "team": "Stronghurst West Central"
+        },
+        {
+          "seed": 3,
+          "team": "Rushville Schuyler Industry"
+        },
+        {
+          "seed": 4,
+          "team": "Havana"
+        },
+        {
+          "seed": 5,
+          "team": "Bushnell-Prairie City"
+        },
+        {
+          "seed": 6,
+          "team": "Colchester West Prairie"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Lewistown JHS",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Lewistown JHS",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Havana",
+              "Bushnell-Prairie City"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Stronghurst West Central",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Stronghurst West Central",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Rushville Schuyler Industry",
+              "Colchester West Prairie"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Lewistown JHS",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Stronghurst West Central",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=9",
+      "host": "Lewistown JHS",
+      "missingSeed": null
+    },
+    "10": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Mt. Sterling Brown County (Co-op)"
+        },
+        {
+          "seed": 2,
+          "team": "Carthage"
+        },
+        {
+          "seed": 3,
+          "team": "Nauvoo-Colusa"
+        },
+        {
+          "seed": 4,
+          "team": "Mendon Unity"
+        },
+        {
+          "seed": 5,
+          "team": "Liberty"
+        },
+        {
+          "seed": 6,
+          "team": "Camp Point Central"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Mt. Sterling Brown County (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Mt. Sterling Brown County (Co-op)",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Mendon Unity",
+              "Liberty"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Carthage",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Carthage",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Nauvoo-Colusa",
+              "Camp Point Central"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Mt. Sterling Brown County (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Carthage",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=10",
+      "host": "Liberty",
+      "missingSeed": null
+    },
+    "11": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Lincoln Chester-East Lincoln (Co-op)"
+        },
+        {
+          "seed": 2,
+          "team": "Decatur Robertson"
+        },
+        {
+          "seed": 3,
+          "team": "Cerro Gordo (Co-op)"
+        },
+        {
+          "seed": 4,
+          "team": "Mt. Pulaski (Co-op)"
+        },
+        {
+          "seed": 5,
+          "team": "Warrensburg-Latham"
+        },
+        {
+          "seed": 6,
+          "team": "Decatur Hope"
+        },
+        {
+          "seed": 7,
+          "team": "Argenta-Oreana"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Lincoln Chester-East Lincoln (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Lincoln Chester-East Lincoln (Co-op)",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Mt. Pulaski (Co-op)",
+              "Warrensburg-Latham"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Decatur Robertson",
+              "Argenta-Oreana"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Cerro Gordo (Co-op)",
+              "Decatur Hope"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Lincoln Chester-East Lincoln (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=11",
+      "host": "Cerro Gordo",
+      "missingSeed": null
+    },
+    "12": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Macon Meridian"
+        },
+        {
+          "seed": 2,
+          "team": "Assumption Central A & M"
+        },
+        {
+          "seed": 3,
+          "team": "Decatur Montessori Academy for Peace"
+        },
+        {
+          "seed": 4,
+          "team": "Decatur Our Lady of Lourdes (Co-op)"
+        },
+        {
+          "seed": 5,
+          "team": "Nokomis JHS (Co-op)"
+        },
+        {
+          "seed": 6,
+          "team": "Decatur Dansby"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Macon Meridian",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Macon Meridian",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Decatur Our Lady of Lourdes (Co-op)",
+              "Nokomis JHS (Co-op)"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Assumption Central A & M",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Assumption Central A & M",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Decatur Montessori Academy for Peace",
+              "Decatur Dansby"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Macon Meridian",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Assumption Central A & M",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=12",
+      "host": "Nokomis JHS",
+      "missingSeed": null
+    },
+    "13": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Albion (Co-op)"
+        },
+        {
+          "seed": 2,
+          "team": "Paris Crestwood"
+        },
+        {
+          "seed": 3,
+          "team": "Arcola"
+        },
+        {
+          "seed": 4,
+          "team": "Mattoon St. John's"
+        },
+        {
+          "seed": 5,
+          "team": "Dieterich"
+        },
+        {
+          "seed": 6,
+          "team": "Casey-Westfield"
+        },
+        {
+          "seed": 7,
+          "team": "Oblong"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Albion (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Albion (Co-op)",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Mattoon St. John's",
+              "Dieterich"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Paris Crestwood",
+              "Oblong"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Arcola",
+              "Casey-Westfield"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Albion (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=13",
+      "host": "Albion",
+      "missingSeed": null
+    },
+    "14": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Brownstown (Co-op)"
+        },
+        {
+          "seed": 2,
+          "team": "Stewardson-Strasburg (Co-op)"
+        },
+        {
+          "seed": 3,
+          "team": "Altamont (Co-op)"
+        },
+        {
+          "seed": 4,
+          "team": "Beecher City (Co-op)"
+        },
+        {
+          "seed": 5,
+          "team": "Effingham St. Anthony"
+        },
+        {
+          "seed": 6,
+          "team": "Kinmundy South Central (Co-op)"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Brownstown (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Brownstown (Co-op)",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Beecher City (Co-op)",
+              "Effingham St. Anthony"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Stewardson-Strasburg (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Stewardson-Strasburg (Co-op)",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Altamont (Co-op)",
+              "Kinmundy South Central (Co-op)"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Brownstown (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Stewardson-Strasburg (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=14",
+      "host": "Stewardson-Strasburg",
+      "missingSeed": null
+    },
+    "15": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Morrisonville JHS (Co-op)"
+        },
+        {
+          "seed": 2,
+          "team": "Bluffs (Co-op)"
+        },
+        {
+          "seed": 3,
+          "team": "Springfield Blessed Sacrament"
+        },
+        {
+          "seed": 4,
+          "team": "Springfield Christ the King"
+        },
+        {
+          "seed": 5,
+          "team": "Springfield Christian"
+        },
+        {
+          "seed": 6,
+          "team": "Petersburg PORTA JHS"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Morrisonville JHS (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Morrisonville JHS (Co-op)",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Springfield Christ the King",
+              "Springfield Christian"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Bluffs (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Bluffs (Co-op)",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Springfield Blessed Sacrament",
+              "Petersburg PORTA JHS"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Morrisonville JHS (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Bluffs (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=15",
+      "host": "Springfield Blessed Sacrament",
+      "missingSeed": null
+    },
+    "16": {
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Hardin Calhoun (Co-op)"
+        },
+        {
+          "seed": 2,
+          "team": "Maryville Christian"
+        },
+        {
+          "seed": 3,
+          "team": "Greenfield (Co-op)"
+        },
+        {
+          "seed": 4,
+          "team": "White Hall North Greene"
+        },
+        {
+          "seed": 5,
+          "team": "Wood River Lewis & Clark"
+        },
+        {
+          "seed": 6,
+          "team": "Bunker Hill Wolf Ridge"
+        },
+        {
+          "seed": 7,
+          "team": "East Alton MS"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Hardin Calhoun (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Hardin Calhoun (Co-op)",
+            "bye": true
+          },
+          {
+            "teams": [
+              "White Hall North Greene",
+              "Wood River Lewis & Clark"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Maryville Christian",
+              "East Alton MS"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Greenfield (Co-op)",
+              "Bunker Hill Wolf Ridge"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Hardin Calhoun (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
+      "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_7.asp?Year=2026&Class=7-2A&Regional=16",
+      "host": "Greenfield",
+      "missingSeed": null
+    }
+  }
 }

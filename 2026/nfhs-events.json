@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13 03:22",
+  "updatedAt": "2026-11-13 19:17",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -87,12 +87,6 @@
         "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gamd209a873ef",
         "label": "Chillicothe Junior High School vs. Brimfield",
         "start": "2026-11-09T23:00:00.000Z"
-      },
-      {
-        "key": "gam2be601e32d",
-        "url": "https://www.nfhsnetwork.com/events/orion-high-school-orion-il/gam2be601e32d",
-        "label": "Brimfield vs. Orion",
-        "start": "2026-11-14T16:00:00.000Z"
       },
       {
         "key": "gama38786baee",
@@ -551,12 +545,6 @@
         "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gama65bc73b2e",
         "label": "Teams TBD",
         "start": "2026-11-12T22:30:00.000Z"
-      },
-      {
-        "key": "gam24aa356e28",
-        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam24aa356e28",
-        "label": "Teams TBD",
-        "start": "2026-11-13T22:30:00.000Z"
       },
       {
         "key": "gamd83f770377",
