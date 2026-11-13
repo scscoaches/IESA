@@ -138,7 +138,9 @@
                 return (positions[column - 1][2 * index].y + positions[column - 1][2 * index + 1].y) / 2;
             });
         var x = 30 + column * columnWidth;
-        addElement(bracket, "div", "stage", round).style.left = x + "px";
+        var stage = addElement(bracket, "div", "stage", round);
+        stage.style.left = x + "px";
+        if (round === "State Championship") { stage.classList.add("championship-stage"); }
         positions.push(games.map(function (game, index) {
             var center = centers[index];
             var card = addElement(bracket, "article", "match archive-match" +

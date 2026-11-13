@@ -79,6 +79,9 @@
     stages[stages.length - 1].style.left = legacy ? "1965px" : "1530px";
     stages[stages.length - 2].style.top = legacy ? "1580px" : "850px";
     stages[stages.length - 1].style.top = legacy ? "920px" : "410px";
+    // Centre the remaining Third Place / Championship labels over their cards.
+    stages[stages.length - 2].style.width = document.getElementById("third").offsetWidth + "px";
+    stages[stages.length - 1].style.width = document.getElementById("final").offsetWidth + "px";
 
     function edge(id, right) {
         var card = document.getElementById(id);

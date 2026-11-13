@@ -289,7 +289,8 @@
         var n = el("div", "stage", t);
         n.style.left = x + "px";
         if (sub) n.appendChild(el("small", "", sub));
-        b.appendChild(n)
+        b.appendChild(n);
+        return n
     }
 
     function wire(a, c) {
@@ -308,11 +309,11 @@
     title(35, "Regional Pool Play", "Arranged by state-bracket path");
     title(690, "Sectional Champions", d.sectionals.length + " sectional finals");
     if (d.firstRound) title(960, "State First Round", "Sixteen state qualifiers");
-    var stateDates = d.stateDate ? d.stateDate.split(",") : [];
-    title(1180, "State Quarterfinals", stateDates[0]);
-    title(1660, "Semifinals", stateDates[0]);
-    title(2140, "Third Place", stateDates[1] && stateDates[1].trim());
-    title(2620, "Championship", stateDates[1] && stateDates[1].trim());
+    function gameDate(game) { return game && game.date || undefined; }
+    title(1180, "State Quarterfinals", gameDate(d.quarterfinals && d.quarterfinals[0]));
+    title(1660, "Semifinals", gameDate(d.semifinals && d.semifinals[0]));
+    title(2140, "Third Place").classList.add("final-stage");
+    title(2620, "Championship").classList.add("final-stage", "championship-stage");
     sectionalOrder.forEach(function(id, i) {
         var q = d.sectionals[id - 1],
             top = 110 + i * 245;

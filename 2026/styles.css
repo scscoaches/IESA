@@ -29,6 +29,7 @@
 .projection-match{position:relative;padding:6px;border:1px solid #c8cfdd;border-radius:4px;background:#f7f8fc;font-size:11px;overflow-wrap:anywhere}
 .projection-team+.projection-team{margin-top:5px;padding-top:5px;border-top:1px solid #dce1ea}
 .projection-team{display:flex;align-items:baseline;gap:6px}
+.projection-team.my-team{margin-right:-3px;margin-left:-3px;padding:4px 6px 4px 10px;border-top-color:transparent;border-radius:3px}
 .projection-team-name{flex:1;min-width:0}
 .projection-standing{flex:none;margin-left:auto;white-space:nowrap;text-align:right}
 .projection-stage:not(:last-child) .projection-match:after{content:"";position:absolute;left:100%;top:50%;width:12px;border-top:1px solid #aeb8ca}
@@ -113,3 +114,5 @@
 .iesa-logo{display:flex;flex:none}.iesa-logo img{display:block;width:auto;height:46px}
 @media(max-width:680px){.iesa-logo img{height:30px}}
 @media(max-width:400px){.iesa-logo{display:none}}
+.stage.championship-stage{font-size:28px}
+.stage.final-stage{text-align:center}
