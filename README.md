@@ -168,8 +168,11 @@ same as picking it in Settings (the parameter stays in the address). A
 coach can share one link so every recipient sees their own school's
 highlights, trophies and class. The choice replaces the recipient's saved team.
 Settings' share icon (beside *Clear*; Apple's box-and-arrow on iPhone, iPad and
-Mac, Android's three connected dots elsewhere) copies the current page's link
-with the chosen team (Clipboard API, falling back to a hidden text area); the
+Mac, Android's three connected dots elsewhere) copies a link with the chosen
+team: on a bracket page it opens the class that team played in for the year
+and grade being viewed (otherwise, or when the class is unknown, the current
+page), so a link shared while reading another class still lands on the team's
+bracket. It uses the Clipboard API, falling back to a hidden text area; the
 icon turns into a check mark and a small "Link copied" bubble appears below it
 for a couple of seconds. It never opens a window, share sheet or prompt.
 

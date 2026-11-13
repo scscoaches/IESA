@@ -238,8 +238,23 @@
                 var shareStatus = element("span", "my-team-share-status", "");
                 shareStatus.setAttribute("role", "status");
                 var shareTimer = 0;
+                // On a bracket page the link opens the class this team played in for
+                // the year and grade being viewed, not the class the sharer is reading.
+                // Resolved now so the copy stays inside the click's user gesture.
+                var shareHref = window.location.href;
+                var data = window.tournamentData;
+                if (data && data.year && data.grade) {
+                    Promise.all([classFor(data.year, data.grade), load("seasons.json")]).then(function (loaded) {
+                        var teamClass = loaded[0];
+                        var season = (loaded[1] || []).filter(function (entry) { return entry.year === data.year; })[0];
+                        var classes = season ? (season.classes || [season.className]) : [];
+                        if (token === rendering && teamClass && classes.indexOf(teamClass) >= 0) {
+                            shareHref = pageUrl(season, teamClass, data.grade);
+                        }
+                    }).catch(function () { /* keep the current page */ });
+                }
                 share.addEventListener("click", function () {
-                    var url = new URL(window.location.href);
+                    var url = new URL(shareHref);
                     url.searchParams.delete("v");
                     url.searchParams.set("team", name);
                     var report = function (copied) {
