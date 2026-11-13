@@ -1,0 +1,170 @@
+.tools button#rankings-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+#rankings-button img {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+#rankings-dialog {
+    width: min(620px, calc(100% - 24px));
+    max-height: calc(100vh - 24px);
+    max-height: calc(100dvh - 24px);
+}
+
+/* Only the table scrolls; the title and class/grade buttons stay put. */
+#rankings-dialog[open] {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#rankings-dialog > * {
+    flex: none;
+}
+
+#rankings-dialog > .rankings-scroll {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+}
+
+.rankings-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    margin: 12px 0 10px;
+}
+
+.rankings-controls .updates-window {
+    margin: 0;
+}
+
+#rankings-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 12px;
+}
+
+/* Separate borders keep the sticky header opaque; collapsed ones let rows show through. */
+#rankings-table th,
+#rankings-table td {
+    padding: 6px 7px;
+    border: 0 solid #d8dce5;
+    border-width: 0 1px 1px 0;
+    text-align: right;
+    white-space: nowrap;
+}
+
+#rankings-table th:first-child,
+#rankings-table td:first-child {
+    border-left-width: 1px;
+}
+
+#rankings-table th {
+    border-top-width: 1px;
+}
+
+#rankings-table th:nth-child(2),
+#rankings-table td:nth-child(2) {
+    width: 100%;
+    text-align: left;
+    white-space: normal;
+}
+
+#rankings-table th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    color: #182035;
+    background: #f2f4f8;
+}
+
+#rankings-table th button {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#rankings-table th[aria-sort] button::after {
+    content: " \25BC";
+    font-size: 9px;
+}
+
+#rankings-table th[aria-sort="ascending"] button::after {
+    content: " \25B2";
+}
+
+#rankings-table tr.my-team-row td {
+    background: #fff0bd;
+    color: #522000;
+    font-weight: bold;
+}
+
+#rankings-table td.rankings-empty {
+    color: #68718a;
+    text-align: center;
+}
+
+.dark-theme #rankings-table td.rankings-empty {
+    color: #c3cde1;
+}
+
+.dark-theme #rankings-table th,
+.dark-theme #rankings-table td {
+    border-color: #536078;
+}
+
+.dark-theme #rankings-table th {
+    background: #31415a;
+    color: #f0f3fa;
+}
+
+.dark-theme #rankings-table tr.my-team-row td {
+    background: #8a6a0c;
+    color: #fff;
+}
+
+@media (max-width: 680px) {
+    #rankings-dialog {
+        padding: 10px;
+    }
+
+    #rankings-table {
+        font-size: 10px;
+    }
+
+    #rankings-table th,
+    #rankings-table td {
+        padding: 5px 3px;
+    }
+}
+
+@media (max-width: 455px) {
+    /* The rankings button needs the logo's room in the live header. */
+    .app.live .iesa-logo {
+        display: none;
+    }
+}
+
+@media (max-width: 430px) {
+    .tools button#rankings-button {
+        width: 34px;
+        min-width: 34px;
+    }
+}

@@ -221,10 +221,11 @@ the history; run them by hand at any time to re-check the history.
 
 On phones (680 px and below) the Fit and +/- buttons are hidden, as pinch-zoom
 replaces them (+/- are also hidden up to 760 px so small tablets fit), and the
-header keeps the year and class menus, grade buttons, settings, find and (on
+header keeps the year and class menus, grade buttons, settings, find, rankings and (on
 the live season) Score updates on one line down to 320 px: the title is hidden when a
 class menu is shown (the menus already identify the page), and on the live
-season below 430 px.
+season below 430 px. The IESA logo is hidden below 400 px, and on live pages
+below 455 px to make room for the rankings button.
 
 Archiving every class surfaced IESA data quirks the importers now handle
 generically: canceled regionals (`Regional 2 has been canceled`, with the
@@ -524,6 +525,19 @@ The team dialog shows the rank, opponents' win %, class mix (all scheduled
 games), record against 3A/4A, and wins over teams above .500. Each result row
 gets a class and record tag. If a fetch fails, the previous week's data is
 kept for that opponent.
+
+### Team rankings (unofficial)
+
+Live pages have a rankings button (`2026\rankings.js`, `rankings.css`) that
+opens a popup listing every team in a class and grade, with class (1A-4A) and
+grade buttons. It reads only files already published beside the pages -
+`scores-<grade>.json` and `strength-<grade>.json` in each class folder - so it
+adds no IESA requests. Columns: W-L, win %, points scored (PF) and allowed (PA)
+per game, average margin, strength-of-schedule rating and regional. Points come
+from each decided game's "Winner def. Loser" text with the winner's score
+first; pending games are skipped. Every column header sorts (best first, click
+again to reverse), tied rows share a rank, and the visitor's team is
+highlighted and scrolled into view. Only the table scrolls.
 
 Regional rosters are fixed in each grade's `data.js` and are **not** updated
 automatically when a school withdraws. Every run of `Update-IesaScores.ps1`
