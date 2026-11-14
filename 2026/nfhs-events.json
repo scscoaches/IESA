@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13 19:17",
+  "updatedAt": "2026-11-14 03:09",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -487,12 +487,6 @@
     ],
     "indian-creek-high-school-shabbona-il": [
       {
-        "key": "gam48ccc946a1",
-        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam48ccc946a1",
-        "label": "Plano vs. Indian Creek",
-        "start": "2026-10-02T21:30:00.000Z"
-      },
-      {
         "key": "gam74a94ef1b9",
         "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam74a94ef1b9",
         "label": "Sandwich Middle School vs. Indian Creek",
@@ -545,6 +539,12 @@
         "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gama65bc73b2e",
         "label": "Teams TBD",
         "start": "2026-11-12T22:30:00.000Z"
+      },
+      {
+        "key": "gam24aa356e28",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam24aa356e28",
+        "label": "Teams TBD",
+        "start": "2026-11-13T22:30:00.000Z"
       },
       {
         "key": "gamd83f770377",
