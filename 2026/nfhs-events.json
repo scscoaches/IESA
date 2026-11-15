@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14 03:09",
+  "updatedAt": "2026-11-15 11:17",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -87,6 +87,12 @@
         "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gamd209a873ef",
         "label": "Chillicothe Junior High School vs. Brimfield",
         "start": "2026-11-09T23:00:00.000Z"
+      },
+      {
+        "key": "gam2be601e32d",
+        "url": "https://www.nfhsnetwork.com/events/orion-high-school-orion-il/gam2be601e32d",
+        "label": "Brimfield vs. Orion",
+        "start": "2026-11-14T16:00:00.000Z"
       },
       {
         "key": "gama38786baee",
@@ -551,6 +557,12 @@
         "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gamd83f770377",
         "label": "Indian Creek",
         "start": "2026-11-16T22:30:00.000Z"
+      },
+      {
+        "key": "gam24f16c0144",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam24f16c0144",
+        "label": "2026 IHSA Girls Basketball Postseason Tournament",
+        "start": "2026-12-02T23:55:00.000Z"
       }
     ],
     "international-prep-academy-champaign-il": [
@@ -1152,6 +1164,19 @@
         "start": "2026-10-15T23:00:00.000Z"
       }
     ],
-    "williamsfield-high-school-williamsfield-il": []
+    "williamsfield-high-school-williamsfield-il": [
+      {
+        "key": "gama9ba31dae4",
+        "url": "https://www.nfhsnetwork.com/events/galva-high-school-galva-il/gama9ba31dae4",
+        "label": "Middle School Girls Basketball",
+        "start": "2026-11-14T15:20:00.000Z"
+      },
+      {
+        "key": "gamb78867056e",
+        "url": "https://www.nfhsnetwork.com/events/galva-high-school-galva-il/gamb78867056e",
+        "label": "Middle School Girls Basketball",
+        "start": "2026-11-14T20:20:00.000Z"
+      }
+    ]
   }
 }
