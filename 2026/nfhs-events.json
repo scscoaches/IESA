@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 11:17",
+  "updatedAt": "2026-11-16 21:40",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -812,12 +812,6 @@
     "morton-grove-academy-morton-grove-il": [],
     "mt-pulaski-high-school-mt-pulaski-il": [
       {
-        "key": "gam79cc5d85f4",
-        "url": "https://www.nfhsnetwork.com/events/williamsville-high-school-williamsville-il/gam79cc5d85f4",
-        "label": "6th Grade Girls Basketball — Mt. Pulaski Elementary vs. Williamsville Junior High",
-        "start": "2026-10-20T22:00:00.000Z"
-      },
-      {
         "key": "gam993491d999",
         "url": "https://www.nfhsnetwork.com/events/williamsville-high-school-williamsville-il/gam993491d999",
         "label": "7th Grade Girls Basketball — Mt. Pulaski Elementary vs. Williamsville Junior High",
@@ -870,6 +864,12 @@
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam7da9728af4",
         "label": "Mt. Pulaski",
         "start": "2026-11-12T22:55:00.000Z"
+      },
+      {
+        "key": "gam5bea3b5e31",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam5bea3b5e31",
+        "label": "Mt. Pulaski",
+        "start": "2026-11-15T22:30:00.000Z"
       },
       {
         "key": "gam4188930c6f",

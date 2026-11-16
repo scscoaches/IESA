@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 11:17",
+  "updatedAt": "2026-11-16 21:41",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -1721,11 +1721,12 @@
               "Springfield Jefferson"
             ],
             "scores": [
-              null,
-              null
+              2,
+              0
             ],
-            "winner": null,
-            "bye": false
+            "winner": "Springfield Grant",
+            "bye": false,
+            "annotation": "FORFEIT"
           }
         ],
         [
@@ -1744,7 +1745,7 @@
           {
             "teams": [
               null,
-              null
+              "Springfield Grant"
             ],
             "scores": [
               null,
