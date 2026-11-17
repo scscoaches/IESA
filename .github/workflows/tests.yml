@@ -16,6 +16,6 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Run tests (no IESA requests)
+      - name: Run tests for both sports (no IESA requests)
         shell: powershell
-        run: ./girls/tests/Run-Tests.ps1
+        run: ./tests/Run-Tests.ps1

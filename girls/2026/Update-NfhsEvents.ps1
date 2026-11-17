@@ -3,10 +3,14 @@ param(
     [datetime]$SeasonStart = [datetime]::new(2026, 8, 1)
 )
 
-# Collects each linked school's NFHS Network girls middle-school game pages so the
-# team dialog can put a watch link beside a score. NFHS blocks cross-site browser
-# requests, so the pages are read here and published as nfhs-events.json.
+# Collects each linked school's NFHS Network middle-school basketball game pages (for
+# this site's sport) so the team dialog can put a watch link beside a score. NFHS
+# blocks cross-site browser requests, so the pages are read here and published as
+# nfhs-events.json.
 $ErrorActionPreference = "Stop"
+. (Join-Path $PSScriptRoot "IesaSport.ps1")
+$gender = $IesaSport.nfhsGender
+$bannerSport = (Get-Culture).TextInfo.ToTitleCase($gender) + ' Basketball'
 $outputPath = Join-Path $SitePath "nfhs-events.json"
 $links = Get-Content -Raw -LiteralPath (Join-Path $SitePath "team-links.js")
 $slugs = @([regex]::Matches($links, 'nfhs:\s*"https://www\.nfhsnetwork\.com/schools/([^/"]+)') |
@@ -24,7 +28,7 @@ if (Test-Path -LiteralPath $outputPath) {
 
 $schools = [ordered]@{}
 foreach ($slug in $slugs) {
-    $url = "https://www.nfhsnetwork.com/schools/$slug/basketball/girls/middle-school"
+    $url = "https://www.nfhsnetwork.com/schools/$slug/basketball/$gender/middle-school"
     try {
         $html = (Invoke-WebRequest -UseBasicParsing $url -TimeoutSec 30).Content
         $events = [ordered]@{}
@@ -33,8 +37,8 @@ foreach ($slug in $slugs) {
             $key = $card.Groups[2].Value
             $banner = [regex]::Match($card.Groups[4].Value, 'line-clamp-1 text-ellipsis break-all">([^<]+)').Groups[1].Value
             $start = [regex]::Match($card.Groups[4].Value, 'datetime="([^"]+)"').Groups[1].Value
-            # Pages without a girls middle-school section fall back to every school event.
-            if ($events.Contains($key) -or $banner -notmatch 'Middle School' -or $banner -notmatch 'Girls Basketball' -or !$start) { continue }
+            # Pages without a middle-school section for this sport fall back to every school event.
+            if ($events.Contains($key) -or $banner -notmatch 'Middle School' -or $banner -notmatch $bannerSport -or !$start) { continue }
             $startTime = [datetime]::Parse($start, [Globalization.CultureInfo]::InvariantCulture, [Globalization.DateTimeStyles]::RoundtripKind)
             if ($startTime -lt $SeasonStart) { continue }
             $events[$key] = [pscustomobject]@{

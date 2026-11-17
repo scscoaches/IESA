@@ -3,12 +3,17 @@ param(
     [datetime]$SeasonStart = [datetime]::new(2026, 8, 1)
 )
 
-# Collects each linked school's Hudl junior-high girls basketball broadcasts so the
+# Collects each linked school's Hudl junior-high basketball broadcasts (for this
+# site's sport) so the
 # team dialog can put a watch link beside a score. Hudl's fan site loads these from
 # its public GraphQL API, which is read here and published as hudl-events.json in
 # the same shape as nfhs-events.json. Labels use the bracket team name for the
 # school's own side because Hudl titles use the high school's name.
 $ErrorActionPreference = "Stop"
+. (Join-Path $PSScriptRoot "IesaSport.ps1")
+$hudlGender = $IesaSport.hudlGender
+# Words Hudl titles add after the opponent's name for this sport's teams.
+$genderWords = if ($IesaIsGirls) { "Womens|Women's|Girls'?" } else { "Mens|Men's|Boys'?" }
 $endpoint = "https://www.hudl.com/api/public/graphql/query"
 $outputPath = Join-Path $SitePath "hudl-events.json"
 $links = Get-Content -Raw -LiteralPath (Join-Path $SitePath "team-links.js")
@@ -39,7 +44,7 @@ function Get-Opponent([string]$title) {
     if (!$matchup) { return $null }
     $sides = $matchup -split '\s+vs\.?\s+', 2
     if ($sides.Count -ne 2) { return $null }
-    $opponent = $sides[1] -replace "\s*\b(?:Womens|Women's|Girls'?)?\s*(?:Other|Varsity|JV|Junior Varsity)?\s*Basketball\s*$", ''
+    $opponent = $sides[1] -replace "\s*\b(?:$genderWords)?\s*(?:Other|Varsity|JV|Junior Varsity)?\s*Basketball\s*$", ''
     $opponent = $opponent -replace '\b(?:JH|Jr\.? High|Lady \w+)\b', ' ' -replace '\s+', ' '
     $opponent = $opponent.Trim()
     if ($opponent) { return $opponent } else { return $null }
@@ -64,7 +69,7 @@ foreach ($team in $teams) {
             foreach ($node in $response.data.fanBroadcasts.edges.node) {
                 $header = $node.teamHeader
                 # Some schools file other sports under a basketball team, so the team name is checked too.
-                if ($events.Contains($node.id) -or $header.gender -ne "WOMENS" -or $header.sport -ne "BASKETBALL" -or
+                if ($events.Contains($node.id) -or $header.gender -ne $hudlGender -or $header.sport -ne "BASKETBALL" -or
                     $header.name -notmatch 'Basketball' -or $header.name -notmatch '\b(?:JH|Jr\.?|Junior|Middle|7th|8th)\b') { continue }
                 $startTime = [datetime]::Parse($node.broadcastDateUtc, [Globalization.CultureInfo]::InvariantCulture, [Globalization.DateTimeStyles]::RoundtripKind)
                 if ($startTime -lt $SeasonStart) { continue }

@@ -35,6 +35,8 @@ function New-SetupSite([string]$liveYear = '2026', [switch]$published) {
     New-Item -ItemType Directory -Force -Path (Join-Path $root '2026') | Out-Null
     "{`"year`":$liveYear,`"followedClass`":`"2A`"}" | Set-Content -Encoding UTF8 (Join-Path $root 'live-season.json')
     Copy-Item (Join-Path $script:RepoRoot 'Sync-IesaSeason.ps1'), (Join-Path $script:RepoRoot 'IesaCalendar.ps1') $root
+    # No sport.json in the fake site: the sport settings fall back to girls.
+    Copy-Item (Join-Path $script:RepoRoot '2026\IesaSport.ps1') (Join-Path $root '2026')
     Copy-Item $fixture (Join-Path $root 'calendar.html')
     if ($published) { 'yes' | Set-Content (Join-Path $root 'published.txt') }
     @'

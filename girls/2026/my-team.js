@@ -3,14 +3,21 @@
     // The visitor's own team: highlighted in every bracket and marked with a
     // trophy in the year and class menus for each top-four state finish.
     // Saved per browser; Springfield Christian until a visitor picks another.
-    var STORAGE_KEY = "iesa-my-team";
+    var root = new URL("../", document.currentScript.src);
+    // Each sport is its own copy of the site (girls/, boys/) running this same
+    // script, so the sport comes from the address. Girls keep the original keys.
+    var SPORTS = {
+        girls: { sport: "girls", name: "Girls Basketball", code: "gbk", activityCode: "GBK", storagePrefix: "iesa-" },
+        boys: { sport: "boys", name: "Boys Basketball", code: "bbk", activityCode: "BBK", storagePrefix: "iesa-boys-" }
+    };
+    var sport = /\/boys\/$/i.test(root.pathname) ? SPORTS.boys : SPORTS.girls;
+    var STORAGE_KEY = sport.storagePrefix + "my-team";
     // Every name the chosen school appears under (IESA sometimes drops or adds
     // the town), saved with the choice so highlighting needs no extra request.
-    var KEYS_KEY = "iesa-my-team-keys";
+    var KEYS_KEY = sport.storagePrefix + "my-team-keys";
     var DEFAULT_TEAM = "Springfield Christian";
     var PLACES = ["state champion", "state runner-up", "third place", "fourth place"];
     var ORDINALS = ["1st", "2nd", "3rd", "4th"];
-    var root = new URL("../", document.currentScript.src);
     var files = {};
 
     // Must match Get-TeamKey in Build-IesaTeamIndex.ps1: records, "(Co-op)",
@@ -90,7 +97,7 @@
                 (result.places || []).forEach(function (school, index) {
                     if (matches(school)) {
                         found.push({ year: result.year, grade: result.grade, className: result.className,
-                            place: index + 1, source: result.source });
+                            title: result.title, place: index + 1, source: result.source });
                     }
                 });
             });
@@ -147,7 +154,8 @@
     }
 
     function describe(finish) {
-        return PLACES[finish.place - 1] + (finish.className ? " (Class " + finish.className + ")" : "");
+        return PLACES[finish.place - 1] + (finish.title ? " (" + finish.title + ")" :
+            finish.className ? " (Class " + finish.className + ")" : "");
     }
 
     // Choosing a team keeps the dialog open so its state finishes can be read;
@@ -326,8 +334,10 @@
                 list.forEach(function (finish) {
                     var item = element("li");
                     var season = seasons.filter(function (entry) { return entry.year === finish.year; })[0];
-                    var text = finish.year + " " + (finish.grade === "combined" ? "Combined" : finish.grade) +
-                        " \u2013 " + ORDINALS[finish.place - 1] + (finish.className ? ", Class " + finish.className : "");
+                    var text = finish.year + " " + (finish.title ? finish.title :
+                        (finish.grade === "combined" ? "Combined" : finish.grade) +
+                        " \u2013 " + ORDINALS[finish.place - 1] + (finish.className ? ", Class " + finish.className : ""));
+                    if (finish.title) { text += " \u2013 " + ORDINALS[finish.place - 1]; }
                     var classes = season ? (season.classes || [season.className]) : [];
                     if (season && (!finish.className || classes.indexOf(finish.className) >= 0)) {
                         var link = element("a", "", text);
@@ -390,6 +400,7 @@
 
     window.iesaMyTeam = {
         name: name,
+        sport: sport,
         key: key,
         matches: matches,
         load: load,

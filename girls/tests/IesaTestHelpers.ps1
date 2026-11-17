@@ -28,6 +28,8 @@ function New-MockSite {
     '{"year":2026,"followedClass":"2A","seedsFrom":"2026-01-01","bracketFrom":"2026-01-01","endDate":"2100-12-31"}' |
         Set-Content -Encoding UTF8 (Join-Path $root 'live-season.json')
     Copy-Item (Join-Path $script:RepoRoot '2026\Update-IesaScores.ps1') $season
+    # No sport.json in the mock site: the sport settings fall back to girls.
+    Copy-Item (Join-Path $script:RepoRoot '2026\IesaSport.ps1') $season
     foreach ($grade in '7th', '8th') {
         New-Item -ItemType Directory -Force -Path (Join-Path $season $grade) | Out-Null
         Copy-Item (Join-Path $script:RepoRoot "2026\$grade\data.js") (Join-Path $season $grade)

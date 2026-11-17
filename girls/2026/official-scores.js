@@ -2,7 +2,8 @@
     "use strict";
 
     var directoryUrl = "https://www.iesa.org/activities/members.asp";
-    var statsUrl = "https://www.iesa.org/activities/memberStats.asp?ActivityCode=GBK";
+    var statsUrl = "https://www.iesa.org/activities/memberStats.asp?ActivityCode=" +
+        ((window.iesaMyTeam && window.iesaMyTeam.sport) ? window.iesaMyTeam.sport.activityCode : "GBK");
     var directory;
     var selectedTeam;
     var selectedSchoolId;
@@ -65,7 +66,8 @@
         refresh.disabled = true;
         official.disabled = true;
         teamRecord.textContent = "Loading official IESA results...";
-        note.textContent = "Checking IESA’s posted Girls Basketball contests.";
+        note.textContent = "Checking IESA’s posted " +
+            ((window.iesaMyTeam && window.iesaMyTeam.sport) ? window.iesaMyTeam.sport.name : "Girls Basketball") + " contests.";
         try {
             var schools = await getDirectory();
             selectedSchoolId = schools[normalize(selectedTeam)];

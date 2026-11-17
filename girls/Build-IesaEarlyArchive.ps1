@@ -1,5 +1,6 @@
 param(
-    [ValidateRange(1979, 2001)][int[]]$Years = (1979..2001),
+    # Defaults to every state-only year of this site's sport (sport.json firstYear..earlyLast).
+    [ValidateRange(1930, 2010)][int[]]$Years,
     [string]$OutputRoot = $PSScriptRoot,
     [ValidateSet('A', 'AA')][string]$ClassName = 'A',
     [switch]$CatalogueOnly
@@ -8,8 +9,13 @@ param(
 $ErrorActionPreference = 'Stop'
 . (Join-Path $PSScriptRoot '2026\IesaRequest.ps1')
 . (Join-Path $PSScriptRoot 'IesaSitePages.ps1')
-if ($ClassName -eq 'AA' -and @($Years | Where-Object { $_ -lt 1990 }).Count) {
-    throw 'Class AA began in 1990.'
+# Eras differ by sport (sport.json): one combined 7th/8th bracket through combinedLast,
+# grade brackets without classes through gradeOnlyLast, then Class A and AA.
+$combinedLast = [int]$IesaSport.combinedLast
+$gradeOnlyLast = [int]$IesaSport.gradeOnlyLast
+if (!$Years) { $Years = [int]$IesaSport.firstYear..[int]$IesaSport.earlyLast }
+if ($ClassName -eq 'AA' -and @($Years | Where-Object { $_ -le $gradeOnlyLast }).Count) {
+    throw "Class AA began in $($gradeOnlyLast + 1)."
 }
 if (!(Test-Path -LiteralPath $OutputRoot -PathType Container)) {
     throw "Output root does not exist: $OutputRoot"
@@ -104,19 +110,19 @@ function Get-SectionalPairings([string]$html, [int]$year, [string]$code) {
 
 if (!$CatalogueOnly) {
 foreach ($year in $Years) {
-    $grades = if ($year -le 1985) { @('combined') } else { @('7th', '8th') }
+    $grades = if ($year -le $combinedLast) { @('combined') } else { @('7th', '8th') }
     foreach ($grade in $grades) {
-        $code = if ($grade -eq 'combined') { '' } elseif ($year -le 1989) {
+        $code = if ($grade -eq 'combined') { '' } elseif ($year -le $gradeOnlyLast) {
             if ($grade -eq '7th') { '7' } else { '8' }
         } elseif ($grade -eq '7th') { "7$ClassName" } else { "8$ClassName" }
-        $url = "https://www.iesa.org/activities/gbk/index.asp?Year=$year"
+        $url = "$IesaSportUrl/index.asp?Year=$year"
         if ($code) { $url += "&Class=$code" }
         $html = Get-Page $url 'ScoreData-BracketSchool'
         $state = Get-StateGames $html $year $code
-        $label = if ($grade -eq 'combined') { 'Combined 7th/8th' } elseif ($year -le 1989) {
+        $label = if ($grade -eq 'combined') { 'Combined 7th/8th' } elseif ($year -le $gradeOnlyLast) {
             "$grade Grade"
         } else { "$grade Grade Class $ClassName" }
-        $expectedMeet = if ($grade -eq 'combined') { 'State Tournament' } elseif ($year -le 1989) {
+        $expectedMeet = if ($grade -eq 'combined') { 'State Tournament' } elseif ($year -le $gradeOnlyLast) {
             "Class $(if ($grade -eq '7th') { '7' } else { '8' }) State Tournament"
         } else { "Class $(if ($grade -eq '7th') { '7' } else { '8' })$ClassName State Tournament" }
         if ((Get-Text ([regex]::Match($html, "(?is)<td\s+class=['""]Score-Meet['""][^>]*>(.*?)</td>").Groups[1].Value)) -notmatch
@@ -125,15 +131,15 @@ foreach ($year in $Years) {
         }
         $pairings = @()
         $pairingUrl = $null
-        if ($year -ge 1999) {
-            $pairingUrl = "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=$year&Class=$code"
+        if ([int]$IesaSport.earlyPairingsFrom -and $year -ge [int]$IesaSport.earlyPairingsFrom) {
+            $pairingUrl = "$IesaSportUrl/qualifiers_Sectional.asp?Year=$year&Class=$code"
             $pairings = @(Get-SectionalPairings (Get-Page $pairingUrl 'Champion') $year $code)
         }
         $data = [ordered]@{
             year = $year
             grade = $grade
             label = $label
-            className = if ($year -ge 1990) { $ClassName } else { $null }
+            className = if ($year -gt $gradeOnlyLast) { $ClassName } else { $null }
             source = $url
             venue = $state.venue
             champion = $state.champion
@@ -149,14 +155,14 @@ foreach ($year in $Years) {
         Write-Output "$year $grade : $($state.champion)"
     }
     if ($ClassName -eq 'AA') { Add-IesaCatalogueClass $OutputRoot $year 'AA' }
-    Write-IesaClassPages $OutputRoot $year $(if ($year -ge 1990) { $ClassName } else { '' })
+    Write-IesaClassPages $OutputRoot $year $(if ($year -gt $gradeOnlyLast) { $ClassName } else { '' })
 }
 }
 
 $cataloguePath = Join-Path $OutputRoot 'seasons.json'
 if ($ClassName -eq 'A' -and (Test-Path -LiteralPath $cataloguePath)) {
     foreach ($year in $Years) {
-        $grades = if ($year -le 1985) { @('combined') } else { @('7th', '8th') }
+        $grades = if ($year -le $combinedLast) { @('combined') } else { @('7th', '8th') }
         foreach ($grade in $grades) {
             if (!(Test-Path -LiteralPath (Join-Path (Join-Path (Join-Path $OutputRoot $year) $grade) 'data.js'))) {
                 throw "Cannot list $year $grade without a published state archive"
@@ -172,8 +178,8 @@ if ($ClassName -eq 'A' -and (Test-Path -LiteralPath $cataloguePath)) {
         $old = $previous | Where-Object { $_.year -eq $year -and $_.PSObject.Properties['classes'] } | Select-Object -First 1
         $catalogue += [pscustomobject]@{
             year = $year
-            className = if ($year -le 1989) { $null } else { 'A' }
-            gradeMode = if ($year -le 1985) { 'combined' } else { 'separate' }
+            className = if ($year -le $gradeOnlyLast) { $null } else { 'A' }
+            gradeMode = if ($year -le $combinedLast) { 'combined' } else { 'separate' }
             archived = $true
         }
         if ($old) { $catalogue[-1] | Add-Member -NotePropertyName classes -NotePropertyValue @($old.classes) }

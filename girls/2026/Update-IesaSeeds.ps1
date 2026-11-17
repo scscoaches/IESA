@@ -9,7 +9,8 @@ param(
 
 $ErrorActionPreference = 'Stop'
 . (Join-Path $PSScriptRoot 'IesaRequest.ps1')
-if ($Year -lt 2006 -or $Year -gt 2100) { throw "Invalid IESA year: $Year" }
+. (Join-Path $PSScriptRoot 'IesaSport.ps1')
+if ($Year -le [int]$IesaSport.legacyLast -or $Year -gt 2100) { throw "Invalid IESA year: $Year" }
 if (!(Test-Path -LiteralPath $SitePath -PathType Container)) { throw "Missing site directory: $SitePath" }
 if (!(Test-Path -LiteralPath $OutputPath -PathType Container)) { throw "Missing output directory: $OutputPath" }
 foreach ($grade in $Grades) {
@@ -167,13 +168,26 @@ $captures = @{}
 $failures = @()
 foreach ($grade in $Grades) {
     $level = $grade.Substring(0, 1)
-    $url = "https://www.iesa.org/activities/gbk/brackets_Regional_$level.asp?Year=$Year&Class=$level-$ClassName"
+    $url = "$IesaSportUrl/brackets_Regional_$level.asp?Year=$Year&Class=$level-$ClassName"
     try {
         $hasRoster = (Test-Path -LiteralPath (Join-Path $SitePath "$grade\data.json") -PathType Leaf) -or
             (Split-Path $SitePath -Leaf) -eq "$Year"
         $roster = if ($hasRoster -and !$AllowBracketParticipants) { Get-Roster $grade } else { $null }
         $html = (Invoke-IesaPage $url).Content
         $headings = @([regex]::Matches($html, "(?is)<td\s+class=['""]TableSubtitle['""]>\s*Class $level-$ClassName Regional (\d+)\s*</td>"))
+        # Before IESA posts any bracket (boys' pages until January), the page says so
+        # instead of showing seed templates: record 16 regionals with no seeds yet.
+        if (!$headings.Count -and $html -match "(?i)$($level)th Grade Regional Brackets are pending") {
+            $brackets = [ordered]@{}
+            foreach ($number in 1..16) {
+                $brackets["$number"] = [pscustomobject]@{ seeds = @(); rounds = @(); sourceUrl = "$url&Regional=$number"; host = $null }
+            }
+            $captures[$grade] = [pscustomobject]@{
+                updatedAt = (Get-Date).ToString('yyyy-MM-dd HH:mm'); year = $Year; grade = $grade; regionalBrackets = $brackets
+            }
+            Write-Host "$grade`: regional brackets are pending on IESA"
+            continue
+        }
         if ($headings.Count -ne 16) { throw "expected 16 regional headings, got $($headings.Count)" }
         $brackets = [ordered]@{}
         for ($r = 0; $r -lt 16; $r++) {
@@ -243,7 +257,7 @@ foreach ($grade in $Grades) {
                 throw "regional ${number}: unexpected $($rows.Count)-slot bracket"
             }
             $byeCount = @($rows | Where-Object { $_[0].name -eq 'BYE' }).Count
-            $missingFirstSeed = $Year -eq 2008 -and $ClassName -eq '1A' -and
+            $missingFirstSeed = $IesaIsGirls -and $Year -eq 2008 -and $ClassName -eq '1A' -and
                 $grade -eq '8th' -and $number -eq 10 -and $rows[0][0].name -eq '1st Seed' -and
                 $seeds.Count -eq 5 -and $byeCount -eq 2 -and $labels.Count -eq 1 -and
                 $labels[0] -eq '1st Seed'

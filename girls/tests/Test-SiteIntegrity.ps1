@@ -1,10 +1,12 @@
 #requires -Version 5.1
 # Static checks of the published site: catalogue, pages, version stamps and
-# the data files the browser reads. No network.
+# the data files the browser reads. No network. -SiteRoot checks another sport's
+# copy of the site (for example ..\..\boys); it defaults to this one.
+param([string]$SiteRoot)
 . (Join-Path $PSScriptRoot 'IesaTestHelpers.ps1')
-. (Join-Path $script:RepoRoot 'IesaSitePages.ps1')
-
-$root = $script:RepoRoot
+$root = if ($SiteRoot) { (Resolve-Path -LiteralPath $SiteRoot).Path } else { $script:RepoRoot }
+. (Join-Path $root 'IesaSitePages.ps1')
+Write-Host "Checking the $($IesaSport.name.ToLower()) site in $root"
 $seasons = @(Read-IesaCatalogue $root)
 $live = Get-Content -Raw (Join-Path $root 'live-season.json') | ConvertFrom-Json
 $siteVersion = Get-IesaSiteVersion $root
@@ -13,7 +15,7 @@ Write-Host 'Season catalogue'
 Assert-Equal $seasons.Count @($seasons.year | Select-Object -Unique).Count 'one entry per year'
 $bad = @($seasons | Where-Object {
     $classes = if ($_.PSObject.Properties['classes']) { @($_.classes) } else { @($_.className) }
-    $allowed = if ($_.year -le 1989) { @($null) } elseif ($_.year -le 2005) { @('A', 'AA') } else { @('1A', '2A', '3A', '4A') }
+    $allowed = if ($_.year -le [int]$IesaSport.gradeOnlyLast) { @($null) } elseif ($_.year -le [int]$IesaSport.legacyLast) { @('A', 'AA') } else { @('1A', '2A', '3A', '4A') }
     @($classes | Where-Object { $_ -notin $allowed }).Count -or ($_.className -notin $allowed)
 })
 Assert-Equal 0 $bad.Count "classes valid for each era ($(@($bad.year) -join ', '))"
@@ -29,7 +31,7 @@ Write-Host 'Every listed class has its pages and data'
 $missing = @()
 foreach ($season in $seasons) {
     $classes = if ($season.PSObject.Properties['classes']) { @($season.classes) } elseif ($season.className) { @($season.className) } else { @('') }
-    $grades = if ($season.year -le 1985) { @('combined') } else { @('7th', '8th') }
+    $grades = if ($season.year -le [int]$IesaSport.combinedLast) { @('combined') } else { @('7th', '8th') }
     foreach ($className in $classes) {
         $folder = Join-Path $root (Get-IesaClassFolder $root ([int]$season.year) $className)
         foreach ($grade in $grades) {
@@ -45,7 +47,7 @@ Write-Host 'Bracket pages'
 $pages = @(Get-ChildItem -Directory -LiteralPath $root | Where-Object { $_.Name -match '^\d{4}$' } |
     ForEach-Object { Get-ChildItem -Recurse -Filter index.html -LiteralPath $_.FullName } |
     Where-Object { (Get-Content -Raw $_.FullName) -match 'season-selector\.js' })
-Assert-True ($pages.Count -gt 200) "bracket pages found ($($pages.Count))"
+Assert-True ($pages.Count -gt 100) "bracket pages found ($($pages.Count))"
 $placeholders = @($pages | Where-Object { (Get-Content -Raw $_.FullName) -match '\{\{' })
 Assert-Equal 0 $placeholders.Count 'no unreplaced template placeholders'
 $stale = @($pages | Where-Object { (Get-Content -Raw $_.FullName) -notmatch "name=`"iesa-site-version`" content=`"$siteVersion`"" })
@@ -68,6 +70,6 @@ $badAlias = @($teams.aliases.PSObject.Properties | Where-Object { $_.Value -lt 0
 Assert-Equal 0 $badAlias.Count 'team aliases point at real schools'
 Assert-True (@($teams.names | Where-Object { $_ -match '\(\d+-\d+\)|\s{2}' }).Count -eq 0) 'no records or double spaces in team names'
 $placements = Get-Content -Raw (Join-Path $root 'placements.json') | ConvertFrom-Json
-Assert-True (@($placements.results).Count -ge 231) "state history complete ($(@($placements.results).Count) tournaments)"
+Assert-True (@($placements.results).Count -ge $(if ($IesaIsGirls) { 231 } else { 1 })) "state history complete ($(@($placements.results).Count) tournaments)"
 Assert-Equal 0 @($placements.results | Where-Object { @($_.places).Count -ne 4 }).Count 'every tournament lists four places'
 Get-TestResult

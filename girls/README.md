@@ -5,6 +5,10 @@ relative to it, except `.github\workflows\`, which is at the repository root
 (its jobs run in `girls\`). The repository's root `index.html` lets visitors
 pick a sport, and the old root addresses redirect here (see `..\README.md`).
 
+The code here is shared with the boys' site (`..\boys\`): edit it here, then run
+`..\Sync-IesaSharedCode.ps1` to copy it there. Girls-specific settings (IESA's
+`gbk` pages, the calendar wording, the class eras below) live in `sport.json`.
+
 This folder's `index.html` is the home page for the **newest season**
 in `seasons.json` (so each new season appears there with no edits): its title
 and a row of 7th/8th grade links for every class, with the chosen team's class

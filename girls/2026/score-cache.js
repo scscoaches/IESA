@@ -423,9 +423,9 @@
         return result;
     }
     // GitHub Pages serves static files only, so the ASP.NET live lookup exists only under IIS,
-    // and it validates schools against the Class 2A score cache.
-    var pageClass = window.tournamentData.className;
-    var liveLookupAvailable = !/\.github\.io$/i.test(location.hostname) && (!pageClass || pageClass === "2A");
+    // and it validates schools against the score cache beside it in this shared folder: only
+    // pages in <shared>/<grade>/ (the girls' hand-maintained Class 2A pages) can use it.
+    var liveLookupAvailable = !/\.github\.io$/i.test(location.hostname) && new URL("../", location.href).href === shared.href;
     refresh.hidden = !liveLookupAvailable;
     if (liveLookupAvailable) { window.iesaFetchLiveTeam = fetchLiveTeam; }
 

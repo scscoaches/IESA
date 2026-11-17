@@ -94,6 +94,7 @@ foreach ($grade in $grades) {
 }
 if (!$due) { return }
 . (Join-Path $PSScriptRoot "IesaRequest.ps1")
+. (Join-Path $PSScriptRoot "IesaSport.ps1")
 # The rebuild reads several hundred opponent pages, so it gets its own per-run
 # request budget instead of sharing the score refresh's. Spacing and the
 # failure pause still apply.
@@ -114,7 +115,7 @@ $classOf = @{}
 foreach ($grade in $grades) {
     $map = @{}
     foreach ($class in $classes) {
-        $url = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=$Year&Class=$($grade.Substring(0, 1))-$class"
+        $url = "$IesaSportUrl/assignments_Regional.asp?Year=$Year&Class=$($grade.Substring(0, 1))-$class"
         $html = (Invoke-IesaPage $url).Content
         foreach ($cell in [regex]::Matches($html, "(?is)<td\s+class=['""]ListData['""][^>]*>(.*?)</td>")) {
             foreach ($line in [regex]::Split($cell.Groups[1].Value, '(?i)<br\s*/?>')) {
@@ -168,7 +169,7 @@ foreach ($grade in $grades) {
     Write-Output "$className $grade strength: $reusedRecords opponent records reused from other classes, $($played.Count) read from IESA."
     foreach ($key in $played.Keys) {
         if (!$directory.ContainsKey($key)) { continue }
-        $url = "https://www.iesa.org/activities/memberStats.asp?SchoolID=$($directory[$key])&ActivityCode=GBK&GradeLevel=$($grade.Substring(0, 1))"
+        $url = "https://www.iesa.org/activities/memberStats.asp?SchoolID=$($directory[$key])&ActivityCode=$($IesaSport.activityCode)&GradeLevel=$($grade.Substring(0, 1))"
         if (Get-IesaPause) { break }
         try {
             $html = (Invoke-IesaPage $url).Content

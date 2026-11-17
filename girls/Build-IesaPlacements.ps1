@@ -1,7 +1,7 @@
 #requires -Version 5.1
 <#
 .SYNOPSIS
-    Records the top four finishers of every IESA girls basketball state tournament.
+    Records the top four finishers of every IESA state tournament of this site's sport.
 
 .DESCRIPTION
     The season drop-down lists close to fifty years, which makes the handful of
@@ -10,8 +10,8 @@
     season-selector.js and my-team.js use to mark the years in which the
     visitor's chosen team finished in the top four with a trophy.
 
-    The history page (activities/gbk/winners.asp) lists the champion, runner-up,
-    third and fourth place school for every class and year since 1979. Every
+    The history page (activities/<code>/winners.asp) lists the champion, runner-up,
+    third and fourth place school for every class and year. Every
     class is stored, so any school's finishes can be found in the browser.
 
     Nothing is written unless every class page is read and validated, so an
@@ -27,28 +27,19 @@ param(
 $ErrorActionPreference = "Stop"
 . (Join-Path $PSScriptRoot "2026\IesaRequest.ps1")
 
-$historyUrl = "https://www.iesa.org/activities/gbk/winners.asp"
+. (Join-Path $PSScriptRoot "2026\IesaSport.ps1")
+$historyUrl = "$IesaSportUrl/winners.asp"
 
-# Each class IESA has used, the years it covers, the grade page on this site it
-# belongs to and the class name the site uses. Before 1986 one tournament
-# combined both grades, and 1986-1989 had one class per grade.
-$classes = @(
-    @{ Code = "Single"; Grade = "combined"; ClassName = $null; First = 1979; Last = 1985 }
-    @{ Code = "7";      Grade = "7th";      ClassName = $null; First = 1986; Last = 1989 }
-    @{ Code = "8";      Grade = "8th";      ClassName = $null; First = 1986; Last = 1989 }
-    @{ Code = "7A";     Grade = "7th";      ClassName = "A";   First = 1990; Last = 2005 }
-    @{ Code = "7AA";    Grade = "7th";      ClassName = "AA";  First = 1990; Last = 2005 }
-    @{ Code = "8A";     Grade = "8th";      ClassName = "A";   First = 1990; Last = 2005 }
-    @{ Code = "8AA";    Grade = "8th";      ClassName = "AA";  First = 1990; Last = 2005 }
-    @{ Code = "7-1A";   Grade = "7th";      ClassName = "1A";  First = 2006; Last = $null }
-    @{ Code = "7-2A";   Grade = "7th";      ClassName = "2A";  First = 2006; Last = $null }
-    @{ Code = "7-3A";   Grade = "7th";      ClassName = "3A";  First = 2006; Last = $null }
-    @{ Code = "7-4A";   Grade = "7th";      ClassName = "4A";  First = 2006; Last = $null }
-    @{ Code = "8-1A";   Grade = "8th";      ClassName = "1A";  First = 2006; Last = $null }
-    @{ Code = "8-2A";   Grade = "8th";      ClassName = "2A";  First = 2006; Last = $null }
-    @{ Code = "8-3A";   Grade = "8th";      ClassName = "3A";  First = 2006; Last = $null }
-    @{ Code = "8-4A";   Grade = "8th";      ClassName = "4A";  First = 2006; Last = $null }
-)
+# Each class IESA has used (sport.json historyClasses): its code on the history
+# page, the years it covers, the grade page on this site it belongs to and the
+# class name the site uses. "label" is the history page's subtitle when it is not
+# "Class <code>: <first>-"; "title" names a division with no grade page here
+# (the boys' Heavyweight, Lightweight and Class C tournaments).
+$classes = @($IesaSport.historyClasses | ForEach-Object {
+    @{ Code = [string]$_.code; Grade = $_.grade; ClassName = $_.className; First = [int]$_.first
+       Last = $(if ($null -ne $_.last) { [int]$_.last } else { $null }); Label = $_.label; Title = $_.title }
+})
+if (!$classes.Count) { throw "sport.json lists no historyClasses." }
 
 function Get-CellText([string]$html) {
     [System.Net.WebUtility]::HtmlDecode(($html -replace '<[^>]+>', '')).Trim() -replace '\s+', ' '
@@ -64,12 +55,7 @@ function Get-ClassHistory($class) {
     # The page silently falls back to its default class for an unknown code.
     $subtitle = [regex]::Match($html, "(?is)<td\s+class=['""]TableSubtitle['""][^>]*>(.*?)</td>")
     $label = Get-CellText $subtitle.Groups[1].Value
-    $expected = switch ($class.Code) {
-        "Single" { "1979-1985" }
-        "7" { "7th Grade: 1986-1989" }
-        "8" { "8th Grade: 1986-1989" }
-        default { "Class $($class.Code): $($class.First)-" }
-    }
+    $expected = if ($class.Label) { [string]$class.Label } else { "Class $($class.Code): $($class.First)-" }
     if (!$subtitle.Success -or !$label.StartsWith($expected)) {
         throw "IESA returned '$label' instead of class $($class.Code) at $url"
     }
@@ -100,14 +86,16 @@ $results = New-Object System.Collections.Generic.List[object]
 foreach ($class in $classes) {
     $history = Get-ClassHistory $class
     foreach ($row in $history.Rows) {
-        $results.Add([pscustomobject][ordered]@{
+        $entry = [ordered]@{
             year = $row.Year
             grade = $class.Grade
             className = $class.ClassName
             code = $class.Code
             places = @($row.Places | ForEach-Object { if ($_) { $_ } else { $null } })
             source = $history.Url
-        })
+        }
+        if ($class.Title) { $entry.Insert(4, 'title', [string]$class.Title) }
+        $results.Add([pscustomobject]$entry)
     }
 }
 

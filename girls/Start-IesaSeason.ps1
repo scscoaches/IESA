@@ -21,7 +21,7 @@
 
 .EXAMPLE
     .\Start-IesaSeason.ps1 -Year 2027
-    Reads every date from IESA's girls basketball calendar. Sync-IesaSeason.ps1
+    Reads every date from IESA's calendar for this site's sport (sport.json). Sync-IesaSeason.ps1
     runs this automatically after the season's Final Entry Deadline.
 #>
 param(
@@ -85,6 +85,8 @@ foreach ($className in @($FollowedClass) + @($Classes | Where-Object { $_ -ne $F
 
 # 3. Point the refresh scripts and the workflow at the new season.
 $config = [ordered]@{ year = $Year; followedClass = $FollowedClass }
+# Refreshes switched off for a sport stay off in its next season until turned on.
+if ($current.PSObject.Properties['refreshEnabled']) { $config.refreshEnabled = [bool]$current.refreshEnabled }
 foreach ($key in $SeasonDates.Keys) { $config[$key] = $SeasonDates[$key] }
 Write-IesaText $configPath (($config | ConvertTo-Json -Depth 5) + "`n")
 
@@ -92,4 +94,4 @@ Write-IesaText $configPath (($config | ConvertTo-Json -Depth 5) + "`n")
 & (Join-Path $PSScriptRoot 'Update-IesaPageShells.ps1') -SiteRoot $SiteRoot
 & (Join-Path $PSScriptRoot 'Build-IesaTeamIndex.ps1') -SiteRoot $SiteRoot
 Write-Host "Live season is now $Year (Class $FollowedClass every run; others daily). Commit and push to publish."
-Write-Host "Last season's final run disabled the 'Update IESA scores' workflow: re-enable it in the Actions tab (or: gh workflow enable update-scores.yml)."
+Write-Host "Last season's final run disabled its score-refresh workflow: re-enable it in the Actions tab (or: gh workflow enable $($IesaSport.scoreWorkflow))."

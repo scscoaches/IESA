@@ -5,6 +5,12 @@
 # lives in <year>/<class>/<grade>/. seasons.json lists all of them in classes.
 
 $script:IesaSiteRoot = $PSScriptRoot
+. (Join-Path $PSScriptRoot '2026\IesaSport.ps1')
+
+# Fills a page template's sport wording and IESA link from sport.json.
+function Set-IesaSportText([string]$page) {
+    $page.Replace('{{SPORT_NAME}}', [string]$IesaSport.name).Replace('{{SPORT_CODE}}', [string]$IesaSport.code)
+}
 $script:IesaClassOrder = @('A', 'AA', '1A', '2A', '3A', '4A')
 
 function Read-IesaCatalogue([string]$root) {
@@ -111,24 +117,24 @@ function Write-IesaClassPages([string]$root, [int]$year, [string]$className) {
                 Replace('{{GRADE}}', $grade).Replace('{{ROOT}}', $pageRoot).Replace('{{SITE_VERSION}}', "$siteVersion").
                 Replace('{{SEVENTH_ACTIVE}}', $(if ($grade -eq '7th') { 'class="active"' } else { '' })).
                 Replace('{{EIGHTH_ACTIVE}}', $(if ($grade -eq '8th') { 'class="active"' } else { '' }))
-            if ($year -le 2005) { $page = $page.Replace("<script src=`"../regional-seeds-$grade.js`"></script>", '') }
+            if ($year -le [int]$IesaSport.legacyLast) { $page = $page.Replace("<script src=`"../regional-seeds-$grade.js`"></script>", '') }
         }
-        Write-IesaText (Join-Path $directory 'index.html') $page
+        Write-IesaText (Join-Path $directory 'index.html') (Set-IesaSportText $page)
     }
 
-    if ($year -ge 2002) {
+    if ($year -gt [int]$IesaSport.earlyLast) {
         $landing = (Get-Content -Raw -LiteralPath (Join-Path $script:IesaSiteRoot 'archive-season-template.html')).
             Replace('{{YEAR}}', "$year").Replace('{{CLASS}}', $className).Replace('{{ROOT}}', $landingRoot)
     } else {
         $links = if ($grades -contains 'combined') {
             "<a href='combined/index.html'>Combined 7th/8th tournament</a>"
         } else { "<a href='7th/index.html'>7th Grade</a> &nbsp; <a href='8th/index.html'>8th Grade</a>" }
-        $heading = if ($year -le 1985) { "$year Combined 7th/8th State Tournament" } elseif ($year -le 1989) {
-            "$year Girls Basketball State Tournaments"
-        } else { "$year Class $className Girls Basketball State Tournaments" }
+        $heading = if ($year -le [int]$IesaSport.combinedLast) { "$year Combined 7th/8th State Tournament" } elseif ($year -le [int]$IesaSport.gradeOnlyLast) {
+            "$year $($IesaSport.name) State Tournaments"
+        } else { "$year Class $className $($IesaSport.name) State Tournaments" }
         $landing = "<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>$heading</title></head><body><main><h1>$heading</h1><p>$links</p><p><a href='${landingRoot}index.html'>All seasons</a></p></main></body></html>`n"
     }
-    Write-IesaText (Join-Path $folder 'index.html') $landing
+    Write-IesaText (Join-Path $folder 'index.html') (Set-IesaSportText $landing)
 }
 
 # Pages for a class of the season still being played (not the hand-maintained
@@ -145,7 +151,7 @@ function Write-IesaLiveClassPages([string]$root, [int]$year, [string]$className)
             Replace('{{GRADE}}', $grade).Replace('{{ROOT}}', '../' * ($depth + 1)).Replace('{{SITE_VERSION}}', "$siteVersion").
             Replace('{{SEVENTH_ACTIVE}}', $(if ($grade -eq '7th') { 'class="active"' } else { '' })).
             Replace('{{EIGHTH_ACTIVE}}', $(if ($grade -eq '8th') { 'class="active"' } else { '' }))
-        Write-IesaText (Join-Path (Join-Path $folder $grade) 'index.html') $page
+        Write-IesaText (Join-Path (Join-Path $folder $grade) 'index.html') (Set-IesaSportText $page)
         $cache = Join-Path $folder "scores-$grade.json"
         if (!(Test-Path -LiteralPath $cache)) {
             $empty = '{"updatedAt":null,"previousCaptureAt":null,"teams":{},"updatedGames":[],"rosterChanges":[]}'
@@ -157,5 +163,5 @@ function Write-IesaLiveClassPages([string]$root, [int]$year, [string]$className)
         Replace('{{YEAR}}', "$year").Replace('{{CLASS}}', $className).Replace('{{ROOT}}', '../' * $depth).
         Replace('Explore the published regional seeds and postseason results, from regionals to the state championship. Historical regular-season records are unavailable.',
             'Follow this season''s regional assignments, regular-season records and postseason results, from regionals to the state championship.')
-    Write-IesaText (Join-Path $folder 'index.html') $landing
+    Write-IesaText (Join-Path $folder 'index.html') (Set-IesaSportText $landing)
 }

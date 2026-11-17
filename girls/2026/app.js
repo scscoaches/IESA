@@ -738,7 +738,8 @@
         record = document.querySelector("#team-record"),
         history = document.querySelector("#score-history"),
         official = document.querySelector("#official-scores"),
-        selected, key = "iesa-2026-" + d.grade + "-records";
+        selected, key = (window.iesaMyTeam && window.iesaMyTeam.sport ? window.iesaMyTeam.sport.storagePrefix : "iesa-") +
+            "2026-" + d.grade + "-records";
 
     function saved() {
         try {
@@ -798,7 +799,8 @@
     };
     official.onclick = function() {
         window.open(
-            "https://www.iesa.org/activities/memberStats.asp?SchoolID=417&ActivityCode=GBK&GradeLevel=7",
+            "https://www.iesa.org/activities/memberStats.asp?SchoolID=417&ActivityCode=" +
+                (window.iesaMyTeam && window.iesaMyTeam.sport ? window.iesaMyTeam.sport.activityCode : "GBK") + "&GradeLevel=7",
             "_blank", "noopener")
     };
     form.addEventListener("submit", function(e) {

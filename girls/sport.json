@@ -1,0 +1,128 @@
+{
+    "sport":  "girls",
+    "name":  "Girls Basketball",
+    "code":  "gbk",
+    "activityCode":  "GBK",
+    "calendarHeading":  "GIRLS BASKETBALL",
+    "yearOffset":  0,
+    "firstYear":  1979,
+    "combinedLast":  1985,
+    "gradeOnlyLast":  1989,
+    "earlyLast":  2001,
+    "legacyLast":  2005,
+    "earlyPairingsFrom":  1999,
+    "earlyAssignmentsLast":  2008,
+    "nfhsGender":  "girls",
+    "hudlGender":  "WOMENS",
+    "scoreWorkflow":  "update-scores.yml",
+    "historyClasses":  [
+                           {
+                               "code":  "Single",
+                               "grade":  "combined",
+                               "className":  null,
+                               "first":  1979,
+                               "last":  1985,
+                               "label":  "1979-1985"
+                           },
+                           {
+                               "code":  "7",
+                               "grade":  "7th",
+                               "className":  null,
+                               "first":  1986,
+                               "last":  1989,
+                               "label":  "7th Grade: 1986-1989"
+                           },
+                           {
+                               "code":  "8",
+                               "grade":  "8th",
+                               "className":  null,
+                               "first":  1986,
+                               "last":  1989,
+                               "label":  "8th Grade: 1986-1989"
+                           },
+                           {
+                               "code":  "7A",
+                               "grade":  "7th",
+                               "className":  "A",
+                               "first":  1990,
+                               "last":  2005
+                           },
+                           {
+                               "code":  "7AA",
+                               "grade":  "7th",
+                               "className":  "AA",
+                               "first":  1990,
+                               "last":  2005
+                           },
+                           {
+                               "code":  "8A",
+                               "grade":  "8th",
+                               "className":  "A",
+                               "first":  1990,
+                               "last":  2005
+                           },
+                           {
+                               "code":  "8AA",
+                               "grade":  "8th",
+                               "className":  "AA",
+                               "first":  1990,
+                               "last":  2005
+                           },
+                           {
+                               "code":  "7-1A",
+                               "grade":  "7th",
+                               "className":  "1A",
+                               "first":  2006,
+                               "last":  null
+                           },
+                           {
+                               "code":  "7-2A",
+                               "grade":  "7th",
+                               "className":  "2A",
+                               "first":  2006,
+                               "last":  null
+                           },
+                           {
+                               "code":  "7-3A",
+                               "grade":  "7th",
+                               "className":  "3A",
+                               "first":  2006,
+                               "last":  null
+                           },
+                           {
+                               "code":  "7-4A",
+                               "grade":  "7th",
+                               "className":  "4A",
+                               "first":  2006,
+                               "last":  null
+                           },
+                           {
+                               "code":  "8-1A",
+                               "grade":  "8th",
+                               "className":  "1A",
+                               "first":  2006,
+                               "last":  null
+                           },
+                           {
+                               "code":  "8-2A",
+                               "grade":  "8th",
+                               "className":  "2A",
+                               "first":  2006,
+                               "last":  null
+                           },
+                           {
+                               "code":  "8-3A",
+                               "grade":  "8th",
+                               "className":  "3A",
+                               "first":  2006,
+                               "last":  null
+                           },
+                           {
+                               "code":  "8-4A",
+                               "grade":  "8th",
+                               "className":  "4A",
+                               "first":  2006,
+                               "last":  null
+                           }
+                       ]
+}

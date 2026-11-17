@@ -18,11 +18,18 @@ param(
 
 $ErrorActionPreference = "Stop"
 . (Join-Path $PSScriptRoot "IesaRequest.ps1")
+. (Join-Path $PSScriptRoot "IesaSport.ps1")
 # Everything season-specific lives in live-season.json at the site root, so a new
 # season needs no script edits (see Start-IesaSeason.ps1).
 $siteRoot = Split-Path -Parent $PSScriptRoot
 $liveSeason = Get-Content -Raw -LiteralPath (Join-Path $siteRoot "live-season.json") | ConvertFrom-Json
 $SeasonYear = [int]$liveSeason.year
+# A season can be fully set up while its refreshes are switched off
+# ("refreshEnabled": false): nothing is requested from IESA, NFHS or Hudl.
+if ($liveSeason.PSObject.Properties["refreshEnabled"] -and $liveSeason.refreshEnabled -eq $false) {
+    Write-Output "Score refreshes for the $SeasonYear $($IesaSport.name.ToLower()) season are switched off (refreshEnabled in live-season.json); nothing to check."
+    return
+}
 $FollowedClass = [string]$liveSeason.followedClass
 function Get-SeasonDate([string]$value) { [datetime]::ParseExact($value, "yyyy-MM-dd", [Globalization.CultureInfo]::InvariantCulture) }
 $seedsFrom = Get-SeasonDate $liveSeason.seedsFrom
@@ -207,7 +214,7 @@ function Test-RegionalsComplete([string]$path, [string]$grade) {
 # assignment page when a school withdraws. Report drift so data.js can be fixed.
 function Get-RosterChanges([string]$grade) {
     $classCode = $grade.Substring(0, 1) + "-$ClassName"
-    $url = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=$SeasonYear&Class=$classCode"
+    $url = "$IesaSportUrl/assignments_Regional.asp?Year=$SeasonYear&Class=$classCode"
     $html = (Invoke-IesaPage $url).Content
     $headers = @([regex]::Matches($html, "(?is)<td\s+class=['""]TableSubtitle2['""][^>]*>\s*Regional\s+(\d+)\s*</td>"))
     $local = @(Get-Regionals $grade)
@@ -410,7 +417,7 @@ foreach ($grade in $liveClass.OpenGrades) {
             continue
         }
         $schoolId = $directory[$lookup]
-        $sourceUrl = "https://www.iesa.org/activities/memberStats.asp?SchoolID=$schoolId&ActivityCode=GBK&GradeLevel=$gradeLevel"
+        $sourceUrl = "https://www.iesa.org/activities/memberStats.asp?SchoolID=$schoolId&ActivityCode=$($IesaSport.activityCode)&GradeLevel=$gradeLevel"
         try {
             $fetched++
             $page = Invoke-IesaPage $sourceUrl

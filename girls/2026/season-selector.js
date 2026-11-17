@@ -18,11 +18,14 @@
     classSelect.hidden = true;
     select.insertAdjacentElement("afterend", classSelect);
 
+    // Class eras come from the site's sport.json (girls' values until it loads).
+    var eras = { firstYear: 1979, combinedLast: 1985, gradeOnlyLast: 1989, legacyLast: 2005 };
+
     // Picking a year keeps you in the grade you are reading, except where that
     // grade did not exist. Trophies must describe the page you would land on,
     // so both use this.
     function gradeFor(selectedYear) {
-        return selectedYear <= 1985 ? "combined" :
+        return selectedYear <= eras.combinedLast ? "combined" :
             data.grade === "combined" ? "7th" : data.grade;
     }
 
@@ -32,11 +35,11 @@
     }
 
     function validSeason(season) {
-        if (!Number.isInteger(season.year) || season.year < 1979 || season.year > 2100) { return false; }
-        var allowed = season.year <= 1989 ? [] : season.year <= 2005 ? ["A", "AA"] : ["1A", "2A", "3A", "4A"];
-        if (season.year <= 1989) {
+        if (!Number.isInteger(season.year) || season.year < eras.firstYear || season.year > 2100) { return false; }
+        var allowed = season.year <= eras.gradeOnlyLast ? [] : season.year <= eras.legacyLast ? ["A", "AA"] : ["1A", "2A", "3A", "4A"];
+        if (season.year <= eras.gradeOnlyLast) {
             return season.className === null &&
-                season.gradeMode === (season.year <= 1985 ? "combined" : "separate") && !season.classes;
+                season.gradeMode === (season.year <= eras.combinedLast ? "combined" : "separate") && !season.classes;
         }
         return allowed.includes(season.className) &&
             classesOf(season).every(function (className) { return allowed.includes(className); }) &&
@@ -64,7 +67,11 @@
         return seasonList.filter(function (season) { return season.year === selectedYear; })[0];
     }
 
-    team.load("seasons.json").then(function (seasons) {
+    Promise.all([team.load("seasons.json"), team.load("sport.json").catch(function () { return {}; })]).then(function (loaded) {
+        var seasons = loaded[0];
+        ["firstYear", "combinedLast", "gradeOnlyLast", "legacyLast"].forEach(function (key) {
+            if (Number.isInteger(loaded[1][key])) { eras[key] = loaded[1][key]; }
+        });
         if (!Array.isArray(seasons) || !seasons.length || !seasons.every(validSeason) ||
             new Set(seasons.map(function (season) { return season.year; })).size !== seasons.length ||
             !seasons.some(function (season) { return season.year === year; })) {

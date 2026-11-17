@@ -1,0 +1,125 @@
+name: Update IESA boys scores
+
+on:
+  schedule:
+    # GitHub cron runs on UTC. Central Standard Time is UTC-6 for the whole boys'
+    # season (November-February). GitHub may start scheduled runs late
+    # when its queue is busy.
+    # Weekdays 5:00 AM, 11:00 AM and 5:00 PM Central.
+    - cron: "0 11,17,23 * * 1-5"
+    # Saturdays 9:00 PM Central (Sunday 03:00 UTC).
+    - cron: "0 3 * * 0"
+    # Weekdays 9:00 PM Central (Tuesday-Saturday 03:00 UTC), postseason only
+    # (bracketFrom-endDate): picks up evening tournament games the same night.
+    - cron: "0 3 * * 2-6"
+  workflow_dispatch:
+    inputs:
+      brackets_only:
+        description: "Only the official seeds and bracket results (no school scores)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  # Lets the workflow switch its own schedule off when the season is over.
+  actions: write
+
+# Never let two boys' refreshes push at the same time (the girls' workflow has
+# its own group; each pulls and rebases before pushing).
+concurrency:
+  group: update-scores-boys
+  cancel-in-progress: false
+
+jobs:
+  update-scores:
+    runs-on: windows-latest
+    # The boys' site lives in boys/; every path below is relative to it.
+    defaults:
+      run:
+        working-directory: boys
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # Cron has no end date, so scheduled runs stop themselves after the live
+      # season's last day (endDate in live-season.json: the day before IESA's
+      # "Season must end" date, Central) and start on its "Games may begin"
+      # date (gamesFrom). Manual runs still work. The 9 PM weekday run only
+      # runs during the postseason. "refreshEnabled": false in live-season.json
+      # switches every run off, manual ones included (the season stays set up).
+      - name: Check season window
+        id: season
+        shell: pwsh
+        run: |
+          $season = Get-Content -Raw live-season.json | ConvertFrom-Json
+          $date = { param($value) [datetime]::ParseExact($value, "yyyy-MM-dd", [Globalization.CultureInfo]::InvariantCulture) }
+          $end = & $date $season.endDate
+          $bracketFrom = & $date $season.bracketFrom
+          # Nothing is played before IESA's "Games may begin" date.
+          $gamesFrom = if ($season.gamesFrom) { & $date $season.gamesFrom } else { [datetime]::MinValue }
+          $central = [TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, "Central Standard Time")
+          $scheduled = "${{ github.event_name }}" -eq "schedule"
+          $evening = $scheduled -and "${{ github.event.schedule }}" -eq "0 3 * * 2-6"
+          $ended = $scheduled -and $central.Date -gt $end
+          $enabled = $season.refreshEnabled -ne $false
+          $active = $enabled -and (!$scheduled -or (!$ended -and $central.Date -ge $gamesFrom -and (!$evening -or $central.Date -ge $bracketFrom)))
+          Write-Host "Season $($season.year); Central time $($central.ToString('yyyy-MM-dd HH:mm')); evening run: $evening; refreshes enabled: $enabled; refresh active: $active; season ended: $ended"
+          "active=$($active.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
+          "evening=$($evening.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
+          "ended=$($ended.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
+          "year=$($season.year)" >> $env:GITHUB_OUTPUT
+
+      - name: Run score refresh script
+        id: refresh
+        if: steps.season.outputs.active == 'true'
+        shell: pwsh
+        # The refresh scripts live in the 2026 folder for every season. The script
+        # writes complete=true to the step output once every state final is played.
+        run: |
+          $evening = "${{ steps.season.outputs.evening }}" -eq "true"
+          $bracketsOnly = "${{ inputs.brackets_only }}" -eq "true"
+          ./2026/Update-IesaScores.ps1 -SitePath "${{ github.workspace }}/boys/${{ steps.season.outputs.year }}" -Evening:$evening -BracketsOnly:$bracketsOnly
+
+      - name: Commit and push refreshed data
+        if: steps.season.outputs.active == 'true'
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Scores, watch links and strength of schedule every run; regional seeds
+          # once published; the state bracket, trophy placements and team index
+          # during the postseason. The season's first class lives in <year>/, the
+          # others in <year>/<class>/.
+          $year = "${{ steps.season.outputs.year }}"
+          $folders = @($year) + @("1A", "2A", "3A", "4A" | ForEach-Object { "$year/$_" })
+          $perClass = foreach ($folder in $folders) {
+            foreach ($grade in "7th", "8th") {
+              foreach ($name in "scores-$grade.json", "scores-$grade.js", "regional-seeds-$grade.json",
+                "regional-seeds-$grade.js", "bracket-$grade.json", "bracket-$grade.js", "strength-$grade.json") { "$folder/$name" }
+            }
+          }
+          $files = @($perClass) + @(
+            "$year/nfhs-events.json", "$year/hudl-events.json",
+            "placements.json", "teams.json"
+          ) | Where-Object { Test-Path $_ }
+          git add -- $files
+          if (git diff --cached --quiet) {
+            Write-Host "No data changes to commit."
+          } else {
+            git commit -m "IESA boys score refresh"
+            # Someone may have pushed while the refresh ran.
+            git pull --rebase --autostash
+            git push
+          }
+
+      # Every state final played (complete) or the season's end date passed:
+      # switch the schedule off so no further runs start. Re-enable it for the
+      # next season in the Actions tab (or: gh workflow enable update-scores-boys.yml).
+      - name: Stop the schedule when the season is over
+        if: steps.refresh.outputs.complete == 'true' || steps.season.outputs.ended == 'true'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          Write-Host "The season is over; disabling this workflow's schedule."
+          gh workflow disable "${{ github.workflow }}" --repo "${{ github.repository }}"

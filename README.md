@@ -6,13 +6,37 @@ Association, one self-contained site per sport:
 | Folder | Site | IESA pages |
 |---|---|---|
 | `girls\` | Girls' basketball, 1979 onward ([girls\README.md](girls/README.md)) | `www.iesa.org/activities/gbk/` |
-| `boys\` | Boys' basketball (not built yet) | `www.iesa.org/activities/bbk/` |
+| `boys\` | Boys' basketball, 1985 onward, trophies from 1930 ([boys\README.md](boys/README.md)) | `www.iesa.org/activities/bbk/` |
 
-`index.html` at the root lets visitors pick a sport. Each sport folder is a
-complete site: its seasons, `seasons.json`, `live-season.json`, templates,
-build scripts, tests and the shared assets in `<sport>\2026\`. Every path in a
-sport's README is relative to that sport's folder. Run its scripts from
-there, for example `cd girls; .\tests\Run-Tests.ps1`.
+`index.html` at the root lets visitors pick a sport, and each sport's home page
+links to the other. Each sport folder is a complete site: its seasons,
+`seasons.json`, `live-season.json`, `placements.json`, `teams.json`, page
+templates, build scripts and the shared assets in `<sport>\2026\`. Paths in a
+sport's README are relative to that sport's folder; run its scripts from there
+(for example `cd boys; .\Build-IesaSeason.ps1 -Year 2026 -ClassName 3A`).
+
+## One codebase, two sports
+
+Both sports run the same code. Each folder's `sport.json` says which IESA pages
+to read (`gbk`/`bbk`), the calendar's wording, how IESA numbers the season
+(boys' tournaments are played in the second year of a "2026-2027" season), and
+the class eras (combined, grade-only, Class A/AA, Classes 1A–4A). Fixes for one
+sport's data (the girls' 2004, 2008, 2021 and 2024 exceptions) only apply to that
+sport. In the browser, `2026\my-team.js` tells the sports apart by the folder
+and keeps each sport's *My team* choice separately; `season-selector.js` reads
+the eras from `sport.json`.
+
+`girls\` holds the master copy of the code. Change it there, then run
+`.\Sync-IesaSharedCode.ps1` to copy the build scripts, templates and `2026\`
+scripts, styles and icons to `boys\`; `-Check` only reports differences.
+Each sport keeps its own data, home page, `2026\team-links.js` and
+`2026\manifest.json`.
+
+## Tests
+
+`.\tests\Run-Tests.ps1` runs the girls' suites, the site-integrity checks
+against `boys\`, and the shared-code check. `.github\workflows\tests.yml` runs it
+on every push and pull request.
 
 ## Old addresses
 
@@ -26,18 +50,13 @@ root year folders.
 
 ## Automation
 
-The workflows in `.github\workflows\` run in `girls\`
-(`defaults.run.working-directory`): *Update IESA scores*, *Set up IESA season*
-and *Tests*. A boys' site would get its own copies pointed at `boys\`.
+| Workflow | Sport | What it does |
+|---|---|---|
+| *Update IESA scores* (`update-scores.yml`) | girls | Score, seed and bracket refreshes for the live season |
+| *Set up IESA season* (`season-setup.yml`) | girls | Creates the next season (August–October) |
+| *Update IESA boys scores* (`update-scores-boys.yml`) | boys | Same as the girls' refresh; **off** while `boys\live-season.json` has `"refreshEnabled": false` |
+| *Set up IESA boys season* (`season-setup-boys.yml`) | boys | Creates the next boys' season (September–December) |
+| *Tests* (`tests.yml`) | both | `tests\Run-Tests.ps1` |
 
-## Adding the boys' site
-
-IESA's boys' pages have the same layout (7th and 8th grade, Classes 1A–4A),
-but the season runs from late October to February, so a season spans two
-calendar years. Folders use the year the season starts (`boys\2026\` is
-2026–27). Before building it, the girls-specific parts of the scripts need a
-per-sport setting rather than hard-coded values: the IESA activity code (`gbk`/
-`GBK` in the request URLs and the calendar), the calendar's "GIRLS BASKETBALL"
-table headings, the NFHS (`basketball/girls/middle-school`) and Hudl filters,
-the page titles, and the *My team* storage keys in `my-team.js`, so a
-visitor's girls' and boys' teams are saved separately.
+Each sport's jobs run in its folder (`defaults.run.working-directory`) and have
+their own concurrency group; every push pulls and rebases first.

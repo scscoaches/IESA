@@ -8,7 +8,10 @@ param(
 
 $ErrorActionPreference = 'Stop'
 . (Join-Path $PSScriptRoot 'IesaRequest.ps1')
-if ($Year -lt 2002 -or $Year -gt 2100 -or (($Year -le 2005) -ne ($ClassName -in @('A', 'AA')))) {
+. (Join-Path $PSScriptRoot 'IesaSport.ps1')
+# The last Class A/AA year (32 regionals, 16 sectionals, no seeds) differs by sport.
+$legacyLast = [int]$IesaSport.legacyLast
+if ($Year -lt 2002 -or $Year -gt 2100 -or (($Year -le $legacyLast) -ne ($ClassName -in @('A', 'AA')))) {
     throw "Invalid IESA year/class: $Year $ClassName"
 }
 if (!(Test-Path -LiteralPath $SitePath -PathType Container)) {
@@ -38,7 +41,7 @@ function Same-Name([string]$first, [string]$second) {
     if (!$first -or !$second) { return $false }
     $left = (($first -replace '(?i)\s+\(Co-?op\)$|\s+UGC$|(?<=Michael)''s$', '') -replace '\s+', ' ').Trim()
     $right = (($second -replace '(?i)\s+\(Co-?op\)$|\s+UGC$|(?<=Michael)''s$', '') -replace '\s+', ' ').Trim()
-    if ($Year -eq 2002 -and $ClassName -eq 'A') {
+    if ($IesaIsGirls -and $Year -eq 2002 -and $ClassName -eq 'A') {
         $left = $left -replace '(?i)^Ogden PVO South$', 'Ogden'
         $right = $right -replace '(?i)^Ogden PVO South$', 'Ogden'
     }
@@ -73,7 +76,7 @@ function Get-RegionalRosters([string]$grade) {
     $dataPath = Join-Path (Join-Path $SitePath $grade) 'data.json'
     if (Test-Path -LiteralPath $dataPath) {
         $data = Get-Content -Raw -LiteralPath $dataPath | ConvertFrom-Json
-        $expected = if ($Year -le 2005) { 32 } else { 16 }
+        $expected = if ($Year -le $legacyLast) { 32 } else { 16 }
         if ($data.year -ne $Year -or $data.className -ne $ClassName -or $data.regionals.Count -ne $expected) {
             throw "Invalid $grade regional assignment data at $dataPath"
         }
@@ -117,7 +120,9 @@ function Get-Result([string]$html, [string]$url) {
         $result = [regex]::Match($markup, '(?is)^\s*(?<winner>[^<]+?)' + $suffix)
     }
     $unscored = $false
-    if (!$result.Success -and $Year -le 2008) {
+    # IESA printed some results without a score: girls' pages through 2008, and
+    # boys' pages in any year (2010 7-1A "Joliet Laraway def. Rockdale").
+    if (!$result.Success -and ($Year -le 2008 -or !$IesaIsGirls)) {
         $result = [regex]::Match($markup,
             '(?is)^\s*<(?:b|strong)>\s*(?<winner>.*?)\s*</(?:b|strong)>\s*def\.\s*(?<loser>[^<,]+?)\s*$')
         if (!$result.Success) { $result = [regex]::Match($markup,
@@ -160,7 +165,7 @@ function Get-OfficialPage([string]$url, [string]$marker) {
 
 function Get-SectionBlocks([string]$html, [string]$pending, [string]$url) {
     $heading = "(?is)<td\s+class=['""]TableSubtitle['""][^>]*>\s*(?:<b>\s*)?Sectional\s+(\d+)\b"
-    $expected = if ($Year -le 2005) { 16 } else { 8 }
+    $expected = if ($Year -le $legacyLast) { 16 } else { 8 }
     $matches = [regex]::Matches($html, $heading)
     if ($matches.Count -eq 0 -and $html.Contains($pending)) { return @() }
     if ($matches.Count -ne $expected) { throw "Expected $expected sectionals at $url; found $($matches.Count)" }
@@ -194,7 +199,7 @@ function Read-Regionals([string]$html, [string]$url, [hashtable]$rosters) {
     for ($s = 0; $s -lt $blocks.Count; $s++) {
         $rows = [regex]::Matches($blocks[$s],
             "(?is)<td\s+class=['""]Links['""][^>]*>\s*(?:<a\s+href=['""][^'""]*(?:Regional=|#Regional_)(?<linked>\d+)[^'""]*['""][^>]*>.*?</a>|Regional\s+(?<plain>\d+))\s*</td>\s*<td\s+class=['""]ListData['""][^>]*>(?<result>.*?)</td>")
-        if ($rows.Count -gt 2 -or ($Year -ge 2006 -and $rows.Count -ne 2)) {
+        if ($rows.Count -gt 2 -or ($Year -gt $legacyLast -and $rows.Count -ne 2)) {
             throw "Expected regional results in sectional $($s + 1) at $url"
         }
         foreach ($row in $rows) {
@@ -202,7 +207,7 @@ function Read-Regionals([string]$html, [string]$url, [hashtable]$rosters) {
             if ($number -notin @((2 * $s + 1), (2 * $s + 2))) {
                 throw "Regional number does not match sectional at $url"
             }
-            if ($Year -eq 2008 -and $ClassName -eq '1A' -and $number -eq 10 -and
+            if ($IesaIsGirls -and $Year -eq 2008 -and $ClassName -eq '1A' -and $number -eq 10 -and
                 (Get-Text $row.Groups['result'].Value) -match '^def\.\s+Atwood-Hammond\s*,\s*28-20$') {
                 continue
             }
@@ -242,7 +247,7 @@ function Read-Regionals([string]$html, [string]$url, [hashtable]$rosters) {
             $names = [regex]::Split((Get-Text $pairing.Groups[1].Value),
                 '\s+vs\.?(?:\s+|$)', [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
             if ($names.Count -eq 2) {
-                if ($Year -le 2005) {
+                if ($Year -le $legacyLast) {
                     for ($i = 0; $i -lt 2; $i++) {
                         $number = 2 * $s + $i + 1
                         if ($results.ContainsKey("$number")) { continue }
@@ -325,7 +330,7 @@ function Read-Sectionals([string]$html, [string]$url, [hashtable]$regionals) {
 
 function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url,
     [hashtable]$sectionals, [hashtable]$regionals) {
-    $legacy = $Year -le 2005
+    $legacy = $Year -le $legacyLast
     # State names matched to a differently named sectional winner by town.
     $stateAliases = @{}
     $heading = if ($legacy) { "Class $($gradeNumber)$ClassName  State Tournament" } else {
@@ -432,7 +437,7 @@ function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url,
                         }
                     }
                     if ($found.Count -ne 1) {
-                        if ($Year -eq 2008 -and $gradeNumber -eq 8 -and $game -eq 2 -and
+                        if ($IesaIsGirls -and $Year -eq 2008 -and $gradeNumber -eq 8 -and $game -eq 2 -and
                             $found.Count -eq 0 -and $teams[$i] -eq 'Decatur St. Patrick') {
                             continue
                         }
@@ -446,7 +451,7 @@ function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url,
                     $numbers[1] -lt 1 -or $numbers[1] -gt $(if ($legacy) { 16 } else { 8 }) -or
                     $numbers[0] -eq $numbers[1]) { throw "Invalid sectional pairing at $url" }
                 $matchups["$game"] = $numbers
-            } elseif ($Year -eq 2008 -and $gradeNumber -eq 8 -and $game -eq 2 -and
+            } elseif ($IesaIsGirls -and $Year -eq 2008 -and $gradeNumber -eq 8 -and $game -eq 2 -and
                 $teams -contains 'Decatur St. Patrick' -and
                 @($numbers | Where-Object { $_ }).Count -eq 1) {
                 $matchups["$game"] = $numbers
@@ -541,20 +546,20 @@ function Read-Scoreboard([string]$html, [int]$gradeNumber, [string]$url,
 $captures = @{}
 foreach ($grade in $Grades) {
     $number = [int]$grade.Substring(0, 1)
-    $class = if ($Year -le 2005) { "$number$ClassName" } else { "$number-$ClassName" }
-    $base = 'https://www.iesa.org/activities/gbk/'
+    $class = if ($Year -le $legacyLast) { "$number$ClassName" } else { "$number-$ClassName" }
+    $base = "$IesaSportUrl/"
     $regionalUrl = "${base}qualifiers_Sectional.asp?Year=$Year&Class=$class"
     $sectionalUrl = "${base}qualifiers_State.asp?Year=$Year&Class=$class"
     $stateUrl = "${base}scoreboards/index.asp?Year=$Year&Class=$class"
     $regionalHtml = Get-OfficialPage $regionalUrl "$Year Class $class Regional Champions/Sectional Matchups"
     $sectionalHtml = Get-OfficialPage $sectionalUrl "$Year Class $class Sectional Champions/State Qualifiers"
-    $stateMarker = if ($Year -le 2005) { "Class $class  State Tournament" } else {
+    $stateMarker = if ($Year -le $legacyLast) { "Class $class  State Tournament" } else {
         "$($number)th Grade Class $ClassName  State Tournament"
     }
     $stateHtml = Get-OfficialPage $stateUrl $stateMarker
     $hasRoster = (Test-Path -LiteralPath (Join-Path $SitePath "$grade\data.json") -PathType Leaf) -or
         (Split-Path $SitePath -Leaf) -eq "$Year"
-    $rosters = if ($hasRoster -and !($Year -eq 2004 -and $grade -eq '7th' -and $ClassName -eq 'A')) {
+    $rosters = if ($hasRoster -and !($IesaIsGirls -and $Year -eq 2004 -and $grade -eq '7th' -and $ClassName -eq 'A')) {
         Get-RegionalRosters $grade
     } else { $null }
     $regionalPairings = Read-Regionals $regionalHtml $regionalUrl $rosters

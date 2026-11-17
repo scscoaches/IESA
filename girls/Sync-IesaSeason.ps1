@@ -6,7 +6,7 @@
 .DESCRIPTION
     Run daily (the season-setup GitHub Actions workflow runs it each morning in
     August-October). It makes no IESA request when the live season is already
-    the current one. Otherwise it reads IESA's girls basketball calendar and,
+    the current one. Otherwise it reads IESA's calendar for this site's sport and,
     from that season's "Final Entry Deadline", checks whether IESA has published
     the followed class's regional assignments (both grades) and state scoreboard.
     Until then it waits and tries again the next day (3 requests). Once they are
@@ -34,8 +34,9 @@ $now = if ($Today) { [datetime]::ParseExact($Today, 'yyyy-MM-dd', [Globalization
     [TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, 'Central Standard Time').Date
 }
 $live = Get-Content -Raw -LiteralPath (Join-Path $SiteRoot 'live-season.json') | ConvertFrom-Json
-# A season is played in the fall; its entries close in August.
-$target = if ($now.Month -ge 8) { $now.Year } else { $now.Year - 1 }
+# A season starts in the fall; its entries close in August or September. Its
+# tournament year is that year for girls and the next for boys (yearOffset).
+$target = $(if ($now.Month -ge 8) { $now.Year } else { $now.Year - 1 }) + [int]$IesaSport.yearOffset
 if ([int]$live.year -ge $target) {
     Write-Output "The $($live.year) season is already set up; nothing to do."
     return
@@ -54,11 +55,11 @@ if ($now -lt $opens) {
 $followed = [string]$live.followedClass
 $missing = @()
 foreach ($level in '7', '8') {
-    $url = "https://www.iesa.org/activities/gbk/assignments_Regional.asp?Year=$target&Class=$level-$followed"
+    $url = "$IesaSportUrl/assignments_Regional.asp?Year=$target&Class=$level-$followed"
     $regionals = [regex]::Matches([string](Invoke-IesaPage $url).Content, "(?is)<td\s+class=['""]TableSubtitle2['""][^>]*>\s*Regional\s+\d+\s*</td>").Count
     if ($regionals -lt 16) { $missing += "$($level)th grade Class $followed regional assignments ($regionals of 16 regionals)" }
 }
-$scoreboardUrl = "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=$target&Class=7-$followed"
+$scoreboardUrl = "$IesaSportUrl/scoreboards/index.asp?Year=$target&Class=7-$followed"
 if ([string](Invoke-IesaPage $scoreboardUrl).Content -notmatch "7th Grade Class $followed\s+State Tournament") {
     $missing += "the 7th grade Class $followed state scoreboard"
 }

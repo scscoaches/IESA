@@ -44,7 +44,8 @@ jobs:
       # season's last day (endDate in live-season.json: the day before IESA's
       # "Season must end" date, Central) and start on its "Games may begin"
       # date (gamesFrom). Manual runs still work. The 9 PM weekday run only
-      # runs during the postseason.
+      # runs during the postseason. "refreshEnabled": false in live-season.json
+      # switches every run off, manual ones included (the season stays set up).
       - name: Check season window
         id: season
         shell: pwsh
@@ -59,8 +60,9 @@ jobs:
           $scheduled = "${{ github.event_name }}" -eq "schedule"
           $evening = $scheduled -and "${{ github.event.schedule }}" -eq "0 3 * * 2-6"
           $ended = $scheduled -and $central.Date -gt $end
-          $active = !$scheduled -or (!$ended -and $central.Date -ge $gamesFrom -and (!$evening -or $central.Date -ge $bracketFrom))
-          Write-Host "Season $($season.year); Central time $($central.ToString('yyyy-MM-dd HH:mm')); evening run: $evening; refresh active: $active; season ended: $ended"
+          $enabled = $season.refreshEnabled -ne $false
+          $active = $enabled -and (!$scheduled -or (!$ended -and $central.Date -ge $gamesFrom -and (!$evening -or $central.Date -ge $bracketFrom)))
+          Write-Host "Season $($season.year); Central time $($central.ToString('yyyy-MM-dd HH:mm')); evening run: $evening; refreshes enabled: $enabled; refresh active: $active; season ended: $ended"
           "active=$($active.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
           "evening=$($evening.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
           "ended=$($ended.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT

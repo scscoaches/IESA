@@ -1,8 +1,9 @@
-# Reads IESA's girls basketball calendar
-# (https://www.iesa.org/activities/calendar.asp?activitycode=GBK), which lists
+# Reads IESA's calendar for this site's sport (sport.json; for example
+# https://www.iesa.org/activities/calendar.asp?activitycode=GBK), which lists
 # four seasons ("2026-2027" ...) for each grade. Dot-source this file.
 
-$IesaCalendarUrl = 'https://www.iesa.org/activities/calendar.asp?activitycode=GBK'
+. (Join-Path $PSScriptRoot '2026\IesaSport.ps1')
+$IesaCalendarUrl = "https://www.iesa.org/activities/calendar.asp?activitycode=$($IesaSport.activityCode)"
 
 # The calendar's rows this site uses, keyed by the start of their label.
 $IesaCalendarItems = [ordered]@{
@@ -50,10 +51,11 @@ function Get-IesaCalendarCellText([string]$html) {
 function Get-IesaCalendar([string]$html) {
     $calendar = @{}
     foreach ($grade in '7th', '8th') {
-        $header = [regex]::Match($html, "(?is)GIRLS BASKETBALL $grade GRADE")
-        if (!$header.Success) { throw "The IESA calendar has no $grade grade girls basketball table." }
+        $heading = [regex]::Escape($IesaSport.calendarHeading)
+        $header = [regex]::Match($html, "(?is)$heading $grade GRADE")
+        if (!$header.Success) { throw "The IESA calendar has no $grade grade $($IesaSport.name.ToLower()) table." }
         $rest = $html.Substring($header.Index)
-        $next = [regex]::Match($rest.Substring($header.Length), '(?is)GIRLS BASKETBALL [78]th GRADE|</table>')
+        $next = [regex]::Match($rest.Substring($header.Length), "(?is)$heading [78]th GRADE|</table>")
         $scope = if ($next.Success) { $rest.Substring(0, $header.Length + $next.Index) } else { $rest }
         $years = @([regex]::Matches($scope, '(?is)<th>\s*(\d{4})-\d{4}\s*</th>') | ForEach-Object { [int]$_.Groups[1].Value })
         if (!$years.Count) { throw "The IESA calendar's $grade grade table lists no seasons." }
@@ -76,7 +78,10 @@ function Get-IesaCalendar([string]$html) {
 
 # The live-season.json dates for one season. Refreshes stop on the "Season must
 # end" date, so endDate (the last day refreshes may run) is the day before it.
-function Get-IesaSeasonDates($calendar, [int]$year) {
+# $tournamentYear is IESA's year; the calendar keys seasons by their first year,
+# which for boys (yearOffset 1) is the year before the tournament.
+function Get-IesaSeasonDates($calendar, [int]$tournamentYear) {
+    $year = $tournamentYear - [int]$IesaSport.yearOffset
     if (!$calendar.ContainsKey($year)) { throw "The IESA calendar has no $year-$($year + 1) season." }
     $grades = [ordered]@{}
     foreach ($grade in '7th', '8th') {

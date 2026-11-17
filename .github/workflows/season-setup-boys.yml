@@ -1,0 +1,61 @@
+name: Set up IESA boys season
+
+# After IESA's boys' Final Entry Deadline (September 1), create the next boys'
+# season (its tournament year is the year after the deadline) as soon as IESA
+# publishes its regional assignments and state scoreboard: archive the finished
+# season, build every class of the new one, take its dates from IESA's calendar
+# (boys/live-season.json), and switch the boys' score refresh back on. Runs make
+# no IESA request once the season exists.
+on:
+  schedule:
+    # Every day of September-December at 7:00 AM Central (12:00 UTC in daylight
+    # time; 6:00 AM once standard time begins in November).
+    - cron: "0 12 * 9-12 *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  # Re-enables the score refresh, which disables itself when a season ends.
+  actions: write
+
+# Never push at the same time as a boys' score refresh.
+concurrency:
+  group: update-scores-boys
+  cancel-in-progress: false
+
+jobs:
+  set-up-season:
+    runs-on: windows-latest
+    timeout-minutes: 60
+    # The boys' site lives in boys/; every path below is relative to it.
+    defaults:
+      run:
+        working-directory: boys
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Create the next season when IESA has opened it
+        id: sync
+        # Windows PowerShell 5.1, which the site builders are written and tested for.
+        shell: powershell
+        run: ./Sync-IesaSeason.ps1
+
+      - name: Commit and push the new season
+        if: steps.sync.outputs.created == 'true'
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          $year = (Get-Content -Raw live-season.json | ConvertFrom-Json).year
+          git commit -m "Set up the IESA $year boys season"
+          git pull --rebase --autostash
+          git push
+
+      - name: Switch the score refresh back on
+        if: steps.sync.outputs.created == 'true'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow enable update-scores-boys.yml --repo "${{ github.repository }}"
