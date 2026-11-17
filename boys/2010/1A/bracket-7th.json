@@ -1,0 +1,339 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:55",
+    "year":  2010,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Springfield Christian",
+                                 "loser":  "Springfield Calvary",
+                                 "score":  "29-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Cornell",
+                                "score":  "50-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "East Peoria Robein",
+                                "loser":  "Pekin Rankin",
+                                "score":  "36-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Griggsville-Perry",
+                                 "loser":  "Concord Triopia",
+                                 "score":  "38-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Lincoln Chester-East Lincoln",
+                                 "loser":  "Lincoln West Lincoln-Broadwell",
+                                 "score":  "44-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Joliet Laraway",
+                                "loser":  "Rockdale",
+                                "score":  null,
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Royal Prairieview Ogden",
+                                "loser":  "Chrisman Scottland",
+                                "score":  "42-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Carrollton St. John",
+                                 "score":  "52-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Mazon-Verona-Kinsman",
+                                "loser":  "Gardner",
+                                "score":  "22-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur Our Lady of Lourdes",
+                                "loser":  "Decatur Hope",
+                                "score":  "53-40",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Effingham Sacred Heart",
+                                 "loser":  "Cowden-Herrick",
+                                 "score":  "54-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Cissna Park",
+                                "loser":  "Potomac",
+                                "score":  "30-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "East St. Louis Jackson",
+                                 "loser":  "Pocahontas",
+                                 "score":  "61-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria Limestone Walters",
+                                "loser":  "Monmouth ICS",
+                                "score":  "23-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "LaSalle Trinity Catholic",
+                                "loser":  "Mendota Holy Cross",
+                                "score":  "41-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Newton St. Thomas",
+                                 "loser":  "Martinsville",
+                                 "score":  "35-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "7":  {
+                                              "team":  "Cissna Park",
+                                              "record":  "11-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Decatur Our Lady of Lourdes",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                                          },
+                                    "3":  {
+                                              "team":  "Pontiac St. Mary\u0027s",
+                                              "record":  "18-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Jacksonville Our Saviour",
+                                               "record":  "11-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                                           },
+                                    "16":  {
+                                               "team":  "Springfield Christian",
+                                               "record":  "18-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                                           },
+                                    "15":  {
+                                               "team":  "East St. Louis Jackson",
+                                               "record":  "7-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Mazon-Verona-Kinsman",
+                                              "record":  "19-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Effingham Sacred Heart",
+                                               "record":  "19-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                                           },
+                                    "4":  {
+                                              "team":  "LaSalle Trinity Catholic",
+                                              "record":  "13-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Griggsville-Perry",
+                                               "record":  "17-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                                           },
+                                    "5":  {
+                                              "team":  "East Peoria Robein",
+                                              "record":  "18-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Royal Prairieview Ogden",
+                                              "record":  "17-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2010\u0026Class=7-1A"
+                                          }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Effingham Sacred Heart",
+                                 "loser":  "Newton St. Thomas",
+                                 "score":  "43-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2010\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "East Peoria Robein",
+                                 "loser":  "Peoria Limestone Walters",
+                                 "score":  "30-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2010\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Pontiac St. Mary\u0027s",
+                                 "loser":  "LaSalle Trinity Catholic",
+                                 "score":  "45-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2010\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Joliet Laraway",
+                                 "loser":  "Mazon-Verona-Kinsman",
+                                 "score":  "40-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2010\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Royal Prairieview Ogden",
+                                 "loser":  "Cissna Park",
+                                 "score":  "33-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2010\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Griggsville-Perry",
+                                 "score":  "43-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2010\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Decatur Our Lady of Lourdes",
+                                 "loser":  "Lincoln Chester-East Lincoln",
+                                 "score":  "45-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2010\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "East St. Louis Jackson",
+                                 "loser":  "Springfield Christian",
+                                 "score":  "33-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2010\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           6
+                                       ],
+                                 "4":  [
+                                           2,
+                                           3
+                                       ],
+                                 "1":  [
+                                           5,
+                                           4
+                                       ],
+                                 "3":  [
+                                           1,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Decatur Our Lady of Lourdes",
+                                          "Pontiac St. Mary\u0027s"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           38
+                                       ],
+                            "winner":  "Decatur Our Lady of Lourdes",
+                            "loser":  "Pontiac St. Mary\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2010\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Joliet Laraway",
+                                          "East St. Louis Jackson"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           33
+                                       ],
+                            "winner":  "Joliet Laraway",
+                            "loser":  "East St. Louis Jackson",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2010\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Effingham Sacred Heart",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           43
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Effingham Sacred Heart",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2010\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Decatur Our Lady of Lourdes",
+                                          "Royal Prairieview Ogden"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           38
+                                       ],
+                            "winner":  "Decatur Our Lady of Lourdes",
+                            "loser":  "Royal Prairieview Ogden",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2010\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Pontiac St. Mary\u0027s",
+                                          "East Peoria Robein"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           19
+                                       ],
+                            "winner":  "Pontiac St. Mary\u0027s",
+                            "loser":  "East Peoria Robein",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2010\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Joliet Laraway",
+                                          "Pontiac St. Mary\u0027s"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           36
+                                       ],
+                            "winner":  "Joliet Laraway",
+                            "loser":  "Pontiac St. Mary\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2010\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Decatur Our Lady of Lourdes",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           41
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Decatur Our Lady of Lourdes",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2010\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Jacksonville Our Saviour",
+                                          "Joliet Laraway"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           25
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Joliet Laraway",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2010\u0026Class=7-1A"
+                        }
+              }
+}

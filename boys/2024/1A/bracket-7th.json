@@ -1,0 +1,354 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:15",
+    "year":  2024,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East St. Louis Younge",
+                                 "loser":  "Findlay Okaw Valley",
+                                 "score":  "49-44",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Mendota Holy Cross",
+                                "loser":  "Peru Catholic",
+                                "score":  "38-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Cambridge JHS",
+                                "loser":  "Kewanee Visitation",
+                                "score":  "41-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Royal Prairieview Ogden",
+                                 "loser":  "Champaign Judah Christian",
+                                 "score":  "37-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Lincoln Chester-East Lincoln",
+                                 "score":  "45-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ottawa Marquette",
+                                "loser":  "Ottawa Wallace",
+                                "score":  "33-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Lexington",
+                                "loser":  "Ransom",
+                                "score":  "31-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Danville Schlarman",
+                                 "loser":  "Martinsville",
+                                 "score":  "30-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "St. Anne",
+                                "loser":  "Grant Park",
+                                "score":  "30-12",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Epiphany",
+                                "loser":  "Normal Calvary",
+                                "score":  "34-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Bunker Hill Wolf Ridge",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "36-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Rantoul St. Malachy",
+                                "loser":  "Milford",
+                                "score":  "28-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Newton St. Thomas",
+                                 "score":  "49-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria St. Jude",
+                                "loser":  "Bartonville Oak Grove",
+                                "score":  "46-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "Washington St. Patrick",
+                                "loser":  "Flanagan",
+                                "score":  "20-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Augusta Southeastern",
+                                 "loser":  "Griggsville-Perry",
+                                 "score":  "33-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "East St. Louis Younge",
+                                               "record":  "5-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Mendota Holy Cross",
+                                              "record":  "15-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Cambridge JHS",
+                                              "record":  "18-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Royal Prairieview Ogden",
+                                               "record":  "15-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Lincoln West Lincoln-Broadwell",
+                                               "record":  "23-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                           },
+                                    "8":  {
+                                              "team":  "Lexington",
+                                              "record":  "15-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Danville Schlarman",
+                                               "record":  "8-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "St. Anne",
+                                              "record":  "13-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Epiphany",
+                                              "record":  "13-12",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Bunker Hill Wolf Ridge",
+                                               "record":  "14-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Rantoul St. Malachy",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Peoria St. Jude",
+                                              "record":  "25-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Washington St. Patrick",
+                                              "record":  "20-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Augusta Southeastern",
+                                               "record":  "17-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Augusta Southeastern",
+                                 "loser":  "Bunker Hill Wolf Ridge",
+                                 "score":  "57-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Cambridge JHS",
+                                 "loser":  "Peoria St. Jude",
+                                 "score":  "27-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Mendota Holy Cross",
+                                 "loser":  "Washington St. Patrick",
+                                 "score":  "50-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Ottawa Marquette",
+                                 "loser":  "St. Anne",
+                                 "score":  "49-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Lexington",
+                                 "loser":  "Rantoul St. Malachy",
+                                 "score":  "28-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Royal Prairieview Ogden",
+                                 "loser":  "Danville Schlarman",
+                                 "score":  "31-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Normal Epiphany",
+                                 "score":  "47-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "East St. Louis Younge",
+                                 "score":  "35-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           4,
+                                           8
+                                       ],
+                                 "4":  [
+                                           3,
+                                           1
+                                       ],
+                                 "1":  [
+                                           6,
+                                           5
+                                       ],
+                                 "3":  [
+                                           2,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Sigel St. Michael\u0027s",
+                                          "Augusta Southeastern"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           49
+                                       ],
+                            "winner":  "Augusta Southeastern",
+                            "loser":  "Sigel St. Michael\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Mendota Holy Cross",
+                                          "Augusta Southeastern"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           47
+                                       ],
+                            "winner":  "Augusta Southeastern",
+                            "loser":  "Mendota Holy Cross",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Lexington",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           23
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Lexington",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Royal Prairieview Ogden",
+                                          "Lincoln West Lincoln-Broadwell"
+                                      ],
+                            "scores":  [
+                                           14,
+                                           49
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Royal Prairieview Ogden",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Cambridge JHS",
+                                          "Ottawa Marquette"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           29
+                                       ],
+                            "winner":  "Ottawa Marquette",
+                            "loser":  "Cambridge JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Augusta Southeastern",
+                                          "Ottawa Marquette"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           27
+                                       ],
+                            "winner":  "Ottawa Marquette",
+                            "loser":  "Augusta Southeastern",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Lincoln West Lincoln-Broadwell",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           34
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Sigel St. Michael\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Lincoln West Lincoln-Broadwell",
+                                          "Ottawa Marquette"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           32
+                                       ],
+                            "winner":  "Lincoln West Lincoln-Broadwell",
+                            "loser":  "Ottawa Marquette",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-1A"
+                        }
+              }
+}

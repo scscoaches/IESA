@@ -1,0 +1,2016 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:41",
+    "year":  2014,
+    "grade":  "8th",
+    "regionalBrackets":  {
+                             "1":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Yorkville"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Bolingbrook Jane Addams"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Woodridge Jefferson"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Bellwood Roosevelt"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Bolingbrook Humphrey"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Bolingbrook Brooks"
+                                                     },
+                                                     {
+                                                         "seed":  7,
+                                                         "team":  "Summit Heritage"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Yorkville",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Yorkville",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Bellwood Roosevelt",
+                                                                            "Bolingbrook Humphrey"
+                                                                        ],
+                                                              "scores":  [
+                                                                             49,
+                                                                             45
+                                                                         ],
+                                                              "winner":  "Bellwood Roosevelt",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Bolingbrook Jane Addams",
+                                                                            "Summit Heritage"
+                                                                        ],
+                                                              "scores":  [
+                                                                             38,
+                                                                             2
+                                                                         ],
+                                                              "winner":  "Bolingbrook Jane Addams",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Woodridge Jefferson",
+                                                                            "Bolingbrook Brooks"
+                                                                        ],
+                                                              "scores":  [
+                                                                             39,
+                                                                             44
+                                                                         ],
+                                                              "winner":  "Bolingbrook Brooks",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Yorkville",
+                                                                            "Bellwood Roosevelt"
+                                                                        ],
+                                                              "scores":  [
+                                                                             38,
+                                                                             64
+                                                                         ],
+                                                              "winner":  "Bellwood Roosevelt",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Bolingbrook Jane Addams",
+                                                                            "Bolingbrook Brooks"
+                                                                        ],
+                                                              "scores":  [
+                                                                             45,
+                                                                             28
+                                                                         ],
+                                                              "winner":  "Bolingbrook Jane Addams",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Bellwood Roosevelt",
+                                                                            "Bolingbrook Jane Addams"
+                                                                        ],
+                                                              "scores":  [
+                                                                             63,
+                                                                             45
+                                                                         ],
+                                                              "winner":  "Bellwood Roosevelt",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=1",
+                                       "host":  "Woodridge Jefferson",
+                                       "missingSeed":  null
+                                   },
+                             "2":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Rockford Kennedy"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Rockford Flinn"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Rockford RESA"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Rockford Marshall"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Rockford West"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Rockford Lincoln"
+                                                     },
+                                                     {
+                                                         "seed":  7,
+                                                         "team":  "Rockford Eisenhower"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Rockford Kennedy",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Rockford Kennedy",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Rockford Marshall",
+                                                                            "Rockford West"
+                                                                        ],
+                                                              "scores":  [
+                                                                             37,
+                                                                             51
+                                                                         ],
+                                                              "winner":  "Rockford West",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Rockford Flinn",
+                                                                            "Rockford Eisenhower"
+                                                                        ],
+                                                              "scores":  [
+                                                                             51,
+                                                                             30
+                                                                         ],
+                                                              "winner":  "Rockford Flinn",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Rockford RESA",
+                                                                            "Rockford Lincoln"
+                                                                        ],
+                                                              "scores":  [
+                                                                             49,
+                                                                             39
+                                                                         ],
+                                                              "winner":  "Rockford RESA",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Rockford Kennedy",
+                                                                            "Rockford West"
+                                                                        ],
+                                                              "scores":  [
+                                                                             38,
+                                                                             42
+                                                                         ],
+                                                              "winner":  "Rockford West",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Rockford Flinn",
+                                                                            "Rockford RESA"
+                                                                        ],
+                                                              "scores":  [
+                                                                             53,
+                                                                             30
+                                                                         ],
+                                                              "winner":  "Rockford Flinn",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Rockford West",
+                                                                            "Rockford Flinn"
+                                                                        ],
+                                                              "scores":  [
+                                                                             47,
+                                                                             60
+                                                                         ],
+                                                              "winner":  "Rockford Flinn",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=2",
+                                       "host":  "Rockford West",
+                                       "missingSeed":  null
+                                   },
+                             "3":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Phoenix Coolidge"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Sauk Village Rickover"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Harvey Brooks"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Glenwood Brookwood"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Lansing Memorial"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Calumet City Dirksen"
+                                                     },
+                                                     {
+                                                         "seed":  7,
+                                                         "team":  "Chicago Heights Washington"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Phoenix Coolidge",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Phoenix Coolidge",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Glenwood Brookwood",
+                                                                            "Lansing Memorial"
+                                                                        ],
+                                                              "scores":  [
+                                                                             41,
+                                                                             36
+                                                                         ],
+                                                              "winner":  "Glenwood Brookwood",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Sauk Village Rickover",
+                                                                            "Chicago Heights Washington"
+                                                                        ],
+                                                              "scores":  [
+                                                                             47,
+                                                                             30
+                                                                         ],
+                                                              "winner":  "Sauk Village Rickover",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Harvey Brooks",
+                                                                            "Calumet City Dirksen"
+                                                                        ],
+                                                              "scores":  [
+                                                                             36,
+                                                                             41
+                                                                         ],
+                                                              "winner":  "Calumet City Dirksen",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Phoenix Coolidge",
+                                                                            "Glenwood Brookwood"
+                                                                        ],
+                                                              "scores":  [
+                                                                             64,
+                                                                             33
+                                                                         ],
+                                                              "winner":  "Phoenix Coolidge",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Sauk Village Rickover",
+                                                                            "Calumet City Dirksen"
+                                                                        ],
+                                                              "scores":  [
+                                                                             33,
+                                                                             43
+                                                                         ],
+                                                              "winner":  "Calumet City Dirksen",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Phoenix Coolidge",
+                                                                            "Calumet City Dirksen"
+                                                                        ],
+                                                              "scores":  [
+                                                                             55,
+                                                                             24
+                                                                         ],
+                                                              "winner":  "Phoenix Coolidge",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=3",
+                                       "host":  "Phoenix Coolidge",
+                                       "missingSeed":  null
+                                   },
+                             "4":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Park Forest Forest Trail"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Country Club Hills Southwood"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Flossmoor Parker"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Markham Prairie-Hills"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Steger Columbia"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "University Park Crete Monee"
+                                                     },
+                                                     {
+                                                         "seed":  7,
+                                                         "team":  "Homewood Hart"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Park Forest Forest Trail",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Park Forest Forest Trail",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Markham Prairie-Hills",
+                                                                            "Steger Columbia"
+                                                                        ],
+                                                              "scores":  [
+                                                                             43,
+                                                                             40
+                                                                         ],
+                                                              "winner":  "Markham Prairie-Hills",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Country Club Hills Southwood",
+                                                                            "Homewood Hart"
+                                                                        ],
+                                                              "scores":  [
+                                                                             61,
+                                                                             29
+                                                                         ],
+                                                              "winner":  "Country Club Hills Southwood",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Flossmoor Parker",
+                                                                            "University Park Crete Monee"
+                                                                        ],
+                                                              "scores":  [
+                                                                             54,
+                                                                             39
+                                                                         ],
+                                                              "winner":  "Flossmoor Parker",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Park Forest Forest Trail",
+                                                                            "Markham Prairie-Hills"
+                                                                        ],
+                                                              "scores":  [
+                                                                             59,
+                                                                             26
+                                                                         ],
+                                                              "winner":  "Park Forest Forest Trail",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Country Club Hills Southwood",
+                                                                            "Flossmoor Parker"
+                                                                        ],
+                                                              "scores":  [
+                                                                             40,
+                                                                             42
+                                                                         ],
+                                                              "winner":  "Flossmoor Parker",
+                                                              "bye":  false,
+                                                              "annotation":  "OT"
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Park Forest Forest Trail",
+                                                                            "Flossmoor Parker"
+                                                                        ],
+                                                              "scores":  [
+                                                                             78,
+                                                                             44
+                                                                         ],
+                                                              "winner":  "Park Forest Forest Trail",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=4",
+                                       "host":  "Country Club Hills Southwood",
+                                       "missingSeed":  null
+                                   },
+                             "5":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Frankfort Hickory Creek"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Frankfort Summit Hill"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "New Lenox Martino"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Mokena"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Homer Glen Homer"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Lockport Oak Prairie"
+                                                     },
+                                                     {
+                                                         "seed":  7,
+                                                         "team":  "New Lenox Liberty"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Frankfort Hickory Creek",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Frankfort Hickory Creek",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Mokena",
+                                                                            "Homer Glen Homer"
+                                                                        ],
+                                                              "scores":  [
+                                                                             48,
+                                                                             39
+                                                                         ],
+                                                              "winner":  "Mokena",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Frankfort Summit Hill",
+                                                                            "New Lenox Liberty"
+                                                                        ],
+                                                              "scores":  [
+                                                                             28,
+                                                                             24
+                                                                         ],
+                                                              "winner":  "Frankfort Summit Hill",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "New Lenox Martino",
+                                                                            "Lockport Oak Prairie"
+                                                                        ],
+                                                              "scores":  [
+                                                                             40,
+                                                                             26
+                                                                         ],
+                                                              "winner":  "New Lenox Martino",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Frankfort Hickory Creek",
+                                                                            "Mokena"
+                                                                        ],
+                                                              "scores":  [
+                                                                             45,
+                                                                             21
+                                                                         ],
+                                                              "winner":  "Frankfort Hickory Creek",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Frankfort Summit Hill",
+                                                                            "New Lenox Martino"
+                                                                        ],
+                                                              "scores":  [
+                                                                             40,
+                                                                             27
+                                                                         ],
+                                                              "winner":  "Frankfort Summit Hill",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Frankfort Hickory Creek",
+                                                                            "Frankfort Summit Hill"
+                                                                        ],
+                                                              "scores":  [
+                                                                             44,
+                                                                             21
+                                                                         ],
+                                                              "winner":  "Frankfort Hickory Creek",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=5",
+                                       "host":  "Frankfort Summit Hill",
+                                       "missingSeed":  null
+                                   },
+                             "6":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Matteson Colin Powell"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Kankakee JHS"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Bourbonnais UGC"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Herscher Limestone"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Manteno"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Peotone"
+                                                     },
+                                                     {
+                                                         "seed":  7,
+                                                         "team":  "Bradley Central"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Matteson Colin Powell",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Matteson Colin Powell",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Herscher Limestone",
+                                                                            "Manteno"
+                                                                        ],
+                                                              "scores":  [
+                                                                             36,
+                                                                             40
+                                                                         ],
+                                                              "winner":  "Manteno",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Kankakee JHS",
+                                                                            "Bradley Central"
+                                                                        ],
+                                                              "scores":  [
+                                                                             33,
+                                                                             21
+                                                                         ],
+                                                              "winner":  "Kankakee JHS",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Bourbonnais UGC",
+                                                                            "Peotone"
+                                                                        ],
+                                                              "scores":  [
+                                                                             40,
+                                                                             23
+                                                                         ],
+                                                              "winner":  "Bourbonnais UGC",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Matteson Colin Powell",
+                                                                            "Manteno"
+                                                                        ],
+                                                              "scores":  [
+                                                                             48,
+                                                                             16
+                                                                         ],
+                                                              "winner":  "Matteson Colin Powell",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Kankakee JHS",
+                                                                            "Bourbonnais UGC"
+                                                                        ],
+                                                              "scores":  [
+                                                                             31,
+                                                                             48
+                                                                         ],
+                                                              "winner":  "Bourbonnais UGC",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Matteson Colin Powell",
+                                                                            "Bourbonnais UGC"
+                                                                        ],
+                                                              "scores":  [
+                                                                             53,
+                                                                             32
+                                                                         ],
+                                                              "winner":  "Matteson Colin Powell",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=6",
+                                       "host":  "Matteson Colin Powell",
+                                       "missingSeed":  null
+                                   },
+                             "7":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Shorewood Troy"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Joliet Dirksen"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Joliet Gompers"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Romeoville Lukancic"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Joliet Hufford"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Romeoville Martinez"
+                                                     },
+                                                     {
+                                                         "seed":  7,
+                                                         "team":  "Joliet Washington"
+                                                     },
+                                                     {
+                                                         "seed":  8,
+                                                         "team":  "Manhattan"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Shorewood Troy",
+                                                                            "Manhattan"
+                                                                        ],
+                                                              "scores":  [
+                                                                             50,
+                                                                             21
+                                                                         ],
+                                                              "winner":  "Shorewood Troy",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Romeoville Lukancic",
+                                                                            "Joliet Hufford"
+                                                                        ],
+                                                              "scores":  [
+                                                                             56,
+                                                                             27
+                                                                         ],
+                                                              "winner":  "Romeoville Lukancic",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Joliet Dirksen",
+                                                                            "Joliet Washington"
+                                                                        ],
+                                                              "scores":  [
+                                                                             69,
+                                                                             42
+                                                                         ],
+                                                              "winner":  "Joliet Dirksen",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Joliet Gompers",
+                                                                            "Romeoville Martinez"
+                                                                        ],
+                                                              "scores":  [
+                                                                             43,
+                                                                             23
+                                                                         ],
+                                                              "winner":  "Joliet Gompers",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Shorewood Troy",
+                                                                            "Romeoville Lukancic"
+                                                                        ],
+                                                              "scores":  [
+                                                                             58,
+                                                                             39
+                                                                         ],
+                                                              "winner":  "Shorewood Troy",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Joliet Dirksen",
+                                                                            "Joliet Gompers"
+                                                                        ],
+                                                              "scores":  [
+                                                                             53,
+                                                                             49
+                                                                         ],
+                                                              "winner":  "Joliet Dirksen",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Shorewood Troy",
+                                                                            "Joliet Dirksen"
+                                                                        ],
+                                                              "scores":  [
+                                                                             37,
+                                                                             55
+                                                                         ],
+                                                              "winner":  "Joliet Dirksen",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=7",
+                                       "host":  "Joliet Washington",
+                                       "missingSeed":  null
+                                   },
+                             "8":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Minooka"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Channahon"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Ottawa Shepherd"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Forrest Prairie Central"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Coal City"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Pontiac JHS"
+                                                     },
+                                                     {
+                                                         "seed":  7,
+                                                         "team":  "Streator Northlawn"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Minooka",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Minooka",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Forrest Prairie Central",
+                                                                            "Coal City"
+                                                                        ],
+                                                              "scores":  [
+                                                                             35,
+                                                                             24
+                                                                         ],
+                                                              "winner":  "Forrest Prairie Central",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Channahon",
+                                                                            "Streator Northlawn"
+                                                                        ],
+                                                              "scores":  [
+                                                                             52,
+                                                                             29
+                                                                         ],
+                                                              "winner":  "Channahon",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Ottawa Shepherd",
+                                                                            "Pontiac JHS"
+                                                                        ],
+                                                              "scores":  [
+                                                                             30,
+                                                                             23
+                                                                         ],
+                                                              "winner":  "Ottawa Shepherd",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Minooka",
+                                                                            "Forrest Prairie Central"
+                                                                        ],
+                                                              "scores":  [
+                                                                             44,
+                                                                             45
+                                                                         ],
+                                                              "winner":  "Forrest Prairie Central",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Channahon",
+                                                                            "Ottawa Shepherd"
+                                                                        ],
+                                                              "scores":  [
+                                                                             42,
+                                                                             39
+                                                                         ],
+                                                              "winner":  "Channahon",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Forrest Prairie Central",
+                                                                            "Channahon"
+                                                                        ],
+                                                              "scores":  [
+                                                                             39,
+                                                                             38
+                                                                         ],
+                                                              "winner":  "Forrest Prairie Central",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=8",
+                                       "host":  "Ottawa Shepherd",
+                                       "missingSeed":  null
+                                   },
+                             "9":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Normal Kingsley"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Normal Chiddix"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Stanford Olympia"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Bloomington JHS"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Normal Parkside"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Bloomington Evans"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Normal Kingsley",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Normal Kingsley",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Bloomington JHS",
+                                                                            "Normal Parkside"
+                                                                        ],
+                                                              "scores":  [
+                                                                             46,
+                                                                             31
+                                                                         ],
+                                                              "winner":  "Bloomington JHS",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Normal Chiddix",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Normal Chiddix",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Stanford Olympia",
+                                                                            "Bloomington Evans"
+                                                                        ],
+                                                              "scores":  [
+                                                                             44,
+                                                                             27
+                                                                         ],
+                                                              "winner":  "Stanford Olympia",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Normal Kingsley",
+                                                                            "Bloomington JHS"
+                                                                        ],
+                                                              "scores":  [
+                                                                             34,
+                                                                             39
+                                                                         ],
+                                                              "winner":  "Bloomington JHS",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Normal Chiddix",
+                                                                            "Stanford Olympia"
+                                                                        ],
+                                                              "scores":  [
+                                                                             42,
+                                                                             40
+                                                                         ],
+                                                              "winner":  "Normal Chiddix",
+                                                              "bye":  false,
+                                                              "annotation":  "OT"
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Bloomington JHS",
+                                                                            "Normal Chiddix"
+                                                                        ],
+                                                              "scores":  [
+                                                                             31,
+                                                                             33
+                                                                         ],
+                                                              "winner":  "Normal Chiddix",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=9",
+                                       "host":  "Bloomington JHS",
+                                       "missingSeed":  null
+                                   },
+                             "10":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "Pekin Broadmoor"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Morton JHS"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Macomb"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "Pekin Edison"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "East Peoria Central"
+                                                      },
+                                                      {
+                                                          "seed":  6,
+                                                          "team":  "Dunlap MS"
+                                                      },
+                                                      {
+                                                          "seed":  7,
+                                                          "team":  "Canton Ingersoll"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Pekin Broadmoor",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Pekin Broadmoor",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Pekin Edison",
+                                                                             "East Peoria Central"
+                                                                         ],
+                                                               "scores":  [
+                                                                              41,
+                                                                              49
+                                                                          ],
+                                                               "winner":  "East Peoria Central",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Morton JHS",
+                                                                             "Canton Ingersoll"
+                                                                         ],
+                                                               "scores":  [
+                                                                              46,
+                                                                              19
+                                                                          ],
+                                                               "winner":  "Morton JHS",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Macomb",
+                                                                             "Dunlap MS"
+                                                                         ],
+                                                               "scores":  [
+                                                                              60,
+                                                                              27
+                                                                          ],
+                                                               "winner":  "Macomb",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Pekin Broadmoor",
+                                                                             "East Peoria Central"
+                                                                         ],
+                                                               "scores":  [
+                                                                              46,
+                                                                              20
+                                                                          ],
+                                                               "winner":  "Pekin Broadmoor",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Morton JHS",
+                                                                             "Macomb"
+                                                                         ],
+                                                               "scores":  [
+                                                                              46,
+                                                                              39
+                                                                          ],
+                                                               "winner":  "Morton JHS",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Pekin Broadmoor",
+                                                                             "Morton JHS"
+                                                                         ],
+                                                               "scores":  [
+                                                                              46,
+                                                                              25
+                                                                          ],
+                                                               "winner":  "Pekin Broadmoor",
+                                                               "bye":  false
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=10",
+                                        "host":  "Pekin Broadmoor",
+                                        "missingSeed":  null
+                                    },
+                             "11":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "Champaign Franklin"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Danville North Ridge"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Mahomet-Seymour"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "Urbana MS"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "Danville South View"
+                                                      },
+                                                      {
+                                                          "seed":  6,
+                                                          "team":  "Rantoul Eater"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Champaign Franklin",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Champaign Franklin",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Urbana MS",
+                                                                             "Danville South View"
+                                                                         ],
+                                                               "scores":  [
+                                                                              56,
+                                                                              49
+                                                                          ],
+                                                               "winner":  "Urbana MS",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Danville North Ridge",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Danville North Ridge",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Mahomet-Seymour",
+                                                                             "Rantoul Eater"
+                                                                         ],
+                                                               "scores":  [
+                                                                              54,
+                                                                              22
+                                                                          ],
+                                                               "winner":  "Mahomet-Seymour",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Champaign Franklin",
+                                                                             "Urbana MS"
+                                                                         ],
+                                                               "scores":  [
+                                                                              56,
+                                                                              40
+                                                                          ],
+                                                               "winner":  "Champaign Franklin",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Danville North Ridge",
+                                                                             "Mahomet-Seymour"
+                                                                         ],
+                                                               "scores":  [
+                                                                              57,
+                                                                              40
+                                                                          ],
+                                                               "winner":  "Danville North Ridge",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Champaign Franklin",
+                                                                             "Danville North Ridge"
+                                                                         ],
+                                                               "scores":  [
+                                                                              37,
+                                                                              38
+                                                                          ],
+                                                               "winner":  "Danville North Ridge",
+                                                               "bye":  false
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=11",
+                                        "host":  "Champaign Franklin",
+                                        "missingSeed":  null
+                                    },
+                             "12":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "Effingham JHS"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Champaign Edison"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Tolono Unity"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "Champaign Jefferson"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "Charleston"
+                                                      },
+                                                      {
+                                                          "seed":  6,
+                                                          "team":  "Mattoon"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Effingham JHS",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Effingham JHS",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Champaign Jefferson",
+                                                                             "Charleston"
+                                                                         ],
+                                                               "scores":  [
+                                                                              33,
+                                                                              34
+                                                                          ],
+                                                               "winner":  "Charleston",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Champaign Edison",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Champaign Edison",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Tolono Unity",
+                                                                             "Mattoon"
+                                                                         ],
+                                                               "scores":  [
+                                                                              25,
+                                                                              31
+                                                                          ],
+                                                               "winner":  "Mattoon",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Effingham JHS",
+                                                                             "Charleston"
+                                                                         ],
+                                                               "scores":  [
+                                                                              47,
+                                                                              40
+                                                                          ],
+                                                               "winner":  "Effingham JHS",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Champaign Edison",
+                                                                             "Mattoon"
+                                                                         ],
+                                                               "scores":  [
+                                                                              33,
+                                                                              24
+                                                                          ],
+                                                               "winner":  "Champaign Edison",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Effingham JHS",
+                                                                             "Champaign Edison"
+                                                                         ],
+                                                               "scores":  [
+                                                                              46,
+                                                                              43
+                                                                          ],
+                                                               "winner":  "Effingham JHS",
+                                                               "bye":  false,
+                                                               "annotation":  "OT"
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=12",
+                                        "host":  "Mattoon",
+                                        "missingSeed":  null
+                                    },
+                             "13":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "Chatham Glenwood"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Taylorville JHS"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Mt. Zion"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "Decatur Stephen Decatur"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "Rochester"
+                                                      },
+                                                      {
+                                                          "seed":  6,
+                                                          "team":  "Decatur Jefferson"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Chatham Glenwood",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Chatham Glenwood",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Decatur Stephen Decatur",
+                                                                             "Rochester"
+                                                                         ],
+                                                               "scores":  [
+                                                                              52,
+                                                                              45
+                                                                          ],
+                                                               "winner":  "Decatur Stephen Decatur",
+                                                               "bye":  false,
+                                                               "annotation":  "OT"
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Taylorville JHS",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Taylorville JHS",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Mt. Zion",
+                                                                             "Decatur Jefferson"
+                                                                         ],
+                                                               "scores":  [
+                                                                              44,
+                                                                              13
+                                                                          ],
+                                                               "winner":  "Mt. Zion",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Chatham Glenwood",
+                                                                             "Decatur Stephen Decatur"
+                                                                         ],
+                                                               "scores":  [
+                                                                              37,
+                                                                              42
+                                                                          ],
+                                                               "winner":  "Decatur Stephen Decatur",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Taylorville JHS",
+                                                                             "Mt. Zion"
+                                                                         ],
+                                                               "scores":  [
+                                                                              33,
+                                                                              37
+                                                                          ],
+                                                               "winner":  "Mt. Zion",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Decatur Stephen Decatur",
+                                                                             "Mt. Zion"
+                                                                         ],
+                                                               "scores":  [
+                                                                              27,
+                                                                              44
+                                                                          ],
+                                                               "winner":  "Mt. Zion",
+                                                               "bye":  false
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=13",
+                                        "host":  "Chatham Glenwood",
+                                        "missingSeed":  null
+                                    },
+                             "14":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "Springfield Jefferson"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Springfield Lincoln"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Springfield Franklin"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "Springfield Grant"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "Springfield Washington"
+                                                      },
+                                                      {
+                                                          "seed":  6,
+                                                          "team":  "Jacksonville Turner"
+                                                      },
+                                                      {
+                                                          "seed":  7,
+                                                          "team":  "Quincy"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Springfield Jefferson",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Springfield Jefferson",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Springfield Grant",
+                                                                             "Springfield Washington"
+                                                                         ],
+                                                               "scores":  [
+                                                                              49,
+                                                                              40
+                                                                          ],
+                                                               "winner":  "Springfield Grant",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Springfield Lincoln",
+                                                                             "Quincy"
+                                                                         ],
+                                                               "scores":  [
+                                                                              41,
+                                                                              55
+                                                                          ],
+                                                               "winner":  "Quincy",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Springfield Franklin",
+                                                                             "Jacksonville Turner"
+                                                                         ],
+                                                               "scores":  [
+                                                                              30,
+                                                                              51
+                                                                          ],
+                                                               "winner":  "Jacksonville Turner",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Springfield Jefferson",
+                                                                             "Springfield Grant"
+                                                                         ],
+                                                               "scores":  [
+                                                                              37,
+                                                                              25
+                                                                          ],
+                                                               "winner":  "Springfield Jefferson",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Quincy",
+                                                                             "Jacksonville Turner"
+                                                                         ],
+                                                               "scores":  [
+                                                                              44,
+                                                                              41
+                                                                          ],
+                                                               "winner":  "Quincy",
+                                                               "bye":  false,
+                                                               "annotation":  "OT"
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Springfield Jefferson",
+                                                                             "Quincy"
+                                                                         ],
+                                                               "scores":  [
+                                                                              50,
+                                                                              71
+                                                                          ],
+                                                               "winner":  "Quincy",
+                                                               "bye":  false
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=14",
+                                        "host":  "Jacksonville Turner",
+                                        "missingSeed":  null
+                                    },
+                             "15":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "East St. Louis Lincoln"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Edwardsville Lincoln"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Cahokia Wirth"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "East St. Louis Clark"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "Edwardsville Liberty"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "East St. Louis Lincoln",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "East St. Louis Lincoln",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "East St. Louis Clark",
+                                                                             "Edwardsville Liberty"
+                                                                         ],
+                                                               "scores":  [
+                                                                              62,
+                                                                              53
+                                                                          ],
+                                                               "winner":  "East St. Louis Clark",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Edwardsville Lincoln",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Edwardsville Lincoln",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Cahokia Wirth",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Cahokia Wirth",
+                                                               "bye":  true
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "East St. Louis Lincoln",
+                                                                             "East St. Louis Clark"
+                                                                         ],
+                                                               "scores":  [
+                                                                              55,
+                                                                              50
+                                                                          ],
+                                                               "winner":  "East St. Louis Lincoln",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Edwardsville Lincoln",
+                                                                             "Cahokia Wirth"
+                                                                         ],
+                                                               "scores":  [
+                                                                              19,
+                                                                              25
+                                                                          ],
+                                                               "winner":  "Cahokia Wirth",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "East St. Louis Lincoln",
+                                                                             "Cahokia Wirth"
+                                                                         ],
+                                                               "scores":  [
+                                                                              43,
+                                                                              32
+                                                                          ],
+                                                               "winner":  "East St. Louis Lincoln",
+                                                               "bye":  false
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=15",
+                                        "host":  "East St. Louis Lincoln",
+                                        "missingSeed":  null
+                                    },
+                             "16":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "Bethalto Trimpe"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Alton"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Jerseyville Illini"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "Roxana"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "Granite City Coolidge"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Bethalto Trimpe",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Bethalto Trimpe",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Roxana",
+                                                                             "Granite City Coolidge"
+                                                                         ],
+                                                               "scores":  [
+                                                                              30,
+                                                                              33
+                                                                          ],
+                                                               "winner":  "Granite City Coolidge",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Alton",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Alton",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Jerseyville Illini",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Jerseyville Illini",
+                                                               "bye":  true
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Bethalto Trimpe",
+                                                                             "Granite City Coolidge"
+                                                                         ],
+                                                               "scores":  [
+                                                                              49,
+                                                                              14
+                                                                          ],
+                                                               "winner":  "Bethalto Trimpe",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Alton",
+                                                                             "Jerseyville Illini"
+                                                                         ],
+                                                               "scores":  [
+                                                                              65,
+                                                                              29
+                                                                          ],
+                                                               "winner":  "Alton",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Bethalto Trimpe",
+                                                                             "Alton"
+                                                                         ],
+                                                               "scores":  [
+                                                                              34,
+                                                                              53
+                                                                          ],
+                                                               "winner":  "Alton",
+                                                               "bye":  false
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_8.asp?Year=2014\u0026Class=8-4A\u0026Regional=16",
+                                        "host":  "Alton",
+                                        "missingSeed":  null
+                                    }
+                         }
+}

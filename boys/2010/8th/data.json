@@ -1,0 +1,394 @@
+﻿{
+    "year":  2010,
+    "grade":  "8th",
+    "className":  "3A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Dixmoor Rosa Parks",
+                          "teams":  [
+                                        "South Holland McKinley",
+                                        "Dixmoor Rosa Parks",
+                                        "Dolton Lincoln",
+                                        "Calumet City Schrum",
+                                        "Markham Robert Frost",
+                                        "Calumet City Lincoln",
+                                        "Dolton Roosevelt"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Crest Hill Richland",
+                          "teams":  [
+                                        "Crest Hill Richland",
+                                        "Morris Saratoga",
+                                        "Dwight",
+                                        "Lockport Kelvin Grove",
+                                        "Morris Shabbona",
+                                        "Wilmington",
+                                        "Riverdale Washington"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Paxton-Buckley-Loda",
+                          "teams":  [
+                                        "Paxton-Buckley-Loda",
+                                        "Hoopeston Area",
+                                        "Clifton Nash",
+                                        "Herscher Limestone",
+                                        "Watseka Glenn Raymond",
+                                        "Beecher",
+                                        "Momence JHS"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Tuscola East Prairie",
+                          "teams":  [
+                                        "St. Joseph",
+                                        "Bismarck-Henning",
+                                        "Westville JHS",
+                                        "Danville Oakwood",
+                                        "Tuscola East Prairie",
+                                        "Tolono Unity",
+                                        "Georgetown Mary Miller"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Wenona Fieldcrest",
+                          "teams":  [
+                                        "Eureka",
+                                        "McNabb Putnam County",
+                                        "El Paso-Gridley",
+                                        "Peru Parkside",
+                                        "Pontiac JHS",
+                                        "Metamora GS",
+                                        "Wenona Fieldcrest"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Washington Central",
+                          "teams":  [
+                                        "Germantown Hills",
+                                        "Washington Central",
+                                        "Tremont",
+                                        "Washington MS",
+                                        "Mackinaw Dee-Mack",
+                                        "Creve Coeur Parkview",
+                                        "Washington Beverly Manor"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Dunlap MS",
+                          "teams":  [
+                                        "Dunlap Valley MS",
+                                        "Glasford Illini Bluffs",
+                                        "Farmington Central",
+                                        "Dunlap MS",
+                                        "Peoria Christian",
+                                        "Mossville",
+                                        "Chillicothe"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Monmouth-Roseville JHS",
+                          "teams":  [
+                                        "Monmouth-Roseville JHS",
+                                        "Joy Mercer County",
+                                        "Stronghurst West Central",
+                                        "Bushnell-Prairie City",
+                                        "Monmouth United"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Heyworth",
+                          "teams":  [
+                                        "LeRoy",
+                                        "Heyworth",
+                                        "Maroa-Forsyth",
+                                        "Gibson City GCMS",
+                                        "Mansfield Blue Ridge JHS",
+                                        "Argenta-Oreana",
+                                        "Downs Tri-Valley"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Blue Mound Meridian",
+                          "teams":  [
+                                        "Lincoln JHS",
+                                        "Blue Mound Meridian",
+                                        "Warrensburg-Latham",
+                                        "Williamsville",
+                                        "Riverton",
+                                        "Assumption Central A \u0026 M",
+                                        "Pana JHS"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Green Valley Midwest Central",
+                          "teams":  [
+                                        "Pleasant Plains",
+                                        "Petersburg PORTA JHS",
+                                        "Green Valley Midwest Central",
+                                        "Athens",
+                                        "Havana",
+                                        "Mason City Illini Central"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Rushville Schuyler Industry",
+                          "teams":  [
+                                        "Rushville Schuyler Industry",
+                                        "Pittsfield Pikeland",
+                                        "Camp Point Central",
+                                        "Beardstown MS"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Robinson Nuttall",
+                          "teams":  [
+                                        "Casey-Westfield",
+                                        "Robinson Nuttall",
+                                        "Paris Mayo",
+                                        "Marshall JHS",
+                                        "Lawrenceville Parkview",
+                                        "Sumner Red Hill"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Teutopolis",
+                          "teams":  [
+                                        "Teutopolis",
+                                        "Shelbyville Moulton",
+                                        "Newton Jasper County",
+                                        "Toledo Cumberland",
+                                        "Sullivan"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Carlinville",
+                          "teams":  [
+                                        "Litchfield",
+                                        "Auburn JHS at Divernon",
+                                        "Gillespie",
+                                        "Staunton",
+                                        "Virden",
+                                        "Carlinville"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Vandalia",
+                          "teams":  [
+                                        "Madison",
+                                        "East St. Louis Younge",
+                                        "Greenville",
+                                        "Vandalia",
+                                        "East Alton MS"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Morris Saratoga",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "1":  "20-2",
+                                           "2":  "13-11"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Tuscola East Prairie",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "3":  "19-5",
+                                           "4":  "24-0"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Germantown Hills",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "5":  "20-2",
+                                           "6":  "20-3"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Farmington Central",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "7":  "18-3",
+                                           "8":  "20-1"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Assumption Central A \u0026 M",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "9":  "16-6",
+                                           "10":  "20-3"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Green Valley Midwest Central",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "11":  "12-10",
+                                           "12":  "9-15"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Marshall JHS",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "13":  "24-0",
+                                           "14":  "23-1"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Auburn JHS at Divernon",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "15":  "20-0",
+                                           "16":  "13-3"
+                                       }
+                       }
+                   ],
+    "venue":  "Monticello MS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              4,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              2,
+                                              1
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              7,
+                                              3
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              6,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

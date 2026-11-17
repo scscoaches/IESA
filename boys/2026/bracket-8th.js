@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:09",
+    "year":  2026,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East St. Louis Younge",
+                                 "loser":  "Greenfield",
+                                 "score":  "47-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Serena",
+                                "loser":  "Ottawa Wallace",
+                                "score":  "41-36",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Fisher",
+                                "score":  "58-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Stewardson-Strasburg",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "38-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Concord Triopia",
+                                 "loser":  "Mt. Sterling Brown County",
+                                 "score":  "34-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Mazon-Verona-Kinsman",
+                                "loser":  "Bourbonnais St. George",
+                                "score":  "25-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Mossville",
+                                "loser":  "Princeville",
+                                "score":  "49-46",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Casey-Westfield",
+                                 "loser":  "Villa Grove",
+                                 "score":  "49-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Morton Grove MCC",
+                                "loser":  "Ford Heights Cottage Grove UGC",
+                                "score":  "54-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Carthage",
+                                "loser":  "Stronghurst West Central",
+                                "score":  "42-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Morrisonville JHS",
+                                 "score":  "39-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Green Valley Midwest Central",
+                                "loser":  "Mason City Illini Central",
+                                "score":  "28-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Springfield Little Flower",
+                                 "loser":  "Springfield Christian",
+                                 "score":  "52-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Normal Metcalf",
+                                "loser":  "Normal Epiphany",
+                                "score":  "37-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "McNabb Putnam County",
+                                "loser":  "Kewanee Wethersfield",
+                                "score":  "38-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Decatur Hope",
+                                 "score":  "46-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "East St. Louis Younge",
+                                               "record":  "17-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Serena",
+                                              "record":  "19-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Stewardson-Strasburg",
+                                               "record":  "25-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Concord Triopia",
+                                               "record":  "17-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Mazon-Verona-Kinsman",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Mossville",
+                                              "record":  "17-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Casey-Westfield",
+                                               "record":  "22-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Morton Grove MCC",
+                                              "record":  "11-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Carthage",
+                                              "record":  "21-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Mt. Pulaski",
+                                               "record":  "15-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Green Valley Midwest Central",
+                                              "record":  "21-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Springfield Little Flower",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Normal Metcalf",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "McNabb Putnam County",
+                                              "record":  "21-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Decatur Robertson",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Mt. Pulaski",
+                                 "score":  "52-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Normal Metcalf",
+                                 "loser":  "Champaign St. Matthew",
+                                 "score":  "47-46",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "McNabb Putnam County",
+                                 "loser":  "Serena",
+                                 "score":  "44-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Morton Grove MCC",
+                                 "loser":  "Mazon-Verona-Kinsman",
+                                 "score":  "52-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Green Valley Midwest Central",
+                                 "loser":  "Mossville",
+                                 "score":  "37-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Stewardson-Strasburg",
+                                 "loser":  "Casey-Westfield",
+                                 "score":  "37-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Concord Triopia",
+                                 "score":  "33-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "East St. Louis Younge",
+                                 "loser":  "Springfield Little Flower",
+                                 "score":  "49-45",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           6
+                                       ],
+                                 "4":  [
+                                           1,
+                                           4
+                                       ],
+                                 "1":  [
+                                           2,
+                                           5
+                                       ],
+                                 "3":  [
+                                           3,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Carthage",
+                                          "Normal Metcalf"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           42
+                                       ],
+                            "winner":  "Carthage",
+                            "loser":  "Normal Metcalf",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Normal Metcalf",
+                                          "Decatur Robertson"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           42
+                                       ],
+                            "winner":  "Normal Metcalf",
+                            "loser":  "Decatur Robertson",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "East St. Louis Younge",
+                                          "Stewardson-Strasburg"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           51
+                                       ],
+                            "winner":  "Stewardson-Strasburg",
+                            "loser":  "East St. Louis Younge",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "McNabb Putnam County",
+                                          "Carthage"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           41
+                                       ],
+                            "winner":  "Carthage",
+                            "loser":  "McNabb Putnam County",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Morton Grove MCC",
+                                          "Green Valley Midwest Central"
+                                      ],
+                            "scores":  [
+                                           48,
+                                           46
+                                       ],
+                            "winner":  "Morton Grove MCC",
+                            "loser":  "Green Valley Midwest Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Normal Metcalf",
+                                          "Morton Grove MCC"
+                                      ],
+                            "scores":  [
+                                           62,
+                                           64
+                                       ],
+                            "winner":  "Morton Grove MCC",
+                            "loser":  "Normal Metcalf",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Carthage",
+                                          "Stewardson-Strasburg"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           34
+                                       ],
+                            "winner":  "Stewardson-Strasburg",
+                            "loser":  "Carthage",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Stewardson-Strasburg",
+                                          "Morton Grove MCC"
+                                      ],
+                            "scores":  [
+                                           56,
+                                           44
+                                       ],
+                            "winner":  "Stewardson-Strasburg",
+                            "loser":  "Morton Grove MCC",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-2A"
+                        }
+              }
+};

@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:20",
+    "year":  2022,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Pocahontas",
+                                 "score":  "50-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "St. Anne",
+                                "loser":  "Odell",
+                                "score":  "64-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Streator Woodland",
+                                "score":  "46-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Springfield Calvary",
+                                 "loser":  "Springfield Christian",
+                                 "score":  "51-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Champaign Holy Cross",
+                                 "loser":  "Decatur Lutheran",
+                                 "score":  "40-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ottawa Marquette",
+                                "loser":  "Oglesby Holy Family",
+                                "score":  "32-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Monmouth ICS",
+                                "loser":  "Galesburg Costa",
+                                "score":  "38-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Morton Blessed Sacrament",
+                                 "loser":  "Bartonville Oak Grove",
+                                 "score":  "49-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Lockport Taft",
+                                "loser":  "Marseilles Milton Pope",
+                                "score":  "44-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Danville Schlarman",
+                                "loser":  "Royal Prairieview Ogden",
+                                "score":  "39-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Jerseyville St. Francis HG",
+                                 "loser":  "Carrollton St. John",
+                                 "score":  "36-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Peoria Limestone Walters",
+                                "loser":  "Peoria St. Jude",
+                                "score":  "31-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Effingham Sacred Heart",
+                                 "loser":  "Newton St. Thomas",
+                                 "score":  "37-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "Roanoke-Benson",
+                                "loser":  "Bloomington Cornerstone",
+                                "score":  "35-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Cissna Park",
+                                "loser":  "Potomac",
+                                "score":  "48-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Ashland A-C Central",
+                                 "score":  "61-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Pana Sacred Heart",
+                                               "record":  "14-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "St. Anne",
+                                              "record":  "20-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Pontiac St. Mary\u0027s",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Springfield Calvary",
+                                               "record":  "16-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Champaign Holy Cross",
+                                               "record":  "16-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ottawa Marquette",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Monmouth ICS",
+                                              "record":  "24-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Morton Blessed Sacrament",
+                                               "record":  "16-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lockport Taft",
+                                              "record":  "8-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Danville Schlarman",
+                                              "record":  "18-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Jerseyville St. Francis HG",
+                                               "record":  "16-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Peoria Limestone Walters",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Effingham Sacred Heart",
+                                               "record":  "12-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Roanoke-Benson",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Cissna Park",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Jacksonville Our Saviour",
+                                               "record":  "25-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "44-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Roanoke-Benson",
+                                 "loser":  "Pontiac St. Mary\u0027s",
+                                 "score":  "33-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "St. Anne",
+                                 "loser":  "Cissna Park",
+                                 "score":  "36-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Ottawa Marquette",
+                                 "loser":  "Lockport Taft",
+                                 "score":  "40-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Monmouth ICS",
+                                 "loser":  "Peoria Limestone Walters",
+                                 "score":  "40-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Morton Blessed Sacrament",
+                                 "loser":  "Springfield Calvary",
+                                 "score":  "61-52",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Danville Schlarman",
+                                 "loser":  "Champaign Holy Cross",
+                                 "score":  "52-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Effingham Sacred Heart",
+                                 "score":  "55-47",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           8
+                                       ],
+                                 "4":  [
+                                           3,
+                                           5
+                                       ],
+                                 "1":  [
+                                           6,
+                                           2
+                                       ],
+                                 "3":  [
+                                           1,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Morton Blessed Sacrament",
+                                          "Monmouth ICS"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           18
+                                       ],
+                            "winner":  "Morton Blessed Sacrament",
+                            "loser":  "Monmouth ICS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Ottawa Marquette",
+                                          "Monmouth ICS"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           41
+                                       ],
+                            "winner":  "Monmouth ICS",
+                            "loser":  "Ottawa Marquette",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Jacksonville Our Saviour",
+                                          "Pana Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           55,
+                                           39
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Pana Sacred Heart",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Morton Blessed Sacrament",
+                                          "St. Anne"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           34
+                                       ],
+                            "winner":  "Morton Blessed Sacrament",
+                            "loser":  "St. Anne",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Roanoke-Benson",
+                                          "Danville Schlarman"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           35
+                                       ],
+                            "winner":  "Danville Schlarman",
+                            "loser":  "Roanoke-Benson",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Monmouth ICS",
+                                          "Danville Schlarman"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           46
+                                       ],
+                            "winner":  "Danville Schlarman",
+                            "loser":  "Monmouth ICS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Morton Blessed Sacrament",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           44
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Morton Blessed Sacrament",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Jacksonville Our Saviour",
+                                          "Danville Schlarman"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           36
+                                       ],
+                            "winner":  "Danville Schlarman",
+                            "loser":  "Jacksonville Our Saviour",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-1A"
+                        }
+              }
+};

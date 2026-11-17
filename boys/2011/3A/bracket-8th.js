@@ -1,0 +1,334 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:48",
+    "year":  2011,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East St. Louis Younge",
+                                 "loser":  "East Alton MS",
+                                 "score":  "56-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                             },
+                      "3":  {
+                                "winner":  "Metamora GS",
+                                "loser":  "Wenona Fieldcrest",
+                                "score":  "42-36",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                            },
+                      "5":  {
+                                "winner":  "Peoria Christian",
+                                "loser":  "Dunlap MS",
+                                "score":  "50-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Camp Point Central",
+                                 "loser":  "Roodhouse North Greene",
+                                 "score":  "49-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Lincoln JHS",
+                                 "loser":  "Williamsville",
+                                 "score":  "26-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                             },
+                      "2":  {
+                                "winner":  "Lockport Kelvin Grove",
+                                "loser":  "Beecher",
+                                "score":  "47-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                            },
+                      "8":  {
+                                "winner":  "Tuscola East Prairie",
+                                "loser":  "St. Joseph",
+                                "score":  "51-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Petersburg PORTA JHS",
+                                 "score":  "30-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                             },
+                      "1":  {
+                                "winner":  "South Holland McKinley",
+                                "loser":  "Dixmoor Rosa Parks",
+                                "score":  "49-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                            },
+                      "9":  {
+                                "winner":  "Maroa-Forsyth",
+                                "loser":  "Argenta-Oreana",
+                                "score":  "35-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Casey-Westfield",
+                                 "score":  "42-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                             },
+                      "7":  {
+                                "winner":  "Clifton Nash",
+                                "loser":  "Paxton-Buckley-Loda",
+                                "score":  "33-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Greenville",
+                                 "loser":  "Pana JHS",
+                                 "score":  "36-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                             },
+                      "6":  {
+                                "winner":  "Glasford Illini Bluffs",
+                                "loser":  "Monmouth-Roseville JHS",
+                                "score":  "49-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                            },
+                      "4":  {
+                                "winner":  "El Paso-Gridley",
+                                "loser":  "Washington Central",
+                                "score":  "38-36",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Robinson Nuttall",
+                                 "loser":  "Lawrenceville Parkview",
+                                 "score":  "41-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "7":  {
+                                              "team":  "Clifton Nash",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Maroa-Forsyth",
+                                              "record":  "18-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                                          },
+                                    "10":  {
+                                               "team":  "Lincoln JHS",
+                                               "record":  "17-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Metamora GS",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                                          },
+                                    "2":  {
+                                              "team":  "Lockport Kelvin Grove",
+                                              "record":  "21-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                                          },
+                                    "1":  {
+                                              "team":  "South Holland McKinley",
+                                              "record":  "13-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Greenville",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                                           },
+                                    "4":  {
+                                              "team":  "El Paso-Gridley",
+                                              "record":  "19-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Robinson Nuttall",
+                                               "record":  "16-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                                           },
+                                    "5":  {
+                                              "team":  "Peoria Christian",
+                                              "record":  "18-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Tuscola East Prairie",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-3A"
+                                          }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Robinson Nuttall",
+                                 "score":  "18-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria Christian",
+                                 "loser":  "Glasford Illini Bluffs",
+                                 "score":  "33-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-3A"
+                             },
+                       "2":  {
+                                 "winner":  "El Paso-Gridley",
+                                 "loser":  "Metamora GS",
+                                 "score":  "44-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-3A"
+                             },
+                       "1":  {
+                                 "winner":  "South Holland McKinley",
+                                 "loser":  "Lockport Kelvin Grove",
+                                 "score":  "55-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Clifton Nash",
+                                 "loser":  "Tuscola East Prairie",
+                                 "score":  "37-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Camp Point Central",
+                                 "score":  "35-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Lincoln JHS",
+                                 "loser":  "Maroa-Forsyth",
+                                 "score":  "43-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-3A"
+                             },
+                       "8":  {
+                                 "winner":  "East St. Louis Younge",
+                                 "loser":  "Greenville",
+                                 "score":  "57-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           6
+                                       ],
+                                 "4":  [
+                                           4,
+                                           7
+                                       ],
+                                 "1":  [
+                                           3,
+                                           1
+                                       ],
+                                 "3":  [
+                                           5,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Peoria Christian",
+                                          "Lincoln JHS"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           24
+                                       ],
+                            "winner":  "Lincoln JHS",
+                            "loser":  "Peoria Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Lincoln JHS",
+                                          "El Paso-Gridley"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           18
+                                       ],
+                            "winner":  "Lincoln JHS",
+                            "loser":  "El Paso-Gridley",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "East St. Louis Younge",
+                                          "Pleasant Plains"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           36
+                                       ],
+                            "winner":  "East St. Louis Younge",
+                            "loser":  "Pleasant Plains",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Peoria Christian",
+                                          "South Holland McKinley"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           32
+                                       ],
+                            "winner":  "Peoria Christian",
+                            "loser":  "South Holland McKinley",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Clifton Nash",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           36
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Clifton Nash",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Lincoln JHS",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           34
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Lincoln JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Peoria Christian",
+                                          "East St. Louis Younge"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           39
+                                       ],
+                            "winner":  "East St. Louis Younge",
+                            "loser":  "Peoria Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "East St. Louis Younge",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           24
+                                       ],
+                            "winner":  "East St. Louis Younge",
+                            "loser":  "Teutopolis",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-3A"
+                        }
+              }
+};

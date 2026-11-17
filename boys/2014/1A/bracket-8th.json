@@ -1,0 +1,354 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:40",
+    "year":  2014,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Brussels",
+                                 "loser":  "Greenfield",
+                                 "score":  "29-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "Cissna Park",
+                                "loser":  "Bradley St. Joseph",
+                                "score":  "30-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Lincoln Chester-East Lincoln",
+                                "loser":  "Lincoln West Lincoln-Broadwell",
+                                "score":  "41-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Waverly",
+                                 "score":  "44-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Rantoul St. Malachy",
+                                 "loser":  "Gifford",
+                                 "score":  "44-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Mendota Holy Cross",
+                                "loser":  "Morris Nettle Creek",
+                                "score":  "25-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Annawan",
+                                "loser":  "Peoria Academy",
+                                "score":  "62-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Springfield Little Flower",
+                                 "loser":  "Springfield Calvary",
+                                 "score":  "39-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Joliet Laraway",
+                                "loser":  "Chicago Providence-St. Mel",
+                                "score":  "48-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Chrisman Scottland",
+                                "loser":  "Philo St. Thomas",
+                                "score":  "43-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Stewardson-Strasburg",
+                                 "loser":  "Windsor",
+                                 "score":  "51-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Bartonville Monroe",
+                                "loser":  "Peoria Hollis",
+                                "score":  "36-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Lovejoy",
+                                 "loser":  "Morrisonville JHS",
+                                 "score":  "59-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "East Peoria Robein",
+                                "loser":  "Spring Bay Riverview",
+                                "score":  "34-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Ransom",
+                                "score":  "55-41",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Palestine",
+                                 "score":  "29-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Brussels",
+                                               "record":  "14-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Cissna Park",
+                                              "record":  "12-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Jacksonville Our Saviour",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Rantoul St. Malachy",
+                                               "record":  "17-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Mendota Holy Cross",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Annawan",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Springfield Little Flower",
+                                               "record":  "15-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Joliet Laraway",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Chrisman Scottland",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Stewardson-Strasburg",
+                                               "record":  "15-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Bartonville Monroe",
+                                              "record":  "12-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Lovejoy",
+                                               "record":  "9-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "East Peoria Robein",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Pontiac St. Mary\u0027s",
+                                              "record":  "13-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "13-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Stewardson-Strasburg",
+                                 "loser":  "Sigel St. Michael\u0027s",
+                                 "score":  "44-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Lincoln Chester-East Lincoln",
+                                 "loser":  "East Peoria Robein",
+                                 "score":  "38-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Pontiac St. Mary\u0027s",
+                                 "loser":  "Cissna Park",
+                                 "score":  "31-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Joliet Laraway",
+                                 "loser":  "Mendota Holy Cross",
+                                 "score":  "45-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Annawan",
+                                 "loser":  "Bartonville Monroe",
+                                 "score":  "45-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Springfield Little Flower",
+                                 "score":  "38-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Rantoul St. Malachy",
+                                 "loser":  "Chrisman Scottland",
+                                 "score":  "36-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Brussels",
+                                 "loser":  "Lovejoy",
+                                 "score":  "36-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           2,
+                                           8
+                                       ],
+                                 "4":  [
+                                           5,
+                                           3
+                                       ],
+                                 "1":  [
+                                           7,
+                                           4
+                                       ],
+                                 "3":  [
+                                           1,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Brussels",
+                                          "Lincoln Chester-East Lincoln"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           39
+                                       ],
+                            "winner":  "Lincoln Chester-East Lincoln",
+                            "loser":  "Brussels",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Joliet Laraway",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           36
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Joliet Laraway",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Pontiac St. Mary\u0027s",
+                                          "Brussels"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           50
+                                       ],
+                            "winner":  "Brussels",
+                            "loser":  "Pontiac St. Mary\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Stewardson-Strasburg",
+                                          "Annawan"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           47
+                                       ],
+                            "winner":  "Annawan",
+                            "loser":  "Stewardson-Strasburg",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Rantoul St. Malachy",
+                                          "Lincoln Chester-East Lincoln"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           59
+                                       ],
+                            "winner":  "Lincoln Chester-East Lincoln",
+                            "loser":  "Rantoul St. Malachy",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Jacksonville Our Saviour",
+                                          "Lincoln Chester-East Lincoln"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           39
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Lincoln Chester-East Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Annawan",
+                                          "Brussels"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           20
+                                       ],
+                            "winner":  "Annawan",
+                            "loser":  "Brussels",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Annawan",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           23
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Annawan",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-1A"
+                        }
+              }
+}

@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:42",
+    "year":  2013,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Concord Triopia",
+                                 "score":  "37-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "Oglesby Holy Family",
+                                "loser":  "LaSalle Trinity Catholic",
+                                "score":  "57-39",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Bartonville Monroe",
+                                "loser":  "Pekin St. Joseph",
+                                "score":  "39-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Effingham Sacred Heart",
+                                 "score":  "58-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Hartsburg-Emden",
+                                 "loser":  "Lincoln West Lincoln-Broadwell",
+                                 "score":  "31-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ransom",
+                                "loser":  "Odell",
+                                "score":  "46-44",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Philo St. Thomas",
+                                "loser":  "Chrisman Scottland",
+                                "score":  "32-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Kansas",
+                                 "loser":  "Palestine",
+                                 "score":  "38-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Gardner",
+                                "loser":  "Rockdale",
+                                "score":  "31-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur Our Lady of Lourdes",
+                                "loser":  "Champaign Next Generation",
+                                "score":  "41-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Raymond Lincolnwood",
+                                 "loser":  "Springfield Little Flower",
+                                 "score":  "25-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Crescent City",
+                                "loser":  "Gifford",
+                                "score":  "47-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Waverly",
+                                 "loser":  "Carrollton St. John",
+                                 "score":  "54-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria St. Mark",
+                                "loser":  "Woodhull AlWood",
+                                "score":  "50-44",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Metamora St. Mary\u0027s",
+                                "loser":  "Morton Blessed Sacrament",
+                                "score":  "37-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Mulberry Grove JHS",
+                                 "score":  "37-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Jacksonville Our Saviour",
+                                               "record":  "15-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Oglesby Holy Family",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Bartonville Monroe",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Hartsburg-Emden",
+                                               "record":  "15-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ransom",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Philo St. Thomas",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Kansas",
+                                               "record":  "13-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Gardner",
+                                              "record":  "14-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Decatur Our Lady of Lourdes",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Raymond Lincolnwood",
+                                               "record":  "19-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Crescent City",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Waverly",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Peoria St. Mark",
+                                              "record":  "12-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Metamora St. Mary\u0027s",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Pana Sacred Heart",
+                                               "record":  "15-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Raymond Lincolnwood",
+                                 "score":  "21-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria St. Mark",
+                                 "loser":  "Bartonville Monroe",
+                                 "score":  "34-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Oglesby Holy Family",
+                                 "loser":  "Metamora St. Mary\u0027s",
+                                 "score":  "61-46",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Gardner",
+                                 "loser":  "Ransom",
+                                 "score":  "53-45",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Crescent City",
+                                 "loser":  "Philo St. Thomas",
+                                 "score":  "34-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Kansas",
+                                 "score":  "47-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Decatur Our Lady of Lourdes",
+                                 "loser":  "Hartsburg-Emden",
+                                 "score":  "41-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Waverly",
+                                 "score":  "32-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           1
+                                       ],
+                                 "4":  [
+                                           5,
+                                           7
+                                       ],
+                                 "1":  [
+                                           2,
+                                           8
+                                       ],
+                                 "3":  [
+                                           4,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Peoria St. Mark",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           50
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Peoria St. Mark",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Crescent City",
+                                          "Sigel St. Michael\u0027s"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           46
+                                       ],
+                            "winner":  "Sigel St. Michael\u0027s",
+                            "loser":  "Crescent City",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Peoria St. Mark",
+                                          "Gardner"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           28
+                                       ],
+                            "winner":  "Peoria St. Mark",
+                            "loser":  "Gardner",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Oglesby Holy Family",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           34
+                                       ],
+                            "winner":  "Oglesby Holy Family",
+                            "loser":  "Jacksonville Our Saviour",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Decatur Our Lady of Lourdes",
+                                          "Pana Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           12
+                                       ],
+                            "winner":  "Decatur Our Lady of Lourdes",
+                            "loser":  "Pana Sacred Heart",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Sigel St. Michael\u0027s",
+                                          "Decatur Our Lady of Lourdes"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           39
+                                       ],
+                            "winner":  "Decatur Our Lady of Lourdes",
+                            "loser":  "Sigel St. Michael\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Oglesby Holy Family",
+                                          "Peoria St. Mark"
+                                      ],
+                            "scores":  [
+                                           59,
+                                           43
+                                       ],
+                            "winner":  "Oglesby Holy Family",
+                            "loser":  "Peoria St. Mark",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Oglesby Holy Family",
+                                          "Decatur Our Lady of Lourdes"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           33
+                                       ],
+                            "winner":  "Oglesby Holy Family",
+                            "loser":  "Decatur Our Lady of Lourdes",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-1A"
+                        }
+              }
+}

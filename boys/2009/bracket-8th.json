@@ -1,0 +1,354 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:56",
+    "year":  2009,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Greenfield",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "36-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Gardner",
+                                "loser":  "Ottawa Wallace",
+                                "score":  "41-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Kewanee Wethersfield",
+                                "loser":  "Woodhull AlWood",
+                                "score":  "44-43",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Mendon Unity",
+                                 "loser":  "Liberty",
+                                 "score":  "39-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Mt. Pulaski",
+                                 "loser":  "Decatur Lutheran",
+                                 "score":  "53-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Onarga Iroquois West",
+                                "loser":  "Bourbonnais St. George",
+                                "score":  "29-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Paris Crestwood",
+                                "loser":  "Kansas",
+                                "score":  "37-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Hamilton",
+                                 "score":  "39-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Lindenhurst Millburn West",
+                                "loser":  "Chicago Providence-St. Mel",
+                                "score":  "41-39",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Bloomington Holy Trinity",
+                                "loser":  "Normal Epiphany",
+                                "score":  "32-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Nokomis JHS",
+                                 "loser":  "Altamont",
+                                 "score":  "37-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Homer Heritage",
+                                "score":  "45-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Springfield St. Agnes",
+                                 "loser":  "Girard",
+                                 "score":  "47-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria Heights GS",
+                                "loser":  "Peoria Pleasant Valley",
+                                "score":  "56-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Lexington",
+                                "loser":  "Colfax Ridgeview",
+                                "score":  "33-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Findlay Okaw Valley",
+                                 "score":  "35-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "3":  {
+                                              "team":  "Gardner",
+                                              "record":  "14-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Kewanee Wethersfield",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Mendon Unity",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Mt. Pulaski",
+                                               "record":  "17-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Onarga Iroquois West",
+                                              "record":  "11-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Paris Crestwood",
+                                              "record":  "14-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Carthage",
+                                               "record":  "14-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lindenhurst Millburn West",
+                                              "record":  "14-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Bloomington Holy Trinity",
+                                              "record":  "17-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                          },
+                                    "16":  {
+                                               "team":  "Greenfield",
+                                               "record":  "18-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "15-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Springfield St. Agnes",
+                                               "record":  "16-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Peoria Heights GS",
+                                              "record":  "12-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Lexington",
+                                              "record":  "14-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "15-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Nokomis JHS",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "45-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Kewanee Wethersfield",
+                                 "loser":  "Peoria Heights GS",
+                                 "score":  "52-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Lexington",
+                                 "loser":  "Gardner",
+                                 "score":  "37-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Lindenhurst Millburn West",
+                                 "loser":  "Onarga Iroquois West",
+                                 "score":  "30-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "Paris Crestwood",
+                                 "score":  "51-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Mendon Unity",
+                                 "loser":  "Carthage",
+                                 "score":  "36-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Bloomington Holy Trinity",
+                                 "loser":  "Mt. Pulaski",
+                                 "score":  "43-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Springfield St. Agnes",
+                                 "loser":  "Greenfield",
+                                 "score":  "49-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           1
+                                       ],
+                                 "4":  [
+                                           2,
+                                           4
+                                       ],
+                                 "1":  [
+                                           5,
+                                           7
+                                       ],
+                                 "3":  [
+                                           8,
+                                           3
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Mendon Unity",
+                                          "Springfield St. Agnes"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           35
+                                       ],
+                            "winner":  "Mendon Unity",
+                            "loser":  "Springfield St. Agnes",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Springfield St. Agnes",
+                                          "Kewanee Wethersfield"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           42
+                                       ],
+                            "winner":  "Springfield St. Agnes",
+                            "loser":  "Kewanee Wethersfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Mendon Unity",
+                                          "Lindenhurst Millburn West"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           19
+                                       ],
+                            "winner":  "Mendon Unity",
+                            "loser":  "Lindenhurst Millburn West",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Bloomington Holy Trinity",
+                                          "Nokomis JHS"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           29
+                                       ],
+                            "winner":  "Bloomington Holy Trinity",
+                            "loser":  "Nokomis JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Lexington",
+                                          "Champaign St. Matthew"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           34
+                                       ],
+                            "winner":  "Champaign St. Matthew",
+                            "loser":  "Lexington",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Springfield St. Agnes",
+                                          "Champaign St. Matthew"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           50
+                                       ],
+                            "winner":  "Champaign St. Matthew",
+                            "loser":  "Springfield St. Agnes",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Bloomington Holy Trinity",
+                                          "Mendon Unity"
+                                      ],
+                            "scores":  [
+                                           53,
+                                           35
+                                       ],
+                            "winner":  "Bloomington Holy Trinity",
+                            "loser":  "Mendon Unity",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Bloomington Holy Trinity",
+                                          "Champaign St. Matthew"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           40
+                                       ],
+                            "winner":  "Bloomington Holy Trinity",
+                            "loser":  "Champaign St. Matthew",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=8-2A"
+                        }
+              }
+}

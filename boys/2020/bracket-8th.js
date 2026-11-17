@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:23",
+    "year":  2020,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Greenfield",
+                                 "loser":  "Madison",
+                                 "score":  "41-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Bismarck-Henning",
+                                "loser":  "Kankakee Bishop McNamara",
+                                "score":  "34-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Peoria Heights St. Thomas",
+                                "loser":  "Peoria Heights GS",
+                                "score":  "32-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Assumption Central A \u0026 M",
+                                 "loser":  "Nokomis JHS",
+                                 "score":  "38-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Mendon Unity",
+                                 "loser":  "Augusta Southeastern",
+                                 "score":  "28-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Joliet Laraway",
+                                "loser":  "Gardner",
+                                "score":  "42-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Bartonville Monroe",
+                                "loser":  "Bushnell-Prairie City",
+                                "score":  "42-40",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Villa Grove",
+                                 "score":  "56-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Riverdale Washington",
+                                "loser":  "Burr Ridge MS",
+                                "score":  "50-46",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Carthage",
+                                "loser":  "Hamilton",
+                                "score":  "44-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "St. Elmo",
+                                 "score":  "43-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Princeville",
+                                "loser":  "Brimfield",
+                                "score":  "49-40",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "New Berlin JHS",
+                                 "loser":  "Winchester",
+                                 "score":  "48-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Creve Coeur Parkview",
+                                "loser":  "Peoria St. Philomena",
+                                "score":  "32-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Bloomington Corpus Christi",
+                                "loser":  "Normal Metcalf",
+                                "score":  "61-48",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Casey-Westfield",
+                                 "loser":  "Paris Crestwood",
+                                 "score":  "40-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Greenfield",
+                                               "record":  "21-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Bismarck-Henning",
+                                              "record":  "14-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Peoria Heights St. Thomas",
+                                              "record":  "19-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Assumption Central A \u0026 M",
+                                               "record":  "21-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Mendon Unity",
+                                               "record":  "19-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Joliet Laraway",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Bartonville Monroe",
+                                              "record":  "17-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Decatur Robertson",
+                                               "record":  "20-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Riverdale Washington",
+                                              "record":  "22-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Carthage",
+                                              "record":  "16-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "10-17",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Princeville",
+                                              "record":  "16-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "New Berlin JHS",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Creve Coeur Parkview",
+                                              "record":  "12-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Bloomington Corpus Christi",
+                                              "record":  "21-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Casey-Westfield",
+                                               "record":  "23-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Casey-Westfield",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "48-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria Heights St. Thomas",
+                                 "loser":  "Creve Coeur Parkview",
+                                 "score":  "44-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Bloomington Corpus Christi",
+                                 "loser":  "Bismarck-Henning",
+                                 "score":  "61-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Riverdale Washington",
+                                 "loser":  "Joliet Laraway",
+                                 "score":  "43-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "Princeville",
+                                 "score":  "48-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Assumption Central A \u0026 M",
+                                 "score":  "54-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Mendon Unity",
+                                 "loser":  "Carthage",
+                                 "score":  "44-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "New Berlin JHS",
+                                 "loser":  "Greenfield",
+                                 "score":  "39-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           2,
+                                           4
+                                       ],
+                                 "4":  [
+                                           5,
+                                           8
+                                       ],
+                                 "1":  [
+                                           1,
+                                           3
+                                       ],
+                                 "3":  [
+                                           6,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Bloomington Corpus Christi",
+                                          "New Berlin JHS"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           44
+                                       ],
+                            "winner":  "New Berlin JHS",
+                            "loser":  "Bloomington Corpus Christi",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Casey-Westfield"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           31
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Casey-Westfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Bloomington Corpus Christi",
+                                          "Bartonville Monroe"
+                                      ],
+                            "scores":  [
+                                           69,
+                                           33
+                                       ],
+                            "winner":  "Bloomington Corpus Christi",
+                            "loser":  "Bartonville Monroe",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Riverdale Washington",
+                                          "Peoria Heights St. Thomas"
+                                      ],
+                            "scores":  [
+                                           55,
+                                           20
+                                       ],
+                            "winner":  "Riverdale Washington",
+                            "loser":  "Peoria Heights St. Thomas",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Mendon Unity",
+                                          "New Berlin JHS"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           37
+                                       ],
+                            "winner":  "New Berlin JHS",
+                            "loser":  "Mendon Unity",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "New Berlin JHS"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           35
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "New Berlin JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Riverdale Washington",
+                                          "Bloomington Corpus Christi"
+                                      ],
+                            "scores":  [
+                                           57,
+                                           41
+                                       ],
+                            "winner":  "Riverdale Washington",
+                            "loser":  "Bloomington Corpus Christi",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Riverdale Washington",
+                                          "Decatur Robertson"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           36
+                                       ],
+                            "winner":  "Riverdale Washington",
+                            "loser":  "Decatur Robertson",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-2A"
+                        }
+              }
+};

@@ -1,0 +1,349 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:57",
+    "year":  2009,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Madison",
+                                 "loser":  "Litchfield",
+                                 "score":  "36-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                             },
+                      "3":  {
+                                "winner":  "Clifton Nash",
+                                "loser":  "Hoopeston Area",
+                                "score":  "37-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                            },
+                      "5":  {
+                                "winner":  "St. Joseph",
+                                "loser":  "Bismarck-Henning",
+                                "score":  "40-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Rushville Schuyler Industry",
+                                 "loser":  "Roodhouse North Greene",
+                                 "score":  "35-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Monmouth-Roseville JHS",
+                                 "loser":  "Aledo",
+                                 "score":  "62-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                             },
+                      "2":  {
+                                "winner":  "Crest Hill Richland",
+                                "loser":  "Morris Shabbona",
+                                "score":  "57-53",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                            },
+                      "8":  {
+                                "winner":  "Washington Central",
+                                "loser":  "Washington MS",
+                                "score":  "27-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Lincoln JHS",
+                                 "loser":  "Williamsville",
+                                 "score":  "21-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                             },
+                      "1":  {
+                                "winner":  "South Holland McKinley",
+                                "loser":  "Calumet City Schrum",
+                                "score":  "56-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                            },
+                      "9":  {
+                                "winner":  "Dunlap Valley MS",
+                                "loser":  "Dunlap MS",
+                                "score":  "29-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Shelbyville Moulton",
+                                 "score":  "63-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                             },
+                      "7":  {
+                                "winner":  "Eureka",
+                                "loser":  "Germantown Hills",
+                                "score":  "45-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Blue Mound Meridian",
+                                 "loser":  "Auburn JHS at Divernon",
+                                 "score":  "52-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                             },
+                      "6":  {
+                                "winner":  "Monticello",
+                                "loser":  "Heyworth",
+                                "score":  "48-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                            },
+                      "4":  {
+                                "winner":  "Paxton-Buckley-Loda",
+                                "loser":  "El Paso-Gridley",
+                                "score":  "42-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Casey-Westfield",
+                                 "loser":  "Robinson Nuttall",
+                                 "score":  "57-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Madison",
+                                               "record":  "16-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Clifton Nash",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "St. Joseph",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Rushville Schuyler Industry",
+                                               "record":  "16-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Monmouth-Roseville JHS",
+                                               "record":  "19-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Crest Hill Richland",
+                                              "record":  "13-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Washington Central",
+                                              "record":  "16-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Lincoln JHS",
+                                               "record":  "10-14",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "South Holland McKinley",
+                                              "record":  "16-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Dunlap Valley MS",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Monticello",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Paxton-Buckley-Loda",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Casey-Westfield",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Casey-Westfield",
+                                 "loser":  "Teutopolis",
+                                 "score":  "37-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Monticello",
+                                 "loser":  "St. Joseph",
+                                 "score":  "43-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Paxton-Buckley-Loda",
+                                 "loser":  "Clifton Nash",
+                                 "score":  "41-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-3A"
+                             },
+                       "1":  {
+                                 "winner":  "South Holland McKinley",
+                                 "loser":  "Crest Hill Richland",
+                                 "score":  "63-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Eureka",
+                                 "loser":  "Washington Central",
+                                 "score":  "29-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Lincoln JHS",
+                                 "loser":  "Rushville Schuyler Industry",
+                                 "score":  "36-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Monmouth-Roseville JHS",
+                                 "loser":  "Dunlap Valley MS",
+                                 "score":  "38-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Madison",
+                                 "loser":  "Blue Mound Meridian",
+                                 "score":  "62-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           1,
+                                           7
+                                       ],
+                                 "4":  [
+                                           2,
+                                           5
+                                       ],
+                                 "1":  [
+                                           8,
+                                           3
+                                       ],
+                                 "3":  [
+                                           4,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Casey-Westfield",
+                                          "Eureka"
+                                      ],
+                            "scores":  [
+                                           63,
+                                           67
+                                       ],
+                            "winner":  "Eureka",
+                            "loser":  "Casey-Westfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Eureka",
+                                          "Lincoln JHS"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           29
+                                       ],
+                            "winner":  "Eureka",
+                            "loser":  "Lincoln JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "South Holland McKinley",
+                                          "Casey-Westfield"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           54
+                                       ],
+                            "winner":  "Casey-Westfield",
+                            "loser":  "South Holland McKinley",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Madison",
+                                          "Monticello"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           28
+                                       ],
+                            "winner":  "Monticello",
+                            "loser":  "Madison",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Paxton-Buckley-Loda",
+                                          "Monmouth-Roseville JHS"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           44
+                                       ],
+                            "winner":  "Monmouth-Roseville JHS",
+                            "loser":  "Paxton-Buckley-Loda",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Eureka",
+                                          "Monmouth-Roseville JHS"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           34
+                                       ],
+                            "winner":  "Monmouth-Roseville JHS",
+                            "loser":  "Eureka",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Monticello",
+                                          "Casey-Westfield"
+                                      ],
+                            "scores":  [
+                                           49,
+                                           24
+                                       ],
+                            "winner":  "Monticello",
+                            "loser":  "Casey-Westfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Monticello",
+                                          "Monmouth-Roseville JHS"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           33
+                                       ],
+                            "winner":  "Monmouth-Roseville JHS",
+                            "loser":  "Monticello",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-3A"
+                        }
+              }
+};

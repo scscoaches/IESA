@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:35",
+    "year":  2016,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Greenville",
+                                 "loser":  "Vandalia",
+                                 "score":  "53-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                             },
+                      "3":  {
+                                "winner":  "Braidwood Reed-Custer",
+                                "loser":  "Morris Shabbona",
+                                "score":  "30-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                            },
+                      "5":  {
+                                "winner":  "Paxton-Buckley-Loda",
+                                "loser":  "Bismarck-Henning",
+                                "score":  "43-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Assumption Central A \u0026 M",
+                                 "score":  "40-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Farmington Central",
+                                 "loser":  "Monmouth-Roseville JHS",
+                                 "score":  "65-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                             },
+                      "2":  {
+                                "winner":  "Winfield Wheaton Christian",
+                                "loser":  "Calumet Park",
+                                "score":  "62-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                            },
+                      "8":  {
+                                "winner":  "Germantown Hills",
+                                "loser":  "Washington Central",
+                                "score":  "40-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Marshall JHS",
+                                 "loser":  "Robinson Nuttall",
+                                 "score":  "40-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                             },
+                      "1":  {
+                                "winner":  "Lansing Heritage",
+                                "loser":  "Dolton Roosevelt",
+                                "score":  "58-48",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                            },
+                      "9":  {
+                                "winner":  "Mossville",
+                                "loser":  "Tremont",
+                                "score":  "50-48",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Beardstown MS",
+                                 "score":  "41-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                             },
+                      "7":  {
+                                "winner":  "Downs Tri-Valley",
+                                "loser":  "Maroa-Forsyth",
+                                "score":  "48-46",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Gillespie",
+                                 "loser":  "White Hall North Greene",
+                                 "score":  "52-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                             },
+                      "6":  {
+                                "winner":  "St. Joseph",
+                                "loser":  "Tuscola East Prairie",
+                                "score":  "45-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                            },
+                      "4":  {
+                                "winner":  "El Paso-Gridley",
+                                "loser":  "Peru Parkside",
+                                "score":  "43-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Athens",
+                                 "loser":  "Riverton",
+                                 "score":  "29-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Greenville",
+                                               "record":  "19-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Braidwood Reed-Custer",
+                                              "record":  "11-12",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Paxton-Buckley-Loda",
+                                              "record":  "19-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Farmington Central",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Winfield Wheaton Christian",
+                                              "record":  "25-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Germantown Hills",
+                                              "record":  "18-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Marshall JHS",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lansing Heritage",
+                                              "record":  "14-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Mossville",
+                                              "record":  "19-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Pleasant Plains",
+                                               "record":  "20-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Downs Tri-Valley",
+                                              "record":  "23-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Gillespie",
+                                               "record":  "19-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "St. Joseph",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "El Paso-Gridley",
+                                              "record":  "17-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Athens",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=8-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Athens",
+                                 "score":  "31-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=8-3A"
+                             },
+                       "3":  {
+                                 "winner":  "St. Joseph",
+                                 "loser":  "Paxton-Buckley-Loda",
+                                 "score":  "36-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=8-3A"
+                             },
+                       "2":  {
+                                 "winner":  "El Paso-Gridley",
+                                 "loser":  "Braidwood Reed-Custer",
+                                 "score":  "26-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=8-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Winfield Wheaton Christian",
+                                 "loser":  "Lansing Heritage",
+                                 "score":  "64-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=8-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Downs Tri-Valley",
+                                 "loser":  "Germantown Hills",
+                                 "score":  "50-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=8-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Marshall JHS",
+                                 "score":  "42-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=8-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Farmington Central",
+                                 "loser":  "Mossville",
+                                 "score":  "63-46",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=8-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Greenville",
+                                 "loser":  "Gillespie",
+                                 "score":  "55-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=8-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           1,
+                                           4
+                                       ],
+                                 "4":  [
+                                           5,
+                                           8
+                                       ],
+                                 "1":  [
+                                           7,
+                                           6
+                                       ],
+                                 "3":  [
+                                           3,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Winfield Wheaton Christian",
+                                          "Greenville"
+                                      ],
+                            "scores":  [
+                                           53,
+                                           30
+                                       ],
+                            "winner":  "Winfield Wheaton Christian",
+                            "loser":  "Greenville",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=8-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "St. Joseph",
+                                          "El Paso-Gridley"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           22
+                                       ],
+                            "winner":  "St. Joseph",
+                            "loser":  "El Paso-Gridley",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=8-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Winfield Wheaton Christian",
+                                          "Downs Tri-Valley"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           42
+                                       ],
+                            "winner":  "Winfield Wheaton Christian",
+                            "loser":  "Downs Tri-Valley",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=8-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Pleasant Plains",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           38
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Pleasant Plains",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=8-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Farmington Central",
+                                          "Greenville"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           41
+                                       ],
+                            "winner":  "Greenville",
+                            "loser":  "Farmington Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=8-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "St. Joseph",
+                                          "Greenville"
+                                      ],
+                            "scores":  [
+                                           50,
+                                           45
+                                       ],
+                            "winner":  "St. Joseph",
+                            "loser":  "Greenville",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=8-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Winfield Wheaton Christian"
+                                      ],
+                            "scores":  [
+                                           50,
+                                           47
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Winfield Wheaton Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=8-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "St. Joseph"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           30
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "St. Joseph",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=8-3A"
+                        }
+              }
+}

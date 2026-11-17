@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:26",
+    "year":  2019,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Madison",
+                                 "loser":  "Bunker Hill Wolf Ridge",
+                                 "score":  "42-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "McNabb Putnam County",
+                                "loser":  "Sparland Midland",
+                                "score":  "38-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Princeville",
+                                "loser":  "Brimfield",
+                                "score":  "44-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Augusta Southeastern",
+                                 "loser":  "Stronghurst West Central",
+                                 "score":  "48-46",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Decatur Hope",
+                                 "score":  "60-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Dwight",
+                                "loser":  "Joliet Laraway",
+                                "score":  "39-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Colfax Ridgeview",
+                                "score":  "44-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Concord Triopia",
+                                 "score":  "42-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Riverdale Washington",
+                                "loser":  "Hazel Crest Jesse White",
+                                "score":  "51-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Bloomington Cornerstone",
+                                "loser":  "Bloomington Corpus Christi",
+                                "score":  "49-46",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Altamont",
+                                 "score":  "42-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Bismarck-Henning",
+                                "loser":  "Sidell Salt Fork",
+                                "score":  "42-39",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Nokomis JHS",
+                                 "score":  "57-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Elmwood",
+                                "loser":  "Bushnell-Prairie City",
+                                "score":  "39-36",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Peoria Christian",
+                                "loser":  "Peoria St. Vincent de Paul",
+                                "score":  "34-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Casey-Westfield",
+                                 "loser":  "Dieterich",
+                                 "score":  "43-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Madison",
+                                               "record":  "19-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "McNabb Putnam County",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Princeville",
+                                              "record":  "12-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Augusta Southeastern",
+                                               "record":  "15-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Decatur Robertson",
+                                               "record":  "16-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Dwight",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "19-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Mt. Sterling Brown County",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Riverdale Washington",
+                                              "record":  "8-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Bloomington Cornerstone",
+                                              "record":  "16-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "13-13",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Bismarck-Henning",
+                                              "record":  "19-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Springfield Christ the King",
+                                               "record":  "25-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Elmwood",
+                                              "record":  "21-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Peoria Christian",
+                                              "record":  "23-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Casey-Westfield",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Casey-Westfield",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "58-45",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Elmwood",
+                                 "loser":  "Princeville",
+                                 "score":  "43-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Peoria Christian",
+                                 "loser":  "McNabb Putnam County",
+                                 "score":  "36-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Dwight",
+                                 "loser":  "Riverdale Washington",
+                                 "score":  "52-46",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "Bismarck-Henning",
+                                 "score":  "37-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Augusta Southeastern",
+                                 "score":  "42-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Bloomington Cornerstone",
+                                 "score":  "53-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Madison",
+                                 "score":  "62-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           7
+                                       ],
+                                 "4":  [
+                                           1,
+                                           4
+                                       ],
+                                 "1":  [
+                                           3,
+                                           6
+                                       ],
+                                 "3":  [
+                                           8,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Mt. Sterling Brown County",
+                                          "Dwight"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           38
+                                       ],
+                            "winner":  "Mt. Sterling Brown County",
+                            "loser":  "Dwight",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Springfield Christ the King",
+                                          "Peoria Christian"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           38
+                                       ],
+                            "winner":  "Springfield Christ the King",
+                            "loser":  "Peoria Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Casey-Westfield"
+                                      ],
+                            "scores":  [
+                                           63,
+                                           29
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Casey-Westfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Elmwood",
+                                          "Mt. Sterling Brown County"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           50
+                                       ],
+                            "winner":  "Mt. Sterling Brown County",
+                            "loser":  "Elmwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Dwight",
+                                          "Champaign St. Matthew"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           26
+                                       ],
+                            "winner":  "Dwight",
+                            "loser":  "Champaign St. Matthew",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Springfield Christ the King",
+                                          "Dwight"
+                                      ],
+                            "scores":  [
+                                           62,
+                                           31
+                                       ],
+                            "winner":  "Springfield Christ the King",
+                            "loser":  "Dwight",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Mt. Sterling Brown County",
+                                          "Decatur Robertson"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           71
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Mt. Sterling Brown County",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Springfield Christ the King"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           43
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Springfield Christ the King",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=8-2A"
+                        }
+              }
+};

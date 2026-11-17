@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:28",
+    "year":  2018,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Madison",
+                                 "loser":  "Bunker Hill Wolf Ridge",
+                                 "score":  "35-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "Dwight",
+                                "loser":  "McNabb Putnam County",
+                                "score":  "45-44",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Princeville",
+                                "loser":  "Brimfield",
+                                "score":  "31-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Kinmundy South Central",
+                                 "loser":  "Altamont",
+                                 "score":  "51-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Bloomington Corpus Christi",
+                                 "loser":  "Normal Metcalf",
+                                 "score":  "41-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Hazel Crest Jesse White",
+                                "loser":  "Grant Park",
+                                "score":  "42-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Augusta Southeastern",
+                                "loser":  "Camp Point Central",
+                                "score":  "44-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Paris Crestwood",
+                                 "score":  "49-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Joliet Laraway",
+                                "loser":  "Lockport Taft",
+                                "score":  "28-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Sidell Salt Fork",
+                                "loser":  "Champaign St. Matthew",
+                                "score":  "43-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Cowden-Herrick",
+                                 "loser":  "Morrisonville JHS",
+                                 "score":  "33-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Stronghurst West Central",
+                                "loser":  "Carthage",
+                                "score":  "52-47",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Ashland A-C Central",
+                                 "score":  "36-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria St. Vincent de Paul",
+                                "loser":  "Elmwood",
+                                "score":  "44-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "Peoria Christian",
+                                "loser":  "Sparland Midland",
+                                "score":  "51-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Decatur Johns Hill",
+                                 "score":  "67-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Madison",
+                                               "record":  "12-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Dwight",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Princeville",
+                                              "record":  "10-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Kinmundy South Central",
+                                               "record":  "15-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Bloomington Corpus Christi",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Hazel Crest Jesse White",
+                                              "record":  "10-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Augusta Southeastern",
+                                              "record":  "21-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "16-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Joliet Laraway",
+                                              "record":  "14-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Sidell Salt Fork",
+                                              "record":  "16-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Cowden-Herrick",
+                                               "record":  "12-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Stronghurst West Central",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Springfield Christ the King",
+                                               "record":  "22-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Peoria St. Vincent de Paul",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Peoria Christian",
+                                              "record":  "18-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Decatur Robertson",
+                                               "record":  "18-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Cowden-Herrick",
+                                 "score":  "81-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria St. Vincent de Paul",
+                                 "loser":  "Princeville",
+                                 "score":  "36-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Dwight",
+                                 "loser":  "Peoria Christian",
+                                 "score":  "42-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Joliet Laraway",
+                                 "loser":  "Hazel Crest Jesse White",
+                                 "score":  "47-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Stronghurst West Central",
+                                 "loser":  "Augusta Southeastern",
+                                 "score":  "51-48",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Kinmundy South Central",
+                                 "score":  "34-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Bloomington Corpus Christi",
+                                 "loser":  "Sidell Salt Fork",
+                                 "score":  "45-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Madison",
+                                 "score":  "54-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           1,
+                                           4
+                                       ],
+                                 "4":  [
+                                           3,
+                                           8
+                                       ],
+                                 "1":  [
+                                           5,
+                                           6
+                                       ],
+                                 "3":  [
+                                           7,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Joliet Laraway",
+                                          "Springfield Christ the King"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           42
+                                       ],
+                            "winner":  "Springfield Christ the King",
+                            "loser":  "Joliet Laraway",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Dwight"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           24
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Dwight",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Joliet Laraway",
+                                          "Stronghurst West Central"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           27
+                                       ],
+                            "winner":  "Joliet Laraway",
+                            "loser":  "Stronghurst West Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Bloomington Corpus Christi",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           29
+                                       ],
+                            "winner":  "Bloomington Corpus Christi",
+                            "loser":  "Effingham St. Anthony",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Peoria St. Vincent de Paul",
+                                          "Springfield Christ the King"
+                                      ],
+                            "scores":  [
+                                           9,
+                                           38
+                                       ],
+                            "winner":  "Springfield Christ the King",
+                            "loser":  "Peoria St. Vincent de Paul",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Springfield Christ the King"
+                                      ],
+                            "scores":  [
+                                           54,
+                                           42
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Springfield Christ the King",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Bloomington Corpus Christi",
+                                          "Joliet Laraway"
+                                      ],
+                            "scores":  [
+                                           53,
+                                           36
+                                       ],
+                            "winner":  "Bloomington Corpus Christi",
+                            "loser":  "Joliet Laraway",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Bloomington Corpus Christi",
+                                          "Decatur Robertson"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           58
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Bloomington Corpus Christi",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-2A"
+                        }
+              }
+};

@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:24",
+    "year":  2020,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Lovejoy",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "57-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "Oglesby Holy Family",
+                                "loser":  "Rockford Christian Life",
+                                "score":  "50-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Peoria St. Vincent de Paul",
+                                "loser":  "Peoria St. Jude",
+                                "score":  "42-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Lincoln Carroll Catholic",
+                                 "score":  "42-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Royal Prairieview Ogden",
+                                 "loser":  "Chrisman Scottland",
+                                 "score":  "52-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Ransom",
+                                "score":  "58-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Monmouth ICS",
+                                "loser":  "Peoria Limestone Walters",
+                                "score":  "25-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Philo St. Thomas",
+                                 "loser":  "Champaign Holy Cross",
+                                 "score":  "43-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Elwood GS",
+                                "loser":  "Marseilles Milton Pope",
+                                "score":  "43-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Potomac",
+                                "loser":  "Rantoul St. Malachy",
+                                "score":  "62-51",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Waverly",
+                                 "loser":  "Griggsville-Perry",
+                                 "score":  "26-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Kewanee Visitation",
+                                "loser":  "Cambridge JHS",
+                                "score":  "47-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Newton St. Thomas",
+                                 "loser":  "Sigel St. Michael\u0027s",
+                                 "score":  "31-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "Hartsburg-Emden",
+                                "loser":  "Delavan",
+                                "score":  "34-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Flanagan",
+                                "loser":  "Normal Epiphany",
+                                "score":  "36-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Springfield Little Flower",
+                                 "score":  "40-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Lovejoy",
+                                               "record":  "20-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Oglesby Holy Family",
+                                              "record":  "25-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Peoria St. Vincent de Paul",
+                                              "record":  "24-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Lincoln West Lincoln-Broadwell",
+                                               "record":  "23-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Royal Prairieview Ogden",
+                                               "record":  "17-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Pontiac St. Mary\u0027s",
+                                              "record":  "23-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Monmouth ICS",
+                                              "record":  "13-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Philo St. Thomas",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Elwood GS",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Potomac",
+                                              "record":  "16-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Waverly",
+                                               "record":  "22-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Kewanee Visitation",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Newton St. Thomas",
+                                               "record":  "16-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Hartsburg-Emden",
+                                              "record":  "15-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Flanagan",
+                                              "record":  "19-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Springfield Christ the King",
+                                               "record":  "24-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Springfield Christ the King",
+                                 "loser":  "Waverly",
+                                 "score":  "27-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria St. Vincent de Paul",
+                                 "loser":  "Hartsburg-Emden",
+                                 "score":  "50-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Oglesby Holy Family",
+                                 "loser":  "Flanagan",
+                                 "score":  "32-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Pontiac St. Mary\u0027s",
+                                 "loser":  "Elwood GS",
+                                 "score":  "58-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Kewanee Visitation",
+                                 "loser":  "Monmouth ICS",
+                                 "score":  "43-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Philo St. Thomas",
+                                 "score":  "47-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Potomac",
+                                 "loser":  "Royal Prairieview Ogden",
+                                 "score":  "42-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Lovejoy",
+                                 "loser":  "Newton St. Thomas",
+                                 "score":  "39-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           7
+                                       ],
+                                 "4":  [
+                                           5,
+                                           1
+                                       ],
+                                 "1":  [
+                                           8,
+                                           4
+                                       ],
+                                 "3":  [
+                                           6,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Lovejoy",
+                                          "Pontiac St. Mary\u0027s"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           31
+                                       ],
+                            "winner":  "Lovejoy",
+                            "loser":  "Pontiac St. Mary\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Lincoln West Lincoln-Broadwell",
+                                          "Oglesby Holy Family"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           53
+                                       ],
+                            "winner":  "Oglesby Holy Family",
+                            "loser":  "Lincoln West Lincoln-Broadwell",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Peoria St. Vincent de Paul",
+                                          "Springfield Christ the King"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           47
+                                       ],
+                            "winner":  "Springfield Christ the King",
+                            "loser":  "Peoria St. Vincent de Paul",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Lovejoy",
+                                          "Kewanee Visitation"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           26
+                                       ],
+                            "winner":  "Lovejoy",
+                            "loser":  "Kewanee Visitation",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Potomac",
+                                          "Pontiac St. Mary\u0027s"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           50
+                                       ],
+                            "winner":  "Pontiac St. Mary\u0027s",
+                            "loser":  "Potomac",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Oglesby Holy Family",
+                                          "Pontiac St. Mary\u0027s"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           37
+                                       ],
+                            "winner":  "Oglesby Holy Family",
+                            "loser":  "Pontiac St. Mary\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Lovejoy",
+                                          "Springfield Christ the King"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           53
+                                       ],
+                            "winner":  "Springfield Christ the King",
+                            "loser":  "Lovejoy",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Springfield Christ the King",
+                                          "Oglesby Holy Family"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           28
+                                       ],
+                            "winner":  "Springfield Christ the King",
+                            "loser":  "Oglesby Holy Family",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-1A"
+                        }
+              }
+};

@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:13",
+    "year":  2025,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "St. Jacob Triad",
+                                 "loser":  "Edwardsville Lincoln",
+                                 "score":  "38-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Downers Grove O\u0027Neill",
+                                "loser":  "Lemont Old Quarry",
+                                "score":  "34-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "Park Forest Michelle Obama STA",
+                                "loser":  "Chicago Heights MS",
+                                "score":  "34-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Dunlap MS",
+                                 "loser":  "Macomb",
+                                 "score":  "23-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Kankakee JHS",
+                                 "loser":  "Frankfort Hickory Creek",
+                                 "score":  "39-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Rockford Eisenhower",
+                                "loser":  "Algonquin Heineman",
+                                "score":  "51-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Yorkville",
+                                "loser":  "Shorewood Troy",
+                                "score":  "41-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Bloomington JHS",
+                                 "loser":  "Normal Kingsley",
+                                 "score":  "32-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Arlington Heights Thomas",
+                                "loser":  "Lake Zurich North",
+                                "score":  "37-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Champaign Jefferson",
+                                "loser":  "Danville North Ridge",
+                                "score":  "40-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Springfield Lincoln",
+                                 "loser":  "Jacksonville MS",
+                                 "score":  "44-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "Minooka",
+                                "loser":  "Streator Northlawn",
+                                "score":  "57-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "O\u0027Fallon Carriel",
+                                 "loser":  "O\u0027Fallon Fulton",
+                                 "score":  "34-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "Matteson Colin Powell",
+                                "loser":  "Mokena",
+                                "score":  "42-39",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "Downers Grove Herrick",
+                                "loser":  "Summit Heritage",
+                                "score":  "41-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Decatur Stephen Decatur",
+                                 "score":  "39-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "St. Jacob Triad",
+                                               "record":  "18-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Downers Grove O\u0027Neill",
+                                              "record":  "13-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Park Forest Michelle Obama STA",
+                                              "record":  "13-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Dunlap MS",
+                                               "record":  "24-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Kankakee JHS",
+                                               "record":  "17-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Rockford Eisenhower",
+                                              "record":  "20-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Yorkville",
+                                              "record":  "19-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Bloomington JHS",
+                                               "record":  "26-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Arlington Heights Thomas",
+                                              "record":  "16-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Champaign Jefferson",
+                                              "record":  "13-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Springfield Lincoln",
+                                               "record":  "26-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Minooka",
+                                              "record":  "23-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "O\u0027Fallon Carriel",
+                                               "record":  "16-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Matteson Colin Powell",
+                                              "record":  "26-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Downers Grove Herrick",
+                                              "record":  "11-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Rochester",
+                                               "record":  "18-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=7-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Springfield Lincoln",
+                                 "loser":  "Rochester",
+                                 "score":  "62-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Matteson Colin Powell",
+                                 "loser":  "Park Forest Michelle Obama STA",
+                                 "score":  "58-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Downers Grove Herrick",
+                                 "loser":  "Downers Grove O\u0027Neill",
+                                 "score":  "35-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Arlington Heights Thomas",
+                                 "loser":  "Rockford Eisenhower",
+                                 "score":  "45-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Minooka",
+                                 "loser":  "Yorkville",
+                                 "score":  "34-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Dunlap MS",
+                                 "loser":  "Bloomington JHS",
+                                 "score":  "39-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Kankakee JHS",
+                                 "loser":  "Champaign Jefferson",
+                                 "score":  "53-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "O\u0027Fallon Carriel",
+                                 "loser":  "St. Jacob Triad",
+                                 "score":  "34-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           1,
+                                           4
+                                       ],
+                                 "4":  [
+                                           5,
+                                           6
+                                       ],
+                                 "1":  [
+                                           3,
+                                           8
+                                       ],
+                                 "3":  [
+                                           7,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Matteson Colin Powell",
+                                          "Kankakee JHS"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           37
+                                       ],
+                            "winner":  "Matteson Colin Powell",
+                            "loser":  "Kankakee JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Springfield Lincoln",
+                                          "Downers Grove Herrick"
+                                      ],
+                            "scores":  [
+                                           53,
+                                           32
+                                       ],
+                            "winner":  "Springfield Lincoln",
+                            "loser":  "Downers Grove Herrick",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Arlington Heights Thomas",
+                                          "Minooka"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           32
+                                       ],
+                            "winner":  "Arlington Heights Thomas",
+                            "loser":  "Minooka",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Matteson Colin Powell",
+                                          "O\u0027Fallon Carriel"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           42
+                                       ],
+                            "winner":  "Matteson Colin Powell",
+                            "loser":  "O\u0027Fallon Carriel",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Kankakee JHS",
+                                          "Dunlap MS"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           20
+                                       ],
+                            "winner":  "Kankakee JHS",
+                            "loser":  "Dunlap MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Springfield Lincoln",
+                                          "Kankakee JHS"
+                                      ],
+                            "scores":  [
+                                           57,
+                                           19
+                                       ],
+                            "winner":  "Springfield Lincoln",
+                            "loser":  "Kankakee JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Matteson Colin Powell",
+                                          "Arlington Heights Thomas"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           46
+                                       ],
+                            "winner":  "Arlington Heights Thomas",
+                            "loser":  "Matteson Colin Powell",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Arlington Heights Thomas",
+                                          "Springfield Lincoln"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           50
+                                       ],
+                            "winner":  "Springfield Lincoln",
+                            "loser":  "Arlington Heights Thomas",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=7-4A"
+                        }
+              }
+}

@@ -1,0 +1,349 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:12",
+    "year":  2025,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Hardin Calhoun",
+                                 "loser":  "Greenfield",
+                                 "score":  "33-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Aurora Christian",
+                                "loser":  "Joliet Laraway",
+                                "score":  "40-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Washington Beverly Manor",
+                                "loser":  "Peoria Christian",
+                                "score":  "36-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Camp Point Central",
+                                 "loser":  "Mendon Unity",
+                                 "score":  "53-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Green Valley Midwest Central",
+                                 "loser":  "Springfield Blessed Sacrament",
+                                 "score":  "49-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Burr Ridge MS",
+                                "loser":  "Morton Grove MCC",
+                                "score":  "52-40",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Normal Metcalf",
+                                "loser":  "Bloomington Cornerstone",
+                                "score":  "47-44",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Colchester West Prairie",
+                                 "loser":  "Stronghurst West Central",
+                                 "score":  "35-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Bourbonnais St. George",
+                                "loser":  "Gardner",
+                                "score":  "33-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur Our Lady of Lourdes",
+                                "loser":  "Decatur Hope",
+                                "score":  "67-51",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "St. Elmo",
+                                 "score":  "36-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Milford",
+                                "loser":  "Fisher",
+                                "score":  "41-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Nokomis JHS",
+                                 "score":  "47-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria Heights GS",
+                                "loser":  "Brimfield",
+                                "score":  "43-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Oglesby Washington",
+                                "loser":  "Manlius Bureau Valley JHS",
+                                "score":  "42-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Casey-Westfield",
+                                 "score":  "51-49",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Hardin Calhoun",
+                                               "record":  "22-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Aurora Christian",
+                                              "record":  "21-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Camp Point Central",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Green Valley Midwest Central",
+                                               "record":  "22-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Burr Ridge MS",
+                                              "record":  "14-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Normal Metcalf",
+                                              "record":  "11-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Colchester West Prairie",
+                                               "record":  "22-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Bourbonnais St. George",
+                                              "record":  "11-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "22-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Milford",
+                                              "record":  "19-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Winchester",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Peoria Heights GS",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Oglesby Washington",
+                                              "record":  "23-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Paris Crestwood",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Paris Crestwood",
+                                 "score":  "39-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria Heights GS",
+                                 "loser":  "Washington Beverly Manor",
+                                 "score":  "43-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Oglesby Washington",
+                                 "loser":  "Aurora Christian",
+                                 "score":  "44-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Burr Ridge MS",
+                                 "loser":  "Bourbonnais St. George",
+                                 "score":  "35-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Milford",
+                                 "loser":  "Normal Metcalf",
+                                 "score":  "39-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Camp Point Central",
+                                 "loser":  "Colchester West Prairie",
+                                 "score":  "37-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Green Valley Midwest Central",
+                                 "loser":  "Decatur Our Lady of Lourdes",
+                                 "score":  "34-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Hardin Calhoun",
+                                 "score":  "39-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           4
+                                       ],
+                                 "4":  [
+                                           2,
+                                           3
+                                       ],
+                                 "1":  [
+                                           8,
+                                           6
+                                       ],
+                                 "3":  [
+                                           1,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Green Valley Midwest Central",
+                                          "Oglesby Washington"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           45
+                                       ],
+                            "winner":  "Oglesby Washington",
+                            "loser":  "Green Valley Midwest Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Burr Ridge MS",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           41
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Burr Ridge MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Green Valley Midwest Central",
+                                          "Milford"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           15
+                                       ],
+                            "winner":  "Green Valley Midwest Central",
+                            "loser":  "Milford",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Winchester",
+                                          "Camp Point Central"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           48
+                                       ],
+                            "winner":  "Camp Point Central",
+                            "loser":  "Winchester",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Oglesby Washington",
+                                          "Peoria Heights GS"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           18
+                                       ],
+                            "winner":  "Oglesby Washington",
+                            "loser":  "Peoria Heights GS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Effingham St. Anthony",
+                                          "Oglesby Washington"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           27
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Oglesby Washington",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Camp Point Central",
+                                          "Green Valley Midwest Central"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           38
+                                       ],
+                            "winner":  "Camp Point Central",
+                            "loser":  "Green Valley Midwest Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Camp Point Central",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           13,
+                                           39
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Camp Point Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-2A"
+                        }
+              }
+}

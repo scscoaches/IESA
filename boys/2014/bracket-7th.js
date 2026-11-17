@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:39",
+    "year":  2014,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Kinderhook Western",
+                                 "score":  "32-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "Streator Woodland",
+                                "loser":  "Roanoke-Benson",
+                                "score":  "30-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Peoria St. Vincent de Paul",
+                                "loser":  "Princeville",
+                                "score":  "47-39",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Springfield Christian",
+                                 "loser":  "Springfield Blessed Sacrament",
+                                 "score":  "34-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Bismarck-Henning",
+                                 "loser":  "Catlin",
+                                 "score":  "27-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Mazon-Verona-Kinsman",
+                                "loser":  "Grand Ridge",
+                                "score":  "43-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Nauvoo-Colusa",
+                                "loser":  "Colchester West Prairie",
+                                "score":  "25-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Decatur Johns Hill",
+                                 "score":  "61-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Ford Heights Cottage Grove UGC",
+                                "loser":  "Bourbonnais Maternity BVM",
+                                "score":  "48-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Fisher",
+                                "loser":  "Champaign Holy Cross",
+                                "score":  "42-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Nokomis JHS",
+                                 "loser":  "Raymond Lincolnwood",
+                                 "score":  "23-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Elmwood",
+                                "loser":  "Lewistown Central",
+                                "score":  "59-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Madison",
+                                 "loser":  "Carrollton GS",
+                                 "score":  "48-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Bartonville Oak Grove West",
+                                "loser":  "Peoria Norwood",
+                                "score":  "41-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "Bloomington Holy Trinity",
+                                "loser":  "LeRoy",
+                                "score":  "27-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Altamont",
+                                 "score":  "52-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Winchester",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Streator Woodland",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Peoria St. Vincent de Paul",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Springfield Christian",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Bismarck-Henning",
+                                               "record":  "17-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Mazon-Verona-Kinsman",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Nauvoo-Colusa",
+                                              "record":  "14-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Decatur Robertson",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Ford Heights Cottage Grove UGC",
+                                              "record":  "11-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Fisher",
+                                              "record":  "17-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Nokomis JHS",
+                                               "record":  "18-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Elmwood",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Madison",
+                                               "record":  "13-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Bartonville Oak Grove West",
+                                              "record":  "9-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Bloomington Holy Trinity",
+                                              "record":  "15-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "18-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Nokomis JHS",
+                                 "score":  "38-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria St. Vincent de Paul",
+                                 "loser":  "Bartonville Oak Grove West",
+                                 "score":  "43-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Streator Woodland",
+                                 "loser":  "Bloomington Holy Trinity",
+                                 "score":  "37-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Ford Heights Cottage Grove UGC",
+                                 "loser":  "Mazon-Verona-Kinsman",
+                                 "score":  "46-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Elmwood",
+                                 "loser":  "Nauvoo-Colusa",
+                                 "score":  "43-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Springfield Christian",
+                                 "score":  "68-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Fisher",
+                                 "loser":  "Bismarck-Henning",
+                                 "score":  "50-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Madison",
+                                 "loser":  "Winchester",
+                                 "score":  "42-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           2
+                                       ],
+                                 "4":  [
+                                           8,
+                                           5
+                                       ],
+                                 "1":  [
+                                           4,
+                                           7
+                                       ],
+                                 "3":  [
+                                           3,
+                                           1
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Fisher"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           27
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Fisher",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Peoria St. Vincent de Paul",
+                                          "Ford Heights Cottage Grove UGC"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           37
+                                       ],
+                            "winner":  "Peoria St. Vincent de Paul",
+                            "loser":  "Ford Heights Cottage Grove UGC",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Streator Woodland"
+                                      ],
+                            "scores":  [
+                                           48,
+                                           40
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Streator Woodland",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Elmwood",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           42
+                                       ],
+                            "winner":  "Elmwood",
+                            "loser":  "Effingham St. Anthony",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Madison",
+                                          "Fisher"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           42
+                                       ],
+                            "winner":  "Fisher",
+                            "loser":  "Madison",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Peoria St. Vincent de Paul",
+                                          "Fisher"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           34
+                                       ],
+                            "winner":  "Peoria St. Vincent de Paul",
+                            "loser":  "Fisher",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Elmwood",
+                                          "Decatur Robertson"
+                                      ],
+                            "scores":  [
+                                           59,
+                                           44
+                                       ],
+                            "winner":  "Elmwood",
+                            "loser":  "Decatur Robertson",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Elmwood",
+                                          "Peoria St. Vincent de Paul"
+                                      ],
+                            "scores":  [
+                                           50,
+                                           35
+                                       ],
+                            "winner":  "Elmwood",
+                            "loser":  "Peoria St. Vincent de Paul",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=7-2A"
+                        }
+              }
+};

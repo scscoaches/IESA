@@ -1,0 +1,387 @@
+﻿window.tournamentData = {
+    "year":  2008,
+    "grade":  "8th",
+    "className":  "2A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Grant Park",
+                          "teams":  [
+                                        "Bourbonnais St. George",
+                                        "Grant Park",
+                                        "Chicago Hawthorne",
+                                        "Chicago Providence-St. Mel",
+                                        "Bridgeview Universal",
+                                        "Riverdale Patton"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Marseilles ES",
+                          "teams":  [
+                                        "Ottawa Wallace",
+                                        "Morris Saratoga",
+                                        "Gardner",
+                                        "Grand Ridge",
+                                        "Marseilles ES",
+                                        "Oglesby Washington"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Onarga Iroquois West",
+                          "teams":  [
+                                        "Hopkins Park Lorenzo Smith",
+                                        "Donovan",
+                                        "Onarga Iroquois West",
+                                        "Fisher",
+                                        "Piper City Tri-Point",
+                                        "Milford"
+                                    ],
+                          "assignedTeams":  [
+                                                "Donovan",
+                                                "Fisher",
+                                                "Hopkins Park Lorenzo Smith (Coed)",
+                                                "Milford",
+                                                "Onarga Iroquois West",
+                                                "Piper City Tri-Point"
+                                            ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Champaign St. Matthew",
+                          "teams":  [
+                                        "Chrisman Scottland",
+                                        "Champaign St. Matthew",
+                                        "Homer Heritage",
+                                        "Champaign Judah Christian",
+                                        "Urbana University",
+                                        "Champaign Holy Cross",
+                                        "Villa Grove"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Colfax Ridgeview",
+                          "teams":  [
+                                        "Normal Metcalf",
+                                        "Heyworth",
+                                        "Normal Epiphany",
+                                        "Lexington",
+                                        "Roanoke-Benson",
+                                        "Colfax Ridgeview"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Mason City Illini Central",
+                          "teams":  [
+                                        "Mason City Illini Central",
+                                        "Delavan",
+                                        "Peoria Hollis",
+                                        "Bartonville Oak Grove West",
+                                        "Marquette Heights Georgetowne",
+                                        "Lincoln Chester-East Lincoln",
+                                        "Spring Bay Riverview"
+                                    ],
+                          "assignedTeams":  [
+                                                "Bartonville Oak Grove West",
+                                                "Delavan (Coed)",
+                                                "Lincoln Chester-East Lincoln",
+                                                "Marquette Heights Georgetowne",
+                                                "Mason City Illini Central",
+                                                "Peoria Hollis (Coop)",
+                                                "Spring Bay Riverview"
+                                            ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Elmwood",
+                          "teams":  [
+                                        "Brimfield",
+                                        "Elmwood",
+                                        "Peoria Pleasant Valley",
+                                        "Princeville",
+                                        "Peoria Norwood",
+                                        "Peoria Heights GS"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Joy Westmer",
+                          "teams":  [
+                                        "Kewanee Wethersfield",
+                                        "Woodhull AlWood",
+                                        "Aledo",
+                                        "Joy Westmer"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Mt. Pulaski",
+                          "teams":  [
+                                        "Illiopolis Sangamon Valley",
+                                        "Cerro Gordo",
+                                        "Decatur Hope",
+                                        "Mt. Pulaski",
+                                        "Buffalo Tri-City",
+                                        "Decatur Lutheran"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Chandlerville A-C Central",
+                          "teams":  [
+                                        "Chandlerville A-C Central",
+                                        "Springfield Christ the King",
+                                        "Springfield Christian",
+                                        "Springfield St. Agnes",
+                                        "Springfield Blessed Sacrament",
+                                        "New Berlin JHS"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Table Grove VIT",
+                          "teams":  [
+                                        "Carthage",
+                                        "Table Grove VIT",
+                                        "Lewistown Central",
+                                        "La Harpe",
+                                        "Cuba",
+                                        "Colchester West Prairie",
+                                        "London Mills Valley"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Payson Seymour",
+                          "teams":  [
+                                        "Mt. Sterling Brown County",
+                                        "Payson Seymour",
+                                        "Mendon Unity",
+                                        "Liberty",
+                                        "Nauvoo-Colusa",
+                                        "Hamilton",
+                                        "Kinderhook Western"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Dieterich",
+                          "teams":  [
+                                        "St. Elmo",
+                                        "Effingham St. Anthony",
+                                        "Stewardson-Strasburg",
+                                        "Dieterich",
+                                        "Altamont",
+                                        "Findlay Okaw Valley",
+                                        "Oblong"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Kansas",
+                          "teams":  [
+                                        "Kansas",
+                                        "Arcola",
+                                        "Paris Crestwood",
+                                        "Neoga",
+                                        "Windsor",
+                                        "Atwood-Hammond"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Nokomis JHS",
+                          "teams":  [
+                                        "Nokomis JHS",
+                                        "Bunker Hill Meissner",
+                                        "Pawnee",
+                                        "Raymond Lincolnwood",
+                                        "Girard",
+                                        "Cowden-Herrick",
+                                        "Mt. Olive"
+                                    ],
+                          "assignedTeams":  [
+                                                "Bunker Hill Meissner",
+                                                "Cowden-Herrick",
+                                                "Girard",
+                                                "Mt. Olive",
+                                                "Nokomis JHS (Coop)",
+                                                "Pawnee",
+                                                "Raymond Lincolnwood (Coed)"
+                                            ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Carrollton GS",
+                          "teams":  [
+                                        "Winchester",
+                                        "Greenfield",
+                                        "Hardin Calhoun",
+                                        "Carrollton GS",
+                                        "Jerseyville St. Francis HG"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Morris Saratoga",
+                           "date":  ""
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Champaign St. Matthew",
+                           "date":  ""
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Roanoke-Benson",
+                           "date":  ""
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Elmwood",
+                           "date":  ""
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Mt. Pulaski",
+                           "date":  ""
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Carthage",
+                           "date":  ""
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Effingham St. Anthony",
+                           "date":  ""
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Pawnee",
+                           "date":  ""
+                       }
+                   ],
+    "venue":  "Monticello MS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              2,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              4,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              1,
+                                              3
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              6,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

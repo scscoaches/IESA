@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:30",
+    "year":  2018,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East St. Louis Clark",
+                                 "loser":  "Cahokia Wirth",
+                                 "score":  "41-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Markham Prairie-Hills",
+                                "loser":  "Maywood Irving",
+                                "score":  "48-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "Bolingbrook Jane Addams",
+                                "loser":  "Bolingbrook Humphrey",
+                                "score":  "40-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Urbana MS",
+                                 "loser":  "Charleston",
+                                 "score":  "57-48",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Macomb",
+                                 "loser":  "Washington Central",
+                                 "score":  "36-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Sterling Challand",
+                                "loser":  "Rockford RESA",
+                                "score":  "37-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Mokena",
+                                "loser":  "Frankfort Summit Hill",
+                                "score":  "49-41",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Forrest Prairie Central",
+                                 "loser":  "Mahomet-Seymour",
+                                 "score":  "26-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Algonquin Heineman",
+                                "loser":  "Sandwich",
+                                "score":  "47-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Kingsley",
+                                "loser":  "Morton JHS",
+                                "score":  "28-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Springfield Grant",
+                                 "loser":  "Springfield Washington",
+                                 "score":  "62-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "Matteson Colin Powell",
+                                "loser":  "University Park Crete Monee",
+                                "score":  "60-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Jacksonville MS",
+                                 "loser":  "Alton",
+                                 "score":  "56-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "Shorewood Troy",
+                                "loser":  "Joliet Hufford",
+                                "score":  "54-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "Flossmoor Parker",
+                                "loser":  "Homewood Hart",
+                                "score":  "58-48",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Mt. Zion",
+                                 "loser":  "Decatur Jefferson",
+                                 "score":  "44-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "East St. Louis Clark",
+                                               "record":  "14-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Markham Prairie-Hills",
+                                              "record":  "11-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Bolingbrook Jane Addams",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Urbana MS",
+                                               "record":  "17-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Macomb",
+                                               "record":  "17-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Sterling Challand",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Mokena",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Forrest Prairie Central",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Algonquin Heineman",
+                                              "record":  "16-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Kingsley",
+                                              "record":  "22-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Springfield Grant",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Matteson Colin Powell",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Jacksonville MS",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Shorewood Troy",
+                                              "record":  "22-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Flossmoor Parker",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Mt. Zion",
+                                               "record":  "11-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Springfield Grant",
+                                 "loser":  "Mt. Zion",
+                                 "score":  "62-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Bolingbrook Jane Addams",
+                                 "loser":  "Shorewood Troy",
+                                 "score":  "56-44",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Flossmoor Parker",
+                                 "loser":  "Markham Prairie-Hills",
+                                 "score":  "51-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Algonquin Heineman",
+                                 "loser":  "Sterling Challand",
+                                 "score":  "38-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Matteson Colin Powell",
+                                 "loser":  "Mokena",
+                                 "score":  "41-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Urbana MS",
+                                 "loser":  "Forrest Prairie Central",
+                                 "score":  "47-45",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Normal Kingsley",
+                                 "loser":  "Macomb",
+                                 "score":  "51-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "East St. Louis Clark",
+                                 "loser":  "Jacksonville MS",
+                                 "score":  "57-46",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           1
+                                       ],
+                                 "4":  [
+                                           2,
+                                           8
+                                       ],
+                                 "1":  [
+                                           5,
+                                           3
+                                       ],
+                                 "3":  [
+                                           4,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Algonquin Heineman",
+                                          "Flossmoor Parker"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           41
+                                       ],
+                            "winner":  "Flossmoor Parker",
+                            "loser":  "Algonquin Heineman",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Matteson Colin Powell",
+                                          "Springfield Grant"
+                                      ],
+                            "scores":  [
+                                           48,
+                                           51
+                                       ],
+                            "winner":  "Springfield Grant",
+                            "loser":  "Matteson Colin Powell",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Urbana MS",
+                                          "Algonquin Heineman"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           64
+                                       ],
+                            "winner":  "Algonquin Heineman",
+                            "loser":  "Urbana MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Normal Kingsley",
+                                          "Bolingbrook Jane Addams"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           46
+                                       ],
+                            "winner":  "Bolingbrook Jane Addams",
+                            "loser":  "Normal Kingsley",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Flossmoor Parker",
+                                          "East St. Louis Clark"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           42
+                                       ],
+                            "winner":  "Flossmoor Parker",
+                            "loser":  "East St. Louis Clark",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Springfield Grant",
+                                          "Flossmoor Parker"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           31
+                                       ],
+                            "winner":  "Springfield Grant",
+                            "loser":  "Flossmoor Parker",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Bolingbrook Jane Addams",
+                                          "Algonquin Heineman"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           26
+                                       ],
+                            "winner":  "Bolingbrook Jane Addams",
+                            "loser":  "Algonquin Heineman",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Bolingbrook Jane Addams",
+                                          "Springfield Grant"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           48
+                                       ],
+                            "winner":  "Springfield Grant",
+                            "loser":  "Bolingbrook Jane Addams",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-4A"
+                        }
+              }
+}

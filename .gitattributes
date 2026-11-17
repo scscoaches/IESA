@@ -31,3 +31,14 @@ girls/2026/regional-seeds-*.js   -merge
 girls/2026/nfhs-events.json      -merge
 girls/2026/hudl-events.json      -merge
 girls/2026/strength-*.json       -merge
+
+# The boys' live season (boys/<year>/, classes in boys/<year>/<class>/).
+boys/**/scores-*.json -merge
+boys/**/scores-*.js -merge
+boys/**/bracket-*.json -merge
+boys/**/bracket-*.js -merge
+boys/**/regional-seeds-*.json -merge
+boys/**/regional-seeds-*.js -merge
+boys/**/nfhs-events.json -merge
+boys/**/hudl-events.json -merge
+boys/**/strength-*.json -merge

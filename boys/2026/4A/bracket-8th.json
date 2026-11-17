@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:11",
+    "year":  2026,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "O\u0027Fallon Carriel",
+                                 "loser":  "East St. Louis Clark",
+                                 "score":  "43-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Downers Grove Herrick",
+                                "loser":  "Bellwood Roosevelt",
+                                "score":  "48-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Markham Prairie-Hills",
+                                "loser":  "Homewood Hart",
+                                "score":  "51-49",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Pekin Broadmoor",
+                                 "loser":  "Dunlap Valley MS",
+                                 "score":  "41-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Mahomet-Seymour",
+                                 "loser":  "Charleston",
+                                 "score":  "30-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Rockford Eisenhower",
+                                "loser":  "Rockford Flinn",
+                                "score":  "62-61",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "Minooka",
+                                "loser":  "Shorewood Troy",
+                                "score":  "55-39",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Normal Kingsley",
+                                 "loser":  "Bloomington JHS",
+                                 "score":  "45-44",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Lake Zurich North",
+                                "loser":  "Arlington Heights Thomas",
+                                "score":  "42-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "Park Forest Michelle Obama STA",
+                                "loser":  "Kankakee JHS",
+                                "score":  "49-46",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Springfield Lincoln",
+                                 "score":  "39-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "Homer Glen Homer",
+                                "loser":  "Lockport Oak Prairie",
+                                "score":  "33-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "St. Jacob Triad",
+                                 "loser":  "Highland MS",
+                                 "score":  "42-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "Matteson Colin Powell",
+                                "loser":  "Frankfort Summit Hill",
+                                "score":  "66-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Bolingbrook Brooks",
+                                "loser":  "Bolingbrook Jane Addams",
+                                "score":  "48-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Decatur Stephen Decatur",
+                                 "loser":  "Mt. Zion",
+                                 "score":  "62-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "O\u0027Fallon Carriel",
+                                               "record":  "24-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Downers Grove Herrick",
+                                              "record":  "13-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Markham Prairie-Hills",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Pekin Broadmoor",
+                                               "record":  "18-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Mahomet-Seymour",
+                                               "record":  "17-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Rockford Eisenhower",
+                                              "record":  "22-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Minooka",
+                                              "record":  "21-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Normal Kingsley",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lake Zurich North",
+                                              "record":  "23-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Park Forest Michelle Obama STA",
+                                              "record":  "19-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Quincy",
+                                               "record":  "17-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Homer Glen Homer",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "St. Jacob Triad",
+                                               "record":  "22-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Matteson Colin Powell",
+                                              "record":  "26-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Bolingbrook Brooks",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Decatur Stephen Decatur",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=8-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Decatur Stephen Decatur",
+                                 "score":  "42-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Matteson Colin Powell",
+                                 "loser":  "Markham Prairie-Hills",
+                                 "score":  "71-49",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Bolingbrook Brooks",
+                                 "loser":  "Downers Grove Herrick",
+                                 "score":  "54-49",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Rockford Eisenhower",
+                                 "loser":  "Lake Zurich North",
+                                 "score":  "45-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Minooka",
+                                 "loser":  "Homer Glen Homer",
+                                 "score":  "51-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Pekin Broadmoor",
+                                 "loser":  "Normal Kingsley",
+                                 "score":  "37-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Park Forest Michelle Obama STA",
+                                 "loser":  "Mahomet-Seymour",
+                                 "score":  "48-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-4A"
+                             },
+                       "8":  {
+                                 "winner":  "O\u0027Fallon Carriel",
+                                 "loser":  "St. Jacob Triad",
+                                 "score":  "58-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=8-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           3
+                                       ],
+                                 "4":  [
+                                           2,
+                                           4
+                                       ],
+                                 "1":  [
+                                           6,
+                                           8
+                                       ],
+                                 "3":  [
+                                           1,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "O\u0027Fallon Carriel",
+                                          "Quincy"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           21
+                                       ],
+                            "winner":  "O\u0027Fallon Carriel",
+                            "loser":  "Quincy",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Rockford Eisenhower",
+                                          "Quincy"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           51
+                                       ],
+                            "winner":  "Quincy",
+                            "loser":  "Rockford Eisenhower",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Park Forest Michelle Obama STA",
+                                          "Matteson Colin Powell"
+                                      ],
+                            "scores":  [
+                                           55,
+                                           59
+                                       ],
+                            "winner":  "Matteson Colin Powell",
+                            "loser":  "Park Forest Michelle Obama STA",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Pekin Broadmoor",
+                                          "O\u0027Fallon Carriel"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           41
+                                       ],
+                            "winner":  "O\u0027Fallon Carriel",
+                            "loser":  "Pekin Broadmoor",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Bolingbrook Brooks",
+                                          "Minooka"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           57
+                                       ],
+                            "winner":  "Minooka",
+                            "loser":  "Bolingbrook Brooks",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Quincy",
+                                          "Minooka"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           44
+                                       ],
+                            "winner":  "Minooka",
+                            "loser":  "Quincy",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "O\u0027Fallon Carriel",
+                                          "Matteson Colin Powell"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           48
+                                       ],
+                            "winner":  "Matteson Colin Powell",
+                            "loser":  "O\u0027Fallon Carriel",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Matteson Colin Powell",
+                                          "Minooka"
+                                      ],
+                            "scores":  [
+                                           64,
+                                           45
+                                       ],
+                            "winner":  "Matteson Colin Powell",
+                            "loser":  "Minooka",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=8-4A"
+                        }
+              }
+}

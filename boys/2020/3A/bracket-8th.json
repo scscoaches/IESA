@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:24",
+    "year":  2020,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Staunton",
+                                 "loser":  "Roxana",
+                                 "score":  "43-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                             },
+                      "3":  {
+                                "winner":  "South Holland McKinley",
+                                "loser":  "Beecher",
+                                "score":  "63-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                            },
+                      "5":  {
+                                "winner":  "Eureka",
+                                "loser":  "Metamora GS",
+                                "score":  "52-46",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Auburn JHS at Divernon",
+                                 "loser":  "Camp Point Central",
+                                 "score":  "36-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Monticello",
+                                 "loser":  "Tolono Unity",
+                                 "score":  "43-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                             },
+                      "2":  {
+                                "winner":  "Chicago Frances Xavier Warde",
+                                "loser":  "Winfield Wheaton Christian",
+                                "score":  "44-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                            },
+                      "8":  {
+                                "winner":  "Taylor Ridge Rockridge",
+                                "loser":  "Joy Mercer County",
+                                "score":  "37-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Lincoln JHS",
+                                 "loser":  "Athens",
+                                 "score":  "40-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                             },
+                      "1":  {
+                                "winner":  "Lansing Heritage",
+                                "loser":  "Calumet City Wentworth",
+                                "score":  "52-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                            },
+                      "9":  {
+                                "winner":  "St. Joseph",
+                                "loser":  "Hoopeston Area",
+                                "score":  "51-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Lawrenceville Parkview",
+                                 "score":  "46-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                             },
+                      "7":  {
+                                "winner":  "Glasford Illini Bluffs",
+                                "loser":  "Chillicothe",
+                                "score":  "52-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Litchfield",
+                                 "loser":  "Greenville",
+                                 "score":  "38-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                             },
+                      "6":  {
+                                "winner":  "Washington Central",
+                                "loser":  "Germantown Hills",
+                                "score":  "37-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                            },
+                      "4":  {
+                                "winner":  "Morris Saratoga",
+                                "loser":  "Morris GS",
+                                "score":  "49-43",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Shelbyville Moulton",
+                                 "loser":  "Tuscola East Prairie",
+                                 "score":  "34-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Staunton",
+                                               "record":  "15-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "South Holland McKinley",
+                                              "record":  "16-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Eureka",
+                                              "record":  "18-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Auburn JHS at Divernon",
+                                               "record":  "20-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Monticello",
+                                               "record":  "18-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Chicago Frances Xavier Warde",
+                                              "record":  "15-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Taylor Ridge Rockridge",
+                                              "record":  "18-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Lincoln JHS",
+                                               "record":  "19-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lansing Heritage",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "St. Joseph",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "22-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Glasford Illini Bluffs",
+                                              "record":  "23-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Litchfield",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Washington Central",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Morris Saratoga",
+                                              "record":  "20-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Shelbyville Moulton",
+                                               "record":  "20-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Shelbyville Moulton",
+                                 "score":  "47-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Washington Central",
+                                 "loser":  "Eureka",
+                                 "score":  "40-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-3A"
+                             },
+                       "2":  {
+                                 "winner":  "South Holland McKinley",
+                                 "loser":  "Morris Saratoga",
+                                 "score":  "41-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Lansing Heritage",
+                                 "loser":  "Chicago Frances Xavier Warde",
+                                 "score":  "61-49",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Taylor Ridge Rockridge",
+                                 "loser":  "Glasford Illini Bluffs",
+                                 "score":  "48-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Lincoln JHS",
+                                 "loser":  "Auburn JHS at Divernon",
+                                 "score":  "36-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Monticello",
+                                 "loser":  "St. Joseph",
+                                 "score":  "39-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Staunton",
+                                 "loser":  "Litchfield",
+                                 "score":  "27-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           1,
+                                           7
+                                       ],
+                                 "4":  [
+                                           4,
+                                           8
+                                       ],
+                                 "1":  [
+                                           3,
+                                           2
+                                       ],
+                                 "3":  [
+                                           5,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Monticello"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           31
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Monticello",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Monticello",
+                                          "Lincoln JHS"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           33
+                                       ],
+                            "winner":  "Monticello",
+                            "loser":  "Lincoln JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Lansing Heritage",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           35
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Lansing Heritage",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Washington Central",
+                                          "South Holland McKinley"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           47
+                                       ],
+                            "winner":  "South Holland McKinley",
+                            "loser":  "Washington Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Taylor Ridge Rockridge",
+                                          "Staunton"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           11
+                                       ],
+                            "winner":  "Taylor Ridge Rockridge",
+                            "loser":  "Staunton",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Monticello",
+                                          "Taylor Ridge Rockridge"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           47
+                                       ],
+                            "winner":  "Taylor Ridge Rockridge",
+                            "loser":  "Monticello",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "South Holland McKinley",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           27
+                                       ],
+                            "winner":  "South Holland McKinley",
+                            "loser":  "Teutopolis",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "South Holland McKinley",
+                                          "Taylor Ridge Rockridge"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           40
+                                       ],
+                            "winner":  "Taylor Ridge Rockridge",
+                            "loser":  "South Holland McKinley",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-3A"
+                        }
+              }
+}

@@ -1,0 +1,138 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:03",
+    "year":  2027,
+    "grade":  "8th",
+    "regionals":  {
+
+                  },
+    "sectionalPairingRecords":  {
+
+                                },
+    "sectionals":  {
+
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           1,
+                                           7
+                                       ],
+                                 "4":  [
+                                           5,
+                                           4
+                                       ],
+                                 "1":  [
+                                           2,
+                                           8
+                                       ],
+                                 "3":  [
+                                           3,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=8-2A"
+                        }
+              }
+}

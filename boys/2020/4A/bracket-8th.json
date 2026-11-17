@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:25",
+    "year":  2020,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East St. Louis Lincoln",
+                                 "loser":  "Edwardsville Lincoln",
+                                 "score":  "50-47",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Lemont Old Quarry",
+                                "loser":  "Woodridge Jefferson",
+                                "score":  "42-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Lansing Memorial",
+                                "loser":  "Phoenix Coolidge",
+                                "score":  "50-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Macomb",
+                                 "loser":  "Pekin Broadmoor",
+                                 "score":  "40-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Champaign Edison",
+                                 "loser":  "Danville North Ridge",
+                                 "score":  "69-66",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Rockford Eisenhower",
+                                "loser":  "Rockford RESA",
+                                "score":  "47-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "Shorewood Troy",
+                                "loser":  "Joliet Hufford",
+                                "score":  "48-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Normal Kingsley",
+                                 "loser":  "Morton JHS",
+                                 "score":  "58-44",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Lake in the Hills Marlowe",
+                                "loser":  "Batavia Rotolo",
+                                "score":  "35-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "Kankakee JHS",
+                                "loser":  "Bourbonnais UGC",
+                                "score":  "47-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Springfield Lincoln",
+                                 "score":  "64-57",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "New Lenox Liberty",
+                                "loser":  "Frankfort Hickory Creek",
+                                "score":  "35-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Jacksonville MS",
+                                 "score":  "47-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "Markham Prairie-Hills",
+                                "loser":  "Flossmoor Parker",
+                                "score":  "38-36",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Yorkville",
+                                "loser":  "Bolingbrook Brooks",
+                                "score":  "54-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Mt. Zion",
+                                 "loser":  "Charleston",
+                                 "score":  "47-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "East St. Louis Lincoln",
+                                               "record":  "24-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Lemont Old Quarry",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Lansing Memorial",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Macomb",
+                                               "record":  "19-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Champaign Edison",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Rockford Eisenhower",
+                                              "record":  "22-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Shorewood Troy",
+                                              "record":  "21-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Normal Kingsley",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lake in the Hills Marlowe",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Kankakee JHS",
+                                              "record":  "19-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Rochester",
+                                               "record":  "16-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "New Lenox Liberty",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Quincy",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Markham Prairie-Hills",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Yorkville",
+                                              "record":  "22-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Mt. Zion",
+                                               "record":  "13-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2020\u0026Class=8-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Mt. Zion",
+                                 "loser":  "Rochester",
+                                 "score":  "53-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Markham Prairie-Hills",
+                                 "loser":  "Lansing Memorial",
+                                 "score":  "41-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Lemont Old Quarry",
+                                 "loser":  "Yorkville",
+                                 "score":  "54-45",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Rockford Eisenhower",
+                                 "loser":  "Lake in the Hills Marlowe",
+                                 "score":  "44-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Shorewood Troy",
+                                 "loser":  "New Lenox Liberty",
+                                 "score":  "50-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Normal Kingsley",
+                                 "loser":  "Macomb",
+                                 "score":  "58-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Champaign Edison",
+                                 "loser":  "Kankakee JHS",
+                                 "score":  "55-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-4A"
+                             },
+                       "8":  {
+                                 "winner":  "East St. Louis Lincoln",
+                                 "loser":  "Quincy",
+                                 "score":  "29-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2020\u0026Class=8-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           8
+                                       ],
+                                 "4":  [
+                                           5,
+                                           7
+                                       ],
+                                 "1":  [
+                                           4,
+                                           2
+                                       ],
+                                 "3":  [
+                                           3,
+                                           1
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Shorewood Troy",
+                                          "Champaign Edison"
+                                      ],
+                            "scores":  [
+                                           48,
+                                           52
+                                       ],
+                            "winner":  "Champaign Edison",
+                            "loser":  "Shorewood Troy",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Markham Prairie-Hills",
+                                          "Rockford Eisenhower"
+                                      ],
+                            "scores":  [
+                                           61,
+                                           28
+                                       ],
+                            "winner":  "Markham Prairie-Hills",
+                            "loser":  "Rockford Eisenhower",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Normal Kingsley",
+                                          "East St. Louis Lincoln"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           39
+                                       ],
+                            "winner":  "East St. Louis Lincoln",
+                            "loser":  "Normal Kingsley",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Shorewood Troy",
+                                          "Lemont Old Quarry"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           38
+                                       ],
+                            "winner":  "Shorewood Troy",
+                            "loser":  "Lemont Old Quarry",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Champaign Edison",
+                                          "Mt. Zion"
+                                      ],
+                            "scores":  [
+                                           53,
+                                           36
+                                       ],
+                            "winner":  "Champaign Edison",
+                            "loser":  "Mt. Zion",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Markham Prairie-Hills",
+                                          "Champaign Edison"
+                                      ],
+                            "scores":  [
+                                           60,
+                                           33
+                                       ],
+                            "winner":  "Markham Prairie-Hills",
+                            "loser":  "Champaign Edison",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Shorewood Troy",
+                                          "East St. Louis Lincoln"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           54
+                                       ],
+                            "winner":  "East St. Louis Lincoln",
+                            "loser":  "Shorewood Troy",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "East St. Louis Lincoln",
+                                          "Markham Prairie-Hills"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           61
+                                       ],
+                            "winner":  "Markham Prairie-Hills",
+                            "loser":  "East St. Louis Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2020\u0026Class=8-4A"
+                        }
+              }
+}

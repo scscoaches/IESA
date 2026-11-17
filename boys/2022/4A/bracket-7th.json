@@ -1,0 +1,354 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:21",
+    "year":  2022,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Cahokia Wirth",
+                                 "loser":  "East St. Louis Clark",
+                                 "score":  "57-47",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Arlington Heights Thomas",
+                                "loser":  "Maywood Irving",
+                                "score":  "34-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "Phoenix Coolidge",
+                                "loser":  "Flossmoor Parker",
+                                "score":  "43-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "East Peoria Central",
+                                 "loser":  "Dunlap Valley MS",
+                                 "score":  "52-44",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Ottawa Shepherd",
+                                 "loser":  "Minooka",
+                                 "score":  "39-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Rockford Eisenhower",
+                                "loser":  "Rockford Flinn",
+                                "score":  "48-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Lemont Old Quarry",
+                                "loser":  "Lockport Oak Prairie",
+                                "score":  "45-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Morton JHS",
+                                 "loser":  "Bloomington JHS",
+                                 "score":  "35-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Barrington Station",
+                                "loser":  "Algonquin Heineman",
+                                "score":  "45-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Shorewood Troy",
+                                "loser":  "Joliet Hufford",
+                                "score":  "47-43",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Mt. Zion",
+                                 "score":  "37-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "Markham Prairie-Hills",
+                                "loser":  "Mokena",
+                                "score":  "36-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Springfield Grant",
+                                 "loser":  "Quincy",
+                                 "score":  "54-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "Kankakee JHS",
+                                "loser":  "Park Forest Michelle Obama STA",
+                                "score":  "43-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "Bolingbrook Brooks",
+                                "loser":  "Bolingbrook Jane Addams",
+                                "score":  "60-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Champaign Jefferson",
+                                 "loser":  "Rantoul Eater",
+                                 "score":  "48-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Cahokia Wirth",
+                                               "record":  "14-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Arlington Heights Thomas",
+                                              "record":  "15-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Phoenix Coolidge",
+                                              "record":  "15-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "East Peoria Central",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Ottawa Shepherd",
+                                               "record":  "19-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Rockford Eisenhower",
+                                              "record":  "15-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Lemont Old Quarry",
+                                              "record":  "16-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Morton JHS",
+                                               "record":  "20-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Barrington Station",
+                                              "record":  "19-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Shorewood Troy",
+                                              "record":  "14-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Rochester",
+                                               "record":  "22-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                           },
+                                    "15":  {
+                                               "team":  "Springfield Grant",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Kankakee JHS",
+                                              "record":  "10-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Bolingbrook Brooks",
+                                              "record":  "13-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Champaign Jefferson",
+                                               "record":  "15-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=7-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Champaign Jefferson",
+                                 "score":  "49-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Phoenix Coolidge",
+                                 "loser":  "Kankakee JHS",
+                                 "score":  "34-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Bolingbrook Brooks",
+                                 "loser":  "Arlington Heights Thomas",
+                                 "score":  "54-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Rockford Eisenhower",
+                                 "loser":  "Barrington Station",
+                                 "score":  "49-45",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Lemont Old Quarry",
+                                 "loser":  "Markham Prairie-Hills",
+                                 "score":  "33-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "East Peoria Central",
+                                 "loser":  "Morton JHS",
+                                 "score":  "41-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Ottawa Shepherd",
+                                 "loser":  "Shorewood Troy",
+                                 "score":  "41-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Springfield Grant",
+                                 "loser":  "Cahokia Wirth",
+                                 "score":  "45-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           4,
+                                           8
+                                       ],
+                                 "4":  [
+                                           3,
+                                           2
+                                       ],
+                                 "1":  [
+                                           6,
+                                           5
+                                       ],
+                                 "3":  [
+                                           7,
+                                           1
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Springfield Grant",
+                                          "Rockford Eisenhower"
+                                      ],
+                            "scores":  [
+                                           50,
+                                           32
+                                       ],
+                            "winner":  "Springfield Grant",
+                            "loser":  "Rockford Eisenhower",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Rochester",
+                                          "Rockford Eisenhower"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           40
+                                       ],
+                            "winner":  "Rockford Eisenhower",
+                            "loser":  "Rochester",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Lemont Old Quarry",
+                                          "Springfield Grant"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           49
+                                       ],
+                            "winner":  "Springfield Grant",
+                            "loser":  "Lemont Old Quarry",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "East Peoria Central",
+                                          "Ottawa Shepherd"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           25
+                                       ],
+                            "winner":  "East Peoria Central",
+                            "loser":  "Ottawa Shepherd",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Phoenix Coolidge",
+                                          "Bolingbrook Brooks"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           63
+                                       ],
+                            "winner":  "Bolingbrook Brooks",
+                            "loser":  "Phoenix Coolidge",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Rockford Eisenhower",
+                                          "Bolingbrook Brooks"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           57
+                                       ],
+                            "winner":  "Bolingbrook Brooks",
+                            "loser":  "Rockford Eisenhower",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "East Peoria Central",
+                                          "Springfield Grant"
+                                      ],
+                            "scores":  [
+                                           57,
+                                           56
+                                       ],
+                            "winner":  "East Peoria Central",
+                            "loser":  "Springfield Grant",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "East Peoria Central",
+                                          "Bolingbrook Brooks"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           60
+                                       ],
+                            "winner":  "Bolingbrook Brooks",
+                            "loser":  "East Peoria Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=7-4A"
+                        }
+              }
+}

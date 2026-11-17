@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:15",
+    "year":  2024,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Findlay Okaw Valley",
+                                 "score":  "48-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "Mendota Holy Cross",
+                                "loser":  "Peru Catholic",
+                                "score":  "57-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Annawan",
+                                "loser":  "Kewanee Visitation",
+                                "score":  "31-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Royal Prairieview Ogden",
+                                 "loser":  "Champaign Next Generation",
+                                 "score":  "42-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Lincoln Chester-East Lincoln",
+                                 "loser":  "Lincoln West Lincoln-Broadwell",
+                                 "score":  "37-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ottawa Marquette",
+                                "loser":  "Mazon-Verona-Kinsman",
+                                "score":  "38-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Lexington",
+                                "score":  "38-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Hume Shiloh",
+                                 "loser":  "Homer Heritage",
+                                 "score":  "32-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Crete Illinois Lutheran",
+                                "loser":  "St. Anne",
+                                "score":  "37-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Epiphany",
+                                "loser":  "Delavan",
+                                "score":  "31-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Kinderhook Western",
+                                 "loser":  "Godfrey St. Ambrose",
+                                 "score":  "37-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Gifford",
+                                "loser":  "Milford",
+                                "score":  "37-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Mattoon St. John\u0027s",
+                                 "loser":  "Newton St. Thomas",
+                                 "score":  "47-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria St. Jude",
+                                "loser":  "Peoria Heights St. Thomas",
+                                "score":  "31-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Streator Woodland",
+                                "loser":  "Washington St. Patrick",
+                                "score":  "47-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Griggsville-Perry",
+                                 "loser":  "Augusta Southeastern",
+                                 "score":  "39-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Pana Sacred Heart",
+                                               "record":  "22-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Mendota Holy Cross",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Annawan",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Royal Prairieview Ogden",
+                                               "record":  "23-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Lincoln Chester-East Lincoln",
+                                               "record":  "15-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ottawa Marquette",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Pontiac St. Mary\u0027s",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Hume Shiloh",
+                                               "record":  "15-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Crete Illinois Lutheran",
+                                              "record":  "12-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Epiphany",
+                                              "record":  "15-12",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Kinderhook Western",
+                                               "record":  "15-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Gifford",
+                                              "record":  "13-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Mattoon St. John\u0027s",
+                                               "record":  "16-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Peoria St. Jude",
+                                              "record":  "18-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Streator Woodland",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Griggsville-Perry",
+                                               "record":  "17-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Griggsville-Perry",
+                                 "loser":  "Kinderhook Western",
+                                 "score":  "33-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria St. Jude",
+                                 "loser":  "Annawan",
+                                 "score":  "31-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Mendota Holy Cross",
+                                 "loser":  "Streator Woodland",
+                                 "score":  "49-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Ottawa Marquette",
+                                 "loser":  "Crete Illinois Lutheran",
+                                 "score":  "48-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Pontiac St. Mary\u0027s",
+                                 "loser":  "Gifford",
+                                 "score":  "38-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Royal Prairieview Ogden",
+                                 "loser":  "Hume Shiloh",
+                                 "score":  "49-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Lincoln Chester-East Lincoln",
+                                 "loser":  "Normal Epiphany",
+                                 "score":  "28-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Mattoon St. John\u0027s",
+                                 "score":  "61-46",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           2,
+                                           7
+                                       ],
+                                 "4":  [
+                                           8,
+                                           1
+                                       ],
+                                 "1":  [
+                                           5,
+                                           4
+                                       ],
+                                 "3":  [
+                                           3,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Lincoln Chester-East Lincoln",
+                                          "Peoria St. Jude"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           38
+                                       ],
+                            "winner":  "Peoria St. Jude",
+                            "loser":  "Lincoln Chester-East Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Peoria St. Jude",
+                                          "Royal Prairieview Ogden"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           29
+                                       ],
+                            "winner":  "Peoria St. Jude",
+                            "loser":  "Royal Prairieview Ogden",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Mendota Holy Cross",
+                                          "Griggsville-Perry"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           29
+                                       ],
+                            "winner":  "Mendota Holy Cross",
+                            "loser":  "Griggsville-Perry",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Lincoln Chester-East Lincoln",
+                                          "Pontiac St. Mary\u0027s"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           30
+                                       ],
+                            "winner":  "Lincoln Chester-East Lincoln",
+                            "loser":  "Pontiac St. Mary\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Pana Sacred Heart",
+                                          "Ottawa Marquette"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           28
+                                       ],
+                            "winner":  "Pana Sacred Heart",
+                            "loser":  "Ottawa Marquette",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Peoria St. Jude",
+                                          "Pana Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           44
+                                       ],
+                            "winner":  "Pana Sacred Heart",
+                            "loser":  "Peoria St. Jude",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Lincoln Chester-East Lincoln",
+                                          "Mendota Holy Cross"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           39
+                                       ],
+                            "winner":  "Mendota Holy Cross",
+                            "loser":  "Lincoln Chester-East Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Mendota Holy Cross",
+                                          "Pana Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           33
+                                       ],
+                            "winner":  "Mendota Holy Cross",
+                            "loser":  "Pana Sacred Heart",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-1A"
+                        }
+              }
+};

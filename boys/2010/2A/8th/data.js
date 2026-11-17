@@ -1,0 +1,421 @@
+﻿window.tournamentData = {
+    "year":  2010,
+    "grade":  "8th",
+    "className":  "2A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Bourbonnais St. George",
+                          "teams":  [
+                                        "Bourbonnais St. George",
+                                        "Ford Heights Cottage Grove UGC",
+                                        "Kankakee Aquinas",
+                                        "Grant Park",
+                                        "Elwood GS",
+                                        "Riverdale Patton",
+                                        "Bridgeview Universal"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Onarga Iroquois West",
+                          "teams":  [
+                                        "Herscher JHS",
+                                        "Milford",
+                                        "Onarga Iroquois West",
+                                        "St. Anne",
+                                        "Piper City Tri-Point",
+                                        "Donovan"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Seneca",
+                          "teams":  [
+                                        "Seneca",
+                                        "Henry-Senachwine",
+                                        "Oglesby Washington",
+                                        "Grand Ridge",
+                                        "Spring Valley Kennedy",
+                                        "Ottawa Wallace",
+                                        "Marseilles ES",
+                                        "Lockport Taft"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Brimfield",
+                          "teams":  [
+                                        "Elmwood",
+                                        "Brimfield",
+                                        "Sparland Midland",
+                                        "Abingdon",
+                                        "Kewanee Wethersfield",
+                                        "Princeville",
+                                        "Woodhull AlWood"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Paris Crestwood",
+                          "teams":  [
+                                        "Paris Crestwood",
+                                        "Catlin",
+                                        "Villa Grove",
+                                        "Homer Heritage",
+                                        "Urbana University"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Champaign St. Matthew",
+                          "teams":  [
+                                        "Champaign Holy Cross",
+                                        "Colfax Ridgeview",
+                                        "Champaign St. Matthew",
+                                        "Champaign Judah Christian",
+                                        "Fisher",
+                                        "Lexington"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Bloomington Holy Trinity",
+                          "teams":  [
+                                        "Normal Epiphany",
+                                        "Normal Metcalf",
+                                        "Bloomington Holy Trinity",
+                                        "Peoria Heights GS",
+                                        "Peoria St. Vincent de Paul",
+                                        "Peoria Heights St. Thomas",
+                                        "Roanoke-Benson"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Marquette Heights Georgetowne",
+                          "teams":  [
+                                        "Bartonville Monroe",
+                                        "Peoria St. Philomena",
+                                        "Peoria Norwood",
+                                        "Peoria Hollis",
+                                        "Peoria Pleasant Valley",
+                                        "Bartonville Oak Grove West",
+                                        "Marquette Heights Georgetowne"
+                                    ],
+                          "assignedTeams":  [
+                                                "Bartonville Monroe",
+                                                "Bartonville Oak Grove West",
+                                                "Marquette Heights Georgetowne (Coed)",
+                                                "Peoria Hollis (Coop)",
+                                                "Peoria Norwood",
+                                                "Peoria Pleasant Valley",
+                                                "Peoria St. Philomena"
+                                            ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "St. Elmo",
+                          "teams":  [
+                                        "Effingham St. Anthony",
+                                        "Altamont",
+                                        "Beecher City",
+                                        "St. Elmo",
+                                        "Oblong"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Arcola",
+                          "teams":  [
+                                        "Arthur",
+                                        "Arcola",
+                                        "Neoga",
+                                        "Stewardson-Strasburg",
+                                        "Atwood-Hammond",
+                                        "Findlay Okaw Valley"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Mt. Pulaski",
+                          "teams":  [
+                                        "Delavan",
+                                        "Decatur Lutheran",
+                                        "Decatur Johns Hill",
+                                        "Cerro Gordo",
+                                        "Mt. Pulaski",
+                                        "Illiopolis Sangamon Valley",
+                                        "Buffalo Tri-City"
+                                    ],
+                          "assignedTeams":  [
+                                                "Buffalo Tri-City",
+                                                "Cerro Gordo",
+                                                "Decatur Johns Hill",
+                                                "Decatur Lutheran",
+                                                "Delavan (Coed)",
+                                                "Illiopolis Sangamon Valley",
+                                                "Mt. Pulaski"
+                                            ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Pawnee",
+                          "teams":  [
+                                        "Virginia",
+                                        "Springfield Christ the King",
+                                        "Springfield Blessed Sacrament",
+                                        "Springfield St. Agnes",
+                                        "Pawnee",
+                                        "New Berlin JHS"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "La Harpe",
+                          "teams":  [
+                                        "Lewistown Central",
+                                        "Table Grove VIT",
+                                        "La Harpe",
+                                        "Mt. Sterling Brown County",
+                                        "Colchester West Prairie",
+                                        "Cuba"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Nauvoo-Colusa",
+                          "teams":  [
+                                        "Liberty",
+                                        "Payson Seymour",
+                                        "Mendon Unity",
+                                        "Carthage",
+                                        "Nauvoo-Colusa",
+                                        "Kinderhook Western",
+                                        "Hamilton"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Mt. Olive",
+                          "teams":  [
+                                        "Bunker Hill Wolf Ridge",
+                                        "Raymond Lincolnwood",
+                                        "Nokomis JHS",
+                                        "Girard",
+                                        "Mt. Olive",
+                                        "Ramsey"
+                                    ],
+                          "assignedTeams":  [
+                                                "Bunker Hill Wolf Ridge",
+                                                "Girard",
+                                                "Mt. Olive",
+                                                "Nokomis JHS (Coop)",
+                                                "Ramsey",
+                                                "Raymond Lincolnwood (Coed)"
+                                            ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Jerseyville St. Francis HG",
+                          "teams":  [
+                                        "Greenfield",
+                                        "Roodhouse North Greene",
+                                        "Jerseyville St. Francis HG",
+                                        "Carrollton GS",
+                                        "Winchester",
+                                        "Hardin Calhoun"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Bourbonnais St. George",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "1":  "17-4",
+                                           "2":  "6-13"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Seneca",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "3":  "21-2",
+                                           "4":  "14-9"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Paris Crestwood",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "5":  "16-5",
+                                           "6":  "17-4"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Bloomington Holy Trinity",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "7":  "22-1",
+                                           "8":  "21-1"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Effingham St. Anthony",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "9":  "16-7",
+                                           "10":  "16-5"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Mt. Pulaski",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "11":  "20-3",
+                                           "12":  "18-5"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Carthage",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "13":  "13-7",
+                                           "14":  "20-3"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Jerseyville St. Francis HG",
+                           "date":  "Wednesday, February 10, 2010",
+                           "records":  {
+                                           "15":  "17-7"
+                                       }
+                       }
+                   ],
+    "venue":  "Wenona Fieldcrest",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              7,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              8,
+                                              3
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              1,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              4,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

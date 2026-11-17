@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:47",
+    "year":  2011,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Griggsville-Perry",
+                                 "loser":  "Meredosia-Chambersburg",
+                                 "score":  "48-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Bourbonnais Maternity BVM",
+                                "loser":  "Bradley St. Joseph",
+                                "score":  "48-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Flanagan",
+                                "loser":  "Saunemin",
+                                "score":  "43-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Dieterich",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "29-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Bloomington Cornerstone",
+                                 "score":  "37-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ottawa Marquette",
+                                "loser":  "Ransom",
+                                "score":  "56-36",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Monmouth ICS",
+                                "loser":  "Peoria Limestone Walters",
+                                "score":  "32-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Palestine",
+                                 "loser":  "Chrisman Scottland",
+                                 "score":  "32-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Joliet Laraway",
+                                "loser":  "Lockport Taft",
+                                "score":  "54-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur Hope",
+                                "loser":  "Decatur Robertson",
+                                "score":  "44-40",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "East St. Louis Jackson",
+                                 "loser":  "Lovejoy",
+                                 "score":  "41-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Pekin Rankin",
+                                "loser":  "Washington St. Patrick",
+                                "score":  "28-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Waverly",
+                                 "loser":  "Springfield Christian",
+                                 "score":  "29-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Tonica",
+                                "loser":  "LaSalle Trinity Catholic",
+                                "score":  "28-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "Rantoul St. Malachy",
+                                "loser":  "Gifford",
+                                "score":  "37-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Edinburg",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "36-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Griggsville-Perry",
+                                               "record":  "7-13",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Bourbonnais Maternity BVM",
+                                              "record":  "14-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Flanagan",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Dieterich",
+                                               "record":  "15-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Lincoln West Lincoln-Broadwell",
+                                               "record":  "11-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ottawa Marquette",
+                                              "record":  "20-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Monmouth ICS",
+                                              "record":  "17-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Palestine",
+                                               "record":  "12-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Joliet Laraway",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Decatur Hope",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "East St. Louis Jackson",
+                                               "record":  "10-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Pekin Rankin",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Waverly",
+                                               "record":  "14-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Tonica",
+                                              "record":  "16-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Rantoul St. Malachy",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Edinburg",
+                                               "record":  "13-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=7-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "East St. Louis Jackson",
+                                 "loser":  "Edinburg",
+                                 "score":  "57-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Flanagan",
+                                 "loser":  "Tonica",
+                                 "score":  "45-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Bourbonnais Maternity BVM",
+                                 "loser":  "Rantoul St. Malachy",
+                                 "score":  "44-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Ottawa Marquette",
+                                 "loser":  "Joliet Laraway",
+                                 "score":  "40-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Monmouth ICS",
+                                 "loser":  "Pekin Rankin",
+                                 "score":  "38-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Dieterich",
+                                 "loser":  "Palestine",
+                                 "score":  "44-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Decatur Hope",
+                                 "loser":  "Lincoln West Lincoln-Broadwell",
+                                 "score":  "39-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Griggsville-Perry",
+                                 "loser":  "Waverly",
+                                 "score":  "28-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           4
+                                       ],
+                                 "4":  [
+                                           2,
+                                           6
+                                       ],
+                                 "1":  [
+                                           1,
+                                           7
+                                       ],
+                                 "3":  [
+                                           8,
+                                           3
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Decatur Hope",
+                                          "Dieterich"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           37
+                                       ],
+                            "winner":  "Dieterich",
+                            "loser":  "Decatur Hope",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Griggsville-Perry",
+                                          "Flanagan"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           61
+                                       ],
+                            "winner":  "Flanagan",
+                            "loser":  "Griggsville-Perry",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Decatur Hope",
+                                          "Monmouth ICS"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           31
+                                       ],
+                            "winner":  "Decatur Hope",
+                            "loser":  "Monmouth ICS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Ottawa Marquette",
+                                          "East St. Louis Jackson"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           25
+                                       ],
+                            "winner":  "Ottawa Marquette",
+                            "loser":  "East St. Louis Jackson",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Bourbonnais Maternity BVM",
+                                          "Dieterich"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           45
+                                       ],
+                            "winner":  "Dieterich",
+                            "loser":  "Bourbonnais Maternity BVM",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Flanagan",
+                                          "Dieterich"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           32
+                                       ],
+                            "winner":  "Flanagan",
+                            "loser":  "Dieterich",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Ottawa Marquette",
+                                          "Decatur Hope"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           34
+                                       ],
+                            "winner":  "Ottawa Marquette",
+                            "loser":  "Decatur Hope",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Ottawa Marquette",
+                                          "Flanagan"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           34
+                                       ],
+                            "winner":  "Ottawa Marquette",
+                            "loser":  "Flanagan",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=7-1A"
+                        }
+              }
+}

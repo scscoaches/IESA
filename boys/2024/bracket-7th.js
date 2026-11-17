@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:14",
+    "year":  2024,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Hardin Calhoun",
+                                 "loser":  "Winchester",
+                                 "score":  "23-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "Gardner",
+                                "loser":  "Seneca",
+                                "score":  "13-12",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Peoria St. Vincent de Paul",
+                                "loser":  "Mossville",
+                                "score":  "48-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Camp Point Central",
+                                 "loser":  "Mendon Unity",
+                                 "score":  "31-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Green Valley Midwest Central",
+                                 "loser":  "Creve Coeur Parkview",
+                                 "score":  "34-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Hazel Crest Jesse White",
+                                "loser":  "Watseka JHS",
+                                "score":  "38-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Bloomington Corpus Christi",
+                                "loser":  "Normal Metcalf",
+                                "score":  "45-43",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Colchester West Prairie",
+                                 "loser":  "Stronghurst West Central",
+                                 "score":  "28-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Burr Ridge MS",
+                                "loser":  "Riverdale Washington",
+                                "score":  "30-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur Our Lady of Lourdes",
+                                "loser":  "Decatur Montessori Academy for Peace",
+                                "score":  "57-40",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Cowden-Herrick",
+                                 "score":  "43-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Sidell Salt Fork",
+                                "loser":  "Bismarck-Henning",
+                                "score":  "34-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Waverly",
+                                 "loser":  "Springfield Blessed Sacrament",
+                                 "score":  "35-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Brimfield",
+                                "loser":  "Princeville",
+                                "score":  "62-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "Oglesby Washington",
+                                "loser":  "Wenona Fieldcrest",
+                                "score":  "31-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Louisville North Clay",
+                                 "score":  "50-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Hardin Calhoun",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Gardner",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Peoria St. Vincent de Paul",
+                                              "record":  "16-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Camp Point Central",
+                                               "record":  "14-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Green Valley Midwest Central",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Hazel Crest Jesse White",
+                                              "record":  "9-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Bloomington Corpus Christi",
+                                              "record":  "17-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Colchester West Prairie",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Burr Ridge MS",
+                                              "record":  "11-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Decatur Our Lady of Lourdes",
+                                              "record":  "24-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "23-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Sidell Salt Fork",
+                                              "record":  "16-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Waverly",
+                                               "record":  "18-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Brimfield",
+                                              "record":  "22-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Oglesby Washington",
+                                              "record":  "14-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Paris Crestwood",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Paris Crestwood",
+                                 "score":  "55-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Brimfield",
+                                 "loser":  "Peoria St. Vincent de Paul",
+                                 "score":  "43-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Oglesby Washington",
+                                 "loser":  "Gardner",
+                                 "score":  "47-7",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Burr Ridge MS",
+                                 "loser":  "Hazel Crest Jesse White",
+                                 "score":  "34-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Sidell Salt Fork",
+                                 "loser":  "Bloomington Corpus Christi",
+                                 "score":  "32-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Colchester West Prairie",
+                                 "loser":  "Camp Point Central",
+                                 "score":  "36-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Green Valley Midwest Central",
+                                 "loser":  "Decatur Our Lady of Lourdes",
+                                 "score":  "49-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Waverly",
+                                 "loser":  "Hardin Calhoun",
+                                 "score":  "27-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           1,
+                                           6
+                                       ],
+                                 "4":  [
+                                           8,
+                                           3
+                                       ],
+                                 "1":  [
+                                           2,
+                                           4
+                                       ],
+                                 "3":  [
+                                           5,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Burr Ridge MS",
+                                          "Waverly"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           30
+                                       ],
+                            "winner":  "Waverly",
+                            "loser":  "Burr Ridge MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Green Valley Midwest Central",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           12,
+                                           32
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Green Valley Midwest Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Burr Ridge MS",
+                                          "Colchester West Prairie"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           35
+                                       ],
+                            "winner":  "Burr Ridge MS",
+                            "loser":  "Colchester West Prairie",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Oglesby Washington",
+                                          "Sidell Salt Fork"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           24
+                                       ],
+                            "winner":  "Oglesby Washington",
+                            "loser":  "Sidell Salt Fork",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Waverly",
+                                          "Brimfield"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           22
+                                       ],
+                            "winner":  "Waverly",
+                            "loser":  "Brimfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Effingham St. Anthony",
+                                          "Waverly"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           18
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Waverly",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Oglesby Washington",
+                                          "Burr Ridge MS"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           30
+                                       ],
+                            "winner":  "Oglesby Washington",
+                            "loser":  "Burr Ridge MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Oglesby Washington",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           28
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Oglesby Washington",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=7-2A"
+                        }
+              }
+};

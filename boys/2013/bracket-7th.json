@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:41",
+    "year":  2013,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Winchester",
+                                 "score":  "51-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "Grand Ridge",
+                                "loser":  "Roanoke-Benson",
+                                "score":  "50-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Bismarck-Henning",
+                                "loser":  "Catlin",
+                                "score":  "36-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Hamilton",
+                                 "score":  "58-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Peoria St. Vincent de Paul",
+                                 "loser":  "Peoria Christian",
+                                 "score":  "58-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Lockport Taft",
+                                "loser":  "Joliet Laraway",
+                                "score":  "35-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Mason City Illini Central",
+                                "loser":  "New Berlin JHS",
+                                "score":  "29-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Lewistown Central",
+                                 "loser":  "Table Grove VIT",
+                                 "score":  "41-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Ford Heights Cottage Grove UGC",
+                                "loser":  "Bourbonnais St. George",
+                                "score":  "40-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Metcalf",
+                                "loser":  "Bloomington Holy Trinity",
+                                "score":  "30-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Altamont",
+                                 "loser":  "Nokomis JHS",
+                                 "score":  "42-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Decatur Robertson",
+                                "loser":  "Decatur Garfield Montessori",
+                                "score":  "47-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Jerseyville St. Francis HG",
+                                 "loser":  "Carrollton GS",
+                                 "score":  "49-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Fisher",
+                                "loser":  "Champaign St. Matthew",
+                                "score":  "34-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "Elmwood",
+                                "loser":  "Kewanee Wethersfield",
+                                "score":  "37-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Paris Crestwood",
+                                 "score":  "38-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Mt. Sterling Brown County",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Grand Ridge",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Bismarck-Henning",
+                                              "record":  "14-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Carthage",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Peoria St. Vincent de Paul",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Lockport Taft",
+                                              "record":  "14-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Mason City Illini Central",
+                                              "record":  "15-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Lewistown Central",
+                                               "record":  "14-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Ford Heights Cottage Grove UGC",
+                                              "record":  "8-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Metcalf",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Altamont",
+                                               "record":  "14-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Decatur Robertson",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Jerseyville St. Francis HG",
+                                               "record":  "19-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Fisher",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Elmwood",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "13-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Altamont",
+                                 "score":  "39-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Fisher",
+                                 "loser":  "Bismarck-Henning",
+                                 "score":  "57-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Grand Ridge",
+                                 "loser":  "Elmwood",
+                                 "score":  "43-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Lockport Taft",
+                                 "loser":  "Ford Heights Cottage Grove UGC",
+                                 "score":  "37-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Mason City Illini Central",
+                                 "score":  "63-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Carthage",
+                                 "loser":  "Lewistown Central",
+                                 "score":  "58-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Normal Metcalf",
+                                 "loser":  "Peoria St. Vincent de Paul",
+                                 "score":  "33-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "52-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           4,
+                                           1
+                                       ],
+                                 "4":  [
+                                           2,
+                                           3
+                                       ],
+                                 "1":  [
+                                           6,
+                                           7
+                                       ],
+                                 "3":  [
+                                           5,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Carthage",
+                                          "Fisher"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           33
+                                       ],
+                            "winner":  "Carthage",
+                            "loser":  "Fisher",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Normal Metcalf",
+                                          "Mt. Sterling Brown County"
+                                      ],
+                            "scores":  [
+                                           54,
+                                           47
+                                       ],
+                            "winner":  "Normal Metcalf",
+                            "loser":  "Mt. Sterling Brown County",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Lockport Taft"
+                                      ],
+                            "scores":  [
+                                           56,
+                                           34
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Lockport Taft",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Carthage",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           21
+                                       ],
+                            "winner":  "Carthage",
+                            "loser":  "Effingham St. Anthony",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Grand Ridge",
+                                          "Fisher"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           60
+                                       ],
+                            "winner":  "Fisher",
+                            "loser":  "Grand Ridge",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Normal Metcalf",
+                                          "Fisher"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           26
+                                       ],
+                            "winner":  "Normal Metcalf",
+                            "loser":  "Fisher",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Carthage",
+                                          "Decatur Robertson"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           50
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Carthage",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Normal Metcalf"
+                                      ],
+                            "scores":  [
+                                           54,
+                                           49
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Normal Metcalf",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-2A"
+                        }
+              }
+}

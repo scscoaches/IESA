@@ -1,0 +1,102 @@
+(function () {
+    "use strict";
+
+    var viewport = document.getElementById("viewport");
+    var bracket = document.getElementById("bracket");
+    var pointers = new Map();
+    var gesture;
+
+    function transform() {
+        var match = bracket.style.transform.match(/translate\(([-\d.]+)px,\s*([-\d.]+)px\)\s*scale\(([-\d.]+)\)/);
+        return match ? { x: Number(match[1]), y: Number(match[2]), scale: Number(match[3]) } : { x: 0, y: 0, scale: 1 };
+    }
+
+    function apply(value) {
+        if (window.clampBracketTransform) {
+            value = window.clampBracketTransform(value.x, value.y, value.scale);
+        }
+        bracket.style.transform = "translate(" + value.x + "px," + value.y + "px) scale(" + value.scale + ")";
+    }
+
+    function panSensitivity(scale) {
+        return Math.max(1, Math.min(2.5, 0.5 / scale));
+    }
+
+    function point(event) {
+        return { x: event.clientX, y: event.clientY };
+    }
+
+    function localPoints() {
+        var bounds = viewport.getBoundingClientRect();
+        return Array.from(pointers.values()).map(function (value) {
+            return { x: value.x - bounds.left, y: value.y - bounds.top };
+        });
+    }
+
+    function startGesture() {
+        var active = localPoints();
+        var current = transform();
+        if (active.length === 1) {
+            gesture = { type: "pan", point: active[0], transform: current };
+            return;
+        }
+        if (active.length === 2) {
+            var midpoint = { x: (active[0].x + active[1].x) / 2, y: (active[0].y + active[1].y) / 2 };
+            gesture = {
+                type: "pinch",
+                distance: Math.hypot(active[1].x - active[0].x, active[1].y - active[0].y),
+                midpoint: midpoint,
+                canvas: { x: (midpoint.x - current.x) / current.scale, y: (midpoint.y - current.y) / current.scale },
+                transform: current
+            };
+        }
+    }
+
+    viewport.addEventListener("pointerdown", function (event) {
+        if (event.pointerType !== "touch") { return; }
+        if (event.target.closest("button, summary, a, input, select, textarea")) { return; }
+        pointers.set(event.pointerId, point(event));
+        viewport.setPointerCapture(event.pointerId);
+        startGesture();
+        event.preventDefault();
+        event.stopImmediatePropagation();
+    }, { capture: true, passive: false });
+
+    viewport.addEventListener("pointermove", function (event) {
+        if (event.pointerType !== "touch" || !pointers.has(event.pointerId)) { return; }
+        pointers.set(event.pointerId, point(event));
+        var active = localPoints();
+        if (!gesture || !active.length) { return; }
+
+        if (gesture.type === "pan" && active.length === 1) {
+            var sensitivity = panSensitivity(gesture.transform.scale);
+            apply({
+                x: gesture.transform.x + (active[0].x - gesture.point.x) * sensitivity,
+                y: gesture.transform.y + (active[0].y - gesture.point.y) * sensitivity,
+                scale: gesture.transform.scale
+            });
+        } else if (gesture.type === "pinch" && active.length === 2) {
+            var midpoint = { x: (active[0].x + active[1].x) / 2, y: (active[0].y + active[1].y) / 2 };
+            var distance = Math.hypot(active[1].x - active[0].x, active[1].y - active[0].y);
+            var scale = Math.max(.05, Math.min(2.5, gesture.transform.scale * distance / gesture.distance));
+            apply({ x: midpoint.x - gesture.canvas.x * scale, y: midpoint.y - gesture.canvas.y * scale, scale: scale });
+        }
+        event.preventDefault();
+        event.stopImmediatePropagation();
+    }, { capture: true, passive: false });
+
+    function end(event) {
+        if (event.pointerType !== "touch") { return; }
+        pointers.delete(event.pointerId);
+        startGesture();
+        event.preventDefault();
+        event.stopImmediatePropagation();
+    }
+
+    viewport.addEventListener("pointerup", end, { capture: true, passive: false });
+    viewport.addEventListener("pointercancel", end, { capture: true, passive: false });
+
+    window.addEventListener("resize", function () {
+        if (pointers.size) { startGesture(); }
+    });
+}());

@@ -1,0 +1,354 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:47",
+    "year":  2011,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Griggsville-Perry",
+                                 "score":  "32-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "Cissna Park",
+                                "loser":  "Hopkins Park Lorenzo Smith",
+                                "score":  "53-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Streator Woodland",
+                                "score":  "49-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Effingham Sacred Heart",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "49-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Lincoln Chester-East Lincoln",
+                                 "score":  "38-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ottawa Marquette",
+                                "loser":  "Gardner",
+                                "score":  "58-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Peoria St. Mark",
+                                "loser":  "Peoria Limestone Walters",
+                                "score":  "35-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Hume Shiloh",
+                                 "loser":  "Hutsonville",
+                                 "score":  "42-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Joliet Laraway",
+                                "loser":  "Lockport Taft",
+                                "score":  "56-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur Robertson",
+                                "loser":  "Decatur Our Lady of Lourdes",
+                                "score":  "55-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "East St. Louis Jackson",
+                                 "loser":  "Sorento",
+                                 "score":  "58-47",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Morton Blessed Sacrament",
+                                "loser":  "Pekin Rankin",
+                                "score":  "42-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Springfield Christian",
+                                 "loser":  "Springfield Calvary",
+                                 "score":  "40-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "LaSalle Trinity Catholic",
+                                "loser":  "Mendota Holy Cross",
+                                "score":  "50-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Rantoul St. Malachy",
+                                "loser":  "Royal Prairieview Ogden",
+                                "score":  "46-45",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Edinburg",
+                                 "loser":  "Cowden-Herrick",
+                                 "score":  "50-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "3":  {
+                                              "team":  "Cissna Park",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Pontiac St. Mary\u0027s",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Effingham Sacred Heart",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Lincoln West Lincoln-Broadwell",
+                                               "record":  "13-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ottawa Marquette",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Peoria St. Mark",
+                                              "record":  "14-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Hume Shiloh",
+                                               "record":  "17-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Joliet Laraway",
+                                              "record":  "23-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Decatur Robertson",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                          },
+                                    "16":  {
+                                               "team":  "Jacksonville Our Saviour",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Morton Blessed Sacrament",
+                                              "record":  "15-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Springfield Christian",
+                                               "record":  "17-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "LaSalle Trinity Catholic",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Rantoul St. Malachy",
+                                              "record":  "9-16",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Edinburg",
+                                               "record":  "21-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Edinburg",
+                                 "loser":  "East St. Louis Jackson",
+                                 "score":  "43-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "LaSalle Trinity Catholic",
+                                 "loser":  "Pontiac St. Mary\u0027s",
+                                 "score":  "49-44",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Cissna Park",
+                                 "loser":  "Rantoul St. Malachy",
+                                 "score":  "47-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Ottawa Marquette",
+                                 "loser":  "Joliet Laraway",
+                                 "score":  "46-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Morton Blessed Sacrament",
+                                 "loser":  "Peoria St. Mark",
+                                 "score":  "43-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Effingham Sacred Heart",
+                                 "loser":  "Hume Shiloh",
+                                 "score":  "42-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Lincoln West Lincoln-Broadwell",
+                                 "score":  "58-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Springfield Christian",
+                                 "score":  "33-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           2
+                                       ],
+                                 "4":  [
+                                           6,
+                                           7
+                                       ],
+                                 "1":  [
+                                           1,
+                                           3
+                                       ],
+                                 "3":  [
+                                           4,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Ottawa Marquette",
+                                          "Effingham Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           47
+                                       ],
+                            "winner":  "Effingham Sacred Heart",
+                            "loser":  "Ottawa Marquette",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Morton Blessed Sacrament",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           43
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Morton Blessed Sacrament",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Cissna Park"
+                                      ],
+                            "scores":  [
+                                           61,
+                                           52
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Cissna Park",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Ottawa Marquette",
+                                          "LaSalle Trinity Catholic"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           47
+                                       ],
+                            "winner":  "Ottawa Marquette",
+                            "loser":  "LaSalle Trinity Catholic",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Effingham Sacred Heart",
+                                          "Edinburg"
+                                      ],
+                            "scores":  [
+                                           49,
+                                           42
+                                       ],
+                            "winner":  "Effingham Sacred Heart",
+                            "loser":  "Edinburg",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Jacksonville Our Saviour",
+                                          "Effingham Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           34
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Effingham Sacred Heart",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Ottawa Marquette",
+                                          "Decatur Robertson"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           58
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Ottawa Marquette",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           22
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Jacksonville Our Saviour",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-1A"
+                        }
+              }
+}

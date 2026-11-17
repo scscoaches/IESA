@@ -1,0 +1,255 @@
+.theme-toggle {
+    cursor: pointer;
+}
+
+.theme-toggle img {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.landing .theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    border: 1px solid #9ea8d4;
+    border-radius: 4px;
+    background: transparent;
+    color: #fff;
+    font: inherit;
+}
+
+.dark-theme {
+    color-scheme: dark;
+}
+
+.dark-theme body {
+    background: #111827;
+    color: #e8edf8;
+}
+
+.dark-theme #bracket {
+    background-color: #111827;
+    background-image: radial-gradient(#34425c 1px, transparent 1px);
+}
+
+.dark-theme .stage,
+.dark-theme .stage small {
+    color: #dae4ff;
+}
+
+.dark-theme .match,
+.dark-theme dialog {
+    background: #202b3e;
+    color: #f0f3fa;
+    border-color: #536078;
+}
+
+.dark-theme .meta,
+.dark-theme .time {
+    background: #29374c;
+    color: #d1dcfa;
+    border-color: #46536b;
+}
+
+.dark-theme .entry {
+    border-color: #43516a;
+}
+
+.dark-theme .postseason-score {
+    color: #adbaff;
+}
+
+.dark-theme .regional-projection-link,
+.dark-theme .regional-official-link {
+    background: #29374c;
+    border-color: #46536b;
+    color: #adbaff;
+}
+
+.dark-theme .projection-match {
+    background: #29374c;
+    border-color: #536078;
+}
+
+.dark-theme .projection-team+.projection-team {
+    border-color: #46536b;
+}
+
+.dark-theme .regional .seed-badge {
+    background: #202b3e;
+    border-color: #536078;
+    color: #f0f3fa;
+}
+
+.dark-theme .regional .entry:hover {
+    background: #364563;
+}
+
+.dark-theme .entry.my-team,
+.dark-theme .projection-team.my-team {
+    background: #8a6a0c;
+    color: #fff;
+    box-shadow: inset 0 0 0 2px #ffe08a, inset 6px 0 #ffe08a;
+}
+
+.dark-theme .entry.my-team .postseason-score {
+    color: #fff;
+}
+
+.dark-theme .record-badge {
+    background: #394760;
+    color: #f0f3fa;
+}
+
+.dark-theme .entry.my-team .record-badge {
+    background: #5e4807;
+    color: #fff;
+}
+
+.dark-theme .hint {
+    background: #202b3e;
+    color: #e8edf8;
+    border-color: #536078;
+}
+
+.dark-theme .record-note,
+.dark-theme .strength-note,
+.dark-theme #updates-summary {
+    color: #c3cde1;
+}
+
+.dark-theme .strength-note {
+    background: #26324a;
+    border-color: #3a4862;
+}
+
+.dark-theme .sos-title,
+.dark-theme .sos-stat b {
+    color: #f0f3fa;
+}
+
+.dark-theme .sos-rank {
+    background: #5560ff;
+}
+
+.dark-theme .sos-stat {
+    background: #202b3e;
+    border-color: #3a4862;
+}
+
+.dark-theme .sos-sub,
+.dark-theme .sos-stat small,
+.dark-theme .sos-foot {
+    color: #9aa6bf;
+}
+
+.dark-theme .sos-bar {
+    background: #31415a;
+}
+
+.dark-theme .sos-seg + .sos-seg {
+    border-left-color: #26324a;
+}
+
+.dark-theme .sos-4a {
+    background: #2c3b94;
+    box-shadow: inset 0 0 0 1px #8ea0db66;
+}
+
+.dark-theme #score-history .opponent-tag {
+    color: #c3cde1;
+    background: #31415a;
+}
+
+.dark-theme .updates-window button {
+    color: #f0f3fa;
+    background: #31415a;
+    border-color: #536078;
+}
+
+.dark-theme .updates-window button.active {
+    color: #fff;
+    background: #5560ff;
+    border-color: #5560ff;
+}
+
+.dark-theme #updates-button.has-new {
+    color: #fff;
+    background: #5560ff;
+    border-color: #5560ff;
+}
+
+.dark-theme #updates-table td:last-child {
+    color: #c3cde1;
+}
+
+.dark-theme #score-history tr.recent-score td {
+    background: #26432f;
+}
+
+.dark-theme #score-history td,
+.dark-theme #updates-table td,
+.dark-theme #updates-table th {
+    border-color: #536078;
+}
+
+.dark-theme #score-history td:last-child,
+.dark-theme #updates-table th {
+    background: #31415a;
+    color: #f0f3fa;
+}
+
+.dark-theme #score-history td.score-cell {
+    background: #31415a;
+    color: #f0f3fa;
+}
+
+.dark-theme #score-history td.stream-cell {
+    background: transparent;
+}
+
+.dark-theme dialog input {
+    background: #172235;
+    border-color: #536078;
+    color: #f0f3fa;
+}
+
+.dark-theme dialog a {
+    color: #aab7ff;
+}
+
+.dark-theme .dialog-actions #official-scores {
+    background: #34425c;
+    color: #f0f3fa;
+}
+
+@media (max-width: 680px) {
+    .tools button#theme-toggle {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        min-width: 40px;
+        height: 40px;
+        padding: 0;
+    }
+
+    .tools button#minus,
+    .tools button#plus {
+        display: none !important;
+    }
+}
+
+@media (max-width: 380px) {
+    .tools button#theme-toggle {
+        min-width: 36px;
+        width: 36px;
+    }
+}
+.dark-theme .my-team-clear{background:transparent;border-color:#56607e;color:inherit}
+.dark-theme .my-team-option,.dark-theme .my-team-history li{border-bottom-color:#2c3550}
+.dark-theme .my-team-option:hover,.dark-theme .my-team-option:focus{background:#26304d}
+.dark-theme .my-team-empty{color:#aab2cc}

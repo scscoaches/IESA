@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:42",
+    "year":  2013,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Payson Seymour",
+                                 "score":  "38-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Ottawa Wallace",
+                                "loser":  "Grand Ridge",
+                                "score":  "46-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Bismarck-Henning",
+                                "loser":  "Catlin",
+                                "score":  "50-41",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "La Harpe",
+                                 "loser":  "Hamilton",
+                                 "score":  "35-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Peoria St. Vincent de Paul",
+                                 "loser":  "Peoria St. Philomena",
+                                 "score":  "37-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Joliet Laraway",
+                                "loser":  "Elmwood Park St. Celestine",
+                                "score":  "38-36",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Springfield Blessed Sacrament",
+                                "loser":  "Springfield Christ the King",
+                                "score":  "39-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Table Grove VIT",
+                                 "loser":  "Abingdon",
+                                 "score":  "40-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Bourbonnais Maternity BVM",
+                                "loser":  "Bourbonnais St. George",
+                                "score":  "39-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Epiphany",
+                                "loser":  "Bloomington Holy Trinity",
+                                "score":  "34-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Altamont",
+                                 "loser":  "Nokomis JHS",
+                                 "score":  "52-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Decatur Robertson",
+                                "loser":  "Illiopolis Sangamon Valley",
+                                "score":  "49-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Carrollton GS",
+                                 "loser":  "Madison",
+                                 "score":  "46-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Champaign St. Matthew",
+                                "loser":  "Champaign Judah Christian",
+                                "score":  "46-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Elmwood",
+                                "loser":  "Kewanee Wethersfield",
+                                "score":  "33-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Arcola",
+                                 "loser":  "Oblong",
+                                 "score":  "46-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Mt. Sterling Brown County",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Ottawa Wallace",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Bismarck-Henning",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "La Harpe",
+                                               "record":  "17-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Peoria St. Vincent de Paul",
+                                               "record":  "16-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Joliet Laraway",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Springfield Blessed Sacrament",
+                                              "record":  "20-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Table Grove VIT",
+                                               "record":  "12-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Bourbonnais Maternity BVM",
+                                              "record":  "15-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Epiphany",
+                                              "record":  "23-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Altamont",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Decatur Robertson",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Carrollton GS",
+                                               "record":  "13-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Champaign St. Matthew",
+                                              "record":  "18-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Elmwood",
+                                              "record":  "18-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Arcola",
+                                               "record":  "20-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Altamont",
+                                 "loser":  "Arcola",
+                                 "score":  "44-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Champaign St. Matthew",
+                                 "loser":  "Bismarck-Henning",
+                                 "score":  "44-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Elmwood",
+                                 "loser":  "Ottawa Wallace",
+                                 "score":  "48-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Joliet Laraway",
+                                 "loser":  "Bourbonnais Maternity BVM",
+                                 "score":  "37-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Springfield Blessed Sacrament",
+                                 "score":  "48-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "La Harpe",
+                                 "loser":  "Table Grove VIT",
+                                 "score":  "35-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Peoria St. Vincent de Paul",
+                                 "loser":  "Normal Epiphany",
+                                 "score":  "34-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Carrollton GS",
+                                 "score":  "48-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           2,
+                                           7
+                                       ],
+                                 "4":  [
+                                           6,
+                                           1
+                                       ],
+                                 "1":  [
+                                           3,
+                                           8
+                                       ],
+                                 "3":  [
+                                           4,
+                                           5
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Mt. Sterling Brown County",
+                                          "Joliet Laraway"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           39
+                                       ],
+                            "winner":  "Mt. Sterling Brown County",
+                            "loser":  "Joliet Laraway",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Peoria St. Vincent de Paul"
+                                      ],
+                            "scores":  [
+                                           48,
+                                           26
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Peoria St. Vincent de Paul",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Elmwood",
+                                          "Altamont"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           40
+                                       ],
+                            "winner":  "Altamont",
+                            "loser":  "Elmwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Champaign St. Matthew",
+                                          "Mt. Sterling Brown County"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           43
+                                       ],
+                            "winner":  "Mt. Sterling Brown County",
+                            "loser":  "Champaign St. Matthew",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "La Harpe",
+                                          "Joliet Laraway"
+                                      ],
+                            "scores":  [
+                                           18,
+                                           41
+                                       ],
+                            "winner":  "Joliet Laraway",
+                            "loser":  "La Harpe",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Joliet Laraway"
+                                      ],
+                            "scores":  [
+                                           58,
+                                           34
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Joliet Laraway",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Mt. Sterling Brown County",
+                                          "Altamont"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           53
+                                       ],
+                            "winner":  "Altamont",
+                            "loser":  "Mt. Sterling Brown County",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Altamont",
+                                          "Decatur Robertson"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           54
+                                       ],
+                            "winner":  "Decatur Robertson",
+                            "loser":  "Altamont",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=8-2A"
+                        }
+              }
+};

@@ -1,0 +1,414 @@
+﻿{
+    "year":  2020,
+    "grade":  "8th",
+    "className":  "3A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Calumet City Schrum",
+                          "teams":  [
+                                        "Lansing Heritage",
+                                        "Calumet City Wentworth",
+                                        "Dolton Roosevelt",
+                                        "Calumet City Schrum",
+                                        "Dolton Lincoln",
+                                        "Calumet Park Calumet",
+                                        "Dixmoor Rosa Parks"
+                                    ],
+                          "assignedTeams":  [
+                                                "Calumet City Schrum",
+                                                "Calumet City Wentworth",
+                                                "Calumet Park Calumet",
+                                                "Dixmoor Rosa Parks",
+                                                "Dolton Lincoln (Coed)",
+                                                "Dolton Roosevelt",
+                                                "Lansing Heritage"
+                                            ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Winfield Wheaton Christian",
+                          "teams":  [
+                                        "Winfield Wheaton Christian",
+                                        "Chicago Frances Xavier Warde",
+                                        "Downers Grove Lakeview",
+                                        "Burr Ridge Gower",
+                                        "Rockford Marshall",
+                                        "Lisle"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Hazel Crest Jesse White",
+                          "teams":  [
+                                        "Beecher",
+                                        "South Holland McKinley",
+                                        "Glenwood Brookwood",
+                                        "Momence JHS",
+                                        "Watseka Glenn Raymond",
+                                        "Peotone",
+                                        "Hazel Crest Jesse White"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Wilmington",
+                          "teams":  [
+                                        "Morris GS",
+                                        "Morris Saratoga",
+                                        "Wilmington",
+                                        "Crest Hill Richland",
+                                        "Clifton Nash",
+                                        "Braidwood Reed-Custer",
+                                        "Herscher Limestone",
+                                        "Lockport Kelvin Grove"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Wenona Fieldcrest",
+                          "teams":  [
+                                        "Metamora GS",
+                                        "Pontiac JHS",
+                                        "Eureka",
+                                        "Wenona Fieldcrest",
+                                        "El Paso-Gridley",
+                                        "Spring Valley Kennedy",
+                                        "Peru Parkside"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Stanford Olympia",
+                          "teams":  [
+                                        "Germantown Hills",
+                                        "Washington Central",
+                                        "Washington MS",
+                                        "Tremont",
+                                        "Stanford Olympia",
+                                        "Mackinaw Dee-Mack",
+                                        "Washington Beverly Manor"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Glasford Illini Bluffs",
+                          "teams":  [
+                                        "Glasford Illini Bluffs",
+                                        "Peoria Quest",
+                                        "Chillicothe",
+                                        "Avon Abingdon Avon",
+                                        "Farmington Central",
+                                        "Mossville"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Joy Mercer County",
+                          "teams":  [
+                                        "Taylor Ridge Rockridge",
+                                        "Sherrard JHS",
+                                        "Joy Mercer County",
+                                        "Monmouth-Roseville JHS",
+                                        "Manlius Bureau Valley JHS",
+                                        "Knoxville JHS",
+                                        "Orion"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Hoopeston Area",
+                          "teams":  [
+                                        "St. Joseph",
+                                        "Onarga Iroquois West",
+                                        "Hoopeston Area",
+                                        "Westville JHS",
+                                        "Georgetown Mary Miller",
+                                        "Danville Oakwood",
+                                        "Paxton-Buckley-Loda"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Heyworth",
+                          "teams":  [
+                                        "Tolono Unity",
+                                        "Maroa-Forsyth",
+                                        "Monticello",
+                                        "Clinton",
+                                        "Heyworth",
+                                        "Gibson City GCMS",
+                                        "Downs Tri-Valley",
+                                        "Warrensburg-Latham"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Athens",
+                          "teams":  [
+                                        "Lincoln JHS",
+                                        "Athens",
+                                        "Williamsville",
+                                        "Havana",
+                                        "Petersburg PORTA JHS",
+                                        "Riverton"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Auburn JHS at Divernon",
+                          "teams":  [
+                                        "Camp Point Central",
+                                        "Auburn JHS at Divernon",
+                                        "Beardstown MS",
+                                        "Quincy St. Peter",
+                                        "Pleasant Plains",
+                                        "Pittsfield Pikeland",
+                                        "Rushville Schuyler Industry"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Sullivan",
+                          "teams":  [
+                                        "Shelbyville Moulton",
+                                        "Tuscola East Prairie",
+                                        "Sullivan",
+                                        "Arthur",
+                                        "Sidell Salt Fork",
+                                        "Paris Mayo",
+                                        "Macon Meridian"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Robinson Nuttall",
+                          "teams":  [
+                                        "Teutopolis",
+                                        "Robinson Nuttall",
+                                        "Lawrenceville Parkview",
+                                        "Marshall JHS",
+                                        "Newton Jasper County",
+                                        "Bridgeport Red Hill",
+                                        "Toledo Cumberland"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Greenville",
+                          "teams":  [
+                                        "Litchfield",
+                                        "Greenville",
+                                        "Morrisonville JHS",
+                                        "Girard North Mac",
+                                        "Pana JHS",
+                                        "Vandalia",
+                                        "Hillsboro"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Roxana",
+                          "teams":  [
+                                        "Roxana",
+                                        "Gillespie",
+                                        "Staunton",
+                                        "Carlinville",
+                                        "Piasa Southwestern",
+                                        "Wood River Lewis \u0026 Clark",
+                                        "East Alton MS"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Winfield Wheaton Christian",
+                           "date":  "Wednesday, February 12, 2020",
+                           "records":  {
+                                           "1":  "17-3",
+                                           "2":  "15-2"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Morris Saratoga",
+                           "date":  "Wednesday, February 12, 2020",
+                           "records":  {
+                                           "3":  "16-5",
+                                           "4":  "20-5"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Washington MS",
+                           "date":  "Wednesday, February 12, 2020",
+                           "records":  {
+                                           "5":  "18-7",
+                                           "6":  "15-7"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Taylor Ridge Rockridge",
+                           "date":  "Wednesday, February 12, 2020",
+                           "records":  {
+                                           "7":  "23-1",
+                                           "8":  "18-1"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Tolono Unity",
+                           "date":  "Thursday, February 13, 2020",
+                           "records":  {
+                                           "9":  "18-5",
+                                           "10":  "18-9"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Auburn JHS at Divernon",
+                           "date":  "Thursday, February 13, 2020",
+                           "records":  {
+                                           "11":  "19-6",
+                                           "12":  "20-4"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Teutopolis",
+                           "date":  "Wednesday, February 12, 2020",
+                           "records":  {
+                                           "13":  "20-2",
+                                           "14":  "22-3"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Vandalia",
+                           "date":  "Wednesday, February 12, 2020",
+                           "records":  {
+                                           "15":  "22-0",
+                                           "16":  "15-8"
+                                       }
+                       }
+                   ],
+    "venue":  "Tolono Unity JHS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              3,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              1,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              5,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              4,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

@@ -1,0 +1,417 @@
+﻿window.tournamentData = {
+    "year":  2013,
+    "grade":  "8th",
+    "className":  "2A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Bourbonnais St. George",
+                          "teams":  [
+                                        "Bourbonnais Maternity BVM",
+                                        "Bourbonnais St. George",
+                                        "Piper City Tri-Point",
+                                        "Ford Heights Cottage Grove UGC",
+                                        "St. Anne",
+                                        "Riverdale Patton",
+                                        "Grant Park"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Mazon-Verona-Kinsman",
+                          "teams":  [
+                                        "Joliet Laraway",
+                                        "Elmwood Park St. Celestine",
+                                        "Dwight",
+                                        "Elwood GS",
+                                        "Herscher JHS",
+                                        "Lockport Taft",
+                                        "Mazon-Verona-Kinsman",
+                                        "Lynwood Sandridge"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Ottawa Wallace",
+                          "teams":  [
+                                        "Ottawa Wallace",
+                                        "Chicago Hawthorne",
+                                        "Grand Ridge",
+                                        "McNabb Putnam County",
+                                        "Roanoke-Benson",
+                                        "Streator Woodland",
+                                        "Oglesby Washington"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Kewanee Wethersfield",
+                          "teams":  [
+                                        "Elmwood",
+                                        "Kewanee Wethersfield",
+                                        "Princeville",
+                                        "Henry-Senachwine",
+                                        "Sparland Midland",
+                                        "Brimfield"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Bismarck-Henning",
+                          "teams":  [
+                                        "Bismarck-Henning",
+                                        "Catlin",
+                                        "Danville Schlarman",
+                                        "Milford",
+                                        "Homer Heritage",
+                                        "Villa Grove"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Champaign St. Matthew",
+                          "teams":  [
+                                        "Champaign St. Matthew",
+                                        "Champaign Judah Christian",
+                                        "Fisher",
+                                        "Cerro Gordo",
+                                        "Champaign Holy Cross",
+                                        "Mansfield Blue Ridge JHS",
+                                        "LeRoy"
+                                    ],
+                          "assignedTeams":  [
+                                                "Cerro Gordo",
+                                                "Champaign Holy Cross",
+                                                "Champaign Judah Christian",
+                                                "Champaign St. Matthew",
+                                                "Fisher",
+                                                "LeRoy",
+                                                "Mansfield Blue Ridge IJHS"
+                                            ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Decatur Robertson",
+                          "teams":  [
+                                        "Decatur Robertson",
+                                        "Illiopolis Sangamon Valley",
+                                        "Decatur Hope",
+                                        "Decatur Johns Hill",
+                                        "Decatur Lutheran",
+                                        "Buffalo Tri-City",
+                                        "Decatur Garfield Montessori",
+                                        "Mt. Pulaski"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Pawnee",
+                          "teams":  [
+                                        "Springfield Blessed Sacrament",
+                                        "Pawnee",
+                                        "Springfield Christ the King",
+                                        "Springfield St. Agnes",
+                                        "Springfield Christian",
+                                        "Mason City Illini Central",
+                                        "New Berlin JHS"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Bloomington Holy Trinity",
+                          "teams":  [
+                                        "Normal Epiphany",
+                                        "Bloomington Holy Trinity",
+                                        "Delavan",
+                                        "Colfax Ridgeview",
+                                        "Normal Metcalf",
+                                        "Lexington",
+                                        "Lincoln Carroll Catholic"
+                                    ],
+                          "assignedTeams":  [
+                                                "Bloomington Holy Trinity",
+                                                "Colfax Ridgeview",
+                                                "Delavan (Coed)",
+                                                "Lexington",
+                                                "Lincoln Carroll Catholic (Coop)",
+                                                "Normal Epiphany",
+                                                "Normal Metcalf"
+                                            ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Peoria St. Vincent de Paul",
+                          "teams":  [
+                                        "Bartonville Oak Grove West",
+                                        "Peoria St. Philomena",
+                                        "Peoria Heights GS",
+                                        "Peoria Christian",
+                                        "Peoria St. Vincent de Paul",
+                                        "Peoria Heights St. Thomas",
+                                        "Peoria Pleasant Valley",
+                                        "Peoria Norwood"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Table Grove VIT",
+                          "teams":  [
+                                        "Abingdon",
+                                        "Lewistown Central",
+                                        "Table Grove VIT",
+                                        "Cuba",
+                                        "London Mills Valley"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Carthage",
+                          "teams":  [
+                                        "La Harpe",
+                                        "Hamilton",
+                                        "Carthage",
+                                        "Augusta Southeastern",
+                                        "Colchester West Prairie",
+                                        "Nauvoo-Colusa"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Effingham St. Anthony",
+                          "teams":  [
+                                        "Arcola",
+                                        "Effingham St. Anthony",
+                                        "Oblong",
+                                        "Paris Crestwood",
+                                        "Neoga"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Nokomis JHS",
+                          "teams":  [
+                                        "Nokomis JHS",
+                                        "Altamont",
+                                        "Cowden-Herrick",
+                                        "Findlay Okaw Valley",
+                                        "Ramsey"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Mt. Olive",
+                          "teams":  [
+                                        "Jerseyville St. Francis HG",
+                                        "Hardin Calhoun",
+                                        "Madison",
+                                        "Carrollton GS",
+                                        "Bunker Hill Wolf Ridge",
+                                        "Mt. Olive"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Mt. Sterling Brown County",
+                          "teams":  [
+                                        "Mt. Sterling Brown County",
+                                        "Winchester",
+                                        "Griggsville-Perry",
+                                        "Liberty",
+                                        "Meredosia-Chambersburg",
+                                        "Kinderhook Western",
+                                        "Payson Seymour"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Joliet Laraway",
+                           "date":  "Wednesday, February 06, 2013",
+                           "records":  {
+                                           "1":  "15-3",
+                                           "2":  "21-2"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "McNabb Putnam County",
+                           "date":  "Wednesday, February 06, 2013",
+                           "records":  {
+                                           "3":  "18-3",
+                                           "4":  "18-4"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Champaign St. Matthew",
+                           "date":  "Wednesday, February 06, 2013",
+                           "records":  {
+                                           "5":  "22-1",
+                                           "6":  "18-6"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Pawnee",
+                           "date":  "Wednesday, February 06, 2013",
+                           "records":  {
+                                           "7":  "18-3",
+                                           "8":  "20-4"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Normal Epiphany",
+                           "date":  "Wednesday, February 06, 2013",
+                           "records":  {
+                                           "9":  "23-1",
+                                           "10":  "16-8"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Carthage",
+                           "date":  "Wednesday, February 06, 2013",
+                           "records":  {
+                                           "11":  "12-11",
+                                           "12":  "17-5"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Effingham St. Anthony",
+                           "date":  "Wednesday, February 06, 2013",
+                           "records":  {
+                                           "13":  "20-0",
+                                           "14":  "18-2"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Griggsville-Perry",
+                           "date":  "Wednesday, February 06, 2013",
+                           "records":  {
+                                           "15":  "13-9",
+                                           "16":  "21-3"
+                                       }
+                       }
+                   ],
+    "venue":  "Downs Tri-Valley HS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              3,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              2,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              4,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              6,
+                                              1
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

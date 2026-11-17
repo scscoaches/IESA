@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:16",
+    "year":  2024,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East St. Louis Lincoln",
+                                 "loser":  "Staunton",
+                                 "score":  "70-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             },
+                      "3":  {
+                                "winner":  "Manteno",
+                                "loser":  "Peotone",
+                                "score":  "58-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "5":  {
+                                "winner":  "Rockford Kennedy",
+                                "loser":  "LaSalle Lincoln",
+                                "score":  "49-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Newton Jasper County",
+                                 "score":  "53-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Metamora GS",
+                                 "loser":  "Germantown Hills",
+                                 "score":  "43-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             },
+                      "2":  {
+                                "winner":  "Calumet City Schrum",
+                                "loser":  "South Holland McKinley",
+                                "score":  "54-52",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "8":  {
+                                "winner":  "Downs Tri-Valley",
+                                "loser":  "Heyworth",
+                                "score":  "40-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Tuscola East Prairie",
+                                 "loser":  "Paris Mayo",
+                                 "score":  "43-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             },
+                      "1":  {
+                                "winner":  "Chicago Frances Xavier Warde",
+                                "loser":  "Crest Hill Richland",
+                                "score":  "29-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "9":  {
+                                "winner":  "El Paso-Gridley",
+                                "loser":  "Eureka",
+                                "score":  "39-36",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Quincy St. Peter",
+                                 "loser":  "Athens",
+                                 "score":  "28-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             },
+                      "7":  {
+                                "winner":  "Forrest Prairie Central",
+                                "loser":  "Onarga Iroquois West",
+                                "score":  "41-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Auburn JHS at Divernon",
+                                 "loser":  "Girard North Mac",
+                                 "score":  "29-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             },
+                      "6":  {
+                                "winner":  "Orion",
+                                "loser":  "Aledo Mercer County",
+                                "score":  "43-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "4":  {
+                                "winner":  "Braidwood Reed-Custer",
+                                "loser":  "Morris Saratoga",
+                                "score":  "31-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Williamsville",
+                                 "loser":  "Riverton",
+                                 "score":  "42-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "East St. Louis Lincoln",
+                                               "record":  "20-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Manteno",
+                                              "record":  "20-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Rockford Kennedy",
+                                              "record":  "12-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "24-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Metamora GS",
+                                               "record":  "24-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Calumet City Schrum",
+                                              "record":  "13-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Downs Tri-Valley",
+                                              "record":  "22-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Tuscola East Prairie",
+                                               "record":  "23-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "Chicago Frances Xavier Warde",
+                                              "record":  "11-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "El Paso-Gridley",
+                                              "record":  "20-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Quincy St. Peter",
+                                               "record":  "16-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Forrest Prairie Central",
+                                              "record":  "19-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Auburn JHS at Divernon",
+                                               "record":  "12-14",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Orion",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Braidwood Reed-Custer",
+                                              "record":  "22-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Williamsville",
+                                               "record":  "17-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Quincy St. Peter",
+                                 "loser":  "Williamsville",
+                                 "score":  "40-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Rockford Kennedy",
+                                 "loser":  "Orion",
+                                 "score":  "63-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Manteno",
+                                 "loser":  "Braidwood Reed-Custer",
+                                 "score":  "36-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Calumet City Schrum",
+                                 "loser":  "Chicago Frances Xavier Warde",
+                                 "score":  "64-55",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Downs Tri-Valley",
+                                 "loser":  "Forrest Prairie Central",
+                                 "score":  "34-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Tuscola East Prairie",
+                                 "score":  "53-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Metamora GS",
+                                 "loser":  "El Paso-Gridley",
+                                 "score":  "57-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             },
+                       "8":  {
+                                 "winner":  "East St. Louis Lincoln",
+                                 "loser":  "Auburn JHS at Divernon",
+                                 "score":  "51-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           1
+                                       ],
+                                 "4":  [
+                                           2,
+                                           5
+                                       ],
+                                 "1":  [
+                                           7,
+                                           4
+                                       ],
+                                 "3":  [
+                                           6,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Calumet City Schrum",
+                                          "East St. Louis Lincoln"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           46
+                                       ],
+                            "winner":  "Calumet City Schrum",
+                            "loser":  "East St. Louis Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "East St. Louis Lincoln"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           47
+                                       ],
+                            "winner":  "East St. Louis Lincoln",
+                            "loser":  "Teutopolis",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Rockford Kennedy",
+                                          "Calumet City Schrum"
+                                      ],
+                            "scores":  [
+                                           57,
+                                           62
+                                       ],
+                            "winner":  "Calumet City Schrum",
+                            "loser":  "Rockford Kennedy",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Quincy St. Peter",
+                                          "Downs Tri-Valley"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           25
+                                       ],
+                            "winner":  "Quincy St. Peter",
+                            "loser":  "Downs Tri-Valley",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Manteno",
+                                          "Metamora GS"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           54
+                                       ],
+                            "winner":  "Metamora GS",
+                            "loser":  "Manteno",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "East St. Louis Lincoln",
+                                          "Metamora GS"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           57
+                                       ],
+                            "winner":  "Metamora GS",
+                            "loser":  "East St. Louis Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Quincy St. Peter",
+                                          "Calumet City Schrum"
+                                      ],
+                            "scores":  [
+                                           56,
+                                           45
+                                       ],
+                            "winner":  "Quincy St. Peter",
+                            "loser":  "Calumet City Schrum",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Quincy St. Peter",
+                                          "Metamora GS"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           53
+                                       ],
+                            "winner":  "Metamora GS",
+                            "loser":  "Quincy St. Peter",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-3A"
+                        }
+              }
+};

@@ -1,0 +1,138 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:03",
+    "year":  2027,
+    "grade":  "7th",
+    "regionals":  {
+
+                  },
+    "sectionalPairingRecords":  {
+
+                                },
+    "sectionals":  {
+
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           5
+                                       ],
+                                 "4":  [
+                                           4,
+                                           3
+                                       ],
+                                 "1":  [
+                                           1,
+                                           6
+                                       ],
+                                 "3":  [
+                                           2,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          null,
+                                          null
+                                      ],
+                            "scores":  [
+                                           null,
+                                           null
+                                       ],
+                            "winner":  null,
+                            "loser":  null,
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2027\u0026Class=7-2A"
+                        }
+              }
+};

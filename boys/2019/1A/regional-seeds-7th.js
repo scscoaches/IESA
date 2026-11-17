@@ -1,0 +1,1985 @@
+﻿window.iesaRegionalSeedCache = {
+    "updatedAt":  "2026-11-17 15:26",
+    "year":  2019,
+    "grade":  "7th",
+    "regionalBrackets":  {
+                             "1":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Marseilles Milton Pope"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Ottawa Marquette"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Lockport Fairmont"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Elwood GS"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Riverdale Patton"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Joliet Union"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Marseilles Milton Pope",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Marseilles Milton Pope",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Elwood GS",
+                                                                            "Riverdale Patton"
+                                                                        ],
+                                                              "scores":  [
+                                                                             44,
+                                                                             9
+                                                                         ],
+                                                              "winner":  "Elwood GS",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Ottawa Marquette",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Ottawa Marquette",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Lockport Fairmont",
+                                                                            "Joliet Union"
+                                                                        ],
+                                                              "scores":  [
+                                                                             54,
+                                                                             21
+                                                                         ],
+                                                              "winner":  "Lockport Fairmont",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Marseilles Milton Pope",
+                                                                            "Elwood GS"
+                                                                        ],
+                                                              "scores":  [
+                                                                             19,
+                                                                             20
+                                                                         ],
+                                                              "winner":  "Elwood GS",
+                                                              "bye":  false,
+                                                              "annotation":  "OT"
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Ottawa Marquette",
+                                                                            "Lockport Fairmont"
+                                                                        ],
+                                                              "scores":  [
+                                                                             32,
+                                                                             28
+                                                                         ],
+                                                              "winner":  "Ottawa Marquette",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Elwood GS",
+                                                                            "Ottawa Marquette"
+                                                                        ],
+                                                              "scores":  [
+                                                                             33,
+                                                                             39
+                                                                         ],
+                                                              "winner":  "Ottawa Marquette",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=1",
+                                       "host":  "Elwood GS",
+                                       "missingSeed":  null
+                                   },
+                             "2":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Oglesby Holy Family"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Ottawa Wallace"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Tonica"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Utica Waltham North"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Mendota Holy Cross"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "LaSalle Trinity Catholic"
+                                                     },
+                                                     {
+                                                         "seed":  7,
+                                                         "team":  "Grand Ridge"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Oglesby Holy Family",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Oglesby Holy Family",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Utica Waltham North",
+                                                                            "Mendota Holy Cross"
+                                                                        ],
+                                                              "scores":  [
+                                                                             27,
+                                                                             30
+                                                                         ],
+                                                              "winner":  "Mendota Holy Cross",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Ottawa Wallace",
+                                                                            "Grand Ridge"
+                                                                        ],
+                                                              "scores":  [
+                                                                             34,
+                                                                             8
+                                                                         ],
+                                                              "winner":  "Ottawa Wallace",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Tonica",
+                                                                            "LaSalle Trinity Catholic"
+                                                                        ],
+                                                              "scores":  [
+                                                                             33,
+                                                                             20
+                                                                         ],
+                                                              "winner":  "Tonica",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Oglesby Holy Family",
+                                                                            "Mendota Holy Cross"
+                                                                        ],
+                                                              "scores":  [
+                                                                             42,
+                                                                             12
+                                                                         ],
+                                                              "winner":  "Oglesby Holy Family",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Ottawa Wallace",
+                                                                            "Tonica"
+                                                                        ],
+                                                              "scores":  [
+                                                                             42,
+                                                                             24
+                                                                         ],
+                                                              "winner":  "Ottawa Wallace",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Oglesby Holy Family",
+                                                                            "Ottawa Wallace"
+                                                                        ],
+                                                              "scores":  [
+                                                                             45,
+                                                                             26
+                                                                         ],
+                                                              "winner":  "Oglesby Holy Family",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=2",
+                                       "host":  "Ottawa Wallace",
+                                       "missingSeed":  null
+                                   },
+                             "3":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Donovan"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Crescent City"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Hopkins Park Lorenzo Smith"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Piper City Tri-Point"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Rossville-Alvin"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Cissna Park"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Donovan",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Donovan",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Piper City Tri-Point",
+                                                                            "Rossville-Alvin"
+                                                                        ],
+                                                              "scores":  [
+                                                                             29,
+                                                                             11
+                                                                         ],
+                                                              "winner":  "Piper City Tri-Point",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Crescent City",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Crescent City",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Hopkins Park Lorenzo Smith",
+                                                                            "Cissna Park"
+                                                                        ],
+                                                              "scores":  [
+                                                                             45,
+                                                                             14
+                                                                         ],
+                                                              "winner":  "Hopkins Park Lorenzo Smith",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Donovan",
+                                                                            "Piper City Tri-Point"
+                                                                        ],
+                                                              "scores":  [
+                                                                             36,
+                                                                             14
+                                                                         ],
+                                                              "winner":  "Donovan",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Crescent City",
+                                                                            "Hopkins Park Lorenzo Smith"
+                                                                        ],
+                                                              "scores":  [
+                                                                             23,
+                                                                             34
+                                                                         ],
+                                                              "winner":  "Hopkins Park Lorenzo Smith",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Donovan",
+                                                                            "Hopkins Park Lorenzo Smith"
+                                                                        ],
+                                                              "scores":  [
+                                                                             31,
+                                                                             34
+                                                                         ],
+                                                              "winner":  "Hopkins Park Lorenzo Smith",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=3",
+                                       "host":  "Crescent City",
+                                       "missingSeed":  null
+                                   },
+                             "4":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Flanagan"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Pontiac St. Mary\u0027s"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Ransom"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Saunemin"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Mazon-Verona-Kinsman"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Odell"
+                                                     },
+                                                     {
+                                                         "seed":  7,
+                                                         "team":  "Cornell"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Flanagan",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Flanagan",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Saunemin",
+                                                                            "Mazon-Verona-Kinsman"
+                                                                        ],
+                                                              "scores":  [
+                                                                             8,
+                                                                             22
+                                                                         ],
+                                                              "winner":  "Mazon-Verona-Kinsman",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Pontiac St. Mary\u0027s",
+                                                                            "Cornell"
+                                                                        ],
+                                                              "scores":  [
+                                                                             41,
+                                                                             14
+                                                                         ],
+                                                              "winner":  "Pontiac St. Mary\u0027s",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Ransom",
+                                                                            "Odell"
+                                                                        ],
+                                                              "scores":  [
+                                                                             33,
+                                                                             26
+                                                                         ],
+                                                              "winner":  "Ransom",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Flanagan",
+                                                                            "Mazon-Verona-Kinsman"
+                                                                        ],
+                                                              "scores":  [
+                                                                             29,
+                                                                             9
+                                                                         ],
+                                                              "winner":  "Flanagan",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Pontiac St. Mary\u0027s",
+                                                                            "Ransom"
+                                                                        ],
+                                                              "scores":  [
+                                                                             46,
+                                                                             16
+                                                                         ],
+                                                              "winner":  "Pontiac St. Mary\u0027s",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Flanagan",
+                                                                            "Pontiac St. Mary\u0027s"
+                                                                        ],
+                                                              "scores":  [
+                                                                             25,
+                                                                             31
+                                                                         ],
+                                                              "winner":  "Pontiac St. Mary\u0027s",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=4",
+                                       "host":  "Pontiac St. Mary\u0027s",
+                                       "missingSeed":  null
+                                   },
+                             "5":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Washington St. Patrick"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Bartonville Monroe"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "East Peoria Robein"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Lowpoint-Washburn"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Bartonville GS"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Washington St. Patrick",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Washington St. Patrick",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Lowpoint-Washburn",
+                                                                            "Bartonville GS"
+                                                                        ],
+                                                              "scores":  [
+                                                                             32,
+                                                                             21
+                                                                         ],
+                                                              "winner":  "Lowpoint-Washburn",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Bartonville Monroe",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Bartonville Monroe",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "East Peoria Robein",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "East Peoria Robein",
+                                                              "bye":  true
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Washington St. Patrick",
+                                                                            "Lowpoint-Washburn"
+                                                                        ],
+                                                              "scores":  [
+                                                                             35,
+                                                                             26
+                                                                         ],
+                                                              "winner":  "Washington St. Patrick",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Bartonville Monroe",
+                                                                            "East Peoria Robein"
+                                                                        ],
+                                                              "scores":  [
+                                                                             42,
+                                                                             29
+                                                                         ],
+                                                              "winner":  "Bartonville Monroe",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Washington St. Patrick",
+                                                                            "Bartonville Monroe"
+                                                                        ],
+                                                              "scores":  [
+                                                                             32,
+                                                                             25
+                                                                         ],
+                                                              "winner":  "Washington St. Patrick",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=5",
+                                       "host":  "Washington St. Patrick",
+                                       "missingSeed":  null
+                                   },
+                             "6":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Hartsburg-Emden"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Normal Epiphany"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Pekin Rankin"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "South Pekin"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Morton Blessed Sacrament"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Normal Calvary"
+                                                     },
+                                                     {
+                                                         "seed":  7,
+                                                         "team":  "Bloomington St. Mary\u0027s"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Hartsburg-Emden",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Hartsburg-Emden",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "South Pekin",
+                                                                            "Morton Blessed Sacrament"
+                                                                        ],
+                                                              "scores":  [
+                                                                             21,
+                                                                             25
+                                                                         ],
+                                                              "winner":  "Morton Blessed Sacrament",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Normal Epiphany",
+                                                                            "Bloomington St. Mary\u0027s"
+                                                                        ],
+                                                              "scores":  [
+                                                                             41,
+                                                                             5
+                                                                         ],
+                                                              "winner":  "Normal Epiphany",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Pekin Rankin",
+                                                                            "Normal Calvary"
+                                                                        ],
+                                                              "scores":  [
+                                                                             36,
+                                                                             26
+                                                                         ],
+                                                              "winner":  "Pekin Rankin",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Hartsburg-Emden",
+                                                                            "Morton Blessed Sacrament"
+                                                                        ],
+                                                              "scores":  [
+                                                                             35,
+                                                                             18
+                                                                         ],
+                                                              "winner":  "Hartsburg-Emden",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Normal Epiphany",
+                                                                            "Pekin Rankin"
+                                                                        ],
+                                                              "scores":  [
+                                                                             36,
+                                                                             24
+                                                                         ],
+                                                              "winner":  "Normal Epiphany",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Hartsburg-Emden",
+                                                                            "Normal Epiphany"
+                                                                        ],
+                                                              "scores":  [
+                                                                             32,
+                                                                             35
+                                                                         ],
+                                                              "winner":  "Normal Epiphany",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=6",
+                                       "host":  "Hartsburg-Emden",
+                                       "missingSeed":  null
+                                   },
+                             "7":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Kewanee Visitation"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Cambridge JHS"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Monmouth ICS"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Williamsfield"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Annawan"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Woodhull AlWood"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Kewanee Visitation",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Kewanee Visitation",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Williamsfield",
+                                                                            "Annawan"
+                                                                        ],
+                                                              "scores":  [
+                                                                             26,
+                                                                             14
+                                                                         ],
+                                                              "winner":  "Williamsfield",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Cambridge JHS",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Cambridge JHS",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Monmouth ICS",
+                                                                            "Woodhull AlWood"
+                                                                        ],
+                                                              "scores":  [
+                                                                             38,
+                                                                             17
+                                                                         ],
+                                                              "winner":  "Monmouth ICS",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Kewanee Visitation",
+                                                                            "Williamsfield"
+                                                                        ],
+                                                              "scores":  [
+                                                                             38,
+                                                                             10
+                                                                         ],
+                                                              "winner":  "Kewanee Visitation",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Cambridge JHS",
+                                                                            "Monmouth ICS"
+                                                                        ],
+                                                              "scores":  [
+                                                                             20,
+                                                                             32
+                                                                         ],
+                                                              "winner":  "Monmouth ICS",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Kewanee Visitation",
+                                                                            "Monmouth ICS"
+                                                                        ],
+                                                              "scores":  [
+                                                                             49,
+                                                                             25
+                                                                         ],
+                                                              "winner":  "Kewanee Visitation",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=7",
+                                       "host":  "Williamsfield",
+                                       "missingSeed":  null
+                                   },
+                             "8":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Peoria Limestone Walters"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Peoria Hollis"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "La Harpe"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Peoria Holy Family"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Peoria Limestone Walters",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Peoria Limestone Walters",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Peoria Holy Family",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Peoria Holy Family",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Peoria Hollis",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Peoria Hollis",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "La Harpe",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "La Harpe",
+                                                              "bye":  true
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Peoria Limestone Walters",
+                                                                            "Peoria Holy Family"
+                                                                        ],
+                                                              "scores":  [
+                                                                             40,
+                                                                             2
+                                                                         ],
+                                                              "winner":  "Peoria Limestone Walters",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Peoria Hollis",
+                                                                            "La Harpe"
+                                                                        ],
+                                                              "scores":  [
+                                                                             20,
+                                                                             33
+                                                                         ],
+                                                              "winner":  "La Harpe",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Peoria Limestone Walters",
+                                                                            "La Harpe"
+                                                                        ],
+                                                              "scores":  [
+                                                                             39,
+                                                                             22
+                                                                         ],
+                                                              "winner":  "Peoria Limestone Walters",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=8",
+                                       "host":  "La Harpe",
+                                       "missingSeed":  null
+                                   },
+                             "9":  {
+                                       "seeds":  [
+                                                     {
+                                                         "seed":  1,
+                                                         "team":  "Royal Prairieview Ogden"
+                                                     },
+                                                     {
+                                                         "seed":  2,
+                                                         "team":  "Danville Schlarman"
+                                                     },
+                                                     {
+                                                         "seed":  3,
+                                                         "team":  "Potomac"
+                                                     },
+                                                     {
+                                                         "seed":  4,
+                                                         "team":  "Chrisman Scottland"
+                                                     },
+                                                     {
+                                                         "seed":  5,
+                                                         "team":  "Hume Shiloh"
+                                                     },
+                                                     {
+                                                         "seed":  6,
+                                                         "team":  "Homer Heritage"
+                                                     }
+                                                 ],
+                                       "rounds":  [
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Royal Prairieview Ogden",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Royal Prairieview Ogden",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Chrisman Scottland",
+                                                                            "Hume Shiloh"
+                                                                        ],
+                                                              "scores":  [
+                                                                             40,
+                                                                             27
+                                                                         ],
+                                                              "winner":  "Chrisman Scottland",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Danville Schlarman",
+                                                                            null
+                                                                        ],
+                                                              "scores":  [
+                                                                             null,
+                                                                             null
+                                                                         ],
+                                                              "winner":  "Danville Schlarman",
+                                                              "bye":  true
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Potomac",
+                                                                            "Homer Heritage"
+                                                                        ],
+                                                              "scores":  [
+                                                                             46,
+                                                                             9
+                                                                         ],
+                                                              "winner":  "Potomac",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Royal Prairieview Ogden",
+                                                                            "Chrisman Scottland"
+                                                                        ],
+                                                              "scores":  [
+                                                                             36,
+                                                                             18
+                                                                         ],
+                                                              "winner":  "Royal Prairieview Ogden",
+                                                              "bye":  false
+                                                          },
+                                                          {
+                                                              "teams":  [
+                                                                            "Danville Schlarman",
+                                                                            "Potomac"
+                                                                        ],
+                                                              "scores":  [
+                                                                             38,
+                                                                             36
+                                                                         ],
+                                                              "winner":  "Danville Schlarman",
+                                                              "bye":  false
+                                                          }
+                                                      ],
+                                                      [
+                                                          {
+                                                              "teams":  [
+                                                                            "Royal Prairieview Ogden",
+                                                                            "Danville Schlarman"
+                                                                        ],
+                                                              "scores":  [
+                                                                             37,
+                                                                             26
+                                                                         ],
+                                                              "winner":  "Royal Prairieview Ogden",
+                                                              "bye":  false
+                                                          }
+                                                      ]
+                                                  ],
+                                       "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=9",
+                                       "host":  "Danville Schlarman",
+                                       "missingSeed":  null
+                                   },
+                             "10":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "Rantoul St. Malachy"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Champaign Holy Cross"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Gifford"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "Champaign Next Generation"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "Thomasboro"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Rantoul St. Malachy",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Rantoul St. Malachy",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Champaign Next Generation",
+                                                                             "Thomasboro"
+                                                                         ],
+                                                               "scores":  [
+                                                                              49,
+                                                                              5
+                                                                          ],
+                                                               "winner":  "Champaign Next Generation",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Champaign Holy Cross",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Champaign Holy Cross",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Gifford",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Gifford",
+                                                               "bye":  true
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Rantoul St. Malachy",
+                                                                             "Champaign Next Generation"
+                                                                         ],
+                                                               "scores":  [
+                                                                              49,
+                                                                              31
+                                                                          ],
+                                                               "winner":  "Rantoul St. Malachy",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Champaign Holy Cross",
+                                                                             "Gifford"
+                                                                         ],
+                                                               "scores":  [
+                                                                              24,
+                                                                              31
+                                                                          ],
+                                                               "winner":  "Gifford",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Rantoul St. Malachy",
+                                                                             "Gifford"
+                                                                         ],
+                                                               "scores":  [
+                                                                              49,
+                                                                              26
+                                                                          ],
+                                                               "winner":  "Rantoul St. Malachy",
+                                                               "bye":  false
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=10",
+                                        "host":  "Rantoul St. Malachy",
+                                        "missingSeed":  null
+                                    },
+                             "11":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "Decatur Lutheran"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Decatur Holy Family"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Bement"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "Decatur Garfield Montessori"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "DeLand-Weldon"
+                                                      },
+                                                      {
+                                                          "seed":  6,
+                                                          "team":  "Taylorville VisionWay"
+                                                      },
+                                                      {
+                                                          "seed":  7,
+                                                          "team":  "Decatur Our Lady of Lourdes"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Decatur Lutheran",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Decatur Lutheran",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Decatur Garfield Montessori",
+                                                                             "DeLand-Weldon"
+                                                                         ],
+                                                               "scores":  [
+                                                                              20,
+                                                                              38
+                                                                          ],
+                                                               "winner":  "DeLand-Weldon",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Decatur Holy Family",
+                                                                             "Decatur Our Lady of Lourdes"
+                                                                         ],
+                                                               "scores":  [
+                                                                              31,
+                                                                              15
+                                                                          ],
+                                                               "winner":  "Decatur Holy Family",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Bement",
+                                                                             "Taylorville VisionWay"
+                                                                         ],
+                                                               "scores":  [
+                                                                              23,
+                                                                              44
+                                                                          ],
+                                                               "winner":  "Taylorville VisionWay",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Decatur Lutheran",
+                                                                             "DeLand-Weldon"
+                                                                         ],
+                                                               "scores":  [
+                                                                              46,
+                                                                              30
+                                                                          ],
+                                                               "winner":  "Decatur Lutheran",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Decatur Holy Family",
+                                                                             "Taylorville VisionWay"
+                                                                         ],
+                                                               "scores":  [
+                                                                              26,
+                                                                              45
+                                                                          ],
+                                                               "winner":  "Taylorville VisionWay",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Decatur Lutheran",
+                                                                             "Taylorville VisionWay"
+                                                                         ],
+                                                               "scores":  [
+                                                                              45,
+                                                                              34
+                                                                          ],
+                                                               "winner":  "Decatur Lutheran",
+                                                               "bye":  false
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=11",
+                                        "host":  "Decatur Lutheran",
+                                        "missingSeed":  null
+                                    },
+                             "12":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "Lincoln West Lincoln-Broadwell"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Lincoln Carroll Catholic"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Springfield Calvary"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "Springfield Christian"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "Springfield Little Flower"
+                                                      },
+                                                      {
+                                                          "seed":  6,
+                                                          "team":  "Springfield St. Aloysius"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Lincoln West Lincoln-Broadwell",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Lincoln West Lincoln-Broadwell",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Springfield Christian",
+                                                                             "Springfield Little Flower"
+                                                                         ],
+                                                               "scores":  [
+                                                                              35,
+                                                                              52
+                                                                          ],
+                                                               "winner":  "Springfield Little Flower",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Lincoln Carroll Catholic",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Lincoln Carroll Catholic",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Springfield Calvary",
+                                                                             "Springfield St. Aloysius"
+                                                                         ],
+                                                               "scores":  [
+                                                                              45,
+                                                                              28
+                                                                          ],
+                                                               "winner":  "Springfield Calvary",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Lincoln West Lincoln-Broadwell",
+                                                                             "Springfield Little Flower"
+                                                                         ],
+                                                               "scores":  [
+                                                                              35,
+                                                                              22
+                                                                          ],
+                                                               "winner":  "Lincoln West Lincoln-Broadwell",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Lincoln Carroll Catholic",
+                                                                             "Springfield Calvary"
+                                                                         ],
+                                                               "scores":  [
+                                                                              35,
+                                                                              22
+                                                                          ],
+                                                               "winner":  "Lincoln Carroll Catholic",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Lincoln West Lincoln-Broadwell",
+                                                                             "Lincoln Carroll Catholic"
+                                                                         ],
+                                                               "scores":  [
+                                                                              39,
+                                                                              49
+                                                                          ],
+                                                               "winner":  "Lincoln Carroll Catholic",
+                                                               "bye":  false
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=12",
+                                        "host":  "Springfield Little Flower",
+                                        "missingSeed":  null
+                                    },
+                             "13":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "Newton St. Thomas"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Sigel St. Michael\u0027s"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Effingham Sacred Heart"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "Martinsville"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "Mattoon St. John\u0027s"
+                                                      },
+                                                      {
+                                                          "seed":  6,
+                                                          "team":  "Kansas"
+                                                      },
+                                                      {
+                                                          "seed":  7,
+                                                          "team":  "Windsor"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Newton St. Thomas",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Newton St. Thomas",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Martinsville",
+                                                                             "Mattoon St. John\u0027s"
+                                                                         ],
+                                                               "scores":  [
+                                                                              28,
+                                                                              31
+                                                                          ],
+                                                               "winner":  "Mattoon St. John\u0027s",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Sigel St. Michael\u0027s",
+                                                                             "Windsor"
+                                                                         ],
+                                                               "scores":  [
+                                                                              43,
+                                                                              9
+                                                                          ],
+                                                               "winner":  "Sigel St. Michael\u0027s",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Effingham Sacred Heart",
+                                                                             "Kansas"
+                                                                         ],
+                                                               "scores":  [
+                                                                              21,
+                                                                              23
+                                                                          ],
+                                                               "winner":  "Kansas",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Newton St. Thomas",
+                                                                             "Mattoon St. John\u0027s"
+                                                                         ],
+                                                               "scores":  [
+                                                                              45,
+                                                                              16
+                                                                          ],
+                                                               "winner":  "Newton St. Thomas",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Sigel St. Michael\u0027s",
+                                                                             "Kansas"
+                                                                         ],
+                                                               "scores":  [
+                                                                              47,
+                                                                              10
+                                                                          ],
+                                                               "winner":  "Sigel St. Michael\u0027s",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Newton St. Thomas",
+                                                                             "Sigel St. Michael\u0027s"
+                                                                         ],
+                                                               "scores":  [
+                                                                              30,
+                                                                              24
+                                                                          ],
+                                                               "winner":  "Newton St. Thomas",
+                                                               "bye":  false
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=13",
+                                        "host":  "Sigel St. Michael\u0027s",
+                                        "missingSeed":  null
+                                    },
+                             "14":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "Pana Sacred Heart"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Stewardson-Strasburg"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Ramsey"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "Findlay Okaw Valley"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "Mulberry Grove JHS"
+                                                      },
+                                                      {
+                                                          "seed":  6,
+                                                          "team":  "Pocahontas"
+                                                      },
+                                                      {
+                                                          "seed":  7,
+                                                          "team":  "Sorento"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Pana Sacred Heart",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Pana Sacred Heart",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Findlay Okaw Valley",
+                                                                             "Mulberry Grove JHS"
+                                                                         ],
+                                                               "scores":  [
+                                                                              39,
+                                                                              13
+                                                                          ],
+                                                               "winner":  "Findlay Okaw Valley",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Stewardson-Strasburg",
+                                                                             "Sorento"
+                                                                         ],
+                                                               "scores":  [
+                                                                              69,
+                                                                              5
+                                                                          ],
+                                                               "winner":  "Stewardson-Strasburg",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Ramsey",
+                                                                             "Pocahontas"
+                                                                         ],
+                                                               "scores":  [
+                                                                              35,
+                                                                              24
+                                                                          ],
+                                                               "winner":  "Ramsey",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Pana Sacred Heart",
+                                                                             "Findlay Okaw Valley"
+                                                                         ],
+                                                               "scores":  [
+                                                                              32,
+                                                                              30
+                                                                          ],
+                                                               "winner":  "Pana Sacred Heart",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Stewardson-Strasburg",
+                                                                             "Ramsey"
+                                                                         ],
+                                                               "scores":  [
+                                                                              22,
+                                                                              30
+                                                                          ],
+                                                               "winner":  "Ramsey",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Pana Sacred Heart",
+                                                                             "Ramsey"
+                                                                         ],
+                                                               "scores":  [
+                                                                              49,
+                                                                              24
+                                                                          ],
+                                                               "winner":  "Pana Sacred Heart",
+                                                               "bye":  false
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=14",
+                                        "host":  "Pana Sacred Heart",
+                                        "missingSeed":  null
+                                    },
+                             "15":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "Waverly"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Jacksonville Our Saviour"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Ashland A-C Central"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "Franklin"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "Virginia"
+                                                      },
+                                                      {
+                                                          "seed":  6,
+                                                          "team":  "Greenview"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Waverly",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Waverly",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Franklin",
+                                                                             "Virginia"
+                                                                         ],
+                                                               "scores":  [
+                                                                              41,
+                                                                              16
+                                                                          ],
+                                                               "winner":  "Franklin",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Jacksonville Our Saviour",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Jacksonville Our Saviour",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Ashland A-C Central",
+                                                                             "Greenview"
+                                                                         ],
+                                                               "scores":  [
+                                                                              34,
+                                                                              8
+                                                                          ],
+                                                               "winner":  "Ashland A-C Central",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Waverly",
+                                                                             "Franklin"
+                                                                         ],
+                                                               "scores":  [
+                                                                              48,
+                                                                              24
+                                                                          ],
+                                                               "winner":  "Waverly",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Jacksonville Our Saviour",
+                                                                             "Ashland A-C Central"
+                                                                         ],
+                                                               "scores":  [
+                                                                              30,
+                                                                              27
+                                                                          ],
+                                                               "winner":  "Jacksonville Our Saviour",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Waverly",
+                                                                             "Jacksonville Our Saviour"
+                                                                         ],
+                                                               "scores":  [
+                                                                              29,
+                                                                              25
+                                                                          ],
+                                                               "winner":  "Waverly",
+                                                               "bye":  false
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=15",
+                                        "host":  "Jacksonville Our Saviour",
+                                        "missingSeed":  null
+                                    },
+                             "16":  {
+                                        "seeds":  [
+                                                      {
+                                                          "seed":  1,
+                                                          "team":  "Griggsville-Perry"
+                                                      },
+                                                      {
+                                                          "seed":  2,
+                                                          "team":  "Lovejoy"
+                                                      },
+                                                      {
+                                                          "seed":  3,
+                                                          "team":  "Brussels"
+                                                      },
+                                                      {
+                                                          "seed":  4,
+                                                          "team":  "Carrollton St. John"
+                                                      },
+                                                      {
+                                                          "seed":  5,
+                                                          "team":  "Bluffs"
+                                                      },
+                                                      {
+                                                          "seed":  6,
+                                                          "team":  "Pleasant Hill"
+                                                      }
+                                                  ],
+                                        "rounds":  [
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Griggsville-Perry",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Griggsville-Perry",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Carrollton St. John",
+                                                                             "Bluffs"
+                                                                         ],
+                                                               "scores":  [
+                                                                              31,
+                                                                              26
+                                                                          ],
+                                                               "winner":  "Carrollton St. John",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Lovejoy",
+                                                                             null
+                                                                         ],
+                                                               "scores":  [
+                                                                              null,
+                                                                              null
+                                                                          ],
+                                                               "winner":  "Lovejoy",
+                                                               "bye":  true
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Brussels",
+                                                                             "Pleasant Hill"
+                                                                         ],
+                                                               "scores":  [
+                                                                              49,
+                                                                              11
+                                                                          ],
+                                                               "winner":  "Brussels",
+                                                               "bye":  false
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Griggsville-Perry",
+                                                                             "Carrollton St. John"
+                                                                         ],
+                                                               "scores":  [
+                                                                              57,
+                                                                              27
+                                                                          ],
+                                                               "winner":  "Griggsville-Perry",
+                                                               "bye":  false
+                                                           },
+                                                           {
+                                                               "teams":  [
+                                                                             "Lovejoy",
+                                                                             "Brussels"
+                                                                         ],
+                                                               "scores":  [
+                                                                              0,
+                                                                              2
+                                                                          ],
+                                                               "winner":  "Brussels",
+                                                               "bye":  false,
+                                                               "annotation":  "FORFEIT"
+                                                           }
+                                                       ],
+                                                       [
+                                                           {
+                                                               "teams":  [
+                                                                             "Griggsville-Perry",
+                                                                             "Brussels"
+                                                                         ],
+                                                               "scores":  [
+                                                                              34,
+                                                                              20
+                                                                          ],
+                                                               "winner":  "Griggsville-Perry",
+                                                               "bye":  false
+                                                           }
+                                                       ]
+                                                   ],
+                                        "sourceUrl":  "https://www.iesa.org/activities/bbk/brackets_Regional_7.asp?Year=2019\u0026Class=7-1A\u0026Regional=16",
+                                        "host":  "Griggsville-Perry",
+                                        "missingSeed":  null
+                                    }
+                         }
+};

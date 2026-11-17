@@ -1,0 +1,381 @@
+﻿{
+    "year":  2027,
+    "grade":  "8th",
+    "className":  "2A",
+    "archived":  false,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Ford Heights Cottage Grove UGC",
+                          "teams":  [
+                                        "Ford Heights Cottage Grove UGC",
+                                        "Great Lakes Learn 6",
+                                        "Hazel Crest Jesse White",
+                                        "Lynwood Sandridge",
+                                        "Markham Obama",
+                                        "Morton Grove MCC",
+                                        "Orland Park St. Michael"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Joliet Laraway",
+                          "teams":  [
+                                        "Aurora Christian",
+                                        "Burr Ridge MS",
+                                        "Joliet Laraway",
+                                        "Lockport Kelvin Grove",
+                                        "Rockford Barbour",
+                                        "Rockford Montessori",
+                                        "Somonauk",
+                                        "Waterman Indian Creek"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "McNabb Putnam County",
+                          "teams":  [
+                                        "LaSalle St. Acutis",
+                                        "Manlius Bureau Valley JHS",
+                                        "McNabb Putnam County",
+                                        "Oglesby Washington",
+                                        "Roanoke-Benson",
+                                        "Sparland Midland",
+                                        "Wenona Fieldcrest"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Kewanee Wethersfield",
+                          "teams":  [
+                                        "Brimfield",
+                                        "Cambridge JHS",
+                                        "Elmwood",
+                                        "Kewanee Wethersfield",
+                                        "Knoxville JHS",
+                                        "Mossville",
+                                        "Princeville",
+                                        "Toulon Stark County"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Dwight",
+                          "teams":  [
+                                        "Bourbonnais St. George",
+                                        "Dwight",
+                                        "Kankakee Bishop McNamara",
+                                        "Marseilles ES",
+                                        "Ottawa Wallace",
+                                        "Seneca",
+                                        "Serena",
+                                        "Streator Woodland"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Champaign St. Matthew",
+                          "teams":  [
+                                        "Bismarck-Henning",
+                                        "Champaign St. Matthew",
+                                        "Colfax Ridgeview",
+                                        "Fisher",
+                                        "LeRoy",
+                                        "Lexington",
+                                        "Mansfield Blue Ridge IJHS"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Mason City Illini Central",
+                          "teams":  [
+                                        "Bloomington Cornerstone",
+                                        "Bloomington Corpus Christi",
+                                        "Green Valley Midwest Central",
+                                        "Mason City Illini Central",
+                                        "Normal Epiphany",
+                                        "Normal Metcalf",
+                                        "Washington Beverly Manor"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Glasford Illini Bluffs",
+                          "teams":  [
+                                        "Creve Coeur Parkview",
+                                        "Glasford Illini Bluffs",
+                                        "Marquette Heights Georgetowne",
+                                        "Peoria Christian",
+                                        "Peoria Heights GS",
+                                        "Peoria St. Philomena",
+                                        "Peoria St. Vincent de Paul (Co-op)"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Bushnell-Prairie City",
+                          "teams":  [
+                                        "Bushnell-Prairie City",
+                                        "Colchester West Prairie",
+                                        "Cuba (Co-op)",
+                                        "Havana",
+                                        "Lewistown JHS",
+                                        "Stronghurst West Central",
+                                        "Table Grove VIT (Co-op)"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Mt. Sterling Brown County (Co-op)",
+                          "teams":  [
+                                        "Augusta Southeastern",
+                                        "Carthage",
+                                        "Hamilton ES",
+                                        "Liberty",
+                                        "Mendon Unity",
+                                        "Mt. Sterling Brown County (Co-op)",
+                                        "Nauvoo-Colusa"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Stewardson-Strasburg (Co-op)",
+                          "teams":  [
+                                        "Arcola",
+                                        "Cowden-Herrick (Co-op)",
+                                        "Findlay Okaw Valley",
+                                        "Mattoon St. John\u0027s",
+                                        "Neoga",
+                                        "Paris Crestwood",
+                                        "Stewardson-Strasburg (Co-op)",
+                                        "Villa Grove"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "St. Elmo (Co-op)",
+                          "teams":  [
+                                        "Altamont",
+                                        "Casey-Westfield",
+                                        "Dieterich",
+                                        "Effingham St. Anthony",
+                                        "Kinmundy South Central (Co-op)",
+                                        "Oblong",
+                                        "St. Elmo (Co-op)"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "TBD",
+                          "teams":  [
+                                        "Argenta-Oreana",
+                                        "Cerro Gordo (Co-op)",
+                                        "Decatur Dansby",
+                                        "Decatur Hope",
+                                        "Decatur Montessori Academy for Peace",
+                                        "Decatur Our Lady of Lourdes (Co-op)",
+                                        "Decatur Robertson",
+                                        "Mt. Pulaski (Co-op)"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Buffalo Tri-City",
+                          "teams":  [
+                                        "Assumption Central A \u0026 M",
+                                        "Buffalo Tri-City",
+                                        "Illiopolis Sangamon Valley",
+                                        "Kincaid South Fork (Co-op)",
+                                        "Macon Meridian",
+                                        "Morrisonville JHS (Co-op)",
+                                        "Nokomis JHS (Co-op)"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Waverly JHS (Co-op)",
+                          "teams":  [
+                                        "Concord Triopia (Co-op)",
+                                        "New Berlin JHS",
+                                        "Pawnee",
+                                        "Springfield Blessed Sacrament",
+                                        "Springfield Christ the King",
+                                        "Springfield Christian",
+                                        "Springfield Little Flower (Co-op)",
+                                        "Waverly JHS (Co-op)"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Hardin Calhoun (Co-op)",
+                          "teams":  [
+                                        "Bunker Hill Wolf Ridge",
+                                        "East St. Louis Younge",
+                                        "Greenfield (Co-op)",
+                                        "Hardin Calhoun (Co-op)",
+                                        "Madison",
+                                        "Maryville Christian",
+                                        "Winchester (Co-op)",
+                                        "Wood River Lewis \u0026 Clark"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Ford Heights Cottage Grove UGC",
+                           "date":  "Monday, February 1, 2027, 6:00 PM"
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Kewanee Wethersfield",
+                           "date":  "Monday, February 1, 2027, 6:00 PM"
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Dwight",
+                           "date":  "Monday, February 1, 2027, 6:00 PM"
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Glasford Illini Bluffs",
+                           "date":  "Monday, February 1, 2027, 6:00 PM"
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Liberty",
+                           "date":  "Monday, February 1, 2027, 6:00 PM"
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Effingham St. Anthony",
+                           "date":  "Monday, February 1, 2027, 6:00 PM"
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Buffalo Tri-City",
+                           "date":  "Monday, February 1, 2027, 6:00 PM"
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Waverly JHS",
+                           "date":  "Monday, February 1, 2027, 6:00 PM"
+                       }
+                   ],
+    "venue":  "Brimfield HS",
+    "stateDate":  "February 6 \u0026 11, 2027",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              2,
+                                              8
+                                          ],
+                              "date":  "February 6, 2027",
+                              "time":  "10:00 AM"
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              1,
+                                              7
+                                          ],
+                              "date":  "February 6, 2027",
+                              "time":  "11:30 AM"
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              3,
+                                              6
+                                          ],
+                              "date":  "February 6, 2027",
+                              "time":  "1:00 PM"
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              5,
+                                              4
+                                          ],
+                              "date":  "February 6, 2027",
+                              "time":  "2:30 PM"
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "February 6, 2027",
+                           "time":  "5:00 PM"
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "February 6, 2027",
+                           "time":  "6:30 PM"
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "February 11, 2027",
+                       "time":  "6:00 PM"
+                   },
+    "championship":  {
+                         "date":  "February 11, 2027",
+                         "time":  "7:30 PM"
+                     }
+}

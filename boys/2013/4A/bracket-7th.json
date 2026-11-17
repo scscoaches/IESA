@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:43",
+    "year":  2013,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Edwardsville Lincoln",
+                                 "loser":  "Alton",
+                                 "score":  "31-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Frankfort Hickory Creek",
+                                "loser":  "Manteno",
+                                "score":  "30-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "Yorkville",
+                                "loser":  "Shorewood Troy",
+                                "score":  "61-57",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Champaign Franklin",
+                                 "loser":  "Monticello",
+                                 "score":  "36-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Morton JHS",
+                                 "score":  "41-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Markham Prairie-Hills",
+                                "loser":  "Harvey Brooks",
+                                "score":  "35-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Rockford Flinn",
+                                "loser":  "Rockford West",
+                                "score":  "42-40",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Danville North Ridge",
+                                 "loser":  "Urbana MS",
+                                 "score":  "54-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Park Forest Forest Trail",
+                                "loser":  "Matteson Colin Powell",
+                                "score":  "56-53",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Chiddix",
+                                "loser":  "Stanford Olympia",
+                                "score":  "35-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Springfield Jefferson",
+                                 "loser":  "Springfield Washington",
+                                 "score":  "48-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "Bellwood Roosevelt",
+                                "loser":  "Woodridge Jefferson",
+                                "score":  "44-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "East St. Louis Lincoln",
+                                 "loser":  "East St. Louis Clark",
+                                 "score":  "62-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "Minooka",
+                                "loser":  "Channahon",
+                                "score":  "37-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "New Lenox Martino",
+                                "loser":  "Homer Glen Homer",
+                                "score":  "41-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Taylorville JHS",
+                                 "loser":  "Chatham Glenwood",
+                                 "score":  "43-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Edwardsville Lincoln",
+                                               "record":  "18-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Frankfort Hickory Creek",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Yorkville",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Champaign Franklin",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Canton Ingersoll",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Markham Prairie-Hills",
+                                              "record":  "11-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Rockford Flinn",
+                                              "record":  "14-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Danville North Ridge",
+                                               "record":  "17-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Park Forest Forest Trail",
+                                              "record":  "23-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Chiddix",
+                                              "record":  "17-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Springfield Jefferson",
+                                               "record":  "10-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Bellwood Roosevelt",
+                                              "record":  "13-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "East St. Louis Lincoln",
+                                               "record":  "17-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Minooka",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "New Lenox Martino",
+                                              "record":  "15-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Taylorville JHS",
+                                               "record":  "21-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Springfield Jefferson",
+                                 "loser":  "Taylorville JHS",
+                                 "score":  "49-47",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Minooka",
+                                 "loser":  "Yorkville",
+                                 "score":  "38-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "New Lenox Martino",
+                                 "loser":  "Frankfort Hickory Creek",
+                                 "score":  "35-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Park Forest Forest Trail",
+                                 "loser":  "Markham Prairie-Hills",
+                                 "score":  "48-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Bellwood Roosevelt",
+                                 "loser":  "Rockford Flinn",
+                                 "score":  "44-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Champaign Franklin",
+                                 "loser":  "Danville North Ridge",
+                                 "score":  "46-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Canton Ingersoll",
+                                 "loser":  "Normal Chiddix",
+                                 "score":  "44-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "East St. Louis Lincoln",
+                                 "loser":  "Edwardsville Lincoln",
+                                 "score":  "37-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           2
+                                       ],
+                                 "4":  [
+                                           7,
+                                           6
+                                       ],
+                                 "1":  [
+                                           4,
+                                           1
+                                       ],
+                                 "3":  [
+                                           3,
+                                           5
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Park Forest Forest Trail",
+                                          "Canton Ingersoll"
+                                      ],
+                            "scores":  [
+                                           58,
+                                           32
+                                       ],
+                            "winner":  "Park Forest Forest Trail",
+                            "loser":  "Canton Ingersoll",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Minooka",
+                                          "Canton Ingersoll"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           51
+                                       ],
+                            "winner":  "Canton Ingersoll",
+                            "loser":  "Minooka",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "East St. Louis Lincoln",
+                                          "New Lenox Martino"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           22
+                                       ],
+                            "winner":  "East St. Louis Lincoln",
+                            "loser":  "New Lenox Martino",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Bellwood Roosevelt",
+                                          "Park Forest Forest Trail"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           60
+                                       ],
+                            "winner":  "Park Forest Forest Trail",
+                            "loser":  "Bellwood Roosevelt",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Springfield Jefferson",
+                                          "Champaign Franklin"
+                                      ],
+                            "scores":  [
+                                           20,
+                                           35
+                                       ],
+                            "winner":  "Champaign Franklin",
+                            "loser":  "Springfield Jefferson",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Canton Ingersoll",
+                                          "Champaign Franklin"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           43
+                                       ],
+                            "winner":  "Champaign Franklin",
+                            "loser":  "Canton Ingersoll",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Park Forest Forest Trail",
+                                          "East St. Louis Lincoln"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           50
+                                       ],
+                            "winner":  "East St. Louis Lincoln",
+                            "loser":  "Park Forest Forest Trail",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "East St. Louis Lincoln",
+                                          "Champaign Franklin"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           28
+                                       ],
+                            "winner":  "East St. Louis Lincoln",
+                            "loser":  "Champaign Franklin",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-4A"
+                        }
+              }
+}

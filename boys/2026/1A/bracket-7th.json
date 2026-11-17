@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:09",
+    "year":  2026,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Carrollton St. John",
+                                 "loser":  "Madison",
+                                 "score":  "30-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Mendota Holy Cross",
+                                "loser":  "Ottawa Marquette",
+                                "score":  "29-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Piper City Tri-Point",
+                                "loser":  "Rossville-Alvin",
+                                "score":  "20-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Decatur Unity",
+                                 "loser":  "Champaign Next Generation",
+                                 "score":  "58-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Peoria Limestone Walters",
+                                 "loser":  "Bartonville Oak Grove",
+                                 "score":  "54-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Ransom",
+                                "loser":  "Marseilles Milton Pope",
+                                "score":  "43-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Delavan",
+                                "loser":  "Spring Bay Riverview",
+                                "score":  "37-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Hume Shiloh",
+                                 "loser":  "Philo St. Thomas",
+                                 "score":  "48-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Chicago St. Helen",
+                                "loser":  "Grant Park",
+                                "score":  "43-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Peoria Christian",
+                                "loser":  "Peoria Heights St. Thomas",
+                                "score":  "40-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Kinderhook Western",
+                                 "loser":  "Griggsville-Perry",
+                                 "score":  "18-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Bloomington Trinity Lutheran",
+                                "score":  "31-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Altamont Lutheran",
+                                 "score":  "36-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Rantoul St. Malachy",
+                                "loser":  "Potomac",
+                                "score":  "31-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "Annawan",
+                                "loser":  "Galesburg Costa",
+                                "score":  "60-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Springfield Christ the King",
+                                 "score":  "39-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Carrollton St. John",
+                                               "record":  "20-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Mendota Holy Cross",
+                                              "record":  "10-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Piper City Tri-Point",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Decatur Unity",
+                                               "record":  "19-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Peoria Limestone Walters",
+                                               "record":  "25-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ransom",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Delavan",
+                                              "record":  "13-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Hume Shiloh",
+                                               "record":  "14-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Chicago St. Helen",
+                                              "record":  "9-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Peoria Christian",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Kinderhook Western",
+                                               "record":  "17-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Pontiac St. Mary\u0027s",
+                                              "record":  "20-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Pana Sacred Heart",
+                                               "record":  "22-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Rantoul St. Malachy",
+                                              "record":  "12-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Annawan",
+                                              "record":  "15-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Lincoln West Lincoln-Broadwell",
+                                               "record":  "22-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Lincoln West Lincoln-Broadwell",
+                                 "loser":  "Kinderhook Western",
+                                 "score":  "41-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Rantoul St. Malachy",
+                                 "loser":  "Piper City Tri-Point",
+                                 "score":  "29-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Annawan",
+                                 "loser":  "Mendota Holy Cross",
+                                 "score":  "51-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Chicago St. Helen",
+                                 "loser":  "Ransom",
+                                 "score":  "55-48",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Pontiac St. Mary\u0027s",
+                                 "loser":  "Delavan",
+                                 "score":  "41-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Decatur Unity",
+                                 "loser":  "Hume Shiloh",
+                                 "score":  "47-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Peoria Christian",
+                                 "loser":  "Peoria Limestone Walters",
+                                 "score":  "49-45",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Carrollton St. John",
+                                 "score":  "35-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           6
+                                       ],
+                                 "4":  [
+                                           4,
+                                           2
+                                       ],
+                                 "1":  [
+                                           1,
+                                           5
+                                       ],
+                                 "3":  [
+                                           3,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Peoria Christian",
+                                          "Annawan"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           35
+                                       ],
+                            "winner":  "Peoria Christian",
+                            "loser":  "Annawan",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Rantoul St. Malachy",
+                                          "Pana Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           13,
+                                           50
+                                       ],
+                            "winner":  "Pana Sacred Heart",
+                            "loser":  "Rantoul St. Malachy",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Lincoln West Lincoln-Broadwell",
+                                          "Decatur Unity"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           46
+                                       ],
+                            "winner":  "Decatur Unity",
+                            "loser":  "Lincoln West Lincoln-Broadwell",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Chicago St. Helen",
+                                          "Peoria Christian"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           48
+                                       ],
+                            "winner":  "Peoria Christian",
+                            "loser":  "Chicago St. Helen",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Pontiac St. Mary\u0027s",
+                                          "Annawan"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           40
+                                       ],
+                            "winner":  "Annawan",
+                            "loser":  "Pontiac St. Mary\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Pana Sacred Heart",
+                                          "Annawan"
+                                      ],
+                            "scores":  [
+                                           63,
+                                           32
+                                       ],
+                            "winner":  "Pana Sacred Heart",
+                            "loser":  "Annawan",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Peoria Christian",
+                                          "Decatur Unity"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           42
+                                       ],
+                            "winner":  "Decatur Unity",
+                            "loser":  "Peoria Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Decatur Unity",
+                                          "Pana Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           34
+                                       ],
+                            "winner":  "Decatur Unity",
+                            "loser":  "Pana Sacred Heart",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-1A"
+                        }
+              }
+}

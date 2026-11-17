@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:46",
+    "year":  2012,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Alton",
+                                 "loser":  "Piasa Southwestern",
+                                 "score":  "36-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Frankfort Summit Hill",
+                                "loser":  "Homer Glen Homer",
+                                "score":  "24-15",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Bradley Central",
+                                "loser":  "Bourbonnais UGC",
+                                "score":  "45-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Champaign Franklin",
+                                 "loser":  "Rantoul Eater",
+                                 "score":  "31-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Dunlap Valley MS",
+                                 "loser":  "East Peoria Central",
+                                 "score":  "32-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Park Forest Forest Trail",
+                                "loser":  "Matteson Colin Powell",
+                                "score":  "55-45",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "Channahon",
+                                "loser":  "Yorkville",
+                                "score":  "44-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Champaign Edison",
+                                 "loser":  "Effingham JHS",
+                                 "score":  "52-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Chicago Heights Washington",
+                                "loser":  "Phoenix Coolidge",
+                                "score":  "36-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Kingsley",
+                                "loser":  "Normal Parkside",
+                                "score":  "45-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Springfield Jefferson",
+                                 "loser":  "Springfield Franklin",
+                                 "score":  "45-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "Braidwood Reed-Custer",
+                                "loser":  "Forrest Prairie Central",
+                                "score":  "34-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "East St. Louis Clark",
+                                 "loser":  "Cahokia Wirth",
+                                 "score":  "45-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "New Lenox Liberty",
+                                "loser":  "Joliet Washington",
+                                "score":  "49-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Bolingbrook Jane Addams",
+                                "loser":  "Bellwood Roosevelt",
+                                "score":  "48-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Taylorville JHS",
+                                 "loser":  "Springfield Lincoln",
+                                 "score":  "53-52",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Alton",
+                                               "record":  "11-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Frankfort Summit Hill",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Bradley Central",
+                                              "record":  "16-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Champaign Franklin",
+                                               "record":  "13-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Dunlap Valley MS",
+                                               "record":  "19-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Park Forest Forest Trail",
+                                              "record":  "23-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Channahon",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Champaign Edison",
+                                               "record":  "17-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Chicago Heights Washington",
+                                              "record":  "11-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Kingsley",
+                                              "record":  "22-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Springfield Jefferson",
+                                               "record":  "12-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Braidwood Reed-Custer",
+                                              "record":  "19-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "East St. Louis Clark",
+                                               "record":  "17-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "New Lenox Liberty",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Bolingbrook Jane Addams",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Taylorville JHS",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=8-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Taylorville JHS",
+                                 "loser":  "Springfield Jefferson",
+                                 "score":  "44-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=8-4A"
+                             },
+                       "3":  {
+                                 "winner":  "New Lenox Liberty",
+                                 "loser":  "Bradley Central",
+                                 "score":  "37-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=8-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Bolingbrook Jane Addams",
+                                 "loser":  "Frankfort Summit Hill",
+                                 "score":  "48-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=8-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Park Forest Forest Trail",
+                                 "loser":  "Chicago Heights Washington",
+                                 "score":  "54-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=8-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Channahon",
+                                 "loser":  "Braidwood Reed-Custer",
+                                 "score":  "50-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=8-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Champaign Edison",
+                                 "loser":  "Champaign Franklin",
+                                 "score":  "46-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=8-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Normal Kingsley",
+                                 "loser":  "Dunlap Valley MS",
+                                 "score":  "35-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=8-4A"
+                             },
+                       "8":  {
+                                 "winner":  "East St. Louis Clark",
+                                 "loser":  "Alton",
+                                 "score":  "35-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=8-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           6
+                                       ],
+                                 "4":  [
+                                           2,
+                                           1
+                                       ],
+                                 "1":  [
+                                           4,
+                                           5
+                                       ],
+                                 "3":  [
+                                           7,
+                                           3
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "East St. Louis Clark",
+                                          "New Lenox Liberty"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           23
+                                       ],
+                            "winner":  "East St. Louis Clark",
+                            "loser":  "New Lenox Liberty",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Taylorville JHS",
+                                          "New Lenox Liberty"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           41
+                                       ],
+                            "winner":  "New Lenox Liberty",
+                            "loser":  "Taylorville JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "East St. Louis Clark",
+                                          "Champaign Edison"
+                                      ],
+                            "scores":  [
+                                           55,
+                                           36
+                                       ],
+                            "winner":  "East St. Louis Clark",
+                            "loser":  "Champaign Edison",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Channahon",
+                                          "Normal Kingsley"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           57
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "Channahon",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Bolingbrook Jane Addams",
+                                          "Park Forest Forest Trail"
+                                      ],
+                            "scores":  [
+                                           59,
+                                           43
+                                       ],
+                            "winner":  "Bolingbrook Jane Addams",
+                            "loser":  "Park Forest Forest Trail",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "New Lenox Liberty",
+                                          "Bolingbrook Jane Addams"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           59
+                                       ],
+                            "winner":  "Bolingbrook Jane Addams",
+                            "loser":  "New Lenox Liberty",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Normal Kingsley",
+                                          "East St. Louis Clark"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           29
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "East St. Louis Clark",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Normal Kingsley",
+                                          "Bolingbrook Jane Addams"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           38
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "Bolingbrook Jane Addams",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=8-4A"
+                        }
+              }
+}

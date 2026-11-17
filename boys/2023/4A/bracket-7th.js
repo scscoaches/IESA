@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:18",
+    "year":  2023,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East St. Louis Clark",
+                                 "loser":  "Edwardsville Liberty",
+                                 "score":  "52-45",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Arlington Heights Thomas",
+                                "loser":  "Arlington Heights South",
+                                "score":  "30-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "Phoenix Coolidge",
+                                "loser":  "Calumet City Dolton 149",
+                                "score":  "47-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Dunlap Valley MS",
+                                 "loser":  "Pekin Broadmoor",
+                                 "score":  "41-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Yorkville",
+                                 "loser":  "Minooka",
+                                 "score":  "60-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Rockford Flinn",
+                                "loser":  "Rockford Kennedy",
+                                "score":  "51-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Markham Prairie-Hills",
+                                "loser":  "Frankfort Summit Hill",
+                                "score":  "62-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Morton JHS",
+                                 "loser":  "Bloomington JHS",
+                                 "score":  "19-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Barrington Prairie",
+                                "loser":  "Algonquin Heineman",
+                                "score":  "51-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Bolingbrook Jane Addams",
+                                "loser":  "Joliet Dirksen",
+                                "score":  "55-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Mt. Zion",
+                                 "score":  "46-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "Park Forest Michelle Obama STA",
+                                "loser":  "Flossmoor Parker",
+                                "score":  "39-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Jacksonville MS",
+                                 "score":  "49-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "Homer Glen Homer",
+                                "loser":  "New Lenox Liberty",
+                                "score":  "38-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "Lemont Old Quarry",
+                                "loser":  "Woodridge Jefferson",
+                                "score":  "29-16",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Mahomet-Seymour",
+                                 "loser":  "Danville North Ridge",
+                                 "score":  "49-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "East St. Louis Clark",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Arlington Heights Thomas",
+                                              "record":  "14-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Phoenix Coolidge",
+                                              "record":  "17-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Dunlap Valley MS",
+                                               "record":  "22-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Yorkville",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Rockford Flinn",
+                                              "record":  "17-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Markham Prairie-Hills",
+                                              "record":  "14-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Morton JHS",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Barrington Prairie",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Bolingbrook Jane Addams",
+                                              "record":  "18-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Rochester",
+                                               "record":  "25-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Park Forest Michelle Obama STA",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Chatham Glenwood",
+                                               "record":  "23-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Homer Glen Homer",
+                                              "record":  "15-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Lemont Old Quarry",
+                                              "record":  "14-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Mahomet-Seymour",
+                                               "record":  "24-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=7-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Rochester",
+                                 "loser":  "Mahomet-Seymour",
+                                 "score":  "61-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Phoenix Coolidge",
+                                 "loser":  "Homer Glen Homer",
+                                 "score":  "28-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Lemont Old Quarry",
+                                 "loser":  "Arlington Heights Thomas",
+                                 "score":  "38-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Barrington Prairie",
+                                 "loser":  "Rockford Flinn",
+                                 "score":  "47-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Markham Prairie-Hills",
+                                 "loser":  "Park Forest Michelle Obama STA",
+                                 "score":  "69-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Dunlap Valley MS",
+                                 "loser":  "Morton JHS",
+                                 "score":  "32-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Bolingbrook Jane Addams",
+                                 "loser":  "Yorkville",
+                                 "score":  "48-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "East St. Louis Clark",
+                                 "score":  "50-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           5
+                                       ],
+                                 "4":  [
+                                           8,
+                                           2
+                                       ],
+                                 "1":  [
+                                           3,
+                                           1
+                                       ],
+                                 "3":  [
+                                           6,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Phoenix Coolidge",
+                                          "Chatham Glenwood"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           29
+                                       ],
+                            "winner":  "Chatham Glenwood",
+                            "loser":  "Phoenix Coolidge",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Dunlap Valley MS",
+                                          "Markham Prairie-Hills"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           63
+                                       ],
+                            "winner":  "Markham Prairie-Hills",
+                            "loser":  "Dunlap Valley MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Rochester",
+                                          "Bolingbrook Jane Addams"
+                                      ],
+                            "scores":  [
+                                           53,
+                                           37
+                                       ],
+                            "winner":  "Rochester",
+                            "loser":  "Bolingbrook Jane Addams",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Phoenix Coolidge",
+                                          "Barrington Prairie"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           35
+                                       ],
+                            "winner":  "Phoenix Coolidge",
+                            "loser":  "Barrington Prairie",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Chatham Glenwood",
+                                          "Lemont Old Quarry"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           18
+                                       ],
+                            "winner":  "Chatham Glenwood",
+                            "loser":  "Lemont Old Quarry",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Markham Prairie-Hills",
+                                          "Chatham Glenwood"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           26
+                                       ],
+                            "winner":  "Markham Prairie-Hills",
+                            "loser":  "Chatham Glenwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Phoenix Coolidge",
+                                          "Rochester"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           52
+                                       ],
+                            "winner":  "Rochester",
+                            "loser":  "Phoenix Coolidge",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Rochester",
+                                          "Markham Prairie-Hills"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           48
+                                       ],
+                            "winner":  "Markham Prairie-Hills",
+                            "loser":  "Rochester",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=7-4A"
+                        }
+              }
+};

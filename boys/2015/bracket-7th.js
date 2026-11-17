@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:36",
+    "year":  2015,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Kinderhook Western",
+                                 "score":  "34-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "Normal Metcalf",
+                                "loser":  "Colfax Ridgeview",
+                                "score":  "33-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Peoria St. Vincent de Paul",
+                                "loser":  "Peoria Heights St. Thomas",
+                                "score":  "49-43",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Hamilton",
+                                 "loser":  "Nauvoo-Colusa",
+                                 "score":  "45-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Springfield Blessed Sacrament",
+                                 "loser":  "Springfield St. Agnes",
+                                 "score":  "48-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Bourbonnais St. George",
+                                "loser":  "Gardner",
+                                "score":  "48-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Mansfield Blue Ridge IJHS",
+                                "loser":  "Champaign Holy Cross",
+                                "score":  "28-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Mason City Illini Central",
+                                 "loser":  "Delavan",
+                                 "score":  "32-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Burr Ridge MS",
+                                "loser":  "Ford Heights Cottage Grove UGC",
+                                "score":  "51-40",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur Robertson",
+                                "loser":  "Decatur Johns Hill",
+                                "score":  "56-45",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Assumption Central A \u0026 M",
+                                 "loser":  "Nokomis JHS",
+                                 "score":  "42-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Paris Crestwood",
+                                "loser":  "Catlin",
+                                "score":  "35-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Jerseyville St. Francis HG",
+                                 "loser":  "Madison",
+                                 "score":  "44-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria Pleasant Valley",
+                                "loser":  "Elmwood",
+                                "score":  "55-41",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "Ottawa Wallace",
+                                "loser":  "Grand Ridge",
+                                "score":  "30-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Altamont",
+                                 "score":  "53-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Winchester",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Normal Metcalf",
+                                              "record":  "12-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Peoria St. Vincent de Paul",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Hamilton",
+                                               "record":  "15-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Springfield Blessed Sacrament",
+                                               "record":  "17-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Bourbonnais St. George",
+                                              "record":  "21-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Mansfield Blue Ridge IJHS",
+                                              "record":  "14-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Mason City Illini Central",
+                                               "record":  "13-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Burr Ridge MS",
+                                              "record":  "23-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Decatur Robertson",
+                                              "record":  "14-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Assumption Central A \u0026 M",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Paris Crestwood",
+                                              "record":  "14-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Jerseyville St. Francis HG",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Peoria Pleasant Valley",
+                                              "record":  "14-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Ottawa Wallace",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "19-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Assumption Central A \u0026 M",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "55-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria St. Vincent de Paul",
+                                 "loser":  "Peoria Pleasant Valley",
+                                 "score":  "56-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Ottawa Wallace",
+                                 "loser":  "Normal Metcalf",
+                                 "score":  "39-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Burr Ridge MS",
+                                 "loser":  "Bourbonnais St. George",
+                                 "score":  "46-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Mansfield Blue Ridge IJHS",
+                                 "loser":  "Paris Crestwood",
+                                 "score":  "26-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Hamilton",
+                                 "loser":  "Mason City Illini Central",
+                                 "score":  "44-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Springfield Blessed Sacrament",
+                                 "score":  "44-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Jerseyville St. Francis HG",
+                                 "score":  "38-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           1,
+                                           5
+                                       ],
+                                 "4":  [
+                                           3,
+                                           4
+                                       ],
+                                 "1":  [
+                                           7,
+                                           8
+                                       ],
+                                 "3":  [
+                                           2,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Burr Ridge MS",
+                                          "Ottawa Wallace"
+                                      ],
+                            "scores":  [
+                                           48,
+                                           33
+                                       ],
+                            "winner":  "Burr Ridge MS",
+                            "loser":  "Ottawa Wallace",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Ottawa Wallace",
+                                          "Hamilton"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           37
+                                       ],
+                            "winner":  "Ottawa Wallace",
+                            "loser":  "Hamilton",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Burr Ridge MS",
+                                          "Decatur Robertson"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           21
+                                       ],
+                            "winner":  "Burr Ridge MS",
+                            "loser":  "Decatur Robertson",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Assumption Central A \u0026 M",
+                                          "Winchester"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           34
+                                       ],
+                            "winner":  "Assumption Central A \u0026 M",
+                            "loser":  "Winchester",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Peoria St. Vincent de Paul",
+                                          "Mansfield Blue Ridge IJHS"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           17
+                                       ],
+                            "winner":  "Peoria St. Vincent de Paul",
+                            "loser":  "Mansfield Blue Ridge IJHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Ottawa Wallace",
+                                          "Peoria St. Vincent de Paul"
+                                      ],
+                            "scores":  [
+                                           19,
+                                           42
+                                       ],
+                            "winner":  "Peoria St. Vincent de Paul",
+                            "loser":  "Ottawa Wallace",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Assumption Central A \u0026 M",
+                                          "Burr Ridge MS"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           34
+                                       ],
+                            "winner":  "Assumption Central A \u0026 M",
+                            "loser":  "Burr Ridge MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Assumption Central A \u0026 M",
+                                          "Peoria St. Vincent de Paul"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           55
+                                       ],
+                            "winner":  "Peoria St. Vincent de Paul",
+                            "loser":  "Assumption Central A \u0026 M",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=7-2A"
+                        }
+              }
+};

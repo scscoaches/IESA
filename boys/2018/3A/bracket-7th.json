@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:29",
+    "year":  2018,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Piasa Southwestern",
+                                 "loser":  "Auburn JHS at Divernon",
+                                 "score":  "47-44",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                             },
+                      "3":  {
+                                "winner":  "Metamora GS",
+                                "loser":  "Peru Parkside",
+                                "score":  "37-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                            },
+                      "5":  {
+                                "winner":  "Glenwood Brookwood",
+                                "loser":  "Kankakee Bishop McNamara",
+                                "score":  "61-43",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Quincy St. Peter",
+                                 "score":  "38-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Maroa-Forsyth",
+                                 "loser":  "Monticello",
+                                 "score":  "39-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                             },
+                      "2":  {
+                                "winner":  "Morris Saratoga",
+                                "loser":  "Winfield Wheaton Christian",
+                                "score":  "39-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                            },
+                      "8":  {
+                                "winner":  "Monmouth-Roseville JHS",
+                                "loser":  "Joy Mercer County",
+                                "score":  "37-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Springfield Lincoln",
+                                 "loser":  "Williamsville",
+                                 "score":  "41-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                             },
+                      "1":  {
+                                "winner":  "Calumet Park Calumet",
+                                "loser":  "South Holland McKinley",
+                                "score":  "48-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                            },
+                      "9":  {
+                                "winner":  "Danville Oakwood",
+                                "loser":  "St. Joseph",
+                                "score":  "45-43",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Casey-Westfield",
+                                 "score":  "56-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                             },
+                      "7":  {
+                                "winner":  "Farmington Central",
+                                "loser":  "Dunlap Valley MS",
+                                "score":  "33-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Vandalia",
+                                 "loser":  "Hillsboro",
+                                 "score":  "54-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                             },
+                      "6":  {
+                                "winner":  "Pontiac JHS",
+                                "loser":  "Onarga Iroquois West",
+                                "score":  "33-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                            },
+                      "4":  {
+                                "winner":  "Washington MS",
+                                "loser":  "Germantown Hills",
+                                "score":  "32-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Macon Meridian",
+                                 "loser":  "Arthur",
+                                 "score":  "34-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Piasa Southwestern",
+                                               "record":  "15-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Metamora GS",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Glenwood Brookwood",
+                                              "record":  "11-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Mt. Sterling Brown County",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Maroa-Forsyth",
+                                               "record":  "23-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Morris Saratoga",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Monmouth-Roseville JHS",
+                                              "record":  "19-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Springfield Lincoln",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "Calumet Park Calumet",
+                                              "record":  "15-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Danville Oakwood",
+                                              "record":  "14-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Farmington Central",
+                                              "record":  "24-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Vandalia",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Pontiac JHS",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Washington MS",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Macon Meridian",
+                                               "record":  "15-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=7-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Macon Meridian",
+                                 "score":  "54-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Glenwood Brookwood",
+                                 "loser":  "Pontiac JHS",
+                                 "score":  "39-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Washington MS",
+                                 "loser":  "Metamora GS",
+                                 "score":  "41-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Calumet Park Calumet",
+                                 "loser":  "Morris Saratoga",
+                                 "score":  "50-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Farmington Central",
+                                 "loser":  "Monmouth-Roseville JHS",
+                                 "score":  "36-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Springfield Lincoln",
+                                 "loser":  "Mt. Sterling Brown County",
+                                 "score":  "57-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Maroa-Forsyth",
+                                 "loser":  "Danville Oakwood",
+                                 "score":  "53-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Piasa Southwestern",
+                                 "loser":  "Vandalia",
+                                 "score":  "50-46",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=7-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           1
+                                       ],
+                                 "4":  [
+                                           4,
+                                           8
+                                       ],
+                                 "1":  [
+                                           5,
+                                           3
+                                       ],
+                                 "3":  [
+                                           6,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Glenwood Brookwood",
+                                          "Farmington Central"
+                                      ],
+                            "scores":  [
+                                           55,
+                                           27
+                                       ],
+                            "winner":  "Glenwood Brookwood",
+                            "loser":  "Farmington Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Springfield Lincoln",
+                                          "Washington MS"
+                                      ],
+                            "scores":  [
+                                           48,
+                                           16
+                                       ],
+                            "winner":  "Springfield Lincoln",
+                            "loser":  "Washington MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Calumet Park Calumet"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           31
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Calumet Park Calumet",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Maroa-Forsyth",
+                                          "Glenwood Brookwood"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           54
+                                       ],
+                            "winner":  "Glenwood Brookwood",
+                            "loser":  "Maroa-Forsyth",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Farmington Central",
+                                          "Piasa Southwestern"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           24
+                                       ],
+                            "winner":  "Farmington Central",
+                            "loser":  "Piasa Southwestern",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Springfield Lincoln",
+                                          "Farmington Central"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           27
+                                       ],
+                            "winner":  "Springfield Lincoln",
+                            "loser":  "Farmington Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Glenwood Brookwood",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           60,
+                                           64
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Glenwood Brookwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Springfield Lincoln"
+                                      ],
+                            "scores":  [
+                                           26,
+                                           31
+                                       ],
+                            "winner":  "Springfield Lincoln",
+                            "loser":  "Teutopolis",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=7-3A"
+                        }
+              }
+}

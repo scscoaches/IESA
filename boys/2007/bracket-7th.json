@@ -1,0 +1,280 @@
+﻿{
+    "updatedAt":  "2026-11-17 16:04",
+    "year":  2007,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Lovejoy",
+                                 "loser":  "Pleasant Hill",
+                                 "score":  "29-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Cornell",
+                                "score":  "45-19",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Pekin Rankin",
+                                "loser":  "Bloomington Cornerstone",
+                                "score":  "42-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Bluffs",
+                                 "loser":  "Concord Triopia",
+                                 "score":  null,
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Lincoln Carroll Catholic",
+                                 "loser":  "Hartsburg-Emden",
+                                 "score":  "28-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Cissna Park",
+                                "loser":  "Bourbonnais St. George",
+                                "score":  "34-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Rantoul St. Malachy",
+                                "loser":  "Philo St. Thomas",
+                                "score":  "42-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Franklin",
+                                 "loser":  "Jacksonville Our Saviour",
+                                 "score":  "31-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Lockport Fairmont",
+                                "loser":  "Rockdale",
+                                "score":  "42-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur St. Patrick",
+                                "loser":  "Decatur Holy Family",
+                                "score":  "40-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Beecher City",
+                                 "score":  "34-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Catlin",
+                                "loser":  "Danville St. Paul",
+                                "score":  "30-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Waverly",
+                                 "loser":  "Sorento",
+                                 "score":  "59-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria Limestone Walters",
+                                "loser":  "Bartonville Monroe",
+                                "score":  "29-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "Tonica",
+                                "loser":  "Lowpoint-Washburn",
+                                "score":  "43-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Hutsonville",
+                                 "loser":  "Effingham Sacred Heart",
+                                 "score":  "57-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2007\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Pana Sacred Heart",
+                                 "loser":  "Hutsonville",
+                                 "score":  "39-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria Limestone Walters",
+                                 "loser":  "Pekin Rankin",
+                                 "score":  "43-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Pontiac St. Mary\u0027s",
+                                 "loser":  "Tonica",
+                                 "score":  "50-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Lockport Fairmont",
+                                 "loser":  "Cissna Park",
+                                 "score":  "42-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Catlin",
+                                 "loser":  "Rantoul St. Malachy",
+                                 "score":  "50-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Franklin",
+                                 "loser":  "Bluffs",
+                                 "score":  "46-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Decatur St. Patrick",
+                                 "loser":  "Lincoln Carroll Catholic",
+                                 "score":  "31-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Lovejoy",
+                                 "loser":  "Waverly",
+                                 "score":  "36-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2007\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           3
+                                       ],
+                                 "4":  [
+                                           4,
+                                           8
+                                       ],
+                                 "1":  [
+                                           2,
+                                           5
+                                       ],
+                                 "3":  [
+                                           1,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Pontiac St. Mary\u0027s",
+                                          "Lovejoy"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           42
+                                       ],
+                            "winner":  "Lovejoy",
+                            "loser":  "Pontiac St. Mary\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Lockport Fairmont",
+                                          "Pana Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           43
+                                       ],
+                            "winner":  "Pana Sacred Heart",
+                            "loser":  "Lockport Fairmont",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Franklin",
+                                          "Peoria Limestone Walters"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           32
+                                       ],
+                            "winner":  "Franklin",
+                            "loser":  "Peoria Limestone Walters",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Pontiac St. Mary\u0027s",
+                                          "Decatur St. Patrick"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           40
+                                       ],
+                            "winner":  "Pontiac St. Mary\u0027s",
+                            "loser":  "Decatur St. Patrick",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Catlin",
+                                          "Lovejoy"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           27
+                                       ],
+                            "winner":  "Lovejoy",
+                            "loser":  "Catlin",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Pana Sacred Heart",
+                                          "Lovejoy"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           36
+                                       ],
+                            "winner":  "Pana Sacred Heart",
+                            "loser":  "Lovejoy",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Pontiac St. Mary\u0027s",
+                                          "Franklin"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           38
+                                       ],
+                            "winner":  "Franklin",
+                            "loser":  "Pontiac St. Mary\u0027s",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Franklin",
+                                          "Pana Sacred Heart"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           39
+                                       ],
+                            "winner":  "Franklin",
+                            "loser":  "Pana Sacred Heart",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2007\u0026Class=7-1A"
+                        }
+              }
+}

@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:14",
+    "year":  2025,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Edwardsville Liberty",
+                                 "loser":  "Highland MS",
+                                 "score":  "58-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Homer Glen Homer",
+                                "loser":  "Lemont Old Quarry",
+                                "score":  "53-51",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Park Forest Michelle Obama STA",
+                                "loser":  "Homewood Hart",
+                                "score":  "59-49",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Dunlap MS",
+                                 "loser":  "Galesburg JHS",
+                                 "score":  "44-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Frankfort Hickory Creek",
+                                 "loser":  "New Lenox Martino",
+                                 "score":  "42-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Rockford Eisenhower",
+                                "loser":  "Rockford West",
+                                "score":  "59-45",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "Yorkville",
+                                "loser":  "Shorewood Troy",
+                                "score":  "44-43",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Bloomington JHS",
+                                 "loser":  "Normal Kingsley",
+                                 "score":  "43-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Lake Zurich North",
+                                "loser":  "Arlington Heights Thomas",
+                                "score":  "39-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "Champaign Edison",
+                                "loser":  "Champaign Jefferson",
+                                "score":  "43-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Springfield Franklin",
+                                 "score":  "42-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "Minooka",
+                                "loser":  "Coal City",
+                                "score":  "52-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "O\u0027Fallon Carriel",
+                                 "loser":  "Mascoutah",
+                                 "score":  "37-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "Flossmoor Parker",
+                                "loser":  "Matteson Huth",
+                                "score":  "37-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Deerfield Caruso",
+                                "loser":  "Cicero Unity",
+                                "score":  "35-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Mt. Zion",
+                                 "loser":  "Effingham JHS",
+                                 "score":  "28-12",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Edwardsville Liberty",
+                                               "record":  "18-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Homer Glen Homer",
+                                              "record":  "17-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Park Forest Michelle Obama STA",
+                                              "record":  "24-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Dunlap MS",
+                                               "record":  "25-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Frankfort Hickory Creek",
+                                               "record":  "18-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Rockford Eisenhower",
+                                              "record":  "24-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Yorkville",
+                                              "record":  "16-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Bloomington JHS",
+                                               "record":  "25-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Lake Zurich North",
+                                              "record":  "14-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Champaign Edison",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Quincy",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Minooka",
+                                              "record":  "23-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "O\u0027Fallon Carriel",
+                                               "record":  "23-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Flossmoor Parker",
+                                              "record":  "16-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Deerfield Caruso",
+                                              "record":  "16-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Mt. Zion",
+                                               "record":  "23-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2025\u0026Class=8-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Mt. Zion",
+                                 "score":  "32-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Park Forest Michelle Obama STA",
+                                 "loser":  "Flossmoor Parker",
+                                 "score":  "63-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Homer Glen Homer",
+                                 "loser":  "Deerfield Caruso",
+                                 "score":  "48-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Rockford Eisenhower",
+                                 "loser":  "Lake Zurich North",
+                                 "score":  "64-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Minooka",
+                                 "loser":  "Yorkville",
+                                 "score":  "57-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Bloomington JHS",
+                                 "loser":  "Dunlap MS",
+                                 "score":  "42-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Champaign Edison",
+                                 "loser":  "Frankfort Hickory Creek",
+                                 "score":  "63-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-4A"
+                             },
+                       "8":  {
+                                 "winner":  "O\u0027Fallon Carriel",
+                                 "loser":  "Edwardsville Liberty",
+                                 "score":  "46-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2025\u0026Class=8-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           5
+                                       ],
+                                 "4":  [
+                                           7,
+                                           8
+                                       ],
+                                 "1":  [
+                                           4,
+                                           6
+                                       ],
+                                 "3":  [
+                                           1,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Minooka",
+                                          "Rockford Eisenhower"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           61
+                                       ],
+                            "winner":  "Rockford Eisenhower",
+                            "loser":  "Minooka",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Rockford Eisenhower",
+                                          "Homer Glen Homer"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           42
+                                       ],
+                            "winner":  "Rockford Eisenhower",
+                            "loser":  "Homer Glen Homer",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Park Forest Michelle Obama STA",
+                                          "Champaign Edison"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           40
+                                       ],
+                            "winner":  "Park Forest Michelle Obama STA",
+                            "loser":  "Champaign Edison",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Minooka",
+                                          "Bloomington JHS"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           49
+                                       ],
+                            "winner":  "Minooka",
+                            "loser":  "Bloomington JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Quincy",
+                                          "O\u0027Fallon Carriel"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           20
+                                       ],
+                            "winner":  "Quincy",
+                            "loser":  "O\u0027Fallon Carriel",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Rockford Eisenhower",
+                                          "Quincy"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           43
+                                       ],
+                            "winner":  "Quincy",
+                            "loser":  "Rockford Eisenhower",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Minooka",
+                                          "Park Forest Michelle Obama STA"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           47
+                                       ],
+                            "winner":  "Park Forest Michelle Obama STA",
+                            "loser":  "Minooka",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Park Forest Michelle Obama STA",
+                                          "Quincy"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           42
+                                       ],
+                            "winner":  "Park Forest Michelle Obama STA",
+                            "loser":  "Quincy",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2025\u0026Class=8-4A"
+                        }
+              }
+}

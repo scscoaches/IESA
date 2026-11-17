@@ -64,7 +64,7 @@ function Get-Assignments([string]$html, [string]$grade) {
         $seen[$id] = $true
         $end = if ($i -lt $sectionHeaders.Count - 1) { $sectionHeaders[$i + 1].Index } else { $html.Length }
         $block = $html.Substring($sectionHeaders[$i].Index, $end - $sectionHeaders[$i].Index)
-        $location = [regex]::Match($block, "(?is)<td\s+class=['""]Location['""][^>]*>(.*?)</td>")
+        $location = [regex]::Match($block, "(?is)<td\b[^>]*\bclass=['""]Location['""][^>]*>(.*?)</td>")
         if (!$location.Success -and !$early) { throw "$grade $Year missing Sectional $id location" }
         $hostMatch = if ($location.Success) {
             [regex]::Match($location.Groups[1].Value, '(?is)<b>\s*Host:\s*</b>\s*(.*?)\s*<br')
@@ -99,7 +99,7 @@ function Get-Assignments([string]$html, [string]$grade) {
             $regionalBlock = $block.Substring($regionalHeaders[$j].Index,
                 $regionalEnd - $regionalHeaders[$j].Index)
             $list = [regex]::Match($regionalBlock,
-                "(?is)<td\s+class=['""]ListData['""][^>]*>(.*?)</td>")
+                "(?is)<td\b[^>]*\bclass=['""]ListData['""][^>]*>(.*?)</td>")
             if (!$list.Success) { throw "$grade $Year Regional $number has no team list" }
             $listText = Get-Text $list.Groups[1].Value
             # A canceled regional sends its sectional partner through unopposed;
@@ -172,7 +172,7 @@ function Get-CalendarSchedule([string]$html, [string]$grade) {
     if ($column -lt 0) { return $null }
     $state = [regex]::Match($scope, "(?is)<td\s+class=['""]Label['""]>\s*State \(Sat\.[^)]*Thur\.\).*?</tr>")
     if (!$state.Success) { throw "Calendar has no $grade state dates for $Year" }
-    $dates = @([regex]::Matches($state.Value, "(?is)<td\s+class=['""]ListData['""]>(.*?)</td>") |
+    $dates = @([regex]::Matches($state.Value, "(?is)<td\b[^>]*\bclass=['""]ListData['""]>(.*?)</td>") |
         ForEach-Object { Get-Text $_.Groups[1].Value })
     if ($dates.Count -le $column) { throw "Calendar has no $grade $Year state date column" }
     $match = [regex]::Match($dates[$column], '^(?<month>[A-Za-z.]+)\s*(?<first>\d{1,2}),\s*(?<last>\d{1,2}),\s*(?<year>\d{4})$')

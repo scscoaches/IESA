@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:32",
+    "year":  2017,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Greenville",
+                                 "loser":  "East Alton MS",
+                                 "score":  "57-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                             },
+                      "3":  {
+                                "winner":  "Peotone",
+                                "loser":  "Beecher",
+                                "score":  "38-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                            },
+                      "5":  {
+                                "winner":  "Peru Parkside",
+                                "loser":  "El Paso-Gridley",
+                                "score":  "42-39",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Quincy St. Peter",
+                                 "loser":  "Pittsfield Pikeland",
+                                 "score":  "30-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Downs Tri-Valley",
+                                 "loser":  "Maroa-Forsyth",
+                                 "score":  "31-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                             },
+                      "2":  {
+                                "winner":  "Morris Shabbona",
+                                "loser":  "Dixmoor Rosa Parks",
+                                "score":  "25-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                            },
+                      "8":  {
+                                "winner":  "Farmington Central",
+                                "loser":  "Monmouth-Roseville JHS",
+                                "score":  "43-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Springfield Lincoln",
+                                 "loser":  "Riverton",
+                                 "score":  "48-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                             },
+                      "1":  {
+                                "winner":  "South Holland McKinley",
+                                "loser":  "Dolton Roosevelt",
+                                "score":  "28-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                            },
+                      "9":  {
+                                "winner":  "Monticello",
+                                "loser":  "Tuscola East Prairie",
+                                "score":  "30-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Casey-Westfield",
+                                 "loser":  "Teutopolis",
+                                 "score":  "38-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                             },
+                      "7":  {
+                                "winner":  "Dunlap Valley MS",
+                                "loser":  "Mossville",
+                                "score":  "43-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Piasa Southwestern",
+                                 "loser":  "Litchfield",
+                                 "score":  "31-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                             },
+                      "6":  {
+                                "winner":  "Washington MS",
+                                "loser":  "Germantown Hills",
+                                "score":  "48-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                            },
+                      "4":  {
+                                "winner":  "Watseka Glenn Raymond",
+                                "loser":  "St. Joseph",
+                                "score":  "38-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Georgetown Mary Miller",
+                                 "loser":  "Paris Mayo",
+                                 "score":  "45-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Greenville",
+                                               "record":  "20-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Peotone",
+                                              "record":  "18-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Peru Parkside",
+                                              "record":  "24-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Quincy St. Peter",
+                                               "record":  "13-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Downs Tri-Valley",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Morris Shabbona",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Farmington Central",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Springfield Lincoln",
+                                               "record":  "17-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "South Holland McKinley",
+                                              "record":  "18-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Monticello",
+                                              "record":  "17-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Casey-Westfield",
+                                               "record":  "19-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Dunlap Valley MS",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Piasa Southwestern",
+                                               "record":  "19-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Washington MS",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Watseka Glenn Raymond",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Georgetown Mary Miller",
+                                               "record":  "15-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=7-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Georgetown Mary Miller",
+                                 "loser":  "Casey-Westfield",
+                                 "score":  "49-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=7-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Washington MS",
+                                 "loser":  "Peru Parkside",
+                                 "score":  "45-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=7-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Peotone",
+                                 "loser":  "Watseka Glenn Raymond",
+                                 "score":  "45-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=7-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Morris Shabbona",
+                                 "loser":  "South Holland McKinley",
+                                 "score":  "35-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=7-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Dunlap Valley MS",
+                                 "loser":  "Farmington Central",
+                                 "score":  "46-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=7-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Quincy St. Peter",
+                                 "loser":  "Springfield Lincoln",
+                                 "score":  "52-49",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=7-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Monticello",
+                                 "loser":  "Downs Tri-Valley",
+                                 "score":  "30-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=7-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Greenville",
+                                 "loser":  "Piasa Southwestern",
+                                 "score":  "44-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=7-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           8
+                                       ],
+                                 "4":  [
+                                           2,
+                                           1
+                                       ],
+                                 "1":  [
+                                           4,
+                                           5
+                                       ],
+                                 "3":  [
+                                           6,
+                                           3
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Dunlap Valley MS",
+                                          "Peotone"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           23
+                                       ],
+                            "winner":  "Dunlap Valley MS",
+                            "loser":  "Peotone",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=7-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Quincy St. Peter",
+                                          "Washington MS"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           47
+                                       ],
+                            "winner":  "Washington MS",
+                            "loser":  "Quincy St. Peter",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=7-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Georgetown Mary Miller",
+                                          "Greenville"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           44
+                                       ],
+                            "winner":  "Greenville",
+                            "loser":  "Georgetown Mary Miller",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=7-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Dunlap Valley MS",
+                                          "Monticello"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           26
+                                       ],
+                            "winner":  "Dunlap Valley MS",
+                            "loser":  "Monticello",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=7-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Peotone",
+                                          "Morris Shabbona"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           18
+                                       ],
+                            "winner":  "Peotone",
+                            "loser":  "Morris Shabbona",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=7-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Washington MS",
+                                          "Peotone"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           16
+                                       ],
+                            "winner":  "Washington MS",
+                            "loser":  "Peotone",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=7-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Dunlap Valley MS",
+                                          "Greenville"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           43
+                                       ],
+                            "winner":  "Greenville",
+                            "loser":  "Dunlap Valley MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=7-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Greenville",
+                                          "Washington MS"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           43
+                                       ],
+                            "winner":  "Washington MS",
+                            "loser":  "Greenville",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=7-3A"
+                        }
+              }
+}

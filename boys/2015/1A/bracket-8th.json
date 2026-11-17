@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:37",
+    "year":  2015,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Virginia",
+                                 "score":  "40-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             },
+                      "3":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Ransom",
+                                "score":  "47-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "5":  {
+                                "winner":  "Champaign Judah Christian",
+                                "loser":  "Danville Schlarman",
+                                "score":  "41-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Mulberry Grove JHS",
+                                 "loser":  "Pana Sacred Heart",
+                                 "score":  "42-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Annawan",
+                                 "loser":  "Woodhull AlWood",
+                                 "score":  "69-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             },
+                      "2":  {
+                                "winner":  "Bourbonnais Maternity BVM",
+                                "loser":  "Hopkins Park Lorenzo Smith",
+                                "score":  "59-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "8":  {
+                                "winner":  "Hartsburg-Emden",
+                                "loser":  "Morton Blessed Sacrament",
+                                "score":  "36-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Sigel St. Michael\u0027s",
+                                 "loser":  "Hutsonville",
+                                 "score":  "35-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             },
+                      "1":  {
+                                "winner":  "Joliet Laraway",
+                                "loser":  "Lockport Fairmont",
+                                "score":  "47-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "9":  {
+                                "winner":  "Peoria Limestone Walters",
+                                "loser":  "Chillicothe St. Edward\u0027s",
+                                "score":  "58-50",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Lincoln Carroll Catholic",
+                                 "loser":  "Springfield Calvary",
+                                 "score":  "45-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             },
+                      "7":  {
+                                "winner":  "Washington St. Patrick",
+                                "loser":  "Normal Calvary",
+                                "score":  "46-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Greenfield",
+                                 "loser":  "Lovejoy",
+                                 "score":  "38-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             },
+                      "6":  {
+                                "winner":  "Cissna Park",
+                                "loser":  "Gifford",
+                                "score":  "35-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "4":  {
+                                "winner":  "Ottawa Marquette",
+                                "loser":  "LaSalle Trinity Catholic",
+                                "score":  "38-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Decatur Our Lady of Lourdes",
+                                 "loser":  "Decatur Holy Family",
+                                 "score":  "38-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Jacksonville Our Saviour",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Pontiac St. Mary\u0027s",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Champaign Judah Christian",
+                                              "record":  "17-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Mulberry Grove JHS",
+                                               "record":  "16-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Annawan",
+                                               "record":  "12-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Bourbonnais Maternity BVM",
+                                              "record":  "18-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Hartsburg-Emden",
+                                              "record":  "10-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Sigel St. Michael\u0027s",
+                                               "record":  "18-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Joliet Laraway",
+                                              "record":  "13-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Peoria Limestone Walters",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Lincoln Carroll Catholic",
+                                               "record":  "12-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Washington St. Patrick",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Greenfield",
+                                               "record":  "13-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Cissna Park",
+                                              "record":  "20-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "Ottawa Marquette",
+                                              "record":  "16-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Decatur Our Lady of Lourdes",
+                                               "record":  "9-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2015\u0026Class=8-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Decatur Our Lady of Lourdes",
+                                 "loser":  "Lincoln Carroll Catholic",
+                                 "score":  "37-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Cissna Park",
+                                 "loser":  "Champaign Judah Christian",
+                                 "score":  "55-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Ottawa Marquette",
+                                 "loser":  "Pontiac St. Mary\u0027s",
+                                 "score":  "41-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Bourbonnais Maternity BVM",
+                                 "loser":  "Joliet Laraway",
+                                 "score":  "55-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Hartsburg-Emden",
+                                 "loser":  "Washington St. Patrick",
+                                 "score":  "39-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Mulberry Grove JHS",
+                                 "loser":  "Sigel St. Michael\u0027s",
+                                 "score":  "34-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Peoria Limestone Walters",
+                                 "loser":  "Annawan",
+                                 "score":  "42-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Greenfield",
+                                 "score":  "46-16",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2015\u0026Class=8-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           4,
+                                           5
+                                       ],
+                                 "4":  [
+                                           1,
+                                           6
+                                       ],
+                                 "1":  [
+                                           3,
+                                           7
+                                       ],
+                                 "3":  [
+                                           8,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Peoria Limestone Walters",
+                                          "Jacksonville Our Saviour"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           53
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Peoria Limestone Walters",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Jacksonville Our Saviour",
+                                          "Ottawa Marquette"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           34
+                                       ],
+                            "winner":  "Jacksonville Our Saviour",
+                            "loser":  "Ottawa Marquette",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Hartsburg-Emden",
+                                          "Peoria Limestone Walters"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           40
+                                       ],
+                            "winner":  "Peoria Limestone Walters",
+                            "loser":  "Hartsburg-Emden",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Cissna Park",
+                                          "Decatur Our Lady of Lourdes"
+                                      ],
+                            "scores":  [
+                                           49,
+                                           29
+                                       ],
+                            "winner":  "Cissna Park",
+                            "loser":  "Decatur Our Lady of Lourdes",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Bourbonnais Maternity BVM",
+                                          "Mulberry Grove JHS"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           35
+                                       ],
+                            "winner":  "Bourbonnais Maternity BVM",
+                            "loser":  "Mulberry Grove JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Jacksonville Our Saviour",
+                                          "Bourbonnais Maternity BVM"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           43
+                                       ],
+                            "winner":  "Bourbonnais Maternity BVM",
+                            "loser":  "Jacksonville Our Saviour",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Cissna Park",
+                                          "Peoria Limestone Walters"
+                                      ],
+                            "scores":  [
+                                           55,
+                                           33
+                                       ],
+                            "winner":  "Cissna Park",
+                            "loser":  "Peoria Limestone Walters",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Cissna Park",
+                                          "Bourbonnais Maternity BVM"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           32
+                                       ],
+                            "winner":  "Cissna Park",
+                            "loser":  "Bourbonnais Maternity BVM",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2015\u0026Class=8-1A"
+                        }
+              }
+}

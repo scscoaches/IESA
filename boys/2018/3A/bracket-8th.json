@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:30",
+    "year":  2018,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Auburn JHS at Divernon",
+                                 "loser":  "Carlinville",
+                                 "score":  "38-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                             },
+                      "3":  {
+                                "winner":  "Peru Parkside",
+                                "loser":  "Spring Valley Kennedy",
+                                "score":  "33-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                            },
+                      "5":  {
+                                "winner":  "Lansing Heritage",
+                                "loser":  "Beecher",
+                                "score":  "45-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Pittsfield Pikeland",
+                                 "score":  "31-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Monticello",
+                                 "loser":  "Downs Tri-Valley",
+                                 "score":  "28-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                             },
+                      "2":  {
+                                "winner":  "Winfield Wheaton Christian",
+                                "loser":  "Morris Shabbona",
+                                "score":  "40-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                            },
+                      "8":  {
+                                "winner":  "Monmouth-Roseville JHS",
+                                "loser":  "Taylor Ridge Rockridge",
+                                "score":  "29-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Springfield Lincoln",
+                                 "loser":  "Williamsville",
+                                 "score":  "53-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                             },
+                      "1":  {
+                                "winner":  "Chicago Frances Xavier Warde",
+                                "loser":  "Calumet Park Calumet",
+                                "score":  "46-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                            },
+                      "9":  {
+                                "winner":  "Tuscola East Prairie",
+                                "loser":  "St. Joseph",
+                                "score":  "56-41",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Casey-Westfield",
+                                 "score":  "53-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                             },
+                      "7":  {
+                                "winner":  "Farmington Central",
+                                "loser":  "Dunlap Valley MS",
+                                "score":  "42-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Greenville",
+                                 "loser":  "Hillsboro",
+                                 "score":  "42-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                             },
+                      "6":  {
+                                "winner":  "Onarga Iroquois West",
+                                "loser":  "Clifton Nash",
+                                "score":  "22-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                            },
+                      "4":  {
+                                "winner":  "Germantown Hills",
+                                "loser":  "Eureka",
+                                "score":  "40-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Macon Meridian",
+                                 "loser":  "Shelbyville Moulton",
+                                 "score":  "58-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Auburn JHS at Divernon",
+                                               "record":  "12-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Peru Parkside",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Lansing Heritage",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Mt. Sterling Brown County",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Monticello",
+                                               "record":  "19-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Winfield Wheaton Christian",
+                                              "record":  "20-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Monmouth-Roseville JHS",
+                                              "record":  "16-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Springfield Lincoln",
+                                               "record":  "18-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "Chicago Frances Xavier Warde",
+                                              "record":  "5-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Tuscola East Prairie",
+                                              "record":  "21-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "15-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Farmington Central",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Greenville",
+                                               "record":  "20-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Onarga Iroquois West",
+                                              "record":  "17-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Germantown Hills",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Macon Meridian",
+                                               "record":  "21-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2018\u0026Class=8-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Macon Meridian",
+                                 "loser":  "Teutopolis",
+                                 "score":  "51-45",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=8-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Onarga Iroquois West",
+                                 "loser":  "Lansing Heritage",
+                                 "score":  "41-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=8-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Germantown Hills",
+                                 "loser":  "Peru Parkside",
+                                 "score":  "49-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=8-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Winfield Wheaton Christian",
+                                 "loser":  "Chicago Frances Xavier Warde",
+                                 "score":  "45-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=8-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Farmington Central",
+                                 "loser":  "Monmouth-Roseville JHS",
+                                 "score":  "38-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=8-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Springfield Lincoln",
+                                 "loser":  "Mt. Sterling Brown County",
+                                 "score":  "47-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=8-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Monticello",
+                                 "loser":  "Tuscola East Prairie",
+                                 "score":  "30-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=8-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Greenville",
+                                 "loser":  "Auburn JHS at Divernon",
+                                 "score":  "58-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2018\u0026Class=8-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           2
+                                       ],
+                                 "4":  [
+                                           8,
+                                           5
+                                       ],
+                                 "1":  [
+                                           7,
+                                           4
+                                       ],
+                                 "3":  [
+                                           1,
+                                           3
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Macon Meridian",
+                                          "Winfield Wheaton Christian"
+                                      ],
+                            "scores":  [
+                                           57,
+                                           51
+                                       ],
+                            "winner":  "Macon Meridian",
+                            "loser":  "Winfield Wheaton Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=8-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Winfield Wheaton Christian",
+                                          "Onarga Iroquois West"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           29
+                                       ],
+                            "winner":  "Winfield Wheaton Christian",
+                            "loser":  "Onarga Iroquois West",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=8-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Springfield Lincoln",
+                                          "Germantown Hills"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           44
+                                       ],
+                            "winner":  "Germantown Hills",
+                            "loser":  "Springfield Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=8-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Macon Meridian",
+                                          "Farmington Central"
+                                      ],
+                            "scores":  [
+                                           59,
+                                           29
+                                       ],
+                            "winner":  "Macon Meridian",
+                            "loser":  "Farmington Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=8-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Greenville",
+                                          "Monticello"
+                                      ],
+                            "scores":  [
+                                           54,
+                                           30
+                                       ],
+                            "winner":  "Greenville",
+                            "loser":  "Monticello",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=8-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Winfield Wheaton Christian",
+                                          "Greenville"
+                                      ],
+                            "scores":  [
+                                           44,
+                                           45
+                                       ],
+                            "winner":  "Greenville",
+                            "loser":  "Winfield Wheaton Christian",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=8-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Macon Meridian",
+                                          "Germantown Hills"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           50
+                                       ],
+                            "winner":  "Germantown Hills",
+                            "loser":  "Macon Meridian",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=8-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Germantown Hills",
+                                          "Greenville"
+                                      ],
+                            "scores":  [
+                                           48,
+                                           57
+                                       ],
+                            "winner":  "Greenville",
+                            "loser":  "Germantown Hills",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2018\u0026Class=8-3A"
+                        }
+              }
+}

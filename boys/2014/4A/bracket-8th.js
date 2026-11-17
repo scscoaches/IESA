@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:41",
+    "year":  2014,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Alton",
+                                 "loser":  "Bethalto Trimpe",
+                                 "score":  "53-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Phoenix Coolidge",
+                                "loser":  "Calumet City Dirksen",
+                                "score":  "55-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Frankfort Hickory Creek",
+                                "loser":  "Frankfort Summit Hill",
+                                "score":  "44-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Effingham JHS",
+                                 "loser":  "Champaign Edison",
+                                 "score":  "46-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Pekin Broadmoor",
+                                 "loser":  "Morton JHS",
+                                 "score":  "46-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Rockford Flinn",
+                                "loser":  "Rockford West",
+                                "score":  "60-47",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "Forrest Prairie Central",
+                                "loser":  "Channahon",
+                                "score":  "39-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Danville North Ridge",
+                                 "loser":  "Champaign Franklin",
+                                 "score":  "38-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Bellwood Roosevelt",
+                                "loser":  "Bolingbrook Jane Addams",
+                                "score":  "63-45",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Chiddix",
+                                "loser":  "Bloomington JHS",
+                                "score":  "33-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Springfield Jefferson",
+                                 "score":  "71-50",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "Joliet Dirksen",
+                                "loser":  "Shorewood Troy",
+                                "score":  "55-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "East St. Louis Lincoln",
+                                 "loser":  "Cahokia Wirth",
+                                 "score":  "43-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "Matteson Colin Powell",
+                                "loser":  "Bourbonnais UGC",
+                                "score":  "53-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Park Forest Forest Trail",
+                                "loser":  "Flossmoor Parker",
+                                "score":  "78-44",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Mt. Zion",
+                                 "loser":  "Decatur Stephen Decatur",
+                                 "score":  "44-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Alton",
+                                               "record":  "15-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Phoenix Coolidge",
+                                              "record":  "16-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Frankfort Hickory Creek",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Effingham JHS",
+                                               "record":  "16-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Pekin Broadmoor",
+                                               "record":  "19-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Rockford Flinn",
+                                              "record":  "16-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Forrest Prairie Central",
+                                              "record":  "19-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Danville North Ridge",
+                                               "record":  "14-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Bellwood Roosevelt",
+                                              "record":  "12-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Chiddix",
+                                              "record":  "17-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Quincy",
+                                               "record":  "11-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Joliet Dirksen",
+                                              "record":  "13-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "East St. Louis Lincoln",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Matteson Colin Powell",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Park Forest Forest Trail",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Mt. Zion",
+                                               "record":  "17-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2014\u0026Class=8-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Quincy",
+                                 "loser":  "Mt. Zion",
+                                 "score":  "56-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Matteson Colin Powell",
+                                 "loser":  "Frankfort Hickory Creek",
+                                 "score":  "45-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Park Forest Forest Trail",
+                                 "loser":  "Phoenix Coolidge",
+                                 "score":  "63-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Bellwood Roosevelt",
+                                 "loser":  "Rockford Flinn",
+                                 "score":  "42-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Joliet Dirksen",
+                                 "loser":  "Forrest Prairie Central",
+                                 "score":  "32-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Danville North Ridge",
+                                 "loser":  "Effingham JHS",
+                                 "score":  "63-49",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Pekin Broadmoor",
+                                 "loser":  "Normal Chiddix",
+                                 "score":  "56-45",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-4A"
+                             },
+                       "8":  {
+                                 "winner":  "East St. Louis Lincoln",
+                                 "loser":  "Alton",
+                                 "score":  "48-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2014\u0026Class=8-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           7
+                                       ],
+                                 "4":  [
+                                           8,
+                                           6
+                                       ],
+                                 "1":  [
+                                           5,
+                                           2
+                                       ],
+                                 "3":  [
+                                           4,
+                                           1
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Matteson Colin Powell",
+                                          "Bellwood Roosevelt"
+                                      ],
+                            "scores":  [
+                                           56,
+                                           53
+                                       ],
+                            "winner":  "Matteson Colin Powell",
+                            "loser":  "Bellwood Roosevelt",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Joliet Dirksen",
+                                          "Bellwood Roosevelt"
+                                      ],
+                            "scores":  [
+                                           56,
+                                           58
+                                       ],
+                            "winner":  "Bellwood Roosevelt",
+                            "loser":  "Joliet Dirksen",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Matteson Colin Powell",
+                                          "Quincy"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           39
+                                       ],
+                            "winner":  "Matteson Colin Powell",
+                            "loser":  "Quincy",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Pekin Broadmoor",
+                                          "Park Forest Forest Trail"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           54
+                                       ],
+                            "winner":  "Park Forest Forest Trail",
+                            "loser":  "Pekin Broadmoor",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "East St. Louis Lincoln",
+                                          "Danville North Ridge"
+                                      ],
+                            "scores":  [
+                                           54,
+                                           60
+                                       ],
+                            "winner":  "Danville North Ridge",
+                            "loser":  "East St. Louis Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Bellwood Roosevelt",
+                                          "Danville North Ridge"
+                                      ],
+                            "scores":  [
+                                           53,
+                                           62
+                                       ],
+                            "winner":  "Danville North Ridge",
+                            "loser":  "Bellwood Roosevelt",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Park Forest Forest Trail",
+                                          "Matteson Colin Powell"
+                                      ],
+                            "scores":  [
+                                           59,
+                                           52
+                                       ],
+                            "winner":  "Park Forest Forest Trail",
+                            "loser":  "Matteson Colin Powell",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Park Forest Forest Trail",
+                                          "Danville North Ridge"
+                                      ],
+                            "scores":  [
+                                           54,
+                                           49
+                                       ],
+                            "winner":  "Park Forest Forest Trail",
+                            "loser":  "Danville North Ridge",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2014\u0026Class=8-4A"
+                        }
+              }
+};

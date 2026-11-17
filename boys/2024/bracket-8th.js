@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:14",
+    "year":  2024,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Madison",
+                                 "score":  "48-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                             },
+                      "3":  {
+                                "winner":  "Seneca",
+                                "loser":  "Marseilles ES",
+                                "score":  "25-11",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                            },
+                      "5":  {
+                                "winner":  "Peoria St. Philomena",
+                                "loser":  "Peoria Heights GS",
+                                "score":  "31-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Carthage",
+                                 "score":  "34-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Havana",
+                                 "loser":  "Green Valley Midwest Central",
+                                 "score":  "40-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                             },
+                      "2":  {
+                                "winner":  "Ford Heights Cottage Grove UGC",
+                                "loser":  "Bourbonnais St. George",
+                                "score":  "53-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                            },
+                      "8":  {
+                                "winner":  "Colfax Ridgeview",
+                                "loser":  "Bloomington Corpus Christi",
+                                "score":  "25-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Avon Abingdon Avon",
+                                 "loser":  "Lewistown JHS",
+                                 "score":  "42-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                             },
+                      "1":  {
+                                "winner":  "Aurora Christian",
+                                "loser":  "Riverdale Washington",
+                                "score":  "45-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                            },
+                      "9":  {
+                                "winner":  "Decatur Robertson",
+                                "loser":  "Decatur Our Lady of Lourdes",
+                                "score":  "42-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Assumption Central A \u0026 M",
+                                 "loser":  "Effingham St. Anthony",
+                                 "score":  "35-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                             },
+                      "7":  {
+                                "winner":  "Bismarck-Henning",
+                                "loser":  "Sidell Salt Fork",
+                                "score":  "38-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Pawnee",
+                                 "loser":  "Concord Triopia",
+                                 "score":  "39-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                             },
+                      "6":  {
+                                "winner":  "Brimfield",
+                                "loser":  "Elmwood",
+                                "score":  "42-40",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                            },
+                      "4":  {
+                                "winner":  "Sparland Midland",
+                                "loser":  "McNabb Putnam County",
+                                "score":  "39-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Paris Crestwood",
+                                 "loser":  "Dieterich",
+                                 "score":  "41-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Winchester",
+                                               "record":  "18-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Seneca",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Peoria St. Philomena",
+                                              "record":  "22-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Mt. Sterling Brown County",
+                                               "record":  "25-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Havana",
+                                               "record":  "22-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Ford Heights Cottage Grove UGC",
+                                              "record":  "21-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Colfax Ridgeview",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Avon Abingdon Avon",
+                                               "record":  "24-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Aurora Christian",
+                                              "record":  "16-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Decatur Robertson",
+                                              "record":  "13-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Assumption Central A \u0026 M",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Bismarck-Henning",
+                                              "record":  "16-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Pawnee",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Brimfield",
+                                              "record":  "19-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "Sparland Midland",
+                                              "record":  "21-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Paris Crestwood",
+                                               "record":  "24-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2024\u0026Class=8-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Assumption Central A \u0026 M",
+                                 "loser":  "Paris Crestwood",
+                                 "score":  "54-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Peoria St. Philomena",
+                                 "loser":  "Brimfield",
+                                 "score":  "53-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-2A"
+                             },
+                       "2":  {
+                                 "winner":  "Sparland Midland",
+                                 "loser":  "Seneca",
+                                 "score":  "50-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Ford Heights Cottage Grove UGC",
+                                 "loser":  "Aurora Christian",
+                                 "score":  "42-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Colfax Ridgeview",
+                                 "loser":  "Bismarck-Henning",
+                                 "score":  "53-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Mt. Sterling Brown County",
+                                 "loser":  "Avon Abingdon Avon",
+                                 "score":  "36-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Havana",
+                                 "loser":  "Decatur Robertson",
+                                 "score":  "44-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Pawnee",
+                                 "loser":  "Winchester",
+                                 "score":  "42-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2024\u0026Class=8-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           4,
+                                           1
+                                       ],
+                                 "4":  [
+                                           2,
+                                           3
+                                       ],
+                                 "1":  [
+                                           8,
+                                           6
+                                       ],
+                                 "3":  [
+                                           7,
+                                           5
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Ford Heights Cottage Grove UGC",
+                                          "Peoria St. Philomena"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           26
+                                       ],
+                            "winner":  "Ford Heights Cottage Grove UGC",
+                            "loser":  "Peoria St. Philomena",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Assumption Central A \u0026 M",
+                                          "Havana"
+                                      ],
+                            "scores":  [
+                                           48,
+                                           31
+                                       ],
+                            "winner":  "Assumption Central A \u0026 M",
+                            "loser":  "Havana",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Colfax Ridgeview",
+                                          "Ford Heights Cottage Grove UGC"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           51
+                                       ],
+                            "winner":  "Ford Heights Cottage Grove UGC",
+                            "loser":  "Colfax Ridgeview",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Pawnee",
+                                          "Mt. Sterling Brown County"
+                                      ],
+                            "scores":  [
+                                           16,
+                                           33
+                                       ],
+                            "winner":  "Mt. Sterling Brown County",
+                            "loser":  "Pawnee",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Sparland Midland",
+                                          "Peoria St. Philomena"
+                                      ],
+                            "scores":  [
+                                           18,
+                                           46
+                                       ],
+                            "winner":  "Peoria St. Philomena",
+                            "loser":  "Sparland Midland",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Assumption Central A \u0026 M",
+                                          "Peoria St. Philomena"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           40
+                                       ],
+                            "winner":  "Assumption Central A \u0026 M",
+                            "loser":  "Peoria St. Philomena",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Mt. Sterling Brown County",
+                                          "Ford Heights Cottage Grove UGC"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           34
+                                       ],
+                            "winner":  "Mt. Sterling Brown County",
+                            "loser":  "Ford Heights Cottage Grove UGC",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Mt. Sterling Brown County",
+                                          "Assumption Central A \u0026 M"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           33
+                                       ],
+                            "winner":  "Mt. Sterling Brown County",
+                            "loser":  "Assumption Central A \u0026 M",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2024\u0026Class=8-2A"
+                        }
+              }
+};

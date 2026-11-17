@@ -1,0 +1,329 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:49",
+    "year":  2011,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East St. Louis Clark",
+                                 "loser":  "East St. Louis Lincoln",
+                                 "score":  "47-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Sauk Village Rickover",
+                                "loser":  "Phoenix Coolidge",
+                                "score":  "37-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Matteson Colin Powell",
+                                "loser":  "Frankfort Summit Hill",
+                                "score":  "43-39",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Champaign Edison",
+                                 "loser":  "Champaign Jefferson",
+                                 "score":  "53-52",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Pekin Edison",
+                                 "loser":  "Dunlap Valley MS",
+                                 "score":  "44-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Bolingbrook Jane Addams",
+                                "loser":  "Bolingbrook Brooks",
+                                "score":  "51-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "Yorkville",
+                                "loser":  "Morris Shabbona",
+                                "score":  "42-41",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Urbana MS",
+                                 "loser":  "Mahomet-Seymour",
+                                 "score":  "38-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Bolingbrook Humphrey",
+                                "loser":  "Bellwood Roosevelt",
+                                "score":  "53-47",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Kingsley",
+                                "loser":  "Bloomington JHS",
+                                "score":  "50-33",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Springfield Grant",
+                                 "loser":  "Springfield Franklin",
+                                 "score":  "51-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "Kankakee JHS",
+                                "loser":  "Bourbonnais UGC",
+                                "score":  "26-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Alton",
+                                 "loser":  "Hillsboro",
+                                 "score":  "60-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "Joliet Washington",
+                                "loser":  "Shorewood Troy",
+                                "score":  "45-43",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Harvey Brooks",
+                                "loser":  "Park Forest Forest Trail",
+                                "score":  "50-39",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Taylorville JHS",
+                                 "score":  "54-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "7":  {
+                                              "team":  "Kankakee JHS",
+                                              "record":  "16-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Kingsley",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                                          },
+                                    "3":  {
+                                              "team":  "Sauk Village Rickover",
+                                              "record":  "20-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                                          },
+                                    "10":  {
+                                               "team":  "Pekin Edison",
+                                               "record":  "16-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Bolingbrook Humphrey",
+                                              "record":  "17-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Springfield Grant",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                                           },
+                                    "4":  {
+                                              "team":  "Harvey Brooks",
+                                              "record":  "14-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Alton",
+                                               "record":  "17-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                                           },
+                                    "5":  {
+                                              "team":  "Matteson Colin Powell",
+                                              "record":  "14-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Yorkville",
+                                              "record":  "20-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2011\u0026Class=8-4A"
+                                          }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Springfield Grant",
+                                 "loser":  "Chatham Glenwood",
+                                 "score":  "43-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Matteson Colin Powell",
+                                 "loser":  "Joliet Washington",
+                                 "score":  "38-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Harvey Brooks",
+                                 "loser":  "Sauk Village Rickover",
+                                 "score":  "57-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Bolingbrook Jane Addams",
+                                 "loser":  "Bolingbrook Humphrey",
+                                 "score":  "55-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Kankakee JHS",
+                                 "loser":  "Yorkville",
+                                 "score":  "40-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Champaign Edison",
+                                 "loser":  "Urbana MS",
+                                 "score":  "62-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Normal Kingsley",
+                                 "loser":  "Pekin Edison",
+                                 "score":  "37-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-4A"
+                             },
+                       "8":  {
+                                 "winner":  "East St. Louis Clark",
+                                 "loser":  "Alton",
+                                 "score":  "49-47",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2011\u0026Class=8-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           8
+                                       ],
+                                 "4":  [
+                                           1,
+                                           7
+                                       ],
+                                 "1":  [
+                                           4,
+                                           5
+                                       ],
+                                 "3":  [
+                                           6,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "East St. Louis Clark",
+                                          "Harvey Brooks"
+                                      ],
+                            "scores":  [
+                                           62,
+                                           49
+                                       ],
+                            "winner":  "East St. Louis Clark",
+                            "loser":  "Harvey Brooks",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Champaign Edison",
+                                          "Harvey Brooks"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           52
+                                       ],
+                            "winner":  "Harvey Brooks",
+                            "loser":  "Champaign Edison",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Matteson Colin Powell",
+                                          "East St. Louis Clark"
+                                      ],
+                            "scores":  [
+                                           54,
+                                           57
+                                       ],
+                            "winner":  "East St. Louis Clark",
+                            "loser":  "Matteson Colin Powell",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Kankakee JHS",
+                                          "Normal Kingsley"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           43
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "Kankakee JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Bolingbrook Jane Addams",
+                                          "Springfield Grant"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           51
+                                       ],
+                            "winner":  "Springfield Grant",
+                            "loser":  "Bolingbrook Jane Addams",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Harvey Brooks",
+                                          "Springfield Grant"
+                                      ],
+                            "scores":  [
+                                           49,
+                                           53
+                                       ],
+                            "winner":  "Springfield Grant",
+                            "loser":  "Harvey Brooks",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Normal Kingsley",
+                                          "East St. Louis Clark"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           42
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "East St. Louis Clark",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Normal Kingsley",
+                                          "Springfield Grant"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           28
+                                       ],
+                            "winner":  "Normal Kingsley",
+                            "loser":  "Springfield Grant",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2011\u0026Class=8-4A"
+                        }
+              }
+};

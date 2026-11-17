@@ -1,0 +1,403 @@
+﻿window.tournamentData = {
+    "year":  2024,
+    "grade":  "7th",
+    "className":  "2A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Burr Ridge MS",
+                          "teams":  [
+                                        "Burr Ridge MS",
+                                        "Riverdale Washington",
+                                        "Aurora Christian",
+                                        "Dolton Roosevelt",
+                                        "Waterman Indian Creek"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Joliet Laraway",
+                          "teams":  [
+                                        "Joliet Laraway",
+                                        "Hazel Crest Jesse White",
+                                        "Bourbonnais St. George",
+                                        "Watseka JHS",
+                                        "Ford Heights Cottage Grove UGC",
+                                        "Markham Obama"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Seneca",
+                          "teams":  [
+                                        "Gardner",
+                                        "Seneca",
+                                        "Dwight",
+                                        "Serena",
+                                        "Marseilles ES"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Wenona Fieldcrest",
+                          "teams":  [
+                                        "Oglesby Washington",
+                                        "Spring Valley Kennedy",
+                                        "Wenona Fieldcrest",
+                                        "McNabb Putnam County",
+                                        "Sparland Midland",
+                                        "Henry-Senachwine"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Peoria St. Philomena",
+                          "teams":  [
+                                        "Peoria St. Philomena",
+                                        "Peoria St. Vincent de Paul",
+                                        "Peoria Heights GS",
+                                        "Peoria Christian",
+                                        "Mossville",
+                                        "Peoria Norwood",
+                                        "Peoria Pleasant Valley"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Brimfield",
+                          "teams":  [
+                                        "Brimfield",
+                                        "Princeville",
+                                        "Elmwood",
+                                        "Kewanee Wethersfield",
+                                        "Galva",
+                                        "Toulon Stark County",
+                                        "Oneida ROWVA"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Sidell Salt Fork",
+                          "teams":  [
+                                        "Sidell Salt Fork",
+                                        "Champaign International",
+                                        "Bismarck-Henning",
+                                        "Fisher",
+                                        "Villa Grove",
+                                        "Bement"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "LeRoy",
+                          "teams":  [
+                                        "Bloomington Corpus Christi",
+                                        "Gibson City GCMS",
+                                        "Normal Metcalf",
+                                        "Bloomington Cornerstone",
+                                        "LeRoy",
+                                        "Colfax Ridgeview",
+                                        "Mansfield Blue Ridge IJHS"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Kincaid South Fork",
+                          "teams":  [
+                                        "Decatur Our Lady of Lourdes",
+                                        "Decatur Montessori Academy for Peace",
+                                        "Decatur Hope",
+                                        "Kincaid South Fork",
+                                        "Illiopolis Sangamon Valley",
+                                        "Decatur Robertson",
+                                        "Decatur American Dreamer"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Mt. Pulaski",
+                          "teams":  [
+                                        "Green Valley Midwest Central",
+                                        "Mason City Illini Central",
+                                        "Creve Coeur Parkview",
+                                        "Havana",
+                                        "Glasford Illini Bluffs",
+                                        "Mt. Pulaski",
+                                        "Pekin Rankin",
+                                        "Marquette Heights Georgetowne"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Colchester West Prairie",
+                          "teams":  [
+                                        "Colchester West Prairie",
+                                        "Stronghurst West Central",
+                                        "Table Grove VIT",
+                                        "Avon Abingdon Avon",
+                                        "Lewistown JHS",
+                                        "Bushnell-Prairie City",
+                                        "Knoxville JHS",
+                                        "Cuba"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Mt. Sterling Brown County",
+                          "teams":  [
+                                        "Mt. Sterling Brown County",
+                                        "Mendon Unity",
+                                        "Carthage",
+                                        "Camp Point Central",
+                                        "Hamilton ES",
+                                        "Liberty",
+                                        "La Harpe",
+                                        "Nauvoo-Colusa"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Casey-Westfield",
+                          "teams":  [
+                                        "Paris Crestwood",
+                                        "Louisville North Clay",
+                                        "Arcola",
+                                        "Casey-Westfield",
+                                        "Dieterich",
+                                        "Bridgeport Red Hill",
+                                        "Hutsonville"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Effingham St. Anthony",
+                          "teams":  [
+                                        "Effingham St. Anthony",
+                                        "Kinmundy South Central",
+                                        "Cowden-Herrick",
+                                        "St. Elmo",
+                                        "Stewardson-Strasburg",
+                                        "Assumption Central A \u0026 M",
+                                        "Altamont"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Waverly",
+                          "teams":  [
+                                        "Morrisonville JHS",
+                                        "Springfield Little Flower",
+                                        "Nokomis JHS",
+                                        "Concord Triopia",
+                                        "Springfield Blessed Sacrament",
+                                        "Waverly",
+                                        "Pawnee",
+                                        "Springfield Christ the King"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Hardin Calhoun",
+                          "teams":  [
+                                        "Winchester",
+                                        "Hardin Calhoun",
+                                        "Greenfield",
+                                        "Wood River Lewis \u0026 Clark",
+                                        "White Hall North Greene",
+                                        "Madison",
+                                        "East Alton MS"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Ford Heights Cottage Grove UGC",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "1":  "11-4",
+                                           "2":  "9-2"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Marseilles ES",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "3":  "15-7",
+                                           "4":  "14-0"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Brimfield",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "5":  "16-9",
+                                           "6":  "22-4"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Sidell Salt Fork",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "7":  "16-2",
+                                           "8":  "17-4"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Green Valley Midwest Central",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "9":  "24-1",
+                                           "10":  "22-1"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Mt. Sterling Brown County",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "11":  "22-1",
+                                           "12":  "14-7"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "St. Elmo",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "13":  "22-0",
+                                           "14":  "23-2"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Winchester",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "15":  "18-7",
+                                           "16":  "22-1"
+                                       }
+                       }
+                   ],
+    "venue":  "Macon Meridian HS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              2,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              1,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              5,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              8,
+                                              3
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

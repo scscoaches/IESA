@@ -1,0 +1,411 @@
+﻿window.tournamentData = {
+    "year":  2016,
+    "grade":  "8th",
+    "className":  "2A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Markham Obama",
+                          "teams":  [
+                                        "Bourbonnais St. George",
+                                        "Ford Heights Cottage Grove UGC",
+                                        "Bridgeview Universal",
+                                        "Grant Park",
+                                        "Markham Obama",
+                                        "St. Anne",
+                                        "Hazel Crest Jesse White",
+                                        "Chicago Horizon"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Gardner",
+                          "teams":  [
+                                        "Gardner",
+                                        "Elwood GS",
+                                        "Mazon-Verona-Kinsman",
+                                        "Rockdale",
+                                        "Seneca",
+                                        "Lockport Taft",
+                                        "Dwight"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Ottawa Wallace",
+                          "teams":  [
+                                        "Ottawa Wallace",
+                                        "Oglesby Washington",
+                                        "Grand Ridge",
+                                        "Streator Woodland",
+                                        "Marseilles ES"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Sparland Midland",
+                          "teams":  [
+                                        "Princeville",
+                                        "Roanoke-Benson",
+                                        "Henry-Senachwine",
+                                        "Colona",
+                                        "Brimfield",
+                                        "Kewanee Wethersfield",
+                                        "Sparland Midland"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Champaign St. Matthew",
+                          "teams":  [
+                                        "Champaign Judah Christian",
+                                        "Milford",
+                                        "Champaign Holy Cross",
+                                        "Villa Grove",
+                                        "Champaign St. Matthew",
+                                        "Hume Shiloh",
+                                        "Homer Heritage"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Mansfield Blue Ridge IJHS",
+                          "teams":  [
+                                        "Fisher",
+                                        "Mansfield Blue Ridge IJHS",
+                                        "Colfax Ridgeview",
+                                        "Bloomington Corpus Christi",
+                                        "Normal Metcalf",
+                                        "LeRoy",
+                                        "Lexington"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Peoria St. Vincent de Paul",
+                          "teams":  [
+                                        "Elmwood",
+                                        "Peoria St. Vincent de Paul",
+                                        "Peoria Heights St. Thomas",
+                                        "Peoria Christian",
+                                        "Peoria St. Philomena",
+                                        "Peoria Heights GS",
+                                        "Peoria Pleasant Valley"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Bartonville Oak Grove West",
+                          "teams":  [
+                                        "Bartonville Oak Grove West",
+                                        "Peoria Norwood",
+                                        "Pekin Rankin",
+                                        "Bartonville Monroe",
+                                        "Mason City Illini Central",
+                                        "Lewistown Central",
+                                        "Cuba"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Bushnell-Prairie City",
+                          "teams":  [
+                                        "Hamilton",
+                                        "Bushnell-Prairie City",
+                                        "Table Grove VIT",
+                                        "Carthage",
+                                        "Nauvoo-Colusa",
+                                        "La Harpe",
+                                        "Colchester West Prairie"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Mt. Sterling Brown County",
+                          "teams":  [
+                                        "Kinderhook Western",
+                                        "Liberty",
+                                        "Payson Seymour",
+                                        "Mt. Sterling Brown County",
+                                        "Camp Point Central",
+                                        "Augusta Southeastern",
+                                        "Mendon Unity"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Neoga",
+                          "teams":  [
+                                        "Arcola",
+                                        "Effingham St. Anthony",
+                                        "Neoga",
+                                        "Paris Crestwood",
+                                        "Kansas",
+                                        "Oblong"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "St. Elmo",
+                          "teams":  [
+                                        "Nokomis JHS",
+                                        "Altamont",
+                                        "Findlay Okaw Valley",
+                                        "Ramsey",
+                                        "St. Elmo",
+                                        "Cowden-Herrick"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Decatur Robertson",
+                          "teams":  [
+                                        "Decatur Robertson",
+                                        "Decatur Johns Hill",
+                                        "Decatur Holy Family",
+                                        "Decatur Lutheran",
+                                        "Decatur Hope",
+                                        "Cerro Gordo",
+                                        "Bement"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Mt. Pulaski",
+                          "teams":  [
+                                        "Lincoln Chester-East Lincoln",
+                                        "Mt. Pulaski",
+                                        "Morrisonville JHS",
+                                        "Illiopolis Sangamon Valley",
+                                        "Buffalo Tri-City",
+                                        "Kincaid South Fork",
+                                        "Pawnee"
+                                    ],
+                          "assignedTeams":  [
+                                                "Buffalo Tri-City",
+                                                "Illiopolis Sangamon Valley",
+                                                "Kincaid South Fork (Coop)",
+                                                "Lincoln Chester-East Lincoln",
+                                                "Morrisonville JHS (Coop) (Coed)",
+                                                "Mt. Pulaski",
+                                                "Pawnee"
+                                            ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Concord Triopia",
+                          "teams":  [
+                                        "Winchester",
+                                        "Springfield Blessed Sacrament",
+                                        "Jacksonville Our Saviour",
+                                        "Springfield Christian",
+                                        "Springfield St. Agnes",
+                                        "Springfield Christ the King",
+                                        "Concord Triopia"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Greenfield",
+                          "teams":  [
+                                        "Jerseyville St. Francis HG",
+                                        "Mt. Olive",
+                                        "Greenfield",
+                                        "Carrollton GS",
+                                        "Bunker Hill Wolf Ridge",
+                                        "Madison"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Mazon-Verona-Kinsman",
+                           "date":  "Wednesday, February 10, 2016",
+                           "records":  {
+                                           "1":  "14-2",
+                                           "2":  "10-10"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Ottawa Wallace",
+                           "date":  "Wednesday, February 10, 2016",
+                           "records":  {
+                                           "3":  "17-3",
+                                           "4":  "15-6"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Mansfield Blue Ridge IJHS",
+                           "date":  "Wednesday, February 10, 2016",
+                           "records":  {
+                                           "5":  "21-2",
+                                           "6":  "9-14"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Peoria St. Vincent de Paul",
+                           "date":  "Wednesday, February 10, 2016",
+                           "records":  {
+                                           "7":  "22-3",
+                                           "8":  "19-4"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Liberty",
+                           "date":  "Wednesday, February 10, 2016",
+                           "records":  {
+                                           "9":  "20-3",
+                                           "10":  "20-2"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "St. Elmo",
+                           "date":  "Wednesday, February 10, 2016",
+                           "records":  {
+                                           "11":  "13-9",
+                                           "12":  "19-2"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Morrisonville JHS",
+                           "date":  "Wednesday, February 10, 2016",
+                           "records":  {
+                                           "13":  "20-3",
+                                           "14":  "17-2"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Concord Triopia",
+                           "date":  "Wednesday, February 10, 2016",
+                           "records":  {
+                                           "15":  "24-0",
+                                           "16":  "23-0"
+                                       }
+                       }
+                   ],
+    "venue":  "Mt. Pulaski HS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              6,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              4,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              3,
+                                              1
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              5,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

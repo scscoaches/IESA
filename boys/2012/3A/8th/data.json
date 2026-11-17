@@ -1,0 +1,404 @@
+﻿{
+    "year":  2012,
+    "grade":  "8th",
+    "className":  "3A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Momence JHS",
+                          "teams":  [
+                                        "South Holland McKinley",
+                                        "Chicago Hawthorne",
+                                        "Calumet City Lincoln",
+                                        "Momence JHS",
+                                        "Calumet City Schrum",
+                                        "Glenwood Brookwood",
+                                        "Beecher"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Crest Hill Richland",
+                          "teams":  [
+                                        "Crest Hill Richland",
+                                        "Dixmoor Rosa Parks",
+                                        "Lockport Kelvin Grove",
+                                        "Riverdale Washington",
+                                        "Burr Ridge MS",
+                                        "Markham Robert Frost",
+                                        "Dolton Lincoln",
+                                        "Dolton Roosevelt"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Seneca",
+                          "teams":  [
+                                        "Seneca",
+                                        "Morris Saratoga",
+                                        "Dwight",
+                                        "Herscher Limestone",
+                                        "Marseilles ES",
+                                        "Morris Shabbona",
+                                        "Wilmington"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Peru Parkside",
+                          "teams":  [
+                                        "Wenona Fieldcrest",
+                                        "Peru Parkside",
+                                        "El Paso-Gridley",
+                                        "Chillicothe",
+                                        "Spring Valley Kennedy",
+                                        "Sparland Midland"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Peoria Christian",
+                          "teams":  [
+                                        "Peoria Christian",
+                                        "Tremont",
+                                        "Peoria Heights GS",
+                                        "Creve Coeur Parkview",
+                                        "Mossville",
+                                        "Marquette Heights Georgetowne"
+                                    ],
+                          "assignedTeams":  [
+                                                "Creve Coeur Parkview",
+                                                "Marquette Heights Georgetowne (Coed)",
+                                                "Mossville",
+                                                "Peoria Christian",
+                                                "Peoria Heights GS",
+                                                "Tremont"
+                                            ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Farmington Central",
+                          "teams":  [
+                                        "Farmington Central",
+                                        "Monmouth-Roseville JHS",
+                                        "Glasford Illini Bluffs",
+                                        "Joy Mercer County",
+                                        "Monmouth United",
+                                        "Stronghurst West Central"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Paxton-Buckley-Loda",
+                          "teams":  [
+                                        "Paxton-Buckley-Loda",
+                                        "Bismarck-Henning",
+                                        "Clifton Nash",
+                                        "Gibson City GCMS",
+                                        "Watseka Glenn Raymond",
+                                        "Onarga Iroquois West",
+                                        "Hoopeston Area"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Tuscola East Prairie",
+                          "teams":  [
+                                        "St. Joseph",
+                                        "Georgetown Mary Miller",
+                                        "Danville Oakwood",
+                                        "Tuscola East Prairie",
+                                        "Tolono Unity",
+                                        "Westville JHS",
+                                        "Urbana University"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Bloomington Holy Trinity",
+                          "teams":  [
+                                        "Warrensburg-Latham",
+                                        "Heyworth",
+                                        "Bloomington Holy Trinity",
+                                        "Maroa-Forsyth",
+                                        "Downs Tri-Valley",
+                                        "Argenta-Oreana"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Eureka",
+                          "teams":  [
+                                        "Metamora GS",
+                                        "Washington MS",
+                                        "Washington Central",
+                                        "Germantown Hills",
+                                        "Washington Beverly Manor",
+                                        "Eureka",
+                                        "Mackinaw Dee-Mack"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Pleasant Plains",
+                          "teams":  [
+                                        "Williamsville",
+                                        "Pleasant Plains",
+                                        "Riverton",
+                                        "Green Valley Midwest Central",
+                                        "Athens",
+                                        "Havana"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Pittsfield Pikeland",
+                          "teams":  [
+                                        "Rushville Schuyler Industry",
+                                        "Beardstown MS",
+                                        "Pittsfield Pikeland",
+                                        "Roodhouse North Greene",
+                                        "Camp Point Central"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Teutopolis",
+                          "teams":  [
+                                        "Teutopolis",
+                                        "Toledo Cumberland",
+                                        "Paris Mayo",
+                                        "Casey-Westfield",
+                                        "Marshall JHS"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Lawrenceville Parkview",
+                          "teams":  [
+                                        "Lawrenceville Parkview",
+                                        "Robinson Nuttall",
+                                        "Bridgeport Red Hill",
+                                        "Newton Jasper County"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Blue Mound Meridian",
+                          "teams":  [
+                                        "Decatur Johns Hill",
+                                        "Blue Mound Meridian",
+                                        "Pana JHS",
+                                        "Assumption Central A \u0026 M",
+                                        "Shelbyville Moulton",
+                                        "Sullivan",
+                                        "Vandalia"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Auburn JHS at Divernon",
+                          "teams":  [
+                                        "Gillespie",
+                                        "Litchfield",
+                                        "Girard North Mac",
+                                        "Staunton",
+                                        "Auburn JHS at Divernon",
+                                        "Carlinville",
+                                        "Greenville",
+                                        "East Alton MS"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Lockport Kelvin Grove",
+                           "date":  "Wednesday, February 08, 2012",
+                           "records":  {
+                                           "1":  "19-3",
+                                           "2":  "6-0"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Wenona Fieldcrest",
+                           "date":  "Wednesday, February 08, 2012",
+                           "records":  {
+                                           "3":  "17-4",
+                                           "4":  "20-3"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Farmington Central",
+                           "date":  "Wednesday, February 08, 2012",
+                           "records":  {
+                                           "5":  "20-2",
+                                           "6":  "16-4"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Onarga Iroquois West",
+                           "date":  "Wednesday, February 08, 2012",
+                           "records":  {
+                                           "7":  "18-3",
+                                           "8":  "20-3"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Bloomington Holy Trinity",
+                           "date":  "Wednesday, February 08, 2012",
+                           "records":  {
+                                           "9":  "23-2",
+                                           "10":  "19-3"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Pittsfield Pikeland",
+                           "date":  "Wednesday, February 08, 2012",
+                           "records":  {
+                                           "11":  "17-6",
+                                           "12":  "22-1"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Paris Mayo",
+                           "date":  "Wednesday, February 08, 2012",
+                           "records":  {
+                                           "13":  "20-4",
+                                           "14":  "22-0"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Vandalia",
+                           "date":  "Wednesday, February 08, 2012",
+                           "records":  {
+                                           "15":  "15-10",
+                                           "16":  "22-2"
+                                       }
+                       }
+                   ],
+    "venue":  "Monticello MS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              3,
+                                              1
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              6,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              2,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              5,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:09",
+    "year":  2026,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East Alton MS",
+                                 "loser":  "East St. Louis Younge",
+                                 "score":  "45-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                             },
+                      "3":  {
+                                "winner":  "Waterman Indian Creek",
+                                "loser":  "Ottawa Wallace",
+                                "score":  "39-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                            },
+                      "5":  {
+                                "winner":  "Milford",
+                                "loser":  "Champaign St. Matthew",
+                                "score":  "30-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                            },
+                      "12":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Stewardson-Strasburg",
+                                 "score":  "47-6",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                             },
+                      "10":  {
+                                 "winner":  "Nauvoo-Colusa",
+                                 "loser":  "Mt. Sterling Brown County",
+                                 "score":  "38-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                             },
+                      "2":  {
+                                "winner":  "Dwight",
+                                "loser":  "Joliet Laraway",
+                                "score":  "35-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                            },
+                      "8":  {
+                                "winner":  "Peoria St. Philomena",
+                                "loser":  "Brimfield",
+                                "score":  "47-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                            },
+                      "11":  {
+                                 "winner":  "Dieterich",
+                                 "loser":  "Casey-Westfield",
+                                 "score":  "38-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                             },
+                      "1":  {
+                                "winner":  "Dolton Roosevelt",
+                                "loser":  "Ford Heights Cottage Grove UGC",
+                                "score":  "48-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                            },
+                      "9":  {
+                                "winner":  "Stronghurst West Central",
+                                "loser":  "Bushnell-Prairie City",
+                                "score":  "32-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                            },
+                      "14":  {
+                                 "winner":  "Buffalo Tri-City",
+                                 "loser":  "Kincaid South Fork",
+                                 "score":  "29-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                             },
+                      "7":  {
+                                "winner":  "Mason City Illini Central",
+                                "loser":  "Glasford Illini Bluffs",
+                                "score":  "28-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                            },
+                      "15":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "Springfield Blessed Sacrament",
+                                 "score":  "35-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                             },
+                      "6":  {
+                                "winner":  "Normal Epiphany",
+                                "loser":  "Bloomington Corpus Christi",
+                                "score":  "40-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                            },
+                      "4":  {
+                                "winner":  "McNabb Putnam County",
+                                "loser":  "Kewanee Wethersfield",
+                                "score":  "47-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                            },
+                      "13":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Assumption Central A \u0026 M",
+                                 "score":  "43-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "East Alton MS",
+                                               "record":  "13-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                           },
+                                    "3":  {
+                                              "team":  "Waterman Indian Creek",
+                                              "record":  "12-13",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                          },
+                                    "5":  {
+                                              "team":  "Milford",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                          },
+                                    "12":  {
+                                               "team":  "Effingham St. Anthony",
+                                               "record":  "21-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                           },
+                                    "10":  {
+                                               "team":  "Nauvoo-Colusa",
+                                               "record":  "17-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                           },
+                                    "2":  {
+                                              "team":  "Dwight",
+                                              "record":  "16-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                          },
+                                    "8":  {
+                                              "team":  "Peoria St. Philomena",
+                                              "record":  "20-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                          },
+                                    "11":  {
+                                               "team":  "Dieterich",
+                                               "record":  "25-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                           },
+                                    "1":  {
+                                              "team":  "Dolton Roosevelt",
+                                              "record":  "20-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                          },
+                                    "9":  {
+                                              "team":  "Stronghurst West Central",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                          },
+                                    "14":  {
+                                               "team":  "Buffalo Tri-City",
+                                               "record":  "12-12",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                           },
+                                    "7":  {
+                                              "team":  "Mason City Illini Central",
+                                              "record":  "23-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                          },
+                                    "15":  {
+                                               "team":  "Winchester",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                           },
+                                    "6":  {
+                                              "team":  "Normal Epiphany",
+                                              "record":  "18-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                          },
+                                    "4":  {
+                                              "team":  "McNabb Putnam County",
+                                              "record":  "23-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                          },
+                                    "13":  {
+                                               "team":  "Decatur Robertson",
+                                               "record":  "17-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2026\u0026Class=7-2A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Buffalo Tri-City",
+                                 "score":  "52-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-2A"
+                             },
+                       "3":  {
+                                 "winner":  "Normal Epiphany",
+                                 "loser":  "Milford",
+                                 "score":  "44-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-2A"
+                             },
+                       "2":  {
+                                 "winner":  "McNabb Putnam County",
+                                 "loser":  "Waterman Indian Creek",
+                                 "score":  "47-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-2A"
+                             },
+                       "1":  {
+                                 "winner":  "Dwight",
+                                 "loser":  "Dolton Roosevelt",
+                                 "score":  "51-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-2A"
+                             },
+                       "4":  {
+                                 "winner":  "Peoria St. Philomena",
+                                 "loser":  "Mason City Illini Central",
+                                 "score":  "34-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-2A"
+                             },
+                       "6":  {
+                                 "winner":  "Effingham St. Anthony",
+                                 "loser":  "Dieterich",
+                                 "score":  "40-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-2A"
+                             },
+                       "5":  {
+                                 "winner":  "Stronghurst West Central",
+                                 "loser":  "Nauvoo-Colusa",
+                                 "score":  "37-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-2A"
+                             },
+                       "8":  {
+                                 "winner":  "Winchester",
+                                 "loser":  "East Alton MS",
+                                 "score":  "55-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2026\u0026Class=7-2A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           8
+                                       ],
+                                 "4":  [
+                                           2,
+                                           3
+                                       ],
+                                 "1":  [
+                                           1,
+                                           4
+                                       ],
+                                 "3":  [
+                                           7,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Dwight",
+                                          "Normal Epiphany"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           49
+                                       ],
+                            "winner":  "Normal Epiphany",
+                            "loser":  "Dwight",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Decatur Robertson",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           46
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Decatur Robertson",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Stronghurst West Central",
+                                          "Winchester"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           53
+                                       ],
+                            "winner":  "Winchester",
+                            "loser":  "Stronghurst West Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Dwight",
+                                          "Peoria St. Philomena"
+                                      ],
+                            "scores":  [
+                                           33,
+                                           29
+                                       ],
+                            "winner":  "Dwight",
+                            "loser":  "Peoria St. Philomena",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "McNabb Putnam County",
+                                          "Normal Epiphany"
+                                      ],
+                            "scores":  [
+                                           28,
+                                           37
+                                       ],
+                            "winner":  "Normal Epiphany",
+                            "loser":  "McNabb Putnam County",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Effingham St. Anthony",
+                                          "Normal Epiphany"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           31
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Normal Epiphany",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Dwight",
+                                          "Winchester"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           51
+                                       ],
+                            "winner":  "Winchester",
+                            "loser":  "Dwight",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Winchester",
+                                          "Effingham St. Anthony"
+                                      ],
+                            "scores":  [
+                                           21,
+                                           31
+                                       ],
+                            "winner":  "Effingham St. Anthony",
+                            "loser":  "Winchester",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2026\u0026Class=7-2A"
+                        }
+              }
+};

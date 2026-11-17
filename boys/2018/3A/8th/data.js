@@ -1,0 +1,403 @@
+﻿window.tournamentData = {
+    "year":  2018,
+    "grade":  "8th",
+    "className":  "3A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Calumet City Schrum",
+                          "teams":  [
+                                        "Dolton Roosevelt",
+                                        "South Holland McKinley",
+                                        "Calumet Park Calumet",
+                                        "Dolton Lincoln",
+                                        "Chicago Frances Xavier Warde",
+                                        "Calumet City Schrum",
+                                        "Dixmoor Rosa Parks"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Morris Saratoga",
+                          "teams":  [
+                                        "Morris Shabbona",
+                                        "Winfield Wheaton Christian",
+                                        "Wilmington",
+                                        "Braidwood Reed-Custer",
+                                        "Crest Hill Richland",
+                                        "Morris Saratoga"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Peru Parkside",
+                          "teams":  [
+                                        "Peru Parkside",
+                                        "Spring Valley Kennedy",
+                                        "Wenona Fieldcrest",
+                                        "Metamora GS",
+                                        "Rockford Marshall",
+                                        "Marseilles ES"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Stanford Olympia",
+                          "teams":  [
+                                        "Washington MS",
+                                        "Germantown Hills",
+                                        "El Paso-Gridley",
+                                        "Eureka",
+                                        "Washington Beverly Manor",
+                                        "Stanford Olympia",
+                                        "Mackinaw Dee-Mack",
+                                        "Tremont"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Peotone",
+                          "teams":  [
+                                        "Lansing Heritage",
+                                        "Beecher",
+                                        "Peotone",
+                                        "Herscher Limestone",
+                                        "Momence JHS",
+                                        "Kankakee Bishop McNamara",
+                                        "Glenwood Brookwood"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Watseka Glenn Raymond",
+                          "teams":  [
+                                        "Watseka Glenn Raymond",
+                                        "Paxton-Buckley-Loda",
+                                        "Clifton Nash",
+                                        "Onarga Iroquois West",
+                                        "Gibson City GCMS",
+                                        "Pontiac JHS",
+                                        "Hoopeston Area"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Chillicothe",
+                          "teams":  [
+                                        "Dunlap Valley MS",
+                                        "Chillicothe",
+                                        "Farmington Central",
+                                        "Mossville",
+                                        "Green Valley Midwest Central",
+                                        "Peoria Quest",
+                                        "Marquette Heights Georgetowne",
+                                        "Creve Coeur Parkview"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Monmouth United",
+                          "teams":  [
+                                        "Taylor Ridge Rockridge",
+                                        "Monmouth-Roseville JHS",
+                                        "Joy Mercer County",
+                                        "Avon Abingdon Avon",
+                                        "Knoxville JHS",
+                                        "Sherrard JHS",
+                                        "Monmouth United"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Tuscola East Prairie",
+                          "teams":  [
+                                        "St. Joseph",
+                                        "Georgetown Mary Miller",
+                                        "Tuscola East Prairie",
+                                        "Westville JHS",
+                                        "Tolono Unity",
+                                        "Danville Oakwood"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Downs Tri-Valley",
+                          "teams":  [
+                                        "Monticello",
+                                        "Downs Tri-Valley",
+                                        "Maroa-Forsyth",
+                                        "Warrensburg-Latham",
+                                        "Argenta-Oreana"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Lincoln JHS",
+                          "teams":  [
+                                        "Springfield Lincoln",
+                                        "Riverton",
+                                        "Pleasant Plains",
+                                        "Athens",
+                                        "Petersburg PORTA JHS",
+                                        "Williamsville",
+                                        "New Berlin JHS",
+                                        "Lincoln JHS"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "White Hall North Greene",
+                          "teams":  [
+                                        "Pittsfield Pikeland",
+                                        "Quincy St. Peter",
+                                        "Mt. Sterling Brown County",
+                                        "Beardstown MS",
+                                        "Rushville Schuyler Industry",
+                                        "Havana",
+                                        "White Hall North Greene"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Paris Mayo",
+                          "teams":  [
+                                        "Macon Meridian",
+                                        "Arcola",
+                                        "Shelbyville Moulton",
+                                        "Paris Mayo",
+                                        "Sullivan",
+                                        "Arthur",
+                                        "Toledo Cumberland"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Lawrenceville Parkview",
+                          "teams":  [
+                                        "Teutopolis",
+                                        "Casey-Westfield",
+                                        "Marshall JHS",
+                                        "Newton Jasper County",
+                                        "Lawrenceville Parkview",
+                                        "Robinson Nuttall",
+                                        "Bridgeport Red Hill"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Greenville",
+                          "teams":  [
+                                        "Greenville",
+                                        "Hillsboro",
+                                        "Vandalia",
+                                        "Gillespie",
+                                        "Litchfield",
+                                        "Pana JHS"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Auburn JHS at Divernon",
+                          "teams":  [
+                                        "Piasa Southwestern",
+                                        "Carlinville",
+                                        "Girard North Mac",
+                                        "Auburn JHS at Divernon",
+                                        "Staunton",
+                                        "Wood River Lewis \u0026 Clark",
+                                        "East Alton MS"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Winfield Wheaton Christian",
+                           "date":  "Wednesday, February 7, 2018",
+                           "records":  {
+                                           "1":  "5-2",
+                                           "2":  "20-4"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Washington MS",
+                           "date":  "Wednesday, February 7, 2018",
+                           "records":  {
+                                           "3":  "22-1",
+                                           "4":  "22-2"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Gibson City GCMS",
+                           "date":  "Wednesday, February 7, 2018",
+                           "records":  {
+                                           "5":  "19-2",
+                                           "6":  "17-7"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Farmington Central",
+                           "date":  "Wednesday, February 7, 2018",
+                           "records":  {
+                                           "7":  "22-2",
+                                           "8":  "16-7"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Monticello",
+                           "date":  "Wednesday, February 7, 2018",
+                           "records":  {
+                                           "9":  "21-3",
+                                           "10":  "19-5"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "New Berlin JHS",
+                           "date":  "Wednesday, February 7, 2018",
+                           "records":  {
+                                           "11":  "18-4",
+                                           "12":  "21-3"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Teutopolis",
+                           "date":  "Wednesday, February 7, 2018",
+                           "records":  {
+                                           "13":  "21-2",
+                                           "14":  "15-9"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Piasa Southwestern",
+                           "date":  "Wednesday, February 7, 2018",
+                           "records":  {
+                                           "15":  "20-2",
+                                           "16":  "12-10"
+                                       }
+                       }
+                   ],
+    "venue":  "Tolono Unity JHS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              7,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              6,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              1,
+                                              3
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              8,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

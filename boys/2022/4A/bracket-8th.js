@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:21",
+    "year":  2022,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Edwardsville Liberty",
+                                 "loser":  "Alton",
+                                 "score":  "40-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                             },
+                      "3":  {
+                                "winner":  "Arlington Heights Thomas",
+                                "loser":  "Arlington Heights South",
+                                "score":  "39-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                            },
+                      "5":  {
+                                "winner":  "Flossmoor Parker",
+                                "loser":  "Homewood Hart",
+                                "score":  "47-43",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Dunlap Valley MS",
+                                 "loser":  "Dunlap MS",
+                                 "score":  "56-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Minooka",
+                                 "loser":  "Ottawa Shepherd",
+                                 "score":  "49-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                             },
+                      "2":  {
+                                "winner":  "Rockford Eisenhower",
+                                "loser":  "Rockford West",
+                                "score":  "59-57",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                            },
+                      "8":  {
+                                "winner":  "Lemont Old Quarry",
+                                "loser":  "Homer Glen Homer",
+                                "score":  "46-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Normal Parkside",
+                                 "loser":  "Morton JHS",
+                                 "score":  "24-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                             },
+                      "1":  {
+                                "winner":  "Algonquin Heineman",
+                                "loser":  "Lake Zurich North",
+                                "score":  "36-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                            },
+                      "9":  {
+                                "winner":  "Yorkville",
+                                "loser":  "Joliet Hufford",
+                                "score":  "53-41",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Mt. Zion",
+                                 "loser":  "Effingham JHS",
+                                 "score":  "34-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                             },
+                      "7":  {
+                                "winner":  "Frankfort Summit Hill",
+                                "loser":  "Markham Prairie-Hills",
+                                "score":  "55-41",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Springfield Grant",
+                                 "loser":  "Chatham Glenwood",
+                                 "score":  "46-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                             },
+                      "6":  {
+                                "winner":  "Kankakee JHS",
+                                "loser":  "Park Forest Michelle Obama STA",
+                                "score":  "53-52",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                            },
+                      "4":  {
+                                "winner":  "Bolingbrook Brooks",
+                                "loser":  "Bolingbrook Jane Addams",
+                                "score":  "48-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Mahomet-Seymour",
+                                 "loser":  "Urbana MS",
+                                 "score":  "35-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Edwardsville Liberty",
+                                               "record":  "20-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Arlington Heights Thomas",
+                                              "record":  "11-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Flossmoor Parker",
+                                              "record":  "14-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Dunlap Valley MS",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Minooka",
+                                               "record":  "14-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Rockford Eisenhower",
+                                              "record":  "20-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Lemont Old Quarry",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Normal Parkside",
+                                               "record":  "17-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Algonquin Heineman",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Yorkville",
+                                              "record":  "10-10",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Mt. Zion",
+                                               "record":  "20-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Frankfort Summit Hill",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Springfield Grant",
+                                               "record":  "17-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Kankakee JHS",
+                                              "record":  "15-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Bolingbrook Brooks",
+                                              "record":  "13-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Mahomet-Seymour",
+                                               "record":  "17-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2022\u0026Class=8-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Mahomet-Seymour",
+                                 "loser":  "Mt. Zion",
+                                 "score":  "51-49",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Flossmoor Parker",
+                                 "loser":  "Kankakee JHS",
+                                 "score":  "49-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Bolingbrook Brooks",
+                                 "loser":  "Arlington Heights Thomas",
+                                 "score":  "55-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Rockford Eisenhower",
+                                 "loser":  "Algonquin Heineman",
+                                 "score":  "55-48",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Frankfort Summit Hill",
+                                 "loser":  "Lemont Old Quarry",
+                                 "score":  "60-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Dunlap Valley MS",
+                                 "loser":  "Normal Parkside",
+                                 "score":  "48-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Minooka",
+                                 "loser":  "Yorkville",
+                                 "score":  "43-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-4A"
+                             },
+                       "8":  {
+                                 "winner":  "Edwardsville Liberty",
+                                 "loser":  "Springfield Grant",
+                                 "score":  "38-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2022\u0026Class=8-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           5,
+                                           4
+                                       ],
+                                 "4":  [
+                                           3,
+                                           2
+                                       ],
+                                 "1":  [
+                                           1,
+                                           7
+                                       ],
+                                 "3":  [
+                                           6,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Rockford Eisenhower",
+                                          "Dunlap Valley MS"
+                                      ],
+                            "scores":  [
+                                           60,
+                                           63
+                                       ],
+                            "winner":  "Dunlap Valley MS",
+                            "loser":  "Rockford Eisenhower",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Dunlap Valley MS",
+                                          "Edwardsville Liberty"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           49
+                                       ],
+                            "winner":  "Dunlap Valley MS",
+                            "loser":  "Edwardsville Liberty",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Minooka",
+                                          "Frankfort Summit Hill"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           55
+                                       ],
+                            "winner":  "Frankfort Summit Hill",
+                            "loser":  "Minooka",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Rockford Eisenhower",
+                                          "Mahomet-Seymour"
+                                      ],
+                            "scores":  [
+                                           61,
+                                           44
+                                       ],
+                            "winner":  "Rockford Eisenhower",
+                            "loser":  "Mahomet-Seymour",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Flossmoor Parker",
+                                          "Bolingbrook Brooks"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           45
+                                       ],
+                            "winner":  "Bolingbrook Brooks",
+                            "loser":  "Flossmoor Parker",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Dunlap Valley MS",
+                                          "Bolingbrook Brooks"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           53
+                                       ],
+                            "winner":  "Bolingbrook Brooks",
+                            "loser":  "Dunlap Valley MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Rockford Eisenhower",
+                                          "Frankfort Summit Hill"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           48
+                                       ],
+                            "winner":  "Frankfort Summit Hill",
+                            "loser":  "Rockford Eisenhower",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Frankfort Summit Hill",
+                                          "Bolingbrook Brooks"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           48
+                                       ],
+                            "winner":  "Bolingbrook Brooks",
+                            "loser":  "Frankfort Summit Hill",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2022\u0026Class=8-4A"
+                        }
+              }
+};

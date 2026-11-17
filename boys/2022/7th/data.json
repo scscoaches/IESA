@@ -1,0 +1,397 @@
+﻿{
+    "year":  2022,
+    "grade":  "7th",
+    "className":  "2A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Joliet Laraway",
+                          "teams":  [
+                                        "Riverdale Washington",
+                                        "Joliet Laraway",
+                                        "Hazel Crest Jesse White",
+                                        "Lockport Kelvin Grove",
+                                        "Markham Obama",
+                                        "Lockport Fairmont"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Gardner",
+                          "teams":  [
+                                        "Dwight",
+                                        "Gardner",
+                                        "Kankakee Bishop McNamara",
+                                        "Milford",
+                                        "Onarga Iroquois West",
+                                        "Bourbonnais St. George"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "McNabb Putnam County",
+                          "teams":  [
+                                        "Oglesby Washington",
+                                        "Ottawa Wallace",
+                                        "Marseilles ES",
+                                        "Wenona Fieldcrest",
+                                        "Sparland Midland",
+                                        "Seneca",
+                                        "McNabb Putnam County"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Colfax Ridgeview",
+                          "teams":  [
+                                        "Normal Metcalf",
+                                        "Colfax Ridgeview",
+                                        "Lexington",
+                                        "Bloomington Corpus Christi",
+                                        "Creve Coeur Parkview",
+                                        "Marquette Heights Georgetowne"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Peoria St. Vincent de Paul",
+                          "teams":  [
+                                        "Peoria Heights GS",
+                                        "Bartonville Monroe",
+                                        "Peoria Norwood",
+                                        "Peoria St. Vincent de Paul",
+                                        "Mossville",
+                                        "Peoria St. Philomena",
+                                        "Peoria Pleasant Valley",
+                                        "Peoria Christian"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Brimfield",
+                          "teams":  [
+                                        "Brimfield",
+                                        "Galva",
+                                        "Princeville",
+                                        "Kewanee Wethersfield",
+                                        "Elmwood",
+                                        "Toulon Stark County",
+                                        "Oneida ROWVA"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Champaign St. Matthew",
+                          "teams":  [
+                                        "Champaign St. Matthew",
+                                        "Bement",
+                                        "Villa Grove",
+                                        "Fisher",
+                                        "LeRoy",
+                                        "Sidell Salt Fork",
+                                        "Mansfield Blue Ridge IJHS"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Casey-Westfield",
+                          "teams":  [
+                                        "Casey-Westfield",
+                                        "Paris Crestwood",
+                                        "Arcola",
+                                        "Neoga",
+                                        "Oblong",
+                                        "Hutsonville"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Decatur Our Lady of Lourdes",
+                          "teams":  [
+                                        "Decatur Robertson",
+                                        "Decatur Our Lady of Lourdes",
+                                        "Decatur Dennis",
+                                        "Decatur Johns Hill",
+                                        "Decatur Montessori Academy for Peace",
+                                        "Illiopolis Sangamon Valley"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Buffalo Tri-City",
+                          "teams":  [
+                                        "Mt. Pulaski",
+                                        "Tremont",
+                                        "Havana",
+                                        "Lincoln Chester-East Lincoln",
+                                        "Green Valley Midwest Central",
+                                        "Buffalo Tri-City",
+                                        "Mason City Illini Central"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Colchester West Prairie",
+                          "teams":  [
+                                        "Colchester West Prairie",
+                                        "Stronghurst West Central",
+                                        "London Mills Valley",
+                                        "La Harpe",
+                                        "Lewistown JHS",
+                                        "Table Grove VIT"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Mendon Unity",
+                          "teams":  [
+                                        "Mt. Sterling Brown County",
+                                        "Liberty",
+                                        "Carthage",
+                                        "Mendon Unity",
+                                        "Payson Seymour",
+                                        "Hamilton",
+                                        "Kinderhook Western"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Assumption Central A \u0026 M",
+                          "teams":  [
+                                        "Assumption Central A \u0026 M",
+                                        "Stewardson-Strasburg",
+                                        "Kincaid South Fork",
+                                        "Nokomis JHS",
+                                        "Cowden-Herrick",
+                                        "Findlay Okaw Valley"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Effingham St. Anthony",
+                          "teams":  [
+                                        "Kinmundy South Central",
+                                        "Effingham St. Anthony",
+                                        "Dieterich",
+                                        "St. Elmo",
+                                        "Louisville North Clay",
+                                        "Altamont"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Waverly",
+                          "teams":  [
+                                        "Waverly",
+                                        "Springfield Blessed Sacrament",
+                                        "Morrisonville JHS",
+                                        "New Berlin JHS",
+                                        "Concord Triopia",
+                                        "Pawnee"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Bunker Hill Wolf Ridge",
+                          "teams":  [
+                                        "Hardin Calhoun",
+                                        "Bunker Hill Wolf Ridge",
+                                        "Greenfield",
+                                        "Madison",
+                                        "Carrollton GS",
+                                        "Mt. Olive"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Gardner",
+                           "date":  "Thursday, February 3, 2022",
+                           "records":  {
+                                           "1":  "6-8",
+                                           "2":  "16-4"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Wenona Fieldcrest",
+                           "date":  "Tuesday, February 1, 2022",
+                           "records":  {
+                                           "3":  "16-3",
+                                           "4":  "20-0"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Peoria Christian",
+                           "date":  "Thursday, February 3, 2022",
+                           "records":  {
+                                           "5":  "19-6",
+                                           "6":  "14-9"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Casey-Westfield",
+                           "date":  "Tuesday, February 1, 2022",
+                           "records":  {
+                                           "7":  "20-6",
+                                           "8":  "12-4"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Tremont",
+                           "date":  "Tuesday, February 1, 2022",
+                           "records":  {
+                                           "9":  "10-0",
+                                           "10":  "17-3"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Mendon Unity",
+                           "date":  "Tuesday, February 1, 2022",
+                           "records":  {
+                                           "11":  "17-1",
+                                           "12":  "26-0"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Nokomis JHS",
+                           "date":  "Tuesday, February 1, 2022",
+                           "records":  {
+                                           "13":  "18-5",
+                                           "14":  "15-9"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "New Berlin JHS",
+                           "date":  "Friday, February 4, 2022",
+                           "records":  {
+                                           "15":  "14-12",
+                                           "16":  "16-1"
+                                       }
+                       }
+                   ],
+    "venue":  "Macon Meridian HS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              3,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              6,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              1,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              7,
+                                              8
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:27",
+    "year":  2019,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Piasa Southwestern",
+                                 "loser":  "Girard North Mac",
+                                 "score":  "27-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                             },
+                      "3":  {
+                                "winner":  "Onarga Iroquois West",
+                                "loser":  "Kankakee Bishop McNamara",
+                                "score":  "37-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                            },
+                      "5":  {
+                                "winner":  "Eureka",
+                                "loser":  "Metamora GS",
+                                "score":  "51-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                            },
+                      "12":  {
+                                 "winner":  "New Berlin JHS",
+                                 "loser":  "Quincy St. Peter",
+                                 "score":  "39-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Monticello",
+                                 "loser":  "Heyworth",
+                                 "score":  "39-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                             },
+                      "2":  {
+                                "winner":  "Chicago Frances Xavier Warde",
+                                "loser":  "Calumet Park Calumet",
+                                "score":  "56-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                            },
+                      "8":  {
+                                "winner":  "Taylor Ridge Rockridge",
+                                "loser":  "Joy Mercer County",
+                                "score":  "49-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Athens",
+                                 "loser":  "Lincoln JHS",
+                                 "score":  "34-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                             },
+                      "1":  {
+                                "winner":  "South Holland McKinley",
+                                "loser":  "Sauk Village Rickover",
+                                "score":  "48-45",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                            },
+                      "9":  {
+                                "winner":  "St. Joseph",
+                                "loser":  "Tolono Unity",
+                                "score":  "44-43",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Lawrenceville Parkview",
+                                 "score":  "35-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                             },
+                      "7":  {
+                                "winner":  "Glasford Illini Bluffs",
+                                "loser":  "Peoria Quest",
+                                "score":  "42-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Litchfield",
+                                 "loser":  "Auburn JHS at Divernon",
+                                 "score":  "44-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                             },
+                      "6":  {
+                                "winner":  "Washington Central",
+                                "loser":  "Washington MS",
+                                "score":  "39-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                            },
+                      "4":  {
+                                "winner":  "Forrest Prairie Central",
+                                "loser":  "Wilmington",
+                                "score":  "51-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Shelbyville Moulton",
+                                 "loser":  "Sullivan",
+                                 "score":  "40-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Piasa Southwestern",
+                                               "record":  "11-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Onarga Iroquois West",
+                                              "record":  "19-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Eureka",
+                                              "record":  "20-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "New Berlin JHS",
+                                               "record":  "23-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Monticello",
+                                               "record":  "21-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Chicago Frances Xavier Warde",
+                                              "record":  "11-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Taylor Ridge Rockridge",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Athens",
+                                               "record":  "23-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "South Holland McKinley",
+                                              "record":  "12-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "St. Joseph",
+                                              "record":  "17-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Glasford Illini Bluffs",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Litchfield",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Washington Central",
+                                              "record":  "15-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Forrest Prairie Central",
+                                              "record":  "19-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Shelbyville Moulton",
+                                               "record":  "20-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2019\u0026Class=7-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Shelbyville Moulton",
+                                 "score":  "48-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=7-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Eureka",
+                                 "loser":  "Washington Central",
+                                 "score":  "38-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=7-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Forrest Prairie Central",
+                                 "loser":  "Onarga Iroquois West",
+                                 "score":  "46-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=7-3A"
+                             },
+                       "1":  {
+                                 "winner":  "South Holland McKinley",
+                                 "loser":  "Chicago Frances Xavier Warde",
+                                 "score":  "44-41",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=7-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Taylor Ridge Rockridge",
+                                 "loser":  "Glasford Illini Bluffs",
+                                 "score":  "31-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=7-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Athens",
+                                 "loser":  "New Berlin JHS",
+                                 "score":  "29-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=7-3A"
+                             },
+                       "5":  {
+                                 "winner":  "St. Joseph",
+                                 "loser":  "Monticello",
+                                 "score":  "41-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=7-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Litchfield",
+                                 "loser":  "Piasa Southwestern",
+                                 "score":  "52-11",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2019\u0026Class=7-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           4,
+                                           6
+                                       ],
+                                 "4":  [
+                                           1,
+                                           7
+                                       ],
+                                 "1":  [
+                                           3,
+                                           8
+                                       ],
+                                 "3":  [
+                                           2,
+                                           5
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Litchfield",
+                                          "South Holland McKinley"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           42
+                                       ],
+                            "winner":  "South Holland McKinley",
+                            "loser":  "Litchfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=7-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Forrest Prairie Central",
+                                          "St. Joseph"
+                                      ],
+                            "scores":  [
+                                           54,
+                                           30
+                                       ],
+                            "winner":  "Forrest Prairie Central",
+                            "loser":  "St. Joseph",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=7-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Taylor Ridge Rockridge",
+                                          "Athens"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           35
+                                       ],
+                            "winner":  "Athens",
+                            "loser":  "Taylor Ridge Rockridge",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=7-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Eureka",
+                                          "Litchfield"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           39
+                                       ],
+                            "winner":  "Litchfield",
+                            "loser":  "Eureka",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=7-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "South Holland McKinley",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           28
+                                       ],
+                            "winner":  "South Holland McKinley",
+                            "loser":  "Teutopolis",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=7-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Forrest Prairie Central",
+                                          "South Holland McKinley"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           36
+                                       ],
+                            "winner":  "Forrest Prairie Central",
+                            "loser":  "South Holland McKinley",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=7-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Litchfield",
+                                          "Athens"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           35
+                                       ],
+                            "winner":  "Athens",
+                            "loser":  "Litchfield",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=7-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Athens",
+                                          "Forrest Prairie Central"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           19
+                                       ],
+                            "winner":  "Athens",
+                            "loser":  "Forrest Prairie Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2019\u0026Class=7-3A"
+                        }
+              }
+};

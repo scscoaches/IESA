@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:32",
+    "year":  2017,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Vandalia",
+                                 "loser":  "Greenville",
+                                 "score":  "39-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                             },
+                      "3":  {
+                                "winner":  "Clifton Nash",
+                                "loser":  "Herscher Limestone",
+                                "score":  "22-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                            },
+                      "5":  {
+                                "winner":  "Wenona Fieldcrest",
+                                "loser":  "Spring Valley Kennedy",
+                                "score":  "48-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Quincy St. Peter",
+                                 "loser":  "White Hall North Greene",
+                                 "score":  "49-48",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Maroa-Forsyth",
+                                 "loser":  "Lincoln JHS",
+                                 "score":  "31-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                             },
+                      "2":  {
+                                "winner":  "Burr Ridge MS",
+                                "loser":  "Crest Hill Richland",
+                                "score":  "52-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                            },
+                      "8":  {
+                                "winner":  "Monmouth-Roseville JHS",
+                                "loser":  "Farmington Central",
+                                "score":  "42-39",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Springfield Lincoln",
+                                 "score":  "51-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                             },
+                      "1":  {
+                                "winner":  "South Holland McKinley",
+                                "loser":  "Calumet Park",
+                                "score":  "41-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                            },
+                      "9":  {
+                                "winner":  "Monticello",
+                                "loser":  "Tolono Unity",
+                                "score":  "29-17",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Toledo Cumberland",
+                                 "score":  "59-10",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                             },
+                      "7":  {
+                                "winner":  "Mossville",
+                                "loser":  "Peoria Quest",
+                                "score":  "69-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Gillespie",
+                                 "loser":  "Girard North Mac",
+                                 "score":  "37-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                             },
+                      "6":  {
+                                "winner":  "Eureka",
+                                "loser":  "Washington Beverly Manor",
+                                "score":  "50-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                            },
+                      "4":  {
+                                "winner":  "Watseka Glenn Raymond",
+                                "loser":  "Paxton-Buckley-Loda",
+                                "score":  "34-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Marshall JHS",
+                                 "loser":  "Danville Oakwood",
+                                 "score":  "27-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Vandalia",
+                                               "record":  "22-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Clifton Nash",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Wenona Fieldcrest",
+                                              "record":  "21-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Quincy St. Peter",
+                                               "record":  "14-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Maroa-Forsyth",
+                                               "record":  "18-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Burr Ridge MS",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Monmouth-Roseville JHS",
+                                              "record":  "16-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Pleasant Plains",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "South Holland McKinley",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Monticello",
+                                              "record":  "17-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "20-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Mossville",
+                                              "record":  "22-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Gillespie",
+                                               "record":  "15-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Eureka",
+                                              "record":  "19-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Watseka Glenn Raymond",
+                                              "record":  "18-3",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Marshall JHS",
+                                               "record":  "19-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2017\u0026Class=8-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Marshall JHS",
+                                 "score":  "45-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=8-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Wenona Fieldcrest",
+                                 "loser":  "Eureka",
+                                 "score":  "43-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=8-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Clifton Nash",
+                                 "loser":  "Watseka Glenn Raymond",
+                                 "score":  "43-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=8-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Burr Ridge MS",
+                                 "loser":  "South Holland McKinley",
+                                 "score":  "43-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=8-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Mossville",
+                                 "loser":  "Monmouth-Roseville JHS",
+                                 "score":  "54-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=8-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Quincy St. Peter",
+                                 "score":  "49-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=8-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Maroa-Forsyth",
+                                 "loser":  "Monticello",
+                                 "score":  "32-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=8-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Vandalia",
+                                 "loser":  "Gillespie",
+                                 "score":  "34-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2017\u0026Class=8-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           8,
+                                           2
+                                       ],
+                                 "4":  [
+                                           1,
+                                           5
+                                       ],
+                                 "1":  [
+                                           4,
+                                           7
+                                       ],
+                                 "3":  [
+                                           3,
+                                           6
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Clifton Nash",
+                                          "Wenona Fieldcrest"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           39
+                                       ],
+                            "winner":  "Clifton Nash",
+                            "loser":  "Wenona Fieldcrest",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=8-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Wenona Fieldcrest",
+                                          "Pleasant Plains"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           35
+                                       ],
+                            "winner":  "Wenona Fieldcrest",
+                            "loser":  "Pleasant Plains",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=8-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Vandalia",
+                                          "Clifton Nash"
+                                      ],
+                            "scores":  [
+                                           39,
+                                           45
+                                       ],
+                            "winner":  "Clifton Nash",
+                            "loser":  "Vandalia",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=8-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Mossville",
+                                          "Teutopolis"
+                                      ],
+                            "scores":  [
+                                           23,
+                                           56
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Mossville",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=8-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Burr Ridge MS",
+                                          "Maroa-Forsyth"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           32
+                                       ],
+                            "winner":  "Burr Ridge MS",
+                            "loser":  "Maroa-Forsyth",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=8-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Wenona Fieldcrest",
+                                          "Burr Ridge MS"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           33
+                                       ],
+                            "winner":  "Burr Ridge MS",
+                            "loser":  "Wenona Fieldcrest",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=8-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Clifton Nash"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           21
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Clifton Nash",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=8-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "Burr Ridge MS"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           34
+                                       ],
+                            "winner":  "Teutopolis",
+                            "loser":  "Burr Ridge MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2017\u0026Class=8-3A"
+                        }
+              }
+}

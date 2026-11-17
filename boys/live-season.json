@@ -1,0 +1,23 @@
+{
+    "year":  2027,
+    "followedClass":  "2A",
+    "refreshEnabled":  false,
+    "createFrom":  "2026-09-01",
+    "gamesFrom":  "2026-10-31",
+    "seedsFrom":  "2027-01-07",
+    "bracketFrom":  "2027-01-16",
+    "endDate":  "2027-03-05",
+    "seasonMustEnd":  "2027-03-06",
+    "grades":  {
+                   "7th":  {
+                               "seedsFrom":  "2027-01-07",
+                               "bracketFrom":  "2027-01-16",
+                               "stateLast":  "2027-02-04"
+                           },
+                   "8th":  {
+                               "seedsFrom":  "2027-01-14",
+                               "bracketFrom":  "2027-01-23",
+                               "stateLast":  "2027-02-11"
+                           }
+               }
+}

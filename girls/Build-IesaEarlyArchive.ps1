@@ -37,7 +37,8 @@ function Get-StateGames([string]$html, [int]$year, [string]$code) {
     $champion = [regex]::Match($html, "(?is)<td\s+class=['""]Score-Champ['""][^>]*>(.*?)</td>")
     $meet = [regex]::Match($html, "(?is)<td\s+class=['""]Score-Meet['""][^>]*>(.*?)</td>")
     if (!$champion.Success -or !$meet.Success) { throw "$year $code has no state championship" }
-    $headings = @([regex]::Matches($html, "(?is)<td\s+class=['""]Score-Subtitle['""][^>]*>\s*(First Round|Quarterfinals|Semifinals|Third Place|State Championship|Final Results)\s*</td>"))
+    # The last heading only ends the championship block; later years call it "Final Win/Loss Records".
+    $headings = @([regex]::Matches($html, "(?is)<td\s+class=['""]Score-Subtitle['""][^>]*>\s*(First Round|Quarterfinals|Semifinals|Third Place|State Championship|Final Results|Final Win/Loss Records)\s*</td>"))
     $expectedHeadings = if ($headings[0].Groups[1].Value -eq 'First Round') {
         @('First Round', 'Quarterfinals', 'Semifinals', 'Third Place', 'State Championship', 'Final Results')
     } else {

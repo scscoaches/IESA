@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:36",
+    "year":  2016,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East St. Louis Lincoln",
+                                 "loser":  "East St. Louis Clark",
+                                 "score":  "55-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Mokena",
+                                "loser":  "New Lenox Martino",
+                                "score":  "45-44",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "Romeoville Martinez",
+                                "loser":  "Joliet Hufford",
+                                "score":  "46-44",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Pekin Edison",
+                                 "loser":  "Morton JHS",
+                                 "score":  "51-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Urbana MS",
+                                 "loser":  "Charleston",
+                                 "score":  "53-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Glenwood Brookwood",
+                                "loser":  "Chicago Heights Washington",
+                                "score":  "64-55",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Rockford Flinn",
+                                "loser":  "Sterling Challand",
+                                "score":  "43-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Bloomington JHS",
+                                 "loser":  "Normal Chiddix",
+                                 "score":  "46-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Flossmoor Parker",
+                                "loser":  "Phoenix Coolidge",
+                                "score":  "41-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Danville South View",
+                                "loser":  "Mahomet-Seymour",
+                                "score":  "34-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Springfield Grant",
+                                 "loser":  "Quincy",
+                                 "score":  "45-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "Bolingbrook Humphrey",
+                                "loser":  "Woodridge Jefferson",
+                                "score":  "46-40",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Alton",
+                                 "loser":  "Edwardsville Lincoln",
+                                 "score":  "41-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "Minooka",
+                                "loser":  "Channahon",
+                                "score":  "47-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "Matteson Colin Powell",
+                                "loser":  "Matteson Huth",
+                                "score":  "42-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Taylorville JHS",
+                                 "score":  "32-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "East St. Louis Lincoln",
+                                               "record":  "12-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                           },
+                                    "3":  {
+                                              "team":  "Mokena",
+                                              "record":  "23-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Romeoville Martinez",
+                                              "record":  "13-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Pekin Edison",
+                                               "record":  "21-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Urbana MS",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Glenwood Brookwood",
+                                              "record":  "14-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Rockford Flinn",
+                                              "record":  "14-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Bloomington JHS",
+                                               "record":  "20-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Flossmoor Parker",
+                                              "record":  "16-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Danville South View",
+                                              "record":  "17-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                          },
+                                    "14":  {
+                                               "team":  "Springfield Grant",
+                                               "record":  "22-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Bolingbrook Humphrey",
+                                              "record":  "14-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                          },
+                                    "15":  {
+                                               "team":  "Alton",
+                                               "record":  "11-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                           },
+                                    "6":  {
+                                              "team":  "Minooka",
+                                              "record":  "17-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Matteson Colin Powell",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                          },
+                                    "13":  {
+                                               "team":  "Chatham Glenwood",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2016\u0026Class=7-4A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Springfield Grant",
+                                 "score":  "33-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Minooka",
+                                 "loser":  "Romeoville Martinez",
+                                 "score":  "55-46",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Mokena",
+                                 "loser":  "Matteson Colin Powell",
+                                 "score":  "52-40",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Flossmoor Parker",
+                                 "loser":  "Glenwood Brookwood",
+                                 "score":  "42-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Bolingbrook Humphrey",
+                                 "loser":  "Rockford Flinn",
+                                 "score":  "46-37",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Bloomington JHS",
+                                 "loser":  "Pekin Edison",
+                                 "score":  "52-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Urbana MS",
+                                 "loser":  "Danville South View",
+                                 "score":  "55-50",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "East St. Louis Lincoln",
+                                 "loser":  "Alton",
+                                 "score":  "50-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2016\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           1,
+                                           3
+                                       ],
+                                 "4":  [
+                                           2,
+                                           5
+                                       ],
+                                 "1":  [
+                                           7,
+                                           6
+                                       ],
+                                 "3":  [
+                                           8,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Flossmoor Parker",
+                                          "Urbana MS"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           48
+                                       ],
+                            "winner":  "Urbana MS",
+                            "loser":  "Flossmoor Parker",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "East St. Louis Lincoln",
+                                          "Bolingbrook Humphrey"
+                                      ],
+                            "scores":  [
+                                           55,
+                                           32
+                                       ],
+                            "winner":  "East St. Louis Lincoln",
+                            "loser":  "Bolingbrook Humphrey",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Flossmoor Parker",
+                                          "Minooka"
+                                      ],
+                            "scores":  [
+                                           50,
+                                           33
+                                       ],
+                            "winner":  "Flossmoor Parker",
+                            "loser":  "Minooka",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Chatham Glenwood",
+                                          "Bloomington JHS"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           53
+                                       ],
+                            "winner":  "Bloomington JHS",
+                            "loser":  "Chatham Glenwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Mokena",
+                                          "Urbana MS"
+                                      ],
+                            "scores":  [
+                                           59,
+                                           69
+                                       ],
+                            "winner":  "Urbana MS",
+                            "loser":  "Mokena",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "East St. Louis Lincoln",
+                                          "Urbana MS"
+                                      ],
+                            "scores":  [
+                                           71,
+                                           47
+                                       ],
+                            "winner":  "East St. Louis Lincoln",
+                            "loser":  "Urbana MS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Bloomington JHS",
+                                          "Flossmoor Parker"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           37
+                                       ],
+                            "winner":  "Bloomington JHS",
+                            "loser":  "Flossmoor Parker",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Bloomington JHS",
+                                          "East St. Louis Lincoln"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           55
+                                       ],
+                            "winner":  "East St. Louis Lincoln",
+                            "loser":  "Bloomington JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2016\u0026Class=7-4A"
+                        }
+              }
+};

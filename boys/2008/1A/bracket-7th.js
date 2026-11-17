@@ -1,0 +1,280 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 16:02",
+    "year":  2008,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Lovejoy",
+                                 "loser":  "Alorton Neely",
+                                 "score":  "40-9",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Flanagan",
+                                "score":  "62-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Bloomington Cornerstone",
+                                "loser":  "Hartsburg-Emden",
+                                "score":  "52-40",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Griggsville-Perry",
+                                 "loser":  "Bluffs",
+                                 "score":  "34-32",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Decatur St. Patrick",
+                                 "score":  "44-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Mazon-Verona-Kinsman",
+                                "loser":  "Kankakee Aquinas",
+                                "score":  "27-14",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Potomac",
+                                "loser":  "Catlin",
+                                "score":  "42-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Concord Triopia",
+                                 "score":  "41-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Joliet Laraway",
+                                "loser":  "Lockport Fairmont",
+                                "score":  "2-0",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Arthur",
+                                "loser":  "Philo St. Thomas",
+                                "score":  "34-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Beecher City",
+                                 "loser":  "Effingham Sacred Heart",
+                                 "score":  "54-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Cissna Park",
+                                "loser":  "Royal Prairieview Ogden",
+                                "score":  "44-26",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Waverly",
+                                 "loser":  "Franklin",
+                                 "score":  "42-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Monmouth ICS",
+                                "loser":  "Peoria Limestone Walters",
+                                "score":  "30-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "Marseilles Milton Pope",
+                                "loser":  "Streator Woodland",
+                                "score":  "35-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Newton St. Thomas",
+                                 "loser":  "Hutsonville",
+                                 "score":  "34-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2008\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Beecher City",
+                                 "loser":  "Newton St. Thomas",
+                                 "score":  "49-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Bloomington Cornerstone",
+                                 "loser":  "Monmouth ICS",
+                                 "score":  "44-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Marseilles Milton Pope",
+                                 "loser":  "Pontiac St. Mary\u0027s",
+                                 "score":  "33-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Joliet Laraway",
+                                 "loser":  "Mazon-Verona-Kinsman",
+                                 "score":  "38-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Cissna Park",
+                                 "loser":  "Potomac",
+                                 "score":  "46-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Jacksonville Our Saviour",
+                                 "loser":  "Griggsville-Perry",
+                                 "score":  "35-14",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Decatur Robertson",
+                                 "loser":  "Arthur",
+                                 "score":  "41-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Lovejoy",
+                                 "loser":  "Waverly",
+                                 "score":  "42-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2008\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           5
+                                       ],
+                                 "4":  [
+                                           8,
+                                           1
+                                       ],
+                                 "1":  [
+                                           3,
+                                           2
+                                       ],
+                                 "3":  [
+                                           6,
+                                           4
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Beecher City",
+                                          "Lovejoy"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           55
+                                       ],
+                            "winner":  "Lovejoy",
+                            "loser":  "Beecher City",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Jacksonville Our Saviour",
+                                          "Cissna Park"
+                                      ],
+                            "scores":  [
+                                           27,
+                                           34
+                                       ],
+                            "winner":  "Cissna Park",
+                            "loser":  "Jacksonville Our Saviour",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Beecher City",
+                                          "Decatur Robertson"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           35
+                                       ],
+                            "winner":  "Beecher City",
+                            "loser":  "Decatur Robertson",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Bloomington Cornerstone",
+                                          "Marseilles Milton Pope"
+                                      ],
+                            "scores":  [
+                                           37,
+                                           39
+                                       ],
+                            "winner":  "Marseilles Milton Pope",
+                            "loser":  "Bloomington Cornerstone",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Lovejoy",
+                                          "Joliet Laraway"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           25
+                                       ],
+                            "winner":  "Lovejoy",
+                            "loser":  "Joliet Laraway",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Cissna Park",
+                                          "Lovejoy"
+                                      ],
+                            "scores":  [
+                                           34,
+                                           27
+                                       ],
+                            "winner":  "Cissna Park",
+                            "loser":  "Lovejoy",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Marseilles Milton Pope",
+                                          "Beecher City"
+                                      ],
+                            "scores":  [
+                                           46,
+                                           31
+                                       ],
+                            "winner":  "Marseilles Milton Pope",
+                            "loser":  "Beecher City",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Marseilles Milton Pope",
+                                          "Cissna Park"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           33
+                                       ],
+                            "winner":  "Cissna Park",
+                            "loser":  "Marseilles Milton Pope",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2008\u0026Class=7-1A"
+                        }
+              }
+};

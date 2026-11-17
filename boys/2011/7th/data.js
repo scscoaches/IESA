@@ -1,0 +1,427 @@
+﻿window.tournamentData = {
+    "year":  2011,
+    "grade":  "7th",
+    "className":  "1A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Joliet Laraway",
+                          "teams":  [
+                                        "Joliet Laraway",
+                                        "Lockport Fairmont",
+                                        "Lockport Taft",
+                                        "Rockdale",
+                                        "Joliet Union"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Ottawa Marquette",
+                          "teams":  [
+                                        "Ottawa Marquette",
+                                        "Ransom",
+                                        "Gardner",
+                                        "Marseilles Milton Pope",
+                                        "Morris Nettle Creek",
+                                        "Braceville"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Crescent City",
+                          "teams":  [
+                                        "Bourbonnais Maternity BVM",
+                                        "Bradley St. Joseph",
+                                        "Crescent City",
+                                        "Hopkins Park Lorenzo Smith",
+                                        "Cissna Park"
+                                    ],
+                          "assignedTeams":  [
+                                                "Bourbonnais Maternity BVM",
+                                                "Bradley St. Joseph",
+                                                "Cissna Park",
+                                                "Crescent City (Coop)",
+                                                "Hopkins Park Lorenzo Smith (Coed)"
+                                            ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Rantoul St. Malachy",
+                          "teams":  [
+                                        "Rantoul St. Malachy",
+                                        "Gifford",
+                                        "Royal Prairieview Ogden",
+                                        "Thomasboro",
+                                        "Philo St. Thomas",
+                                        "Potomac",
+                                        "Rossville-Alvin"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Pontiac St. Mary\u0027s",
+                          "teams":  [
+                                        "Flanagan",
+                                        "Saunemin",
+                                        "Streator Woodland",
+                                        "Pontiac St. Mary\u0027s",
+                                        "Odell",
+                                        "Cornell"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Tonica",
+                          "teams":  [
+                                        "Tonica",
+                                        "LaSalle Trinity Catholic",
+                                        "Mendota Holy Cross",
+                                        "Peru Catholic",
+                                        "Lowpoint-Washburn"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Pekin Rankin",
+                          "teams":  [
+                                        "Pekin Rankin",
+                                        "Washington St. Patrick",
+                                        "Spring Bay Riverview",
+                                        "Morton Blessed Sacrament",
+                                        "East Peoria Robein",
+                                        "Metamora St. Mary\u0027s",
+                                        "South Pekin"
+                                    ],
+                          "assignedTeams":  [
+                                                "East Peoria Robein (Coed)",
+                                                "Metamora St. Mary\u0027s",
+                                                "Morton Blessed Sacrament",
+                                                "Pekin Rankin",
+                                                "South Pekin",
+                                                "Spring Bay Riverview",
+                                                "Washington St. Patrick"
+                                            ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Monmouth ICS",
+                          "teams":  [
+                                        "Peoria Limestone Walters",
+                                        "Monmouth ICS",
+                                        "Williamsfield",
+                                        "Peoria St. Mark",
+                                        "London Mills Valley",
+                                        "Peoria Academy"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Decatur Robertson",
+                          "teams":  [
+                                        "Decatur Robertson",
+                                        "Decatur Hope",
+                                        "Bement",
+                                        "Decatur Our Lady of Lourdes",
+                                        "Decatur Garfield Montessori"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Hartsburg-Emden",
+                          "teams":  [
+                                        "Lincoln West Lincoln-Broadwell",
+                                        "Bloomington Cornerstone",
+                                        "Normal Calvary",
+                                        "Lincoln Chester-East Lincoln",
+                                        "Hartsburg-Emden",
+                                        "Lincoln Carroll Catholic"
+                                    ],
+                          "assignedTeams":  [
+                                                "Bloomington Cornerstone",
+                                                "Hartsburg-Emden (Coed)",
+                                                "Lincoln Carroll Catholic (Coop)",
+                                                "Lincoln Chester-East Lincoln",
+                                                "Lincoln West Lincoln-Broadwell",
+                                                "Normal Calvary"
+                                            ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Chrisman Scottland",
+                          "teams":  [
+                                        "Chrisman Scottland",
+                                        "Palestine",
+                                        "Sidell Jamaica",
+                                        "Hutsonville",
+                                        "Martinsville",
+                                        "Hume Shiloh"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Effingham St. Anthony",
+                          "teams":  [
+                                        "Dieterich",
+                                        "Effingham St. Anthony",
+                                        "Windsor",
+                                        "Effingham Sacred Heart",
+                                        "Newton St. Thomas",
+                                        "Sigel St. Michael\u0027s"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Kincaid South Fork",
+                          "teams":  [
+                                        "Edinburg",
+                                        "Brownstown",
+                                        "Pana Sacred Heart",
+                                        "Cowden-Herrick",
+                                        "Kincaid South Fork",
+                                        "Morrisonville JHS"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Mulberry Grove JHS",
+                          "teams":  [
+                                        "Pocahontas",
+                                        "Sorento",
+                                        "Lovejoy",
+                                        "Mulberry Grove JHS",
+                                        "East St. Louis Jackson"
+                                    ],
+                          "assignedTeams":  [
+                                                "East St. Louis Jackson",
+                                                "Lovejoy (Coop) (Coed)",
+                                                "Mulberry Grove JHS",
+                                                "Pocahontas",
+                                                "Sorento"
+                                            ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Waverly",
+                          "teams":  [
+                                        "Springfield Christian",
+                                        "Waverly",
+                                        "Greenview",
+                                        "Springfield Calvary",
+                                        "Franklin",
+                                        "Palmyra Northwestern"
+                                    ],
+                          "assignedTeams":  [
+                                                "Franklin",
+                                                "Greenview",
+                                                "Palmyra Northwestern (Coed)",
+                                                "Springfield Calvary",
+                                                "Springfield Christian",
+                                                "Waverly"
+                                            ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Jacksonville Our Saviour",
+                          "teams":  [
+                                        "Jacksonville Our Saviour",
+                                        "Bluffs",
+                                        "Meredosia-Chambersburg",
+                                        "Carrollton St. John",
+                                        "Griggsville-Perry",
+                                        "Jacksonville ISD",
+                                        "Pleasant Hill"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Ottawa Marquette",
+                           "date":  "Thursday, February 03, 2011",
+                           "records":  {
+                                           "1":  "16-3",
+                                           "2":  "20-0"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Rantoul St. Malachy",
+                           "date":  "Thursday, February 03, 2011",
+                           "records":  {
+                                           "3":  "14-5",
+                                           "4":  "18-2"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Pontiac St. Mary\u0027s",
+                           "date":  "Friday, February 04, 2011",
+                           "records":  {
+                                           "5":  "21-2",
+                                           "6":  "16-7"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Monmouth ICS",
+                           "date":  "Thursday, February 03, 2011",
+                           "records":  {
+                                           "7":  "22-2",
+                                           "8":  "17-6"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Decatur Robertson",
+                           "date":  "Friday, February 04, 2011",
+                           "records":  {
+                                           "9":  "18-5",
+                                           "10":  "11-6"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Effingham St. Anthony",
+                           "date":  "Friday, February 04, 2011",
+                           "records":  {
+                                           "11":  "12-4",
+                                           "12":  "15-2"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Kincaid South Fork",
+                           "date":  "Friday, February 04, 2011",
+                           "records":  {
+                                           "13":  "13-7",
+                                           "14":  "10-7"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Jacksonville Our Saviour",
+                           "date":  "Thursday, February 03, 2011",
+                           "records":  {
+                                           "15":  "14-9",
+                                           "16":  "7-13"
+                                       }
+                       }
+                   ],
+    "venue":  "Auburn JHS at Divernon",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              1,
+                                              7
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              5,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              8,
+                                              3
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              2,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};

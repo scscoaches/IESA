@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:59",
+    "year":  2023,
+    "grade":  "8th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East St. Louis Lincoln",
+                                 "loser":  "Staunton",
+                                 "score":  "30-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             },
+                      "3":  {
+                                "winner":  "Glenwood Brookwood",
+                                "loser":  "Peotone",
+                                "score":  "47-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "5":  {
+                                "winner":  "St. Joseph",
+                                "loser":  "Oakwood JHS",
+                                "score":  "38-28",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Macon Meridian",
+                                 "score":  "40-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Chillicothe",
+                                 "loser":  "Avon Abingdon Avon",
+                                 "score":  "39-36",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             },
+                      "2":  {
+                                "winner":  "Winfield Wheaton Christian",
+                                "loser":  "Rockford Marshall",
+                                "score":  "43-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "8":  {
+                                "winner":  "Heyworth",
+                                "loser":  "Tremont",
+                                "score":  "33-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Toledo Cumberland",
+                                 "loser":  "Lawrenceville Parkview",
+                                 "score":  "30-15",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             },
+                      "1":  {
+                                "winner":  "Dolton Lincoln",
+                                "loser":  "Chicago Frances Xavier Warde",
+                                "score":  "49-43",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "9":  {
+                                "winner":  "Aledo Mercer County",
+                                "loser":  "Taylor Ridge Rockridge",
+                                "score":  "24-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Beardstown MS",
+                                 "loser":  "Quincy St. Peter",
+                                 "score":  "24-21",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             },
+                      "7":  {
+                                "winner":  "Metamora GS",
+                                "loser":  "Germantown Hills",
+                                "score":  "26-22",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Girard North Mac",
+                                 "loser":  "Piasa Southwestern",
+                                 "score":  "33-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             },
+                      "6":  {
+                                "winner":  "Monticello",
+                                "loser":  "Maroa-Forsyth",
+                                "score":  "31-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "4":  {
+                                "winner":  "Morris GS",
+                                "loser":  "Wilmington",
+                                "score":  "44-35",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Riverton",
+                                 "loser":  "Williamsville",
+                                 "score":  "49-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "East St. Louis Lincoln",
+                                               "record":  "23-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Glenwood Brookwood",
+                                              "record":  "25-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "St. Joseph",
+                                              "record":  "22-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Teutopolis",
+                                               "record":  "24-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Chillicothe",
+                                               "record":  "16-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Winfield Wheaton Christian",
+                                              "record":  "18-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "Heyworth",
+                                              "record":  "19-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Toledo Cumberland",
+                                               "record":  "20-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "Dolton Lincoln",
+                                              "record":  "11-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Aledo Mercer County",
+                                              "record":  "19-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Beardstown MS",
+                                               "record":  "14-8",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Metamora GS",
+                                              "record":  "20-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Girard North Mac",
+                                               "record":  "17-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Monticello",
+                                              "record":  "17-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "Morris GS",
+                                              "record":  "22-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Riverton",
+                                               "record":  "23-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2023\u0026Class=8-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Riverton",
+                                 "loser":  "Beardstown MS",
+                                 "score":  "46-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Monticello",
+                                 "loser":  "St. Joseph",
+                                 "score":  "55-51",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Glenwood Brookwood",
+                                 "loser":  "Morris GS",
+                                 "score":  "49-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "1":  {
+                                 "winner":  "Dolton Lincoln",
+                                 "loser":  "Winfield Wheaton Christian",
+                                 "score":  "42-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Metamora GS",
+                                 "loser":  "Heyworth",
+                                 "score":  "32-20",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Teutopolis",
+                                 "loser":  "Toledo Cumberland",
+                                 "score":  "55-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Chillicothe",
+                                 "loser":  "Aledo Mercer County",
+                                 "score":  "49-43",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             },
+                       "8":  {
+                                 "winner":  "East St. Louis Lincoln",
+                                 "loser":  "Girard North Mac",
+                                 "score":  "51-42",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2023\u0026Class=8-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           6,
+                                           8
+                                       ],
+                                 "4":  [
+                                           7,
+                                           4
+                                       ],
+                                 "1":  [
+                                           5,
+                                           1
+                                       ],
+                                 "3":  [
+                                           3,
+                                           2
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Dolton Lincoln",
+                                          "Metamora GS"
+                                      ],
+                            "scores":  [
+                                           45,
+                                           55
+                                       ],
+                            "winner":  "Metamora GS",
+                            "loser":  "Dolton Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Monticello",
+                                          "Glenwood Brookwood"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           56
+                                       ],
+                            "winner":  "Glenwood Brookwood",
+                            "loser":  "Monticello",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Teutopolis",
+                                          "East St. Louis Lincoln"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           37
+                                       ],
+                            "winner":  "East St. Louis Lincoln",
+                            "loser":  "Teutopolis",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Chillicothe",
+                                          "Dolton Lincoln"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           51
+                                       ],
+                            "winner":  "Dolton Lincoln",
+                            "loser":  "Chillicothe",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Riverton",
+                                          "Metamora GS"
+                                      ],
+                            "scores":  [
+                                           52,
+                                           63
+                                       ],
+                            "winner":  "Metamora GS",
+                            "loser":  "Riverton",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Glenwood Brookwood",
+                                          "Metamora GS"
+                                      ],
+                            "scores":  [
+                                           63,
+                                           50
+                                       ],
+                            "winner":  "Glenwood Brookwood",
+                            "loser":  "Metamora GS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Dolton Lincoln",
+                                          "East St. Louis Lincoln"
+                                      ],
+                            "scores":  [
+                                           47,
+                                           55
+                                       ],
+                            "winner":  "East St. Louis Lincoln",
+                            "loser":  "Dolton Lincoln",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "East St. Louis Lincoln",
+                                          "Glenwood Brookwood"
+                                      ],
+                            "scores":  [
+                                           29,
+                                           28
+                                       ],
+                            "winner":  "East St. Louis Lincoln",
+                            "loser":  "Glenwood Brookwood",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2023\u0026Class=8-3A"
+                        }
+              }
+}

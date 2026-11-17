@@ -1,0 +1,359 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:45",
+    "year":  2012,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Greenville",
+                                 "loser":  "Gillespie",
+                                 "score":  "35-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                             },
+                      "3":  {
+                                "winner":  "Morris Shabbona",
+                                "loser":  "Dwight",
+                                "score":  "48-37",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                            },
+                      "5":  {
+                                "winner":  "Tremont",
+                                "loser":  "Peoria Christian",
+                                "score":  "49-8",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                            },
+                      "12":  {
+                                 "winner":  "Pittsfield Pikeland",
+                                 "loser":  "Camp Point Central",
+                                 "score":  "31-18",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                             },
+                      "10":  {
+                                 "winner":  "Washington Central",
+                                 "loser":  "Washington MS",
+                                 "score":  "42-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                             },
+                      "2":  {
+                                "winner":  "Markham Robert Frost",
+                                "loser":  "Riverdale Washington",
+                                "score":  "43-34",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                            },
+                      "8":  {
+                                "winner":  "St. Joseph",
+                                "loser":  "Georgetown Mary Miller",
+                                "score":  "32-29",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                            },
+                      "11":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Williamsville",
+                                 "score":  "38-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                             },
+                      "1":  {
+                                "winner":  "South Holland McKinley",
+                                "loser":  "Calumet City Schrum",
+                                "score":  "30-10",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                            },
+                      "9":  {
+                                "winner":  "Bloomington Holy Trinity",
+                                "loser":  "Maroa-Forsyth",
+                                "score":  "34-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                            },
+                      "14":  {
+                                 "winner":  "Robinson Nuttall",
+                                 "loser":  "Newton Jasper County",
+                                 "score":  "36-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                             },
+                      "7":  {
+                                "winner":  "Paxton-Buckley-Loda",
+                                "loser":  "Hoopeston Area",
+                                "score":  "40-18",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                            },
+                      "15":  {
+                                 "winner":  "Pana JHS",
+                                 "loser":  "Shelbyville Moulton",
+                                 "score":  "40-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                             },
+                      "6":  {
+                                "winner":  "Farmington Central",
+                                "loser":  "Stronghurst West Central",
+                                "score":  "52-27",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                            },
+                      "4":  {
+                                "winner":  "El Paso-Gridley",
+                                "loser":  "Chillicothe",
+                                "score":  "30-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                            },
+                      "13":  {
+                                 "winner":  "Marshall JHS",
+                                 "loser":  "Teutopolis",
+                                 "score":  "33-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Greenville",
+                                               "record":  "10-13",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                           },
+                                    "3":  {
+                                              "team":  "Morris Shabbona",
+                                              "record":  "14-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                          },
+                                    "5":  {
+                                              "team":  "Tremont",
+                                              "record":  "15-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                          },
+                                    "12":  {
+                                               "team":  "Pittsfield Pikeland",
+                                               "record":  "20-3",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                           },
+                                    "10":  {
+                                               "team":  "Washington Central",
+                                               "record":  "22-1",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                           },
+                                    "2":  {
+                                              "team":  "Markham Robert Frost",
+                                              "record":  "13-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                          },
+                                    "8":  {
+                                              "team":  "St. Joseph",
+                                              "record":  "15-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                          },
+                                    "11":  {
+                                               "team":  "Pleasant Plains",
+                                               "record":  "18-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                           },
+                                    "1":  {
+                                              "team":  "South Holland McKinley",
+                                              "record":  "21-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                          },
+                                    "9":  {
+                                              "team":  "Bloomington Holy Trinity",
+                                              "record":  "16-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                          },
+                                    "14":  {
+                                               "team":  "Robinson Nuttall",
+                                               "record":  "18-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                           },
+                                    "7":  {
+                                              "team":  "Paxton-Buckley-Loda",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                          },
+                                    "15":  {
+                                               "team":  "Pana JHS",
+                                               "record":  "17-7",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                           },
+                                    "6":  {
+                                              "team":  "Farmington Central",
+                                              "record":  "20-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                          },
+                                    "4":  {
+                                              "team":  "El Paso-Gridley",
+                                              "record":  "15-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                          },
+                                    "13":  {
+                                               "team":  "Marshall JHS",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2012\u0026Class=7-3A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Marshall JHS",
+                                 "loser":  "Robinson Nuttall",
+                                 "score":  "53-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=7-3A"
+                             },
+                       "3":  {
+                                 "winner":  "Tremont",
+                                 "loser":  "Farmington Central",
+                                 "score":  "46-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=7-3A"
+                             },
+                       "2":  {
+                                 "winner":  "Morris Shabbona",
+                                 "loser":  "El Paso-Gridley",
+                                 "score":  "37-35",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=7-3A"
+                             },
+                       "1":  {
+                                 "winner":  "South Holland McKinley",
+                                 "loser":  "Markham Robert Frost",
+                                 "score":  "53-33",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=7-3A"
+                             },
+                       "4":  {
+                                 "winner":  "Paxton-Buckley-Loda",
+                                 "loser":  "St. Joseph",
+                                 "score":  "39-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=7-3A"
+                             },
+                       "6":  {
+                                 "winner":  "Pleasant Plains",
+                                 "loser":  "Pittsfield Pikeland",
+                                 "score":  "50-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=7-3A"
+                             },
+                       "5":  {
+                                 "winner":  "Washington Central",
+                                 "loser":  "Bloomington Holy Trinity",
+                                 "score":  "28-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=7-3A"
+                             },
+                       "8":  {
+                                 "winner":  "Pana JHS",
+                                 "loser":  "Greenville",
+                                 "score":  "41-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2012\u0026Class=7-3A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           7,
+                                           2
+                                       ],
+                                 "4":  [
+                                           4,
+                                           6
+                                       ],
+                                 "1":  [
+                                           5,
+                                           1
+                                       ],
+                                 "3":  [
+                                           3,
+                                           8
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Marshall JHS",
+                                          "Tremont"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           48
+                                       ],
+                            "winner":  "Tremont",
+                            "loser":  "Marshall JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=7-3A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Tremont",
+                                          "Pana JHS"
+                                      ],
+                            "scores":  [
+                                           43,
+                                           30
+                                       ],
+                            "winner":  "Tremont",
+                            "loser":  "Pana JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=7-3A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Marshall JHS",
+                                          "Morris Shabbona"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           29
+                                       ],
+                            "winner":  "Marshall JHS",
+                            "loser":  "Morris Shabbona",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=7-3A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Washington Central",
+                                          "South Holland McKinley"
+                                      ],
+                            "scores":  [
+                                           32,
+                                           38
+                                       ],
+                            "winner":  "South Holland McKinley",
+                            "loser":  "Washington Central",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=7-3A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Paxton-Buckley-Loda",
+                                          "Pleasant Plains"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           42
+                                       ],
+                            "winner":  "Pleasant Plains",
+                            "loser":  "Paxton-Buckley-Loda",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=7-3A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Tremont",
+                                          "Pleasant Plains"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           53
+                                       ],
+                            "winner":  "Pleasant Plains",
+                            "loser":  "Tremont",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=7-3A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "South Holland McKinley",
+                                          "Marshall JHS"
+                                      ],
+                            "scores":  [
+                                           31,
+                                           28
+                                       ],
+                            "winner":  "South Holland McKinley",
+                            "loser":  "Marshall JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=7-3A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "South Holland McKinley",
+                                          "Pleasant Plains"
+                                      ],
+                            "scores":  [
+                                           25,
+                                           31
+                                       ],
+                            "winner":  "Pleasant Plains",
+                            "loser":  "South Holland McKinley",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2012\u0026Class=7-3A"
+                        }
+              }
+}

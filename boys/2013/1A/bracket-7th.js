@@ -1,0 +1,359 @@
+﻿window.iesaBracketCache = {
+    "updatedAt":  "2026-11-17 15:42",
+    "year":  2013,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "Virginia",
+                                 "loser":  "Jacksonville Our Saviour",
+                                 "score":  "32-23",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                             },
+                      "3":  {
+                                "winner":  "Annawan",
+                                "loser":  "Ottawa Marquette",
+                                "score":  "39-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                            },
+                      "5":  {
+                                "winner":  "Bartonville Monroe",
+                                "loser":  "Peoria Hollis",
+                                "score":  "48-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                            },
+                      "12":  {
+                                 "winner":  "Dieterich",
+                                 "loser":  "Stewardson-Strasburg",
+                                 "score":  "31-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                             },
+                      "10":  {
+                                 "winner":  "Normal Calvary",
+                                 "loser":  "Lincoln Chester-East Lincoln",
+                                 "score":  "34-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                             },
+                      "2":  {
+                                "winner":  "Pontiac St. Mary\u0027s",
+                                "loser":  "Ransom",
+                                "score":  "33-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                            },
+                      "8":  {
+                                "winner":  "Chrisman Scottland",
+                                "loser":  "Royal Prairieview Ogden",
+                                "score":  "42-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                            },
+                      "11":  {
+                                 "winner":  "Palestine",
+                                 "loser":  "Kansas",
+                                 "score":  "18-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                             },
+                      "1":  {
+                                "winner":  "Bradley St. Joseph",
+                                "loser":  "Kankakee Aquinas",
+                                "score":  "22-13",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                            },
+                      "9":  {
+                                "winner":  "Champaign Next Generation",
+                                "loser":  "Decatur Holy Family",
+                                "score":  "46-9",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                            },
+                      "14":  {
+                                 "winner":  "Springfield Little Flower",
+                                 "loser":  "Raymond Lincolnwood",
+                                 "score":  "33-31",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                             },
+                      "7":  {
+                                "winner":  "Rantoul St. Malachy",
+                                "loser":  "Cissna Park",
+                                "score":  "32-23",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                            },
+                      "15":  {
+                                 "winner":  "Waverly",
+                                 "loser":  "Franklin",
+                                 "score":  "33-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                             },
+                      "6":  {
+                                "winner":  "Peoria Academy",
+                                "loser":  "Kickapoo St. Mary\u0027s",
+                                "score":  "37-30",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                            },
+                      "4":  {
+                                "winner":  "East Peoria Robein",
+                                "loser":  "Washington St. Patrick",
+                                "score":  "40-32",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                            },
+                      "13":  {
+                                 "winner":  "Mulberry Grove JHS",
+                                 "loser":  "Lovejoy",
+                                 "score":  "49-22",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "16":  {
+                                               "team":  "Virginia",
+                                               "record":  "15-6",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                           },
+                                    "3":  {
+                                              "team":  "Annawan",
+                                              "record":  "18-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                          },
+                                    "5":  {
+                                              "team":  "Bartonville Monroe",
+                                              "record":  "16-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                          },
+                                    "12":  {
+                                               "team":  "Dieterich",
+                                               "record":  "19-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                           },
+                                    "10":  {
+                                               "team":  "Normal Calvary",
+                                               "record":  "13-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                           },
+                                    "2":  {
+                                              "team":  "Pontiac St. Mary\u0027s",
+                                              "record":  "13-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                          },
+                                    "8":  {
+                                              "team":  "Chrisman Scottland",
+                                              "record":  "19-4",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                          },
+                                    "11":  {
+                                               "team":  "Palestine",
+                                               "record":  "10-9",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                           },
+                                    "1":  {
+                                              "team":  "Bradley St. Joseph",
+                                              "record":  "14-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                          },
+                                    "9":  {
+                                              "team":  "Champaign Next Generation",
+                                              "record":  "6-9",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                          },
+                                    "14":  {
+                                               "team":  "Springfield Little Flower",
+                                               "record":  "17-5",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                           },
+                                    "7":  {
+                                              "team":  "Rantoul St. Malachy",
+                                              "record":  "13-5",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                          },
+                                    "15":  {
+                                               "team":  "Waverly",
+                                               "record":  "12-11",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                           },
+                                    "6":  {
+                                              "team":  "Peoria Academy",
+                                              "record":  "10-7",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                          },
+                                    "4":  {
+                                              "team":  "East Peoria Robein",
+                                              "record":  "19-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                          },
+                                    "13":  {
+                                               "team":  "Mulberry Grove JHS",
+                                               "record":  "9-4",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2013\u0026Class=7-1A"
+                                           }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Mulberry Grove JHS",
+                                 "loser":  "Springfield Little Flower",
+                                 "score":  "41-39",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-1A"
+                             },
+                       "3":  {
+                                 "winner":  "Bartonville Monroe",
+                                 "loser":  "Peoria Academy",
+                                 "score":  "35-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-1A"
+                             },
+                       "2":  {
+                                 "winner":  "Annawan",
+                                 "loser":  "East Peoria Robein",
+                                 "score":  "41-13",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-1A"
+                             },
+                       "1":  {
+                                 "winner":  "Bradley St. Joseph",
+                                 "loser":  "Pontiac St. Mary\u0027s",
+                                 "score":  "27-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-1A"
+                             },
+                       "4":  {
+                                 "winner":  "Chrisman Scottland",
+                                 "loser":  "Rantoul St. Malachy",
+                                 "score":  "34-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-1A"
+                             },
+                       "6":  {
+                                 "winner":  "Dieterich",
+                                 "loser":  "Palestine",
+                                 "score":  "42-8",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-1A"
+                             },
+                       "5":  {
+                                 "winner":  "Champaign Next Generation",
+                                 "loser":  "Normal Calvary",
+                                 "score":  "38-24",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-1A"
+                             },
+                       "8":  {
+                                 "winner":  "Virginia",
+                                 "loser":  "Waverly",
+                                 "score":  "34-19",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2013\u0026Class=7-1A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           3,
+                                           6
+                                       ],
+                                 "4":  [
+                                           5,
+                                           2
+                                       ],
+                                 "1":  [
+                                           8,
+                                           4
+                                       ],
+                                 "3":  [
+                                           1,
+                                           7
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Chrisman Scottland",
+                                          "Mulberry Grove JHS"
+                                      ],
+                            "scores":  [
+                                           38,
+                                           41
+                                       ],
+                            "winner":  "Mulberry Grove JHS",
+                            "loser":  "Chrisman Scottland",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-1A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Bradley St. Joseph",
+                                          "Mulberry Grove JHS"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           31
+                                       ],
+                            "winner":  "Mulberry Grove JHS",
+                            "loser":  "Bradley St. Joseph",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-1A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Bartonville Monroe",
+                                          "Dieterich"
+                                      ],
+                            "scores":  [
+                                           22,
+                                           45
+                                       ],
+                            "winner":  "Dieterich",
+                            "loser":  "Bartonville Monroe",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-1A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "Virginia",
+                                          "Chrisman Scottland"
+                                      ],
+                            "scores":  [
+                                           30,
+                                           38
+                                       ],
+                            "winner":  "Chrisman Scottland",
+                            "loser":  "Virginia",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-1A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Champaign Next Generation",
+                                          "Annawan"
+                                      ],
+                            "scores":  [
+                                           24,
+                                           33
+                                       ],
+                            "winner":  "Annawan",
+                            "loser":  "Champaign Next Generation",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-1A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Mulberry Grove JHS",
+                                          "Annawan"
+                                      ],
+                            "scores":  [
+                                           12,
+                                           42
+                                       ],
+                            "winner":  "Annawan",
+                            "loser":  "Mulberry Grove JHS",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-1A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "Chrisman Scottland",
+                                          "Dieterich"
+                                      ],
+                            "scores":  [
+                                           35,
+                                           52
+                                       ],
+                            "winner":  "Dieterich",
+                            "loser":  "Chrisman Scottland",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-1A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "Dieterich",
+                                          "Annawan"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           45
+                                       ],
+                            "winner":  "Annawan",
+                            "loser":  "Dieterich",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2013\u0026Class=7-1A"
+                        }
+              }
+};

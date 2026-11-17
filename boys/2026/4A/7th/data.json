@@ -1,0 +1,411 @@
+﻿{
+    "year":  2026,
+    "grade":  "7th",
+    "className":  "4A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Arlington Heights Thomas",
+                          "teams":  [
+                                        "Arlington Heights Thomas",
+                                        "Arlington Heights South",
+                                        "Barrington Prairie",
+                                        "Lake Zurich South",
+                                        "Lake Zurich North",
+                                        "Barrington Station",
+                                        "Vernon Hills Hawthorn North",
+                                        "Vernon Hills Hawthorn South"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Rockford West",
+                          "teams":  [
+                                        "Rockford Flinn",
+                                        "Rockford Eisenhower",
+                                        "Rockford RESA",
+                                        "Sandwich",
+                                        "Rockford West",
+                                        "Plano",
+                                        "Rockford Lincoln"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Maywood Irving",
+                          "teams":  [
+                                        "Maywood Irving",
+                                        "Downers Grove Herrick",
+                                        "Bellwood Roosevelt",
+                                        "Downers Grove O\u0027Neill",
+                                        "Summit Heritage",
+                                        "Cicero Unity",
+                                        "Evanston Haven",
+                                        "Melrose Park Stevenson"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Romeoville Lukancic",
+                          "teams":  [
+                                        "Bolingbrook Brooks",
+                                        "Bolingbrook Humphrey",
+                                        "Yorkville",
+                                        "Woodridge Jefferson",
+                                        "Bolingbrook Jane Addams",
+                                        "Romeoville Martinez",
+                                        "Willowbrook Westview Hills",
+                                        "Romeoville Lukancic"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Phoenix Coolidge",
+                          "teams":  [
+                                        "Calumet City Dolton 149",
+                                        "Markham Prairie-Hills",
+                                        "Phoenix Coolidge",
+                                        "Homewood Hart",
+                                        "Robbins Kellar",
+                                        "Lansing Memorial",
+                                        "Harvey Brooks"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Mokena",
+                          "teams":  [
+                                        "Matteson Colin Powell",
+                                        "Frankfort Hickory Creek",
+                                        "Frankfort Summit Hill",
+                                        "Manhattan",
+                                        "Mokena",
+                                        "Flossmoor Parker",
+                                        "Matteson Huth"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "New Lenox Martino",
+                          "teams":  [
+                                        "Lockport Oak Prairie",
+                                        "Homer Glen Homer",
+                                        "New Lenox Martino",
+                                        "Lemont Old Quarry",
+                                        "New Lenox Liberty",
+                                        "Joliet Gompers",
+                                        "Joliet Washington"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Ottawa Shepherd",
+                          "teams":  [
+                                        "Ottawa Shepherd",
+                                        "Shorewood Troy",
+                                        "Joliet Hufford",
+                                        "Minooka",
+                                        "Streator Northlawn",
+                                        "Coal City",
+                                        "Joliet Dirksen"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Park Forest Michelle Obama STA",
+                          "teams":  [
+                                        "Park Forest Michelle Obama STA",
+                                        "Bourbonnais UGC",
+                                        "Kankakee JHS",
+                                        "University Park Crete Monee",
+                                        "Steger Columbia",
+                                        "Chicago Heights MS"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Charleston",
+                          "teams":  [
+                                        "Champaign Jefferson",
+                                        "Mahomet-Seymour",
+                                        "Danville North Ridge",
+                                        "Champaign Edison",
+                                        "Charleston",
+                                        "Urbana MS",
+                                        "Champaign Franklin",
+                                        "Rantoul Eater"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Bloomington JHS",
+                          "teams":  [
+                                        "Morton JHS",
+                                        "Bloomington JHS",
+                                        "Bloomington Evans",
+                                        "Washington Central",
+                                        "Normal Chiddix",
+                                        "Normal Kingsley",
+                                        "Normal Parkside"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Dunlap MS",
+                          "teams":  [
+                                        "Dunlap MS",
+                                        "Galesburg JHS",
+                                        "Dunlap Valley MS",
+                                        "Pekin Broadmoor",
+                                        "Canton Ingersoll",
+                                        "East Peoria Central",
+                                        "Macomb",
+                                        "Pekin Edison"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Taylorville JHS",
+                          "teams":  [
+                                        "Mt. Zion",
+                                        "Rochester",
+                                        "Mattoon",
+                                        "Taylorville JHS",
+                                        "Decatur Stephen Decatur",
+                                        "Effingham JHS"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Chatham Glenwood",
+                          "teams":  [
+                                        "Springfield Lincoln",
+                                        "Springfield Grant",
+                                        "Chatham Glenwood",
+                                        "Springfield Franklin",
+                                        "Springfield Jefferson",
+                                        "Quincy",
+                                        "Springfield Washington",
+                                        "Jacksonville MS"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Bethalto Trimpe",
+                          "teams":  [
+                                        "Edwardsville Lincoln",
+                                        "Edwardsville Liberty",
+                                        "Alton",
+                                        "St. Jacob Triad",
+                                        "Bethalto Trimpe",
+                                        "Roxana",
+                                        "Highland MS",
+                                        "Jerseyville Community"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "Cahokia Wirth",
+                          "teams":  [
+                                        "Collinsville",
+                                        "O\u0027Fallon Carriel",
+                                        "East St. Louis Clark",
+                                        "O\u0027Fallon Fulton",
+                                        "Mascoutah",
+                                        "Cahokia Wirth",
+                                        "Granite City Coolidge"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Barrington Station",
+                           "date":  "Monday, January 26, 2026",
+                           "records":  {
+                                           "1":  "17-2",
+                                           "2":  "16-10"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Bolingbrook Humphrey",
+                           "date":  "Tuesday, January 27, 2026",
+                           "records":  {
+                                           "3":  "12-1",
+                                           "4":  "17-5"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Markham Prairie-Hills",
+                           "date":  "Monday, January 26, 2026",
+                           "records":  {
+                                           "5":  "13-6",
+                                           "6":  "24-2"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Minooka",
+                           "date":  "Monday, January 26, 2026",
+                           "records":  {
+                                           "7":  "13-5",
+                                           "8":  "15-8"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Mahomet-Seymour",
+                           "date":  "Monday, January 26, 2026",
+                           "records":  {
+                                           "9":  "21-1",
+                                           "10":  "26-1"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "East Peoria Central",
+                           "date":  "Monday, January 26, 2026",
+                           "records":  {
+                                           "11":  "19-3",
+                                           "12":  "13-3"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Rochester",
+                           "date":  "Monday, January 26, 2026",
+                           "records":  {
+                                           "13":  "22-2",
+                                           "14":  "22-2"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "O\u0027Fallon Fulton",
+                           "date":  "Wednesday, January 28, 2026",
+                           "records":  {
+                                           "15":  "21-5",
+                                           "16":  "22-2"
+                                       }
+                       }
+                   ],
+    "venue":  "East Peoria Central JHS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              3,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              8,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              7,
+                                              4
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              1,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+}

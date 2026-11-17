@@ -1,0 +1,344 @@
+﻿{
+    "updatedAt":  "2026-11-17 15:57",
+    "year":  2009,
+    "grade":  "7th",
+    "regionals":  {
+                      "16":  {
+                                 "winner":  "East St. Louis Clark",
+                                 "loser":  "Cahokia Wirth",
+                                 "score":  "34-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             },
+                      "3":  {
+                                "winner":  "Phoenix Coolidge",
+                                "loser":  "Dixmoor Rosa Parks",
+                                "score":  "43-38",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "5":  {
+                                "winner":  "Matteson Colin Powell",
+                                "loser":  "Frankfort Summit Hill",
+                                "score":  "34-31",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "12":  {
+                                 "winner":  "Rantoul Eater",
+                                 "loser":  "Champaign Jefferson",
+                                 "score":  "45-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             },
+                      "10":  {
+                                 "winner":  "Morton JHS",
+                                 "loser":  "Canton Ingersoll",
+                                 "score":  "44-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             },
+                      "2":  {
+                                "winner":  "Homer Glen Homer",
+                                "loser":  "Lockport Oak Prairie",
+                                "score":  "36-21",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "8":  {
+                                "winner":  "Ottawa Shepherd",
+                                "loser":  "Sterling Challand",
+                                "score":  "41-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "11":  {
+                                 "winner":  "Danville North Ridge",
+                                 "loser":  "Urbana MS",
+                                 "score":  "36-29",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             },
+                      "1":  {
+                                "winner":  "Bolingbrook Jane Addams",
+                                "loser":  "Bellwood Roosevelt",
+                                "score":  "58-24",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "9":  {
+                                "winner":  "Normal Kingsley",
+                                "loser":  "Normal Chiddix",
+                                "score":  "45-25",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "14":  {
+                                 "winner":  "Springfield Grant",
+                                 "loser":  "Quincy",
+                                 "score":  "48-30",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             },
+                      "7":  {
+                                "winner":  "Shorewood Troy",
+                                "loser":  "Joliet Washington",
+                                "score":  "55-42",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "15":  {
+                                 "winner":  "Alton",
+                                 "loser":  "Edwardsville Lincoln",
+                                 "score":  "36-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             },
+                      "6":  {
+                                "winner":  "Kankakee JHS",
+                                "loser":  "Manteno",
+                                "score":  "45-20",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "4":  {
+                                "winner":  "Sauk Village Rickover",
+                                "loser":  "Glenwood Brookwood",
+                                "score":  "42-40",
+                                "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                            },
+                      "13":  {
+                                 "winner":  "Chatham Glenwood",
+                                 "loser":  "Mt. Zion",
+                                 "score":  "43-26",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                             }
+                  },
+    "sectionalPairingRecords":  {
+                                    "3":  {
+                                              "team":  "Phoenix Coolidge",
+                                              "record":  "16-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "5":  {
+                                              "team":  "Matteson Colin Powell",
+                                              "record":  "14-6",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "12":  {
+                                               "team":  "Rantoul Eater",
+                                               "record":  "16-2",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                           },
+                                    "10":  {
+                                               "team":  "Morton JHS",
+                                               "record":  "23-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                           },
+                                    "2":  {
+                                              "team":  "Homer Glen Homer",
+                                              "record":  "14-8",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "8":  {
+                                              "team":  "Ottawa Shepherd",
+                                              "record":  "17-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "11":  {
+                                               "team":  "Danville North Ridge",
+                                               "record":  "14-10",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                           },
+                                    "1":  {
+                                              "team":  "Bolingbrook Jane Addams",
+                                              "record":  "24-0",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "9":  {
+                                              "team":  "Normal Kingsley",
+                                              "record":  "22-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "16":  {
+                                               "team":  "East St. Louis Clark",
+                                               "record":  "18-0",
+                                               "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                           },
+                                    "7":  {
+                                              "team":  "Shorewood Troy",
+                                              "record":  "9-11",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "6":  {
+                                              "team":  "Kankakee JHS",
+                                              "record":  "16-1",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          },
+                                    "4":  {
+                                              "team":  "Sauk Village Rickover",
+                                              "record":  "15-2",
+                                              "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_Sectional.asp?Year=2009\u0026Class=7-4A"
+                                          }
+                                },
+    "sectionals":  {
+                       "7":  {
+                                 "winner":  "Springfield Grant",
+                                 "loser":  "Chatham Glenwood",
+                                 "score":  "67-17",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "3":  {
+                                 "winner":  "Matteson Colin Powell",
+                                 "loser":  "Kankakee JHS",
+                                 "score":  "44-34",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "2":  {
+                                 "winner":  "Phoenix Coolidge",
+                                 "loser":  "Sauk Village Rickover",
+                                 "score":  "50-49",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "1":  {
+                                 "winner":  "Bolingbrook Jane Addams",
+                                 "loser":  "Homer Glen Homer",
+                                 "score":  "43-38",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "4":  {
+                                 "winner":  "Shorewood Troy",
+                                 "loser":  "Ottawa Shepherd",
+                                 "score":  "34-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "6":  {
+                                 "winner":  "Rantoul Eater",
+                                 "loser":  "Danville North Ridge",
+                                 "score":  "49-28",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "5":  {
+                                 "winner":  "Morton JHS",
+                                 "loser":  "Normal Kingsley",
+                                 "score":  "30-25",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             },
+                       "8":  {
+                                 "winner":  "East St. Louis Clark",
+                                 "loser":  "Alton",
+                                 "score":  "40-27",
+                                 "sourceUrl":  "https://www.iesa.org/activities/bbk/qualifiers_State.asp?Year=2009\u0026Class=7-4A"
+                             }
+                   },
+    "quarterfinalMatchups":  {
+                                 "2":  [
+                                           2,
+                                           3
+                                       ],
+                                 "4":  [
+                                           6,
+                                           7
+                                       ],
+                                 "1":  [
+                                           8,
+                                           1
+                                       ],
+                                 "3":  [
+                                           4,
+                                           5
+                                       ]
+                             },
+    "games":  {
+                  "7":  {
+                            "teams":  [
+                                          "Phoenix Coolidge",
+                                          "Rantoul Eater"
+                                      ],
+                            "scores":  [
+                                           40,
+                                           47
+                                       ],
+                            "winner":  "Rantoul Eater",
+                            "loser":  "Phoenix Coolidge",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "3":  {
+                            "teams":  [
+                                          "Shorewood Troy",
+                                          "Morton JHS"
+                                      ],
+                            "scores":  [
+                                           14,
+                                           38
+                                       ],
+                            "winner":  "Morton JHS",
+                            "loser":  "Shorewood Troy",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "2":  {
+                            "teams":  [
+                                          "Phoenix Coolidge",
+                                          "Matteson Colin Powell"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           39
+                                       ],
+                            "winner":  "Phoenix Coolidge",
+                            "loser":  "Matteson Colin Powell",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "1":  {
+                            "teams":  [
+                                          "East St. Louis Clark",
+                                          "Bolingbrook Jane Addams"
+                                      ],
+                            "scores":  [
+                                           41,
+                                           38
+                                       ],
+                            "winner":  "East St. Louis Clark",
+                            "loser":  "Bolingbrook Jane Addams",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "4":  {
+                            "teams":  [
+                                          "Rantoul Eater",
+                                          "Springfield Grant"
+                                      ],
+                            "scores":  [
+                                           70,
+                                           68
+                                       ],
+                            "winner":  "Rantoul Eater",
+                            "loser":  "Springfield Grant",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "6":  {
+                            "teams":  [
+                                          "Morton JHS",
+                                          "Rantoul Eater"
+                                      ],
+                            "scores":  [
+                                           51,
+                                           31
+                                       ],
+                            "winner":  "Morton JHS",
+                            "loser":  "Rantoul Eater",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "5":  {
+                            "teams":  [
+                                          "East St. Louis Clark",
+                                          "Phoenix Coolidge"
+                                      ],
+                            "scores":  [
+                                           42,
+                                           32
+                                       ],
+                            "winner":  "East St. Louis Clark",
+                            "loser":  "Phoenix Coolidge",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        },
+                  "8":  {
+                            "teams":  [
+                                          "East St. Louis Clark",
+                                          "Morton JHS"
+                                      ],
+                            "scores":  [
+                                           36,
+                                           48
+                                       ],
+                            "winner":  "Morton JHS",
+                            "loser":  "East St. Louis Clark",
+                            "sourceUrl":  "https://www.iesa.org/activities/bbk/scoreboards/index.asp?Year=2009\u0026Class=7-4A"
+                        }
+              }
+}

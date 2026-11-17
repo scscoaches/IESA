@@ -1,0 +1,402 @@
+﻿window.tournamentData = {
+    "year":  2024,
+    "grade":  "7th",
+    "className":  "3A",
+    "archived":  true,
+    "regionals":  [
+                      {
+                          "id":  1,
+                          "sectional":  1,
+                          "host":  "Winfield Wheaton Christian",
+                          "teams":  [
+                                        "Winfield Wheaton Christian",
+                                        "Crest Hill Richland",
+                                        "Chicago Frances Xavier Warde",
+                                        "Burr Ridge Gower",
+                                        "Dixmoor Rosa Parks",
+                                        "Lisle"
+                                    ]
+                      },
+                      {
+                          "id":  2,
+                          "sectional":  1,
+                          "host":  "Calumet City Schrum",
+                          "teams":  [
+                                        "Calumet City Schrum",
+                                        "Calumet Park Calumet",
+                                        "Calumet City Wentworth",
+                                        "Glenwood Brookwood",
+                                        "South Holland McKinley",
+                                        "Robbins Kellar",
+                                        "Dolton Lincoln"
+                                    ]
+                      },
+                      {
+                          "id":  3,
+                          "sectional":  2,
+                          "host":  "Peotone",
+                          "teams":  [
+                                        "Peotone",
+                                        "Lansing Heritage",
+                                        "Sauk Village Rickover",
+                                        "Herscher Limestone",
+                                        "Beecher",
+                                        "Kankakee Bishop McNamara",
+                                        "Manteno",
+                                        "Momence JHS"
+                                    ]
+                      },
+                      {
+                          "id":  4,
+                          "sectional":  2,
+                          "host":  "Wilmington",
+                          "teams":  [
+                                        "Channahon",
+                                        "Country Club Hills Southwood",
+                                        "Morris Saratoga",
+                                        "Morris GS",
+                                        "Lockport Kelvin Grove",
+                                        "Braidwood Reed-Custer",
+                                        "Wilmington"
+                                    ]
+                      },
+                      {
+                          "id":  5,
+                          "sectional":  3,
+                          "host":  "Rockford Marshall",
+                          "teams":  [
+                                        "Rockford Marshall",
+                                        "Peru Parkside",
+                                        "Rockford Kennedy",
+                                        "LaSalle Lincoln",
+                                        "Mendota Northbrook",
+                                        "Rockford Barbour"
+                                    ]
+                      },
+                      {
+                          "id":  6,
+                          "sectional":  3,
+                          "host":  "Aledo Mercer County",
+                          "teams":  [
+                                        "Monmouth-Roseville JHS",
+                                        "Kewanee Central",
+                                        "Orion",
+                                        "Monmouth United",
+                                        "Taylor Ridge Rockridge",
+                                        "Sherrard JHS",
+                                        "Aledo Mercer County"
+                                    ]
+                      },
+                      {
+                          "id":  7,
+                          "sectional":  4,
+                          "host":  "Hoopeston Area",
+                          "teams":  [
+                                        "St. Joseph",
+                                        "Forrest Prairie Central",
+                                        "Hoopeston Area",
+                                        "Clifton Nash",
+                                        "Paxton-Buckley-Loda",
+                                        "Onarga Iroquois West"
+                                    ]
+                      },
+                      {
+                          "id":  8,
+                          "sectional":  4,
+                          "host":  "Monticello",
+                          "teams":  [
+                                        "Downs Tri-Valley",
+                                        "Heyworth",
+                                        "Maroa-Forsyth",
+                                        "Monticello",
+                                        "Argenta-Oreana",
+                                        "Clinton",
+                                        "Tolono Unity"
+                                    ]
+                      },
+                      {
+                          "id":  9,
+                          "sectional":  5,
+                          "host":  "Eureka",
+                          "teams":  [
+                                        "Stanford Olympia",
+                                        "El Paso-Gridley",
+                                        "Eureka",
+                                        "Pontiac JHS",
+                                        "Tremont",
+                                        "Mackinaw Dee-Mack",
+                                        "Lincoln JHS"
+                                    ]
+                      },
+                      {
+                          "id":  10,
+                          "sectional":  5,
+                          "host":  "Metamora GS",
+                          "teams":  [
+                                        "Germantown Hills",
+                                        "Chillicothe",
+                                        "Metamora GS",
+                                        "Farmington Central",
+                                        "Washington MS",
+                                        "Washington Beverly Manor"
+                                    ]
+                      },
+                      {
+                          "id":  11,
+                          "sectional":  6,
+                          "host":  "Tuscola East Prairie",
+                          "teams":  [
+                                        "Sullivan",
+                                        "Tuscola East Prairie",
+                                        "Arthur",
+                                        "Paris Mayo",
+                                        "Westville JHS",
+                                        "Georgetown Mary Miller",
+                                        "Oakwood GS"
+                                    ]
+                      },
+                      {
+                          "id":  12,
+                          "sectional":  6,
+                          "host":  "Teutopolis",
+                          "teams":  [
+                                        "Teutopolis",
+                                        "Lawrenceville Parkview",
+                                        "Robinson Nuttall",
+                                        "Newton Jasper County",
+                                        "Shelbyville Moulton",
+                                        "Marshall JHS",
+                                        "Toledo Cumberland"
+                                    ]
+                      },
+                      {
+                          "id":  13,
+                          "sectional":  7,
+                          "host":  "Williamsville",
+                          "teams":  [
+                                        "Springfield Lincoln",
+                                        "Williamsville",
+                                        "Riverton",
+                                        "Decatur Johns Hill",
+                                        "Warrensburg-Latham",
+                                        "Macon Meridian"
+                                    ]
+                      },
+                      {
+                          "id":  14,
+                          "sectional":  7,
+                          "host":  "Pleasant Plains",
+                          "teams":  [
+                                        "Pleasant Plains",
+                                        "Quincy St. Peter",
+                                        "New Berlin JHS",
+                                        "Rushville Schuyler Industry",
+                                        "Pittsfield Pikeland",
+                                        "Petersburg PORTA JHS",
+                                        "Athens",
+                                        "Beardstown MS"
+                                    ]
+                      },
+                      {
+                          "id":  15,
+                          "sectional":  8,
+                          "host":  "Auburn JHS at Divernon",
+                          "teams":  [
+                                        "Carlinville",
+                                        "Hillsboro",
+                                        "Auburn JHS at Divernon",
+                                        "Litchfield",
+                                        "Girard North Mac",
+                                        "Gillespie",
+                                        "Pana JHS"
+                                    ]
+                      },
+                      {
+                          "id":  16,
+                          "sectional":  8,
+                          "host":  "East St. Louis Lincoln",
+                          "teams":  [
+                                        "East St. Louis Lincoln",
+                                        "Staunton",
+                                        "Greenville",
+                                        "Roxana",
+                                        "Vandalia",
+                                        "Piasa Southwestern"
+                                    ]
+                      }
+                  ],
+    "sectionals":  [
+                       {
+                           "id":  1,
+                           "regionals":  [
+                                             1,
+                                             2
+                                         ],
+                           "host":  "Winfield Wheaton Christian",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "1":  "12-0",
+                                           "2":  "13-5"
+                                       }
+                       },
+                       {
+                           "id":  2,
+                           "regionals":  [
+                                             3,
+                                             4
+                                         ],
+                           "host":  "Morris Saratoga",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "3":  "11-2",
+                                           "4":  "15-1"
+                                       }
+                       },
+                       {
+                           "id":  3,
+                           "regionals":  [
+                                             5,
+                                             6
+                                         ],
+                           "host":  "Rockford Marshall",
+                           "date":  "Tuesday, January 30, 2024",
+                           "records":  {
+                                           "5":  "13-2",
+                                           "6":  "17-5"
+                                       }
+                       },
+                       {
+                           "id":  4,
+                           "regionals":  [
+                                             7,
+                                             8
+                                         ],
+                           "host":  "Forrest Prairie Central",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "7":  "22-5",
+                                           "8":  "19-8"
+                                       }
+                       },
+                       {
+                           "id":  5,
+                           "regionals":  [
+                                             9,
+                                             10
+                                         ],
+                           "host":  "Lincoln JHS",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "9":  "19-6",
+                                           "10":  "19-4"
+                                       }
+                       },
+                       {
+                           "id":  6,
+                           "regionals":  [
+                                             11,
+                                             12
+                                         ],
+                           "host":  "Toledo Cumberland",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "11":  "22-3",
+                                           "12":  "24-1"
+                                       }
+                       },
+                       {
+                           "id":  7,
+                           "regionals":  [
+                                             13,
+                                             14
+                                         ],
+                           "host":  "Williamsville",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "13":  "21-2",
+                                           "14":  "23-2"
+                                       }
+                       },
+                       {
+                           "id":  8,
+                           "regionals":  [
+                                             15,
+                                             16
+                                         ],
+                           "host":  "Vandalia",
+                           "date":  "Monday, January 29, 2024",
+                           "records":  {
+                                           "15":  "16-5",
+                                           "16":  "15-4"
+                                       }
+                       }
+                   ],
+    "venue":  "El Paso-Gridley HS",
+    "stateDate":  "",
+    "quarterfinals":  [
+                          {
+                              "game":  1,
+                              "matchup":  [
+                                              4,
+                                              3
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  2,
+                              "matchup":  [
+                                              8,
+                                              6
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  3,
+                              "matchup":  [
+                                              7,
+                                              5
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          },
+                          {
+                              "game":  4,
+                              "matchup":  [
+                                              1,
+                                              2
+                                          ],
+                              "date":  "",
+                              "time":  ""
+                          }
+                      ],
+    "semifinals":  [
+                       {
+                           "game":  5,
+                           "matchup":  [
+                                           1,
+                                           2
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       },
+                       {
+                           "game":  6,
+                           "matchup":  [
+                                           3,
+                                           4
+                                       ],
+                           "date":  "",
+                           "time":  ""
+                       }
+                   ],
+    "thirdPlace":  {
+                       "date":  "",
+                       "time":  ""
+                   },
+    "championship":  {
+                         "date":  "",
+                         "time":  ""
+                     }
+};
