@@ -194,7 +194,7 @@
 
     var badgeCount = newWindow ? newCount : countIn(WINDOWS[0]);
     var badgeScope = newWindow ? "new since your last visit" : "in the last 24 hours";
-    button.replaceChildren(label("score-label-full", "Score updates (" + badgeCount + ")"),
+    button.replaceChildren(label("score-label-full", "Scores (" + badgeCount + ")"),
         label("score-label-short", "Scores(" + badgeCount + ")"));
     button.setAttribute("aria-label", "Score updates, " + badgeCount + " " + badgeScope);
     button.classList.toggle("has-new", badgeCount > 0);
