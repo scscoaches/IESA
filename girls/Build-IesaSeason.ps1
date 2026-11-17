@@ -37,7 +37,7 @@ function Get-OfficialPage([string]$url, [string]$marker) {
 function Get-Assignments([string]$html, [string]$grade) {
     $sectionalCount = if ($Year -le $legacyLast) { 16 } else { 8 }
     $sectionHeaders = @([regex]::Matches($html,
-        "(?is)<td\s+class=['""]TableSubtitle['""][^>]*>\s*Sectional\s+(\d+)\b"))
+        "(?is)<td\b[^>]*\bclass=['""]TableSubtitle['""][^>]*>\s*Sectional\s+(\d+)\b"))
     # Older assignment pages may omit sectionals or their locations (girls through
     # 2008, boys through 2009: earlyAssignmentsLast in sport.json).
     $early = $Year -le [int]$IesaSport.earlyAssignmentsLast
@@ -69,7 +69,7 @@ function Get-Assignments([string]$html, [string]$grade) {
         $hostMatch = if ($location.Success) {
             [regex]::Match($location.Groups[1].Value, '(?is)<b>\s*Host:\s*</b>\s*(.*?)\s*<br')
         } else {
-            [regex]::Match($block, '(?is)<td\s+class=[''"]TableSubtitle[''"][^>]*>\s*Sectional\s+\d+\s*@\s*([^<]+)')
+            [regex]::Match($block, '(?is)<td\b[^>]*\bclass=[''"]TableSubtitle[''"][^>]*>\s*Sectional\s+\d+\s*@\s*([^<]+)')
         }
         $sectionHost = if ($hostMatch.Success) { Get-Text $hostMatch.Groups[1].Value } else { '' }
         $date = ''
@@ -86,7 +86,7 @@ function Get-Assignments([string]$html, [string]$grade) {
         }
         if ($early) { $sectionals[$id - 1] = $sectional } else { $sectionals += $sectional }
         $regionalHeaders = @([regex]::Matches($block,
-            "(?is)<td\s+class=['""]TableSubtitle2['""][^>]*>\s*Regional\s+(\d+)\s*</td>"))
+            "(?is)<td\b[^>]*\bclass=['""]TableSubtitle2['""][^>]*>\s*Regional\s+(\d+)\s*</td>"))
         if ($regionalHeaders.Count -ne 2) {
             throw "$grade $Year Sectional $id expected 2 regionals; found $($regionalHeaders.Count)"
         }
@@ -124,7 +124,9 @@ function Get-Assignments([string]$html, [string]$grade) {
                 $listedTeams += $name
                 # The host links its instructions: RegPlaqueInfo.pdf (girls) or
                 # IESA-BBK_RegSectHostInst.pdf (boys), labelled "Host Info".
-                if ($line -match 'RegPlaqueInfo\.pdf|RegSectHostInst\.pdf|>\s*Host Info\s*<|(?i)\(\s*Host\s*\)') {
+                # Early pages show only the host in bold (their key reads "<B>Host</B>").
+                $boldHost = $early -and $line -match '(?is)^\s*<b>[^<]+</b>\s*$'
+                if ($boldHost -or $line -match 'RegPlaqueInfo\.pdf|RegSectHostInst\.pdf|>\s*Host Info\s*<|(?i)\(\s*Host\s*\)') {
                     if ($regionalHost -ne 'TBD') { throw "$grade $Year Regional $number has multiple hosts" }
                     $regionalHost = $name
                 }

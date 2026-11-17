@@ -113,7 +113,8 @@ function Get-RegionalRosters([string]$grade) {
 
 function Get-Result([string]$html, [string]$url) {
     $markup = [System.Net.WebUtility]::HtmlDecode($html)
-    $suffix = '\s*def\.\s*(?<loser>.*?)\s*,?\s*(?:(?<winScore>\d+)\s*-\s*(?<loseScore>\d+)|(?<partialScore>\d+\s*-)|(?<missing>-))\s*(?:<(?:b|strong)>\s*(?:\d+\s*)?OT\s*</(?:b|strong)>|\(+(?:\d+\s*)?OT\)+)?\s*$'
+    # A forfeit is printed as "X def. Y , 2-0 <b>FORFEIT</b>".
+    $suffix = '\s*def\.\s*(?<loser>.*?)\s*,?\s*(?:(?<winScore>\d+)\s*-\s*(?<loseScore>\d+)|(?<partialScore>\d+\s*-)|(?<missing>-))\s*(?:<(?:b|strong)>\s*(?:\d+\s*)?OT\s*</(?:b|strong)>|\(+(?:\d+\s*)?OT\)+|<(?:b|strong)>\s*FORFEIT\s*</(?:b|strong)>)?\s*$'
     $result = [regex]::Match($markup,
         '(?is)^\s*<(?:b|strong)>\s*(?<winner>.*?)\s*</(?:b|strong)>' + $suffix)
     if (!$result.Success) {
@@ -291,11 +292,12 @@ function Read-Sectionals([string]$html, [string]$url, [hashtable]$regionals) {
     $results = @{}
     $blocks = Get-SectionBlocks $html 'State Qualifiers are pending.' $url
     for ($s = 0; $s -lt $blocks.Count; $s++) {
-        $cells = [regex]::Matches($blocks[$s], "(?is)<td\s+class=['""](?:ListData|Champion)['""][^>]*>(.*?)</td>")
+        # Older pages (boys 2007-2008) use class 'Data' and add "<BR><I>X record now 18-4</I>".
+        $cells = [regex]::Matches($blocks[$s], "(?is)<td\s+class=['""](?:ListData|Champion|Data)['""][^>]*>(.*?)</td>")
         # "Regional 2/Sectional 1 Canceled": the state scoreboard places the survivor.
         if ($cells.Count -eq 0 -and (Get-Text $blocks[$s]) -match '(?i)\bcancell?ed\b') { continue }
         if ($cells.Count -ne 1) { throw "Expected one result cell in sectional $($s + 1) at $url" }
-        $result = Get-Result $cells[0].Groups[1].Value $url
+        $result = Get-Result ($cells[0].Groups[1].Value -replace '(?is)<br\s*/?>\s*<i>[^<]*record now[^<]*</i>\s*$', '') $url
         if ($null -eq $result) {
             # A canceled regional sends the other regional's winner through
             # unopposed: "Southwood (Regional 4 Canceled. Southwood advances.)".
