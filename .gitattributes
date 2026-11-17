@@ -12,22 +12,22 @@
 # markers. The site keeps serving valid JSON while the conflict is resolved.
 # Resolve by choosing a side deliberately, or simply by re-running the updater:
 #
-#     git checkout --theirs 2026/scores-7th.json   # take the incoming capture
-#     git checkout --ours   2026/scores-7th.json   # keep the local capture
-#     .\2026\Update-IesaScores.ps1                 # or regenerate both
-#     git add 2026/scores-7th.json
+#     git checkout --theirs girls/2026/scores-7th.json   # take the incoming capture
+#     git checkout --ours   girls/2026/scores-7th.json   # keep the local capture
+#     .\girls\2026\Update-IesaScores.ps1                 # or regenerate both
+#     git add girls/2026/scores-7th.json
 #
 # Diffs are deliberately left enabled: the caches are pretty-printed over
 # thousands of lines, so a textual diff is still readable and is how a capture
 # is checked for unexpected score regressions.
-2026/scores-*.json -merge
-2026/scores-*.js   -merge
+girls/2026/scores-*.json -merge
+girls/2026/scores-*.js   -merge
 
 # Same reasoning for the other generated caches the pages load at runtime.
-2026/bracket-*.json        -merge
-2026/bracket-*.js          -merge
-2026/regional-seeds-*.json -merge
-2026/regional-seeds-*.js   -merge
-2026/nfhs-events.json      -merge
-2026/hudl-events.json      -merge
-2026/strength-*.json       -merge
+girls/2026/bracket-*.json        -merge
+girls/2026/bracket-*.js          -merge
+girls/2026/regional-seeds-*.json -merge
+girls/2026/regional-seeds-*.js   -merge
+girls/2026/nfhs-events.json      -merge
+girls/2026/hudl-events.json      -merge
+girls/2026/strength-*.json       -merge

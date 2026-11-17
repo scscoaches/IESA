@@ -32,6 +32,10 @@ concurrency:
 jobs:
   update-scores:
     runs-on: windows-latest
+    # The girls' site lives in girls/; every path below is relative to it.
+    defaults:
+      run:
+        working-directory: girls
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -71,7 +75,7 @@ jobs:
         run: |
           $evening = "${{ steps.season.outputs.evening }}" -eq "true"
           $bracketsOnly = "${{ inputs.brackets_only }}" -eq "true"
-          ./2026/Update-IesaScores.ps1 -SitePath "${{ github.workspace }}/${{ steps.season.outputs.year }}" -Evening:$evening -BracketsOnly:$bracketsOnly
+          ./2026/Update-IesaScores.ps1 -SitePath "${{ github.workspace }}/girls/${{ steps.season.outputs.year }}" -Evening:$evening -BracketsOnly:$bracketsOnly
 
       - name: Commit and push refreshed data
         if: steps.season.outputs.active == 'true'
