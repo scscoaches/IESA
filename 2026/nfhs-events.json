@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 21:40",
+  "updatedAt": "2026-11-17 05:12",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -493,12 +493,6 @@
     ],
     "indian-creek-high-school-shabbona-il": [
       {
-        "key": "gam74a94ef1b9",
-        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam74a94ef1b9",
-        "label": "Sandwich Middle School vs. Indian Creek",
-        "start": "2026-10-07T21:30:00.000Z"
-      },
-      {
         "key": "gam5ab2e7932e",
         "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam5ab2e7932e",
         "label": "Serena MS vs. Indian Creek",
@@ -681,12 +675,6 @@
     ],
     "midwest-central-middle-school-green-valley-il": [
       {
-        "key": "gam6413f9bdba",
-        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam6413f9bdba",
-        "label": "MCMS",
-        "start": "2026-10-01T22:15:00.000Z"
-      },
-      {
         "key": "gamac13585779",
         "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gamac13585779",
         "label": "MCMS",
@@ -803,6 +791,12 @@
         "start": "2026-11-17T23:50:00.000Z"
       },
       {
+        "key": "gama79b837486",
+        "url": "https://www.nfhsnetwork.com/events/lincolnwood-high-school-raymond-il/gama79b837486",
+        "label": "Middle School Girls Basketball",
+        "start": "2026-11-18T00:00:00.000Z"
+      },
+      {
         "key": "gamb3aac0f4b0",
         "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gamb3aac0f4b0",
         "label": "Nokomis vs. Morrisonville",
@@ -811,12 +805,6 @@
     ],
     "morton-grove-academy-morton-grove-il": [],
     "mt-pulaski-high-school-mt-pulaski-il": [
-      {
-        "key": "gam993491d999",
-        "url": "https://www.nfhsnetwork.com/events/williamsville-high-school-williamsville-il/gam993491d999",
-        "label": "7th Grade Girls Basketball — Mt. Pulaski Elementary vs. Williamsville Junior High",
-        "start": "2026-10-20T22:55:00.000Z"
-      },
       {
         "key": "gam9752bf9b1a",
         "url": "https://www.nfhsnetwork.com/events/williamsville-high-school-williamsville-il/gam9752bf9b1a",
