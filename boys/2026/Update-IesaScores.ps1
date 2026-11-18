@@ -561,6 +561,11 @@ if ($today -ge $bracketFrom) {
         if (Test-Path $teamIndexScript) {
             & $teamIndexScript -SiteRoot $siteRoot | Out-Null
         }
+        # All-time stats (local files only) follow the brackets, placements and index.
+        $allTimeScript = Join-Path $siteRoot "Build-IesaAllTime.ps1"
+        if (Test-Path $allTimeScript) {
+            & $allTimeScript -SiteRoot $siteRoot | Out-Null
+        }
     } catch {
         Write-Warning "Placement refresh failed: $($_.Exception.Message)"
     }

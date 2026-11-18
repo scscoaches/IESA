@@ -93,5 +93,6 @@ Write-IesaText $configPath (($config | ConvertTo-Json -Depth 5) + "`n")
 # 4. Stamp every page and index the new season's schools.
 & (Join-Path $PSScriptRoot 'Update-IesaPageShells.ps1') -SiteRoot $SiteRoot
 & (Join-Path $PSScriptRoot 'Build-IesaTeamIndex.ps1') -SiteRoot $SiteRoot
+& (Join-Path $PSScriptRoot 'Build-IesaAllTime.ps1') -SiteRoot $SiteRoot
 Write-Host "Live season is now $Year (Class $FollowedClass every run; others daily). Commit and push to publish."
 Write-Host "Last season's final run disabled its score-refresh workflow: re-enable it in the Actions tab (or: gh workflow enable $($IesaSport.scoreWorkflow))."

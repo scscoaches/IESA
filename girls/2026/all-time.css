@@ -1,0 +1,199 @@
+/* All-time stats dialog (all-time.js), styled like the team rankings dialog. */
+#all-time-dialog {
+    width: min(980px, calc(100% - 24px));
+    max-height: calc(100vh - 24px);
+    max-height: calc(100dvh - 24px);
+}
+
+/* Only the table scrolls; the title, search and grade buttons stay put. */
+#all-time-dialog[open] {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#all-time-dialog > * {
+    flex: none;
+}
+
+#all-time-dialog > .all-time-scroll {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+}
+
+.all-time-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 16px;
+    margin: 12px 0 10px;
+}
+
+#all-time-dialog .all-time-controls input {
+    flex: 1 1 120px;
+    width: auto;
+    max-width: 260px;
+    min-width: 0;
+    margin: 0;
+    padding: 5px 8px;
+    font-size: 13px;
+}
+
+/* Search on the left, grade on the right. Archive pages don't load score-updates.css. */
+#all-time-dialog .updates-window {
+    display: flex;
+    gap: 6px;
+    margin: 0 0 0 auto;
+}
+
+#all-time-dialog .updates-window button {
+    padding: 4px 10px;
+    color: #182035;
+    font-size: 12px;
+    background: #f2f4f8;
+    border: 1px solid #d8dce5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#all-time-dialog .updates-window button.active {
+    color: #fff;
+    background: #464feb;
+    border-color: #464feb;
+}
+
+.dark-theme #all-time-dialog .updates-window button {
+    color: #f0f3fa;
+    background: #31415a;
+    border-color: #536078;
+}
+
+.dark-theme #all-time-dialog .updates-window button.active {
+    color: #fff;
+    background: #5560ff;
+    border-color: #5560ff;
+}
+
+#all-time-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 12px;
+}
+
+/* Separate borders keep the sticky header opaque; collapsed ones let rows show through. */
+#all-time-table th,
+#all-time-table td {
+    padding: 6px 7px;
+    border: 0 solid #d8dce5;
+    border-width: 0 1px 1px 0;
+    text-align: right;
+    white-space: nowrap;
+}
+
+#all-time-table th:first-child,
+#all-time-table td:first-child {
+    border-left-width: 1px;
+}
+
+#all-time-table th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-top-width: 1px;
+    color: #182035;
+    background: #f2f4f8;
+}
+
+#all-time-table th:nth-child(2),
+#all-time-table td:nth-child(2) {
+    width: 100%;
+    min-width: 150px;
+    text-align: left;
+    white-space: normal;
+}
+
+#all-time-table th button {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#all-time-table th[aria-sort] button::after {
+    content: " \25BC";
+    font-size: 9px;
+}
+
+#all-time-table th[aria-sort="ascending"] button::after {
+    content: " \25B2";
+}
+
+#all-time-table .zero {
+    color: #a6adbd;
+}
+
+#all-time-table tr.my-team-row td {
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    background: #fff0bd;
+    color: #522000;
+    font-weight: bold;
+    box-shadow: 0 -1px 0 #e48a00, 0 1px 0 #e48a00;
+}
+
+#all-time-table td.all-time-empty {
+    color: #68718a;
+    text-align: center;
+}
+
+.dark-theme #all-time-table th,
+.dark-theme #all-time-table td {
+    border-color: #536078;
+}
+
+.dark-theme #all-time-table th {
+    background: #31415a;
+    color: #f0f3fa;
+}
+
+.dark-theme #all-time-table .zero {
+    color: #6d7894;
+}
+
+.dark-theme #all-time-table td.all-time-empty {
+    color: #c3cde1;
+}
+
+.dark-theme #all-time-table tr.my-team-row td {
+    background: #8a6a0c;
+    color: #fff;
+    box-shadow: 0 -1px 0 #ffe08a, 0 1px 0 #ffe08a;
+}
+
+@media (max-width: 680px) {
+    #all-time-dialog {
+        padding: 10px;
+    }
+
+    #all-time-table {
+        font-size: 10px;
+    }
+
+    #all-time-table th,
+    #all-time-table td {
+        padding: 5px 3px;
+    }
+
+    #all-time-table th:nth-child(2),
+    #all-time-table td:nth-child(2) {
+        min-width: 110px;
+    }
+}

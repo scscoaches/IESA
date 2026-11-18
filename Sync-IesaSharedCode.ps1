@@ -29,7 +29,7 @@ $ErrorActionPreference = 'Stop'
 function Get-IesaSharedFiles([string]$root) {
     $rootFiles = @('Build-IesaEarlyArchive.ps1', 'Build-IesaPlacements.ps1', 'Build-IesaSeason.ps1',
         'Build-IesaTeamIndex.ps1', 'IesaCalendar.ps1', 'IesaSitePages.ps1', 'Start-IesaSeason.ps1',
-        'Sync-IesaSeason.ps1', 'Update-IesaPageShells.ps1',
+        'Sync-IesaSeason.ps1', 'Update-IesaPageShells.ps1', 'Build-IesaAllTime.ps1',
         'archive-grade-template.html', 'archive-season-template.html', 'archive-state-template.html',
         'live-grade-template.html')
     # Season data in 2026\ (the girls' live Class 2A caches) and per-sport files stay put.

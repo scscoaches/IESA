@@ -62,6 +62,16 @@ foreach ($asset in 'styles\.css', 'theme\.css', 'my-team\.js') {
     $pageVersion = [regex]::Match((Get-Content -Raw $pages[0].FullName), "$asset\?v=\d+").Value
     Assert-Equal $pageVersion ([regex]::Match($homePage, "$asset\?v=\d+").Value) "home page loads the bracket pages' $($asset -replace '\\', '')"
 }
+# The all-time stats popup (all-time.js, reading all-time.json from Build-IesaAllTime.ps1)
+# opens from the home page and from header-menu.js, which loads it on demand.
+$menuScript = Get-Content -Raw (Join-Path $root '2026\header-menu.js')
+Assert-True ($homePage -match 'all-time\.js\?v=\d+') 'home page loads all-time.js'
+Assert-Equal ([regex]::Match($menuScript, 'all-time\.js"[^\r\n]*?\?v=(\d+)').Groups[1].Value) ([regex]::Match($homePage, 'all-time\.js\?v=(\d+)').Groups[1].Value) 'home page and header menu load one all-time.js version'
+$allTime = Get-Content -Raw (Join-Path $root 'all-time.json') | ConvertFrom-Json
+Assert-True (@($allTime.schools).Count -gt 100) "all-time stats list every school ($(@($allTime.schools).Count))"
+Assert-Equal 0 @($allTime.schools | Where-Object { @($_.g.PSObject.Properties | Where-Object { @($_.Value).Count -ne 13 }).Count }).Count 'all-time stats have 13 counters per grade'
+$tripShort = @($allTime.schools | ForEach-Object { $s = $_; $s.g.PSObject.Properties | Where-Object { $v = @($_.Value); $v[0] + $v[1] + $v[2] + $v[3] -gt $v[4] } | ForEach-Object { "$($s.name) $($_.Name)" } })
+Assert-Equal '' ($tripShort -join ', ') 'every all-time state finish counts as a state trip'
 
 Write-Host 'Data the browser reads'
 $teams = Get-Content -Raw (Join-Path $root 'teams.json') | ConvertFrom-Json

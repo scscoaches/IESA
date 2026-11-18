@@ -116,7 +116,7 @@
 .stage.championship-stage{font-size:28px}
 .stage.final-stage{text-align:center}
 /* "More" (⋯) header menu for buttons that do not fit (header-menu.js). */
-.tools button#more-button{display:inline-flex!important;width:40px;min-width:40px;padding:0;font-size:22px;line-height:1}.tools button#more-button[hidden]{display:none!important}#more-button svg{position:static;display:block}.tools button#sport-button{gap:5px}#sport-button svg{position:static;display:block;flex:none}.header-menu #sport-button .sport-switch-text{display:none}
+.tools button#more-button{display:inline-flex!important;width:40px;min-width:40px;padding:0;font-size:22px;line-height:1}.tools button#more-button[hidden]{display:none!important}#more-button svg{position:static;display:block}.tools button#sport-button{gap:5px}#sport-button svg{position:static;display:block;flex:none}.tools button#all-time-button{width:40px;min-width:40px;padding:0}#all-time-button svg{position:static;display:block;flex:none}.header-menu #sport-button .sport-switch-text{display:none}
 /* With Settings, Search and Rankings in the menu, Scores keeps its full width on phones. */
 @media(max-width:680px){.tools button#updates-button{max-width:none!important}}
 .header-menu{position:fixed;right:6px;z-index:50;display:flex;flex-direction:column;gap:4px;min-width:200px;padding:6px;background:#101d4d;border:1px solid #9ea8d4;border-radius:6px;box-shadow:0 10px 30px #0009}

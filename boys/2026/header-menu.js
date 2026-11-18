@@ -165,6 +165,32 @@
         });
         tools.insertBefore(button, more);
     }
+
+    // All-time stats for this sport (all-time.html at the sport's root).
+    function addAllTime() {
+        var script = document.querySelector('script[src*="header-menu.js"]');
+        if (!script) { return; }
+        var button = document.createElement("button");
+        button.type = "button";
+        button.id = "all-time-button";
+        button.title = "All-time stats";
+        button.setAttribute("aria-label", "All-time stats");
+        button.setAttribute("data-menu-label", "All-time stats");
+        button.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M8 4h8v5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M9 20h6" ' +
+            'stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>';
+        // The popup (all-time.js) loads on first use; bump its ?v= with the file.
+        var loaded = null;
+        button.addEventListener("click", function () {
+            if (window.iesaAllTime) { window.iesaAllTime.open(); return; }
+            if (loaded) { return; }
+            loaded = document.createElement("script");
+            loaded.src = new URL("all-time.js", script.src).href + "?v=1";
+            loaded.onload = function () { if (window.iesaAllTime) { window.iesaAllTime.open(); } };
+            loaded.onerror = function () { loaded.remove(); loaded = null; };
+            document.body.appendChild(loaded);
+        });
+        tools.insertBefore(button, document.getElementById("sport-button") || more);
+    }
     function refit() {
         fitting = true;
         fit();
@@ -186,6 +212,7 @@
         tools.appendChild(more);
         document.body.appendChild(menu);
         addSportSwitch();
+        addAllTime();
         refit();
         observer.observe(topbar, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ["style", "hidden", "class"] });
         observer.observe(menu, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ["style", "hidden", "class"] });

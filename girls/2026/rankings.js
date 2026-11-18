@@ -222,6 +222,7 @@
     }
 
     var request = 0;
+    var headWatcher = null;
     function render() {
         var current = ++request;
         renderPickers();
@@ -252,10 +253,20 @@
                 body.appendChild(row);
             });
             // The team's row is sticky: pinned to the bottom while it is below the
-            // visible rows and under the header once scrolled past.
+            // visible rows and under the header once scrolled past. The header can
+            // grow after this (web fonts, wrapping), so keep its exact height in step;
+            // a stale height leaves the row half behind the header.
             if (mine) {
-                var headHeight = table.tHead.offsetHeight + "px";
-                Array.prototype.forEach.call(mine.cells, function (cell) { cell.style.top = headHeight; });
+                var pin = function () {
+                    var headHeight = table.tHead.getBoundingClientRect().height + "px";
+                    Array.prototype.forEach.call(mine.cells, function (cell) { cell.style.top = headHeight; });
+                };
+                pin();
+                if (window.ResizeObserver) {
+                    if (headWatcher) { headWatcher.disconnect(); }
+                    headWatcher = new ResizeObserver(pin);
+                    headWatcher.observe(table.tHead);
+                }
             }
             scroll.scrollTop = 0;
         }).catch(function (error) {

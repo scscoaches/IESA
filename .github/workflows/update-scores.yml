@@ -99,7 +99,7 @@ jobs:
           }
           $files = @($perClass) + @(
             "$year/nfhs-events.json", "$year/hudl-events.json",
-            "placements.json", "teams.json"
+            "placements.json", "teams.json", "all-time.json"
           ) | Where-Object { Test-Path $_ }
           git add -- $files
           if (git diff --cached --quiet) {
