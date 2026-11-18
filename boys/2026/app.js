@@ -687,21 +687,6 @@
         })
     }
 
-    function zoom(k) {
-        var c = current(),
-            z = Math.max(.05, Math.min(2.5, c.z * k));
-        setTransform({
-            x: v.clientWidth / 2 - (v.clientWidth / 2 - c.x) * z / c.z,
-            y: v.clientHeight / 2 - (v.clientHeight / 2 - c.y) * z / c.z,
-            z: z
-        })
-    }
-    document.querySelector("#plus").onclick = function() {
-        zoom(1.2)
-    };
-    document.querySelector("#minus").onclick = function() {
-        zoom(1 / 1.2)
-    };
     document.querySelector("#fit").onclick = fit;
     v.onpointerdown = function(e) {
         if (e.target.closest("button, summary, a, input, select, textarea")) { return; }

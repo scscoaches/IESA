@@ -116,42 +116,4 @@
         }
         event.preventDefault();
     });
-
-    // Holding + or - zooms continuously; a quick click keeps the single step.
-    [["plus", 1.012], ["minus", 1 / 1.012]].forEach(function (pair) {
-        var button = document.getElementById(pair[0]);
-        if (!button) { return; }
-        var timer = 0;
-        var frame = 0;
-        var held = false;
-
-        function stop() {
-            clearTimeout(timer);
-            cancelAnimationFrame(frame);
-            timer = frame = 0;
-        }
-
-        button.addEventListener("pointerdown", function (event) {
-            if (event.button !== 0) { return; }
-            held = false;
-            stop();
-            timer = setTimeout(function () {
-                held = true;
-                var middle = center();
-                (function step() {
-                    zoomAbout(middle.x, middle.y, pair[1]);
-                    frame = requestAnimationFrame(step);
-                }());
-            }, 300);
-        });
-        ["pointerup", "pointerleave", "pointercancel"].forEach(function (name) {
-            button.addEventListener(name, stop);
-        });
-        button.addEventListener("click", function (event) {
-            if (held) {
-                held = false;
-                event.stopImmediatePropagation();
-            }
-        }, true);
-    });
 }());
