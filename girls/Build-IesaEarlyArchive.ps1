@@ -22,7 +22,7 @@ if (!(Test-Path -LiteralPath $OutputRoot -PathType Container)) {
 }
 
 function Get-Text([string]$markup) {
-    ([System.Net.WebUtility]::HtmlDecode([regex]::Replace($markup, '(?is)<[^>]+>', ' ')) -replace '\s+', ' ').Trim()
+    ([System.Net.WebUtility]::HtmlDecode([regex]::Replace($markup, '(?is)<[^>]+>', ' ')) -replace '\s+', ' ').Trim() -replace "''", "'"
 }
 
 function Get-Page([string]$url, [string]$expected) {

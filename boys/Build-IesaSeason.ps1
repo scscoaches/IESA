@@ -23,7 +23,7 @@ if (($Year -le $legacyLast) -ne ($ClassName -in @('A', 'AA'))) {
 }
 
 function Get-Text([string]$html) {
-    ([System.Net.WebUtility]::HtmlDecode([regex]::Replace($html, '(?is)<[^>]+>', ' ')) -replace '\s+', ' ').Trim()
+    ([System.Net.WebUtility]::HtmlDecode([regex]::Replace($html, '(?is)<[^>]+>', ' ')) -replace '\s+', ' ').Trim() -replace "''", "'"
 }
 
 function Get-OfficialPage([string]$url, [string]$marker) {

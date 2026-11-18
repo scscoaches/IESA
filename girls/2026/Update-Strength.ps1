@@ -20,7 +20,7 @@ $central = [TimeZoneInfo]::ConvertTime((Get-Date), [TimeZoneInfo]::FindSystemTim
 $classes = "1A", "2A", "3A", "4A"
 
 function Get-PlainText([string]$html) {
-    ([Net.WebUtility]::HtmlDecode([regex]::Replace($html, "<[^>]+>", "")) -replace "\s+", " ").Trim()
+    ([Net.WebUtility]::HtmlDecode([regex]::Replace($html, "<[^>]+>", "")) -replace "\s+", " ").Trim() -replace "''", "'"
 }
 
 function Get-Key([string]$name) {

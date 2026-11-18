@@ -130,11 +130,11 @@
                                         "Potomac",
                                         "Rossville-Alvin",
                                         "Thomasboro",
-                                        "Buckley St. John\u0027\u0027s",
+                                        "Buckley St. John\u0027s",
                                         "Gifford"
                                     ],
                           "assignedTeams":  [
-                                                "Buckley St. John\u0027\u0027s",
+                                                "Buckley St. John\u0027s",
                                                 "Cissna Park",
                                                 "Gifford",
                                                 "Potomac (Coop)",

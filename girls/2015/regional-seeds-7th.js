@@ -979,7 +979,7 @@
                                                      },
                                                      {
                                                          "seed":  7,
-                                                         "team":  "Buckley St. John\u0027\u0027s"
+                                                         "team":  "Buckley St. John\u0027s"
                                                      }
                                                  ],
                                        "rounds":  [
@@ -1011,7 +1011,7 @@
                                                           {
                                                               "teams":  [
                                                                             "Armstrong-Ellis",
-                                                                            "Buckley St. John\u0027\u0027s"
+                                                                            "Buckley St. John\u0027s"
                                                                         ],
                                                               "scores":  [
                                                                              24,

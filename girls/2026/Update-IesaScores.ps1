@@ -240,7 +240,7 @@ function Get-RosterChanges([string]$grade) {
 }
 
 function Get-PlainText([string]$html) {
-    ([System.Net.WebUtility]::HtmlDecode([regex]::Replace($html, "<[^>]+>", "")) -replace "\s+", " ").Trim()
+    ([System.Net.WebUtility]::HtmlDecode([regex]::Replace($html, "<[^>]+>", "")) -replace "\s+", " ").Trim() -replace "''", "'"
 }
 
 function Normalize-Matchup([string]$matchup) {

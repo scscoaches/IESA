@@ -79,6 +79,8 @@ Assert-Equal @($teams.names).Count @($teams.names | Select-Object -Unique).Count
 $badAlias = @($teams.aliases.PSObject.Properties | Where-Object { $_.Value -lt 0 -or $_.Value -ge @($teams.names).Count })
 Assert-Equal 0 $badAlias.Count 'team aliases point at real schools'
 Assert-True (@($teams.names | Where-Object { $_ -match '\(\d+-\d+\)|\s{2}' }).Count -eq 0) 'no records or double spaces in team names'
+# IESA's pages sometimes print a doubled apostrophe ("St. John''s"); it would split one school in two.
+Assert-Equal '' (@($teams.names | Where-Object { $_ -match "''" }) -join ', ') 'no doubled apostrophes in team names'
 $placements = Get-Content -Raw (Join-Path $root 'placements.json') | ConvertFrom-Json
 Assert-True (@($placements.results).Count -ge $(if ($IesaIsGirls) { 231 } else { 1 })) "state history complete ($(@($placements.results).Count) tournaments)"
 Assert-Equal 0 @($placements.results | Where-Object { @($_.places).Count -ne 4 }).Count 'every tournament lists four places'

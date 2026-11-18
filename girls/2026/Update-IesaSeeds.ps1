@@ -18,7 +18,7 @@ foreach ($grade in $Grades) {
 }
 
 function Get-Text([string]$html) {
-    ([System.Net.WebUtility]::HtmlDecode([regex]::Replace($html, '(?is)<[^>]+>', '')) -replace '\s+', ' ').Trim()
+    ([System.Net.WebUtility]::HtmlDecode([regex]::Replace($html, '(?is)<[^>]+>', '')) -replace '\s+', ' ').Trim() -replace "''", "'"
 }
 
 function Get-Key([string]$name) {

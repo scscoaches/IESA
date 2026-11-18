@@ -1027,7 +1027,7 @@
                                                      },
                                                      {
                                                          "seed":  6,
-                                                         "team":  "Buckley St. John\u0027\u0027s"
+                                                         "team":  "Buckley St. John\u0027s"
                                                      },
                                                      {
                                                          "seed":  7,
@@ -1075,7 +1075,7 @@
                                                           {
                                                               "teams":  [
                                                                             "Potomac",
-                                                                            "Buckley St. John\u0027\u0027s"
+                                                                            "Buckley St. John\u0027s"
                                                                         ],
                                                               "scores":  [
                                                                              36,

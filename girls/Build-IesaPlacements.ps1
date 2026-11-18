@@ -42,7 +42,7 @@ $classes = @($IesaSport.historyClasses | ForEach-Object {
 if (!$classes.Count) { throw "sport.json lists no historyClasses." }
 
 function Get-CellText([string]$html) {
-    [System.Net.WebUtility]::HtmlDecode(($html -replace '<[^>]+>', '')).Trim() -replace '\s+', ' '
+    [System.Net.WebUtility]::HtmlDecode(($html -replace '<[^>]+>', '')).Trim() -replace '\s+', ' ' -replace "''", "'"
 }
 
 function Get-ClassHistory($class) {

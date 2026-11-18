@@ -110,7 +110,7 @@
                                         "Cissna Park",
                                         "Rantoul St. Malachy",
                                         "Rossville-Alvin",
-                                        "Buckley St. John\u0027\u0027s"
+                                        "Buckley St. John\u0027s"
                                     ]
                       },
                       {

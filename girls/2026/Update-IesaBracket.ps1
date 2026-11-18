@@ -26,7 +26,7 @@ if (!(Test-Path -LiteralPath $OutputPath -PathType Container)) {
 
 function Get-Text([string]$html) {
     $withoutMarkup = [regex]::Replace($html, '(?is)<[^>]+>', ' ')
-    return ([System.Net.WebUtility]::HtmlDecode($withoutMarkup) -replace '\s+', ' ').Trim()
+    return ([System.Net.WebUtility]::HtmlDecode($withoutMarkup) -replace '\s+', ' ').Trim() -replace "''", "'"
 }
 
 function Get-Name([string]$html) {
