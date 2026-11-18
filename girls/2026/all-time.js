@@ -85,12 +85,9 @@
     function render() {
         var query = search.value.trim().toLowerCase();
         var column = COLUMNS[state.sort];
-        // Schools that reached state; a search or the saved team finds the rest.
+        // Only schools that reached state, even when searching or for the saved team.
         var rows = data.schools.map(function (school) { return { name: school.name, s: totals(school) }; })
-            .filter(function (row) {
-                return row.s[TRIPS] || (row.s.some(function (v, i) { return i <= PL && v; }) &&
-                    ((query && row.name.toLowerCase().indexOf(query) >= 0) || mine(row.name)));
-            });
+            .filter(function (row) { return row.s[TRIPS] > 0; });
         rows.sort(function (a, b) {
             var order = column.text ? a.name.localeCompare(b.name) : column.value(a.s) - column.value(b.s);
             if (!state.ascending) { order = -order; }
@@ -113,7 +110,7 @@
             });
             body.appendChild(tr);
         });
-        if (!body.rows.length) { message("No school matches \u201c" + search.value.trim() + "\u201d."); }
+        if (!body.rows.length) { message("No school matching \u201c" + search.value.trim() + "\u201d has made a state tournament trip."); }
         // Like the rankings, the team's row sticks to the bottom (or under the header).
         if (myRow) {
             var pin = function () {
