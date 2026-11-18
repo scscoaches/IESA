@@ -30,7 +30,8 @@ the eras from `sport.json`.
 `.\Sync-IesaSharedCode.ps1` to copy the build scripts, templates and `2026\`
 scripts, styles and icons to `boys\`; `-Check` only reports differences.
 Each sport keeps its own data, home page, `2026\team-links.js` and
-`2026\manifest.json`.
+`2026\manifest.json`. The manifests have no `start_url` on purpose: a page
+saved to a phone's home screen then reopens that page, not a fixed start page.
 
 ## Tests
 
