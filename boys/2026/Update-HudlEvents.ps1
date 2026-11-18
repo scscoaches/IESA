@@ -39,12 +39,13 @@ if (Test-Path -LiteralPath $outputPath) {
 }
 
 function Get-Opponent([string]$title) {
-    # "7th Gr. followed by 8th Gr. - St Anthony Effingham vs Dieterich JH Womens Basketball"
+    # "7th Gr. followed by 8th Gr. - St Anthony Effingham vs Dieterich JH Womens Basketball";
+    # "Pawnee High School vs porta Girls' JuniorVarsity Basketball" (no space).
     $matchup = ($title -split '\s+-\s+' | Where-Object { $_ -match '\svs\.?\s' } | Select-Object -Last 1)
     if (!$matchup) { return $null }
     $sides = $matchup -split '\s+vs\.?\s+', 2
     if ($sides.Count -ne 2) { return $null }
-    $opponent = $sides[1] -replace "\s*\b(?:$genderWords)?\s*(?:Other|Varsity|JV|Junior Varsity)?\s*Basketball\s*$", ''
+    $opponent = $sides[1] -replace "\s*\b(?:$genderWords)?\s*(?:Other|Varsity|JV|Junior\s*Varsity)?\s*Basketball\s*$", ''
     $opponent = $opponent -replace '\b(?:JH|Jr\.? High|Lady \w+)\b', ' ' -replace '\s+', ' '
     $opponent = $opponent.Trim()
     if ($opponent) { return $opponent } else { return $null }
