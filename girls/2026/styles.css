@@ -116,3 +116,13 @@
 @media(max-width:400px){.iesa-logo{display:none}}
 .stage.championship-stage{font-size:28px}
 .stage.final-stage{text-align:center}
+/* "More" (⋯) header menu for buttons that do not fit (header-menu.js). */
+.tools button#more-button{display:inline-flex!important;width:40px;min-width:40px;padding:0;font-size:22px;line-height:1}.tools button#more-button[hidden]{display:none!important}
+.header-menu{position:fixed;right:6px;z-index:50;display:flex;flex-direction:column;gap:4px;min-width:200px;padding:6px;background:#101d4d;border:1px solid #9ea8d4;border-radius:6px;box-shadow:0 10px 30px #0009}
+.header-menu[hidden]{display:none}
+.header-menu>button.in-header-menu,.header-menu>#updates-button.in-header-menu,.header-menu>#rankings-button.in-header-menu{display:flex!important;align-items:center;justify-content:flex-start;gap:10px;width:100%;max-width:none!important;min-width:0;height:44px;padding:0 12px;border:1px solid transparent;border-radius:4px;background:transparent;color:#fff;font:inherit;font-size:14px;text-align:left;cursor:pointer}
+.header-menu>button.in-header-menu:hover,.header-menu>button.in-header-menu:focus-visible{background:#26304d}
+.header-menu>#updates-button.in-header-menu.has-new{background:#464feb}
+.header-menu #updates-button .score-label-full{display:inline!important}
+.header-menu #updates-button .score-label-short{display:none!important}
+.header-menu button img{width:20px;height:20px}

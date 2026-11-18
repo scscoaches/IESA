@@ -27,12 +27,22 @@
 
 #updates-dialog {
     width: min(760px, calc(100% - 24px));
+    /* dvh is the visible height on phones (vh includes the browser's bars). */
     max-height: calc(100vh - 24px);
+    max-height: calc(100dvh - 24px);
     overflow: auto;
+    overscroll-behavior: contain;
+    padding-top: 0;
 }
 
+/* Long lists scroll under the title row, so Close is always reachable. */
 #updates-dialog .dialog-head {
+    position: sticky;
+    top: 0;
+    z-index: 2;
     margin-bottom: 12px;
+    padding: 12px 0 8px;
+    background: inherit;
 }
 
 #updates-summary {
