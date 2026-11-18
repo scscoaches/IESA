@@ -85,9 +85,9 @@
     function render() {
         var query = search.value.trim().toLowerCase();
         var column = COLUMNS[state.sort];
-        // Only schools that reached state; the saved team still gets its (unranked) row.
+        // Every school with a postseason result (state trip, regional or sectional game).
         var rows = data.schools.map(function (school) { return { name: school.name, s: totals(school) }; })
-            .filter(function (row) { return row.s[TRIPS] > 0 || (mine(row.name) && row.s.some(function (v, i) { return i <= PL && v; })); });
+            .filter(function (row) { return row.s.some(function (v, i) { return i <= PL && v; }); });
         rows.sort(function (a, b) {
             var order = column.text ? a.name.localeCompare(b.name) : column.value(a.s) - column.value(b.s);
             if (!state.ascending) { order = -order; }
@@ -99,10 +99,9 @@
             else { th.removeAttribute("aria-sort"); }
         });
         body.replaceChildren();
-        var myRow = null, ranked = 0;
-        rows.forEach(function (row) {
-            // Schools without a state trip (only ever the saved team) get no rank.
-            var rank = row.s[TRIPS] > 0 ? String(++ranked) : "\u2014";
+        var myRow = null;
+        rows.forEach(function (row, index) {
+            var rank = String(index + 1);
             if (query && row.name.toLowerCase().indexOf(query) < 0) { return; }
             var tr = element("tr");
             if (mine(row.name)) { tr.className = "my-team-row"; myRow = myRow || tr; }
@@ -112,7 +111,7 @@
             });
             body.appendChild(tr);
         });
-        if (!body.rows.length) { message("No school matching \u201c" + search.value.trim() + "\u201d has made a state tournament trip."); }
+        if (!body.rows.length) { message("No school matches \u201c" + search.value.trim() + "\u201d."); }
         // Like the rankings, the team's row sticks to the bottom (or under the header).
         if (myRow) {
             var pin = function () {
