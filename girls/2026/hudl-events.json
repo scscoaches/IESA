@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 04:16",
+  "updatedAt": "2026-11-18 20:11",
   "schools": {
     "Arcola": [
       {
@@ -132,6 +132,164 @@
         "label": "Liberty vs. Nauvoo",
         "title": "Liberty JH vs Nauvoo JH Girls Basketball",
         "start": "2026-11-17T23:55:00Z"
+      }
+    ],
+    "Pawnee": [
+      {
+        "key": "RmFuQnJvYWRjYXN0NDUzMTg3NA==",
+        "url": "https://fan.hudl.com/usa/il/pawnee/organization/1154/pawnee-high-school/watch?b=RmFuQnJvYWRjYXN0NDUzMTg3NA%3D%3D",
+        "label": "Pawnee vs. calvary",
+        "title": "Pawnee Jr. High School vs calvary Girls' JuniorVarsity Basketball",
+        "start": "2026-09-28T23:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDU0Nzk2Ng==",
+        "url": "https://fan.hudl.com/usa/il/pawnee/organization/1154/pawnee-high-school/watch?b=RmFuQnJvYWRjYXN0NDU0Nzk2Ng%3D%3D",
+        "label": "Pawnee vs. Nokomis High School",
+        "title": "Pawnee High School vs Nokomis High School Girls' JuniorVarsity Basketball",
+        "start": "2026-09-30T23:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDU2Njk3Mg==",
+        "url": "https://fan.hudl.com/usa/il/pawnee/organization/1154/pawnee-high-school/watch?b=RmFuQnJvYWRjYXN0NDU2Njk3Mg%3D%3D",
+        "label": "Pawnee vs. pana",
+        "title": "Pawnee High School vs pana Girls' JuniorVarsity Basketball",
+        "start": "2026-10-03T14:54:20Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDU3ODMwMw==",
+        "url": "https://fan.hudl.com/usa/il/pawnee/organization/1154/pawnee-high-school/watch?b=RmFuQnJvYWRjYXN0NDU3ODMwMw%3D%3D",
+        "label": "Pawnee vs. Blessed Sacrament",
+        "title": "Pawnee High School vs Blessed Sacrament Girls' JuniorVarsity Basketball",
+        "start": "2026-10-05T23:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDU5ODY1MQ==",
+        "url": "https://fan.hudl.com/usa/il/pawnee/organization/1154/pawnee-high-school/watch?b=RmFuQnJvYWRjYXN0NDU5ODY1MQ%3D%3D",
+        "label": "Pawnee vs. Lincoln Magnet",
+        "title": "Pawnee High School vs Lincoln Magnet Girls' JuniorVarsity Basketball",
+        "start": "2026-10-08T23:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDY0Njg0MQ==",
+        "url": "https://fan.hudl.com/usa/il/pawnee/organization/1154/pawnee-high-school/watch?b=RmFuQnJvYWRjYXN0NDY0Njg0MQ%3D%3D",
+        "label": "Pawnee vs. Auburn",
+        "title": "Pawnee High School vs Auburn Girls' JuniorVarsity Basketball",
+        "start": "2026-10-17T14:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDc2NTUxNQ==",
+        "url": "https://fan.hudl.com/usa/il/pawnee/organization/1154/pawnee-high-school/watch?b=RmFuQnJvYWRjYXN0NDc2NTUxNQ%3D%3D",
+        "label": "Pawnee vs. porta",
+        "title": "Pawnee High School vs porta Girls' JuniorVarsity Basketball",
+        "start": "2026-11-06T00:22:43Z"
+      }
+    ],
+    "Riverton": [
+      {
+        "key": "RmFuQnJvYWRjYXN0NDUxOTkwNw==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDUxOTkwNw%3D%3D",
+        "label": "Riverton vs. New Berlin middle school",
+        "title": "7th grade Riverton vs New Berlin middle school Girls' Basketball",
+        "start": "2026-09-28T22:50:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDUxOTkxMw==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDUxOTkxMw%3D%3D",
+        "label": "Riverton vs. New Berlin middle School",
+        "title": "8th grade Riverton vs New Berlin middle School Basketball",
+        "start": "2026-09-28T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDY1NzM4NQ==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDY1NzM4NQ%3D%3D",
+        "label": "Riverton vs. Mt. Pulaski Girls' High School",
+        "title": "Riverton vs Mt. Pulaski Girls' High School Basketball",
+        "start": "2026-10-19T23:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDY1NzM4OA==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDY1NzM4OA%3D%3D",
+        "label": "Riverton vs. Mt. Pulaski",
+        "title": "Riverton vs Mt. Pulaski Girls' Varsity Basketball",
+        "start": "2026-10-20T00:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDY5OTk1MQ==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDY5OTk1MQ%3D%3D",
+        "label": "Riverton vs. Sangamon Valley 7th grade Girls' High School",
+        "title": "Riverton vs Sangamon Valley 7th grade Girls' High School Basketball",
+        "start": "2026-10-26T23:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDY5OTk1OA==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDY5OTk1OA%3D%3D",
+        "label": "Riverton vs. Sangamon Valley 8th grade",
+        "title": "Riverton vs Sangamon Valley 8th grade Girls' Varsity Basketball",
+        "start": "2026-10-27T00:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDc1NDExNw==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDc1NDExNw%3D%3D",
+        "label": "Riverton vs. Riverton High School",
+        "title": "Riverton High School vs Riverton High School Womens Other Basketball",
+        "start": "2026-11-04T18:46:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDc1NDEyMw==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDc1NDEyMw%3D%3D",
+        "label": "Riverton vs. Riverton High School",
+        "title": "Riverton High School vs Riverton High School Womens Other Basketball",
+        "start": "2026-11-04T18:47:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDc1NDEyOQ==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDc1NDEyOQ%3D%3D",
+        "label": "Riverton vs. Riverton High School",
+        "title": "Riverton High School vs Riverton High School Womens Other Basketball",
+        "start": "2026-11-04T18:50:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDc4OTAwNA==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDc4OTAwNA%3D%3D",
+        "label": "Riverton vs. Pleasant Plains 7th grade",
+        "title": "Riverton vs Pleasant Plains 7th grade girls Basketball",
+        "start": "2026-11-10T00:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDc4OTAwNw==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDc4OTAwNw%3D%3D",
+        "label": "Riverton vs. Pleasant Plains 8th grade",
+        "title": "Riverton vs Pleasant Plains 8th grade Girls' Basketball",
+        "start": "2026-11-10T01:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDgyNTMyOA==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDgyNTMyOA%3D%3D",
+        "label": "Riverton vs. Springfield Calvary",
+        "title": "Riverton vs Springfield Calvary  Girls' Varsity Basketball",
+        "start": "2026-11-14T15:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDgyNTMyNQ==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDgyNTMyNQ%3D%3D",
+        "label": "Riverton vs. Warrensburg-Latham High School Girls' High School",
+        "title": "Riverton vs Warrensburg-Latham High School Girls' High School Basketball",
+        "start": "2026-11-14T16:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDgyNTMyOQ==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDgyNTMyOQ%3D%3D",
+        "label": "Riverton vs. Warrensburg-Latham High School",
+        "title": "Riverton vs Warrensburg-Latham High School Girls' Varsity Basketball",
+        "start": "2026-11-14T17:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDgyNTMzMg==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDgyNTMzMg%3D%3D",
+        "label": "Riverton vs. Warrensburg-Latham High School Girls' High School",
+        "title": "Springfield Calvary vs Warrensburg-Latham High School Girls' High School Basketball",
+        "start": "2026-11-14T18:00:00Z"
       }
     ]
   }
