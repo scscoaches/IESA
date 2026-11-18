@@ -2,7 +2,8 @@
     "use strict";
 
     var key = "iesa-2026-theme";
-    var dark = localStorage.getItem(key) === "dark";
+    // Dark unless the visitor has chosen light with the toggle.
+    var dark = localStorage.getItem(key) !== "light";
     var iconBase = document.currentScript.src;
 
     function applyTheme() {
