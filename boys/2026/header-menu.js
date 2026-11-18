@@ -184,7 +184,7 @@
             if (window.iesaAllTime) { window.iesaAllTime.open(); return; }
             if (loaded) { return; }
             loaded = document.createElement("script");
-            loaded.src = new URL("all-time.js", script.src).href + "?v=1";
+            loaded.src = new URL("all-time.js", script.src).href + "?v=2";
             loaded.onload = function () { if (window.iesaAllTime) { window.iesaAllTime.open(); } };
             loaded.onerror = function () { loaded.remove(); loaded = null; };
             document.body.appendChild(loaded);

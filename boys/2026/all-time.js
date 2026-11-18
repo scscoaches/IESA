@@ -61,11 +61,8 @@
     function mine(name) { return !!(team && team.matches(name)); }
 
     function renderPicker() {
-        var seen = {};
-        data.schools.forEach(function (school) { Object.keys(school.g).forEach(function (g) { seen[g] = true; }); });
+        // Ungraded results (girls' combined 1979-1985, boys' weight divisions) count under All.
         var options = [["all", "All"], ["7th", "7th"], ["8th", "8th"]];
-        // Girls' 1979-1985 tournaments were one for both grades.
-        if (seen.combined) { options.push(["combined", "1979\u201385", "1979-1985: one tournament for 7th and 8th graders"]); }
         picker.replaceChildren();
         options.forEach(function (option) {
             var button = element("button", option[0] === state.grade ? "active" : "", option[1]);
