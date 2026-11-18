@@ -121,6 +121,50 @@
 
     var timer = 0;
     var fitting = false;
+
+    // Switch to the other sport's bracket for the same season: girls play in the
+    // fall of a season whose boys' tournament is the next year (girls 2026 = boys
+    // 2027). Same grade and class where that season has them; otherwise the other
+    // sport's first class, or its home page when it has no such season.
+    var team = window.iesaMyTeam;
+    var data = window.tournamentData || window.earlyTournamentData;
+    function addSportSwitch() {
+        if (!team || !team.sport || !data || !data.grade) { return; }
+        var boys = team.sport.sport === "boys";
+        var other = boys ? "girls" : "boys";
+        var otherName = boys ? "Girls" : "Boys";
+        var sportRoot = new URL("../", document.querySelector('script[src*="header-menu.js"]').src);
+        var otherRoot = new URL("../" + other + "/", sportRoot);
+        var year = data.year || 2026;
+        var targetYear = boys ? year - 1 : year + 1;
+        var button = document.createElement("button");
+        button.type = "button";
+        button.id = "sport-button";
+        button.title = "Switch to the " + otherName.toLowerCase() + "' " + targetYear + " brackets";
+        button.setAttribute("aria-label", button.title);
+        button.setAttribute("data-menu-label", otherName + "' basketball");
+        button.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M7 7h12l-3-3M17 17H5l3 3" ' +
+            'stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>' +
+            '<span class="sport-switch-text">' + otherName + "</span>";
+        button.addEventListener("click", function () {
+            Promise.all([team.load("seasons.json"),
+                fetch(new URL("seasons.json", otherRoot).href, { cache: "no-store" }).then(function (response) {
+                    if (!response.ok) { throw new Error("seasons.json returned HTTP " + response.status); }
+                    return response.json();
+                })]).then(function (loaded) {
+                var own = loaded[0].filter(function (entry) { return entry.year === year; })[0];
+                var target = loaded[1].filter(function (entry) { return entry.year === targetYear; })[0];
+                if (!target) { window.location.assign(new URL("index.html", otherRoot).href); return; }
+                var pageClass = data.className || (/Class (A{1,2})$/.exec(data.label || "") || [])[1] || (own && own.className);
+                var classes = target.classes || (target.className ? [target.className] : []);
+                var className = classes.indexOf(pageClass) >= 0 ? pageClass : target.className;
+                var grade = target.gradeMode === "combined" ? "combined" : data.grade === "combined" ? "7th" : data.grade;
+                var folder = !className || className === target.className ? String(target.year) : target.year + "/" + className;
+                window.location.assign(new URL(folder + "/" + grade + "/index.html", otherRoot).href);
+            }).catch(function () { window.location.assign(new URL("index.html", otherRoot).href); });
+        });
+        tools.insertBefore(button, more);
+    }
     function refit() {
         fitting = true;
         fit();
@@ -141,6 +185,7 @@
     function start() {
         tools.appendChild(more);
         document.body.appendChild(menu);
+        addSportSwitch();
         refit();
         observer.observe(topbar, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ["style", "hidden", "class"] });
         observer.observe(menu, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ["style", "hidden", "class"] });
