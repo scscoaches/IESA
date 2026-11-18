@@ -85,9 +85,9 @@
     function render() {
         var query = search.value.trim().toLowerCase();
         var column = COLUMNS[state.sort];
-        // Only schools that reached state, even when searching or for the saved team.
+        // Only schools that reached state; the saved team still gets its (unranked) row.
         var rows = data.schools.map(function (school) { return { name: school.name, s: totals(school) }; })
-            .filter(function (row) { return row.s[TRIPS] > 0; });
+            .filter(function (row) { return row.s[TRIPS] > 0 || (mine(row.name) && row.s.some(function (v, i) { return i <= PL && v; })); });
         rows.sort(function (a, b) {
             var order = column.text ? a.name.localeCompare(b.name) : column.value(a.s) - column.value(b.s);
             if (!state.ascending) { order = -order; }
@@ -99,13 +99,15 @@
             else { th.removeAttribute("aria-sort"); }
         });
         body.replaceChildren();
-        var myRow = null;
-        rows.forEach(function (row, rank) {
+        var myRow = null, ranked = 0;
+        rows.forEach(function (row) {
+            // Schools without a state trip (only ever the saved team) get no rank.
+            var rank = row.s[TRIPS] > 0 ? String(++ranked) : "\u2014";
             if (query && row.name.toLowerCase().indexOf(query) < 0) { return; }
             var tr = element("tr");
             if (mine(row.name)) { tr.className = "my-team-row"; myRow = myRow || tr; }
             COLUMNS.forEach(function (c, index) {
-                var text = index === 0 ? String(rank + 1) : c.text ? row.name : c.show ? String(c.show(row.s)) : String(c.value(row.s));
+                var text = index === 0 ? rank : c.text ? row.name : c.show ? String(c.show(row.s)) : String(c.value(row.s));
                 tr.appendChild(element("td", text === "0" || text === "0-0" ? "zero" : "", text));
             });
             body.appendChild(tr);
