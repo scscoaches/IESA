@@ -50,6 +50,11 @@
     margin: 0;
 }
 
+/* Class on the left, grade (7th / 8th) on the right. */
+.rankings-controls .updates-window:last-child {
+    margin-left: auto;
+}
+
 #rankings-table {
     width: 100%;
     border-collapse: separate;
