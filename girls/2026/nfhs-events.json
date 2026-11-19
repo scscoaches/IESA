@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 20:11",
+  "updatedAt": "2026-11-19 04:12",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -169,12 +169,6 @@
         "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gam5ebd83c171",
         "label": "Hamilton vs. Camp Point",
         "start": "2026-11-17T00:00:00.000Z"
-      },
-      {
-        "key": "gamb905afc70c",
-        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gamb905afc70c",
-        "label": "Macomb vs. Camp Point",
-        "start": "2026-11-19T00:00:00.000Z"
       }
     ],
     "cerro-gordo-high-school-cerro-gordo-il": [
@@ -562,6 +556,12 @@
         "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam24f16c0144",
         "label": "2026 IHSA Girls Basketball Postseason Tournament",
         "start": "2026-12-02T23:55:00.000Z"
+      },
+      {
+        "key": "gam7625d5385c",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam7625d5385c",
+        "label": "2026 IHSA Girls Basketball Postseason Tournament",
+        "start": "2026-12-09T23:55:00.000Z"
       }
     ],
     "international-prep-academy-champaign-il": [
@@ -1083,6 +1083,12 @@
         "url": "https://www.nfhsnetwork.com/events/vit-high-school-astoriatable-grove-coop-table-grove-il/gam1b2f60c1e9",
         "label": "Macomb vs. VIT",
         "start": "2026-11-12T23:30:00.000Z"
+      },
+      {
+        "key": "gam32009ce900",
+        "url": "https://www.nfhsnetwork.com/events/vit-high-school-astoriatable-grove-coop-table-grove-il/gam32009ce900",
+        "label": "Illini Central vs. VIT",
+        "start": "2026-11-18T23:30:00.000Z"
       }
     ],
     "warrensburglatham-high-school-warrensburg-il": [
