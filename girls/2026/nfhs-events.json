@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 04:12",
+  "updatedAt": "2026-11-19 20:17",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -99,12 +99,6 @@
         "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gama38786baee",
         "label": "Lewistown vs. Brimfield",
         "start": "2026-11-16T23:00:00.000Z"
-      },
-      {
-        "key": "gamadc2e8e348",
-        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gamadc2e8e348",
-        "label": "Brimfield",
-        "start": "2026-11-19T23:00:00.000Z"
       }
     ],
     "brown-county-high-school-mt-sterling-il": [
