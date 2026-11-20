@@ -42,14 +42,14 @@ calendar lists as "2026-2027" (`yearOffset` 1 in `sport.json`).
 ## Score refreshes are switched off
 
 `live-season.json` has `"refreshEnabled": false`: the boys' season is fully set
-up, but `2026\Update-IesaScores.ps1` and the *Update IESA boys scores* workflow
+up, but `2026\Update-IesaScores.ps1` and the *Boys: Update scores* workflow
 (`..\.github\workflows\update-scores-boys.yml`) make no request to IESA, NFHS or
 Hudl, even when started by hand. To start tracking scores, set it to `true` (or
 remove it) and push; the workflow then runs on the same schedule as the girls'
 one, from `gamesFrom` to `endDate`. The setting carries over when the next
 season is created.
 
-*Set up IESA boys season* (`..\.github\workflows\season-setup-boys.yml`) runs
+*Boys: Set up season* (`..\.github\workflows\season-setup-boys.yml`) runs
 each morning September–December, makes no request while 2027 is current, and
 creates the 2028 season once IESA publishes it.
 

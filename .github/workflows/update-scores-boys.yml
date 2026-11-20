@@ -1,4 +1,4 @@
-name: Update IESA boys scores
+name: "Boys: Update scores"
 
 on:
   schedule:

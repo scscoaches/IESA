@@ -275,11 +275,11 @@ season). No prompts or hand edits are needed:
 
 | Calendar date (2027 example) | What happens |
 |---|---|
-| Final Entry Deadline (Aug 1) | From this day `.github\workflows\season-setup.yml` (7 AM Central daily, August–October) runs `Sync-IesaSeason.ps1`. It checks whether IESA has published the followed class's regional assignments (both grades) and state scoreboard; until then it waits and checks again the next day (4 requests). Once published it runs `Start-IesaSeason.ps1 -Year 2027`: the finished season is archived from IESA's final results, every class of the new season is built with its regionals, sectionals and state pairings, `live-season.json` gets the calendar's dates, every page is re-rendered and `teams.json` rebuilt. The workflow commits, pushes and re-enables *Update IESA scores*. |
+| Final Entry Deadline (Aug 1) | From this day `.github\workflows\season-setup.yml` (7 AM Central daily, August–October) runs `Sync-IesaSeason.ps1`. It checks whether IESA has published the followed class's regional assignments (both grades) and state scoreboard; until then it waits and checks again the next day (4 requests). Once published it runs `Start-IesaSeason.ps1 -Year 2027`: the finished season is archived from IESA's final results, every class of the new season is built with its regionals, sectionals and state pairings, `live-season.json` gets the calendar's dates, every page is re-rendered and `teams.json` rebuilt. The workflow commits, pushes and re-enables *Girls: Update scores*. |
 | Games may begin (Sept 25) | `gamesFrom`: scheduled score refreshes start; before it they request nothing. |
 | Online Ranking (Thu; 7th Nov 11, 8th Nov 18) | `grades.<grade>.seedsFrom`: that grade's official seeds are checked. |
 | First regional date (7th Nov 20, 8th Nov 29) | `grades.<grade>.bracketFrom`: that grade's postseason results are checked; the earliest (`bracketFrom`) starts the 9 PM weekday runs and stops the roster check and strength of schedule. |
-| Every state final decided | The refresh makes no further request and *Update IESA scores* disables its own schedule. |
+| Every state final decided | The refresh makes no further request and *Girls: Update scores* disables its own schedule. |
 | Season must end (Dec 20) | `seasonMustEnd`; refreshes stop on this date at the latest (`endDate` is the day before) and the schedule is disabled. |
 
 Once a season exists, the setup workflow's daily runs make no IESA request.
@@ -335,7 +335,7 @@ brackets, with no strength of schedule, watch links or roster check
 (`Update-IesaScores.ps1 -Evening`). GitHub can start scheduled runs hours late.
 
 **Official brackets only.** When IESA releases seeds or brackets and the school
-scores are not needed, start *Update IESA scores* by hand with *Only the
+scores are not needed, start *Girls: Update scores* by hand with *Only the
 official seeds and bracket results* ticked (`gh workflow run update-scores.yml
 -f brackets_only=true`), or run `.\2026\Update-IesaScores.ps1 -BracketsOnly`
 locally. It reads only the seed pages (even before a grade's `seedsFrom`) and,
@@ -354,7 +354,7 @@ Cron has no end date, so scheduled runs after the `endDate` in
 end" date of December 21, Central) are skipped and also
 disable the schedule; `2026\Update-IesaScores.ps1` itself refuses to fetch after
 that date. Re-enable the workflow for the next season in the repository's
-Actions tab (*Update IESA scores* → *Enable workflow*) or with
+Actions tab (*Girls: Update scores* → *Enable workflow*) or with
 `gh workflow enable update-scores.yml`. IESA's state-winners history (the year
 menu's trophies) is read at most once a day, and only after a state final has
 been played; if IESA posts the 2026 winners after the schedule has stopped, run

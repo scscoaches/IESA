@@ -1,4 +1,4 @@
-name: Tests
+name: "Both: Tests"
 
 # Score-refresh commits are pushed with GITHUB_TOKEN, which never triggers
 # workflows, so this runs only for your own pushes and pull requests.

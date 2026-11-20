@@ -1,4 +1,4 @@
-name: Update IESA scores
+name: "Girls: Update scores"
 
 on:
   schedule:
