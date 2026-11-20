@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 20:17",
+  "updatedAt": "2026-11-20 04:06",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -40,12 +40,6 @@
     ],
     "bluffs-junior-high-school-bluffs-il": [],
     "brimfield-high-school-brimfield-il": [
-      {
-        "key": "gam9881bbacb3",
-        "url": "https://www.nfhsnetwork.com/events/elmwood-high-school-elmwood-il/gam9881bbacb3",
-        "label": "Brimfield vs. Elmwood",
-        "start": "2026-10-05T22:37:00.000Z"
-      },
       {
         "key": "gam629f14bbb9",
         "url": "https://www.nfhsnetwork.com/events/rw-cougars-coop-williamsfield-il/gam629f14bbb9",
@@ -99,6 +93,12 @@
         "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gama38786baee",
         "label": "Lewistown vs. Brimfield",
         "start": "2026-11-16T23:00:00.000Z"
+      },
+      {
+        "key": "gamadc2e8e348",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gamadc2e8e348",
+        "label": "Brimfield",
+        "start": "2026-11-19T23:00:00.000Z"
       }
     ],
     "brown-county-high-school-mt-sterling-il": [
