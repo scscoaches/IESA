@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11 22:21",
+  "updatedAt": "2026-11-20 13:55",
   "teamList": [
     "Alton",
     "Arlington Heights South",
@@ -1376,8 +1376,8 @@
       "regional": 9,
       "rank": 7,
       "of": 7,
-      "rating": 0.5721,
-      "opponentsWinPct": 0.482,
+      "rating": 0.5724,
+      "opponentsWinPct": 0.483,
       "ratedGames": 16,
       "classAverage": 3.11,
       "mix": {
@@ -1565,8 +1565,8 @@
       "regional": 11,
       "rank": 2,
       "of": 7,
-      "rating": 0.6933,
-      "opponentsWinPct": 0.545,
+      "rating": 0.6939,
+      "opponentsWinPct": 0.546,
       "ratedGames": 19,
       "classAverage": 3.78,
       "mix": {
@@ -1775,8 +1775,8 @@
       "regional": 12,
       "rank": 5,
       "of": 7,
-      "rating": 0.5983,
-      "opponentsWinPct": 0.536,
+      "rating": 0.5994,
+      "opponentsWinPct": 0.539,
       "ratedGames": 17,
       "classAverage": 3.11,
       "mix": {
@@ -1880,8 +1880,8 @@
       "regional": 13,
       "rank": 3,
       "of": 7,
-      "rating": 0.6261,
-      "opponentsWinPct": 0.541,
+      "rating": 0.6266,
+      "opponentsWinPct": 0.542,
       "ratedGames": 20,
       "classAverage": 3.29,
       "mix": {
@@ -1964,8 +1964,8 @@
       "regional": 13,
       "rank": 7,
       "of": 7,
-      "rating": 0.5481,
-      "opponentsWinPct": 0.445,
+      "rating": 0.5473,
+      "opponentsWinPct": 0.444,
       "ratedGames": 15,
       "classAverage": 3.06,
       "mix": {
@@ -1985,15 +1985,15 @@
       "regional": 14,
       "rank": 1,
       "of": 7,
-      "rating": 0.6159,
-      "opponentsWinPct": 0.428,
-      "ratedGames": 12,
-      "classAverage": 3.61,
+      "rating": 0.6088,
+      "opponentsWinPct": 0.408,
+      "ratedGames": 13,
+      "classAverage": 3.63,
       "mix": {
         "1A": 0,
         "2A": 2,
         "3A": 3,
-        "4A": 13,
+        "4A": 14,
         "other": 0
       },
       "vsBigger": {
@@ -2002,11 +2002,32 @@
       },
       "qualityWins": 1
     },
-    "Springfield Franklin": {
+    "Springfield Jefferson": {
       "regional": 14,
       "rank": 2,
       "of": 7,
-      "rating": 0.6083,
+      "rating": 0.6087,
+      "opponentsWinPct": 0.438,
+      "ratedGames": 8,
+      "classAverage": 3.5,
+      "mix": {
+        "1A": 0,
+        "2A": 2,
+        "3A": 1,
+        "4A": 7,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "Springfield Franklin": {
+      "regional": 14,
+      "rank": 3,
+      "of": 7,
+      "rating": 0.6085,
       "opponentsWinPct": 0.5,
       "ratedGames": 14,
       "classAverage": 3.31,
@@ -2025,7 +2046,7 @@
     },
     "Quincy": {
       "regional": 14,
-      "rank": 3,
+      "rank": 4,
       "of": 7,
       "rating": 0.6065,
       "opponentsWinPct": 0.627,
@@ -2044,33 +2065,12 @@
       },
       "qualityWins": 5
     },
-    "Springfield Jefferson": {
-      "regional": 14,
-      "rank": 4,
-      "of": 7,
-      "rating": 0.5916,
-      "opponentsWinPct": 0.41,
-      "ratedGames": 7,
-      "classAverage": 3.44,
-      "mix": {
-        "1A": 0,
-        "2A": 2,
-        "3A": 1,
-        "4A": 6,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
-        "losses": 0
-      },
-      "qualityWins": 0
-    },
     "Springfield Lincoln (Co-op)": {
       "regional": 14,
       "rank": 5,
       "of": 7,
-      "rating": 0.5879,
-      "opponentsWinPct": 0.529,
+      "rating": 0.5886,
+      "opponentsWinPct": 0.531,
       "ratedGames": 15,
       "classAverage": 3.06,
       "mix": {
@@ -2090,8 +2090,8 @@
       "regional": 14,
       "rank": 6,
       "of": 7,
-      "rating": 0.5667,
-      "opponentsWinPct": 0.5,
+      "rating": 0.5676,
+      "opponentsWinPct": 0.502,
       "ratedGames": 16,
       "classAverage": 3.0,
       "mix": {
@@ -2111,8 +2111,8 @@
       "regional": 14,
       "rank": 7,
       "of": 7,
-      "rating": 0.5602,
-      "opponentsWinPct": 0.359,
+      "rating": 0.5622,
+      "opponentsWinPct": 0.364,
       "ratedGames": 11,
       "classAverage": 3.42,
       "mix": {
@@ -2359,9 +2359,30 @@
       },
       "qualityWins": 4
     },
-    "East St. Louis Clark (Co-op)": {
+    "Cahokia Wirth": {
       "regional": 16,
       "rank": 5,
+      "of": 6,
+      "rating": 0.6735,
+      "opponentsWinPct": 0.664,
+      "ratedGames": 8,
+      "classAverage": 3.31,
+      "mix": {
+        "1A": 2,
+        "2A": 0,
+        "3A": 3,
+        "4A": 8,
+        "other": 0
+      },
+      "vsBigger": {
+        "wins": 0,
+        "losses": 0
+      },
+      "qualityWins": 0
+    },
+    "East St. Louis Clark (Co-op)": {
+      "regional": 16,
+      "rank": 6,
       "of": 6,
       "rating": 0.6721,
       "opponentsWinPct": 0.578,
@@ -2379,27 +2400,6 @@
         "losses": 0
       },
       "qualityWins": 1
-    },
-    "Cahokia Wirth": {
-      "regional": 16,
-      "rank": 6,
-      "of": 6,
-      "rating": 0.672,
-      "opponentsWinPct": 0.661,
-      "ratedGames": 8,
-      "classAverage": 3.31,
-      "mix": {
-        "1A": 2,
-        "2A": 0,
-        "3A": 3,
-        "4A": 8,
-        "other": 0
-      },
-      "vsBigger": {
-        "wins": 0,
-        "losses": 0
-      },
-      "qualityWins": 0
     }
   },
   "opponents": {
@@ -5042,7 +5042,7 @@
     },
     "gardner": {
       "class": "1A",
-      "wins": 12,
+      "wins": 13,
       "losses": 3,
       "results": [
         {
@@ -6268,7 +6268,7 @@
     "london mills valley": {
       "class": "2A",
       "wins": 6,
-      "losses": 8,
+      "losses": 7,
       "results": [
         {
           "o": "canton ingersoll",
@@ -8897,7 +8897,7 @@
     },
     "springfield grant": {
       "class": "4A",
-      "wins": 8,
+      "wins": 9,
       "losses": 4,
       "results": [
         {
@@ -8935,13 +8935,17 @@
         {
           "o": "jacksonville ms",
           "w": 1
+        },
+        {
+          "o": "springfield jefferson",
+          "w": 1
         }
       ]
     },
     "springfield jefferson": {
       "class": "4A",
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "results": [
         {
           "o": "decatur stephen decatur",
@@ -8961,6 +8965,10 @@
         },
         {
           "o": "springfield washington",
+          "w": 0
+        },
+        {
+          "o": "springfield grant",
           "w": 0
         }
       ]

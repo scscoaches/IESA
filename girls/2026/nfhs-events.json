@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20 04:06",
+  "updatedAt": "2026-11-20 19:53",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -183,6 +183,18 @@
         "url": "https://www.nfhsnetwork.com/events/cerro-gordo-high-school-cerro-gordo-il/gam9205ecc1ab",
         "label": "Cerro Gordo",
         "start": "2026-10-20T22:30:00.000Z"
+      },
+      {
+        "key": "game541ba177e",
+        "url": "https://www.nfhsnetwork.com/events/cerro-gordo-high-school-cerro-gordo-il/game541ba177e",
+        "label": "2026 IHSA Girls Basketball Regional — Cerro Gordo",
+        "start": "2026-11-21T15:00:00.000Z"
+      },
+      {
+        "key": "gam4b5c765908",
+        "url": "https://www.nfhsnetwork.com/events/cerro-gordo-high-school-cerro-gordo-il/gam4b5c765908",
+        "label": "2026 IHSA Girls Basketball Regional — Cerro Gordo",
+        "start": "2026-11-21T18:00:00.000Z"
       }
     ],
     "chestereast-lincoln-lincoln-il": [

@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-20 14:33",
+  "updatedAt": "2026-11-20 19:57",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -318,11 +318,12 @@ window.iesaRegionalSeedCache = {
               "Elwood GS"
             ],
             "scores": [
-              null,
-              null
+              2,
+              0
             ],
-            "winner": null,
-            "bye": false
+            "winner": "Gardner (Co-op)",
+            "bye": false,
+            "annotation": "FORFEIT"
           },
           {
             "teams": [
@@ -340,7 +341,7 @@ window.iesaRegionalSeedCache = {
         [
           {
             "teams": [
-              null,
+              "Gardner (Co-op)",
               null
             ],
             "scores": [

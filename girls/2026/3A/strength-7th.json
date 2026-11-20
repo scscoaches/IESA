@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11 22:20",
+  "updatedAt": "2026-11-20 13:53",
   "teamList": [
     "Aledo Mercer County",
     "Arthur (Co-op)",
@@ -554,8 +554,8 @@
       "regional": 4,
       "rank": 5,
       "of": 8,
-      "rating": 0.5351,
-      "opponentsWinPct": 0.56,
+      "rating": 0.5358,
+      "opponentsWinPct": 0.562,
       "ratedGames": 8,
       "classAverage": 2.58,
       "mix": {
@@ -575,8 +575,8 @@
       "regional": 4,
       "rank": 6,
       "of": 8,
-      "rating": 0.5216,
-      "opponentsWinPct": 0.474,
+      "rating": 0.5221,
+      "opponentsWinPct": 0.476,
       "ratedGames": 13,
       "classAverage": 2.75,
       "mix": {
@@ -806,8 +806,8 @@
       "regional": 6,
       "rank": 2,
       "of": 6,
-      "rating": 0.548,
-      "opponentsWinPct": 0.571,
+      "rating": 0.5505,
+      "opponentsWinPct": 0.576,
       "ratedGames": 18,
       "classAverage": 2.6,
       "mix": {
@@ -821,7 +821,7 @@
         "wins": 4,
         "losses": 1
       },
-      "qualityWins": 6
+      "qualityWins": 8
     },
     "Aledo Mercer County": {
       "regional": 6,
@@ -884,7 +884,7 @@
         "wins": 1,
         "losses": 0
       },
-      "qualityWins": 6
+      "qualityWins": 5
     },
     "Monmouth United": {
       "regional": 6,
@@ -953,8 +953,8 @@
       "regional": 7,
       "rank": 3,
       "of": 7,
-      "rating": 0.5201,
-      "opponentsWinPct": 0.566,
+      "rating": 0.5207,
+      "opponentsWinPct": 0.568,
       "ratedGames": 10,
       "classAverage": 2.44,
       "mix": {
@@ -1037,7 +1037,7 @@
       "regional": 7,
       "rank": 7,
       "of": 7,
-      "rating": 0.4685,
+      "rating": 0.4688,
       "opponentsWinPct": 0.458,
       "ratedGames": 14,
       "classAverage": 2.41,
@@ -1583,8 +1583,8 @@
       "regional": 11,
       "rank": 5,
       "of": 7,
-      "rating": 0.4839,
-      "opponentsWinPct": 0.483,
+      "rating": 0.4849,
+      "opponentsWinPct": 0.485,
       "ratedGames": 14,
       "classAverage": 2.44,
       "mix": {
@@ -4542,7 +4542,7 @@
     "elwood gs": {
       "class": "1A",
       "wins": 0,
-      "losses": 9,
+      "losses": 10,
       "results": [
         {
           "o": "crest hill richland",
@@ -4852,7 +4852,7 @@
     },
     "gardner": {
       "class": "1A",
-      "wins": 12,
+      "wins": 13,
       "losses": 3,
       "results": [
         {
@@ -5964,7 +5964,7 @@
     },
     "la harpe": {
       "class": "1A",
-      "wins": 7,
+      "wins": 6,
       "losses": 7,
       "results": [
         {
@@ -6381,7 +6381,7 @@
     "london mills valley": {
       "class": "2A",
       "wins": 6,
-      "losses": 8,
+      "losses": 7,
       "results": [
         {
           "o": "avon abingdon avon",
@@ -9777,7 +9777,7 @@
     },
     "springfield grant": {
       "class": "4A",
-      "wins": 8,
+      "wins": 9,
       "losses": 4,
       "results": [
         {
@@ -9793,7 +9793,7 @@
     "springfield jefferson": {
       "class": "4A",
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "results": [
         {
           "o": "rochester",
