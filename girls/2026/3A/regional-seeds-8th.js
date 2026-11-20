@@ -1,103 +1,2027 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-20 04:06",
+  "updatedAt": "2026-11-20 14:34",
   "year": 2026,
   "grade": "8th",
   "regionalBrackets": {
     "1": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Country Club Hills Southwood"
+        },
+        {
+          "seed": 2,
+          "team": "Calumet Park Calumet"
+        },
+        {
+          "seed": 3,
+          "team": "Calumet City Schrum"
+        },
+        {
+          "seed": 4,
+          "team": "Robbins Kellar"
+        },
+        {
+          "seed": 5,
+          "team": "Dolton Roosevelt"
+        },
+        {
+          "seed": 6,
+          "team": "Calumet City Wentworth"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Country Club Hills Southwood",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Country Club Hills Southwood",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Robbins Kellar",
+              "Dolton Roosevelt"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Calumet Park Calumet",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Calumet Park Calumet",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Calumet City Schrum",
+              "Calumet City Wentworth"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Country Club Hills Southwood",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Calumet Park Calumet",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=1",
-      "host": "Calumet Park Calumet"
+      "host": "Calumet Park Calumet",
+      "missingSeed": null
     },
     "2": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Beecher"
+        },
+        {
+          "seed": 2,
+          "team": "Lansing Heritage"
+        },
+        {
+          "seed": 3,
+          "team": "Peotone"
+        },
+        {
+          "seed": 4,
+          "team": "Manteno"
+        },
+        {
+          "seed": 5,
+          "team": "South Holland McKinley"
+        },
+        {
+          "seed": 6,
+          "team": "Glenwood Brookwood"
+        },
+        {
+          "seed": 7,
+          "team": "Bradley Central"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Beecher",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Beecher",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Manteno",
+              "South Holland McKinley"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Lansing Heritage",
+              "Bradley Central"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Peotone",
+              "Glenwood Brookwood"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Beecher",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=2",
-      "host": "Beecher"
+      "host": "Beecher",
+      "missingSeed": null
     },
     "3": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Crestwood Hale"
+        },
+        {
+          "seed": 2,
+          "team": "Summit Heritage"
+        },
+        {
+          "seed": 3,
+          "team": "Burr Ridge Gower"
+        },
+        {
+          "seed": 4,
+          "team": "Blue Island Veterans Memorial"
+        },
+        {
+          "seed": 5,
+          "team": "Chicago Horizon Southwest"
+        },
+        {
+          "seed": 6,
+          "team": "Dixmoor Rosa Parks"
+        },
+        {
+          "seed": 7,
+          "team": "Downers Grove Lakeview"
+        },
+        {
+          "seed": 8,
+          "team": "Blue Island Kerr"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Crestwood Hale",
+              "Blue Island Kerr"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Blue Island Veterans Memorial",
+              "Chicago Horizon Southwest"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Summit Heritage",
+              "Downers Grove Lakeview"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Burr Ridge Gower",
+              "Dixmoor Rosa Parks"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=3",
-      "host": "Chicago Horizon Southwest"
+      "host": "Chicago Horizon Southwest",
+      "missingSeed": null
     },
     "4": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Channahon"
+        },
+        {
+          "seed": 2,
+          "team": "Crest Hill Richland"
+        },
+        {
+          "seed": 3,
+          "team": "Sandwich"
+        },
+        {
+          "seed": 4,
+          "team": "Lisle"
+        },
+        {
+          "seed": 5,
+          "team": "Rockford Kennedy"
+        },
+        {
+          "seed": 6,
+          "team": "Rockford Marshall"
+        },
+        {
+          "seed": 7,
+          "team": "Morris Saratoga"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Channahon",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Channahon",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Lisle",
+              "Rockford Kennedy"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Crest Hill Richland",
+              "Morris Saratoga"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Sandwich",
+              "Rockford Marshall"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Channahon",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=4",
-      "host": "Channahon"
+      "host": "Channahon",
+      "missingSeed": null
     },
     "5": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Princeton Logan"
+        },
+        {
+          "seed": 2,
+          "team": "Taylor Ridge Rockridge"
+        },
+        {
+          "seed": 3,
+          "team": "Peru Parkside"
+        },
+        {
+          "seed": 4,
+          "team": "Sherrard JHS"
+        },
+        {
+          "seed": 5,
+          "team": "Orion"
+        },
+        {
+          "seed": 6,
+          "team": "Mendota Northbrook"
+        },
+        {
+          "seed": 7,
+          "team": "Kewanee Central"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Princeton Logan",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Princeton Logan",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Sherrard JHS",
+              "Orion"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Taylor Ridge Rockridge",
+              "Kewanee Central"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Peru Parkside",
+              "Mendota Northbrook"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Princeton Logan",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=5",
-      "host": "Sherrard JHS"
+      "host": "Sherrard JHS",
+      "missingSeed": null
     },
     "6": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Avon Abingdon Avon"
+        },
+        {
+          "seed": 2,
+          "team": "Farmington Central"
+        },
+        {
+          "seed": 3,
+          "team": "Aledo Mercer County"
+        },
+        {
+          "seed": 4,
+          "team": "Monmouth United"
+        },
+        {
+          "seed": 5,
+          "team": "Monmouth-Roseville JHS"
+        },
+        {
+          "seed": 6,
+          "team": "Chillicothe (Co-op)"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Avon Abingdon Avon",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Avon Abingdon Avon",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Monmouth United",
+              "Monmouth-Roseville JHS"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Farmington Central",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Farmington Central",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Aledo Mercer County",
+              "Chillicothe (Co-op)"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Avon Abingdon Avon",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Farmington Central",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=6",
-      "host": "Avon Abingdon Avon"
+      "host": "Avon Abingdon Avon",
+      "missingSeed": null
     },
     "7": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "El Paso-Gridley"
+        },
+        {
+          "seed": 2,
+          "team": "Forrest Prairie Central"
+        },
+        {
+          "seed": 3,
+          "team": "Clifton Nash"
+        },
+        {
+          "seed": 4,
+          "team": "Pontiac JHS"
+        },
+        {
+          "seed": 5,
+          "team": "Herscher Limestone"
+        },
+        {
+          "seed": 6,
+          "team": "Braidwood Reed-Custer"
+        },
+        {
+          "seed": 7,
+          "team": "Wilmington"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "El Paso-Gridley",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "El Paso-Gridley",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Pontiac JHS",
+              "Herscher Limestone"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Forrest Prairie Central",
+              "Wilmington"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Clifton Nash",
+              "Braidwood Reed-Custer"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "El Paso-Gridley",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=7",
-      "host": "Pontiac JHS"
+      "host": "Pontiac JHS",
+      "missingSeed": null
     },
     "8": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Metamora GS (Co-op)"
+        },
+        {
+          "seed": 2,
+          "team": "Washington MS"
+        },
+        {
+          "seed": 3,
+          "team": "Germantown Hills"
+        },
+        {
+          "seed": 4,
+          "team": "Eureka"
+        },
+        {
+          "seed": 5,
+          "team": "Pekin Edison"
+        },
+        {
+          "seed": 6,
+          "team": "Mackinaw Dee-Mack"
+        },
+        {
+          "seed": 7,
+          "team": "Tremont"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Metamora GS (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Metamora GS (Co-op)",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Eureka",
+              "Pekin Edison"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Washington MS",
+              "Tremont"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Germantown Hills",
+              "Mackinaw Dee-Mack"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Metamora GS (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=8",
-      "host": "Eureka"
+      "host": "Eureka",
+      "missingSeed": null
     },
     "9": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "St. Joseph"
+        },
+        {
+          "seed": 2,
+          "team": "Tolono Unity"
+        },
+        {
+          "seed": 3,
+          "team": "Paxton-Buckley-Loda"
+        },
+        {
+          "seed": 4,
+          "team": "Westville JHS"
+        },
+        {
+          "seed": 5,
+          "team": "Watseka JHS"
+        },
+        {
+          "seed": 6,
+          "team": "Onarga Iroquois West"
+        },
+        {
+          "seed": 7,
+          "team": "Hoopeston Area"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "St. Joseph",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "St. Joseph",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Westville JHS",
+              "Watseka JHS"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Tolono Unity",
+              "Hoopeston Area"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Paxton-Buckley-Loda",
+              "Onarga Iroquois West"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "St. Joseph",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=9",
-      "host": "St. Joseph"
+      "host": "St. Joseph",
+      "missingSeed": null
     },
     "10": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Downs Tri-Valley"
+        },
+        {
+          "seed": 2,
+          "team": "Maroa-Forsyth"
+        },
+        {
+          "seed": 3,
+          "team": "Monticello"
+        },
+        {
+          "seed": 4,
+          "team": "Stanford Olympia"
+        },
+        {
+          "seed": 5,
+          "team": "Heyworth"
+        },
+        {
+          "seed": 6,
+          "team": "Clinton"
+        },
+        {
+          "seed": 7,
+          "team": "Decatur Johns Hill"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Downs Tri-Valley",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Downs Tri-Valley",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Stanford Olympia",
+              "Heyworth"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Maroa-Forsyth",
+              "Decatur Johns Hill"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Monticello",
+              "Clinton"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Downs Tri-Valley",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=10",
-      "host": "Heyworth"
+      "host": "Heyworth",
+      "missingSeed": null
     },
     "11": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Williamsville"
+        },
+        {
+          "seed": 2,
+          "team": "Illiopolis Sangamon Valley (Co-op)"
+        },
+        {
+          "seed": 3,
+          "team": "Riverton"
+        },
+        {
+          "seed": 4,
+          "team": "Rochester"
+        },
+        {
+          "seed": 5,
+          "team": "Springfield Calvary (Co-op)"
+        },
+        {
+          "seed": 6,
+          "team": "Mason City Illini Central (Co-op)"
+        },
+        {
+          "seed": 7,
+          "team": "Lincoln JHS"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Williamsville",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Williamsville",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Rochester",
+              "Springfield Calvary (Co-op)"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Illiopolis Sangamon Valley (Co-op)",
+              "Lincoln JHS"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Riverton",
+              "Mason City Illini Central (Co-op)"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Williamsville",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=11",
-      "host": "Williamsville"
+      "host": "Williamsville",
+      "missingSeed": null
     },
     "12": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Virginia (Co-op)"
+        },
+        {
+          "seed": 2,
+          "team": "Pleasant Plains"
+        },
+        {
+          "seed": 3,
+          "team": "Pittsfield Pikeland (Co-op)"
+        },
+        {
+          "seed": 4,
+          "team": "Quincy St. Peter (Co-op)"
+        },
+        {
+          "seed": 5,
+          "team": "New Berlin JHS (Co-op)"
+        },
+        {
+          "seed": 6,
+          "team": "Athens"
+        },
+        {
+          "seed": 7,
+          "team": "Beardstown MS"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Virginia (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Virginia (Co-op)",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Quincy St. Peter (Co-op)",
+              "New Berlin JHS (Co-op)"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Pleasant Plains",
+              "Beardstown MS"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Pittsfield Pikeland (Co-op)",
+              "Athens"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Virginia (Co-op)",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=12",
-      "host": "Virginia"
+      "host": "Virginia",
+      "missingSeed": null
     },
     "13": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Paris Mayo"
+        },
+        {
+          "seed": 2,
+          "team": "Sidell Salt Fork"
+        },
+        {
+          "seed": 3,
+          "team": "Sullivan"
+        },
+        {
+          "seed": 4,
+          "team": "Tuscola East Prairie"
+        },
+        {
+          "seed": 5,
+          "team": "Shelbyville Moulton"
+        },
+        {
+          "seed": 6,
+          "team": "Arthur (Co-op)"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Paris Mayo",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Paris Mayo",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Tuscola East Prairie",
+              "Shelbyville Moulton"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Sidell Salt Fork",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Sidell Salt Fork",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Sullivan",
+              "Arthur (Co-op)"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Paris Mayo",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Sidell Salt Fork",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=13",
-      "host": "Paris Mayo"
+      "host": "Paris Mayo",
+      "missingSeed": null
     },
     "14": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Robinson Nuttall"
+        },
+        {
+          "seed": 2,
+          "team": "Teutopolis"
+        },
+        {
+          "seed": 3,
+          "team": "Newton Jasper County (Co-op)"
+        },
+        {
+          "seed": 4,
+          "team": "Toledo Cumberland"
+        },
+        {
+          "seed": 5,
+          "team": "Bridgeport Red Hill"
+        },
+        {
+          "seed": 6,
+          "team": "Marshall JHS"
+        },
+        {
+          "seed": 7,
+          "team": "Lawrenceville Parkview"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Robinson Nuttall",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Robinson Nuttall",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Toledo Cumberland",
+              "Bridgeport Red Hill"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Teutopolis",
+              "Lawrenceville Parkview"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Newton Jasper County (Co-op)",
+              "Marshall JHS"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Robinson Nuttall",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=14",
-      "host": "Teutopolis"
+      "host": "Teutopolis",
+      "missingSeed": null
     },
     "15": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Hillsboro"
+        },
+        {
+          "seed": 2,
+          "team": "Carlinville"
+        },
+        {
+          "seed": 3,
+          "team": "Girard North Mac"
+        },
+        {
+          "seed": 4,
+          "team": "Pana JHS"
+        },
+        {
+          "seed": 5,
+          "team": "Litchfield"
+        },
+        {
+          "seed": 6,
+          "team": "Auburn JHS at Divernon"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Hillsboro",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Hillsboro",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Pana JHS",
+              "Litchfield"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Carlinville",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Carlinville",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Girard North Mac",
+              "Auburn JHS at Divernon"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Hillsboro",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Carlinville",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=15",
-      "host": "Carlinville"
+      "host": "Carlinville",
+      "missingSeed": null
     },
     "16": {
-      "seeds": [],
-      "rounds": [],
+      "seeds": [
+        {
+          "seed": 1,
+          "team": "Staunton"
+        },
+        {
+          "seed": 2,
+          "team": "Gillespie"
+        },
+        {
+          "seed": 3,
+          "team": "Greenville"
+        },
+        {
+          "seed": 4,
+          "team": "Roxana"
+        },
+        {
+          "seed": 5,
+          "team": "Vandalia"
+        },
+        {
+          "seed": 6,
+          "team": "East St. Louis Lincoln"
+        },
+        {
+          "seed": 7,
+          "team": "Piasa Southwestern"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "teams": [
+              "Staunton",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": "Staunton",
+            "bye": true
+          },
+          {
+            "teams": [
+              "Roxana",
+              "Vandalia"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Gillespie",
+              "Piasa Southwestern"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              "Greenville",
+              "East St. Louis Lincoln"
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Staunton",
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          },
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              null,
+              null
+            ],
+            "scores": [
+              null,
+              null
+            ],
+            "winner": null,
+            "bye": false
+          }
+        ]
+      ],
       "sourceUrl": "https://www.iesa.org/activities/gbk/brackets_Regional_8.asp?Year=2026&Class=8-3A&Regional=16",
-      "host": "Staunton"
+      "host": "Staunton",
+      "missingSeed": null
     }
   }
 };
