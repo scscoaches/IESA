@@ -12,7 +12,8 @@ $ErrorActionPreference = "Stop"
 $gender = $IesaSport.nfhsGender
 $bannerSport = (Get-Culture).TextInfo.ToTitleCase($gender) + ' Basketball'
 $outputPath = Join-Path $SitePath "nfhs-events.json"
-$links = Get-Content -Raw -LiteralPath (Join-Path $SitePath "team-links.js")
+# team-links.js is shared code beside this script; $SitePath is the season folder.
+$links = Get-Content -Raw -LiteralPath (Join-Path $PSScriptRoot "team-links.js")
 $slugs = @([regex]::Matches($links, 'nfhs:\s*"https://www\.nfhsnetwork\.com/schools/([^/"]+)') |
     ForEach-Object { $_.Groups[1].Value } | Sort-Object -Unique)
 

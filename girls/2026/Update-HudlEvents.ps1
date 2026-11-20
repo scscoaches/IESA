@@ -16,7 +16,8 @@ $hudlGender = $IesaSport.hudlGender
 $genderWords = if ($IesaIsGirls) { "Womens|Women's|Girls'?" } else { "Mens|Men's|Boys'?" }
 $endpoint = "https://www.hudl.com/api/public/graphql/query"
 $outputPath = Join-Path $SitePath "hudl-events.json"
-$links = Get-Content -Raw -LiteralPath (Join-Path $SitePath "team-links.js")
+# team-links.js is shared code beside this script; $SitePath is the season folder.
+$links = Get-Content -Raw -LiteralPath (Join-Path $PSScriptRoot "team-links.js")
 $teams = @([regex]::Matches($links, '"([^"]+)":\s*\{[^}]*hudl:\s*"https://fan\.hudl\.com/[^"]*/organization/(\d+)/') |
     ForEach-Object { [pscustomobject]@{ name = $_.Groups[1].Value; schoolId = $_.Groups[2].Value } })
 
