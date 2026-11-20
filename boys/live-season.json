@@ -1,7 +1,7 @@
 {
     "year":  2027,
     "followedClass":  "2A",
-    "refreshEnabled":  false,
+    "refreshEnabled":  true,
     "createFrom":  "2026-09-01",
     "gamesFrom":  "2026-10-31",
     "seedsFrom":  "2027-01-07",

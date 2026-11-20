@@ -39,15 +39,13 @@ calendar lists as "2026-2027" (`yearOffset` 1 in `sport.json`).
   in the same form, so these appear only as trophies (`placements.json`,
   `.\Build-IesaPlacements.ps1`) in the *My team* state-finish list.
 
-## Score refreshes are switched off
+## Score refreshes
 
-`live-season.json` has `"refreshEnabled": false`: the boys' season is fully set
-up, but `2026\Update-IesaScores.ps1` and the *Boys: Update scores* workflow
-(`..\.github\workflows\update-scores-boys.yml`) make no request to IESA, NFHS or
-Hudl, even when started by hand. To start tracking scores, set it to `true` (or
-remove it) and push; the workflow then runs on the same schedule as the girls'
-one, from `gamesFrom` to `endDate`. The setting carries over when the next
-season is created.
+`live-season.json` has `"refreshEnabled": true`, so the *Boys: Update scores*
+workflow (`..\.github\workflows\update-scores-boys.yml`) refreshes scores on the
+same schedule as the girls' one, from `gamesFrom` to `endDate`. Set it to
+`false` and push to stop all requests to IESA, NFHS and Hudl, even for runs
+started by hand. The setting carries over when the next season is created.
 
 *Boys: Set up season* (`..\.github\workflows\season-setup-boys.yml`) runs
 each morning September–December, makes no request while 2027 is current, and

@@ -55,7 +55,7 @@ root year folders.
 |---|---|---|
 | *Girls: Update scores* (`update-scores.yml`) | girls | Score, seed and bracket refreshes for the live season |
 | *Girls: Set up season* (`season-setup.yml`) | girls | Creates the next season (August–October) |
-| *Boys: Update scores* (`update-scores-boys.yml`) | boys | Same as the girls' refresh; **off** while `boys\live-season.json` has `"refreshEnabled": false` |
+| *Boys: Update scores* (`update-scores-boys.yml`) | boys | Same as the girls' refresh; set `"refreshEnabled": false` in `boys\live-season.json` to stop it |
 | *Boys: Set up season* (`season-setup-boys.yml`) | boys | Creates the next boys' season (September–December) |
 | *Both: Tests* (`tests.yml`) | both | `tests\Run-Tests.ps1` |
 

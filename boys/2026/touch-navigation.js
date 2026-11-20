@@ -55,6 +55,10 @@
     viewport.addEventListener("pointerdown", function (event) {
         if (event.pointerType !== "touch") { return; }
         if (event.target.closest("button, summary, a, input, select, textarea")) { return; }
+        // If the browser itself is zoomed in (iOS ignores user-scalable=no), leave the
+        // drag to the browser so it can pan or zoom back out; capturing it here leaves
+        // the zoomed page stuck on its left side.
+        if (window.visualViewport && window.visualViewport.scale > 1.01) { return; }
         pointers.set(event.pointerId, point(event));
         viewport.setPointerCapture(event.pointerId);
         startGesture();
@@ -98,5 +102,12 @@
 
     window.addEventListener("resize", function () {
         if (pointers.size) { startGesture(); }
+    });
+
+    // The bracket has its own pinch zoom; stop iOS Safari zooming the whole page
+    // (it ignores user-scalable=no). Scrolling still works in menus and dialogs.
+    document.documentElement.style.touchAction = "pan-x pan-y";
+    ["gesturestart", "gesturechange"].forEach(function (type) {
+        document.addEventListener(type, function (event) { event.preventDefault(); }, { passive: false });
     });
 }());
