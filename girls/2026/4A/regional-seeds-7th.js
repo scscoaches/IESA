@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-20 19:57",
+  "updatedAt": "2026-11-21 03:59",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -308,6 +308,45 @@ window.iesaRegionalSeedCache = {
               "Evanston Haven"
             ],
             "scores": [
+              20,
+              14
+            ],
+            "winner": "Maywood Irving",
+            "bye": false
+          },
+          {
+            "teams": [
+              "Evanston Chute",
+              "Evanston Nichols"
+            ],
+            "scores": [
+              2,
+              0
+            ],
+            "winner": "Evanston Chute",
+            "bye": false,
+            "annotation": "FORFEIT"
+          },
+          {
+            "teams": [
+              "Cicero Unity",
+              "Melrose Park Stevenson"
+            ],
+            "scores": [
+              23,
+              17
+            ],
+            "winner": "Cicero Unity",
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Bellwood Roosevelt",
+              "Maywood Irving"
+            ],
+            "scores": [
               null,
               null
             ],
@@ -317,45 +356,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Evanston Chute",
-              "Evanston Nichols"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              "Cicero Unity",
-              "Melrose Park Stevenson"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          }
-        ],
-        [
-          {
-            "teams": [
-              "Bellwood Roosevelt",
-              null
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              null,
-              null
+              "Cicero Unity"
             ],
             "scores": [
               null,
@@ -808,10 +809,10 @@ window.iesaRegionalSeedCache = {
               "Romeoville Martinez"
             ],
             "scores": [
-              null,
-              null
+              21,
+              24
             ],
-            "winner": null,
+            "winner": "Romeoville Martinez",
             "bye": false
           },
           {
@@ -832,10 +833,10 @@ window.iesaRegionalSeedCache = {
               "Romeoville Lukancic"
             ],
             "scores": [
-              null,
-              null
+              25,
+              6
             ],
-            "winner": null,
+            "winner": "Shorewood Troy",
             "bye": false
           }
         ],
@@ -843,7 +844,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Bolingbrook Jane Addams",
-              null
+              "Romeoville Martinez"
             ],
             "scores": [
               null,
@@ -855,7 +856,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Bolingbrook Humphrey",
-              null
+              "Shorewood Troy"
             ],
             "scores": [
               null,
