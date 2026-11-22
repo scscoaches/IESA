@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 03:59",
+  "updatedAt": "2026-11-22 11:37",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -417,12 +417,6 @@
       }
     ],
     "illini-bluffs-high-school-glasford-il": [
-      {
-        "key": "gamf914f00dea",
-        "url": "https://www.nfhsnetwork.com/events/illini-bluffs-high-school-glasford-il/gamf914f00dea",
-        "label": "Away vs. Illini Bluffs",
-        "start": "2026-10-15T22:00:00.000Z"
-      },
       {
         "key": "gam9c6b3b6295",
         "url": "https://www.nfhsnetwork.com/events/illini-bluffs-high-school-glasford-il/gam9c6b3b6295",
@@ -1123,12 +1117,6 @@
         "url": "https://www.nfhsnetwork.com/events/west-central-high-school-coop-w-winchester-biggsville-il/gam84740a45a8",
         "label": "Away vs. WCHS",
         "start": "2026-10-08T22:30:00.000Z"
-      },
-      {
-        "key": "gam63a213ae9e",
-        "url": "https://www.nfhsnetwork.com/events/west-central-high-school-coop-w-winchester-biggsville-il/gam63a213ae9e",
-        "label": "Away vs. WCHS",
-        "start": "2026-10-21T22:30:00.000Z"
       },
       {
         "key": "gam9a7da6c995",

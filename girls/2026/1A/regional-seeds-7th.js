@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-21 11:21",
+  "updatedAt": "2026-11-22 11:37",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -46,10 +46,10 @@ window.iesaRegionalSeedCache = {
               "Lockport Fairmont"
             ],
             "scores": [
-              null,
-              null
+              20,
+              15
             ],
-            "winner": null,
+            "winner": "Grant Park",
             "bye": false
           },
           {
@@ -81,13 +81,13 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Ford Heights Cottage Grove UGC",
-              null
+              "Grant Park"
             ],
             "scores": [
-              null,
-              null
+              38,
+              12
             ],
-            "winner": null,
+            "winner": "Ford Heights Cottage Grove UGC",
             "bye": false
           },
           {
@@ -96,18 +96,18 @@ window.iesaRegionalSeedCache = {
               "Hazel Crest Jesse White"
             ],
             "scores": [
-              null,
-              null
+              36,
+              2
             ],
-            "winner": null,
+            "winner": "Lockport Taft",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Ford Heights Cottage Grove UGC",
+              "Lockport Taft"
             ],
             "scores": [
               null,
@@ -165,10 +165,10 @@ window.iesaRegionalSeedCache = {
               "St. Anne"
             ],
             "scores": [
-              null,
-              null
+              34,
+              10
             ],
-            "winner": null,
+            "winner": "Rossville-Alvin",
             "bye": false
           },
           {
@@ -200,7 +200,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Cissna Park (Co-op)",
-              null
+              "Rossville-Alvin"
             ],
             "scores": [
               null,
@@ -331,10 +331,10 @@ window.iesaRegionalSeedCache = {
               "Rockdale"
             ],
             "scores": [
-              null,
-              null
+              17,
+              11
             ],
-            "winner": null,
+            "winner": "Mazon-Verona-Kinsman",
             "bye": false
           }
         ],
@@ -342,7 +342,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Gardner (Co-op)",
-              null
+              "Mazon-Verona-Kinsman"
             ],
             "scores": [
               null,
@@ -404,10 +404,10 @@ window.iesaRegionalSeedCache = {
               "Grand Ridge (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              26,
+              1
             ],
-            "winner": null,
+            "winner": "Ransom (Co-op)",
             "bye": false
           },
           {
@@ -428,10 +428,10 @@ window.iesaRegionalSeedCache = {
               "Paw Paw"
             ],
             "scores": [
-              null,
-              null
+              34,
+              4
             ],
-            "winner": null,
+            "winner": "Marseilles Milton Pope (Co-op)",
             "bye": false
           }
         ],
@@ -439,7 +439,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Mendota Holy Cross",
-              null
+              "Ransom (Co-op)"
             ],
             "scores": [
               null,
@@ -451,7 +451,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Ottawa Marquette",
-              null
+              "Marseilles Milton Pope (Co-op)"
             ],
             "scores": [
               null,
@@ -531,6 +531,44 @@ window.iesaRegionalSeedCache = {
               "Lostant (Co-op)"
             ],
             "scores": [
+              16,
+              11
+            ],
+            "winner": "Lowpoint-Washburn",
+            "bye": false
+          },
+          {
+            "teams": [
+              "LaSalle St. Acutis",
+              "Spring Bay Riverview"
+            ],
+            "scores": [
+              42,
+              11
+            ],
+            "winner": "LaSalle St. Acutis",
+            "bye": false
+          },
+          {
+            "teams": [
+              "Ladd (Co-op)",
+              "Henry-Senachwine"
+            ],
+            "scores": [
+              10,
+              14
+            ],
+            "winner": "Henry-Senachwine",
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Utica Waltham",
+              "Lowpoint-Washburn"
+            ],
+            "scores": [
               null,
               null
             ],
@@ -540,45 +578,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "LaSalle St. Acutis",
-              "Spring Bay Riverview"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              "Ladd (Co-op)",
               "Henry-Senachwine"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          }
-        ],
-        [
-          {
-            "teams": [
-              "Utica Waltham",
-              null
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              null,
-              null
             ],
             "scores": [
               null,
@@ -658,10 +658,10 @@ window.iesaRegionalSeedCache = {
               "Kewanee Visitation"
             ],
             "scores": [
-              null,
-              null
+              4,
+              22
             ],
-            "winner": null,
+            "winner": "Kewanee Visitation",
             "bye": false
           },
           {
@@ -670,10 +670,10 @@ window.iesaRegionalSeedCache = {
               "Annawan"
             ],
             "scores": [
-              null,
-              null
+              13,
+              18
             ],
-            "winner": null,
+            "winner": "Annawan",
             "bye": false
           },
           {
@@ -682,10 +682,10 @@ window.iesaRegionalSeedCache = {
               "Galva"
             ],
             "scores": [
-              null,
-              null
+              26,
+              4
             ],
-            "winner": null,
+            "winner": "Kewanee Wethersfield",
             "bye": false
           }
         ],
@@ -693,7 +693,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Woodhull AlWood",
-              null
+              "Kewanee Visitation"
             ],
             "scores": [
               null,
@@ -704,8 +704,8 @@ window.iesaRegionalSeedCache = {
           },
           {
             "teams": [
-              null,
-              null
+              "Annawan",
+              "Kewanee Wethersfield"
             ],
             "scores": [
               null,
@@ -785,6 +785,44 @@ window.iesaRegionalSeedCache = {
               "Lexington"
             ],
             "scores": [
+              28,
+              15
+            ],
+            "winner": "Pontiac St. Mary's (Co-op)",
+            "bye": false
+          },
+          {
+            "teams": [
+              "Colfax Ridgeview",
+              "Streator Woodland"
+            ],
+            "scores": [
+              27,
+              7
+            ],
+            "winner": "Colfax Ridgeview",
+            "bye": false
+          },
+          {
+            "teams": [
+              "Normal Calvary",
+              "Odell (Co-op)"
+            ],
+            "scores": [
+              29,
+              3
+            ],
+            "winner": "Normal Calvary",
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Flanagan (Co-op)",
+              "Pontiac St. Mary's (Co-op)"
+            ],
+            "scores": [
               null,
               null
             ],
@@ -794,45 +832,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Colfax Ridgeview",
-              "Streator Woodland"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              "Normal Calvary",
-              "Odell (Co-op)"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          }
-        ],
-        [
-          {
-            "teams": [
-              "Flanagan (Co-op)",
-              null
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              null,
-              null
+              "Normal Calvary"
             ],
             "scores": [
               null,
@@ -904,10 +904,10 @@ window.iesaRegionalSeedCache = {
               "Roanoke-Benson"
             ],
             "scores": [
-              null,
-              null
+              29,
+              17
             ],
-            "winner": null,
+            "winner": "Pekin Rankin",
             "bye": false
           },
           {
@@ -939,7 +939,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Lincoln West Lincoln-Broadwell",
-              null
+              "Pekin Rankin"
             ],
             "scores": [
               null,
@@ -1146,6 +1146,44 @@ window.iesaRegionalSeedCache = {
               "Peoria Hollis"
             ],
             "scores": [
+              23,
+              24
+            ],
+            "winner": "Peoria Hollis",
+            "bye": false
+          },
+          {
+            "teams": [
+              "Peoria Limestone Walters",
+              "Peoria Pleasant Hill"
+            ],
+            "scores": [
+              36,
+              6
+            ],
+            "winner": "Peoria Limestone Walters",
+            "bye": false
+          },
+          {
+            "teams": [
+              "Bartonville Monroe",
+              "Kickapoo St. Mary's"
+            ],
+            "scores": [
+              26,
+              9
+            ],
+            "winner": "Bartonville Monroe",
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Bartonville Oak Grove",
+              "Peoria Hollis"
+            ],
+            "scores": [
               null,
               null
             ],
@@ -1155,45 +1193,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Peoria Limestone Walters",
-              "Peoria Pleasant Hill"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              "Bartonville Monroe",
-              "Kickapoo St. Mary's"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          }
-        ],
-        [
-          {
-            "teams": [
-              "Bartonville Oak Grove",
-              null
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              null,
-              null
+              "Bartonville Monroe"
             ],
             "scores": [
               null,
@@ -1273,6 +1273,44 @@ window.iesaRegionalSeedCache = {
               "Homer Heritage"
             ],
             "scores": [
+              31,
+              28
+            ],
+            "winner": "Chrisman Scottland",
+            "bye": false
+          },
+          {
+            "teams": [
+              "Oakland Lake Crest (Co-op)",
+              "Danville Schlarman"
+            ],
+            "scores": [
+              38,
+              2
+            ],
+            "winner": "Oakland Lake Crest (Co-op)",
+            "bye": false
+          },
+          {
+            "teams": [
+              "Royal Prairieview Ogden",
+              "Hume Shiloh"
+            ],
+            "scores": [
+              34,
+              17
+            ],
+            "winner": "Royal Prairieview Ogden",
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Potomac (Co-op)",
+              "Chrisman Scottland"
+            ],
+            "scores": [
               null,
               null
             ],
@@ -1282,45 +1320,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Oakland Lake Crest (Co-op)",
-              "Danville Schlarman"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              "Royal Prairieview Ogden",
-              "Hume Shiloh"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          }
-        ],
-        [
-          {
-            "teams": [
-              "Potomac (Co-op)",
-              null
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              null,
-              null
+              "Royal Prairieview Ogden"
             ],
             "scores": [
               null,
@@ -1400,6 +1400,44 @@ window.iesaRegionalSeedCache = {
               "Champaign Holy Cross"
             ],
             "scores": [
+              21,
+              39
+            ],
+            "winner": "Champaign Holy Cross",
+            "bye": false
+          },
+          {
+            "teams": [
+              "Decatur Unity",
+              "Villa Grove"
+            ],
+            "scores": [
+              38,
+              6
+            ],
+            "winner": "Decatur Unity",
+            "bye": false
+          },
+          {
+            "teams": [
+              "Champaign Next Generation",
+              "Philo St. Thomas"
+            ],
+            "scores": [
+              15,
+              3
+            ],
+            "winner": "Champaign Next Generation",
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Rantoul St. Malachy",
+              "Champaign Holy Cross"
+            ],
+            "scores": [
               null,
               null
             ],
@@ -1409,45 +1447,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Decatur Unity",
-              "Villa Grove"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              "Champaign Next Generation",
-              "Philo St. Thomas"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          }
-        ],
-        [
-          {
-            "teams": [
-              "Rantoul St. Malachy",
-              null
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              null,
-              null
+              "Champaign Next Generation"
             ],
             "scores": [
               null,
@@ -1634,10 +1634,10 @@ window.iesaRegionalSeedCache = {
               "Payson Seymour"
             ],
             "scores": [
-              null,
-              null
+              22,
+              10
             ],
-            "winner": null,
+            "winner": "Augusta Southeastern",
             "bye": false
           },
           {
@@ -1669,7 +1669,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Kinderhook Western",
-              null
+              "Augusta Southeastern"
             ],
             "scores": [
               null,
@@ -1757,10 +1757,10 @@ window.iesaRegionalSeedCache = {
               "Findlay Okaw Valley"
             ],
             "scores": [
-              null,
-              null
+              28,
+              14
             ],
-            "winner": null,
+            "winner": "Effingham Sacred Heart",
             "bye": false
           },
           {
@@ -1781,10 +1781,10 @@ window.iesaRegionalSeedCache = {
               "Martinsville"
             ],
             "scores": [
-              null,
-              null
+              18,
+              12
             ],
-            "winner": null,
+            "winner": "Neoga",
             "bye": false
           }
         ],
@@ -1792,7 +1792,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Sigel St. Michael's",
-              null
+              "Effingham Sacred Heart"
             ],
             "scores": [
               null,
@@ -1804,7 +1804,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Palestine (Co-op)",
-              null
+              "Neoga"
             ],
             "scores": [
               null,
