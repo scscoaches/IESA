@@ -58,7 +58,8 @@ if ($liveSeason.PSObject.Properties["gamesFrom"] -and $liveSeason.gamesFrom -and
 
 # NFHS and Hudl watch links are a convenience beside the scores and must never fail a refresh.
 function Update-StreamLinks {
-    $seasonStart = [datetime]::new($SeasonYear, 8, 1)
+    # The season starts in the calendar year before the boys' tournament year (yearOffset).
+    $seasonStart = [datetime]::new($SeasonYear - [int]$IesaSport.yearOffset, 8, 1)
     try {
         & (Join-Path $PSScriptRoot "Update-NfhsEvents.ps1") -SitePath $SitePath -SeasonStart $seasonStart
     } catch {
