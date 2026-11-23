@@ -1,68 +1,1280 @@
 {
-  "updatedAt": "2026-11-22 11:37",
+  "updatedAt": "2026-11-23 23:33",
   "schools": {
     "altamont-high-school-altamont-il": [],
-    "arcola-high-school-arcola-il": [],
-    "argentaoreana-high-school-argenta-il": [],
-    "bismarckhenning-junior-high-school-bismarck-il": [],
+    "arcola-high-school-arcola-il": [
+      {
+        "key": "gam2d650664ae",
+        "url": "https://www.nfhsnetwork.com/events/cerro-gordo-high-school-cerro-gordo-il/gam2d650664ae",
+        "label": "Arcola vs. Cerro Gordo",
+        "start": "2027-01-08T00:00:00.000Z"
+      }
+    ],
+    "argentaoreana-high-school-argenta-il": [
+      {
+        "key": "gam8887395a06",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gam8887395a06",
+        "label": "Argenta-Oreana vs. LeRoy",
+        "start": "2026-12-08T23:20:00.000Z"
+      }
+    ],
+    "bismarckhenning-junior-high-school-bismarck-il": [
+      {
+        "key": "gamadd5587e41",
+        "url": "https://www.nfhsnetwork.com/events/schlarman-academy-danville-il/gamadd5587e41",
+        "label": "Middle School Boys Basketball",
+        "start": "2026-11-06T23:15:00.000Z"
+      },
+      {
+        "key": "gam8b91d59230",
+        "url": "https://www.nfhsnetwork.com/events/schlarman-academy-danville-il/gam8b91d59230",
+        "label": "Middle School Boys Basketball",
+        "start": "2026-11-07T15:15:00.000Z"
+      },
+      {
+        "key": "gam421cb18db2",
+        "url": "https://www.nfhsnetwork.com/events/schlarman-academy-danville-il/gam421cb18db2",
+        "label": "Middle School Boys Basketball",
+        "start": "2026-11-07T19:15:00.000Z"
+      }
+    ],
     "bluffs-junior-high-school-bluffs-il": [],
-    "brimfield-high-school-brimfield-il": [],
-    "brown-county-high-school-mt-sterling-il": [],
+    "brimfield-high-school-brimfield-il": [
+      {
+        "key": "gam9ffd3c3daf",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gam9ffd3c3daf",
+        "label": "Brimfield",
+        "start": "2026-11-02T23:00:00.000Z"
+      },
+      {
+        "key": "gam41e4e7992d",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gam41e4e7992d",
+        "label": "Farmington C. vs. Brimfield",
+        "start": "2026-11-05T23:00:00.000Z"
+      },
+      {
+        "key": "gam692540bb18",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gam692540bb18",
+        "label": "St Vincent vs. Brimfield",
+        "start": "2026-11-10T23:00:00.000Z"
+      },
+      {
+        "key": "gam377f67e681",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gam377f67e681",
+        "label": "Dunlap Middle School vs. Brimfield",
+        "start": "2026-11-14T16:00:00.000Z"
+      },
+      {
+        "key": "gam1df22c7435",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gam1df22c7435",
+        "label": "Farmington C. vs. Brimfield",
+        "start": "2026-11-17T23:00:00.000Z"
+      },
+      {
+        "key": "gam7a4fbf0cbb",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gam7a4fbf0cbb",
+        "label": "Lewistown vs. Brimfield",
+        "start": "2026-11-21T16:00:00.000Z"
+      },
+      {
+        "key": "gam868b830837",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gam868b830837",
+        "label": "Brimfield",
+        "start": "2026-11-30T23:00:00.000Z"
+      },
+      {
+        "key": "gam8e7f629875",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gam8e7f629875",
+        "label": "Brimfield",
+        "start": "2026-12-10T23:00:00.000Z"
+      },
+      {
+        "key": "gam5c76e721e3",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gam5c76e721e3",
+        "label": "Brimfield",
+        "start": "2026-12-12T16:00:00.000Z"
+      },
+      {
+        "key": "gamda13de9ff0",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gamda13de9ff0",
+        "label": "Elmwood vs. Brimfield",
+        "start": "2026-12-15T23:00:00.000Z"
+      },
+      {
+        "key": "gamea1c2c6838",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gamea1c2c6838",
+        "label": "Mossville Junior High School vs. Brimfield",
+        "start": "2026-12-16T23:00:00.000Z"
+      }
+    ],
+    "brown-county-high-school-mt-sterling-il": [
+      {
+        "key": "gamdb76424b54",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gamdb76424b54",
+        "label": "Brown County vs. Camp Point",
+        "start": "2026-11-24T00:00:00.000Z"
+      }
+    ],
     "burr-ridge-middle-school-burr-ridge-il": [],
     "bushnellprairie-city-high-school-bushnell-il": [],
     "calhoun-high-school-hardin-il": [],
-    "carthage-middle-school-carthage-il": [],
+    "carthage-middle-school-carthage-il": [
+      {
+        "key": "gamc6ce741f14",
+        "url": "https://www.nfhsnetwork.com/events/astoria-high-school-astoria-il/gamc6ce741f14",
+        "label": "Middle School Boys Basketball — Carthage Middle School vs. South Fulton",
+        "start": "2026-12-07T23:30:00.000Z"
+      },
+      {
+        "key": "gam732b24c0c9",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gam732b24c0c9",
+        "label": "Carthage Middle School vs. Camp Point",
+        "start": "2026-12-11T00:00:00.000Z"
+      }
+    ],
     "caseywestfield-high-school-casey-il": [],
-    "central-a-m-middle-school-assumption-il": [],
-    "central-high-school-camp-point-camp-point-il": [],
-    "cerro-gordo-high-school-cerro-gordo-il": [],
-    "chestereast-lincoln-lincoln-il": [],
-    "cornerstone-christian-academy-bloomington-il": [],
-    "corpus-christi-catholic-school-bloomington-il": [],
+    "central-a-m-middle-school-assumption-il": [
+      {
+        "key": "game8bdf71f12",
+        "url": "https://www.nfhsnetwork.com/events/sangamon-valley-high-school-niantic-il/game8bdf71f12",
+        "label": "Central A & M Middle School vs. Sangamon Valley",
+        "start": "2026-12-01T23:55:00.000Z"
+      },
+      {
+        "key": "gamf50b76b3a1",
+        "url": "https://www.nfhsnetwork.com/events/clinton-high-school-clinton-il/gamf50b76b3a1",
+        "label": "Central A & M Middle School vs. Clinton",
+        "start": "2026-12-03T23:30:00.000Z"
+      }
+    ],
+    "central-high-school-camp-point-camp-point-il": [
+      {
+        "key": "gam0f86555994",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gam0f86555994",
+        "label": "West Prairie Middle School vs. Camp Point",
+        "start": "2026-11-03T00:00:00.000Z"
+      },
+      {
+        "key": "gamf6024ba7c7",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gamf6024ba7c7",
+        "label": "Triopia vs. Camp Point",
+        "start": "2026-11-06T00:00:00.000Z"
+      },
+      {
+        "key": "gam78ba32f171",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gam78ba32f171",
+        "label": "Havana Junior High School vs. Camp Point",
+        "start": "2026-11-07T15:30:00.000Z"
+      },
+      {
+        "key": "gamb7daaab7bb",
+        "url": "https://www.nfhsnetwork.com/events/astoria-high-school-astoria-il/gamb7daaab7bb",
+        "label": "Middle School Boys Basketball — Camp Point vs. South Fulton",
+        "start": "2026-11-17T23:30:00.000Z"
+      },
+      {
+        "key": "gam1965313b46",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gam1965313b46",
+        "label": "Macomb vs. Camp Point",
+        "start": "2026-11-19T01:10:00.000Z"
+      },
+      {
+        "key": "gam920305cf7a",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gam920305cf7a",
+        "label": "Camp Point",
+        "start": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "key": "gamdb76424b54",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gamdb76424b54",
+        "label": "Brown County vs. Camp Point",
+        "start": "2026-11-24T00:00:00.000Z"
+      },
+      {
+        "key": "gamce0ec83c3f",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gamce0ec83c3f",
+        "label": "Lewistown vs. Camp Point",
+        "start": "2026-11-25T00:00:00.000Z"
+      },
+      {
+        "key": "gam732b24c0c9",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gam732b24c0c9",
+        "label": "Carthage Middle School vs. Camp Point",
+        "start": "2026-12-11T00:00:00.000Z"
+      },
+      {
+        "key": "gam36bf53020a",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gam36bf53020a",
+        "label": "Beardstown vs. Camp Point",
+        "start": "2026-12-23T00:00:00.000Z"
+      },
+      {
+        "key": "gam10855ed136",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gam10855ed136",
+        "label": "Pittsfield vs. Camp Point",
+        "start": "2027-01-05T00:00:00.000Z"
+      },
+      {
+        "key": "gam5db6143004",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gam5db6143004",
+        "label": "Liberty vs. Camp Point",
+        "start": "2027-01-15T00:00:00.000Z"
+      }
+    ],
+    "cerro-gordo-high-school-cerro-gordo-il": [
+      {
+        "key": "game82a680885",
+        "url": "https://www.nfhsnetwork.com/events/cerro-gordo-high-school-cerro-gordo-il/game82a680885",
+        "label": "Blue Ridge vs. Cerro Gordo",
+        "start": "2026-11-05T23:30:00.000Z"
+      },
+      {
+        "key": "gam48540dc115",
+        "url": "https://www.nfhsnetwork.com/events/cerro-gordo-high-school-cerro-gordo-il/gam48540dc115",
+        "label": "Cerro Gordo",
+        "start": "2026-11-07T00:00:00.000Z"
+      },
+      {
+        "key": "gam2d5226fb08",
+        "url": "https://www.nfhsnetwork.com/events/cerro-gordo-high-school-cerro-gordo-il/gam2d5226fb08",
+        "label": "Cerro Gordo",
+        "start": "2026-11-11T00:00:00.000Z"
+      },
+      {
+        "key": "gamadcff0a1f7",
+        "url": "https://www.nfhsnetwork.com/events/cerro-gordo-high-school-cerro-gordo-il/gamadcff0a1f7",
+        "label": "Okaw Valley vs. Cerro Gordo",
+        "start": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "key": "gam2d650664ae",
+        "url": "https://www.nfhsnetwork.com/events/cerro-gordo-high-school-cerro-gordo-il/gam2d650664ae",
+        "label": "Arcola vs. Cerro Gordo",
+        "start": "2027-01-08T00:00:00.000Z"
+      }
+    ],
+    "chestereast-lincoln-lincoln-il": [
+      {
+        "key": "gameb12520321",
+        "url": "https://www.nfhsnetwork.com/events/hartsburgemden-high-school-hartsburg-il/gameb12520321",
+        "label": "Chester East vs. Hartsburg-Emden",
+        "start": "2026-12-15T00:00:00.000Z"
+      }
+    ],
+    "cornerstone-christian-academy-bloomington-il": [
+      {
+        "key": "gam3692967507",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam3692967507",
+        "label": "Cornerstone",
+        "start": "2026-11-03T22:15:00.000Z"
+      },
+      {
+        "key": "gam9f88be7544",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam9f88be7544",
+        "label": "Cornerstone",
+        "start": "2026-11-06T22:15:00.000Z"
+      },
+      {
+        "key": "gam1a40bed558",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam1a40bed558",
+        "label": "Cornerstone",
+        "start": "2026-11-07T16:00:00.000Z"
+      },
+      {
+        "key": "gamf014c9d3eb",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gamf014c9d3eb",
+        "label": "Away vs. Cornerstone",
+        "start": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "key": "gam244892246f",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam244892246f",
+        "label": "Ridgeview vs. Cornerstone",
+        "start": "2026-11-12T00:00:00.000Z"
+      },
+      {
+        "key": "gam3fe8e9b56a",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam3fe8e9b56a",
+        "label": "LeRoy vs. Cornerstone",
+        "start": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "key": "gam0ed020a99c",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam0ed020a99c",
+        "label": "Heyworth vs. Cornerstone",
+        "start": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "key": "gam1fc53df763",
+        "url": "https://www.nfhsnetwork.com/events/lexington-high-school-lexington-il/gam1fc53df763",
+        "label": "Cornerstone vs. Lexington",
+        "start": "2026-11-23T23:30:00.000Z"
+      },
+      {
+        "key": "gam717e93e2ae",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam717e93e2ae",
+        "label": "Hartsburg-Emden vs. Cornerstone",
+        "start": "2026-12-01T00:00:00.000Z"
+      },
+      {
+        "key": "gam0c8673ea3a",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam0c8673ea3a",
+        "label": "Corpus Christi vs. Cornerstone",
+        "start": "2026-12-04T00:00:00.000Z"
+      },
+      {
+        "key": "gam0fd9332b01",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam0fd9332b01",
+        "label": "Epiphany School vs. Cornerstone",
+        "start": "2026-12-11T00:00:00.000Z"
+      },
+      {
+        "key": "gam0a3407cbd2",
+        "url": "https://www.nfhsnetwork.com/events/delandweldon-high-school-deland-il/gam0a3407cbd2",
+        "label": "Cornerstone vs. DeLand-Weldon",
+        "start": "2026-12-16T23:30:00.000Z"
+      },
+      {
+        "key": "gamdd8cdae33c",
+        "url": "https://www.nfhsnetwork.com/events/calvary-christian-academy-normal-il/gamdd8cdae33c",
+        "label": "Cornerstone vs. Calvary",
+        "start": "2027-01-05T23:58:00.000Z"
+      },
+      {
+        "key": "gam213aab51df",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam213aab51df",
+        "label": "St. Mary's vs. Cornerstone",
+        "start": "2027-01-08T00:00:00.000Z"
+      }
+    ],
+    "corpus-christi-catholic-school-bloomington-il": [
+      {
+        "key": "gam0c8673ea3a",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam0c8673ea3a",
+        "label": "Corpus Christi vs. Cornerstone",
+        "start": "2026-12-04T00:00:00.000Z"
+      }
+    ],
     "dieterich-high-school-dieterich-il": [],
     "dwight-township-high-school-dwight-il": [],
-    "east-altonwood-river-high-school-wood-river-il": [],
+    "east-altonwood-river-high-school-wood-river-il": [
+      {
+        "key": "gam27eb65c3ad",
+        "url": "https://www.nfhsnetwork.com/events/bunker-hill-high-school-bunker-hill-il/gam27eb65c3ad",
+        "label": "East Alton-Wood vs. Bunker Hill",
+        "start": "2027-01-15T00:00:00.000Z"
+      }
+    ],
     "edwards-county-high-school-albion-il": [],
-    "elmwood-high-school-elmwood-il": [],
-    "epiphany-school-normal-il": [],
-    "fieldcrest-middle-school-wenona-il": [],
-    "fisher-high-school-fisher-il": [],
-    "greenfield-high-school-greenfield-il": [],
+    "elmwood-high-school-elmwood-il": [
+      {
+        "key": "gambfb601348b",
+        "url": "https://www.nfhsnetwork.com/events/elmwood-high-school-elmwood-il/gambfb601348b",
+        "label": "Elmwood",
+        "start": "2026-11-02T23:00:00.000Z"
+      },
+      {
+        "key": "gamfb35e1206d",
+        "url": "https://www.nfhsnetwork.com/events/elmwood-high-school-elmwood-il/gamfb35e1206d",
+        "label": "Peoria Heights vs. Elmwood",
+        "start": "2026-11-11T23:00:00.000Z"
+      },
+      {
+        "key": "gam0b951c3742",
+        "url": "https://www.nfhsnetwork.com/events/elmwood-high-school-elmwood-il/gam0b951c3742",
+        "label": "ROWVA vs. Elmwood",
+        "start": "2026-11-12T23:00:00.000Z"
+      },
+      {
+        "key": "gam4680019673",
+        "url": "https://www.nfhsnetwork.com/events/elmwood-high-school-elmwood-il/gam4680019673",
+        "label": "Elmwood",
+        "start": "2026-11-23T23:00:00.000Z"
+      },
+      {
+        "key": "gam350331fd99",
+        "url": "https://www.nfhsnetwork.com/events/elmwood-high-school-elmwood-il/gam350331fd99",
+        "label": "Elmwood",
+        "start": "2026-12-03T23:00:00.000Z"
+      },
+      {
+        "key": "gamadb02bb52a",
+        "url": "https://www.nfhsnetwork.com/events/elmwood-high-school-elmwood-il/gamadb02bb52a",
+        "label": "Elmwood",
+        "start": "2026-12-09T23:00:00.000Z"
+      },
+      {
+        "key": "gamda13de9ff0",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gamda13de9ff0",
+        "label": "Elmwood vs. Brimfield",
+        "start": "2026-12-15T23:00:00.000Z"
+      },
+      {
+        "key": "gam5846f2a13d",
+        "url": "https://www.nfhsnetwork.com/events/elmwood-high-school-elmwood-il/gam5846f2a13d",
+        "label": "Illini Bluffs Middle School vs. Elmwood",
+        "start": "2026-12-17T23:00:00.000Z"
+      },
+      {
+        "key": "gamf4d38d2bc6",
+        "url": "https://www.nfhsnetwork.com/events/elmwood-high-school-elmwood-il/gamf4d38d2bc6",
+        "label": "Elmwood",
+        "start": "2027-01-05T23:00:00.000Z"
+      },
+      {
+        "key": "gam0e95a53b50",
+        "url": "https://www.nfhsnetwork.com/events/elmwood-high-school-elmwood-il/gam0e95a53b50",
+        "label": "Elmwood",
+        "start": "2027-01-12T23:00:00.000Z"
+      },
+      {
+        "key": "gam8511537967",
+        "url": "https://www.nfhsnetwork.com/events/elmwood-high-school-elmwood-il/gam8511537967",
+        "label": "Chillicothe Junior High School vs. Elmwood",
+        "start": "2027-01-14T23:00:00.000Z"
+      }
+    ],
+    "epiphany-school-normal-il": [
+      {
+        "key": "gam511c35680a",
+        "url": "https://www.nfhsnetwork.com/events/calvary-christian-academy-normal-il/gam511c35680a",
+        "label": "Epiphany School vs. Calvary",
+        "start": "2026-12-07T23:58:00.000Z"
+      },
+      {
+        "key": "gam0fd9332b01",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam0fd9332b01",
+        "label": "Epiphany School vs. Cornerstone",
+        "start": "2026-12-11T00:00:00.000Z"
+      }
+    ],
+    "fieldcrest-middle-school-wenona-il": [
+      {
+        "key": "gama53e5e883f",
+        "url": "https://www.nfhsnetwork.com/events/trivalley-high-school-downs-il/gama53e5e883f",
+        "label": "Fieldcrest Middle School vs. Tri-Valley",
+        "start": "2026-12-01T23:30:00.000Z"
+      }
+    ],
+    "fisher-high-school-fisher-il": [
+      {
+        "key": "gamedbcfdb79a",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gamedbcfdb79a",
+        "label": "Fisher vs. LeRoy",
+        "start": "2026-12-14T23:20:00.000Z"
+      },
+      {
+        "key": "gambb1b24aa28",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gambb1b24aa28",
+        "label": "Middle School Boys Basketball",
+        "start": "2027-01-14T21:55:00.000Z"
+      }
+    ],
+    "greenfield-high-school-greenfield-il": [
+      {
+        "key": "gam08c8fe9b1f",
+        "url": "https://www.nfhsnetwork.com/events/waverly-high-school-waverly-il/gam08c8fe9b1f",
+        "label": "Greenfield vs. Waverly",
+        "start": "2027-01-11T23:55:00.000Z"
+      }
+    ],
     "havana-high-school-havana-il": [],
-    "illini-bluffs-high-school-glasford-il": [],
-    "indian-creek-high-school-shabbona-il": [],
+    "illini-bluffs-high-school-glasford-il": [
+      {
+        "key": "gam804d870bf4",
+        "url": "https://www.nfhsnetwork.com/events/illini-bluffs-high-school-glasford-il/gam804d870bf4",
+        "label": "Away vs. Illini Bluffs",
+        "start": "2026-12-03T23:00:00.000Z"
+      },
+      {
+        "key": "gam07d2fec599",
+        "url": "https://www.nfhsnetwork.com/events/illini-bluffs-high-school-glasford-il/gam07d2fec599",
+        "label": "Away vs. Illini Bluffs",
+        "start": "2026-12-10T23:00:00.000Z"
+      },
+      {
+        "key": "gam5a0a7ca50c",
+        "url": "https://www.nfhsnetwork.com/events/illini-bluffs-high-school-glasford-il/gam5a0a7ca50c",
+        "label": "Away vs. Illini Bluffs",
+        "start": "2027-01-11T23:00:00.000Z"
+      },
+      {
+        "key": "gam61a81695f3",
+        "url": "https://www.nfhsnetwork.com/events/illini-bluffs-high-school-glasford-il/gam61a81695f3",
+        "label": "Away vs. Illini Bluffs",
+        "start": "2027-01-13T23:00:00.000Z"
+      }
+    ],
+    "indian-creek-high-school-shabbona-il": [
+      {
+        "key": "gam62d6e36e58",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam62d6e36e58",
+        "label": "Indian Creek",
+        "start": "2026-12-02T22:55:00.000Z"
+      },
+      {
+        "key": "gamcaea2ffbbe",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gamcaea2ffbbe",
+        "label": "Indian Creek",
+        "start": "2026-12-07T22:25:00.000Z"
+      },
+      {
+        "key": "gam4d8277c230",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam4d8277c230",
+        "label": "HBR vs. Indian Creek",
+        "start": "2026-12-08T22:25:00.000Z"
+      },
+      {
+        "key": "gam75b5d18dfd",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam75b5d18dfd",
+        "label": "Earlville vs. Indian Creek",
+        "start": "2026-12-10T22:25:00.000Z"
+      },
+      {
+        "key": "gam34ce703f75",
+        "url": "https://www.nfhsnetwork.com/events/indian-creek-high-school-shabbona-il/gam34ce703f75",
+        "label": "Paw Paw vs. Indian Creek",
+        "start": "2026-12-11T22:25:00.000Z"
+      }
+    ],
     "international-prep-academy-champaign-il": [],
     "knoxville-high-school-knoxville-il": [],
-    "leroy-high-school-leroy-il": [],
-    "lewistown-high-school-lewistown-il": [],
-    "liberty-high-school-liberty-il": [],
-    "meridian-high-school-macon-macon-il": [],
-    "midwest-central-middle-school-green-valley-il": [],
-    "morrisonville-high-school-morrisonville-il": [],
-    "morton-grove-academy-morton-grove-il": [],
-    "mt-pulaski-high-school-mt-pulaski-il": [],
-    "nokomis-high-school-nokomis-il": [],
-    "north-greene-high-school-white-hall-il": [],
+    "leroy-high-school-leroy-il": [
+      {
+        "key": "gam0c48c8f7bd",
+        "url": "https://www.nfhsnetwork.com/events/clinton-high-school-clinton-il/gam0c48c8f7bd",
+        "label": "LeRoy vs. Clinton",
+        "start": "2026-11-02T23:25:00.000Z"
+      },
+      {
+        "key": "gamef0e7df604",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gamef0e7df604",
+        "label": "Roanoke-Benson vs. LeRoy",
+        "start": "2026-11-05T23:20:00.000Z"
+      },
+      {
+        "key": "gam3fe8e9b56a",
+        "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam3fe8e9b56a",
+        "label": "LeRoy vs. Cornerstone",
+        "start": "2026-11-13T00:00:00.000Z"
+      },
+      {
+        "key": "gambee560f9ee",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gambee560f9ee",
+        "label": "LeRoy",
+        "start": "2026-11-16T21:50:00.000Z"
+      },
+      {
+        "key": "gamc906c0fde4",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gamc906c0fde4",
+        "label": "LeRoy",
+        "start": "2026-11-17T00:30:00.000Z"
+      },
+      {
+        "key": "gamfbda66edcd",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gamfbda66edcd",
+        "label": "LeRoy",
+        "start": "2026-11-18T21:50:00.000Z"
+      },
+      {
+        "key": "gam2b09277091",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gam2b09277091",
+        "label": "LeRoy",
+        "start": "2026-11-19T00:30:00.000Z"
+      },
+      {
+        "key": "gamcdcda4679b",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gamcdcda4679b",
+        "label": "LeRoy",
+        "start": "2026-11-20T21:50:00.000Z"
+      },
+      {
+        "key": "gamec56c31502",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gamec56c31502",
+        "label": "GCMS vs. LeRoy",
+        "start": "2026-11-23T23:20:00.000Z"
+      },
+      {
+        "key": "gamfdee99b0ed",
+        "url": "https://www.nfhsnetwork.com/events/flanagancornell-high-school-flanagan-il/gamfdee99b0ed",
+        "label": "LeRoy vs. FCHS",
+        "start": "2026-12-05T16:30:00.000Z"
+      },
+      {
+        "key": "gambd82d0e16c",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gambd82d0e16c",
+        "label": "Tri-Valley vs. LeRoy",
+        "start": "2026-12-07T23:20:00.000Z"
+      },
+      {
+        "key": "gam8887395a06",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gam8887395a06",
+        "label": "Argenta-Oreana vs. LeRoy",
+        "start": "2026-12-08T23:20:00.000Z"
+      },
+      {
+        "key": "gamedbcfdb79a",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gamedbcfdb79a",
+        "label": "Fisher vs. LeRoy",
+        "start": "2026-12-14T23:20:00.000Z"
+      },
+      {
+        "key": "game13cc8d3cf",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/game13cc8d3cf",
+        "label": "Lexington vs. LeRoy",
+        "start": "2026-12-17T23:20:00.000Z"
+      },
+      {
+        "key": "gambb1b24aa28",
+        "url": "https://www.nfhsnetwork.com/events/leroy-high-school-leroy-il/gambb1b24aa28",
+        "label": "Middle School Boys Basketball",
+        "start": "2027-01-14T21:55:00.000Z"
+      }
+    ],
+    "lewistown-high-school-lewistown-il": [
+      {
+        "key": "gam7a4fbf0cbb",
+        "url": "https://www.nfhsnetwork.com/events/brimfield-high-school-brimfield-il/gam7a4fbf0cbb",
+        "label": "Lewistown vs. Brimfield",
+        "start": "2026-11-21T16:00:00.000Z"
+      },
+      {
+        "key": "gamce0ec83c3f",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gamce0ec83c3f",
+        "label": "Lewistown vs. Camp Point",
+        "start": "2026-11-25T00:00:00.000Z"
+      }
+    ],
+    "liberty-high-school-liberty-il": [
+      {
+        "key": "gam5db6143004",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gam5db6143004",
+        "label": "Liberty vs. Camp Point",
+        "start": "2027-01-15T00:00:00.000Z"
+      }
+    ],
+    "meridian-high-school-macon-macon-il": [
+      {
+        "key": "gamc8fccb125b",
+        "url": "https://www.nfhsnetwork.com/events/clinton-high-school-clinton-il/gamc8fccb125b",
+        "label": "Meridian Macon vs. Clinton",
+        "start": "2026-11-16T23:25:00.000Z"
+      }
+    ],
+    "midwest-central-middle-school-green-valley-il": [
+      {
+        "key": "gam3f98280085",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam3f98280085",
+        "label": "Test Event",
+        "start": "2026-10-31T13:25:58.000Z"
+      },
+      {
+        "key": "game4feb3586a",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/game4feb3586a",
+        "label": "MCMS",
+        "start": "2026-10-31T13:30:00.000Z"
+      },
+      {
+        "key": "gam55072dae80",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam55072dae80",
+        "label": "MCMS",
+        "start": "2026-10-31T16:30:00.000Z"
+      },
+      {
+        "key": "gam808de29ea4",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam808de29ea4",
+        "label": "Delavan Junior High School vs. MCMS",
+        "start": "2026-11-03T23:15:00.000Z"
+      },
+      {
+        "key": "gamc65f560251",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gamc65f560251",
+        "label": "MCMS",
+        "start": "2026-11-07T14:30:00.000Z"
+      },
+      {
+        "key": "gama21e064116",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gama21e064116",
+        "label": "Lincoln Junior High School vs. MCMS",
+        "start": "2026-11-07T19:45:00.000Z"
+      },
+      {
+        "key": "gamc5ca0867a8",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gamc5ca0867a8",
+        "label": "MCMS",
+        "start": "2026-11-09T23:15:00.000Z"
+      },
+      {
+        "key": "gam6fdfd7edca",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam6fdfd7edca",
+        "label": "MCMS",
+        "start": "2026-11-12T23:15:00.000Z"
+      },
+      {
+        "key": "gam25bc9a6196",
+        "url": "https://www.nfhsnetwork.com/events/astoria-high-school-astoria-il/gam25bc9a6196",
+        "label": "Middle School Boys Basketball — Midwest Central Middle School vs. South Fulton",
+        "start": "2026-11-16T23:30:00.000Z"
+      },
+      {
+        "key": "gambdd2e0c733",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gambdd2e0c733",
+        "label": "MCMS",
+        "start": "2026-11-19T23:15:00.000Z"
+      },
+      {
+        "key": "gam48bb9e7f45",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam48bb9e7f45",
+        "label": "MCMS",
+        "start": "2026-11-23T23:15:00.000Z"
+      },
+      {
+        "key": "gam8b2694a745",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam8b2694a745",
+        "label": "MCMS",
+        "start": "2026-11-24T23:15:00.000Z"
+      },
+      {
+        "key": "gam321a3ea176",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam321a3ea176",
+        "label": "MCMS",
+        "start": "2026-12-07T23:15:00.000Z"
+      },
+      {
+        "key": "gam9d8ed00818",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam9d8ed00818",
+        "label": "MCMS",
+        "start": "2026-12-08T23:15:00.000Z"
+      },
+      {
+        "key": "gama43c25cbf3",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gama43c25cbf3",
+        "label": "MCMS",
+        "start": "2026-12-10T23:15:00.000Z"
+      },
+      {
+        "key": "gam95c3c7e870",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam95c3c7e870",
+        "label": "MCMS",
+        "start": "2026-12-14T23:15:00.000Z"
+      },
+      {
+        "key": "gamf7b3406fcf",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamf7b3406fcf",
+        "label": "MCMS vs. Mt. Pulaski",
+        "start": "2027-01-04T23:55:00.000Z"
+      },
+      {
+        "key": "gam261f1180ec",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam261f1180ec",
+        "label": "MCMS",
+        "start": "2027-01-07T23:00:00.000Z"
+      },
+      {
+        "key": "gamd774e712bd",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gamd774e712bd",
+        "label": "MCMS",
+        "start": "2027-01-12T23:15:00.000Z"
+      },
+      {
+        "key": "gam55a7b0c678",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam55a7b0c678",
+        "label": "MCMS",
+        "start": "2027-01-14T23:15:00.000Z"
+      }
+    ],
+    "morrisonville-high-school-morrisonville-il": [
+      {
+        "key": "gambd515b5027",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gambd515b5027",
+        "label": "Lincolnwood vs. Morrisonville",
+        "start": "2026-10-30T23:55:00.000Z"
+      },
+      {
+        "key": "gam9a40386d2a",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gam9a40386d2a",
+        "label": "Morrisonville",
+        "start": "2026-11-09T23:55:00.000Z"
+      },
+      {
+        "key": "gam695c913631",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gam695c913631",
+        "label": "Morrisonville",
+        "start": "2026-11-11T23:55:00.000Z"
+      },
+      {
+        "key": "gam3d620f18db",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gam3d620f18db",
+        "label": "Middle School Boys Basketball",
+        "start": "2026-11-12T23:55:00.000Z"
+      },
+      {
+        "key": "gam1f8375b760",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gam1f8375b760",
+        "label": "Middle School Boys Basketball",
+        "start": "2026-11-13T23:55:00.000Z"
+      },
+      {
+        "key": "gamd4925812d9",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gamd4925812d9",
+        "label": "Middle School Boys Basketball",
+        "start": "2026-11-14T14:55:00.000Z"
+      },
+      {
+        "key": "gam0c9818021b",
+        "url": "https://www.nfhsnetwork.com/events/lincolnwood-high-school-raymond-il/gam0c9818021b",
+        "label": "Morrisonville vs. Lincolnwood",
+        "start": "2026-11-25T00:00:00.000Z"
+      },
+      {
+        "key": "gam8db31c28b9",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gam8db31c28b9",
+        "label": "Pana Junior High School vs. Morrisonville",
+        "start": "2026-11-30T23:55:00.000Z"
+      },
+      {
+        "key": "gam881431c559",
+        "url": "https://www.nfhsnetwork.com/events/bunker-hill-high-school-bunker-hill-il/gam881431c559",
+        "label": "Morrisonville vs. Bunker Hill",
+        "start": "2026-12-04T00:00:00.000Z"
+      },
+      {
+        "key": "gamffe878d69c",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gamffe878d69c",
+        "label": "Morrisonville",
+        "start": "2026-12-11T23:55:00.000Z"
+      },
+      {
+        "key": "gam58ade45ef9",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gam58ade45ef9",
+        "label": "Pawnee vs. Morrisonville",
+        "start": "2026-12-17T23:55:00.000Z"
+      },
+      {
+        "key": "gam0e92aae818",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gam0e92aae818",
+        "label": "Waverly vs. Morrisonville",
+        "start": "2027-01-04T23:55:00.000Z"
+      },
+      {
+        "key": "gamf758da768f",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gamf758da768f",
+        "label": "Calvary vs. Morrisonville",
+        "start": "2027-01-05T23:55:00.000Z"
+      },
+      {
+        "key": "gamedb801bc0e",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gamedb801bc0e",
+        "label": "South Fork vs. Morrisonville",
+        "start": "2027-01-14T23:55:00.000Z"
+      }
+    ],
+    "morton-grove-academy-morton-grove-il": [
+      {
+        "key": "gam6c4b3a4b6a",
+        "url": "https://www.nfhsnetwork.com/events/college-preparatory-school-of-america-lombard-il/gam6c4b3a4b6a",
+        "label": "MCC Academy vs. CPSA",
+        "start": "2026-11-14T16:40:00.000Z"
+      }
+    ],
+    "mt-pulaski-high-school-mt-pulaski-il": [
+      {
+        "key": "gamc860ae2c20",
+        "url": "https://www.nfhsnetwork.com/events/sangamon-valley-high-school-niantic-il/gamc860ae2c20",
+        "label": "Mt. Pulaski vs. Sangamon Valley",
+        "start": "2026-11-03T23:55:00.000Z"
+      },
+      {
+        "key": "gamf74154795a",
+        "url": "https://www.nfhsnetwork.com/events/new-berlin-elementary-school-new-berlin-il/gamf74154795a",
+        "label": "Mt. Pulaski vs. New Berlin Elem",
+        "start": "2026-11-05T23:55:00.000Z"
+      },
+      {
+        "key": "game8fc14fd3b",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/game8fc14fd3b",
+        "label": "Mt. Pulaski",
+        "start": "2026-11-11T23:55:00.000Z"
+      },
+      {
+        "key": "gamc3964d826b",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamc3964d826b",
+        "label": "Mt. Pulaski",
+        "start": "2026-11-14T15:55:00.000Z"
+      },
+      {
+        "key": "gamac30cf1d52",
+        "url": "https://www.nfhsnetwork.com/events/hartsburgemden-high-school-hartsburg-il/gamac30cf1d52",
+        "label": "Mt. Pulaski vs. Hartsburg-Emden",
+        "start": "2026-11-16T23:55:00.000Z"
+      },
+      {
+        "key": "game956271376",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/game956271376",
+        "label": "Athens Junior High School vs. Mt. Pulaski",
+        "start": "2026-11-17T23:55:00.000Z"
+      },
+      {
+        "key": "gameb64a5d7f0",
+        "url": "https://www.nfhsnetwork.com/events/tricity-high-school-buffalo-il/gameb64a5d7f0",
+        "label": "Mt. Pulaski vs. Tri-City",
+        "start": "2026-11-24T00:00:00.000Z"
+      },
+      {
+        "key": "gam7f25c96a6c",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam7f25c96a6c",
+        "label": "Delavan Junior High School vs. Mt. Pulaski",
+        "start": "2026-12-01T23:55:00.000Z"
+      },
+      {
+        "key": "game7d8944954",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/game7d8944954",
+        "label": "Illini Central Middle School vs. Mt. Pulaski",
+        "start": "2026-12-03T23:55:00.000Z"
+      },
+      {
+        "key": "gamc121b4ef7c",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamc121b4ef7c",
+        "label": "Mt. Pulaski",
+        "start": "2026-12-09T22:55:00.000Z"
+      },
+      {
+        "key": "gam6b32d7c1e5",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam6b32d7c1e5",
+        "label": "Warrensburg-Latham Middle School vs. Mt. Pulaski",
+        "start": "2026-12-14T23:55:00.000Z"
+      },
+      {
+        "key": "gam3626ac06bf",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam3626ac06bf",
+        "label": "Riverton Middle School vs. Mt. Pulaski",
+        "start": "2026-12-17T23:55:00.000Z"
+      },
+      {
+        "key": "gambbfa7b54f5",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gambbfa7b54f5",
+        "label": "Riverton vs. Mt. Pulaski",
+        "start": "2026-12-18T00:00:00.000Z"
+      },
+      {
+        "key": "gamf7b3406fcf",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gamf7b3406fcf",
+        "label": "MCMS vs. Mt. Pulaski",
+        "start": "2027-01-04T23:55:00.000Z"
+      },
+      {
+        "key": "gam37846c181e",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam37846c181e",
+        "label": "Mt. Pulaski",
+        "start": "2027-01-12T23:55:00.000Z"
+      },
+      {
+        "key": "gama4319ff8fe",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gama4319ff8fe",
+        "label": "Mt. Pulaski",
+        "start": "2027-01-13T23:55:00.000Z"
+      }
+    ],
+    "nokomis-high-school-nokomis-il": [
+      {
+        "key": "gam1f8375b760",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gam1f8375b760",
+        "label": "Middle School Boys Basketball",
+        "start": "2026-11-13T23:55:00.000Z"
+      },
+      {
+        "key": "gamd4925812d9",
+        "url": "https://www.nfhsnetwork.com/events/morrisonville-high-school-morrisonville-il/gamd4925812d9",
+        "label": "Middle School Boys Basketball",
+        "start": "2026-11-14T14:55:00.000Z"
+      }
+    ],
+    "north-greene-high-school-white-hall-il": [
+      {
+        "key": "gam238a132d5c",
+        "url": "https://www.nfhsnetwork.com/events/waverly-high-school-waverly-il/gam238a132d5c",
+        "label": "North Greene vs. Waverly",
+        "start": "2026-11-03T23:55:00.000Z"
+      },
+      {
+        "key": "gam018c44a0ab",
+        "url": "https://www.nfhsnetwork.com/events/north-greene-high-school-white-hall-il/gam018c44a0ab",
+        "label": "Away vs. North Greene",
+        "start": "2026-11-06T00:00:00.000Z"
+      },
+      {
+        "key": "gam5d8c6b8c3c",
+        "url": "https://www.nfhsnetwork.com/events/north-greene-high-school-white-hall-il/gam5d8c6b8c3c",
+        "label": "Away vs. North Greene",
+        "start": "2026-11-18T00:00:00.000Z"
+      },
+      {
+        "key": "gambdc5c7af57",
+        "url": "https://www.nfhsnetwork.com/events/triopia-high-school-coop-w-meredosiachamb-concord-il/gambdc5c7af57",
+        "label": "North Greene vs. Triopia",
+        "start": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "key": "gam897f10486e",
+        "url": "https://www.nfhsnetwork.com/events/north-greene-high-school-white-hall-il/gam897f10486e",
+        "label": "Away vs. North Greene",
+        "start": "2026-12-02T00:00:00.000Z"
+      },
+      {
+        "key": "gam4d14adffce",
+        "url": "https://www.nfhsnetwork.com/events/north-greene-high-school-white-hall-il/gam4d14adffce",
+        "label": "Away vs. North Greene",
+        "start": "2026-12-02T23:30:00.000Z"
+      },
+      {
+        "key": "game681a221ed",
+        "url": "https://www.nfhsnetwork.com/events/north-greene-high-school-white-hall-il/game681a221ed",
+        "label": "Away vs. North Greene",
+        "start": "2026-12-05T00:00:00.000Z"
+      },
+      {
+        "key": "gam3158237e58",
+        "url": "https://www.nfhsnetwork.com/events/north-greene-high-school-white-hall-il/gam3158237e58",
+        "label": "Away vs. North Greene",
+        "start": "2026-12-15T00:00:00.000Z"
+      },
+      {
+        "key": "game9ec11c464",
+        "url": "https://www.nfhsnetwork.com/events/north-greene-high-school-white-hall-il/game9ec11c464",
+        "label": "Virginia vs. North Greene",
+        "start": "2026-12-16T00:00:00.000Z"
+      },
+      {
+        "key": "gam6a891a4cde",
+        "url": "https://www.nfhsnetwork.com/events/north-greene-high-school-white-hall-il/gam6a891a4cde",
+        "label": "Away vs. North Greene",
+        "start": "2027-01-06T00:00:00.000Z"
+      },
+      {
+        "key": "gam92c7b7f76f",
+        "url": "https://www.nfhsnetwork.com/events/north-greene-high-school-white-hall-il/gam92c7b7f76f",
+        "label": "Winchester vs. North Greene",
+        "start": "2027-01-14T00:00:00.000Z"
+      },
+      {
+        "key": "gamae2c986c3b",
+        "url": "https://www.nfhsnetwork.com/events/north-greene-high-school-white-hall-il/gamae2c986c3b",
+        "label": "Away vs. North Greene",
+        "start": "2027-01-20T00:00:00.000Z"
+      },
+      {
+        "key": "gam04964fb53c",
+        "url": "https://www.nfhsnetwork.com/events/north-greene-high-school-white-hall-il/gam04964fb53c",
+        "label": "Away vs. North Greene",
+        "start": "2027-02-03T00:00:00.000Z"
+      },
+      {
+        "key": "gamae234e21fb",
+        "url": "https://www.nfhsnetwork.com/events/north-greene-high-school-white-hall-il/gamae234e21fb",
+        "label": "Away vs. North Greene",
+        "start": "2027-02-20T16:00:00.000Z"
+      }
+    ],
     "oakwood-high-school-fithian-il": [],
-    "oblong-high-school-oblong-il": [],
-    "paris-high-school-paris-il": [],
-    "porta-high-school-petersburg-il": [],
+    "oblong-high-school-oblong-il": [
+      {
+        "key": "gambda4d308ac",
+        "url": "https://www.nfhsnetwork.com/events/martinsville-high-school-martinsville-il/gambda4d308ac",
+        "label": "Oblong vs. Martinsville",
+        "start": "2027-02-02T00:00:00.000Z"
+      }
+    ],
+    "paris-high-school-paris-il": [
+      {
+        "key": "gamadd5587e41",
+        "url": "https://www.nfhsnetwork.com/events/schlarman-academy-danville-il/gamadd5587e41",
+        "label": "Middle School Boys Basketball",
+        "start": "2026-11-06T23:15:00.000Z"
+      },
+      {
+        "key": "gam8b91d59230",
+        "url": "https://www.nfhsnetwork.com/events/schlarman-academy-danville-il/gam8b91d59230",
+        "label": "Middle School Boys Basketball",
+        "start": "2026-11-07T15:15:00.000Z"
+      },
+      {
+        "key": "gam421cb18db2",
+        "url": "https://www.nfhsnetwork.com/events/schlarman-academy-danville-il/gam421cb18db2",
+        "label": "Middle School Boys Basketball",
+        "start": "2026-11-07T19:15:00.000Z"
+      }
+    ],
+    "porta-high-school-petersburg-il": [
+      {
+        "key": "gam0070db28b9",
+        "url": "https://www.nfhsnetwork.com/events/auburn-high-school-auburn-auburn-il/gam0070db28b9",
+        "label": "PORTA vs. Auburn",
+        "start": "2026-11-03T23:55:00.000Z"
+      },
+      {
+        "key": "gam015b1a0347",
+        "url": "https://www.nfhsnetwork.com/events/greenview-high-school-greenview-il/gam015b1a0347",
+        "label": "PORTA vs. Greenview",
+        "start": "2026-11-10T22:30:00.000Z"
+      },
+      {
+        "key": "gam74d81cfe5f",
+        "url": "https://www.nfhsnetwork.com/events/north-mac-high-school-virden-il/gam74d81cfe5f",
+        "label": "PORTA vs. North Mac",
+        "start": "2026-12-01T00:00:00.000Z"
+      },
+      {
+        "key": "gam28093fa692",
+        "url": "https://www.nfhsnetwork.com/events/williamsville-high-school-williamsville-il/gam28093fa692",
+        "label": "6th Grade Boys Basketball — PORTA Junior High vs. Williamsville Junior High",
+        "start": "2027-02-01T23:45:00.000Z"
+      }
+    ],
     "princeville-high-school-princeville-il": [],
     "putnam-county-junior-high-school-mc-nabb-il": [],
     "schuyler-industry-middle-school-rushville-il": [],
     "seneca-high-school-seneca-il": [],
-    "serena-middle-school-serena-il": [],
-    "somonauk-middle-school-somonauk-il": [],
+    "serena-middle-school-serena-il": [
+      {
+        "key": "gambccb94ed9e",
+        "url": "https://www.nfhsnetwork.com/events/bureau-valley-high-school-manlius-il/gambccb94ed9e",
+        "label": "Serena MS vs. Bureau Valley",
+        "start": "2026-11-23T22:30:00.000Z"
+      }
+    ],
+    "somonauk-middle-school-somonauk-il": [
+      {
+        "key": "gamd9cfaf3f91",
+        "url": "https://www.nfhsnetwork.com/events/leland-high-school-leland-il/gamd9cfaf3f91",
+        "label": "Somonauk MS vs. Leland",
+        "start": "2026-12-14T22:30:00.000Z"
+      }
+    ],
     "south-central-high-school-farina-il": [],
     "sparland-midland-middle-school-sparland-il": [],
     "spoon-river-valley-high-school-coop-w-cuba-london-mills-il": [],
-    "st-matthew-catholic-school-champaign-il": [],
-    "stark-county-high-school-toulon-il": [],
-    "stewardsonstrasburg-high-school-strasburg-il": [],
+    "st-matthew-catholic-school-champaign-il": [
+      {
+        "key": "gambd35755656",
+        "url": "https://www.nfhsnetwork.com/events/st-thomas-catholic-school-philo-il/gambd35755656",
+        "label": "St Matthew vs. St Thomas",
+        "start": "2026-12-17T23:25:00.000Z"
+      }
+    ],
+    "stark-county-high-school-toulon-il": [
+      {
+        "key": "gam8881fd5de9",
+        "url": "https://www.nfhsnetwork.com/events/stark-county-high-school-toulon-il/gam8881fd5de9",
+        "label": "Away vs. Stark County",
+        "start": "2026-11-19T23:30:00.000Z"
+      },
+      {
+        "key": "gamdd4a219475",
+        "url": "https://www.nfhsnetwork.com/events/stark-county-high-school-toulon-il/gamdd4a219475",
+        "label": "Annawan vs. Stark County",
+        "start": "2026-11-30T23:30:00.000Z"
+      },
+      {
+        "key": "gamc461dd0148",
+        "url": "https://www.nfhsnetwork.com/events/stark-county-high-school-toulon-il/gamc461dd0148",
+        "label": "Away vs. Stark County",
+        "start": "2026-12-02T23:30:00.000Z"
+      },
+      {
+        "key": "gamea613d2410",
+        "url": "https://www.nfhsnetwork.com/events/stark-county-high-school-toulon-il/gamea613d2410",
+        "label": "Away vs. Stark County",
+        "start": "2026-12-03T23:30:00.000Z"
+      },
+      {
+        "key": "gam7c273353f4",
+        "url": "https://www.nfhsnetwork.com/events/stark-county-high-school-toulon-il/gam7c273353f4",
+        "label": "Cambridge vs. Stark County",
+        "start": "2026-12-07T23:30:00.000Z"
+      },
+      {
+        "key": "game06f8f967c",
+        "url": "https://www.nfhsnetwork.com/events/stark-county-high-school-toulon-il/game06f8f967c",
+        "label": "Midland Middle School vs. Stark County",
+        "start": "2026-12-10T23:30:00.000Z"
+      },
+      {
+        "key": "gam0cf27c16f9",
+        "url": "https://www.nfhsnetwork.com/events/stark-county-high-school-toulon-il/gam0cf27c16f9",
+        "label": "AlWood vs. Stark County",
+        "start": "2026-12-16T23:30:00.000Z"
+      },
+      {
+        "key": "gam84fdf50798",
+        "url": "https://www.nfhsnetwork.com/events/stark-county-high-school-toulon-il/gam84fdf50798",
+        "label": "Annawan vs. Stark County",
+        "start": "2026-12-17T23:30:00.000Z"
+      },
+      {
+        "key": "gamd0eb986d39",
+        "url": "https://www.nfhsnetwork.com/events/stark-county-high-school-toulon-il/gamd0eb986d39",
+        "label": "Away vs. Stark County",
+        "start": "2027-01-07T23:30:00.000Z"
+      },
+      {
+        "key": "gam7c061445ac",
+        "url": "https://www.nfhsnetwork.com/events/stark-county-high-school-toulon-il/gam7c061445ac",
+        "label": "Away vs. Stark County",
+        "start": "2027-01-16T06:01:00.000Z"
+      },
+      {
+        "key": "gam9c4719fe39",
+        "url": "https://www.nfhsnetwork.com/events/stark-county-high-school-toulon-il/gam9c4719fe39",
+        "label": "Stark County",
+        "start": "2027-01-23T06:01:00.000Z"
+      }
+    ],
+    "stewardsonstrasburg-high-school-strasburg-il": [
+      {
+        "key": "gam29ab1ab53e",
+        "url": "https://www.nfhsnetwork.com/events/windsor-high-school-windsor-il/gam29ab1ab53e",
+        "label": "S-S vs. Windsor",
+        "start": "2026-11-23T23:55:00.000Z"
+      }
+    ],
     "vit-high-school-astoriatable-grove-coop-table-grove-il": [],
-    "warrensburglatham-high-school-warrensburg-il": [],
-    "west-central-high-school-coop-w-winchester-biggsville-il": [],
-    "west-prairie-middle-school-colchester-il": [],
-    "williamsfield-high-school-williamsfield-il": []
+    "warrensburglatham-high-school-warrensburg-il": [
+      {
+        "key": "gam458df38c7a",
+        "url": "https://www.nfhsnetwork.com/events/new-berlin-high-school-new-berlin-il/gam458df38c7a",
+        "label": "W'burg-Latham vs. New Berlin",
+        "start": "2026-11-02T23:55:00.000Z"
+      }
+    ],
+    "west-central-high-school-coop-w-winchester-biggsville-il": [
+      {
+        "key": "game76f519eef",
+        "url": "https://www.nfhsnetwork.com/events/west-central-high-school-coop-w-winchester-biggsville-il/game76f519eef",
+        "label": "Away vs. WCHS",
+        "start": "2027-01-05T23:30:00.000Z"
+      }
+    ],
+    "west-prairie-middle-school-colchester-il": [
+      {
+        "key": "gam0f86555994",
+        "url": "https://www.nfhsnetwork.com/events/central-high-school-camp-point-camp-point-il/gam0f86555994",
+        "label": "West Prairie Middle School vs. Camp Point",
+        "start": "2026-11-03T00:00:00.000Z"
+      },
+      {
+        "key": "gam612249952b",
+        "url": "https://www.nfhsnetwork.com/events/astoria-high-school-astoria-il/gam612249952b",
+        "label": "Middle School Boys Basketball — West Prairie Middle School vs. South Fulton",
+        "start": "2026-12-17T23:30:00.000Z"
+      }
+    ],
+    "williamsfield-high-school-williamsfield-il": [
+      {
+        "key": "gam5f9ce3faec",
+        "url": "https://www.nfhsnetwork.com/events/annawan-high-school-annawan-il/gam5f9ce3faec",
+        "label": "Williamsfield vs. Annawan",
+        "start": "2026-12-16T23:30:00.000Z"
+      }
+    ]
   }
 }

@@ -1,11 +1,297 @@
 {
-  "updatedAt": "2026-11-22 11:37",
+  "updatedAt": "2026-11-23 23:34",
   "schools": {
-    "Arcola": [],
-    "Effingham St. Anthony": [],
-    "Greenfield (Co-op)": [],
-    "Liberty": [],
-    "Pawnee": [],
-    "Riverton": []
+    "Arcola": [
+      {
+        "key": "RmFuQnJvYWRjYXN0Mzc5NzA5OA==",
+        "url": "https://fan.hudl.com/usa/il/arcola/organization/78055/arcola-high-school/watch?b=RmFuQnJvYWRjYXN0Mzc5NzA5OA%3D%3D",
+        "label": "Arcola vs. Martinsville High School",
+        "title": "Arcola High School vs Martinsville High School Mens Other Basketball",
+        "start": "2026-11-06T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0Mzc5NzA5OQ==",
+        "url": "https://fan.hudl.com/usa/il/arcola/organization/78055/arcola-high-school/watch?b=RmFuQnJvYWRjYXN0Mzc5NzA5OQ%3D%3D",
+        "label": "Arcola vs. Tuscola High School",
+        "title": "Arcola High School vs Tuscola High School Mens Other Basketball",
+        "start": "2026-11-17T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0Mzc5NzEwMQ==",
+        "url": "https://fan.hudl.com/usa/il/arcola/organization/78055/arcola-high-school/watch?b=RmFuQnJvYWRjYXN0Mzc5NzEwMQ%3D%3D",
+        "label": "Arcola vs. Unity High School",
+        "title": "Arcola High School vs Unity High School Mens Other Basketball",
+        "start": "2026-11-23T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0Mzc5NzEwMg==",
+        "url": "https://fan.hudl.com/usa/il/arcola/organization/78055/arcola-high-school/watch?b=RmFuQnJvYWRjYXN0Mzc5NzEwMg%3D%3D",
+        "label": "Arcola vs. Oakland High School",
+        "title": "Arcola High School vs Oakland High School Mens Other Basketball",
+        "start": "2026-11-30T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0Mzc5NzEwNA==",
+        "url": "https://fan.hudl.com/usa/il/arcola/organization/78055/arcola-high-school/watch?b=RmFuQnJvYWRjYXN0Mzc5NzEwNA%3D%3D",
+        "label": "Arcola vs. Unity Christian of Decatur",
+        "title": "Arcola High School vs Unity Christian of Decatur Mens Other Basketball",
+        "start": "2026-12-01T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0Mzc5NzEwNw==",
+        "url": "https://fan.hudl.com/usa/il/arcola/organization/78055/arcola-high-school/watch?b=RmFuQnJvYWRjYXN0Mzc5NzEwNw%3D%3D",
+        "label": "Arcola vs. ALAH School",
+        "title": "Arcola High School vs ALAH JH School Mens Other Basketball",
+        "start": "2026-12-07T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0Mzc5NzExNA==",
+        "url": "https://fan.hudl.com/usa/il/arcola/organization/78055/arcola-high-school/watch?b=RmFuQnJvYWRjYXN0Mzc5NzExNA%3D%3D",
+        "label": "Arcola vs. Mattoon St. Johns Luthern",
+        "title": "Arcola High School vs Mattoon St. Johns Luthern Mens Other Basketball",
+        "start": "2026-12-08T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0Mzc5NzEyMQ==",
+        "url": "https://fan.hudl.com/usa/il/arcola/organization/78055/arcola-high-school/watch?b=RmFuQnJvYWRjYXN0Mzc5NzEyMQ%3D%3D",
+        "label": "Arcola vs. Shiloh High School",
+        "title": "Arcola High School vs Shiloh High School Mens Other Basketball",
+        "start": "2026-12-10T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0Mzc5NzEyNg==",
+        "url": "https://fan.hudl.com/usa/il/arcola/organization/78055/arcola-high-school/watch?b=RmFuQnJvYWRjYXN0Mzc5NzEyNg%3D%3D",
+        "label": "Arcola vs. Paris Mayo",
+        "title": "Arcola High School vs Paris Mayo Mens Other Basketball",
+        "start": "2026-12-15T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0Mzc5NzEzMA==",
+        "url": "https://fan.hudl.com/usa/il/arcola/organization/78055/arcola-high-school/watch?b=RmFuQnJvYWRjYXN0Mzc5NzEzMA%3D%3D",
+        "label": "Arcola vs. Sullivan High School",
+        "title": "Arcola High School vs Sullivan High School Mens Other Basketball",
+        "start": "2027-01-04T23:55:00Z"
+      }
+    ],
+    "Effingham St. Anthony": [
+      {
+        "key": "RmFuQnJvYWRjYXN0NDY5ODY3MQ==",
+        "url": "https://fan.hudl.com/usa/il/effingham/organization/131445/st-anthony-effingham-high-school/watch?b=RmFuQnJvYWRjYXN0NDY5ODY3MQ%3D%3D",
+        "label": "Effingham St. Anthony vs. Jasper County",
+        "title": "7th Gr. followed by 8th Gr. - St Anthony Effingham vs Jasper County Jr. High Mens Basketball",
+        "start": "2026-11-30T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDY5ODY5Ng==",
+        "url": "https://fan.hudl.com/usa/il/effingham/organization/131445/st-anthony-effingham-high-school/watch?b=RmFuQnJvYWRjYXN0NDY5ODY5Ng%3D%3D",
+        "label": "Effingham St. Anthony vs. Centrailia School",
+        "title": "7th Gr. followed by 8th Gr. - St Anthony Effingham vs Centrailia Jr. High School Mens Basketball",
+        "start": "2026-12-10T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDY5ODY5OQ==",
+        "url": "https://fan.hudl.com/usa/il/effingham/organization/131445/st-anthony-effingham-high-school/watch?b=RmFuQnJvYWRjYXN0NDY5ODY5OQ%3D%3D",
+        "label": "Effingham St. Anthony vs. Altamont Lutheran",
+        "title": "7th Gr. followed by 8th Gr. - St Anthony Effingham vs Altamont Lutheran JH Mens Basketball",
+        "start": "2027-01-04T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDY5ODcwOA==",
+        "url": "https://fan.hudl.com/usa/il/effingham/organization/131445/st-anthony-effingham-high-school/watch?b=RmFuQnJvYWRjYXN0NDY5ODcwOA%3D%3D",
+        "label": "Effingham St. Anthony vs. Mt. Zion High School",
+        "title": "7th Gr. followed 8th Gr. - St Anthony Effingham vs Mt. Zion High School Mens Basketball",
+        "start": "2027-01-11T23:55:00Z"
+      }
+    ],
+    "Greenfield (Co-op)": [
+      {
+        "key": "RmFuQnJvYWRjYXN0NDcxMDA5OA==",
+        "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDcxMDA5OA%3D%3D",
+        "label": "Greenfield vs. Triopia BBB",
+        "title": "GNW vs. Triopia JH BBB",
+        "start": "2026-12-09T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDcxMDExNg==",
+        "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDcxMDExNg%3D%3D",
+        "label": "Greenfield vs. AC Central BBB",
+        "title": "GNW vs. AC Central JH BBB",
+        "start": "2026-12-15T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDc3MDUwMw==",
+        "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDc3MDUwMw%3D%3D",
+        "label": "Greenfield vs. New Berlin",
+        "title": "GNW vs. New Berlin",
+        "start": "2026-12-17T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDcxMDEyNg==",
+        "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDcxMDEyNg%3D%3D",
+        "label": "Greenfield vs. Bunker Hill BBB",
+        "title": "GNW vs. Bunker Hill JH BBB",
+        "start": "2026-12-21T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDcxMDE0Nw==",
+        "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDcxMDE0Nw%3D%3D",
+        "label": "Greenfield vs. Madison Boys' High School",
+        "title": "Greenfield/Northwest vs Madison Boys' High School Basketball",
+        "start": "2026-12-22T22:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDcxMDE2MA==",
+        "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDcxMDE2MA%3D%3D",
+        "label": "Greenfield vs. Griggsville Perry",
+        "title": "GNW vs. Griggsville Perry",
+        "start": "2026-12-29T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDcxMDE3Mg==",
+        "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDcxMDE3Mg%3D%3D",
+        "label": "Greenfield vs. West Central BBB",
+        "title": "GNW vs. West Central JH BBB",
+        "start": "2027-01-04T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDcxMDE4Ng==",
+        "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDcxMDE4Ng%3D%3D",
+        "label": "Greenfield vs. P-Hill BBB",
+        "title": "GNW vs. P-Hill JH BBB",
+        "start": "2027-01-12T23:55:00Z"
+      }
+    ],
+    "Liberty": [
+      {
+        "key": "RmFuQnJvYWRjYXN0NDg0Mjc1NQ==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDg0Mjc1NQ%3D%3D",
+        "label": "Liberty vs. Griggsville",
+        "title": "Liberty JH vs Griggsville JH Basketball",
+        "start": "2026-11-16T22:25:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDg0MjgwMg==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDg0MjgwMg%3D%3D",
+        "label": "Liberty vs. Western",
+        "title": "QND JH vs Western JH Basketball",
+        "start": "2026-11-17T00:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDg0MjgxOQ==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDg0MjgxOQ%3D%3D",
+        "label": "Liberty vs. Pleasant Hill",
+        "title": "Liberty JH vs Pleasant Hill JH Basketball",
+        "start": "2026-11-17T01:30:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDg0Mjg4NQ==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDg0Mjg4NQ%3D%3D",
+        "label": "Liberty vs. Quincy",
+        "title": "Unity JH vs Quincy JH Basketball",
+        "start": "2026-11-18T22:25:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDg0MjkwNQ==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDg0MjkwNQ%3D%3D",
+        "label": "Liberty vs. Pleasant Hill",
+        "title": "Griggsville JH vs Pleasant Hill JH Basketball",
+        "start": "2026-11-19T00:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDg0MjkxOA==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDg0MjkxOA%3D%3D",
+        "label": "Liberty vs. Western",
+        "title": "Unity JH vs Western JH Basketball",
+        "start": "2026-11-19T01:30:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDg4Mzg4MA==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDg4Mzg4MA%3D%3D",
+        "label": "Liberty vs. Quincy Catholic Boys Junior High",
+        "title": "Liberty Junior High School vs Quincy Catholic Boys Junior High Basketball",
+        "start": "2026-11-20T23:45:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDg4Mzc5Nw==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDg4Mzc5Nw%3D%3D",
+        "label": "Liberty vs. Quincy Catholic",
+        "title": "Liberty Junior High School vs Quincy Catholic  Basketball",
+        "start": "2026-11-21T00:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDg4Mzg5NA==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDg4Mzg5NA%3D%3D",
+        "label": "Liberty vs. Western Junior High",
+        "title": "Griggsville Junior High vs Western Junior High Boys Basketball",
+        "start": "2026-11-21T01:10:00Z"
+      }
+    ],
+    "Pawnee": [
+      {
+        "key": "RmFuQnJvYWRjYXN0NDgxMjc0MQ==",
+        "url": "https://fan.hudl.com/usa/il/pawnee/organization/1154/pawnee-high-school/watch?b=RmFuQnJvYWRjYXN0NDgxMjc0MQ%3D%3D",
+        "label": "Pawnee vs. Auburn",
+        "title": "Pawnee High School vs Auburn JH Boys' JuniorVarsity Basketball",
+        "start": "2026-11-12T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDg1ODYzOA==",
+        "url": "https://fan.hudl.com/usa/il/pawnee/organization/1154/pawnee-high-school/watch?b=RmFuQnJvYWRjYXN0NDg1ODYzOA%3D%3D",
+        "label": "Pawnee vs. SCS",
+        "title": "Pawnee High School vs SCS Boys' JuniorVarsity Basketball",
+        "start": "2026-11-17T23:58:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDkwODgzMg==",
+        "url": "https://fan.hudl.com/usa/il/pawnee/organization/1154/pawnee-high-school/watch?b=RmFuQnJvYWRjYXN0NDkwODgzMg%3D%3D",
+        "label": "Pawnee vs. Riverton High School",
+        "title": "Pawnee High School vs Riverton High School Boys' JuniorVarsity Basketball",
+        "start": "2026-11-23T23:58:00Z"
+      }
+    ],
+    "Riverton": [
+      {
+        "key": "RmFuQnJvYWRjYXN0NDczMDQ1NQ==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDczMDQ1NQ%3D%3D",
+        "label": "Riverton vs. Warrensburg-Latham 7th Grade boys",
+        "title": "Riverton High School vs Warrensburg-Latham 7th Grade boys Mens Other Basketball",
+        "start": "2026-10-31T15:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDczMDc5NQ==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDczMDc5NQ%3D%3D",
+        "label": "Riverton vs. Warrensburg-Latham 8th Grade Boys",
+        "title": "Riverton High School vs Warrensburg-Latham 8th Grade Boys Mens Varsity Basketball",
+        "start": "2026-10-31T16:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDc2NTA4Mw==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDc2NTA4Mw%3D%3D",
+        "label": "Riverton vs. Rochester 7th Grade Boys",
+        "title": "Riverton High School vs Rochester 7th Grade Boys Mens Other Basketball",
+        "start": "2026-11-05T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDc2NTA5Mw==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDc2NTA5Mw%3D%3D",
+        "label": "Riverton vs. Rochester 8th grade boys",
+        "title": "Riverton High School vs Rochester 8th grade boys Mens Varsity Basketball",
+        "start": "2026-11-06T01:00:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDg2ODE3Mw==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDg2ODE3Mw%3D%3D",
+        "label": "Riverton vs. Athens 7th Grade",
+        "title": "Riverton vs Athens 7th Grade Boys Basketball",
+        "start": "2026-11-19T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDg2ODE4Mg==",
+        "url": "https://fan.hudl.com/usa/il/riverton/organization/17915/riverton-high-school/watch?b=RmFuQnJvYWRjYXN0NDg2ODE4Mg%3D%3D",
+        "label": "Riverton vs. Athens 8th Grade",
+        "title": "Riverton vs Athens 8th Grade Boys Basketball",
+        "start": "2026-11-20T01:00:00Z"
+      }
+    ]
   }
 }
