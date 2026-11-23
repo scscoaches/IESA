@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 11:37",
+  "updatedAt": "2026-11-23 23:13",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -738,6 +738,30 @@
         "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gambb4a50e20a",
         "label": "MCMS",
         "start": "2026-11-16T23:15:00.000Z"
+      },
+      {
+        "key": "gamd38e754000",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gamd38e754000",
+        "label": "2026 Girls Basketball Regional — MCMS",
+        "start": "2026-11-30T23:00:00.000Z"
+      },
+      {
+        "key": "gam23a5495056",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam23a5495056",
+        "label": "2026 Girls Basketball Regional — MCMS",
+        "start": "2026-12-01T23:00:00.000Z"
+      },
+      {
+        "key": "gam2f7eee051b",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam2f7eee051b",
+        "label": "2026 Girls Basketball Semifinal — MCMS",
+        "start": "2026-12-03T23:00:00.000Z"
+      },
+      {
+        "key": "gama74703bf17",
+        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gama74703bf17",
+        "label": "2026 Girls Basketball Championship — MCMS",
+        "start": "2026-12-04T23:00:00.000Z"
       }
     ],
     "morrisonville-high-school-morrisonville-il": [

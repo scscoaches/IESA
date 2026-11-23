@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 11:37",
+  "updatedAt": "2026-11-23 23:14",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -1709,10 +1709,10 @@
               "Lawrenceville Parkview"
             ],
             "scores": [
-              null,
-              null
+              32,
+              5
             ],
-            "winner": null,
+            "winner": "Marshall JHS",
             "bye": false
           }
         ],
@@ -1732,7 +1732,7 @@
           {
             "teams": [
               "Robinson Nuttall",
-              null
+              "Marshall JHS"
             ],
             "scores": [
               null,

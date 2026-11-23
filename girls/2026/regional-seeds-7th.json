@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 11:37",
+  "updatedAt": "2026-11-23 23:13",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -1916,6 +1916,44 @@
               "Wood River Lewis & Clark"
             ],
             "scores": [
+              35,
+              11
+            ],
+            "winner": "White Hall North Greene",
+            "bye": false
+          },
+          {
+            "teams": [
+              "Maryville Christian",
+              "East Alton MS"
+            ],
+            "scores": [
+              41,
+              8
+            ],
+            "winner": "Maryville Christian",
+            "bye": false
+          },
+          {
+            "teams": [
+              "Greenfield (Co-op)",
+              "Bunker Hill Wolf Ridge"
+            ],
+            "scores": [
+              49,
+              8
+            ],
+            "winner": "Greenfield (Co-op)",
+            "bye": false
+          }
+        ],
+        [
+          {
+            "teams": [
+              "Hardin Calhoun (Co-op)",
+              "White Hall North Greene"
+            ],
+            "scores": [
               null,
               null
             ],
@@ -1925,45 +1963,7 @@
           {
             "teams": [
               "Maryville Christian",
-              "East Alton MS"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              "Greenfield (Co-op)",
-              "Bunker Hill Wolf Ridge"
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          }
-        ],
-        [
-          {
-            "teams": [
-              "Hardin Calhoun (Co-op)",
-              null
-            ],
-            "scores": [
-              null,
-              null
-            ],
-            "winner": null,
-            "bye": false
-          },
-          {
-            "teams": [
-              null,
-              null
+              "Greenfield (Co-op)"
             ],
             "scores": [
               null,

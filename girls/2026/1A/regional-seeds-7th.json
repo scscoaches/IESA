@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 11:37",
+  "updatedAt": "2026-11-23 23:13",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -1876,10 +1876,10 @@
               "Mulberry Grove JHS"
             ],
             "scores": [
-              null,
-              null
+              39,
+              14
             ],
-            "winner": null,
+            "winner": "Ramsey (Co-op)",
             "bye": false
           },
           {
@@ -1911,7 +1911,7 @@
           {
             "teams": [
               "Pana Sacred Heart",
-              null
+              "Ramsey (Co-op)"
             ],
             "scores": [
               null,

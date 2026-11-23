@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-22 11:37",
+  "updatedAt": "2026-11-23 23:14",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -219,10 +219,10 @@ window.iesaRegionalSeedCache = {
               "Plano"
             ],
             "scores": [
-              null,
-              null
+              35,
+              5
             ],
-            "winner": null,
+            "winner": "Rockford Eisenhower",
             "bye": false
           },
           {
@@ -231,18 +231,18 @@ window.iesaRegionalSeedCache = {
               "Ottawa Shepherd"
             ],
             "scores": [
-              null,
-              null
+              10,
+              35
             ],
-            "winner": null,
+            "winner": "Ottawa Shepherd",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Rockford Eisenhower",
+              "Ottawa Shepherd"
             ],
             "scores": [
               null,
@@ -597,10 +597,10 @@ window.iesaRegionalSeedCache = {
               "Homewood Hart"
             ],
             "scores": [
-              null,
-              null
+              37,
+              19
             ],
-            "winner": null,
+            "winner": "Lansing Memorial",
             "bye": false
           },
           {
@@ -609,18 +609,18 @@ window.iesaRegionalSeedCache = {
               "Markham Prairie-Hills"
             ],
             "scores": [
-              null,
-              null
+              31,
+              38
             ],
-            "winner": null,
+            "winner": "Markham Prairie-Hills",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Lansing Memorial",
+              "Markham Prairie-Hills"
             ],
             "scores": [
               null,
@@ -1987,10 +1987,10 @@ window.iesaRegionalSeedCache = {
               "O'Fallon Fulton"
             ],
             "scores": [
-              null,
-              null
+              60,
+              3
             ],
-            "winner": null,
+            "winner": "Mascoutah",
             "bye": false
           },
           {
@@ -2009,7 +2009,7 @@ window.iesaRegionalSeedCache = {
         [
           {
             "teams": [
-              null,
+              "Mascoutah",
               null
             ],
             "scores": [

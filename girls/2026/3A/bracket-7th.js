@@ -1,11 +1,19 @@
 window.iesaBracketCache = {
-  "updatedAt": "2026-11-22 11:38",
+  "updatedAt": "2026-11-23 23:14",
   "year": 2026,
   "grade": "7th",
   "regionals": {},
   "sectionalPairingRecords": {},
   "sectionals": {},
   "quarterfinalMatchups": {
+    "1": [
+      4,
+      5
+    ],
+    "2": [
+      8,
+      3
+    ],
     "3": [
       6,
       2
@@ -13,30 +21,9 @@ window.iesaBracketCache = {
     "4": [
       7,
       1
-    ],
-    "2": [
-      8,
-      3
-    ],
-    "1": [
-      4,
-      5
     ]
   },
   "games": {
-    "1": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-3A"
-    },
     "4": {
       "teams": [
         null,
@@ -50,7 +37,20 @@ window.iesaBracketCache = {
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-3A"
     },
-    "6": {
+    "8": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-3A"
+    },
+    "2": {
       "teams": [
         null,
         null
@@ -76,7 +76,7 @@ window.iesaBracketCache = {
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-3A"
     },
-    "2": {
+    "6": {
       "teams": [
         null,
         null
@@ -115,7 +115,7 @@ window.iesaBracketCache = {
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-3A"
     },
-    "8": {
+    "1": {
       "teams": [
         null,
         null

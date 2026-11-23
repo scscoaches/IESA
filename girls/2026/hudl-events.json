@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 11:37",
+  "updatedAt": "2026-11-23 23:13",
   "schools": {
     "Arcola": [
       {
@@ -60,7 +60,22 @@
       }
     ],
     "Effingham St. Anthony": [],
-    "Greenfield (Co-op)": [],
+    "Greenfield (Co-op)": [
+      {
+        "key": "RmFuQnJvYWRjYXN0NDkwMzI0Nw==",
+        "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDkwMzI0Nw%3D%3D",
+        "label": "Greenfield vs. 7th Grade GBB Regional Girls' High School",
+        "title": "Greenfield/Northwest vs 7th Grade GBB Regional  Girls' High School Basketball",
+        "start": "2026-11-23T23:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDkwMzI3NQ==",
+        "url": "https://fan.hudl.com/usa/il/greenfield/organization/20029/greenfieldnorthwest-high-school/watch?b=RmFuQnJvYWRjYXN0NDkwMzI3NQ%3D%3D",
+        "label": "Greenfield vs. 7th Grade GBB Regional Championship Girls' High School",
+        "title": "Greenfield/Northwest vs 7th Grade GBB Regional Championship  Girls' High School Basketball",
+        "start": "2026-11-25T23:55:00Z"
+      }
+    ],
     "Liberty": [
       {
         "key": "RmFuQnJvYWRjYXN0NDUzMjAzNg==",
@@ -131,6 +146,13 @@
         "label": "Liberty vs. Unity Junior High School",
         "title": "Liberty Junior High School vs Unity Junior High School Womens Other Basketball",
         "start": "2026-11-21T15:55:00Z"
+      },
+      {
+        "key": "RmFuQnJvYWRjYXN0NDkwODQ4NQ==",
+        "url": "https://fan.hudl.com/usa/il/liberty/organization/132676/liberty-high-school/watch?b=RmFuQnJvYWRjYXN0NDkwODQ4NQ%3D%3D",
+        "label": "Liberty vs. Brown County Junior High School",
+        "title": "Liberty Junior High School vs Brown County Junior High School Girls Basketball",
+        "start": "2026-11-23T23:53:00Z"
       }
     ],
     "Pawnee": [
