@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 23:14",
+  "updatedAt": "2026-11-24 07:28",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -96,10 +96,10 @@
               "Arlington Heights South"
             ],
             "scores": [
-              null,
-              null
+              33,
+              37
             ],
-            "winner": null,
+            "winner": "Arlington Heights South",
             "bye": false
           },
           {
@@ -108,18 +108,18 @@
               "Barrington Station"
             ],
             "scores": [
-              null,
-              null
+              25,
+              23
             ],
-            "winner": null,
+            "winner": "Barrington Prairie",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Arlington Heights South",
+              "Barrington Prairie"
             ],
             "scores": [
               null,
@@ -347,10 +347,10 @@
               "Maywood Irving"
             ],
             "scores": [
-              null,
-              null
+              32,
+              16
             ],
-            "winner": null,
+            "winner": "Bellwood Roosevelt",
             "bye": false
           },
           {
@@ -359,24 +359,24 @@
               "Cicero Unity"
             ],
             "scores": [
-              null,
-              null
+              32,
+              5
             ],
-            "winner": null,
+            "winner": "Evanston Chute",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Bellwood Roosevelt",
+              "Evanston Chute"
             ],
             "scores": [
-              null,
-              null
+              12,
+              37
             ],
-            "winner": null,
+            "winner": "Evanston Chute",
             "bye": false
           }
         ]
@@ -496,10 +496,10 @@
               "Downers Grove Herrick"
             ],
             "scores": [
-              null,
-              null
+              31,
+              22
             ],
-            "winner": null,
+            "winner": "Downers Grove O'Neill",
             "bye": false
           }
         ]
@@ -623,10 +623,10 @@
               "Markham Prairie-Hills"
             ],
             "scores": [
-              null,
-              null
+              33,
+              29
             ],
-            "winner": null,
+            "winner": "Lansing Memorial",
             "bye": false
           }
         ]
@@ -724,10 +724,10 @@
               "Matteson Huth (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              27,
+              17
             ],
-            "winner": null,
+            "winner": "Mokena",
             "bye": false
           },
           {
@@ -736,18 +736,18 @@
               "Frankfort Summit Hill"
             ],
             "scores": [
-              null,
-              null
+              51,
+              15
             ],
-            "winner": null,
+            "winner": "Matteson Colin Powell",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Mokena",
+              "Matteson Colin Powell"
             ],
             "scores": [
               null,
@@ -1101,10 +1101,10 @@
               "Kankakee JHS"
             ],
             "scores": [
-              null,
-              null
+              38,
+              22
             ],
-            "winner": null,
+            "winner": "Minooka",
             "bye": false
           },
           {
@@ -1113,18 +1113,18 @@
               "Manhattan"
             ],
             "scores": [
-              null,
-              null
+              32,
+              28
             ],
-            "winner": null,
+            "winner": "Coal City",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Minooka",
+              "Coal City"
             ],
             "scores": [
               null,
@@ -1254,10 +1254,10 @@
               "Danville North Ridge"
             ],
             "scores": [
-              null,
-              null
+              50,
+              25
             ],
-            "winner": null,
+            "winner": "Mahomet-Seymour",
             "bye": false
           }
         ]
@@ -1381,10 +1381,10 @@
               "Normal Kingsley"
             ],
             "scores": [
-              null,
-              null
+              21,
+              26
             ],
-            "winner": null,
+            "winner": "Normal Kingsley",
             "bye": false
           }
         ]
@@ -1482,10 +1482,10 @@
               "Dunlap Valley MS"
             ],
             "scores": [
-              null,
-              null
+              45,
+              28
             ],
-            "winner": null,
+            "winner": "East Peoria Central",
             "bye": false
           },
           {
@@ -1494,18 +1494,18 @@
               "Pekin Broadmoor"
             ],
             "scores": [
-              null,
-              null
+              29,
+              21
             ],
-            "winner": null,
+            "winner": "Galesburg JHS",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "East Peoria Central",
+              "Galesburg JHS"
             ],
             "scores": [
               null,
@@ -1737,10 +1737,10 @@
               "Springfield Franklin"
             ],
             "scores": [
-              null,
-              null
+              35,
+              9
             ],
-            "winner": null,
+            "winner": "Quincy",
             "bye": false
           },
           {
@@ -1749,18 +1749,18 @@
               "Springfield Grant"
             ],
             "scores": [
-              null,
-              null
+              33,
+              18
             ],
-            "winner": null,
+            "winner": "Springfield Lincoln (Co-op)",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Quincy",
+              "Springfield Lincoln (Co-op)"
             ],
             "scores": [
               null,
@@ -1999,10 +1999,10 @@
               "East St. Louis Clark (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              25,
+              26
             ],
-            "winner": null,
+            "winner": "East St. Louis Clark (Co-op)",
             "bye": false
           }
         ],
@@ -2010,7 +2010,7 @@
           {
             "teams": [
               "Mascoutah",
-              null
+              "East St. Louis Clark (Co-op)"
             ],
             "scores": [
               null,

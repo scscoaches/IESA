@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 23:14",
+  "updatedAt": "2026-11-24 07:28",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -88,10 +88,10 @@
               "Dolton Roosevelt"
             ],
             "scores": [
-              null,
-              null
+              42,
+              6
             ],
-            "winner": null,
+            "winner": "Calumet Park Calumet",
             "bye": false
           }
         ],
@@ -99,13 +99,13 @@
           {
             "teams": [
               "Calumet City Schrum",
-              null
+              "Calumet Park Calumet"
             ],
             "scores": [
-              null,
-              null
+              19,
+              26
             ],
-            "winner": null,
+            "winner": "Calumet Park Calumet",
             "bye": false
           }
         ]
@@ -330,10 +330,10 @@
               "Dixmoor Rosa Parks"
             ],
             "scores": [
-              null,
-              null
+              21,
+              17
             ],
-            "winner": null,
+            "winner": "Summit Heritage",
             "bye": false
           },
           {
@@ -342,18 +342,18 @@
               "Burr Ridge Gower"
             ],
             "scores": [
-              null,
-              null
+              25,
+              11
             ],
-            "winner": null,
+            "winner": "Crestwood Hale",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Summit Heritage",
+              "Crestwood Hale"
             ],
             "scores": [
               null,
@@ -588,10 +588,10 @@
               "Peru Parkside"
             ],
             "scores": [
-              null,
-              null
+              40,
+              14
             ],
-            "winner": null,
+            "winner": "Orion",
             "bye": false
           },
           {
@@ -600,18 +600,18 @@
               "Princeton Logan"
             ],
             "scores": [
-              null,
-              null
+              19,
+              9
             ],
-            "winner": null,
+            "winner": "Taylor Ridge Rockridge",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Orion",
+              "Taylor Ridge Rockridge"
             ],
             "scores": [
               null,
@@ -711,10 +711,10 @@
               "Chillicothe (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              23,
+              27
             ],
-            "winner": null,
+            "winner": "Chillicothe (Co-op)",
             "bye": false
           },
           {
@@ -723,18 +723,18 @@
               "Monmouth United"
             ],
             "scores": [
-              null,
-              null
+              34,
+              43
             ],
-            "winner": null,
+            "winner": "Monmouth United",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Chillicothe (Co-op)",
+              "Monmouth United"
             ],
             "scores": [
               null,
@@ -838,10 +838,10 @@
               "Herscher Limestone"
             ],
             "scores": [
-              null,
-              null
+              30,
+              4
             ],
-            "winner": null,
+            "winner": "El Paso-Gridley",
             "bye": false
           },
           {
@@ -850,18 +850,18 @@
               "Pontiac JHS"
             ],
             "scores": [
-              null,
-              null
+              8,
+              24
             ],
-            "winner": null,
+            "winner": "Pontiac JHS",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "El Paso-Gridley",
+              "Pontiac JHS"
             ],
             "scores": [
               null,
@@ -965,10 +965,10 @@
               "Eureka"
             ],
             "scores": [
-              null,
-              null
+              38,
+              17
             ],
-            "winner": null,
+            "winner": "Germantown Hills",
             "bye": false
           },
           {
@@ -977,18 +977,18 @@
               "Metamora GS (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              39,
+              50
             ],
-            "winner": null,
+            "winner": "Metamora GS (Co-op)",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Germantown Hills",
+              "Metamora GS (Co-op)"
             ],
             "scores": [
               null,
@@ -1092,10 +1092,10 @@
               "Westville JHS"
             ],
             "scores": [
-              null,
-              null
+              39,
+              6
             ],
-            "winner": null,
+            "winner": "Tolono Unity",
             "bye": false
           },
           {
@@ -1104,18 +1104,18 @@
               "Watseka JHS"
             ],
             "scores": [
-              null,
-              null
+              32,
+              11
             ],
-            "winner": null,
+            "winner": "St. Joseph",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Tolono Unity",
+              "St. Joseph"
             ],
             "scores": [
               null,
@@ -1346,10 +1346,10 @@
               "Mason City Illini Central (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              29,
+              18
             ],
-            "winner": null,
+            "winner": "Williamsville",
             "bye": false
           },
           {
@@ -1358,18 +1358,18 @@
               "Rochester"
             ],
             "scores": [
-              null,
-              null
+              15,
+              29
             ],
-            "winner": null,
+            "winner": "Rochester",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Williamsville",
+              "Rochester"
             ],
             "scores": [
               null,
@@ -1473,10 +1473,10 @@
               "Athens"
             ],
             "scores": [
-              null,
-              null
+              26,
+              11
             ],
-            "winner": null,
+            "winner": "Pleasant Plains",
             "bye": false
           },
           {
@@ -1485,18 +1485,18 @@
               "Pittsfield Pikeland (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              44,
+              25
             ],
-            "winner": null,
+            "winner": "Quincy St. Peter (Co-op)",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Pleasant Plains",
+              "Quincy St. Peter (Co-op)"
             ],
             "scores": [
               null,
@@ -1596,10 +1596,10 @@
               "Sullivan"
             ],
             "scores": [
-              null,
-              null
+              35,
+              24
             ],
-            "winner": null,
+            "winner": "Tuscola East Prairie",
             "bye": false
           },
           {
@@ -1608,18 +1608,18 @@
               "Paris Mayo"
             ],
             "scores": [
-              null,
-              null
+              26,
+              25
             ],
-            "winner": null,
+            "winner": "Sidell Salt Fork",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Tuscola East Prairie",
+              "Sidell Salt Fork"
             ],
             "scores": [
               null,
@@ -1723,10 +1723,10 @@
               "Toledo Cumberland"
             ],
             "scores": [
-              null,
-              null
+              34,
+              14
             ],
-            "winner": null,
+            "winner": "Teutopolis",
             "bye": false
           },
           {
@@ -1745,7 +1745,7 @@
         [
           {
             "teams": [
-              null,
+              "Teutopolis",
               null
             ],
             "scores": [
@@ -1846,10 +1846,10 @@
               "Pana JHS"
             ],
             "scores": [
-              null,
-              null
+              27,
+              21
             ],
-            "winner": null,
+            "winner": "Auburn JHS at Divernon",
             "bye": false
           },
           {
@@ -1858,18 +1858,18 @@
               "Litchfield"
             ],
             "scores": [
-              null,
-              null
+              34,
+              28
             ],
-            "winner": null,
+            "winner": "Hillsboro",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Auburn JHS at Divernon",
+              "Hillsboro"
             ],
             "scores": [
               null,
@@ -1973,10 +1973,10 @@
               "Greenville"
             ],
             "scores": [
-              null,
-              null
+              31,
+              19
             ],
-            "winner": null,
+            "winner": "East St. Louis Lincoln",
             "bye": false
           },
           {
@@ -1985,18 +1985,18 @@
               "Piasa Southwestern"
             ],
             "scores": [
-              null,
-              null
+              24,
+              25
             ],
-            "winner": null,
+            "winner": "Piasa Southwestern",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "East St. Louis Lincoln",
+              "Piasa Southwestern"
             ],
             "scores": [
               null,

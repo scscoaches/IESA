@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-23 23:13",
+  "updatedAt": "2026-11-24 07:28",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -203,10 +203,10 @@ window.iesaRegionalSeedCache = {
               "Kankakee Bishop McNamara"
             ],
             "scores": [
-              null,
-              null
+              40,
+              8
             ],
-            "winner": null,
+            "winner": "Joliet Laraway",
             "bye": false
           },
           {
@@ -215,18 +215,18 @@ window.iesaRegionalSeedCache = {
               "Dwight"
             ],
             "scores": [
-              null,
-              null
+              23,
+              18
             ],
-            "winner": null,
+            "winner": "Seneca",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Joliet Laraway",
+              "Seneca"
             ],
             "scores": [
               null,
@@ -353,10 +353,10 @@ window.iesaRegionalSeedCache = {
               "Serena"
             ],
             "scores": [
-              null,
-              null
+              24,
+              12
             ],
-            "winner": null,
+            "winner": "Ottawa Wallace",
             "bye": false
           }
         ]
@@ -454,10 +454,10 @@ window.iesaRegionalSeedCache = {
               "Spring Valley Kennedy"
             ],
             "scores": [
-              null,
-              null
+              36,
+              18
             ],
-            "winner": null,
+            "winner": "Manlius Bureau Valley JHS",
             "bye": false
           },
           {
@@ -466,18 +466,18 @@ window.iesaRegionalSeedCache = {
               "Princeville"
             ],
             "scores": [
-              null,
-              null
+              13,
+              31
             ],
-            "winner": null,
+            "winner": "Princeville",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Manlius Bureau Valley JHS",
+              "Princeville"
             ],
             "scores": [
               null,
@@ -577,10 +577,10 @@ window.iesaRegionalSeedCache = {
               "Fisher"
             ],
             "scores": [
-              null,
-              null
+              34,
+              14
             ],
-            "winner": null,
+            "winner": "Champaign St. Matthew",
             "bye": false
           },
           {
@@ -589,18 +589,19 @@ window.iesaRegionalSeedCache = {
               "Champaign International"
             ],
             "scores": [
-              null,
-              null
+              36,
+              34
             ],
-            "winner": null,
-            "bye": false
+            "winner": "Oakwood GS",
+            "bye": false,
+            "annotation": "OT"
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Champaign St. Matthew",
+              "Oakwood GS"
             ],
             "scores": [
               null,
@@ -831,10 +832,10 @@ window.iesaRegionalSeedCache = {
               "Green Valley Midwest Central"
             ],
             "scores": [
-              null,
-              null
+              41,
+              11
             ],
-            "winner": null,
+            "winner": "Peoria St. Philomena",
             "bye": false
           },
           {
@@ -843,18 +844,18 @@ window.iesaRegionalSeedCache = {
               "Peoria Heights GS"
             ],
             "scores": [
-              null,
-              null
+              26,
+              21
             ],
-            "winner": null,
+            "winner": "Marquette Heights Georgetowne",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Peoria St. Philomena",
+              "Marquette Heights Georgetowne"
             ],
             "scores": [
               null,
@@ -958,10 +959,10 @@ window.iesaRegionalSeedCache = {
               "Knoxville JHS"
             ],
             "scores": [
-              null,
-              null
+              25,
+              8
             ],
-            "winner": null,
+            "winner": "Glasford Illini Bluffs",
             "bye": false
           },
           {
@@ -970,18 +971,18 @@ window.iesaRegionalSeedCache = {
               "London Mills Valley (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              10,
+              25
             ],
-            "winner": null,
+            "winner": "London Mills Valley (Co-op)",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Glasford Illini Bluffs",
+              "London Mills Valley (Co-op)"
             ],
             "scores": [
               null,
@@ -1107,10 +1108,10 @@ window.iesaRegionalSeedCache = {
               "Stronghurst West Central"
             ],
             "scores": [
-              null,
-              null
+              33,
+              18
             ],
-            "winner": null,
+            "winner": "Lewistown JHS",
             "bye": false
           }
         ]
@@ -1204,10 +1205,10 @@ window.iesaRegionalSeedCache = {
               "Liberty"
             ],
             "scores": [
-              null,
-              null
+              37,
+              15
             ],
-            "winner": null,
+            "winner": "Mt. Sterling Brown County (Co-op)",
             "bye": false
           },
           {
@@ -1216,18 +1217,18 @@ window.iesaRegionalSeedCache = {
               "Nauvoo-Colusa"
             ],
             "scores": [
-              null,
-              null
+              17,
+              16
             ],
-            "winner": null,
+            "winner": "Carthage",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Mt. Sterling Brown County (Co-op)",
+              "Carthage"
             ],
             "scores": [
               null,
@@ -1357,10 +1358,10 @@ window.iesaRegionalSeedCache = {
               "Cerro Gordo (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              21,
+              14
             ],
-            "winner": null,
+            "winner": "Lincoln Chester-East Lincoln (Co-op)",
             "bye": false
           }
         ]
@@ -1454,10 +1455,10 @@ window.iesaRegionalSeedCache = {
               "Decatur Our Lady of Lourdes (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              38,
+              14
             ],
-            "winner": null,
+            "winner": "Macon Meridian",
             "bye": false
           },
           {
@@ -1466,18 +1467,18 @@ window.iesaRegionalSeedCache = {
               "Decatur Montessori Academy for Peace"
             ],
             "scores": [
-              null,
-              null
+              37,
+              33
             ],
-            "winner": null,
+            "winner": "Assumption Central A & M",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Macon Meridian",
+              "Assumption Central A & M"
             ],
             "scores": [
               null,
@@ -1581,10 +1582,10 @@ window.iesaRegionalSeedCache = {
               "Dieterich"
             ],
             "scores": [
-              null,
-              null
+              37,
+              9
             ],
-            "winner": null,
+            "winner": "Albion (Co-op)",
             "bye": false
           },
           {
@@ -1593,18 +1594,18 @@ window.iesaRegionalSeedCache = {
               "Arcola"
             ],
             "scores": [
-              null,
-              null
+              41,
+              7
             ],
-            "winner": null,
+            "winner": "Paris Crestwood",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Albion (Co-op)",
+              "Paris Crestwood"
             ],
             "scores": [
               null,
@@ -1704,10 +1705,10 @@ window.iesaRegionalSeedCache = {
               "Beecher City (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              24,
+              19
             ],
-            "winner": null,
+            "winner": "Brownstown (Co-op)",
             "bye": false
           },
           {
@@ -1716,18 +1717,18 @@ window.iesaRegionalSeedCache = {
               "Altamont (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              26,
+              23
             ],
-            "winner": null,
+            "winner": "Stewardson-Strasburg (Co-op)",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Brownstown (Co-op)",
+              "Stewardson-Strasburg (Co-op)"
             ],
             "scores": [
               null,
@@ -1954,10 +1955,10 @@ window.iesaRegionalSeedCache = {
               "White Hall North Greene"
             ],
             "scores": [
-              null,
-              null
+              39,
+              17
             ],
-            "winner": null,
+            "winner": "Hardin Calhoun (Co-op)",
             "bye": false
           },
           {
@@ -1966,18 +1967,18 @@ window.iesaRegionalSeedCache = {
               "Greenfield (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              42,
+              43
             ],
-            "winner": null,
+            "winner": "Greenfield (Co-op)",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Hardin Calhoun (Co-op)",
+              "Greenfield (Co-op)"
             ],
             "scores": [
               null,

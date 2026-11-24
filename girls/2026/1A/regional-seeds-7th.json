@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 23:13",
+  "updatedAt": "2026-11-24 07:28",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -110,10 +110,10 @@
               "Lockport Taft"
             ],
             "scores": [
-              null,
-              null
+              18,
+              23
             ],
-            "winner": null,
+            "winner": "Lockport Taft",
             "bye": false
           }
         ]
@@ -203,10 +203,10 @@
               "Rossville-Alvin"
             ],
             "scores": [
-              null,
-              null
+              17,
+              15
             ],
-            "winner": null,
+            "winner": "Cissna Park (Co-op)",
             "bye": false
           },
           {
@@ -215,18 +215,18 @@
               "Piper City Tri-Point"
             ],
             "scores": [
-              null,
-              null
+              25,
+              15
             ],
-            "winner": null,
+            "winner": "Milford",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Cissna Park (Co-op)",
+              "Milford"
             ],
             "scores": [
               null,
@@ -345,10 +345,10 @@
               "Mazon-Verona-Kinsman"
             ],
             "scores": [
-              null,
-              null
+              14,
+              9
             ],
-            "winner": null,
+            "winner": "Gardner (Co-op)",
             "bye": false
           }
         ]
@@ -442,10 +442,10 @@
               "Ransom (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              32,
+              14
             ],
-            "winner": null,
+            "winner": "Mendota Holy Cross",
             "bye": false
           },
           {
@@ -454,18 +454,18 @@
               "Marseilles Milton Pope (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              20,
+              34
             ],
-            "winner": null,
+            "winner": "Marseilles Milton Pope (Co-op)",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Mendota Holy Cross",
+              "Marseilles Milton Pope (Co-op)"
             ],
             "scores": [
               null,
@@ -569,10 +569,10 @@
               "Lowpoint-Washburn"
             ],
             "scores": [
-              null,
-              null
+              36,
+              13
             ],
-            "winner": null,
+            "winner": "Utica Waltham",
             "bye": false
           },
           {
@@ -581,18 +581,18 @@
               "Henry-Senachwine"
             ],
             "scores": [
-              null,
-              null
+              45,
+              0
             ],
-            "winner": null,
+            "winner": "LaSalle St. Acutis",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Utica Waltham",
+              "LaSalle St. Acutis"
             ],
             "scores": [
               null,
@@ -696,10 +696,10 @@
               "Kewanee Visitation"
             ],
             "scores": [
-              null,
-              null
+              34,
+              9
             ],
-            "winner": null,
+            "winner": "Woodhull AlWood",
             "bye": false
           },
           {
@@ -708,18 +708,18 @@
               "Kewanee Wethersfield"
             ],
             "scores": [
-              null,
-              null
+              17,
+              27
             ],
-            "winner": null,
+            "winner": "Kewanee Wethersfield",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Woodhull AlWood",
+              "Kewanee Wethersfield"
             ],
             "scores": [
               null,
@@ -823,10 +823,10 @@
               "Pontiac St. Mary's (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              39,
+              12
             ],
-            "winner": null,
+            "winner": "Flanagan (Co-op)",
             "bye": false
           },
           {
@@ -835,18 +835,18 @@
               "Normal Calvary"
             ],
             "scores": [
-              null,
-              null
+              19,
+              28
             ],
-            "winner": null,
+            "winner": "Normal Calvary",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Flanagan (Co-op)",
+              "Normal Calvary"
             ],
             "scores": [
               null,
@@ -942,10 +942,10 @@
               "Pekin Rankin"
             ],
             "scores": [
-              null,
-              null
+              38,
+              6
             ],
-            "winner": null,
+            "winner": "Lincoln West Lincoln-Broadwell",
             "bye": false
           },
           {
@@ -954,18 +954,18 @@
               "Morton Blessed Sacrament"
             ],
             "scores": [
-              null,
-              null
+              45,
+              19
             ],
-            "winner": null,
+            "winner": "Bloomington Trinity Lutheran",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Lincoln West Lincoln-Broadwell",
+              "Bloomington Trinity Lutheran"
             ],
             "scores": [
               null,
@@ -1057,10 +1057,10 @@
               "Peoria St. Jude"
             ],
             "scores": [
-              null,
-              null
+              41,
+              14
             ],
-            "winner": null,
+            "winner": "Washington St. Patrick",
             "bye": false
           },
           {
@@ -1069,18 +1069,19 @@
               "Peoria Christian"
             ],
             "scores": [
-              null,
-              null
+              29,
+              27
             ],
-            "winner": null,
-            "bye": false
+            "winner": "Peoria Christ Lutheran",
+            "bye": false,
+            "annotation": "OT"
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Washington St. Patrick",
+              "Peoria Christ Lutheran"
             ],
             "scores": [
               null,
@@ -1184,10 +1185,10 @@
               "Peoria Hollis"
             ],
             "scores": [
-              null,
-              null
+              34,
+              12
             ],
-            "winner": null,
+            "winner": "Bartonville Oak Grove",
             "bye": false
           },
           {
@@ -1196,18 +1197,18 @@
               "Bartonville Monroe"
             ],
             "scores": [
-              null,
-              null
+              18,
+              30
             ],
-            "winner": null,
+            "winner": "Bartonville Monroe",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Bartonville Oak Grove",
+              "Bartonville Monroe"
             ],
             "scores": [
               null,
@@ -1438,11 +1439,12 @@
               "Champaign Holy Cross"
             ],
             "scores": [
-              null,
-              null
+              15,
+              14
             ],
-            "winner": null,
-            "bye": false
+            "winner": "Rantoul St. Malachy",
+            "bye": false,
+            "annotation": "OT"
           },
           {
             "teams": [
@@ -1450,18 +1452,18 @@
               "Champaign Next Generation"
             ],
             "scores": [
-              null,
-              null
+              12,
+              21
             ],
-            "winner": null,
+            "winner": "Champaign Next Generation",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Rantoul St. Malachy",
+              "Champaign Next Generation"
             ],
             "scores": [
               null,
@@ -1553,10 +1555,10 @@
               "Pawnee"
             ],
             "scores": [
-              null,
-              null
+              33,
+              10
             ],
-            "winner": null,
+            "winner": "Carrollton St. John",
             "bye": false
           },
           {
@@ -1565,18 +1567,18 @@
               "Jerseyville St. Francis HG"
             ],
             "scores": [
-              null,
-              null
+              15,
+              12
             ],
-            "winner": null,
+            "winner": "Ashland A-C Central",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Carrollton St. John",
+              "Ashland A-C Central"
             ],
             "scores": [
               null,
@@ -1672,10 +1674,10 @@
               "Augusta Southeastern"
             ],
             "scores": [
-              null,
-              null
+              25,
+              17
             ],
-            "winner": null,
+            "winner": "Kinderhook Western",
             "bye": false
           },
           {
@@ -1684,18 +1686,18 @@
               "Griggsville-Perry"
             ],
             "scores": [
-              null,
-              null
+              26,
+              22
             ],
-            "winner": null,
+            "winner": "La Harpe (Co-op)",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Kinderhook Western",
+              "La Harpe (Co-op)"
             ],
             "scores": [
               null,
@@ -1795,10 +1797,10 @@
               "Effingham Sacred Heart"
             ],
             "scores": [
-              null,
-              null
+              42,
+              20
             ],
-            "winner": null,
+            "winner": "Sigel St. Michael's",
             "bye": false
           },
           {
@@ -1807,18 +1809,18 @@
               "Neoga"
             ],
             "scores": [
-              null,
-              null
+              30,
+              18
             ],
-            "winner": null,
+            "winner": "Palestine (Co-op)",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Sigel St. Michael's",
+              "Palestine (Co-op)"
             ],
             "scores": [
               null,
