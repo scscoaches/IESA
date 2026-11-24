@@ -1,42 +1,53 @@
 window.iesaBracketCache = {
-  "updatedAt": "2026-11-24 13:41",
+  "updatedAt": "2026-11-24 21:10",
   "year": 2026,
   "grade": "7th",
-  "regionals": {},
-  "sectionalPairingRecords": {},
+  "regionals": {
+    "1": {
+      "winner": "Lockport Taft",
+      "loser": "Ford Heights Cottage Grove UGC",
+      "score": "23-18",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    },
+    "3": {
+      "winner": "Gardner (Co-op)",
+      "loser": "Mazon-Verona-Kinsman",
+      "score": "14-9",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    }
+  },
+  "sectionalPairingRecords": {
+    "1": {
+      "team": "Lockport Taft",
+      "record": "16-7",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    },
+    "3": {
+      "team": "Gardner (Co-op)",
+      "record": "14-4",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    }
+  },
   "sectionals": {},
   "quarterfinalMatchups": {
-    "3": [
-      4,
-      6
+    "4": [
+      1,
+      5
     ],
     "2": [
       7,
       8
     ],
+    "3": [
+      4,
+      6
+    ],
     "1": [
       2,
       3
-    ],
-    "4": [
-      1,
-      5
     ]
   },
   "games": {
-    "8": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-1A"
-    },
     "7": {
       "teams": [
         null,
@@ -63,33 +74,7 @@ window.iesaBracketCache = {
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-1A"
     },
-    "1": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-1A"
-    },
-    "3": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-1A"
-    },
-    "5": {
+    "8": {
       "teams": [
         null,
         null
@@ -115,7 +100,46 @@ window.iesaBracketCache = {
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-1A"
     },
+    "5": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-1A"
+    },
+    "1": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-1A"
+    },
     "6": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-1A"
+    },
+    "3": {
       "teams": [
         null,
         null

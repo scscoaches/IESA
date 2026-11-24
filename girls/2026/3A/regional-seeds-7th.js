@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-24 13:41",
+  "updatedAt": "2026-11-24 21:09",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -356,10 +356,10 @@ window.iesaRegionalSeedCache = {
               "Crestwood Hale"
             ],
             "scores": [
-              null,
-              null
+              23,
+              29
             ],
-            "winner": null,
+            "winner": "Crestwood Hale",
             "bye": false
           }
         ]
@@ -1219,10 +1219,10 @@ window.iesaRegionalSeedCache = {
               "Monticello"
             ],
             "scores": [
-              null,
-              null
+              36,
+              11
             ],
-            "winner": null,
+            "winner": "Maroa-Forsyth",
             "bye": false
           },
           {
@@ -1231,18 +1231,18 @@ window.iesaRegionalSeedCache = {
               "Stanford Olympia"
             ],
             "scores": [
-              null,
-              null
+              13,
+              18
             ],
-            "winner": null,
+            "winner": "Stanford Olympia",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Maroa-Forsyth",
+              "Stanford Olympia"
             ],
             "scores": [
               null,
@@ -1735,10 +1735,10 @@ window.iesaRegionalSeedCache = {
               "Marshall JHS"
             ],
             "scores": [
-              null,
-              null
+              26,
+              25
             ],
-            "winner": null,
+            "winner": "Robinson Nuttall",
             "bye": false
           }
         ],
@@ -1746,7 +1746,7 @@ window.iesaRegionalSeedCache = {
           {
             "teams": [
               "Teutopolis",
-              null
+              "Robinson Nuttall"
             ],
             "scores": [
               null,

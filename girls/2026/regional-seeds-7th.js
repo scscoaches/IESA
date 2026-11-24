@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-24 13:41",
+  "updatedAt": "2026-11-24 21:09",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -705,10 +705,10 @@ window.iesaRegionalSeedCache = {
               "Normal Metcalf"
             ],
             "scores": [
-              null,
-              null
+              44,
+              29
             ],
-            "winner": null,
+            "winner": "Bloomington Corpus Christi",
             "bye": false
           },
           {
@@ -717,18 +717,18 @@ window.iesaRegionalSeedCache = {
               "LeRoy"
             ],
             "scores": [
-              null,
-              null
+              40,
+              16
             ],
-            "winner": null,
+            "winner": "Normal Epiphany",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Bloomington Corpus Christi",
+              "Normal Epiphany"
             ],
             "scores": [
               null,

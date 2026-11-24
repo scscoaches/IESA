@@ -1,42 +1,48 @@
 {
-  "updatedAt": "2026-11-24 13:41",
+  "updatedAt": "2026-11-24 21:10",
   "year": 2026,
   "grade": "7th",
-  "regionals": {},
+  "regionals": {
+    "3": {
+      "winner": "Ottawa Wallace",
+      "loser": "Serena",
+      "score": "24-12",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-2A"
+    },
+    "9": {
+      "winner": "Lewistown JHS",
+      "loser": "Stronghurst West Central",
+      "score": "33-18",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-2A"
+    },
+    "11": {
+      "winner": "Lincoln Chester-East Lincoln (Co-op)",
+      "loser": "Cerro Gordo (Co-op)",
+      "score": "21-14",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-2A"
+    }
+  },
   "sectionalPairingRecords": {},
   "sectionals": {},
   "quarterfinalMatchups": {
-    "3": [
-      5,
-      8
+    "4": [
+      3,
+      4
     ],
     "2": [
       7,
       1
     ],
+    "3": [
+      5,
+      8
+    ],
     "1": [
       6,
       2
-    ],
-    "4": [
-      3,
-      4
     ]
   },
   "games": {
-    "8": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-2A"
-    },
     "7": {
       "teams": [
         null,
@@ -63,33 +69,7 @@
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-2A"
     },
-    "1": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-2A"
-    },
-    "3": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-2A"
-    },
-    "5": {
+    "8": {
       "teams": [
         null,
         null
@@ -115,7 +95,46 @@
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-2A"
     },
+    "5": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-2A"
+    },
+    "1": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-2A"
+    },
     "6": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-2A"
+    },
+    "3": {
       "teams": [
         null,
         null

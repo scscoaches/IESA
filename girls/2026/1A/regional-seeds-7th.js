@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-24 13:41",
+  "updatedAt": "2026-11-24 21:09",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -1916,10 +1916,10 @@ window.iesaRegionalSeedCache = {
               "Ramsey (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              27,
+              12
             ],
-            "winner": null,
+            "winner": "Pana Sacred Heart",
             "bye": false
           },
           {
@@ -1928,18 +1928,18 @@ window.iesaRegionalSeedCache = {
               "Pocahontas"
             ],
             "scores": [
-              null,
-              null
+              32,
+              23
             ],
-            "winner": null,
+            "winner": "Mt. Olive",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Pana Sacred Heart",
+              "Mt. Olive"
             ],
             "scores": [
               null,

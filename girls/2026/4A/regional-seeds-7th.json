@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24 13:41",
+  "updatedAt": "2026-11-24 21:09",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -245,10 +245,10 @@
               "Ottawa Shepherd"
             ],
             "scores": [
-              null,
-              null
+              14,
+              13
             ],
-            "winner": null,
+            "winner": "Rockford Eisenhower",
             "bye": false
           }
         ]
@@ -1609,10 +1609,10 @@
               "Chatham Glenwood"
             ],
             "scores": [
-              null,
-              null
+              16,
+              29
             ],
-            "winner": null,
+            "winner": "Chatham Glenwood",
             "bye": false
           },
           {
@@ -1621,18 +1621,18 @@
               "Mt. Zion"
             ],
             "scores": [
-              null,
-              null
+              35,
+              29
             ],
-            "winner": null,
+            "winner": "Mattoon",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Chatham Glenwood",
+              "Mattoon"
             ],
             "scores": [
               null,
