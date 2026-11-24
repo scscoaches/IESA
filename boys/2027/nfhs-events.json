@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 23:33",
+  "updatedAt": "2026-11-24 07:51",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -303,12 +303,6 @@
         "url": "https://www.nfhsnetwork.com/events/cornerstone-christian-academy-bloomington-il/gam0ed020a99c",
         "label": "Heyworth vs. Cornerstone",
         "start": "2026-11-20T00:00:00.000Z"
-      },
-      {
-        "key": "gam1fc53df763",
-        "url": "https://www.nfhsnetwork.com/events/lexington-high-school-lexington-il/gam1fc53df763",
-        "label": "Cornerstone vs. Lexington",
-        "start": "2026-11-23T23:30:00.000Z"
       },
       {
         "key": "gam717e93e2ae",
@@ -663,12 +657,6 @@
     ],
     "midwest-central-middle-school-green-valley-il": [
       {
-        "key": "gam3f98280085",
-        "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/gam3f98280085",
-        "label": "Test Event",
-        "start": "2026-10-31T13:25:58.000Z"
-      },
-      {
         "key": "game4feb3586a",
         "url": "https://www.nfhsnetwork.com/events/midwest-central-middle-school-green-valley-il/game4feb3586a",
         "label": "MCMS",
@@ -973,6 +961,12 @@
         "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gama4319ff8fe",
         "label": "Mt. Pulaski",
         "start": "2027-01-13T23:55:00.000Z"
+      },
+      {
+        "key": "gam87b8a1b5d0",
+        "url": "https://www.nfhsnetwork.com/events/mt-pulaski-high-school-mt-pulaski-il/gam87b8a1b5d0",
+        "label": "Decatur vs. Mt. Pulaski",
+        "start": "2027-01-19T23:55:00.000Z"
       }
     ],
     "nokomis-high-school-nokomis-il": [
@@ -1134,14 +1128,7 @@
     "putnam-county-junior-high-school-mc-nabb-il": [],
     "schuyler-industry-middle-school-rushville-il": [],
     "seneca-high-school-seneca-il": [],
-    "serena-middle-school-serena-il": [
-      {
-        "key": "gambccb94ed9e",
-        "url": "https://www.nfhsnetwork.com/events/bureau-valley-high-school-manlius-il/gambccb94ed9e",
-        "label": "Serena MS vs. Bureau Valley",
-        "start": "2026-11-23T22:30:00.000Z"
-      }
-    ],
+    "serena-middle-school-serena-il": [],
     "somonauk-middle-school-somonauk-il": [
       {
         "key": "gamd9cfaf3f91",
