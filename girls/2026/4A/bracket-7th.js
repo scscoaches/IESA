@@ -1,5 +1,5 @@
 window.iesaBracketCache = {
-  "updatedAt": "2026-11-24 07:29",
+  "updatedAt": "2026-11-24 13:42",
   "year": 2026,
   "grade": "7th",
   "regionals": {},
@@ -10,6 +10,10 @@ window.iesaBracketCache = {
       8,
       4
     ],
+    "2": [
+      7,
+      1
+    ],
     "1": [
       6,
       2
@@ -17,14 +21,10 @@ window.iesaBracketCache = {
     "4": [
       3,
       5
-    ],
-    "2": [
-      7,
-      1
     ]
   },
   "games": {
-    "2": {
+    "8": {
       "teams": [
         null,
         null
@@ -37,7 +37,20 @@ window.iesaBracketCache = {
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
     },
-    "4": {
+    "7": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
+    },
+    "2": {
       "teams": [
         null,
         null
@@ -76,19 +89,6 @@ window.iesaBracketCache = {
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
     },
-    "6": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
-    },
     "5": {
       "teams": [
         null,
@@ -102,7 +102,7 @@ window.iesaBracketCache = {
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
     },
-    "8": {
+    "4": {
       "teams": [
         null,
         null
@@ -115,7 +115,7 @@ window.iesaBracketCache = {
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
     },
-    "7": {
+    "6": {
       "teams": [
         null,
         null
