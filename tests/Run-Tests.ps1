@@ -13,6 +13,14 @@ $ErrorActionPreference = 'Stop'
 $repo = Split-Path -Parent $PSScriptRoot
 $failed = @()
 
+Write-Host "`n#### Default page setting" -ForegroundColor Cyan
+$ErrorActionPreference = 'Continue'
+$lines = @(& powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'Test-DefaultPage.ps1') 2>&1 | ForEach-Object { "$_" })
+$ErrorActionPreference = 'Stop'
+$lines | Where-Object { $_ -match '^\s*(PASS|FAIL) |^[A-Z]' -and $_ -notmatch '^(Passes|Failures)\b' } | ForEach-Object { Write-Host $_ }
+$defaultPageFailures = @($lines | Where-Object { $_ -match '^\s*FAIL ' })
+if ($defaultPageFailures.Count -or !@($lines | Where-Object { $_ -match '^\s*PASS ' }).Count) { $failed += 'default page setting' }
+
 Write-Host "`n#### Girls" -ForegroundColor Cyan
 & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $repo 'girls\tests\Run-Tests.ps1')
 if ($LASTEXITCODE) { $failed += 'girls tests' }

@@ -86,9 +86,14 @@
 .my-team-results{max-height:min(240px,35vh);overflow:auto;margin-top:6px}
 .my-team-option{display:block;width:100%;padding:9px 8px;border:0;border-bottom:1px solid #edf0f5;background:transparent;color:inherit;text-align:left;font:inherit;font-size:13px;cursor:pointer}
 .my-team-option:hover,.my-team-option:focus{background:#eef0ff}
-.my-team-history{margin-top:14px;font-size:13px}
-.my-team-history ul{max-height:min(220px,30vh);overflow:auto;margin:6px 0 0;padding:0;list-style:none}
+.my-team-history{max-height:min(240px,30vh);overflow:auto;margin-top:14px;font-size:13px}
+.my-team-history section{margin-top:8px}
+.my-team-history ul{margin:6px 0 0;padding:0;list-style:none}
 .my-team-history li{padding:5px 0;border-bottom:1px solid #edf0f5}
+.my-team-history .finish-girls,.my-team-history .finish-girls a{color:#a82061}
+.my-team-history .finish-boys,.my-team-history .finish-boys a{color:#2533ba}
+.dark-theme .my-team-history .finish-girls,.dark-theme .my-team-history .finish-girls a{color:#ff9ac4}
+.dark-theme .my-team-history .finish-boys,.dark-theme .my-team-history .finish-boys a{color:#aab8ff}
 .my-team-empty{color:#68718a;font-size:12px}
 @media(max-width:680px){.tools button#my-team-button{display:inline-flex}.switcher select#class-select{width:48px;padding:0 2px}.app.has-class-select .topbar>div:first-of-type{display:none}}
 @media(max-width:380px){.switcher select#class-select{width:44px}.tools button#my-team-button{width:36px;min-width:36px}}
@@ -96,8 +101,23 @@
 @media(max-width:340px){.topbar{gap:3px}.switcher select{width:56px}.switcher select#class-select{width:40px}.tools button{min-width:28px;padding-right:4px;padding-left:4px}.tools button#updates-button{max-width:48px}.tools button#my-team-button,.tools button#find-button{width:30px;min-width:30px}}
 #my-team-dialog .my-team-heading{margin:0;font-size:14px}#my-team-dialog .my-team-heading::after{content:":"}
 #my-team-dialog .settings-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:14px;padding-top:12px;border-top:1px solid #e0e4ed;font-size:14px;font-weight:bold}
+#my-team-dialog .default-page-row{position:relative}
+#my-team-dialog .default-page-row>span{flex:1}
+#my-team-dialog .default-page-options{display:flex;align-items:center;gap:6px}
+#my-team-dialog .default-page-choice{display:inline-flex;align-items:center;justify-content:center;width:34px;height:32px;padding:0;border:1px solid #b9c1d0;border-radius:4px;background:#fff;color:var(--ink);cursor:pointer}
+#my-team-dialog .default-page-choice[aria-pressed="true"]{border-color:var(--blue);background:var(--blue);color:#fff}
+#my-team-dialog .default-page-choice svg{position:static;inset:auto;display:block;width:20px;height:20px;pointer-events:none}
+#my-team-dialog .default-page-choice:disabled{opacity:.55;cursor:not-allowed}
+#my-team-dialog .setting-status{position:absolute;top:calc(100% + 6px);right:0;z-index:2;padding:4px 8px;border-radius:4px;background:#1f2a44;color:#fff;font-size:12px;white-space:nowrap;pointer-events:none;opacity:0;visibility:hidden;transform:translateY(-2px);transition:opacity .2s ease,transform .2s ease}
+#my-team-dialog .setting-status.visible{opacity:1;visibility:visible;transform:translateY(0)}
+#my-team-dialog .setting-status.error{background:#a12622;color:#fff}
 #my-team-dialog .settings-row .theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:44px;height:34px;padding:0;border:0;border-radius:4px;background:var(--navy)}
 .dark-theme #my-team-dialog .settings-row{border-top-color:#2c3550}
+.dark-theme #my-team-dialog .default-page-choice{border-color:#56607e;background:#18213d;color:#e8ebf5}
+.dark-theme #my-team-dialog .default-page-choice[aria-pressed="true"]{border-color:var(--blue);background:var(--blue);color:#fff}
+#my-team-dialog .default-page-choice[data-sport="girls"][aria-pressed="true"],.dark-theme #my-team-dialog .default-page-choice[data-sport="girls"][aria-pressed="true"]{border-color:#a82061;background:#a82061;color:#fff}
+.dark-theme #my-team-dialog .setting-status{background:#e8ebf5;color:#141a2c}
+.dark-theme #my-team-dialog .setting-status.error{background:#a12622;color:#fff}
 @media(max-width:430px){.app.live.has-class-select .switcher select{width:64px}.app.live.has-class-select .switcher select#class-select{width:44px}}
 @media(max-width:340px){.app.live.has-class-select .switcher{gap:2px}.app.live.has-class-select .switcher select{width:52px}.app.live.has-class-select .switcher select#class-select{width:38px}.app.live.has-class-select .tools button#updates-button{max-width:40px}}
 @media(max-width:680px){.tools button#fit{display:none!important}}

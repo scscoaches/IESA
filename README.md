@@ -8,8 +8,12 @@ Association, one self-contained site per sport:
 | `girls\` | Girls' basketball, 1979 onward ([girls\README.md](girls/README.md)) | `www.iesa.org/activities/gbk/` |
 | `boys\` | Boys' basketball, 1985 onward, trophies from 1930 ([boys\README.md](boys/README.md)) | `www.iesa.org/activities/bbk/` |
 
-`index.html` at the root lets visitors pick a sport, and each sport's home page
-links to the other. Each sport folder is a complete site: its seasons,
+The root `index.html` opens the visitor's default sport (Girls initially); the
+Settings gear changes it, and shared links carrying a team and gender set that
+default and open the matching sport. Each sport's home page links to the other.
+Settings shows the chosen team's Girls and Boys state finishes together, with
+links to the appropriate sport's bracket.
+Each sport folder is a complete site: its seasons,
 `seasons.json`, `live-season.json`, `placements.json`, `teams.json`, page
 templates, build scripts and the shared assets in `<sport>\2026\`. Paths in a
 sport's README are relative to that sport's folder; run its scripts from there
@@ -35,9 +39,10 @@ saved to a phone's home screen then reopens that page, not a fixed start page.
 
 ## Tests
 
-`.\tests\Run-Tests.ps1` runs the girls' suites, the site-integrity checks
-against `boys\`, and the shared-code check. `.github\workflows\tests.yml` runs it
-on every push and pull request.
+`.\tests\Run-Tests.ps1` checks the root sport picker and default-page setting,
+runs the girls' suites, the site-integrity checks against `boys\`, and the
+shared-code check. `.github\workflows\tests.yml` runs it on every push and pull
+request.
 
 ## Old addresses
 

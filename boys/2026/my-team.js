@@ -12,6 +12,7 @@
     };
     var sport = /\/boys\/$/i.test(root.pathname) ? SPORTS.boys : SPORTS.girls;
     var STORAGE_KEY = sport.storagePrefix + "my-team";
+    var DEFAULT_PAGE_KEY = "iesa-default-page";
     // Every name the chosen school appears under (IESA sometimes drops or adds
     // the town), saved with the choice so highlighting needs no extra request.
     var KEYS_KEY = sport.storagePrefix + "my-team-keys";
@@ -37,8 +38,17 @@
         }
     }
 
-    // A shared link (?team=Normal%20Epiphany) makes that school the visitor's team.
+    // Shared team links also make their sport the visitor's default home page.
     var linkedTeam = new URLSearchParams(window.location.search).get("team");
+    var linkedGender = new URLSearchParams(window.location.search).get("gender");
+    var linkedSport = linkedGender === "girls" || linkedGender === "boys" ? linkedGender : sport.sport;
+    if (linkedTeam !== null && linkedTeam.trim()) {
+        try {
+            window.localStorage.setItem(DEFAULT_PAGE_KEY, linkedSport);
+        } catch (error) {
+            console.warn("Unable to save the default page from this shared link:", error);
+        }
+    }
     if (linkedTeam !== null && linkedTeam.trim() && linkedTeam.trim() !== stored()) {
         try {
             window.localStorage.setItem(STORAGE_KEY, linkedTeam.trim());
@@ -78,24 +88,37 @@
         try { window.localStorage.setItem(KEYS_KEY, JSON.stringify(keys)); } catch (error) { /* best effort */ }
     }
 
-    function load(file) {
-        if (!files[file]) {
-            files[file] = fetch(new URL(file, root).href, { cache: "no-store" }).then(function (response) {
+    function sportRoot(selectedSport) {
+        return selectedSport && selectedSport !== sport.sport ? new URL("../" + selectedSport + "/", root) : root;
+    }
+
+    function load(file, selectedSport) {
+        var url = new URL(file, sportRoot(selectedSport)).href;
+        if (!files[url]) {
+            files[url] = fetch(url, { cache: "no-store" }).then(function (response) {
                 if (!response.ok) { throw new Error(file + " returned HTTP " + response.status); }
                 return response.json();
             });
         }
-        return files[file];
+        return files[url];
     }
 
     // Every top-four state finish of the chosen team, newest first.
-    function finishes() {
+    function finishes(selectedSport) {
         if (!myKey) { return Promise.resolve([]); }
-        return load("placements.json").then(function (placements) {
+        var teamKeys = myKeys.slice();
+        return Promise.all([load("placements.json", selectedSport), load("teams.json", selectedSport)]).then(function (loaded) {
+            var placements = loaded[0];
+            var teams = loaded[1];
+            teamKeys.slice().forEach(function (teamKey) {
+                keysFor(teams, teamKey).forEach(function (alias) {
+                    if (teamKeys.indexOf(alias) < 0) { teamKeys.push(alias); }
+                });
+            });
             var found = [];
             (placements.results || []).forEach(function (result) {
                 (result.places || []).forEach(function (school, index) {
-                    if (matches(school)) {
+                    if (teamKeys.indexOf(key(school)) >= 0) {
                         found.push({ year: result.year, grade: result.grade, className: result.className,
                             title: result.title, place: index + 1, source: result.source });
                     }
@@ -121,10 +144,10 @@
 
     // The page for a season, class and grade. The first class archived for a
     // year keeps <year>/<grade>; other classes live in <year>/<class>/<grade>.
-    function pageUrl(season, className, grade) {
+    function pageUrl(season, className, grade, selectedSport) {
         var folder = !className || className === season.className ? String(season.year) :
             season.year + "/" + className;
-        return new URL(folder + "/" + grade + "/index.html", root).href;
+        return new URL(folder + "/" + grade + "/index.html", sportRoot(selectedSport)).href;
     }
 
     // The season, class and grade of the bracket page being viewed, read from its
@@ -283,6 +306,7 @@
                     var url = new URL(shareHref);
                     url.searchParams.delete("v");
                     url.searchParams.set("team", name);
+                    url.searchParams.set("gender", sport.sport);
                     var report = function (copied) {
                         share.innerHTML = copied ? copiedIcon : shareIcon;
                         shareStatus.textContent = copied ? "Link copied" : "Copy failed";
@@ -321,40 +345,126 @@
             results.replaceChildren();
             history.replaceChildren();
             if (!name) { return; }
-            Promise.all([finishes(), load("seasons.json")]).then(function (loaded) {
-                if (token !== rendering) { return; }
-                var list = loaded[0];
-                var seasons = loaded[1];
-                history.appendChild(element("strong", "", "State finishes"));
-                if (!list.length) {
-                    history.appendChild(element("p", "my-team-empty", "No top-four state finishes on record."));
-                    return;
-                }
-                var items = element("ul");
-                list.forEach(function (finish) {
-                    var item = element("li");
-                    var season = seasons.filter(function (entry) { return entry.year === finish.year; })[0];
-                    var text = finish.year + " " + (finish.title ? finish.title :
-                        (finish.grade === "combined" ? "Combined" : finish.grade) +
-                        " \u2013 " + ORDINALS[finish.place - 1] + (finish.className ? ", Class " + finish.className : ""));
-                    if (finish.title) { text += " \u2013 " + ORDINALS[finish.place - 1]; }
-                    var classes = season ? (season.classes || [season.className]) : [];
-                    if (season && (!finish.className || classes.indexOf(finish.className) >= 0)) {
-                        var link = element("a", "", text);
-                        link.href = pageUrl(season, finish.className, finish.grade);
-                        item.appendChild(link);
-                    } else {
-                        item.textContent = text;
+            history.appendChild(element("strong", "", "State finishes"));
+            ["girls", "boys"].forEach(function (historySport) {
+                var section = element("section", "finish-" + historySport);
+                section.appendChild(element("strong", "", historySport === "girls" ? "Girls" : "Boys"));
+                history.appendChild(section);
+                Promise.all([finishes(historySport), load("seasons.json", historySport)]).then(function (loaded) {
+                    if (token !== rendering) { return; }
+                    var list = loaded[0];
+                    var seasons = loaded[1];
+                    if (!list.length) {
+                        section.appendChild(element("p", "my-team-empty", "No top-four state finishes on record."));
+                        return;
                     }
-                    item.insertBefore(document.createTextNode("\uD83C\uDFC6 "), item.firstChild);
-                    items.appendChild(item);
+                    var items = element("ul");
+                    list.forEach(function (finish) {
+                        var item = element("li");
+                        var season = seasons.filter(function (entry) { return entry.year === finish.year; })[0];
+                        var text = finish.year + " " + (finish.title ? finish.title :
+                            (finish.grade === "combined" ? "Combined" : finish.grade) +
+                            " \u2013 " + ORDINALS[finish.place - 1] + (finish.className ? ", Class " + finish.className : ""));
+                        if (finish.title) { text += " \u2013 " + ORDINALS[finish.place - 1]; }
+                        var classes = season ? (season.classes || [season.className]) : [];
+                        if (season && (!finish.className || classes.indexOf(finish.className) >= 0)) {
+                            var link = element("a", "", text);
+                            var url = new URL(pageUrl(season, finish.className, finish.grade, historySport));
+                            if (historySport !== sport.sport) {
+                                url.searchParams.set("team", name);
+                                url.searchParams.set("gender", historySport);
+                            }
+                            link.href = url.href;
+                            item.appendChild(link);
+                        } else {
+                            item.textContent = text;
+                        }
+                        item.insertBefore(document.createTextNode("\uD83C\uDFC6 "), item.firstChild);
+                        items.appendChild(item);
+                    });
+                    section.appendChild(items);
+                }).catch(function (error) {
+                    if (token !== rendering) { return; }
+                    section.appendChild(element("p", "my-team-empty", "State finishes could not be loaded."));
+                    console.warn("Unable to load " + historySport + " state finishes:", error);
                 });
-                history.appendChild(items);
-            }).catch(function (error) {
-                console.warn("Unable to load state finishes:", error);
             });
         }
         renderDialog = render;
+
+        var defaultRow = element("div", "settings-row default-page-row");
+        defaultRow.appendChild(element("span", "", "Default"));
+        var defaultChoices = element("div", "default-page-options");
+        defaultChoices.setAttribute("role", "group");
+        defaultChoices.setAttribute("aria-label", "Default");
+        var defaultStatus = element("span", "setting-status", "");
+        defaultStatus.setAttribute("role", "status");
+        var defaultStatusTimer = 0;
+        var defaultPage = "girls";
+        var defaultControls = [];
+        function showDefaultStatus(message, persistent) {
+            clearTimeout(defaultStatusTimer);
+            defaultStatus.textContent = message;
+            defaultStatus.classList.toggle("error", !!persistent);
+            defaultStatus.classList.add("visible");
+            if (!persistent) {
+                defaultStatusTimer = setTimeout(function () {
+                    defaultStatus.classList.remove("visible");
+                    defaultStatusTimer = setTimeout(function () {
+                        defaultStatus.textContent = "";
+                        defaultStatusTimer = 0;
+                    }, 250);
+                }, 1400);
+            }
+        }
+        try {
+            var savedDefaultPage = window.localStorage.getItem(DEFAULT_PAGE_KEY);
+            if (savedDefaultPage === "girls" || savedDefaultPage === "boys") { defaultPage = savedDefaultPage; }
+        } catch (error) {
+            console.warn("Unable to read the default basketball page:", error);
+            showDefaultStatus("Browser storage is unavailable; this preference cannot be saved.", true);
+        }
+        function updateDefaultControls() {
+            defaultControls.forEach(function (choice) {
+                choice.button.setAttribute("aria-pressed", String(choice.value === defaultPage));
+            });
+        }
+        function saveDefaultPage(selected) {
+            try {
+                window.localStorage.setItem(DEFAULT_PAGE_KEY, selected);
+                defaultPage = selected;
+                updateDefaultControls();
+                showDefaultStatus("Saved", false);
+            } catch (error) {
+                console.warn("Unable to save the default basketball page:", error);
+                showDefaultStatus("Could not save this preference. Check browser storage settings.", true);
+            }
+        }
+        function addDefaultChoice(value, icon, label) {
+            var button = element("button", "default-page-choice");
+            button.type = "button";
+            button.setAttribute("data-sport", value);
+            button.title = "Default to " + label;
+            button.setAttribute("aria-label", button.title);
+            button.setAttribute("aria-pressed", String(value === defaultPage));
+            button.innerHTML = icon;
+            button.firstChild.setAttribute("aria-hidden", "true");
+            button.addEventListener("click", function () { saveDefaultPage(value); });
+            defaultChoices.appendChild(button);
+            defaultControls.push({ button: button, value: value });
+            return button;
+        }
+        var girlsIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="5"/><path d="M12 14v7M9 18h6"/></svg>';
+        var boysIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9.5" cy="14.5" r="5"/><path d="M13 11 20 4M15 4h5v5"/></svg>';
+        var girlsChoice = addDefaultChoice("girls", girlsIcon, "Girls");
+        var boysChoice = addDefaultChoice("boys", boysIcon, "Boys");
+        if (defaultStatus.textContent) {
+            girlsChoice.disabled = true;
+            boysChoice.disabled = true;
+        }
+        defaultRow.appendChild(defaultChoices);
+        defaultRow.appendChild(defaultStatus);
+        dialog.appendChild(defaultRow);
         render();
 
         // The dark-mode toggle lives here rather than in the crowded header.
