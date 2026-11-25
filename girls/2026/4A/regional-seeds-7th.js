@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-24 21:09",
+  "updatedAt": "2026-11-25 05:23",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -122,10 +122,10 @@ window.iesaRegionalSeedCache = {
               "Barrington Prairie"
             ],
             "scores": [
-              null,
-              null
+              22,
+              20
             ],
-            "winner": null,
+            "winner": "Arlington Heights South",
             "bye": false
           }
         ]
@@ -1000,10 +1000,10 @@ window.iesaRegionalSeedCache = {
               "New Lenox Liberty"
             ],
             "scores": [
-              null,
-              null
+              25,
+              19
             ],
-            "winner": null,
+            "winner": "New Lenox Martino",
             "bye": false
           }
         ]
@@ -1127,10 +1127,10 @@ window.iesaRegionalSeedCache = {
               "Coal City"
             ],
             "scores": [
-              null,
-              null
+              28,
+              14
             ],
-            "winner": null,
+            "winner": "Minooka",
             "bye": false
           }
         ]
@@ -1508,10 +1508,10 @@ window.iesaRegionalSeedCache = {
               "Galesburg JHS"
             ],
             "scores": [
-              null,
-              null
+              33,
+              32
             ],
-            "winner": null,
+            "winner": "East Peoria Central",
             "bye": false
           }
         ]
@@ -1635,10 +1635,10 @@ window.iesaRegionalSeedCache = {
               "Mattoon"
             ],
             "scores": [
-              null,
-              null
+              29,
+              24
             ],
-            "winner": null,
+            "winner": "Chatham Glenwood",
             "bye": false
           }
         ]
@@ -1763,10 +1763,10 @@ window.iesaRegionalSeedCache = {
               "Springfield Lincoln (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              32,
+              24
             ],
-            "winner": null,
+            "winner": "Quincy",
             "bye": false
           }
         ]
@@ -1890,11 +1890,12 @@ window.iesaRegionalSeedCache = {
               "Edwardsville Liberty"
             ],
             "scores": [
-              null,
-              null
+              36,
+              39
             ],
-            "winner": null,
-            "bye": false
+            "winner": "Edwardsville Liberty",
+            "bye": false,
+            "annotation": "OT"
           }
         ]
       ],
@@ -2013,10 +2014,10 @@ window.iesaRegionalSeedCache = {
               "East St. Louis Clark (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              48,
+              11
             ],
-            "winner": null,
+            "winner": "Mascoutah",
             "bye": false
           }
         ]

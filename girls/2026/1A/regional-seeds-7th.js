@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-24 21:09",
+  "updatedAt": "2026-11-25 05:23",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -229,10 +229,10 @@ window.iesaRegionalSeedCache = {
               "Milford"
             ],
             "scores": [
-              null,
-              null
+              11,
+              16
             ],
-            "winner": null,
+            "winner": "Milford",
             "bye": false
           }
         ]
@@ -468,10 +468,10 @@ window.iesaRegionalSeedCache = {
               "Marseilles Milton Pope (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              28,
+              36
             ],
-            "winner": null,
+            "winner": "Marseilles Milton Pope (Co-op)",
             "bye": false
           }
         ]
@@ -722,10 +722,10 @@ window.iesaRegionalSeedCache = {
               "Kewanee Wethersfield"
             ],
             "scores": [
-              null,
-              null
+              38,
+              19
             ],
-            "winner": null,
+            "winner": "Woodhull AlWood",
             "bye": false
           }
         ]
@@ -968,10 +968,10 @@ window.iesaRegionalSeedCache = {
               "Bloomington Trinity Lutheran"
             ],
             "scores": [
-              null,
-              null
+              30,
+              42
             ],
-            "winner": null,
+            "winner": "Bloomington Trinity Lutheran",
             "bye": false
           }
         ]
@@ -1211,10 +1211,10 @@ window.iesaRegionalSeedCache = {
               "Bartonville Monroe"
             ],
             "scores": [
-              null,
-              null
+              33,
+              22
             ],
-            "winner": null,
+            "winner": "Bartonville Oak Grove",
             "bye": false
           }
         ]
@@ -1312,10 +1312,10 @@ window.iesaRegionalSeedCache = {
               "Chrisman Scottland"
             ],
             "scores": [
-              null,
-              null
+              18,
+              10
             ],
-            "winner": null,
+            "winner": "Potomac (Co-op)",
             "bye": false
           },
           {
@@ -1324,18 +1324,18 @@ window.iesaRegionalSeedCache = {
               "Royal Prairieview Ogden"
             ],
             "scores": [
-              null,
-              null
+              28,
+              16
             ],
-            "winner": null,
+            "winner": "Oakland Lake Crest (Co-op)",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Potomac (Co-op)",
+              "Oakland Lake Crest (Co-op)"
             ],
             "scores": [
               null,
@@ -1581,10 +1581,10 @@ window.iesaRegionalSeedCache = {
               "Ashland A-C Central"
             ],
             "scores": [
-              null,
-              null
+              31,
+              11
             ],
-            "winner": null,
+            "winner": "Carrollton St. John",
             "bye": false
           }
         ]
@@ -1700,10 +1700,10 @@ window.iesaRegionalSeedCache = {
               "La Harpe (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              18,
+              16
             ],
-            "winner": null,
+            "winner": "Kinderhook Western",
             "bye": false
           }
         ]

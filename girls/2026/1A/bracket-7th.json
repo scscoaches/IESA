@@ -1,8 +1,50 @@
 {
-  "updatedAt": "2026-11-24 21:10",
+  "updatedAt": "2026-11-25 05:24",
   "year": 2026,
   "grade": "7th",
   "regionals": {
+    "6": {
+      "winner": "Woodhull AlWood",
+      "loser": "Kewanee Wethersfield",
+      "score": "38-19",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    },
+    "10": {
+      "winner": "Bartonville Oak Grove",
+      "loser": "Bartonville Monroe",
+      "score": "33-22",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    },
+    "8": {
+      "winner": "Bloomington Trinity Lutheran",
+      "loser": "Lincoln West Lincoln-Broadwell",
+      "score": "42-30",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    },
+    "4": {
+      "winner": "Marseilles Milton Pope (Co-op)",
+      "loser": "Mendota Holy Cross",
+      "score": "36-28",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    },
+    "14": {
+      "winner": "Kinderhook Western",
+      "loser": "La Harpe (Co-op)",
+      "score": "18-16",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    },
+    "13": {
+      "winner": "Carrollton St. John",
+      "loser": "Ashland A-C Central",
+      "score": "31-11",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    },
+    "2": {
+      "winner": "Milford",
+      "loser": "Cissna Park (Co-op)",
+      "score": "16-11",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    },
     "1": {
       "winner": "Lockport Taft",
       "loser": "Ford Heights Cottage Grove UGC",
@@ -17,6 +59,26 @@
     }
   },
   "sectionalPairingRecords": {
+    "4": {
+      "team": "Marseilles Milton Pope (Co-op)",
+      "record": "17-2",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    },
+    "14": {
+      "team": "Kinderhook Western",
+      "record": "10-8",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    },
+    "13": {
+      "team": "Carrollton St. John",
+      "record": "13-6",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    },
+    "2": {
+      "team": "Milford",
+      "record": "10-7",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-1A"
+    },
     "1": {
       "team": "Lockport Taft",
       "record": "16-7",
@@ -38,30 +100,17 @@
       7,
       8
     ],
-    "3": [
-      4,
-      6
-    ],
     "1": [
       2,
       3
+    ],
+    "3": [
+      4,
+      6
     ]
   },
   "games": {
-    "7": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-1A"
-    },
-    "2": {
+    "6": {
       "teams": [
         null,
         null
@@ -100,7 +149,7 @@
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-1A"
     },
-    "5": {
+    "2": {
       "teams": [
         null,
         null
@@ -126,7 +175,7 @@
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-1A"
     },
-    "6": {
+    "7": {
       "teams": [
         null,
         null
@@ -140,6 +189,19 @@
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-1A"
     },
     "3": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-1A"
+    },
+    "5": {
       "teams": [
         null,
         null

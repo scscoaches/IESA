@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-24 21:09",
+  "updatedAt": "2026-11-25 05:23",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -106,10 +106,10 @@ window.iesaRegionalSeedCache = {
               "Riverdale Washington"
             ],
             "scores": [
-              null,
-              null
+              34,
+              24
             ],
-            "winner": null,
+            "winner": "Lockport Kelvin Grove",
             "bye": false
           }
         ]
@@ -229,10 +229,10 @@ window.iesaRegionalSeedCache = {
               "Seneca"
             ],
             "scores": [
-              null,
-              null
+              40,
+              12
             ],
-            "winner": null,
+            "winner": "Joliet Laraway",
             "bye": false
           }
         ]
@@ -480,10 +480,10 @@ window.iesaRegionalSeedCache = {
               "Princeville"
             ],
             "scores": [
-              null,
-              null
+              16,
+              12
             ],
-            "winner": null,
+            "winner": "Manlius Bureau Valley JHS",
             "bye": false
           }
         ]
@@ -604,10 +604,10 @@ window.iesaRegionalSeedCache = {
               "Oakwood GS"
             ],
             "scores": [
-              null,
-              null
+              29,
+              15
             ],
-            "winner": null,
+            "winner": "Champaign St. Matthew",
             "bye": false
           }
         ]
@@ -858,10 +858,10 @@ window.iesaRegionalSeedCache = {
               "Marquette Heights Georgetowne"
             ],
             "scores": [
-              null,
-              null
+              36,
+              10
             ],
-            "winner": null,
+            "winner": "Peoria St. Philomena",
             "bye": false
           }
         ]
@@ -1231,10 +1231,10 @@ window.iesaRegionalSeedCache = {
               "Carthage"
             ],
             "scores": [
-              null,
-              null
+              34,
+              21
             ],
-            "winner": null,
+            "winner": "Mt. Sterling Brown County (Co-op)",
             "bye": false
           }
         ]
@@ -1481,10 +1481,10 @@ window.iesaRegionalSeedCache = {
               "Assumption Central A & M"
             ],
             "scores": [
-              null,
-              null
+              36,
+              29
             ],
-            "winner": null,
+            "winner": "Macon Meridian",
             "bye": false
           }
         ]
@@ -1608,10 +1608,10 @@ window.iesaRegionalSeedCache = {
               "Paris Crestwood"
             ],
             "scores": [
-              null,
-              null
+              25,
+              27
             ],
-            "winner": null,
+            "winner": "Paris Crestwood",
             "bye": false
           }
         ]
@@ -1731,10 +1731,10 @@ window.iesaRegionalSeedCache = {
               "Stewardson-Strasburg (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              32,
+              22
             ],
-            "winner": null,
+            "winner": "Brownstown (Co-op)",
             "bye": false
           }
         ]
@@ -1828,10 +1828,10 @@ window.iesaRegionalSeedCache = {
               "Springfield Christ the King"
             ],
             "scores": [
-              null,
-              null
+              7,
+              18
             ],
-            "winner": null,
+            "winner": "Springfield Christ the King",
             "bye": false
           },
           {
@@ -1840,18 +1840,18 @@ window.iesaRegionalSeedCache = {
               "Springfield Blessed Sacrament"
             ],
             "scores": [
-              null,
-              null
+              16,
+              20
             ],
-            "winner": null,
+            "winner": "Springfield Blessed Sacrament",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Springfield Christ the King",
+              "Springfield Blessed Sacrament"
             ],
             "scores": [
               null,

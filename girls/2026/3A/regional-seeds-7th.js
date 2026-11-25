@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-24 21:09",
+  "updatedAt": "2026-11-25 05:23",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -203,10 +203,10 @@ window.iesaRegionalSeedCache = {
               "South Holland McKinley"
             ],
             "scores": [
-              null,
-              null
+              33,
+              14
             ],
-            "winner": null,
+            "winner": "Manteno",
             "bye": false
           },
           {
@@ -215,18 +215,18 @@ window.iesaRegionalSeedCache = {
               "Beecher"
             ],
             "scores": [
-              null,
-              null
+              24,
+              23
             ],
-            "winner": null,
+            "winner": "Lansing Heritage",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Manteno",
+              "Lansing Heritage"
             ],
             "scores": [
               null,
@@ -461,10 +461,10 @@ window.iesaRegionalSeedCache = {
               "Crest Hill Richland"
             ],
             "scores": [
-              null,
-              null
+              16,
+              13
             ],
-            "winner": null,
+            "winner": "Sandwich",
             "bye": false
           },
           {
@@ -473,18 +473,18 @@ window.iesaRegionalSeedCache = {
               "Lisle"
             ],
             "scores": [
-              null,
-              null
+              21,
+              11
             ],
-            "winner": null,
+            "winner": "Channahon",
             "bye": false
           }
         ],
         [
           {
             "teams": [
-              null,
-              null
+              "Sandwich",
+              "Channahon"
             ],
             "scores": [
               null,
@@ -614,10 +614,10 @@ window.iesaRegionalSeedCache = {
               "Taylor Ridge Rockridge"
             ],
             "scores": [
-              null,
-              null
+              24,
+              23
             ],
-            "winner": null,
+            "winner": "Orion",
             "bye": false
           }
         ]
@@ -737,10 +737,10 @@ window.iesaRegionalSeedCache = {
               "Monmouth United"
             ],
             "scores": [
-              null,
-              null
+              39,
+              24
             ],
-            "winner": null,
+            "winner": "Chillicothe (Co-op)",
             "bye": false
           }
         ]
@@ -864,10 +864,10 @@ window.iesaRegionalSeedCache = {
               "Pontiac JHS"
             ],
             "scores": [
-              null,
-              null
+              41,
+              10
             ],
-            "winner": null,
+            "winner": "El Paso-Gridley",
             "bye": false
           }
         ]
@@ -1118,10 +1118,10 @@ window.iesaRegionalSeedCache = {
               "St. Joseph"
             ],
             "scores": [
-              null,
-              null
+              45,
+              22
             ],
-            "winner": null,
+            "winner": "Tolono Unity",
             "bye": false
           }
         ]
@@ -1245,10 +1245,10 @@ window.iesaRegionalSeedCache = {
               "Stanford Olympia"
             ],
             "scores": [
-              null,
-              null
+              22,
+              18
             ],
-            "winner": null,
+            "winner": "Maroa-Forsyth",
             "bye": false
           }
         ]
@@ -1749,10 +1749,10 @@ window.iesaRegionalSeedCache = {
               "Robinson Nuttall"
             ],
             "scores": [
-              null,
-              null
+              21,
+              26
             ],
-            "winner": null,
+            "winner": "Robinson Nuttall",
             "bye": false
           }
         ]
@@ -1872,10 +1872,10 @@ window.iesaRegionalSeedCache = {
               "Hillsboro"
             ],
             "scores": [
-              null,
-              null
+              15,
+              20
             ],
-            "winner": null,
+            "winner": "Hillsboro",
             "bye": false
           }
         ]
@@ -1999,10 +1999,10 @@ window.iesaRegionalSeedCache = {
               "Piasa Southwestern"
             ],
             "scores": [
-              null,
-              null
+              29,
+              14
             ],
-            "winner": null,
+            "winner": "East St. Louis Lincoln",
             "bye": false
           }
         ]
