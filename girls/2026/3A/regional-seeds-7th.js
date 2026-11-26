@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-26 12:13",
+  "updatedAt": "2026-11-26 20:08",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -991,10 +991,10 @@ window.iesaRegionalSeedCache = {
               "Metamora GS (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              34,
+              36
             ],
-            "winner": null,
+            "winner": "Metamora GS (Co-op)",
             "bye": false
           }
         ]

@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-26 12:13",
+  "updatedAt": "2026-11-26 20:08",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -1981,10 +1981,10 @@ window.iesaRegionalSeedCache = {
               "Greenfield (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              39,
+              38
             ],
-            "winner": null,
+            "winner": "Hardin Calhoun (Co-op)",
             "bye": false
           }
         ]
