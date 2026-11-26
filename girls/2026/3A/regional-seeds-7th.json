@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 20:32",
+  "updatedAt": "2026-11-26 04:51",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -229,10 +229,10 @@
               "Lansing Heritage"
             ],
             "scores": [
-              null,
-              null
+              42,
+              19
             ],
-            "winner": null,
+            "winner": "Manteno",
             "bye": false
           }
         ]
@@ -487,10 +487,10 @@
               "Channahon"
             ],
             "scores": [
-              null,
-              null
+              6,
+              25
             ],
-            "winner": null,
+            "winner": "Channahon",
             "bye": false
           }
         ]
@@ -1372,10 +1372,10 @@
               "Rochester"
             ],
             "scores": [
-              null,
-              null
+              40,
+              15
             ],
-            "winner": null,
+            "winner": "Williamsville",
             "bye": false
           }
         ]
@@ -1499,10 +1499,10 @@
               "Quincy St. Peter (Co-op)"
             ],
             "scores": [
-              null,
-              null
+              24,
+              37
             ],
-            "winner": null,
+            "winner": "Quincy St. Peter (Co-op)",
             "bye": false
           }
         ]
@@ -1622,10 +1622,10 @@
               "Sidell Salt Fork"
             ],
             "scores": [
-              null,
-              null
+              31,
+              10
             ],
-            "winner": null,
+            "winner": "Tuscola East Prairie",
             "bye": false
           }
         ]

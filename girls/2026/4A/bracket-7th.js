@@ -1,18 +1,18 @@
 window.iesaBracketCache = {
-  "updatedAt": "2026-11-25 20:33",
+  "updatedAt": "2026-11-26 04:52",
   "year": 2026,
   "grade": "7th",
   "regionals": {
-    "13": {
-      "winner": "Chatham Glenwood",
-      "loser": "Mattoon",
-      "score": "29-24",
+    "4": {
+      "winner": "Downers Grove O'Neill",
+      "loser": "Downers Grove Herrick",
+      "score": "31-22",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
-    "9": {
-      "winner": "Minooka",
-      "loser": "Coal City",
-      "score": "28-14",
+    "11": {
+      "winner": "Normal Kingsley",
+      "loser": "Washington Central",
+      "score": "26-21",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
     "12": {
@@ -21,10 +21,34 @@ window.iesaBracketCache = {
       "score": "33-32",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
+    "16": {
+      "winner": "Mascoutah",
+      "loser": "East St. Louis Clark (Co-op)",
+      "score": "48-11",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
+    },
+    "9": {
+      "winner": "Minooka",
+      "loser": "Coal City",
+      "score": "28-14",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
+    },
     "14": {
       "winner": "Quincy",
       "loser": "Springfield Lincoln (Co-op)",
       "score": "32-24",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
+    },
+    "13": {
+      "winner": "Chatham Glenwood",
+      "loser": "Mattoon",
+      "score": "29-24",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
+    },
+    "15": {
+      "winner": "Edwardsville Liberty",
+      "loser": "Edwardsville Lincoln",
+      "score": "39-36",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
     "3": {
@@ -39,34 +63,10 @@ window.iesaBracketCache = {
       "score": "14-13",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
-    "8": {
-      "winner": "New Lenox Martino",
-      "loser": "New Lenox Liberty",
-      "score": "25-19",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
-    },
-    "11": {
-      "winner": "Normal Kingsley",
-      "loser": "Washington Central",
-      "score": "26-21",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
-    },
-    "4": {
-      "winner": "Downers Grove O'Neill",
-      "loser": "Downers Grove Herrick",
-      "score": "31-22",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
-    },
-    "15": {
-      "winner": "Edwardsville Liberty",
-      "loser": "Edwardsville Lincoln",
-      "score": "39-36",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
-    },
-    "7": {
-      "winner": "Bolingbrook Jane Addams",
-      "loser": "Shorewood Troy",
-      "score": "35-9",
+    "1": {
+      "winner": "Arlington Heights South",
+      "loser": "Barrington Prairie",
+      "score": "22-20",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
     "5": {
@@ -75,29 +75,44 @@ window.iesaBracketCache = {
       "score": "33-29",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
+    "7": {
+      "winner": "Bolingbrook Jane Addams",
+      "loser": "Shorewood Troy",
+      "score": "35-9",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
+    },
     "10": {
       "winner": "Mahomet-Seymour",
       "loser": "Danville North Ridge",
       "score": "50-25",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
-    "16": {
-      "winner": "Mascoutah",
-      "loser": "East St. Louis Clark (Co-op)",
-      "score": "48-11",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
-    },
-    "1": {
-      "winner": "Arlington Heights South",
-      "loser": "Barrington Prairie",
-      "score": "22-20",
+    "8": {
+      "winner": "New Lenox Martino",
+      "loser": "New Lenox Liberty",
+      "score": "25-19",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     }
   },
   "sectionalPairingRecords": {
-    "13": {
-      "team": "Chatham Glenwood",
-      "record": "14-7",
+    "4": {
+      "team": "Downers Grove O'Neill",
+      "record": "12-0",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
+    },
+    "11": {
+      "team": "Normal Kingsley",
+      "record": "24-1",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
+    },
+    "12": {
+      "team": "East Peoria Central",
+      "record": "13-3",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
+    },
+    "16": {
+      "team": "Mascoutah",
+      "record": "14-0",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
     "9": {
@@ -105,9 +120,14 @@ window.iesaBracketCache = {
       "record": "17-3",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
-    "12": {
-      "team": "East Peoria Central",
-      "record": "13-3",
+    "13": {
+      "team": "Chatham Glenwood",
+      "record": "14-7",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
+    },
+    "15": {
+      "team": "Edwardsville Liberty",
+      "record": "19-2",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
     "3": {
@@ -120,24 +140,9 @@ window.iesaBracketCache = {
       "record": "13-1",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
-    "15": {
-      "team": "Edwardsville Liberty",
-      "record": "19-2",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
-    },
-    "11": {
-      "team": "Normal Kingsley",
-      "record": "24-1",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
-    },
-    "4": {
-      "team": "Downers Grove O'Neill",
-      "record": "12-0",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
-    },
-    "7": {
-      "team": "Bolingbrook Jane Addams",
-      "record": "15-0",
+    "1": {
+      "team": "Arlington Heights South",
+      "record": "10-3",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
     "5": {
@@ -145,27 +150,22 @@ window.iesaBracketCache = {
       "record": "16-1",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     },
+    "7": {
+      "team": "Bolingbrook Jane Addams",
+      "record": "15-0",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
+    },
     "10": {
       "team": "Mahomet-Seymour",
       "record": "21-3",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
-    },
-    "16": {
-      "team": "Mascoutah",
-      "record": "14-0",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
-    },
-    "1": {
-      "team": "Arlington Heights South",
-      "record": "10-3",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-4A"
     }
   },
   "sectionals": {},
   "quarterfinalMatchups": {
-    "2": [
-      7,
-      1
+    "4": [
+      3,
+      5
     ],
     "1": [
       6,
@@ -175,13 +175,52 @@ window.iesaBracketCache = {
       8,
       4
     ],
-    "4": [
-      3,
-      5
+    "2": [
+      7,
+      1
     ]
   },
   "games": {
-    "7": {
+    "4": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
+    },
+    "5": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
+    },
+    "3": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
+    },
+    "1": {
       "teams": [
         null,
         null
@@ -207,7 +246,7 @@ window.iesaBracketCache = {
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
     },
-    "1": {
+    "8": {
       "teams": [
         null,
         null
@@ -220,7 +259,7 @@ window.iesaBracketCache = {
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
     },
-    "3": {
+    "7": {
       "teams": [
         null,
         null
@@ -234,45 +273,6 @@ window.iesaBracketCache = {
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
     },
     "6": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
-    },
-    "5": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
-    },
-    "8": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-4A"
-    },
-    "4": {
       "teams": [
         null,
         null

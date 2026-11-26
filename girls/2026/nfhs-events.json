@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 20:32",
+  "updatedAt": "2026-11-26 04:51",
   "schools": {
     "altamont-high-school-altamont-il": [],
     "arcola-high-school-arcola-il": [
@@ -417,12 +417,6 @@
       }
     ],
     "illini-bluffs-high-school-glasford-il": [
-      {
-        "key": "gam260e886ba9",
-        "url": "https://www.nfhsnetwork.com/events/illini-bluffs-high-school-glasford-il/gam260e886ba9",
-        "label": "Away vs. Illini Bluffs",
-        "start": "2026-10-20T22:00:00.000Z"
-      },
       {
         "key": "gam0f458e92b1",
         "url": "https://www.nfhsnetwork.com/events/illini-bluffs-high-school-glasford-il/gam0f458e92b1",
