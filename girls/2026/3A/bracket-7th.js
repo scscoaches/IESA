@@ -1,12 +1,84 @@
 window.iesaBracketCache = {
-  "updatedAt": "2026-11-26 20:09",
+  "updatedAt": "2026-11-27 04:56",
   "year": 2026,
   "grade": "7th",
   "regionals": {
+    "4": {
+      "winner": "Channahon",
+      "loser": "Sandwich",
+      "score": "25-6",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "13": {
+      "winner": "Tuscola East Prairie",
+      "loser": "Sidell Salt Fork",
+      "score": "31-10",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "10": {
+      "winner": "Maroa-Forsyth",
+      "loser": "Stanford Olympia",
+      "score": "22-18",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "8": {
+      "winner": "Metamora GS (Co-op)",
+      "loser": "Germantown Hills",
+      "score": "36-34",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "2": {
+      "winner": "Manteno",
+      "loser": "Lansing Heritage",
+      "score": "42-19",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "15": {
+      "winner": "Hillsboro",
+      "loser": "Auburn JHS at Divernon",
+      "score": "20-15",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "5": {
+      "winner": "Orion",
+      "loser": "Taylor Ridge Rockridge",
+      "score": "24-23",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "7": {
+      "winner": "El Paso-Gridley",
+      "loser": "Pontiac JHS",
+      "score": "41-10",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "16": {
+      "winner": "East St. Louis Lincoln",
+      "loser": "Piasa Southwestern",
+      "score": "29-14",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "12": {
+      "winner": "Quincy St. Peter (Co-op)",
+      "loser": "Pleasant Plains",
+      "score": "37-24",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "9": {
+      "winner": "Tolono Unity",
+      "loser": "St. Joseph",
+      "score": "45-22",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
     "14": {
       "winner": "Robinson Nuttall",
       "loser": "Teutopolis",
       "score": "26-21",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "6": {
+      "winner": "Chillicothe (Co-op)",
+      "loser": "Monmouth United",
+      "score": "39-24",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
     },
     "11": {
@@ -21,78 +93,6 @@ window.iesaBracketCache = {
       "score": "29-23",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
     },
-    "4": {
-      "winner": "Channahon",
-      "loser": "Sandwich",
-      "score": "25-6",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "13": {
-      "winner": "Tuscola East Prairie",
-      "loser": "Sidell Salt Fork",
-      "score": "31-10",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "12": {
-      "winner": "Quincy St. Peter (Co-op)",
-      "loser": "Pleasant Plains",
-      "score": "37-24",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "6": {
-      "winner": "Chillicothe (Co-op)",
-      "loser": "Monmouth United",
-      "score": "39-24",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "2": {
-      "winner": "Manteno",
-      "loser": "Lansing Heritage",
-      "score": "42-19",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "10": {
-      "winner": "Maroa-Forsyth",
-      "loser": "Stanford Olympia",
-      "score": "22-18",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "7": {
-      "winner": "El Paso-Gridley",
-      "loser": "Pontiac JHS",
-      "score": "41-10",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "8": {
-      "winner": "Metamora GS (Co-op)",
-      "loser": "Germantown Hills",
-      "score": "36-34",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "9": {
-      "winner": "Tolono Unity",
-      "loser": "St. Joseph",
-      "score": "45-22",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "16": {
-      "winner": "East St. Louis Lincoln",
-      "loser": "Piasa Southwestern",
-      "score": "29-14",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "5": {
-      "winner": "Orion",
-      "loser": "Taylor Ridge Rockridge",
-      "score": "24-23",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "15": {
-      "winner": "Hillsboro",
-      "loser": "Auburn JHS at Divernon",
-      "score": "20-15",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
     "1": {
       "winner": "Calumet Park Calumet",
       "loser": "Calumet City Schrum",
@@ -101,21 +101,6 @@ window.iesaBracketCache = {
     }
   },
   "sectionalPairingRecords": {
-    "14": {
-      "team": "Robinson Nuttall",
-      "record": "21-1",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "11": {
-      "team": "Williamsville",
-      "record": "18-3",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "3": {
-      "team": "Crestwood Hale",
-      "record": "13-2",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
     "4": {
       "team": "Channahon",
       "record": "16-5",
@@ -124,16 +109,6 @@ window.iesaBracketCache = {
     "13": {
       "team": "Tuscola East Prairie",
       "record": "19-4",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "12": {
-      "team": "Quincy St. Peter (Co-op)",
-      "record": "18-2",
-      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
-    },
-    "2": {
-      "team": "Manteno",
-      "record": "18-4",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
     },
     "10": {
@@ -146,9 +121,19 @@ window.iesaBracketCache = {
       "record": "18-6",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
     },
-    "9": {
-      "team": "Tolono Unity",
-      "record": "21-3",
+    "2": {
+      "team": "Manteno",
+      "record": "18-4",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "15": {
+      "team": "Hillsboro",
+      "record": "17-6",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "14": {
+      "team": "Robinson Nuttall",
+      "record": "21-1",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
     },
     "16": {
@@ -156,9 +141,24 @@ window.iesaBracketCache = {
       "record": "17-3",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
     },
-    "15": {
-      "team": "Hillsboro",
-      "record": "17-6",
+    "12": {
+      "team": "Quincy St. Peter (Co-op)",
+      "record": "18-2",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "9": {
+      "team": "Tolono Unity",
+      "record": "21-3",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "11": {
+      "team": "Williamsville",
+      "record": "18-3",
+      "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
+    },
+    "3": {
+      "team": "Crestwood Hale",
+      "record": "13-2",
       "sourceUrl": "https://www.iesa.org/activities/gbk/qualifiers_Sectional.asp?Year=2026&Class=7-3A"
     },
     "1": {
@@ -177,13 +177,13 @@ window.iesaBracketCache = {
       8,
       3
     ],
-    "3": [
-      6,
-      2
-    ],
     "1": [
       4,
       5
+    ],
+    "3": [
+      6,
+      2
     ]
   },
   "games": {
@@ -213,33 +213,7 @@ window.iesaBracketCache = {
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-3A"
     },
-    "4": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-3A"
-    },
     "3": {
-      "teams": [
-        null,
-        null
-      ],
-      "scores": [
-        null,
-        null
-      ],
-      "winner": null,
-      "loser": null,
-      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-3A"
-    },
-    "8": {
       "teams": [
         null,
         null
@@ -265,7 +239,7 @@ window.iesaBracketCache = {
       "loser": null,
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-3A"
     },
-    "6": {
+    "8": {
       "teams": [
         null,
         null
@@ -279,6 +253,32 @@ window.iesaBracketCache = {
       "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-3A"
     },
     "1": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-3A"
+    },
+    "6": {
+      "teams": [
+        null,
+        null
+      ],
+      "scores": [
+        null,
+        null
+      ],
+      "winner": null,
+      "loser": null,
+      "sourceUrl": "https://www.iesa.org/activities/gbk/scoreboards/index.asp?Year=2026&Class=7-3A"
+    },
+    "4": {
       "teams": [
         null,
         null
