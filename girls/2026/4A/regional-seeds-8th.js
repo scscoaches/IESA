@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-28 04:39",
+  "updatedAt": "2026-11-28 11:38",
   "year": 2026,
   "grade": "8th",
   "regionalBrackets": {
