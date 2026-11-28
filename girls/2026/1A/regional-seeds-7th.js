@@ -1,5 +1,5 @@
 window.iesaRegionalSeedCache = {
-  "updatedAt": "2026-11-27 19:56",
+  "updatedAt": "2026-11-28 04:39",
   "year": 2026,
   "grade": "7th",
   "regionalBrackets": {
@@ -595,10 +595,10 @@ window.iesaRegionalSeedCache = {
               "LaSalle St. Acutis"
             ],
             "scores": [
-              null,
-              null
+              28,
+              20
             ],
-            "winner": null,
+            "winner": "Utica Waltham",
             "bye": false
           }
         ]
